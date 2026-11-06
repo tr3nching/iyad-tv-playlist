@@ -2,19 +2,20 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>TV playlist</title>
+<title>PH TV playlist</title>
 <style>body{font:18px/1.6 system-ui;max-width:680px;margin:60px auto;padding:0 24px;background:#101827;color:#edf2ff}a{color:#91bdff}input{box-sizing:border-box;width:100%;padding:12px;font:inherit}small{color:#b9c3d5}</style>
-<h1>TV playlist</h1>
-<p>In TiviMate, choose <b>Add playlist → M3U playlist → Enter URL</b> and enter:</p>
+<h1>PH TV playlist</h1>
+<p>In TiviMate, choose <b>Add playlist â†’ M3U playlist â†’ Enter URL</b> and enter:</p>
 <input id="url" readonly aria-label="Playlist URL">
+<p><a href="playlist-combined.m3u">Primary + backup playlist</a> · <a href="playlist-backup.m3u">Backup playlist</a></p>
 <p><a href="playlist-drm.m3u">DRM-capable playlist</a> for a player supporting ClearKey/KODIPROP (such as OTT Navigator).</p>
 <p><a href="playlist-drm.otc.json">OTT Navigator native playlist</a></p>
-<p><a href="playlist.m3u">Basic playlist</a> · <a href="status.json">Stream age</a> · <a href="refresh-status.json">Refresh status</a></p>
-<p><a href="epg.xml">Program guide (XMLTV)</a> · <a href="epg-status.json">Guide coverage and timing checks</a></p>
-<p id="status">Checking the latest refresh…</p>
-<small>Refreshes are scheduled every 30 minutes. Playback is not guaranteed: some sources expire or require the original player or DRM. This playlist does not include a program guide.</small>
+<p><a href="playlist.m3u">Basic playlist</a> Â· <a href="status.json">Stream age</a> Â· <a href="refresh-status.json">Refresh status</a></p>
+<p><a href="epg.xml">Program guide (included automatically)</a> Â· <a href="epg-status.json">Guide coverage and timing checks</a></p>
+<p id="status">Checking the latest refreshâ€¦</p>
+<small>Refreshes are scheduled every 30 minutes. Playback is not guaranteed: some sources expire or require the original player or DRM. A combined program guide is included.</small>
 <script>
-document.getElementById('url').value = new URL('playlist.m3u', location.href).href;
+document.getElementById('url').value = new URL('playlist-combined.m3u', location.href).href;
 fetch('status.json', {cache:'no-store'}).then(r => {if(!r.ok) throw Error(); return r.json()}).then(s => {
  document.getElementById('status').textContent = `${s.channelCount} channels. Last refreshed ${new Date(s.updatedAt).toLocaleString()}.` + (s.refreshMode === 'snapshot' ? ' Initial saved snapshot: automatic updates are waiting for the source to recover.' : '');
 }).catch(() => document.getElementById('status').textContent = 'No successful refresh is available yet.');

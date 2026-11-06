@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://tr3nching.github.io/iyad-tv-playlist/epg.xml"
+#EXTM3U x-tvg-url="https://tr3nching.github.io/ph-tv-playlist/epg.xml"
 #EXTINF:-1 tvg-id="3RSTV" tvg-name="3RSTV" tvg-logo="https://iyadtv.pages.dev/images/3rstv.svg",3RSTV
 https://live20.bozztv.com/giatvplayout7/giatv-210631/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="A2Z" tvg-name="A2Z" tvg-logo="https://iyadtv.pages.dev/images/a2z_4.png",A2Z

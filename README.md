@@ -1,58 +1,52 @@
-# Automatically refreshed TV playlist
+# PH TV playlist
 
-Playlist URL: **https://tr3nching.github.io/iyad-tv-playlist/playlist.m3u**
+One repository with one M3U builder (`scripts/refresh.mjs`) and one EPG builder (`scripts/update_epg.py`). The source feed definitions and channel identities from `tr3nching/ph-epg` are consolidated in `epg-config.json`. Guide generation reads the local channel catalog directly and does not depend on the old generated guide or a remote M3U.
 
-DRM-capable playlist: **https://tr3nching.github.io/iyad-tv-playlist/playlist-drm.m3u**
+## Add to your TV
 
-OTT Navigator native format: **https://tr3nching.github.io/iyad-tv-playlist/playlist-drm.otc.json**
+Combined primary + backup playlist: **https://tr3nching.github.io/ph-tv-playlist/playlist-combined.m3u**
 
-Program guide: **https://tr3nching.github.io/iyad-tv-playlist/epg.xml** (also available as `epg.xml.gz`). Both playlist formats reference the guide automatically. Set the player's guide time offset to **0**; timestamps are UTC and the player displays local time.
+Primary DRM playlist: https://tr3nching.github.io/ph-tv-playlist/playlist-drm.m3u
 
-The separate DRM playlist includes ClearKey settings supplied by the source's normal player, in KODIPROP format. Use a player supporting that format, such as OTT Navigator. These settings are publicly hosted together with the stream URLs. The basic playlist omits them. A successful desktop decode does not guarantee Google TV app compatibility.
+Backup playlist: https://tr3nching.github.io/ph-tv-playlist/playlist-backup.m3u
 
-In TiviMate on Google TV, choose **Add playlist → M3U playlist → Enter URL** and paste the URL above. Enable playlist updates on app startup, and periodic updates if available. This displays channels inside TiviMate; it does not add them to Google TV Freeplay.
+Basic primary playlist: https://tr3nching.github.io/ph-tv-playlist/playlist.m3u
 
-## Playback and guide verification
+OTT Navigator native primary playlist: https://tr3nching.github.io/ph-tv-playlist/playlist-drm.otc.json
 
-The initial clear-stream check decoded video on 137 channels. A separate fresh ClearKey test decoded 19 of 88 configured DASH channels, including NBA TV. NBA TV Philippines still returned HTTP 403 for media fragments even with fresh settings and the source player's no-referrer behavior. Supplying DRM settings cannot fix source access failures, and the new playlist does not imply every channel works. Results are short desktop samples, not a Google TV hardware test.
+EPG: **https://tr3nching.github.io/ph-tv-playlist/epg.xml.gz** (uncompressed `epg.xml` also available).
 
-The combined guide snapshot covers **154 of 246 channels**, with **14,371 listings and zero overlaps**. It retains 37 explicit PH2 mappings and adds 117 schedules from [ph-epg](https://github.com/tr3nching/ph-epg), fetched automatically from https://tr3nching.github.io/ph-epg/epg.xml.gz on every refresh. Both repositories remain intact: ph-epg produces its multi-source guide; this project combines usable listings with the existing PH mappings and publishes one guide under the original URL. Counts change as source listings expire or update.
+All playlists include the EPG URL automatically. Compatible TV apps can import both from the playlist; some require enabling automatic EPG refresh once. Set the guide offset to **0**. Combined playlists label alternate entries `[Backup]` in a Backup group; selecting another stream is manual, not automatic failover. Channels exclusive to the backup source may lack a guide.
 
-Imported schedules use exact playlist channel IDs, not additional fuzzy matching. The merger excludes stale-only schedules, station-name placeholders, invalid durations and channels with overlapping listings. It also holds known upstream identity mismatches: generic NBA TV mapped to NBA TV Philippines, domestic GMA mapped to GMA Pinoy TV, TV5 mapped to French-language TV5, Tap Action Flix mapped to Tap Movies, TAP Edge mapped to TAP Sports, Discovery Asia mapped to Discovery Channel, and the separate Tagalized DreamWorks feed. Polish CBeebies and UK iON TV are held for regional review. These holds affect imported fallback listings; explicit correct PH2 mappings remain eligible. Imported regional schedules are **not independently broadcaster-confirmed**; zero overlaps does not establish regional or broadcast accuracy. Check `epg-status.json` and `mapping.json` for source selection and held identities. Player offset remains **0**.
+The repository was renamed from its original name. GitHub repository links redirect, but old GitHub Pages playlist links must be replaced with the new URLs above. Operational source API addresses, logo URLs and required playback headers remain so source access keeps working.
 
-`PH1.xml.gz`, `PH2.xml.gz` and the ph-epg guide are checked on each guide update. The checked PH1 download has 134 channel definitions and **zero programme entries**. PH2 has 111 definitions and 5,960 programme entries. The updater prefers explicit PH2 mappings, then usable ph-epg schedules, then PH1 when its real programmes return and its cross-feed timing checks pass. Each source can fail independently; the workflow retains the previous published guide if no adequate replacement can be built. It does not mix schedules within a channel or silently shift times. Source counts and eligibility are published in `epg-status.json`.
+## Guide coverage
 
-`ALL_SOURCES1.txt` was used as a bounded discovery index. The separate ph-epg project now supplies additional multi-source schedules. This merger downloads its compact resulting guide, rather than the roughly 200 MB combined source XML. `INDEX-LOOKUP.md` and `ph2-coverage-breakdown.json` describe the earlier PH-only investigation.
+The checked consolidated snapshot has **186 channel matches including unusable listings**, and **170 channels with usable current schedules**, with zero overlapping listings. Counts vary as feeds update. These are different measurements: the earlier 185 count included stale schedules and placeholder entries. `epg-status.json`, `mapping.json`, `mapping.csv` and `report.txt` show current coverage, selected source identities and unsuccessful attempts.
 
-The latest independent recheck matched 47 NHK and 39 Arirang World titles/times; an NBA TV Philippines game time was also cross-checked. A mirror with an eight-hour timestamp error was rejected. These representative checks establish the chosen feed's time interpretation for those examples, not universal broadcaster or stream-picture synchronization. See the published `VERIFICATION.md`, `independent-alignment.json`, `mapping.csv`, and `epg-status.json` for sources, coverage and limitations.
+The single builder tries explicit per-source identities, then unique exact names. It preserves regional words and tries later sources if an earlier source has stale, placeholder, invalid or overlapping data. Strict mappings correct mismatches such as US NBA TV versus NBA TV Philippines, GMA versus GMA Pinoy TV, Philippine TV5 versus French-language TV5, Tap Action Flix versus Tap Movies, and TAP Edge versus TAP Sports. Exact timestamp offsets are normalized to UTC without shifting the broadcast instant. One source is selected per channel. Placeholder-only and stale-only schedules do not count as usable current guides.
 
-## Updates
+Configuration preserves all imported source definitions; `activeSources` selects 25 relevant feeds for each build. Downloads and expanded XML sizes are bounded. Source failures are isolated, and an inadequate build leaves the previous published guide intact. Regional matches and every broadcast are not independently confirmed; zero overlaps does not prove stream-picture synchronization. Historical NHK, Arirang and NBA Philippines representative checks are retained in `independent-alignment.json` and `VERIFICATION.md`.
 
-GitHub Actions retrieves the enabled channel catalog and resolves each channel's primary source using the same public endpoints as https://iyad.click. It requests the site's normal playback tokens where required, then publishes basic and DRM-capable M3U files through GitHub Pages. No video is hosted or relayed. The DRM variant preserves the source-supplied ClearKey settings; it does not obtain missing keys or licenses. Alternate sources are not included.
+## Stream sources and updates
 
-The schedule runs every 30 minutes at minutes 17 and 47 (UTC). GitHub may delay scheduled jobs. The source's tokens can expire before the next update; this interval is provisional, not a guarantee of uninterrupted playback. Some channels require DRM, browser headers, or the original player and will not play in TiviMate. Successful URL extraction does not verify video playback.
+The M3U builder resolves the primary provider's public player API and extracts the backup site's public literal player configuration at https://3rstvportal.blogspot.com/. It never executes that page's scripts. Unsupported embeds and malformed ClearKey settings are excluded. Backup extraction runs independently before primary-source retrieval, so a primary outage does not prevent the backup playlist updating. `backup-status.json` describes the extraction, not proof of playback or source independence.
 
-If the live catalog fails, the updater uses saved channel names from `catalog.json` and still requests fresh playback URLs. New or removed channels will only be picked up when the live catalog works again. If playback requests fail or fewer than 90% of enabled channels resolve, it retains previously published stream files (or the checked-in snapshot). Those links may expire. The EPG updater runs independently using its own public source, so stream-source errors do not stop guide updates. Check `refresh-status.json` for the outcome of each attempt, `status.json` for the age of stream links, and `epg-status.json` for guide freshness and coverage. A green Pages deployment alone does not prove a successful stream refresh.
+Primary DRM settings are the public source-supplied ClearKey metadata. Use a player that supports KODIPROP/ClearKey or the OTT Navigator native format. Stream URLs and these settings are publicly hosted. No video is hosted or relayed. URLs can expire; source access, headers and app support affect playback. The backup website may use some of the same underlying servers as the primary provider.
 
-GitHub disables scheduled workflows in public repositories after 60 days without repository activity. If that happens, re-enable the workflow in Actions. The workflow can also be run manually through **Actions → Refresh and publish playlist → Run workflow**.
+GitHub Actions runs every 30 minutes. It restores prior assets, runs the M3U builder and EPG builder independently, then publishes their outputs. `status.json` records primary stream age, `backup-status.json` records backup extraction age, `refresh-status.json` records attempted refresh outcomes, and `epg-status.json` records guide coverage. A successful Pages deployment alone does not establish successful stream refresh or playback.
 
-## Setup in a new repository
+The initial desktop clear-stream sample decoded video on 137 channels. A later primary ClearKey sample decoded 19 of 88 configured DASH channels, including NBA TV. NBA TV Philippines returned HTTP 403 for media fragments. These historical short samples do not guarantee current or Google TV playback. The new backup entries have not all been video-decoded.
 
-1. Upload these files to a public GitHub repository with `main` as its default branch, including `.github/workflows/refresh.yml`.
-2. In **Settings → Pages**, select **GitHub Actions** as the source.
-3. Run the workflow from the Actions tab.
-4. Replace the account/repository in the URL above if you use a different repository.
+## Local use
 
-The playlist and its signed stream URLs are public. The initial successfully retrieved snapshot is included under `bootstrap/` so the URL can be tried while the upstream stream database is unavailable. It is deployed only for the initial setup commit; subsequent scheduled refreshes must retrieve fresh URLs successfully to replace it. Check `status.json` to distinguish that snapshot from a successful automatic refresh. Later generated playlists are deployed as Pages artifacts rather than committed to source history. Use sources you are authorized to access; GitHub hosting does not provide additional viewing rights.
-
-## Local checks
-
-Requires Node.js 22 or newer and Python 3.10 or newer, with no additional packages.
+Requires Node.js 22+ and Python 3.10+, with no additional packages.
 
 ```
 npm test
+python scripts/test_update_epg.py
 npm run refresh
 python scripts/update_epg.py --catalog catalog.json --out site
 ```
 
-Output is written to `site/playlist.m3u` and `site/status.json`. The source API can reject requests from particular networks, including GitHub runners; inspect the workflow logs if local retrieval succeeds but hosted updates fail.
+`node scripts/refresh.mjs --backup-only` updates backups and the combined playlist using the existing primary file. `python scripts/update_epg.py --offline` rebuilds from previously downloaded source caches. Generated artifacts are published from `site/`; checked fallback files are in `bootstrap/`.

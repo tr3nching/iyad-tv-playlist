@@ -18,3 +18,7 @@ site/ph2-coverage-breakdown.json
 site/INDEX-LOOKUP.md
 site/index-lookup-report.json
 *.zip
+site/playlist-backup.m3u
+site/playlist-combined.m3u
+site/backup-status.json
+site/report.txt

@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createCipheriv, randomBytes } from 'node:crypto';
-import { decrypt, playlist, streamUrl } from '../scripts/refresh.mjs';
+import { decrypt, playlist, streamUrl, parseBackupChannels } from '../scripts/refresh.mjs';
 
 test('decrypts the player response format without exposing key material', () => {
   const key = '0123456789abcdefextra';
@@ -33,4 +33,17 @@ test('DRM metadata only appears in the explicitly requested format', () => {
   assert.ok(result.includes('license_type=org.w3.clearkey'));
   assert.ok(result.includes(`license_key=${clearKey.id}:${clearKey.value}`));
   assert.throws(() => playlist([{ ...rows[0], clearKey: { id: 'bad\n#EXTINF:-1,Injected', value: clearKey.value } }], { includeDrm: true }));
+});
+
+test('backup extraction reads literal fields without executing page scripts', () => {
+  const html = `<script>throw Error('must not execute'); const channels = [
+    {name: 'News', url: 'https://example.com/a.m3u8', type: 'hls'},
+    {name: 'Bad URL', url: 'javascript:alert(1)', type: 'hls'},
+    {name: 'Bad DRM', url: 'https://example.com/a.mpd', type: 'mpd', keyId: 'bad', key: 'bad'},
+    {name: 'Embed', url: 'https://example.com/embed', type: 'youtube'}
+  ];</script>`;
+  const rows = parseBackupChannels(html);
+  assert.equal(rows.length, 1);
+  assert.equal(rows[0].name, 'News');
+  assert.ok(playlist(rows).startsWith('#EXTM3U x-tvg-url="https://tr3nching.github.io/ph-tv-playlist/epg.xml.gz"'));
 });

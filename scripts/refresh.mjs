@@ -4,6 +4,8 @@ import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
 
 const API = 'https://auth.iyad.click';
+const EPG_URL = 'https://tr3nching.github.io/ph-tv-playlist/epg.xml.gz';
+const BACKUP_SOURCE = 'https://3rstvportal.blogspot.com/';
 const headers = {
   Origin: 'https://iyad.click',
   Referer: 'https://iyad.click/',
@@ -59,16 +61,72 @@ export function streamUrl(value) {
   return url.href;
 }
 
-export function playlist(rows, { includeDrm = false, epgUrl = 'https://tr3nching.github.io/iyad-tv-playlist/epg.xml' } = {}) {
+export function playlist(rows, { includeDrm = false, epgUrl = EPG_URL } = {}) {
   return `#EXTM3U x-tvg-url="${attribute(streamUrl(epgUrl))}"\n` + rows.map(row => {
-    const lines = [`#EXTINF:-1 tvg-id="${attribute(row.name)}" tvg-name="${attribute(row.name)}" tvg-logo="${attribute(row.logo)}",${clean(row.name)}`];
+    const lines = [`#EXTINF:-1 tvg-id="${attribute(row.epgId || row.name)}" tvg-name="${attribute(row.name)}" tvg-logo="${attribute(row.logo)}"${row.group ? ` group-title="${attribute(row.group)}"` : ''},${clean(row.name)}`];
     if (includeDrm && row.clearKey) {
       if (![row.clearKey.id, row.clearKey.value].every(v => typeof v === 'string' && /^[a-fA-F0-9]{32}$/.test(v))) throw new Error('Invalid source ClearKey configuration');
-      lines.push('#KODIPROP:inputstream=inputstream.adaptive', '#KODIPROP:inputstream.adaptive.manifest_type=mpd', '#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey', `#KODIPROP:inputstream.adaptive.license_key=${row.clearKey.id}:${row.clearKey.value}`, '#KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click', '#KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click');
+      const origin = encodeURIComponent(row.origin || headers.Origin);
+      lines.push('#KODIPROP:inputstream=inputstream.adaptive', '#KODIPROP:inputstream.adaptive.manifest_type=mpd', '#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey', `#KODIPROP:inputstream.adaptive.license_key=${row.clearKey.id}:${row.clearKey.value}`, `#KODIPROP:inputstream.adaptive.manifest_headers=Origin=${origin}`, `#KODIPROP:inputstream.adaptive.stream_headers=Origin=${origin}`);
     }
     lines.push(streamUrl(row.url));
     return lines.join('\n') + '\n';
   }).join('');
+}
+
+export function parseBackupChannels(html) {
+  const literal = html.match(/const\s+channels\s*=\s*\[([\s\S]*?)\];/)?.[1];
+  if (!literal) throw new Error('Backup channel array missing');
+  const rows = [];
+  for (const object of literal.matchAll(/\{([^{}]*)\}/g)) {
+    const fields = {};
+    for (const pair of object[1].matchAll(/\b(name|url|type|logo|keyId|key)\s*:\s*(['"])((?:\\.|(?!\2)[^\\])*)\2/g)) {
+      fields[pair[1]] = pair[3].replace(/\\(['"\\/])/g, '$1');
+    }
+    if (!fields.name || !['hls', 'mpd', 'dash'].includes(fields.type)) continue;
+    let url;
+    try { url = streamUrl(fields.url); } catch { continue; }
+    const dash = ['mpd', 'dash'].includes(fields.type);
+    const validKeys = [fields.keyId, fields.key].every(v => /^[a-fA-F0-9]{32}$/.test(v || ''));
+    if (dash && (fields.keyId || fields.key) && !validKeys) continue;
+    rows.push({ name: clean(fields.name), url, logo: fields.logo || '', origin: new URL(BACKUP_SOURCE).origin,
+      ...(dash && validKeys ? { clearKey: { id: fields.keyId, value: fields.key } } : {}) });
+  }
+  return rows;
+}
+
+export async function refreshBackups(savedHtml) {
+  let html = savedHtml;
+  if (html === undefined) {
+    const response = await fetch(BACKUP_SOURCE, { signal: AbortSignal.timeout(30000) });
+    if (!response.ok) throw new Error(`Backup source HTTP ${response.status}`);
+    html = await response.text();
+    if (html.length > 2000000) throw new Error('Backup page exceeds size limit');
+  }
+  const rows = parseBackupChannels(html);
+  if (rows.length < 10) throw new Error('Backup catalog too small; keeping previous assets');
+  const catalog = JSON.parse(await readFile(new URL('../catalog.json', import.meta.url), 'utf8'));
+  const norm = name => name.toLowerCase().replace(/[^a-z0-9]/g, '');
+  const aliases = { '3rstv': '3RSTV', 'startvphilippines': 'Star TV Philippines' };
+  for (const row of rows) {
+    const hit = catalog.find(c => norm(c.name) === norm(row.name) || c.name === aliases[norm(row.name)]);
+    row.epgId = hit?.name || row.name;
+    row.name += ' [Backup]'; row.group = 'Backup';
+  }
+  const output = new URL('../site/', import.meta.url);
+  await mkdir(output, { recursive: true });
+  await writeFile(new URL('playlist-backup.m3u', output), playlist(rows, { includeDrm: true }));
+  await writeFile(new URL('backup-status.json', output), JSON.stringify({ updatedAt: new Date().toISOString(), source: BACKUP_SOURCE, channelCount: rows.length, clearKeyChannelCount: rows.filter(r => r.clearKey).length,
+    note: 'Extracted from the public player configuration; playback and source independence are not guaranteed. Unsupported embeds and malformed DRM settings are excluded.' }, null, 2));
+  console.log(`Backup playlist extracted: ${rows.length} channels`);
+}
+
+export async function combinePlaylists() {
+  const output = new URL('../site/', import.meta.url);
+  const primary = await readFile(new URL('playlist-drm.m3u', output), 'utf8');
+  const backup = await readFile(new URL('playlist-backup.m3u', output), 'utf8');
+  const base = primary.replace(/^#EXTM3U[^\n]*/, `#EXTM3U x-tvg-url="${EPG_URL}"`);
+  await writeFile(new URL('playlist-combined.m3u', output), base.trimEnd() + '\n' + backup.split('\n').slice(1).join('\n'));
 }
 
 async function resolveChannel(channel, key) {
@@ -134,7 +192,7 @@ async function main() {
   await writeFile(drmTemporary, playlist(rows, { includeDrm: true }), 'utf8');
   await rename(drmTemporary, new URL('playlist-drm.m3u', output));
   const otcChannels = rows.map(row => ({ name: clean(row.name), epg_id: clean(row.name), icon: row.logo, url: row.url, ...(row.clearKey ? { source_format: 'dash', drm_type: 'clearkey', drm_key: `${row.clearKey.id}:${row.clearKey.value}`, headers: { Origin: 'https://iyad.click' } } : {}) }));
-  await writeFile(new URL('playlist-drm.otc.json', output), JSON.stringify({ provider: { epg: 'https://tr3nching.github.io/iyad-tv-playlist/epg.xml' }, channels: otcChannels }, null, 2));
+  await writeFile(new URL('playlist-drm.otc.json', output), JSON.stringify({ provider: { epg: EPG_URL }, channels: otcChannels }, null, 2));
   await writeFile(new URL('status.json', output), JSON.stringify({
     updatedAt: new Date().toISOString(),
     channelCount: rows.length,
@@ -148,7 +206,11 @@ async function main() {
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === resolve(process.argv[1])) {
-  main().catch(error => {
+  (async () => {
+    try { await refreshBackups(); } catch (error) { console.warn(`Backup refresh failed: ${error.message}`); }
+    try { if (!process.argv.includes('--backup-only')) await main(); }
+    finally { try { await combinePlaylists(); } catch { console.warn('Combined playlist unavailable; individual playlists retained'); } }
+  })().catch(error => {
     console.error(`Refresh failed: ${error.message}`);
     process.exitCode = 1;
   });

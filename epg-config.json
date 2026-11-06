@@ -1,0 +1,1718 @@
+{
+  "minChannels": 100,
+  "sources": [
+    {
+      "name": "PH2",
+      "url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz"
+    },
+    {
+      "name": "PH1",
+      "url": "https://m3u-edit.com/epg-source.php?file=PH1.xml.gz"
+    },
+    {
+      "name": "pw",
+      "url": "https://epg.pw/xmltv/epg_PH.xml.gz"
+    },
+    {
+      "name": "SG1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_SG1.xml.gz"
+    },
+    {
+      "name": "HK1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz"
+    },
+    {
+      "name": "MY1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz"
+    },
+    {
+      "name": "ID1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_ID1.xml.gz"
+    },
+    {
+      "name": "TH1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_TH1.xml.gz"
+    },
+    {
+      "name": "AU1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz"
+    },
+    {
+      "name": "UK1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
+    },
+    {
+      "name": "US2",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz"
+    },
+    {
+      "name": "KR1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_KR1.xml.gz"
+    },
+    {
+      "name": "BEIN1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_BEIN1.xml.gz"
+    },
+    {
+      "name": "AMCCHANNELS1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_AMCCHANNELS1.xml.gz"
+    },
+    {
+      "name": "ASIANTELEVISION1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_ASIANTELEVISION1.xml.gz"
+    },
+    {
+      "name": "ALJAZEERA1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_ALJAZEERA1.xml.gz"
+    },
+    {
+      "name": "US_SPORTS1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz"
+    },
+    {
+      "name": "IN4",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz"
+    },
+    {
+      "name": "IN1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
+    },
+    {
+      "name": "WHALETVPLUS1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_WHALETVPLUS1.xml.gz"
+    },
+    {
+      "name": "CA2",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz"
+    },
+    {
+      "name": "IE1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz"
+    },
+    {
+      "name": "PLEX1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz"
+    },
+    {
+      "name": "DE1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
+    },
+    {
+      "name": "DISTROTV1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_DISTROTV1.xml.gz"
+    },
+    {
+      "name": "RAKUTEN1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_RAKUTEN1.xml.gz"
+    },
+    {
+      "name": "PEACOCK1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_PEACOCK1.xml.gz"
+    },
+    {
+      "name": "DELUXEMUSIC1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_DELUXEMUSIC1.xml.gz"
+    },
+    {
+      "name": "MUSICBOX1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_MUSICBOX1.xml.gz"
+    },
+    {
+      "name": "DIRECTVSPORTS1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_DIRECTVSPORTS1.xml.gz"
+    },
+    {
+      "name": "RALLY_TV1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_RALLY_TV1.xml.gz"
+    },
+    {
+      "name": "VOA1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_VOA1.xml.gz"
+    },
+    {
+      "name": "TBNPLUS1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_TBNPLUS1.xml.gz"
+    },
+    {
+      "name": "AT1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_AT1.xml.gz"
+    },
+    {
+      "name": "FR1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz"
+    },
+    {
+      "name": "ES1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz"
+    },
+    {
+      "name": "IT1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz"
+    },
+    {
+      "name": "NL1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz"
+    },
+    {
+      "name": "BR1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz"
+    },
+    {
+      "name": "MX1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz"
+    },
+    {
+      "name": "JP1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_JP1.xml.gz"
+    },
+    {
+      "name": "JP2",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_JP2.xml.gz"
+    },
+    {
+      "name": "ZA1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_ZA1.xml.gz"
+    },
+    {
+      "name": "NZ1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_NZ1.xml.gz"
+    },
+    {
+      "name": "TR1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz"
+    },
+    {
+      "name": "PK1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_PK1.xml.gz"
+    },
+    {
+      "name": "IN2",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_IN2.xml.gz"
+    },
+    {
+      "name": "SA1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_SA1.xml.gz"
+    },
+    {
+      "name": "AE1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_AE1.xml.gz"
+    },
+    {
+      "name": "CH1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz"
+    },
+    {
+      "name": "BE2",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz"
+    },
+    {
+      "name": "PL1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz"
+    },
+    {
+      "name": "SE1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz"
+    },
+    {
+      "name": "AUDACY1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_AUDACY1.xml.gz"
+    },
+    {
+      "name": "SPORTKLUB1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_SPORTKLUB1.xml.gz"
+    },
+    {
+      "name": "THESPORTPLUS1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_THESPORTPLUS1.xml.gz"
+    },
+    {
+      "name": "SSPORTPLUS1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_SSPORTPLUS1.xml.gz"
+    },
+    {
+      "name": "FANDUEL1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_FANDUEL1.xml.gz"
+    },
+    {
+      "name": "DRAFTKINGS1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_DRAFTKINGS1.xml.gz"
+    },
+    {
+      "name": "AR1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz"
+    },
+    {
+      "name": "CL1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz"
+    },
+    {
+      "name": "CO1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz"
+    },
+    {
+      "name": "CR1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_CR1.xml.gz"
+    },
+    {
+      "name": "DO1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_DO1.xml.gz"
+    },
+    {
+      "name": "EC1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_EC1.xml.gz"
+    },
+    {
+      "name": "PA1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_PA1.xml.gz"
+    },
+    {
+      "name": "PE1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz"
+    },
+    {
+      "name": "SV1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz"
+    },
+    {
+      "name": "UY1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz"
+    },
+    {
+      "name": "BB1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_BB1.xml.gz"
+    },
+    {
+      "name": "JM1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_JM1.xml.gz"
+    },
+    {
+      "name": "AL1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz"
+    },
+    {
+      "name": "BA1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_BA1.xml.gz"
+    },
+    {
+      "name": "BG1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_BG1.xml.gz"
+    },
+    {
+      "name": "CY1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_CY1.xml.gz"
+    },
+    {
+      "name": "CZ1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz"
+    },
+    {
+      "name": "DK1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz"
+    },
+    {
+      "name": "FI1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz"
+    },
+    {
+      "name": "GR1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz"
+    },
+    {
+      "name": "HR1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_HR1.xml.gz"
+    },
+    {
+      "name": "HU1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_HU1.xml.gz"
+    },
+    {
+      "name": "LT1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_LT1.xml.gz"
+    },
+    {
+      "name": "LU1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_LU1.xml.gz"
+    },
+    {
+      "name": "LV1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_LV1.xml.gz"
+    },
+    {
+      "name": "MT1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_MT1.xml.gz"
+    },
+    {
+      "name": "NO1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_NO1.xml.gz"
+    },
+    {
+      "name": "PT1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz"
+    },
+    {
+      "name": "RO1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_RO1.xml.gz"
+    },
+    {
+      "name": "RO2",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_RO2.xml.gz"
+    },
+    {
+      "name": "RS1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_RS1.xml.gz"
+    },
+    {
+      "name": "SK1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_SK1.xml.gz"
+    },
+    {
+      "name": "UA1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_UA1.xml.gz"
+    },
+    {
+      "name": "TR3",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz"
+    },
+    {
+      "name": "KE1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_KE1.xml.gz"
+    },
+    {
+      "name": "NG1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_NG1.xml.gz"
+    },
+    {
+      "name": "EG1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_EG1.xml.gz"
+    },
+    {
+      "name": "IL1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_IL1.xml.gz"
+    },
+    {
+      "name": "KZ1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_KZ1.xml.gz"
+    },
+    {
+      "name": "MN1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_MN1.xml.gz"
+    },
+    {
+      "name": "VN1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_VN1.xml.gz"
+    },
+    {
+      "name": "BR2",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_BR2.xml.gz"
+    },
+    {
+      "name": "SA2",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_SA2.xml.gz"
+    },
+    {
+      "name": "PLUTO",
+      "url": "https://i.mjh.nz/PlutoTV/all.xml.gz"
+    },
+    {
+      "name": "SAMSUNG",
+      "url": "https://i.mjh.nz/SamsungTVPlus/all.xml.gz"
+    },
+    {
+      "name": "PLEXMJH",
+      "url": "https://i.mjh.nz/Plex/all.xml.gz"
+    },
+    {
+      "name": "MEDIAQUEST",
+      "url": "https://raw.githubusercontent.com/djdoolky76/Mediaquest-EPG/main/cignal_epg.xml.gz"
+    },
+    {
+      "name": "CIGNALMERGED",
+      "url": "https://raw.githubusercontent.com/atone77721/CIGNAL_EPG/main/merged_epg.xml.gz"
+    }
+  ],
+  "channelMap": {
+    "A2Z": {
+      "PH2": [
+        "A2Z.ph"
+      ],
+      "PH1": [
+        "A2Z.ph"
+      ]
+    },
+    "ABC Australia": {
+      "PH2": [
+        "ABC.Australia.ph"
+      ]
+    },
+    "Adventure Earth": {
+      "WHALETVPLUS1": [
+        "Adventure.Earth.us"
+      ]
+    },
+    "Al Jazeera": {
+      "PH2": [
+        "Al.Jazeera.ph"
+      ]
+    },
+    "Aliwko": {
+      "PLEX1": [
+        "plex.tv.Aliwko.plex"
+      ]
+    },
+    "amasian tv Anime 24/7": {
+      "PLEXMJH": [
+        "6a1610bebdf296985fd95603-6838eb6a38304666c89d4e3d"
+      ]
+    },
+    "AMC+": {
+      "US2": [
+        "AMC+.us2"
+      ]
+    },
+    "ANC": {
+      "PH2": [
+        "ANC.ph"
+      ],
+      "PH1": [
+        "ANC.HD.ph",
+        "ANC.ph"
+      ]
+    },
+    "Animal Planet": {
+      "SG1": [
+        "Animal.Planet.(HD).sg"
+      ],
+      "PH1": [
+        "ANIMAL.PLANET.HD.ph",
+        "ANIMAL.PLANET.ph"
+      ]
+    },
+    "Animax": {
+      "PH2": [
+        "Animax.ph"
+      ],
+      "PH1": [
+        "ANIMAX.ph"
+      ]
+    },
+    "Anime All Day": {
+      "SAMSUNG": [
+        "USAJ3504502A"
+      ]
+    },
+    "Anime by Pluto": {
+      "PLUTO": [
+        "5dcde17bf6591d0009839e02"
+      ]
+    },
+    "Anime x Hidive": {
+      "PLEX1": [
+        "plex.tv.ANIME.x.HIDIVE.plex"
+      ]
+    },
+    "Aniplus": {
+      "SG1": [
+        "ANIPLUS.HD.sg"
+      ],
+      "PH1": [
+        "ANIPLUS.SD.ph"
+      ]
+    },
+    "Arirang": {
+      "PH2": [
+        "Arirang.ph"
+      ]
+    },
+    "Asian Crush": {
+      "PLEX1": [
+        "plex.tv.AsianCrush.plex"
+      ]
+    },
+    "Asian Food Network": {
+      "HK1": [
+        "Asian.Food.Network.hk"
+      ],
+      "PH1": [
+        "ASIAN.FOOD.NETWORK.HD.ph",
+        "ASIAN.FOOD.NETWORK.ph"
+      ]
+    },
+    "AXN": {
+      "PH2": [
+        "AXN.ph"
+      ],
+      "PH1": [
+        "AXN.HD.ph",
+        "AXN.ph"
+      ]
+    },
+    "BBC Earth": {
+      "PH2": [
+        "BBC.Earth.HD.ph"
+      ]
+    },
+    "BBC Lifestyle": {
+      "PH2": [
+        "BBC.Lifestyle.ph"
+      ]
+    },
+    "BBC News": {
+      "PH2": [
+        "BBC.News.ph"
+      ]
+    },
+    "BeIn Sports": {
+      "SG1": [
+        "beIN.SPORTS.(HD).sg"
+      ]
+    },
+    "Billiard TV": {
+      "US2": [
+        "Billiard.TV.us2"
+      ]
+    },
+    "Bilyonaryo": {
+      "PH2": [
+        "Bilyonaryo.News.Channel.ph"
+      ]
+    },
+    "Blast Movies": {
+      "PH2": [
+        "BLASTMOVIES.ph"
+      ]
+    },
+    "Bloomberg": {
+      "MY1": [
+        "Bloomberg.TV.HD.my"
+      ],
+      "PH1": [
+        "BLOOMBERG.ph"
+      ]
+    },
+    "BOOMERANG": {
+      "TH1": [
+        "Boomerang.(Thai).th"
+      ],
+      "PH1": [
+        "BOOMERANG.ph"
+      ]
+    },
+    "Cartoon Network": {
+      "SG1": [
+        "Cartoon.Network.(HD).sg"
+      ],
+      "PH1": [
+        "CARTOON.NETWORK.HD.ph",
+        "CARTOON.NETWORK.ph"
+      ]
+    },
+    "Cartoonito": {
+      "UK1": [
+        "Cartoonito.uk"
+      ]
+    },
+    "CCTV4": {
+      "PH2": [
+        "CCTV.4.ph"
+      ]
+    },
+    "Celestial Classic Movies": {
+      "MY1": [
+        "Celestial.Classic.Movies.my"
+      ],
+      "PH1": [
+        "CELESTIAL.CLASSIC.MOVIES.ph"
+      ]
+    },
+    "CGTN Documentary": {
+      "SG1": [
+        "CGTN-Documentary.sg"
+      ]
+    },
+    "Channel News Asia": {
+      "ID1": [
+        "Channel.News.Asia.id"
+      ],
+      "PH2": [
+        "CNA.ph"
+      ],
+      "PH1": [
+        "CHANNEL.NEWS.ASIA.ph"
+      ]
+    },
+    "CinemaOne": {
+      "PH2": [
+        "Cinema.One.ph"
+      ],
+      "MEDIAQUEST": [
+        "cg_cinemaone_sd",
+        "cg_cinema1_sd"
+      ],
+      "pw": [
+        "575523"
+      ]
+    },
+    "Cinemax": {
+      "SG1": [
+        "CINEMAX.(HD).sg"
+      ],
+      "PH1": [
+        "CINEMAX.HD.ph",
+        "CINEMAX.ph"
+      ]
+    },
+    "CNBC": {
+      "SG1": [
+        "CNBC.Asia.sg"
+      ]
+    },
+    "CNN HD": {
+      "PH2": [
+        "CNN.HD.ph"
+      ]
+    },
+    "Comedy Central": {
+      "UK1": [
+        "ComedyCentral.uk"
+      ]
+    },
+    "Concert Channel": {
+      "PLUTO": [
+        "6868152657543d1f8be4ece3"
+      ]
+    },
+    "CRIME INVESTIGATION": {
+      "PH2": [
+        "Crime.Investigation.ph"
+      ],
+      "PH1": [
+        "CRIME.&.INVESTIGATION.HD.ph",
+        "CRIME.&.INVESTIGATION.ph"
+      ]
+    },
+    "Crunchyroll": {
+      "PLEX1": [
+        "plex.tv.Crunchyroll.plex"
+      ]
+    },
+    "Curiosity Now": {
+      "US2": [
+        "Curiosity.NOW.us2"
+      ]
+    },
+    "Danger TV": {
+      "US2": [
+        "DangerTV.us2"
+      ]
+    },
+    "DepEd TV": {
+      "PH2": [
+        "DepEd.TV.ph"
+      ]
+    },
+    "Discovery Channel": {
+      "SG1": [
+        "Discovery.Channel.(HD).sg"
+      ],
+      "PH1": [
+        "DISCOVERY.CHANNEL.HD.ph",
+        "DISCOVERY.CHANNEL.ph"
+      ]
+    },
+    "Discovery Family": {
+      "US2": [
+        "Discovery.Family.Channel.HD.us2"
+      ]
+    },
+    "Discovery Science": {
+      "HK1": [
+        "Discovery.Science.hk"
+      ]
+    },
+    "Discovery Turbo": {
+      "AU1": [
+        "DiscoveryTurbo.au"
+      ]
+    },
+    "Disney Channel": {
+      "US2": [
+        "Disney.Channel.HD.us2"
+      ]
+    },
+    "DMAX": {
+      "HK1": [
+        "DMAX.hk"
+      ]
+    },
+    "DW News": {
+      "BE2": [
+        "DW.HD.be"
+      ]
+    },
+    "DZMM Teleradyo": {
+      "CIGNALMERGED": [
+        "DZMM.dzmm"
+      ],
+      "PH1": [
+        "DZMM.TELERADYO.ph"
+      ]
+    },
+    "ESPN": {
+      "AU1": [
+        "ESPN.au"
+      ]
+    },
+    "Euro News.": {
+      "HK1": [
+        "euronews.hk"
+      ],
+      "PH1": [
+        "EURONEWS.ph"
+      ]
+    },
+    "Evolution Earth": {
+      "SAMSUNG": [
+        "CA900003IF"
+      ]
+    },
+    "EWTN": {
+      "IE1": [
+        "EWTN.ie"
+      ]
+    },
+    "FailArmy": {
+      "WHALETVPLUS1": [
+        "FailArmy.us"
+      ]
+    },
+    "Fashion TV HD": {
+      "PH2": [
+        "Fashion.TV.HD.ph"
+      ],
+      "PH1": [
+        "FASHION.TV.HD.ph"
+      ]
+    },
+    "Fight Network": {
+      "US2": [
+        "Fight.Network.us2"
+      ]
+    },
+    "Filmrise Anime": {
+      "PLEX1": [
+        "plex.tv.FilmRise.Anime.plex"
+      ]
+    },
+    "Food Network HD": {
+      "HK1": [
+        "Food.Network.hk"
+      ],
+      "PH1": [
+        "FOOD.NETWORK.HD.ph"
+      ]
+    },
+    "Fox Sports 1": {
+      "US2": [
+        "FS1.HD.us2"
+      ]
+    },
+    "FRANCE 24": {
+      "PH2": [
+        "France.24.ph"
+      ]
+    },
+    "Global Trekker": {
+      "PH2": [
+        "Global.Trekker.ph"
+      ],
+      "PH1": [
+        "GLOBAL.TREKKER.HD.ph"
+      ]
+    },
+    "GMA Life TV": {
+      "SG1": [
+        "GMA.Life.TV.sg"
+      ]
+    },
+    "GMA News TV": {
+      "SG1": [
+        "GMA.News.TV.sg"
+      ]
+    },
+    "GMA Pinoy TV": {
+      "SG1": [
+        "GMA.Pinoy.TV..sg"
+      ]
+    },
+    "GTV": {
+      "PH2": [
+        "GTV.ph"
+      ],
+      "pw": [
+        "GTV.ph"
+      ],
+      "MEDIAQUEST": [
+        "cg_gtv_sd",
+        "cg_gtv_hd"
+      ]
+    },
+    "Hallmark": {
+      "US2": [
+        "Hallmark.Channel.HD.us2"
+      ]
+    },
+    "HBO": {
+      "SG1": [
+        "HBO.HD.sg"
+      ],
+      "PH1": [
+        "HBO.HD.ph",
+        "HBO.ph"
+      ]
+    },
+    "HBO Boxing": {
+      "PLEX1": [
+        "plex.tv.HBO.Boxing.plex"
+      ]
+    },
+    "HBO Comedy": {
+      "US2": [
+        "HBO.Comedy.HD.us2"
+      ]
+    },
+    "HBO Family": {
+      "SG1": [
+        "HBO.Family.(HD).sg"
+      ],
+      "PH1": [
+        "HBO.FAMILY.HD.ph",
+        "HBO.FAMILY.ph"
+      ]
+    },
+    "HBO Mundi": {
+      "UY1": [
+        "HBO.MUNDI.HD.uy"
+      ]
+    },
+    "HBO POP": {
+      "CO1": [
+        "HBO.POP.co"
+      ]
+    },
+    "HBO Signature": {
+      "SG1": [
+        "HBO.Signature.(HD).sg"
+      ],
+      "PH1": [
+        "HBO.SIGNATURE.HD.ph",
+        "HBO.SIGNATURE.ph"
+      ]
+    },
+    "HBO Xtreme": {
+      "CO1": [
+        "HBO.XTREME.co"
+      ]
+    },
+    "HBO Zone": {
+      "US2": [
+        "HBO.Zone.HD.us2"
+      ]
+    },
+    "HGTV HD": {
+      "SG1": [
+        "HGTV.(HD).sg"
+      ],
+      "PH1": [
+        "HGTV.HD.ph"
+      ]
+    },
+    "History HD": {
+      "PH2": [
+        "History.HD.ph"
+      ],
+      "PH1": [
+        "HISTORY.HD.ph"
+      ]
+    },
+    "Hits HD": {
+      "PH2": [
+        "HITS.HD.ph"
+      ]
+    },
+    "Hits Movies": {
+      "PH2": [
+        "HITS.MOVIES.ph"
+      ]
+    },
+    "Hits Now": {
+      "PH2": [
+        "HITS.NOW.ph"
+      ]
+    },
+    "HIYAH!": {
+      "PLEX1": [
+        "plex.tv.Hi-YAH!.plex"
+      ]
+    },
+    "IBC13": {
+      "PH2": [
+        "IBC.13.ph"
+      ]
+    },
+    "InWonder": {
+      "AU1": [
+        "InWonder.au"
+      ]
+    },
+    "Jeepney TV": {
+      "PH2": [
+        "Jeepney.TV.ph"
+      ],
+      "MEDIAQUEST": [
+        "cg_jeepneytv_sd"
+      ],
+      "pw": [
+        "484097"
+      ]
+    },
+    "Just for Laughs Gags": {
+      "WHALETVPLUS1": [
+        "Just.For.Laughs.Gags.us"
+      ]
+    },
+    "Kapamilya Channel": {
+      "PH2": [
+        "Kapamilya.Channel.ph"
+      ],
+      "PH1": [
+        "KAPAMILYA.CHANNEL.HD.ph",
+        "KAPAMILYA.CHANNEL.ph"
+      ],
+      "pw": [
+        "575514"
+      ]
+    },
+    "Kapamilya Channel HD": {
+      "PH2": [
+        "Kapamilya.Channel.ph"
+      ],
+      "PH1": [
+        "KAPAMILYA.CHANNEL.HD.ph"
+      ],
+      "pw": [
+        "575514"
+      ]
+    },
+    "Kartoon Channel": {
+      "US2": [
+        "Kartoon.Channel.us2"
+      ]
+    },
+    "Kidsflix": {
+      "PLEX1": [
+        "plex.tv.KidsFlix.plex"
+      ]
+    },
+    "Kix HD": {
+      "ID1": [
+        "KIX.id"
+      ],
+      "PH1": [
+        "KIX.HD.ph"
+      ]
+    },
+    "Knowledge Channel": {
+      "PH2": [
+        "Knowledge.Channel.ph"
+      ],
+      "PH1": [
+        "KNOWLEDGE.CHANNEL.ph"
+      ]
+    },
+    "Lifetime": {
+      "PH2": [
+        "Lifetime.SD.ph"
+      ],
+      "PH1": [
+        "LIFETIME..HD.ph",
+        "LIFETIME.ph"
+      ]
+    },
+    "Lotus Macau": {
+      "PH2": [
+        "Lotus.Macau.ph"
+      ]
+    },
+    "MIRAMAX": {
+      "PLEX1": [
+        "plex.tv.Miramax.Movie.Channel.plex"
+      ]
+    },
+    "MLB Network": {
+      "US2": [
+        "MLB.Network.HD.us2"
+      ]
+    },
+    "MNX HD": {
+      "IN4": [
+        "MNX.in"
+      ]
+    },
+    "Moonbug Kids": {
+      "PH2": [
+        "Moonbug.Kids.ph"
+      ]
+    },
+    "MotoGP Channel": {
+      "PLEX1": [
+        "plex.tv.MotoGP.Channel.plex"
+      ]
+    },
+    "Movie Sphere": {
+      "AU1": [
+        "Moviesphere.au"
+      ]
+    },
+    "Movies Now": {
+      "IN4": [
+        "MOVIES.NOW.in"
+      ]
+    },
+    "Mr Beast": {
+      "PLEX1": [
+        "plex.tv.MrBeast.plex"
+      ]
+    },
+    "Mr. Bean": {
+      "PLEX1": [
+        "plex.tv.Mr..Bean.plex"
+      ]
+    },
+    "MTV": {
+      "UK1": [
+        "MTV.HD.uk"
+      ],
+      "PH1": [
+        "MTV.ASIA.ph"
+      ]
+    },
+    "Mysterious Worlds": {
+      "PLEX1": [
+        "plex.tv.Mysterious.Worlds.plex"
+      ]
+    },
+    "Mythbusters": {
+      "AU1": [
+        "Mythbusters.au"
+      ]
+    },
+    "National Geographic": {
+      "US2": [
+        "National.Geographic.HD.us2"
+      ],
+      "PH1": [
+        "NATIONAL.GEOGRAPHIC.HD.ph",
+        "NATIONAL.GEOGRAPHIC.ph"
+      ]
+    },
+    "NBA TV Philippines": {
+      "PH2": [
+        "NBA.TV.Philippines.ph"
+      ]
+    },
+    "NCAA NXT": {
+      "PH2": [
+        "NCAA.NXT.ph"
+      ]
+    },
+    "Net25": {
+      "PH2": [
+        "Net.25.ph"
+      ]
+    },
+    "New KMovies": {
+      "PLEX1": [
+        "plex.tv.NEW.K.MOVIES.plex"
+      ]
+    },
+    "NHK World Japan": {
+      "PH2": [
+        "NHK.World.Japan.ph"
+      ],
+      "PH1": [
+        "NHK.WORLD.JAPAN.ph"
+      ]
+    },
+    "Nickelodeon": {
+      "PH2": [
+        "Nickelodeon.SD.ph"
+      ],
+      "PH1": [
+        "NICKELODEON.ph"
+      ]
+    },
+    "Nickjr": {
+      "SG1": [
+        "Nick.Jr..sg"
+      ],
+      "PH1": [
+        "NICK.JR..ph"
+      ]
+    },
+    "One News HD": {
+      "PH2": [
+        "One.News.ph"
+      ]
+    },
+    "One PH": {
+      "PH2": [
+        "One.PH.ph"
+      ]
+    },
+    "One Sports": {
+      "PH2": [
+        "One.Sports.HD.ph"
+      ],
+      "PH1": [
+        "ONE.SPORTS.ph"
+      ]
+    },
+    "Outdoor Channel": {
+      "HK1": [
+        "Outdoor.Channel.hk"
+      ],
+      "PH1": [
+        "OUTDOOR.CHANNEL.HD.ph",
+        "OUTDOOR.CHANNEL.ph"
+      ]
+    },
+    "Paramount Movie Channel": {
+      "PLUTO": [
+        "5cb0cae7a461406ffe3f5213"
+      ]
+    },
+    "PBA Rush": {
+      "MEDIAQUEST": [
+        "cg_pbarush_hd1"
+      ],
+      "PH2": [
+        "PBA.Rush.ph"
+      ]
+    },
+    "PBS Digital Studios": {
+      "SAMSUNG": [
+        "USBB800001O7"
+      ]
+    },
+    "People Are Awesome": {
+      "WHALETVPLUS1": [
+        "People.are.Awesome.us"
+      ]
+    },
+    "Peoples Television": {
+      "MEDIAQUEST": [
+        "cg_ptv4_sd"
+      ],
+      "PH2": [
+        "PTV.4.ph"
+      ]
+    },
+    "Pinoy Box Office": {
+      "PH2": [
+        "PBO.ph"
+      ],
+      "PH1": [
+        "PBO.ph"
+      ]
+    },
+    "Popular Science": {
+      "PLEX1": [
+        "plex.tv.Popular.Science.plex"
+      ]
+    },
+    "Premier Sports": {
+      "PH2": [
+        "Premier.Sports.HD.ph"
+      ],
+      "PH1": [
+        "PREMIER.SPORTS.HD.ph",
+        "PREMIER.SPORTS.ph"
+      ]
+    },
+    "Real Wild": {
+      "PLEX1": [
+        "plex.tv.Real.Wild.plex"
+      ]
+    },
+    "RedBull TV": {
+      "IN1": [
+        "Red.Bull.TV.in"
+      ]
+    },
+    "Retro Crush": {
+      "PLEX1": [
+        "plex.tv.RetroCrush.plex"
+      ]
+    },
+    "Rock Action": {
+      "PH2": [
+        "Rock.Action.ph"
+      ]
+    },
+    "RPTV": {
+      "PH2": [
+        "RPTV.HD.ph"
+      ],
+      "PH1": [
+        "RPTV.ph"
+      ]
+    },
+    "Sky Sports F1": {
+      "IE1": [
+        "Sky.Sports.F1.HD.ie"
+      ]
+    },
+    "Smithsonian Channel": {
+      "US2": [
+        "Smithsonian.HD.Network.us2"
+      ]
+    },
+    "SOLARFLIX": {
+      "PH2": [
+        "Solar.Flix.ph"
+      ],
+      "MEDIAQUEST": [
+        "cg_solarflix_sd"
+      ]
+    },
+    "Sony Movies": {
+      "US2": [
+        "Sony.Movie.Channel.HD.us2"
+      ]
+    },
+    "Sony One Action Hits": {
+      "SAMSUNG": [
+        "AT300007S8"
+      ]
+    },
+    "Sony Pix": {
+      "IN4": [
+        "SONY.PIX.in"
+      ]
+    },
+    "SPOTV": {
+      "SG1": [
+        "SPOTV.(HD).sg"
+      ],
+      "PH2": [
+        "SPOTV.HD.ph"
+      ],
+      "PH1": [
+        "SPOTV.HD.ph",
+        "SPOTV.ph"
+      ]
+    },
+    "STAR Movies HD": {
+      "IN4": [
+        "STAR.MOVIES.HD.in"
+      ]
+    },
+    "STAR Movies Select HD": {
+      "IN4": [
+        "STAR.MOVIES.SELECT.in"
+      ]
+    },
+    "STARZ": {
+      "US2": [
+        "Starz.HD.us2"
+      ]
+    },
+    "Studio Universal": {
+      "PH2": [
+        "STUDIOUNIVERSAL.ph"
+      ]
+    },
+    "SYFY": {
+      "US2": [
+        "Syfy.HD.us2"
+      ]
+    },
+    "Tagalized Movie Channel": {
+      "PH2": [
+        "Tagalized.Movie.Channel.ph"
+      ],
+      "MEDIAQUEST": [
+        "cg_tmc_sd"
+      ]
+    },
+    "Taiwan Plus": {
+      "IN1": [
+        "Taiwan.Plus.in"
+      ]
+    },
+    "Tap Movies": {
+      "PH2": [
+        "TAP.Movies.HD.ph"
+      ],
+      "PH1": [
+        "TAP.MOVIES.HD.ph",
+        "TAP.MOVIES.ph"
+      ]
+    },
+    "TAP Sports": {
+      "PH2": [
+        "Tap.Sports.ph"
+      ],
+      "PH1": [
+        "TAP.SPORTS.HD.ph"
+      ]
+    },
+    "TapSILOG": {
+      "MEDIAQUEST": [
+        "tapsilog"
+      ],
+      "PH2": [
+        "Tapsilog.ph"
+      ]
+    },
+    "Tastemade": {
+      "US2": [
+        "Tastemade.us2"
+      ]
+    },
+    "Tennis Channel": {
+      "US2": [
+        "Tennis.Channel.HD.us2"
+      ]
+    },
+    "TFC Asia": {
+      "HK1": [
+        "TFC.hk"
+      ]
+    },
+    "Thrill": {
+      "ID1": [
+        "Thrill.id"
+      ],
+      "PH1": [
+        "THRILL.ph"
+      ]
+    },
+    "TLC": {
+      "SG1": [
+        "TLC.(HD).sg"
+      ],
+      "PH1": [
+        "TLC.HD.ph",
+        "TLC.ph"
+      ]
+    },
+    "TNA Wrestling": {
+      "PLEX1": [
+        "plex.tv.TNA.Wrestling.Channel.plex"
+      ]
+    },
+    "TNT Sports 1": {
+      "UK1": [
+        "TNT.Sports.1.HD.uk"
+      ]
+    },
+    "Top Rank Classics": {
+      "PLUTO": [
+        "64d160f53c785e0008df525e"
+      ]
+    },
+    "Trace Urban": {
+      "WHALETVPLUS1": [
+        "Trace.Urban.us"
+      ]
+    },
+    "Travel Channel": {
+      "AU1": [
+        "TravelChannel.au"
+      ],
+      "PH1": [
+        "TRAVEL.CHANNEL.HD.ph",
+        "TRAVEL.CHANNEL.ph"
+      ]
+    },
+    "TSN": {
+      "CA2": [
+        "TSN.HD.ca2"
+      ]
+    },
+    "TV Maria": {
+      "PH2": [
+        "TV.Maria.ph"
+      ]
+    },
+    "TV5 Monde": {
+      "IN1": [
+        "TV5.Monde.in"
+      ],
+      "PH1": [
+        "TV.5.MONDE.ph"
+      ]
+    },
+    "TVN Movies": {
+      "PH2": [
+        "tvN.Movies.Pinoy.ph"
+      ]
+    },
+    "UAAP Varsity": {
+      "PH2": [
+        "UAAP.Varsity.Channel.ph"
+      ]
+    },
+    "UFC": {
+      "PLEX1": [
+        "plex.tv.UFC.plex"
+      ]
+    },
+    "USA Today": {
+      "PLEX1": [
+        "plex.tv.USA.TODAY.plex"
+      ]
+    },
+    "VEVO": {
+      "US2": [
+        "Vevo.Pop.us2"
+      ]
+    },
+    "VIVA Cinema": {
+      "PH2": [
+        "VIVA.Cinema.ph"
+      ],
+      "MEDIAQUEST": [
+        "cg_vivacinema_sd"
+      ]
+    },
+    "Warner TV": {
+      "TH1": [
+        "Warner.TV.th"
+      ],
+      "PH1": [
+        "WARNER.TV.HD.ph",
+        "WARNER.TV.ph"
+      ]
+    },
+    "Wild Planet": {
+      "SAMSUNG": [
+        "GBBB5000002PL"
+      ]
+    },
+    "World Poker Tour": {
+      "WHALETVPLUS1": [
+        "World.Poker.Tour.us"
+      ],
+      "PLEX1": [
+        "plex.tv.The.World.Poker.Tour.plex"
+      ]
+    },
+    "WWE": {
+      "US2": [
+        "WWE.Network.us2"
+      ]
+    },
+    "XFC TV": {
+      "PLEXMJH": [
+        "697140a85d851f5e69414688-621670feab2095ca85353ad4"
+      ]
+    },
+    "Xite Hits": {
+      "PLEX1": [
+        "plex.tv.XITE.Hits.plex"
+      ]
+    },
+    "Yes Network": {
+      "US2": [
+        "Yes.Network.us2"
+      ]
+    },
+    "Dreamworks HD": {
+      "PH2": [
+        "DreamWorks.HD.ph"
+      ],
+      "SG1": [
+        "DreamWorks.HD.sg",
+        "DreamWorks.(HD).sg"
+      ],
+      "pw": [
+        "578312"
+      ],
+      "MEDIAQUEST": [
+        "cg_dreamworks_hd1"
+      ]
+    },
+    "GMA": {
+      "pw": [
+        "GMA.ph",
+        "575517"
+      ],
+      "MEDIAQUEST": [
+        "cg_gma_sd",
+        "cg_gma_hd"
+      ]
+    },
+    "Metro Channel": {
+      "PH2": [
+        "Metro.Channel.ph"
+      ],
+      "MEDIAQUEST": [
+        "cg_metrochannel_hd"
+      ]
+    },
+    "MYX": {
+      "PH2": [
+        "MYX.ph"
+      ],
+      "MEDIAQUEST": [
+        "cg_myx_sd"
+      ]
+    },
+    "Tap Action Flix": {
+      "PH2": [
+        "TAPACTIONFLIX.ph"
+      ],
+      "MEDIAQUEST": [
+        "cg_tapactionflix_hd",
+        "tapactionflix"
+      ]
+    },
+    "TAP Edge": {
+      "PH2": [
+        "TAPEDGE.ph"
+      ],
+      "MEDIAQUEST": [
+        "cg_tapedge_hd",
+        "tapedge"
+      ]
+    },
+    "TAP TV": {
+      "PH2": [
+        "TAPTV.ph"
+      ],
+      "PH1": [
+        "TAP.TV.ph"
+      ]
+    },
+    "TV5": {
+      "PH2": [
+        "TV5.ph"
+      ],
+      "pw": [
+        "TV5.ph",
+        "575511"
+      ],
+      "MEDIAQUEST": [
+        "cg_tv5_hd",
+        "cg_tv5_sd",
+        "tv5"
+      ]
+    },
+    "TVN": {
+      "PH2": [
+        "tvN.Premium.HD.ph"
+      ]
+    },
+    "CineMo!": {
+      "PH1": [
+        "CINEMO!.ph"
+      ]
+    },
+    "Discovery Asia": {
+      "PH1": [
+        "DISCOVERY.ASIA.ph"
+      ],
+      "SG1": [
+        "Discovery.Asia.HD.sg",
+        "Discovery.Asia.(HD).sg"
+      ],
+      "HK1": [
+        "Discovery.Asia.hk"
+      ]
+    },
+    "KBS World": {
+      "PH1": [
+        "KBS.WORLD.ph"
+      ]
+    },
+    "SOLARSPORTS": {
+      "PH1": [
+        "SOLAR.SPORTS.ph"
+      ]
+    },
+    "NBA TV": {
+      "US2": [
+        "NBA.TV.HD.us2",
+        "NBA.TV.us2"
+      ]
+    },
+    "BBC CBeebies": {
+      "SG1": [
+        "CBeebies.sg",
+        "BBC.CBeebies.sg",
+        "CBeebies.(HD).sg"
+      ],
+      "HK1": [
+        "CBeebies.hk"
+      ]
+    },
+    "ION": {
+      "US2": [
+        "ION.Television.HD.us2",
+        "ION.HD.us2",
+        "ION.us2"
+      ]
+    }
+  },
+  "strictChannels": [
+    "NBA TV",
+    "GMA",
+    "TV5",
+    "Tap Action Flix",
+    "TAP Edge",
+    "Discovery Asia",
+    "Dreamworks HD",
+    "BBC CBeebies",
+    "ION",
+    "TVN",
+    "GTV",
+    "CinemaOne",
+    "Jeepney TV",
+    "SOLARFLIX",
+    "Tagalized Movie Channel",
+    "VIVA Cinema",
+    "Metro Channel",
+    "MYX"
+  ],
+  "exclude": [],
+  "matchingPolicy": "Explicit source identities first, then unique exact display-name match. Preserve region words; never strip Philippines or Pinoy. A stale or invalid candidate does not block later sources.",
+  "activeSources": [
+    "PH2",
+    "PH1",
+    "pw",
+    "SG1",
+    "HK1",
+    "MY1",
+    "ID1",
+    "TH1",
+    "AU1",
+    "UK1",
+    "US2",
+    "IN4",
+    "IN1",
+    "WHALETVPLUS1",
+    "CA2",
+    "IE1",
+    "PLEX1",
+    "BE2",
+    "CO1",
+    "UY1",
+    "PLUTO",
+    "SAMSUNG",
+    "PLEXMJH",
+    "MEDIAQUEST",
+    "CIGNALMERGED"
+  ]
+}
