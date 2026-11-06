@@ -12,14 +12,10 @@ site/mapping.csv
 site/verification.json
 scripts/cache/
 __pycache__/
-site/VERIFICATION.md
-site/independent-alignment.json
-site/ph2-coverage-breakdown.json
-site/INDEX-LOOKUP.md
-site/index-lookup-report.json
 *.zip
 site/playlist-backup.m3u
 site/playlist-combined.m3u
 site/backup-status.json
 site/report.txt
 site/backup-checks.json
+site/playlist-status.json

@@ -147,17 +147,23 @@ export async function refreshBackups(savedHtml, savedChecks) {
     else { additionalChannels.push(row.name); row.group = 'Additional channels'; }
   }
   await writeFile(new URL('playlist-backup.m3u', output), playlist(rows, { includeDrm: true }));
-  await writeFile(new URL('backup-status.json', output), JSON.stringify({ updatedAt: new Date().toISOString(), source: BACKUP_SOURCE, candidateCount: candidates.length, channelCount: rows.length, additionalChannels, existingChannelBackups: rows.length-additionalChannels.length, clearKeyChannelCount: rows.filter(r => r.clearKey).length,
+  await writeFile(new URL('backup-status.json', output), JSON.stringify({ updatedAt: new Date().toISOString(), candidateCount: candidates.length, channelCount: rows.length, additionalChannels, existingChannelBackups: rows.length-additionalChannels.length, clearKeyChannelCount: rows.filter(r => r.clearKey).length,
     note: 'Only entries with a readable manifest at refresh time are included. Video playback and source independence are not guaranteed. Failed entries are retried next refresh.' }, null, 2));
   console.log(`Backup playlist extracted: ${rows.length} channels`);
 }
 
-export async function combinePlaylists() {
-  const output = new URL('../site/', import.meta.url);
+export async function combinePlaylists(output = new URL('../site/', import.meta.url)) {
   const primary = await readFile(new URL('playlist-drm.m3u', output), 'utf8');
-  const backup = await readFile(new URL('playlist-backup.m3u', output), 'utf8');
+  let backup = '';
+  try { backup = await readFile(new URL('playlist-backup.m3u', output), 'utf8'); }
+  catch (error) { if (error.code !== 'ENOENT') throw error; }
   const base = primary.replace(/^#EXTM3U[^\n]*/, `#EXTM3U x-tvg-url="${EPG_URL}"`);
-  await writeFile(new URL('playlist-combined.m3u', output), base.trimEnd() + '\n' + backup.split('\n').slice(1).join('\n'));
+  const combined = base.trimEnd() + '\n' + backup.split('\n').slice(1).join('\n');
+  await writeFile(new URL('playlist.m3u.tmp', output), combined);
+  await rename(new URL('playlist.m3u.tmp', output), new URL('playlist.m3u', output));
+  await writeFile(new URL('playlist-combined.m3u', output), combined);
+  const count = text => (text.match(/^#EXTINF:/gm) || []).length;
+  await writeFile(new URL('playlist-status.json', output), JSON.stringify({ assembledAt: new Date().toISOString(), entryCount: count(combined), primaryEntryCount: count(primary), alternateEntryCount: count(backup) }, null, 2));
 }
 
 async function resolveChannel(channel, key) {
@@ -216,9 +222,6 @@ async function main() {
   rows.sort((a, b) => a.name.localeCompare(b.name));
   const output = new URL('../site/', import.meta.url);
   await mkdir(output, { recursive: true });
-  const temporary = new URL('playlist.m3u.tmp', output);
-  await writeFile(temporary, playlist(rows), 'utf8');
-  await rename(temporary, new URL('playlist.m3u', output));
   const drmTemporary = new URL('playlist-drm.m3u.tmp', output);
   await writeFile(drmTemporary, playlist(rows, { includeDrm: true }), 'utf8');
   await rename(drmTemporary, new URL('playlist-drm.m3u', output));

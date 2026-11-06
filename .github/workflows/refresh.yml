@@ -30,7 +30,7 @@ jobs:
           node-version: '22'
       - name: Check playlist handling
         run: npm test
-      - name: Check guide merge and time alignment
+      - name: Check program guide handling
         run: python3 scripts/test_update_epg.py
       - name: Restore current assets or checked snapshot
         env:
@@ -41,7 +41,7 @@ jobs:
         continue-on-error: true
         if: ${{ !(github.event_name == 'push' && startsWith(github.event.head_commit.message, 'Publish playlist snapshot')) }}
         run: npm run refresh
-      - name: Refresh independently verified guide mapping
+      - name: Build program guide
         id: guide
         continue-on-error: true
         run: python3 scripts/update_epg.py --catalog catalog.json --out site

@@ -1,23 +1,36 @@
 <!doctype html>
 <html lang="en">
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>PH TV playlist</title>
-<style>body{font:18px/1.6 system-ui;max-width:680px;margin:60px auto;padding:0 24px;background:#101827;color:#edf2ff}a{color:#91bdff}input{box-sizing:border-box;width:100%;padding:12px;font:inherit}small{color:#b9c3d5}</style>
-<h1>PH TV playlist</h1>
-<p>In TiviMate, choose <b>Add playlist â†’ M3U playlist â†’ Enter URL</b> and enter:</p>
+<title>PH TV</title>
+<style>
+body{font:17px/1.6 system-ui;max-width:640px;margin:64px auto;padding:0 24px;background:#101827;color:#edf2ff}h1{margin-bottom:4px}p{margin:16px 0}input{box-sizing:border-box;width:100%;padding:14px;border:1px solid #546784;border-radius:8px;background:#182339;color:#edf2ff;font:14px/1.5 monospace}button{margin-top:12px;padding:10px 18px;border:0;border-radius:8px;background:#a5c8ff;color:#101827;font:600 16px system-ui;cursor:pointer}small{color:#bac7da}#status{color:#bac7da}
+</style>
+</head>
+<body>
+<h1>PH TV</h1>
+<p>Channels, backups and a program guide in one playlist.</p>
+<p>Add this URL to your IPTV app:</p>
 <input id="url" readonly aria-label="Playlist URL">
-<p><a href="playlist-combined.m3u">Primary + backup playlist</a> · <a href="playlist-backup.m3u">Backup playlist</a></p>
-<p><a href="playlist-drm.m3u">DRM-capable playlist</a> for a player supporting ClearKey/KODIPROP (such as OTT Navigator).</p>
-<p><a href="playlist-drm.otc.json">OTT Navigator native playlist</a></p>
-<p><a href="playlist.m3u">Basic playlist</a> Â· <a href="status.json">Stream age</a> Â· <a href="refresh-status.json">Refresh status</a></p>
-<p><a href="epg.xml">Program guide (included automatically)</a> Â· <a href="epg-status.json">Guide coverage and timing checks</a></p>
-<p id="status">Checking the latest refreshâ€¦</p>
-<small>Refreshes are scheduled every 30 minutes. Playback is not guaranteed: some sources expire or require the original player or DRM. A combined program guide is included.</small>
+<button id="copy" type="button">Copy playlist URL</button>
+<p>The guide loads automatically in compatible apps. Use a guide time offset of <b>0</b> if asked.</p>
+<p>Alternate streams appear in the <b>Backup</b> group. Select one when needed.</p>
+<p id="status" aria-live="polite">Updates are scheduled every 30 minutes.</p>
+<small>Some channels require a player with DRM support.</small>
 <script>
-document.getElementById('url').value = new URL('playlist-combined.m3u', location.href).href;
-fetch('status.json', {cache:'no-store'}).then(r => {if(!r.ok) throw Error(); return r.json()}).then(s => {
- document.getElementById('status').textContent = `${s.channelCount} channels. Last refreshed ${new Date(s.updatedAt).toLocaleString()}.` + (s.refreshMode === 'snapshot' ? ' Initial saved snapshot: automatic updates are waiting for the source to recover.' : '');
-}).catch(() => document.getElementById('status').textContent = 'No successful refresh is available yet.');
+const input = document.getElementById('url');
+input.value = new URL('playlist.m3u', location.href).href;
+document.getElementById('copy').addEventListener('click', async function () {
+  try { await navigator.clipboard.writeText(input.value); this.textContent = 'Copied'; }
+  catch { input.focus(); input.select(); this.textContent = 'Select and copy the URL'; }
+});
+fetch('playlist-status.json', {cache:'no-store'}).then(response => {
+  if (!response.ok) throw new Error();
+  return response.json();
+}).then(status => {
+  document.getElementById('status').textContent = `${status.entryCount} playlist entries. Updates are scheduled every 30 minutes.`;
+}).catch(() => {});
 </script>
+</body>
 </html>
