@@ -6,11 +6,17 @@ TV channels, backups and a program guide in one playlist.
 
 Add this URL to your IPTV app. The program guide is included automatically; if your app asks for a guide time offset, use **0**.
 
-Channels are grouped by type: Sports, Movies, News, Kids, Anime, Documentaries, Music, Lifestyle, Faith, Education, Entertainment and General. Backups appear in the same category with `[Backup]` after the channel name. Duplicate stream addresses are removed. Select a backup when needed; switching is manual.
+Channels are grouped by type: Sports, Movies, News, Kids, Anime, Documentaries, Music, Lifestyle, Faith, Education, Entertainment and General. GMA, TFC Asia, Kapamilya Channel, TV5 and A2Z are in Entertainment.
+
+Additional streams keep their original names and separate guide IDs. Similar names do not establish that they carry the same channel. Exact duplicate stream URLs are removed; different URLs remain separate. `[Additional]` distinguishes a name that also exists in the main list. These entries do not automatically replace a missing channel or inherit its guide.
 
 When a guide program has no genre, its channel category supplies a fallback using Android TV's supported genre names. Existing program genres are preserved. Channels without guide listings remain without listings; unknown categories stay unclassified. Genre filters depend on the TV app's support.
 
-Playlist and guide updates are scheduled every 30 minutes. Failed backup entries are checked again at the next update. Some channels need a player with DRM support.
+Playlist and guide updates are scheduled every 30 minutes. Failed entries are checked again at the next update. Some channels need a player with DRM support.
+
+Every refresh checks the saved stream candidates and temporarily hides unreachable entries from the main playlist. Entries return after a later successful check. The candidate lists are retained, so hiding an entry does not delete it. If every check fails, the last published playlist is retained.
+
+Checks run from the hosting network and cover manifests plus media requests where supported. They do not guarantee decoding, DRM playback, or access from your TV. `stream-health.json` records the results without stream URLs or keys.
 
 ## Development
 
@@ -19,7 +25,10 @@ Requires Node.js 22+ and Python 3.10+.
 ```
 npm test
 python scripts/test_update_epg.py
+python scripts/test_check_streams.py
 npm run refresh
+python scripts/check_streams.py
+node scripts/refresh.mjs --finalize
 python scripts/update_epg.py
 ```
 

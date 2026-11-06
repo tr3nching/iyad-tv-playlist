@@ -4,7 +4,7 @@ const bootstrap = new URL('../bootstrap/', import.meta.url);
 const base = 'https://tr3nching.github.io/ph-tv-playlist/';
 const streamFiles = ['playlist.m3u', 'playlist-drm.m3u', 'playlist-drm.otc.json', 'status.json'];
 const guideFiles = ['epg.xml', 'epg.xml.gz', 'epg-status.json', 'mapping.json', 'mapping.csv', 'verification.json', 'report.txt'];
-const backupFiles = ['playlist-backup.m3u', 'backup-status.json', 'backup-checks.json'];
+const backupFiles = ['playlist-backup.m3u', 'backup-candidates.m3u', 'backup-status.json', 'backup-checks.json'];
 const optionalFiles = ['playlist-combined.m3u', 'playlist-status.json'];
 await mkdir(site, { recursive: true });
 for (const file of [...streamFiles, ...guideFiles, ...backupFiles, ...optionalFiles]) {

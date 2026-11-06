@@ -19,3 +19,5 @@ site/backup-status.json
 site/report.txt
 site/backup-checks.json
 site/playlist-status.json
+site/backup-candidates.m3u
+site/stream-health.json

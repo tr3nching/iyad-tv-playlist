@@ -5,7 +5,7 @@ import { mkdtemp, readFile, writeFile, unlink, rmdir } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { decrypt, playlist, streamUrl, parseBackupChannels, checkBackupManifests, combinePlaylists, deduplicateBackups } from '../scripts/refresh.mjs';
+import { decrypt, playlist, streamUrl, parseBackupChannels, checkBackupManifests, combinePlaylists, deduplicateBackups, streamCheckId, additionalChannelId } from '../scripts/refresh.mjs';
 
 test('decrypts the player response format without exposing key material', () => {
   const key = '0123456789abcdefextra';
@@ -87,7 +87,7 @@ test('one canonical playlist retains DRM, backups and guide, including without b
   }
 });
 
-test('backups exclude duplicate tokens and HLS variants, preserving different endpoints', () => {
+test('only exact stream duplicates are removed; names and related URLs do not prove identity', () => {
   const primary = playlist([
     { name: 'News', url: 'https://example.com/news/master.m3u8?token=old' },
     { name: 'Sports', url: 'https://example.com/sports/playlist.m3u8' },
@@ -98,10 +98,38 @@ test('backups exclude duplicate tokens and HLS variants, preserving different en
     { name: 'Sports [Backup]', epgId: 'Sports', url: 'https://example.com/sports/chunks.m3u8' },
     { name: 'Movies [Backup]', epgId: 'Movies', url: 'https://example.com/play?server=2' },
     { name: 'News [Backup]', epgId: 'News', url: 'https://other.example.com/news/master.m3u8' },
+    { name: 'Another name', epgId: 'additional:another', url: 'https://example.com/news/master.m3u8?token=old' },
   ]);
   const distinct = deduplicateBackups(primary, backups);
-  assert.deepEqual(distinct.excluded, ['News', 'Sports']);
-  assert.equal(distinct.entries.length, 2);
+  assert.deepEqual(distinct.excluded, ['additional:another']);
+  assert.equal(distinct.entries.length, 4);
   assert.ok(distinct.text.includes('server=2'));
   assert.ok(distinct.text.includes('other.example.com'));
+});
+
+test('unreachable entries are hidden and return on the next successful check without losing candidates', async () => {
+  const directory = await mkdtemp(join(tmpdir(), 'ph-tv-playlist-')); const output = pathToFileURL(directory + '/');
+  const primary = { name: 'NBA TV', url: 'https://example.com/main.m3u8' };
+  const extra = { name: 'Different channel', epgId: 'additional:differentchannel', url: 'https://example.com/other.m3u8' };
+  const files = ['playlist-drm.m3u','backup-candidates.m3u','playlist-backup.m3u','playlist.m3u','playlist-combined.m3u','playlist-status.json'];
+  try {
+    const original = playlist([primary]);
+    await writeFile(new URL('playlist-drm.m3u',output),original);
+    await writeFile(new URL('backup-candidates.m3u',output),playlist([extra]));
+    const checks = [{id:streamCheckId('primary',{id:primary.name,url:primary.url}),reachable:false},{id:streamCheckId('additional',{id:extra.epgId,url:extra.url}),reachable:true}];
+    await combinePlaylists(output,{health:{channels:checks}});
+    let result = await readFile(new URL('playlist.m3u',output),'utf8');
+    assert.ok(!result.includes(primary.url));assert.ok(result.includes(extra.url));
+    assert.equal(await readFile(new URL('playlist-drm.m3u',output),'utf8'),original);
+    checks[0].reachable=true;
+    await combinePlaylists(output,{health:{channels:checks}});
+    result=await readFile(new URL('playlist.m3u',output),'utf8');assert.ok(result.includes(primary.url));assert.ok(result.includes(extra.url));
+  } finally { for(const file of files){try{await unlink(new URL(file,output));}catch{}} await rmdir(directory); }
+});
+
+test('additional streams with the same name retain separate identities and no original EPG ID', () => {
+  const first=additionalChannelId({name:'One PH',url:'https://example.com/first.m3u8'});
+  const second=additionalChannelId({name:'One PH',url:'https://example.com/second.m3u8'});
+  assert.notEqual(first,second);assert.ok(first.startsWith('additional:oneph:'));
+  assert.notEqual(first,'One PH');
 });

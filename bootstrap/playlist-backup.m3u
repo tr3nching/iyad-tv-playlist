@@ -1,11 +1,13 @@
 #EXTM3U x-tvg-url="https://tr3nching.github.io/ph-tv-playlist/epg.xml.gz"
-#EXTINF:-1 group-title="General" tvg-id="3RSTV" tvg-name="3RSTV [Backup]" tvg-logo="https://i.imgur.com/eSiYaLH.png",3RSTV [Backup]
+#EXTINF:-1 group-title="General" tvg-id="additional:3rstv:f6519c3696a9" tvg-name="3RS TV [Additional]" tvg-logo="https://i.imgur.com/eSiYaLH.png",3RS TV [Additional]
 https://live20.bozztv.com/giatvplayout7/giatv-210267/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="Movies" tvg-id="3RS MOVIE" tvg-name="3RS MOVIE" tvg-logo="https://i.ibb.co/V00d35XD/3rsmovie.png",3RS MOVIE
+#EXTINF:-1 group-title="Movies" tvg-id="additional:3rsmovie:c9ec2881f7b9" tvg-name="3RS MOVIE" tvg-logo="https://i.ibb.co/V00d35XD/3rsmovie.png",3RS MOVIE
 https://live20.bozztv.com/giatvplayout7/giatv-210273/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-id="RAGE TV" tvg-name="RAGE TV" tvg-logo="https://i.imgur.com/I7FemT6.png",RAGE TV
+#EXTINF:-1 group-title="Movies" tvg-id="additional:sinemanila:729d219a4908" tvg-name="SINEMANILA [Additional]" tvg-logo="https://i.imgur.com/ExjGAzo.png",SINEMANILA [Additional]
+https://live20.bozztv.com/giatv/giatv-sinemanila/sinemanila/chunks.m3u8
+#EXTINF:-1 group-title="Entertainment" tvg-id="additional:ragetv:bf16b48f86ba" tvg-name="RAGE TV" tvg-logo="https://i.imgur.com/I7FemT6.png",RAGE TV
 https://live20.bozztv.com/giatv/giatv-ragetv/ragetv/chunks.m3u8
-#EXTINF:-1 group-title="Movies" tvg-id="CineMo!" tvg-name="CineMo! [Backup]" tvg-logo="https://yt3.ggpht.com/a-/AAuE7mAK5lTlRJwr2rZLeitoTnOYkjForU2cvszswQ=s900-mo-c-c0xffffffff-rj-k-no",CineMo! [Backup]
+#EXTINF:-1 group-title="Movies" tvg-id="additional:cinemo:fb72504d47ac" tvg-name="CineMo! [Additional]" tvg-logo="https://yt3.ggpht.com/a-/AAuE7mAK5lTlRJwr2rZLeitoTnOYkjForU2cvszswQ=s900-mo-c-c0xffffffff-rj-k-no",CineMo! [Additional]
 https://d1bail49udbz1k.cloudfront.net/out/v1/3a895f368f4a467c9bca0962559efc19/index.mpd
-#EXTINF:-1 group-title="Movies" tvg-id="CinemaOne" tvg-name="CinemaOne [Backup]" tvg-logo="https://static.wikia.nocookie.net/russel/images/9/94/Cinema_One_Logo_2020.png",CinemaOne [Backup]
+#EXTINF:-1 group-title="Movies" tvg-id="additional:cinemaone:ee3083569b6d" tvg-name="Cinema One! [Additional]" tvg-logo="https://static.wikia.nocookie.net/russel/images/9/94/Cinema_One_Logo_2020.png",Cinema One! [Additional]
 https://d9rpesrrg1bdi.cloudfront.net/out/v1/93b9db7b231d45f28f64f29b86dc6c65/index.mpd

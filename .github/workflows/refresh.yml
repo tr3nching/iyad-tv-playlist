@@ -19,7 +19,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -31,7 +31,9 @@ jobs:
       - name: Check playlist handling
         run: npm test
       - name: Check program guide handling
-        run: python3 scripts/test_update_epg.py
+        run: |
+          python3 scripts/test_update_epg.py
+          python3 scripts/test_check_streams.py
       - name: Restore current assets or checked snapshot
         env:
           PUBLISH_SNAPSHOT: ${{ github.event_name == 'push' && startsWith(github.event.head_commit.message, 'Publish playlist snapshot') }}
@@ -41,6 +43,10 @@ jobs:
         continue-on-error: true
         if: ${{ !(github.event_name == 'push' && startsWith(github.event.head_commit.message, 'Publish playlist snapshot')) }}
         run: npm run refresh
+      - name: Check channel reachability and hide unavailable entries
+        run: |
+          python3 scripts/check_streams.py --out site
+          node scripts/refresh.mjs --finalize
       - name: Build program guide
         id: guide
         continue-on-error: true

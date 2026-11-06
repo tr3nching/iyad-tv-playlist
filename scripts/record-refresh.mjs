@@ -1,7 +1,8 @@
 import { readFile, writeFile, appendFile } from 'node:fs/promises';
 import { combinePlaylists } from './refresh.mjs';
 const site = new URL('../site/', import.meta.url);
-await combinePlaylists();
+const health = JSON.parse(await readFile(new URL('stream-health.json', site), 'utf8'));
+await combinePlaylists(site, { health });
 try {
   const backupUrl = new URL('backup-status.json', site);
   const backup = JSON.parse(await readFile(backupUrl, 'utf8'));
@@ -24,7 +25,7 @@ status.automaticRefreshStatus = snapshot ? 'Using freshly prepared snapshot; sch
 await writeFile(statusUrl, JSON.stringify(status, null, 2));
 await writeFile(new URL('refresh-status.json', site), JSON.stringify(report, null, 2));
 const m3u = await readFile(new URL('playlist.m3u', site), 'utf8');
-if ((m3u.match(/^#EXTINF:/gm) || []).length < 10) throw new Error('No usable playlist to publish');
+if ((m3u.match(/^#EXTINF:/gm) || []).length < 1) throw new Error('No reachable entries to publish');
 await readFile(new URL('epg.xml', site));
 if (process.env.GITHUB_STEP_SUMMARY) await appendFile(process.env.GITHUB_STEP_SUMMARY, `Stream source refresh: **${report.streamRefresh}**\n\nGuide refresh: **${guideOutcome}**\n\n${report.note}\n`);
 console.log(JSON.stringify(report));

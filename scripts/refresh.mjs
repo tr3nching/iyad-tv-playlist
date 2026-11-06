@@ -1,4 +1,4 @@
-import { createDecipheriv } from 'node:crypto';
+import { createDecipheriv, createHash } from 'node:crypto';
 import { mkdir, readFile, writeFile, rename } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
@@ -7,6 +7,7 @@ const API = 'https://auth.iyad.click';
 const EPG_URL = 'https://tr3nching.github.io/ph-tv-playlist/epg.xml.gz';
 const BACKUP_SOURCE = 'https://3rstvportal.blogspot.com/';
 const channelGroups = JSON.parse(await readFile(new URL('../channel-groups.json', import.meta.url), 'utf8'));
+const normalizedGroups = new Map(Object.entries(channelGroups).map(([name, group]) => [name.toLowerCase().replace(/[^a-z0-9]/g, ''), group]));
 const headers = {
   Origin: 'https://iyad.click',
   Referer: 'https://iyad.click/',
@@ -57,7 +58,8 @@ function attribute(value) {
 }
 
 export function channelCategory(name) {
-  return channelGroups[clean(name).replace(/\s*\[Backup\]$/, '')] || 'General';
+  const key = clean(name).replace(/^additional:([^:]+)(?::.*)?$/, '$1').replace(/\s*\[(?:Backup|Alternate|Additional)\]$/, '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  return normalizedGroups.get(key) || 'General';
 }
 
 export function categorizePlaylist(text) {
@@ -77,28 +79,11 @@ function playlistEntries(text) {
   });
 }
 
-function stableEndpoint(value) {
-  const url = new URL(value);
-  for (const key of [...url.searchParams.keys()]) {
-    if (/^(token|auth|expires?|expiry|exp|signature|sig|sign|hdnea|hdnts|policy|key-pair-id|x-amz-.*)$/i.test(key)) url.searchParams.delete(key);
-  }
-  url.searchParams.sort();
-  return { host: url.host, path: url.pathname, query: url.searchParams.toString() };
-}
-
 export function deduplicateBackups(primary, backup) {
   const regular = playlistEntries(primary);
   const kept = []; const excluded = [];
   for (const entry of playlistEntries(backup)) {
-    const duplicate = regular.some(original => {
-      if (original.id !== entry.id || !original.url || !entry.url) return false;
-      const a = stableEndpoint(original.url), b = stableEndpoint(entry.url);
-      if (a.host !== b.host || a.query !== b.query) return false;
-      if (a.path === b.path) return true;
-      const folder = path => path.slice(0, path.lastIndexOf('/') + 1);
-      const hlsVariant = path => /\/(?:playlist|chunks|master|index|mono(?:\.ts)?)\.m3u8$/i.test(path);
-      return folder(a.path) !== '/' && folder(a.path) === folder(b.path) && hlsVariant(a.path) && hlsVariant(b.path);
-    });
+    const duplicate = regular.some(original => original.url && entry.url && original.url === entry.url);
     if (duplicate) excluded.push(entry.id); else kept.push(entry);
   }
   return { text: backup ? `#EXTM3U x-tvg-url="${EPG_URL}"\n` + kept.map(entry => entry.block.trimEnd() + '\n').join('') : '', excluded, entries: kept };
@@ -178,35 +163,49 @@ export async function refreshBackups(savedHtml, savedChecks) {
   }
   const candidates = parseBackupChannels(html);
   if (candidates.length < 10) throw new Error('Backup catalog too small; keeping previous assets');
-  const checks = savedChecks || await checkBackupManifests(candidates);
-  const readable = new Set(checks.filter(c => c.manifest_readable).map(c => c.channel));
-  const rows = candidates.filter(r => readable.has(r.name));
-  const output = new URL('../site/', import.meta.url);
-  await mkdir(output, { recursive: true });
-  await writeFile(new URL('backup-checks.json', output), JSON.stringify({ checkedAt: new Date().toISOString(), candidates: candidates.length, readableManifests: rows.length, scope: 'Manifest requests only; not video decoding or TV playback. Network-specific results.', channels: checks }, null, 2));
-  if (!rows.length) throw new Error('No readable backup manifests; keeping previous playlist');
   const catalog = JSON.parse(await readFile(new URL('../catalog.json', import.meta.url), 'utf8'));
   const norm = name => name.toLowerCase().replace(/[^a-z0-9]/g, '');
-  const aliases = { '3rstv': '3RSTV', 'startvphilippines': 'Star TV Philippines', 'kapamilya': 'Kapamilya Channel', 'cinemaone': 'CinemaOne', 'teleradyo': 'DZMM Teleradyo', 'nbatvph': 'NBA TV Philippines', 'pbo': 'Pinoy Box Office', 'tmc': 'Tagalized Movie Channel', 'depedchannel': 'DepEd TV', 'axnchannel': 'AXN', 'hbohd': 'HBO', 'ptv4': 'Peoples Television' };
   const additionalChannels = [];
-  for (const row of rows) {
-    const hit = catalog.find(c => norm(c.name) === norm(row.name) || c.name === aliases[norm(row.name)]);
-    row.epgId = hit?.name || row.name;
-    if (hit) { row.name = hit.name + ' [Backup]'; }
-    else { additionalChannels.push(row.name); }
-    row.group = channelCategory(row.epgId);
+  for (const row of candidates) {
+    const originalName = row.name;
+    row.epgId = additionalChannelId(row);
+    row.group = channelCategory(originalName);
+    if (catalog.some(channel => norm(channel.name) === norm(originalName))) row.name += ' [Additional]';
+    additionalChannels.push(row.name);
   }
+  const checks = savedChecks || await checkBackupManifests(candidates);
+  const readable = new Set(checks.filter(c => c.manifest_readable).map(c => c.channel));
+  const rows = candidates.filter(r => readable.has(r.name) || readable.has(r.name.replace(/ \[(?:Alternate|Additional)\]$/, '')));
+  const output = new URL('../site/', import.meta.url);
+  await mkdir(output, { recursive: true });
+  await writeFile(new URL('backup-candidates.m3u', output), playlist(candidates, { includeDrm: true }));
+  await writeFile(new URL('backup-checks.json', output), JSON.stringify({ checkedAt: new Date().toISOString(), candidates: candidates.length, readableManifests: rows.length, scope: 'Manifest requests only; not video decoding or TV playback. Network-specific results.', channels: checks }, null, 2));
   await writeFile(new URL('playlist-backup.m3u', output), playlist(rows, { includeDrm: true }));
-  await writeFile(new URL('backup-status.json', output), JSON.stringify({ updatedAt: new Date().toISOString(), candidateCount: candidates.length, channelCount: rows.length, additionalChannels, existingChannelBackups: rows.length-additionalChannels.length, clearKeyChannelCount: rows.filter(r => r.clearKey).length,
+  await writeFile(new URL('backup-status.json', output), JSON.stringify({ updatedAt: new Date().toISOString(), candidateCount: candidates.length, channelCount: rows.length, additionalChannels: rows.map(row => row.name), candidateAdditionalChannels: additionalChannels, verifiedAdditionalChannels: [], existingChannelBackups: 0, clearKeyChannelCount: rows.filter(r => r.clearKey).length,
     note: 'Only entries with a readable manifest at refresh time are included. Video playback and source independence are not guaranteed. Failed entries are retried next refresh.' }, null, 2));
   console.log(`Backup playlist extracted: ${rows.length} channels`);
 }
 
-export async function combinePlaylists(output = new URL('../site/', import.meta.url)) {
-  const primary = await readFile(new URL('playlist-drm.m3u', output), 'utf8');
+export function additionalChannelId(row) {
+  const name = row.name.toLowerCase().replace(/[^a-z0-9]/g, '');
+  return 'additional:' + name + ':' + createHash('sha256').update(row.url).digest('hex').slice(0, 12);
+}
+
+export function streamCheckId(kind, entry) {
+  return createHash('sha256').update(`${kind}\0${entry.id}\0${entry.url}`).digest('hex');
+}
+
+export async function combinePlaylists(output = new URL('../site/', import.meta.url), { health = null } = {}) {
+  let primary = await readFile(new URL('playlist-drm.m3u', output), 'utf8');
   let backup = '';
-  try { backup = await readFile(new URL('playlist-backup.m3u', output), 'utf8'); }
+  try { backup = await readFile(new URL(health ? 'backup-candidates.m3u' : 'playlist-backup.m3u', output), 'utf8'); }
   catch (error) { if (error.code !== 'ENOENT') throw error; }
+  if (health) {
+    const passed = new Set(health.channels.filter(channel => channel.reachable).map(channel => channel.id));
+    const filter = (text, kind) => `#EXTM3U x-tvg-url="${EPG_URL}"\n` + playlistEntries(text).filter(entry => passed.has(streamCheckId(kind, entry))).map(entry => entry.block.trimEnd() + '\n').join('');
+    primary = filter(primary, 'primary');
+    backup = filter(backup, 'additional');
+  }
   const distinct = deduplicateBackups(primary, backup);
   backup = categorizePlaylist(distinct.text);
   if (backup) await writeFile(new URL('playlist-backup.m3u', output), backup);
@@ -214,9 +213,9 @@ export async function combinePlaylists(output = new URL('../site/', import.meta.
     const statusUrl = new URL('backup-status.json', output);
     const status = JSON.parse(await readFile(statusUrl, 'utf8'));
     const ids = new Set(distinct.entries.map(entry => entry.id));
-    status.additionalChannels = (status.additionalChannels || []).filter(name => ids.has(name));
+    status.additionalChannels = distinct.entries.map(entry => entry.block.split('\n')[0].split(',').pop());
     status.channelCount = distinct.entries.length;
-    status.existingChannelBackups = status.channelCount - status.additionalChannels.length;
+    status.existingChannelBackups = 0;
     status.clearKeyChannelCount = (backup.match(/^#KODIPROP:inputstream\.adaptive\.license_key=/gm) || []).length;
     status.excludedDuplicates = [...new Set([...(status.excludedDuplicates || []), ...distinct.excluded])].filter(id => !ids.has(id));
     delete status.source;
@@ -308,6 +307,11 @@ async function main() {
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === resolve(process.argv[1])) {
   (async () => {
+    if (process.argv.includes('--finalize')) {
+      const output = new URL('../site/', import.meta.url);
+      const health = JSON.parse(await readFile(new URL('stream-health.json', output), 'utf8'));
+      await combinePlaylists(output, { health }); return;
+    }
     try { await refreshBackups(); } catch (error) { console.warn(`Backup refresh failed: ${error.message}`); }
     try { if (!process.argv.includes('--backup-only')) await main(); }
     finally { try { await combinePlaylists(); } catch { console.warn('Combined playlist unavailable; individual playlists retained'); } }
