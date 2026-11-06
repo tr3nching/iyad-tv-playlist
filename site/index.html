@@ -9,7 +9,7 @@
 <input id="url" readonly aria-label="Playlist URL">
 <p><a href="playlist.m3u">Download playlist</a> · <a href="status.json">Refresh status</a></p>
 <p id="status">Checking the latest refresh…</p>
-<small>Refreshes are scheduled hourly. Playback is not guaranteed: some sources expire or require the original player or DRM. This playlist does not include a program guide.</small>
+<small>Refreshes are scheduled every 30 minutes. Playback is not guaranteed: some sources expire or require the original player or DRM. This playlist does not include a program guide.</small>
 <script>
 document.getElementById('url').value = new URL('playlist.m3u', location.href).href;
 fetch('status.json', {cache:'no-store'}).then(r => {if(!r.ok) throw Error(); return r.json()}).then(s => {

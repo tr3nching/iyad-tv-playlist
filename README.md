@@ -8,7 +8,7 @@ In TiviMate on Google TV, choose **Add playlist → M3U playlist → Enter URL**
 
 GitHub Actions retrieves the enabled channel catalog and resolves each channel's primary source using the same public endpoints as https://iyad.click. It requests the site's normal playback tokens where required, then publishes an M3U file through GitHub Pages. No video is hosted or relayed. No DRM keys are published. Alternate sources and program schedules are not included.
 
-The schedule runs hourly at minute 17 (UTC). GitHub may delay scheduled jobs. The source's tokens can expire before the next update; the initial hourly interval is provisional, not a guarantee of uninterrupted playback. Some channels require DRM, browser headers, or the original player and will not play in TiviMate. Successful URL extraction does not verify video playback.
+The schedule runs every 30 minutes at minutes 17 and 47 (UTC). GitHub may delay scheduled jobs. The source's tokens can expire before the next update; this interval is provisional, not a guarantee of uninterrupted playback. Some channels require DRM, browser headers, or the original player and will not play in TiviMate. Successful URL extraction does not verify video playback.
 
 If the catalog fails or fewer than 90% of enabled channels resolve, publishing stops and the previous deployment remains available. It may still contain expired links. Check **Actions** for failures and **status.json** on the published site for the last successful update.
 

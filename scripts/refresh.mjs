@@ -21,7 +21,7 @@ export function decrypt(data, key) {
 }
 
 async function request(path, body) {
-  for (let attempt = 0; attempt < 3; attempt++) {
+  for (let attempt = 0; attempt < 5; attempt++) {
     try {
       const response = await fetch(`${API}${path}`, {
         headers: { ...headers, ...(body ? { 'Content-Type': 'application/json' } : {}) },
@@ -29,11 +29,11 @@ async function request(path, body) {
         ...(body ? { body: JSON.stringify(body) } : {}),
         signal: AbortSignal.timeout(15000),
       });
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      if (!response.ok) throw new Error(`${path}: HTTP ${response.status}`);
       return await response.json();
     } catch (error) {
-      if (attempt === 2) throw error;
-      await sleep(1000 * (attempt + 1));
+      if (attempt === 4) throw error;
+      await sleep(2000 * (2 ** attempt));
     }
   }
 }
