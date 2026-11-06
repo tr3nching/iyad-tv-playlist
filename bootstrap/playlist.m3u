@@ -1,11 +1,11 @@
 #EXTM3U x-tvg-url="https://tr3nching.github.io/ph-tv-playlist/epg.xml.gz"
-#EXTINF:-1 tvg-id="3RSTV" tvg-name="3RSTV" tvg-logo="https://iyadtv.pages.dev/images/3rstv.svg",3RSTV
+#EXTINF:-1 group-title="General" tvg-id="3RSTV" tvg-name="3RSTV" tvg-logo="https://iyadtv.pages.dev/images/3rstv.svg",3RSTV
 https://live20.bozztv.com/giatvplayout7/giatv-210631/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="A2Z" tvg-name="A2Z" tvg-logo="https://iyadtv.pages.dev/images/a2z_4.png",A2Z
+#EXTINF:-1 group-title="Entertainment" tvg-id="A2Z" tvg-name="A2Z" tvg-logo="https://iyadtv.pages.dev/images/a2z_4.png",A2Z
 https://ovh.rise2the.top/aldous/1793999765/1ToWD3OcLTx1C8bT3mBAHA/cv1/001/2/ch00000090990000001087/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAqHRrK8UUahwItHhKpXgPXKsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="Abante Radyo" tvg-name="Abante Radyo" tvg-logo="https://iyadtv.pages.dev/images/abante-radyo.svg",Abante Radyo
+#EXTINF:-1 group-title="News" tvg-id="Abante Radyo" tvg-name="Abante Radyo" tvg-logo="https://iyadtv.pages.dev/images/abante-radyo.svg",Abante Radyo
 https://amg19223-amg19223c12-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c12-amgplt0352/playlist.m3u8
-#EXTINF:-1 tvg-id="ABC Australia" tvg-name="ABC Australia" tvg-logo="https://iyadtv.pages.dev/images/abc_australia_6.png",ABC Australia
+#EXTINF:-1 group-title="Entertainment" tvg-id="ABC Australia" tvg-name="ABC Australia" tvg-logo="https://iyadtv.pages.dev/images/abc_australia_6.png",ABC Australia
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -13,9 +13,9 @@ https://amg19223-amg19223c12-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999765/1ToWD3OcLTx1C8bT3mBAHA/s/abc_aus/default/index.mpd
-#EXTINF:-1 tvg-id="Adventure Earth" tvg-name="Adventure Earth" tvg-logo="https://iyadtv.pages.dev/images/adventure-earth.svg",Adventure Earth
+#EXTINF:-1 group-title="Documentaries" tvg-id="Adventure Earth" tvg-name="Adventure Earth" tvg-logo="https://iyadtv.pages.dev/images/adventure-earth.svg",Adventure Earth
 https://autentic-adventure-earth-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Al Jazeera" tvg-name="Al Jazeera" tvg-logo="https://iyadtv.pages.dev/images/al_jazeera_10.png",Al Jazeera
+#EXTINF:-1 group-title="News" tvg-id="Al Jazeera" tvg-name="Al Jazeera" tvg-logo="https://iyadtv.pages.dev/images/al_jazeera_10.png",Al Jazeera
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -23,15 +23,15 @@ https://autentic-adventure-earth-1-eu.rakuten.wurl.tv/playlist.m3u8
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/s/dr_aljazeera/default/index.mpd
-#EXTINF:-1 tvg-id="ALIW23" tvg-name="ALIW23" tvg-logo="https://iyadtv.pages.dev/images/aliw23_8.png",ALIW23
+#EXTINF:-1 group-title="General" tvg-id="ALIW23" tvg-name="ALIW23" tvg-logo="https://iyadtv.pages.dev/images/aliw23_8.png",ALIW23
 https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/cv4/001/2/ch00000090990000001109/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAp%2BWYKp0pXQLOnfpLMLHi2tsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="Aliwko" tvg-name="Aliwko" tvg-logo="https://iyadtv.pages.dev/images/aliwko.png",Aliwko
+#EXTINF:-1 group-title="General" tvg-id="Aliwko" tvg-name="Aliwko" tvg-logo="https://iyadtv.pages.dev/images/aliwko.png",Aliwko
 https://ovh.rise2the.top/aldous/1793999765/1ToWD3OcLTx1C8bT3mBAHA/plex-epg/library/parts/5e20b730f2f8d5003d739db7-64d4ee537b323f6abbd19e59/?X-Plex-Token=z9-J-4imuPJVE9JXpQzP
-#EXTINF:-1 tvg-id="ALLTV2" tvg-name="ALLTV2" tvg-logo="https://iyadtv.pages.dev/images/alltv2_12.png",ALLTV2
+#EXTINF:-1 group-title="Entertainment" tvg-id="ALLTV2" tvg-name="ALLTV2" tvg-logo="https://iyadtv.pages.dev/images/alltv2_12.png",ALLTV2
 https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/hls/alltv2/stream.m3u8
-#EXTINF:-1 tvg-id="amasian tv Anime 24/7" tvg-name="amasian tv Anime 24/7" tvg-logo="https://provider-static.plex.tv/epg/cms/production/aa882b26-2283-430c-8e7f-8468227ad362/anime247_logo_dark_-_Jason_Hwang.png",amasian tv Anime 24/7
+#EXTINF:-1 group-title="Anime" tvg-id="amasian tv Anime 24/7" tvg-name="amasian tv Anime 24/7" tvg-logo="https://provider-static.plex.tv/epg/cms/production/aa882b26-2283-430c-8e7f-8468227ad362/anime247_logo_dark_-_Jason_Hwang.png",amasian tv Anime 24/7
 https://1nox1-adobo.hf.space/amasian.m3u8
-#EXTINF:-1 tvg-id="AMC+" tvg-name="AMC+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/AMC%2B_logo.png?utm_source=en.wikipedia.org&amp;utm_campaign=index&amp;utm_content=original",AMC+
+#EXTINF:-1 group-title="Movies" tvg-id="AMC+" tvg-name="AMC+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/AMC%2B_logo.png?utm_source=en.wikipedia.org&amp;utm_campaign=index&amp;utm_content=original",AMC+
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -39,9 +39,9 @@ https://1nox1-adobo.hf.space/amasian.m3u8
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://a148aivottlinear-a.akamaihd.net/OTTB/PDX/clients/dash/enc/0f5clvxn6o/out/v1/d5a953bb19734fa3baa1776266887fcb/cenc.mpd
-#EXTINF:-1 tvg-id="ANC" tvg-name="ANC" tvg-logo="https://iyadtv.pages.dev/images/anc_26.png",ANC
+#EXTINF:-1 group-title="News" tvg-id="ANC" tvg-name="ANC" tvg-logo="https://iyadtv.pages.dev/images/anc_26.png",ANC
 https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/cv5/001/2/ch00000090990000001216/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoK2PIan60vhUUxnwtpVvgcytokK1MIobcue1ImXa0ZEA%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="Animal Planet" tvg-name="Animal Planet" tvg-logo="https://iyadtv.pages.dev/images/animal-planet.svg",Animal Planet
+#EXTINF:-1 group-title="Documentaries" tvg-id="Animal Planet" tvg-name="Animal Planet" tvg-logo="https://iyadtv.pages.dev/images/animal-planet.svg",Animal Planet
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -49,7 +49,7 @@ https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/cv5/001/2/ch00
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/s/cg_animal_planet_sd/default/index.mpd
-#EXTINF:-1 tvg-id="Animax" tvg-name="Animax" tvg-logo="https://iyadtv.pages.dev/images/animax.svg",Animax
+#EXTINF:-1 group-title="Anime" tvg-id="Animax" tvg-name="Animax" tvg-logo="https://iyadtv.pages.dev/images/animax.svg",Animax
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -57,19 +57,19 @@ https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/s/cg_animal_pl
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/s/cg_animax_sd_new/default/index.mpd
-#EXTINF:-1 tvg-id="Anime All Day" tvg-name="Anime All Day" tvg-logo="https://iyadtv.pages.dev/images/anime_all_day_22.png",Anime All Day
+#EXTINF:-1 group-title="Anime" tvg-id="Anime All Day" tvg-name="Anime All Day" tvg-logo="https://iyadtv.pages.dev/images/anime_all_day_22.png",Anime All Day
 https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/plusam/USAJ3504502A
-#EXTINF:-1 tvg-id="Anime by Pluto" tvg-name="Anime by Pluto" tvg-logo="https://images.pluto.tv/channels/5812b7d3249444e05d09cc49/colorLogoPNG_1748797351518.png",Anime by Pluto
+#EXTINF:-1 group-title="Anime" tvg-id="Anime by Pluto" tvg-name="Anime by Pluto" tvg-logo="https://images.pluto.tv/channels/5812b7d3249444e05d09cc49/colorLogoPNG_1748797351518.png",Anime by Pluto
 https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/plusam/plu-5812b7d3249444e05d09cc49.m3u8
-#EXTINF:-1 tvg-id="Anime x Hidive" tvg-name="Anime x Hidive" tvg-logo="https://iyadtv.pages.dev/images/anime_x_hidive_25.png",Anime x Hidive
+#EXTINF:-1 group-title="Anime" tvg-id="Anime x Hidive" tvg-name="Anime x Hidive" tvg-logo="https://iyadtv.pages.dev/images/anime_x_hidive_25.png",Anime x Hidive
 https://ec48e468.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEdfQU5JTUV4SElESVZFX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-id="Aniplus" tvg-name="Aniplus" tvg-logo="https://iyadtv.pages.dev/images/aniplus.svg",Aniplus
+#EXTINF:-1 group-title="Anime" tvg-id="Aniplus" tvg-name="Aniplus" tvg-logo="https://iyadtv.pages.dev/images/aniplus.svg",Aniplus
 https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/playlist.m3u8
-#EXTINF:-1 tvg-id="Arirang" tvg-name="Arirang" tvg-logo="https://iyadtv.pages.dev/images/arirang.svg",Arirang
+#EXTINF:-1 group-title="Entertainment" tvg-id="Arirang" tvg-name="Arirang" tvg-logo="https://iyadtv.pages.dev/images/arirang.svg",Arirang
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8
-#EXTINF:-1 tvg-id="Asian Crush" tvg-name="Asian Crush" tvg-logo="https://iyadtv.pages.dev/images/asian_crush_28.png",Asian Crush
+#EXTINF:-1 group-title="Entertainment" tvg-id="Asian Crush" tvg-name="Asian Crush" tvg-logo="https://iyadtv.pages.dev/images/asian_crush_28.png",Asian Crush
 https://cineverse.g-mana.live/media/1ebfbe30-c35c-4404-8bc5-0339d750eb58/mainManifest.m3u8
-#EXTINF:-1 tvg-id="Asian Food Network" tvg-name="Asian Food Network" tvg-logo="https://iyadtv.pages.dev/images/asian_food_network_29.png",Asian Food Network
+#EXTINF:-1 group-title="Lifestyle" tvg-id="Asian Food Network" tvg-name="Asian Food Network" tvg-logo="https://iyadtv.pages.dev/images/asian_food_network_29.png",Asian Food Network
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -77,9 +77,9 @@ https://cineverse.g-mana.live/media/1ebfbe30-c35c-4404-8bc5-0339d750eb58/mainMan
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/s/asianfoodnetwork_sd/default/index.mpd
-#EXTINF:-1 tvg-id="AVL TV" tvg-name="AVL TV" tvg-logo="https://cdn.iyad.space/avl.avif",AVL TV
+#EXTINF:-1 group-title="General" tvg-id="AVL TV" tvg-name="AVL TV" tvg-logo="https://cdn.iyad.space/avl.avif",AVL TV
 https://avlmedianetwork.vonnhost1.workers.dev/avl.live.m3u8
-#EXTINF:-1 tvg-id="AXN" tvg-name="AXN" tvg-logo="https://iyadtv.pages.dev/images/axn_30.png",AXN
+#EXTINF:-1 group-title="Entertainment" tvg-id="AXN" tvg-name="AXN" tvg-logo="https://iyadtv.pages.dev/images/axn_30.png",AXN
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -87,9 +87,9 @@ https://avlmedianetwork.vonnhost1.workers.dev/avl.live.m3u8
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/s/cg_axn_sd/default/index.mpd
-#EXTINF:-1 tvg-id="BBC CBeebies" tvg-name="BBC CBeebies" tvg-logo="https://iyadtv.pages.dev/images/cbeebies.png",BBC CBeebies
+#EXTINF:-1 group-title="Kids" tvg-id="BBC CBeebies" tvg-name="BBC CBeebies" tvg-logo="https://iyadtv.pages.dev/images/cbeebies.png",BBC CBeebies
 https://rise2the.top/aldous/1793999767/mXvSF6o-M5AixQdvn63vFQ/hls/cbee/stream.m3u8
-#EXTINF:-1 tvg-id="BBC Earth" tvg-name="BBC Earth" tvg-logo="https://cms.bbcasia.com/sites/default/files/2023-09/BBC-Earth-YouTube-Stacked.png",BBC Earth
+#EXTINF:-1 group-title="Documentaries" tvg-id="BBC Earth" tvg-name="BBC Earth" tvg-logo="https://cms.bbcasia.com/sites/default/files/2023-09/BBC-Earth-YouTube-Stacked.png",BBC Earth
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -97,7 +97,7 @@ https://rise2the.top/aldous/1793999767/mXvSF6o-M5AixQdvn63vFQ/hls/cbee/stream.m3
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999767/mXvSF6o-M5AixQdvn63vFQ/s/cg_bbcearth_hd1/default/index.mpd
-#EXTINF:-1 tvg-id="BBC Lifestyle" tvg-name="BBC Lifestyle" tvg-logo="https://iyadtv.pages.dev/images/bbc_lifestyle_35.png",BBC Lifestyle
+#EXTINF:-1 group-title="Lifestyle" tvg-id="BBC Lifestyle" tvg-name="BBC Lifestyle" tvg-logo="https://iyadtv.pages.dev/images/bbc_lifestyle_35.png",BBC Lifestyle
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -105,17 +105,17 @@ https://ovh.rise2the.top/aldous/1793999767/mXvSF6o-M5AixQdvn63vFQ/s/cg_bbcearth_
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999767/mXvSF6o-M5AixQdvn63vFQ/s/cg_bbclifestyle/default/index.mpd
-#EXTINF:-1 tvg-id="BBC News" tvg-name="BBC News" tvg-logo="https://cdn.iyad.space/bbcnews.png",BBC News
+#EXTINF:-1 group-title="News" tvg-id="BBC News" tvg-name="BBC News" tvg-logo="https://cdn.iyad.space/bbcnews.png",BBC News
 https://ovh.rise2the.top/aldous/1793999767/mXvSF6o-M5AixQdvn63vFQ/cv4/001/2/ch00000090990000001095/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAqx1PFsBS2oDQ%2F0bDb4P2SmsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="BeIn Sports" tvg-name="BeIn Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/2016_beIN_Sports_logo.svg/langfr-330px-2016_beIN_Sports_logo.svg.png",BeIn Sports
+#EXTINF:-1 group-title="Sports" tvg-id="BeIn Sports" tvg-name="BeIn Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/2016_beIN_Sports_logo.svg/langfr-330px-2016_beIN_Sports_logo.svg.png",BeIn Sports
 https://tvsen6.aynaott.com/beinsports/index.m3u8?e=1784102515&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=67d5960a5b93b5cfcf562312b4627330
-#EXTINF:-1 tvg-id="Billiard TV" tvg-name="Billiard TV" tvg-logo="https://iyadtv.pages.dev/images/billiard_tv_37.png",Billiard TV
+#EXTINF:-1 group-title="Sports" tvg-id="Billiard TV" tvg-name="Billiard TV" tvg-logo="https://iyadtv.pages.dev/images/billiard_tv_37.png",Billiard TV
 https://1b29dd71cd5e4191a3eb26afff631ed3.mediatailor.us-west-2.amazonaws.com/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SportsTribal-BilliardTV/BILLIARDTV_SCTE.m3u8
-#EXTINF:-1 tvg-id="Bilyonaryo" tvg-name="Bilyonaryo" tvg-logo="https://iyadtv.pages.dev/images/bilyonaryo_38.png",Bilyonaryo
+#EXTINF:-1 group-title="News" tvg-id="Bilyonaryo" tvg-name="Bilyonaryo" tvg-logo="https://iyadtv.pages.dev/images/bilyonaryo_38.png",Bilyonaryo
 https://amg19223-amg19223c11-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c11-amgplt0352/playlist.m3u8
-#EXTINF:-1 tvg-id="Blast Movies" tvg-name="Blast Movies" tvg-logo="https://iyadtv.pages.dev/images/blast_movies_39.png",Blast Movies
+#EXTINF:-1 group-title="Movies" tvg-id="Blast Movies" tvg-name="Blast Movies" tvg-logo="https://iyadtv.pages.dev/images/blast_movies_39.png",Blast Movies
 https://amg19223-amg19223c7-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c7-amgplt0351/playlist.m3u8
-#EXTINF:-1 tvg-id="Bloomberg" tvg-name="Bloomberg" tvg-logo="https://iyadtv.pages.dev/images/bloomberg_41.png",Bloomberg
+#EXTINF:-1 group-title="News" tvg-id="Bloomberg" tvg-name="Bloomberg" tvg-logo="https://iyadtv.pages.dev/images/bloomberg_41.png",Bloomberg
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -123,7 +123,7 @@ https://amg19223-amg19223c7-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-a
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999767/mXvSF6o-M5AixQdvn63vFQ/s/bloomberg_sd/default/index.mpd
-#EXTINF:-1 tvg-id="Boing" tvg-name="Boing" tvg-logo="https://iyadtv.pages.dev/images/boing_42.png",Boing
+#EXTINF:-1 group-title="Kids" tvg-id="Boing" tvg-name="Boing" tvg-logo="https://iyadtv.pages.dev/images/boing_42.png",Boing
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -131,13 +131,13 @@ https://ovh.rise2the.top/aldous/1793999767/mXvSF6o-M5AixQdvn63vFQ/s/bloomberg_sd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://cache02.zapitv.com/live/eds_c2/boing/dash_live_ez/boing.mpd
-#EXTINF:-1 tvg-id="BOOMERANG" tvg-name="BOOMERANG" tvg-logo="https://iyadtv.pages.dev/images/boomerang_43.png",BOOMERANG
+#EXTINF:-1 group-title="Kids" tvg-id="BOOMERANG" tvg-name="BOOMERANG" tvg-logo="https://iyadtv.pages.dev/images/boomerang_43.png",BOOMERANG
 https://ovh.rise2the.top/aldous/1793999767/mXvSF6o-M5AixQdvn63vFQ/move1/USA_BOOMERANG/index.m3u8
-#EXTINF:-1 tvg-id="BS10 + more Converge Channels" tvg-name="BS10 + more Converge Channels" tvg-logo="https://cdn.iyad.space/bs10.png",BS10 + more Converge Channels
+#EXTINF:-1 group-title="General" tvg-id="BS10 + more Converge Channels" tvg-name="BS10 + more Converge Channels" tvg-logo="https://cdn.iyad.space/bs10.png",BS10 + more Converge Channels
 https://ovh.rise2the.top/aldous/1793999768/UDYisu9zCjOktDJzkxLfeA/cv9/001/2/ch00000090990000001202/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAo5DOWlb1sl%2Btaq5YYAtO9QsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="Cartoon Channel PH" tvg-name="Cartoon Channel PH" tvg-logo="https://iyadtv.pages.dev/images/cartoon_channel_ph_47.png",Cartoon Channel PH
+#EXTINF:-1 group-title="Kids" tvg-id="Cartoon Channel PH" tvg-name="Cartoon Channel PH" tvg-logo="https://iyadtv.pages.dev/images/cartoon_channel_ph_47.png",Cartoon Channel PH
 https://live20.bozztv.com/giatvplayout7/giatv-209905/playlist.m3u8
-#EXTINF:-1 tvg-id="Cartoon Network" tvg-name="Cartoon Network" tvg-logo="https://iyadtv.pages.dev/images/cartoon_network_48.png",Cartoon Network
+#EXTINF:-1 group-title="Kids" tvg-id="Cartoon Network" tvg-name="Cartoon Network" tvg-logo="https://iyadtv.pages.dev/images/cartoon_network_48.png",Cartoon Network
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -145,9 +145,9 @@ https://live20.bozztv.com/giatvplayout7/giatv-209905/playlist.m3u8
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999768/UDYisu9zCjOktDJzkxLfeA/s/cartoonnetworkhd/default/index.mpd
-#EXTINF:-1 tvg-id="Cartoonito" tvg-name="Cartoonito" tvg-logo="https://iyadtv.pages.dev/images/cartoonito_46.png",Cartoonito
+#EXTINF:-1 group-title="Kids" tvg-id="Cartoonito" tvg-name="Cartoonito" tvg-logo="https://iyadtv.pages.dev/images/cartoonito_46.png",Cartoonito
 https://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://iyadtv.pages.dev/images/cctv4_49.png",CCTV4
+#EXTINF:-1 group-title="News" tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://iyadtv.pages.dev/images/cctv4_49.png",CCTV4
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -155,15 +155,15 @@ https://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999767/mXvSF6o-M5AixQdvn63vFQ/s/dr_cctv4/default/index.mpd
-#EXTINF:-1 tvg-id="Celestial Classic Movies" tvg-name="Celestial Classic Movies" tvg-logo="https://iyadtv.pages.dev/images/celestial_classic_movies_51.png",Celestial Classic Movies
+#EXTINF:-1 group-title="Movies" tvg-id="Celestial Classic Movies" tvg-name="Celestial Classic Movies" tvg-logo="https://iyadtv.pages.dev/images/celestial_classic_movies_51.png",Celestial Classic Movies
 https://ovh.rise2the.top/aldous/1793999767/mXvSF6o-M5AixQdvn63vFQ/cv2/001/2/ch00000090990000001244/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAp8jImOa2AKrqwa1m%2FJfhcesyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="Celestial Movies Pinoy" tvg-name="Celestial Movies Pinoy" tvg-logo="https://iyadtv.pages.dev/images/celestial_movies_pinoy_52.png",Celestial Movies Pinoy
+#EXTINF:-1 group-title="Movies" tvg-id="Celestial Movies Pinoy" tvg-name="Celestial Movies Pinoy" tvg-logo="https://iyadtv.pages.dev/images/celestial_movies_pinoy_52.png",Celestial Movies Pinoy
 https://ovh.rise2the.top/aldous/1793999768/UDYisu9zCjOktDJzkxLfeA/cv4/001/2/ch00000090990000001077/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMArHUpvQtyXgWxpVCozt4hcgsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="CGTN Documentary" tvg-name="CGTN Documentary" tvg-logo="https://iyadtv.pages.dev/images/cgtn_documentary_53.png",CGTN Documentary
+#EXTINF:-1 group-title="Documentaries" tvg-id="CGTN Documentary" tvg-name="CGTN Documentary" tvg-logo="https://iyadtv.pages.dev/images/cgtn_documentary_53.png",CGTN Documentary
 https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
-#EXTINF:-1 tvg-id="Channel News Asia" tvg-name="Channel News Asia" tvg-logo="https://iyadtv.pages.dev/images/channel_news_asia_54.png",Channel News Asia
+#EXTINF:-1 group-title="News" tvg-id="Channel News Asia" tvg-name="Channel News Asia" tvg-logo="https://iyadtv.pages.dev/images/channel_news_asia_54.png",Channel News Asia
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
-#EXTINF:-1 tvg-id="CinemaOne" tvg-name="CinemaOne" tvg-logo="https://iyadtv.pages.dev/images/cinemaone.svg",CinemaOne
+#EXTINF:-1 group-title="Movies" tvg-id="CinemaOne" tvg-name="CinemaOne" tvg-logo="https://iyadtv.pages.dev/images/cinemaone.svg",CinemaOne
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -171,7 +171,7 @@ https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-cinemaone-dash-abscbnono/index.mpd
-#EXTINF:-1 tvg-id="Cinemax" tvg-name="Cinemax" tvg-logo="https://iyadtv.pages.dev/images/cinemax_60.png",Cinemax
+#EXTINF:-1 group-title="Movies" tvg-id="Cinemax" tvg-name="Cinemax" tvg-logo="https://iyadtv.pages.dev/images/cinemax_60.png",Cinemax
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -179,13 +179,13 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-cinemaone-dash-abscbn
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/107/107.mpd
-#EXTINF:-1 tvg-id="CineMo!" tvg-name="CineMo!" tvg-logo="https://iyadtv.pages.dev/images/cinemo__57.png",CineMo!
+#EXTINF:-1 group-title="Movies" tvg-id="CineMo!" tvg-name="CineMo!" tvg-logo="https://iyadtv.pages.dev/images/cinemo__57.png",CineMo!
 https://d1bail49udbz1k.cloudfront.net/out/v1/78e282e04f0944f3ad0aa1db7a1be645/index.m3u8
-#EXTINF:-1 tvg-id="CLTV36" tvg-name="CLTV36" tvg-logo="https://iyadtv.pages.dev/images/cltv36_61.png",CLTV36
+#EXTINF:-1 group-title="General" tvg-id="CLTV36" tvg-name="CLTV36" tvg-logo="https://iyadtv.pages.dev/images/cltv36_61.png",CLTV36
 https://live.cltv36.tv:5443/LiveApp/streams/cltvlive.m3u8
-#EXTINF:-1 tvg-id="CNBC" tvg-name="CNBC" tvg-logo="https://iyadtv.pages.dev/images/cnbc.png",CNBC
+#EXTINF:-1 group-title="News" tvg-id="CNBC" tvg-name="CNBC" tvg-logo="https://iyadtv.pages.dev/images/cnbc.png",CNBC
 https://ovh.rise2the.top/aldous/1793999768/UDYisu9zCjOktDJzkxLfeA/cv8/001/2/ch00000090990000001344/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMApysTfm9HUYOIUKeEg06TC92%2FjHNuou2Jtxin49X3LQKw%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="CNN HD" tvg-name="CNN HD" tvg-logo="https://iyadtv.pages.dev/images/cnn_63.png",CNN HD
+#EXTINF:-1 group-title="News" tvg-id="CNN HD" tvg-name="CNN HD" tvg-logo="https://iyadtv.pages.dev/images/cnn_63.png",CNN HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -193,11 +193,11 @@ https://ovh.rise2the.top/aldous/1793999768/UDYisu9zCjOktDJzkxLfeA/cv8/001/2/ch00
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999768/UDYisu9zCjOktDJzkxLfeA/s/cg_cnnhd/default/index.mpd
-#EXTINF:-1 tvg-id="Comedy Central" tvg-name="Comedy Central" tvg-logo="https://cdn.iyad.space/comcen.png",Comedy Central
+#EXTINF:-1 group-title="Entertainment" tvg-id="Comedy Central" tvg-name="Comedy Central" tvg-logo="https://cdn.iyad.space/comcen.png",Comedy Central
 https://ovh.rise2the.top/aldous/1793999768/UDYisu9zCjOktDJzkxLfeA/plusam/plu-5ca671f215a62078d2ec0abf.m3u8
-#EXTINF:-1 tvg-id="Concert Channel" tvg-name="Concert Channel" tvg-logo="https://images.pluto.tv/channels/6868152657543d1f8be4ece3/colorLogoPNG_1751652184592.png",Concert Channel
+#EXTINF:-1 group-title="Music" tvg-id="Concert Channel" tvg-name="Concert Channel" tvg-logo="https://images.pluto.tv/channels/6868152657543d1f8be4ece3/colorLogoPNG_1751652184592.png",Concert Channel
 https://ovh.rise2the.top/aldous/1793999768/UDYisu9zCjOktDJzkxLfeA/plusam/plu-6868152657543d1f8be4ece3.m3u8
-#EXTINF:-1 tvg-id="CRIME INVESTIGATION" tvg-name="CRIME INVESTIGATION" tvg-logo="https://iyadtv.pages.dev/images/crime_investigation_65.png",CRIME INVESTIGATION
+#EXTINF:-1 group-title="Documentaries" tvg-id="CRIME INVESTIGATION" tvg-name="CRIME INVESTIGATION" tvg-logo="https://iyadtv.pages.dev/images/crime_investigation_65.png",CRIME INVESTIGATION
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -205,15 +205,15 @@ https://ovh.rise2the.top/aldous/1793999768/UDYisu9zCjOktDJzkxLfeA/plusam/plu-686
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999768/UDYisu9zCjOktDJzkxLfeA/s/crime_invest/default/index.mpd
-#EXTINF:-1 tvg-id="Crunchyroll" tvg-name="Crunchyroll" tvg-logo="https://iyadtv.pages.dev/images/crunchyroll_66.png",Crunchyroll
+#EXTINF:-1 group-title="Anime" tvg-id="Crunchyroll" tvg-name="Crunchyroll" tvg-logo="https://iyadtv.pages.dev/images/crunchyroll_66.png",Crunchyroll
 https://a3c4ecbd.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEdfQ3J1bmNoeXJvbGxfSExT/playlist.m3u8
-#EXTINF:-1 tvg-id="Curiosity Now" tvg-name="Curiosity Now" tvg-logo="https://iyadtv.pages.dev/images/curiosity_now_69.png",Curiosity Now
+#EXTINF:-1 group-title="Documentaries" tvg-id="Curiosity Now" tvg-name="Curiosity Now" tvg-logo="https://iyadtv.pages.dev/images/curiosity_now_69.png",Curiosity Now
 https://amg00170-curiositystream-amg00170c3-rakuten-us-2289.playouts.now.amagi.tv/playlist/amg00170-curiositystreamllcfast-curiositynowrow-rakutenus/playlist.m3u8
-#EXTINF:-1 tvg-id="Danger TV" tvg-name="Danger TV" tvg-logo="https://cdn.iyad.space/dangertv.png",Danger TV
+#EXTINF:-1 group-title="Documentaries" tvg-id="Danger TV" tvg-name="Danger TV" tvg-logo="https://cdn.iyad.space/dangertv.png",Danger TV
 https://d2e596wr2jmq0r.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-thh836k5h4fyb/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=CA1300002XC
-#EXTINF:-1 tvg-id="DAZN" tvg-name="DAZN" tvg-logo="https://cdn.iyad.space/dazn.png",DAZN
+#EXTINF:-1 group-title="Sports" tvg-id="DAZN" tvg-name="DAZN" tvg-logo="https://cdn.iyad.space/dazn.png",DAZN
 https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/hls/dazn/stream.m3u8
-#EXTINF:-1 tvg-id="DepEd TV" tvg-name="DepEd TV" tvg-logo="https://iyadtv.pages.dev/images/deped_channel_70.png",DepEd TV
+#EXTINF:-1 group-title="Education" tvg-id="DepEd TV" tvg-name="DepEd TV" tvg-logo="https://iyadtv.pages.dev/images/deped_channel_70.png",DepEd TV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -221,9 +221,9 @@ https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/hls/dazn/strea
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999768/UDYisu9zCjOktDJzkxLfeA/s/depedch_sd/default/index.mpd
-#EXTINF:-1 tvg-id="Discovery Asia" tvg-name="Discovery Asia" tvg-logo="https://iyadtv.pages.dev/images/discovery_asia_71.png",Discovery Asia
+#EXTINF:-1 group-title="Documentaries" tvg-id="Discovery Asia" tvg-name="Discovery Asia" tvg-logo="https://iyadtv.pages.dev/images/discovery_asia_71.png",Discovery Asia
 https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/cv9/001/2/ch00000090990000001334/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAqvvSnkxKfMhap8P4VuFwrV2%2FjHNuou2Jtxin49X3LQKw%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="Discovery Channel" tvg-name="Discovery Channel" tvg-logo="https://iyadtv.pages.dev/images/discovery-channel.svg",Discovery Channel
+#EXTINF:-1 group-title="Documentaries" tvg-id="Discovery Channel" tvg-name="Discovery Channel" tvg-logo="https://iyadtv.pages.dev/images/discovery-channel.svg",Discovery Channel
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -231,9 +231,9 @@ https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/cv9/001/2/ch00
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/s/discovery/default/index.mpd
-#EXTINF:-1 tvg-id="Discovery Family" tvg-name="Discovery Family" tvg-logo="https://cdn.iyad.space/dfc.png",Discovery Family
+#EXTINF:-1 group-title="Documentaries" tvg-id="Discovery Family" tvg-name="Discovery Family" tvg-logo="https://cdn.iyad.space/dfc.png",Discovery Family
 https://tvsen5.aynaott.com/discoveryfamily/index.m3u8?e=1784102581&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=7551ec4daacd3d773ab2a992615f1f6c
-#EXTINF:-1 tvg-id="Discovery Science" tvg-name="Discovery Science" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Discovery_Science_Canada_2011.PNG/250px-Discovery_Science_Canada_2011.PNG",Discovery Science
+#EXTINF:-1 group-title="Documentaries" tvg-id="Discovery Science" tvg-name="Discovery Science" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Discovery_Science_Canada_2011.PNG/250px-Discovery_Science_Canada_2011.PNG",Discovery Science
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -241,7 +241,7 @@ https://tvsen5.aynaott.com/discoveryfamily/index.m3u8?e=1784102581&u=ee5437a7-c1
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://login.bheem.tv/bpk-tv/22647/output/index.mpd?
-#EXTINF:-1 tvg-id="Discovery Turbo" tvg-name="Discovery Turbo" tvg-logo="https://iyadtv.pages.dev/images/discovery_turbo_78.png",Discovery Turbo
+#EXTINF:-1 group-title="Documentaries" tvg-id="Discovery Turbo" tvg-name="Discovery Turbo" tvg-logo="https://iyadtv.pages.dev/images/discovery_turbo_78.png",Discovery Turbo
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -249,9 +249,9 @@ https://login.bheem.tv/bpk-tv/22647/output/index.mpd?
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryturbo2/default/manifest.mpd
-#EXTINF:-1 tvg-id="Disney Channel" tvg-name="Disney Channel" tvg-logo="https://iyadtv.pages.dev/images/disney_channel_79.png",Disney Channel
+#EXTINF:-1 group-title="Kids" tvg-id="Disney Channel" tvg-name="Disney Channel" tvg-logo="https://iyadtv.pages.dev/images/disney_channel_79.png",Disney Channel
 https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/hls/disneychannel/stream.m3u8
-#EXTINF:-1 tvg-id="DMAX" tvg-name="DMAX" tvg-logo="https://iyadtv.pages.dev/images/dmax_82.png",DMAX
+#EXTINF:-1 group-title="Documentaries" tvg-id="DMAX" tvg-name="DMAX" tvg-logo="https://iyadtv.pages.dev/images/dmax_82.png",DMAX
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -259,9 +259,9 @@ https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/hls/disneychan
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/dmax.smil/manifest.mpd
-#EXTINF:-1 tvg-id="Dream TV PH" tvg-name="Dream TV PH" tvg-logo="https://iyadtv.pages.dev/images/dream_tv_ph_84.png",Dream TV PH
+#EXTINF:-1 group-title="General" tvg-id="Dream TV PH" tvg-name="Dream TV PH" tvg-logo="https://iyadtv.pages.dev/images/dream_tv_ph_84.png",Dream TV PH
 https://live20.bozztv.com/giatvplayout7/giatv-209574/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Dreamworks HD" tvg-name="Dreamworks HD" tvg-logo="https://iyadtv.pages.dev/images/dreamworks_hd_85.png",Dreamworks HD
+#EXTINF:-1 group-title="Kids" tvg-id="Dreamworks HD" tvg-name="Dreamworks HD" tvg-logo="https://iyadtv.pages.dev/images/dreamworks_hd_85.png",Dreamworks HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -269,9 +269,9 @@ https://live20.bozztv.com/giatvplayout7/giatv-209574/tracks-v1a1/mono.m3u8
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/s/cg_dreamworks_hd1/default/index.mpd
-#EXTINF:-1 tvg-id="DW News" tvg-name="DW News" tvg-logo="https://cdn.iyad.space/images/dw-news.png",DW News
+#EXTINF:-1 group-title="News" tvg-id="DW News" tvg-name="DW News" tvg-logo="https://cdn.iyad.space/images/dw-news.png",DW News
 https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/cv8/001/2/ch00000090990000001166/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAoTcUYwq3PMi%2FTObKiSY6bDsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="DZMM Teleradyo" tvg-name="DZMM Teleradyo" tvg-logo="https://iyadtv.pages.dev/images/dzmm_teleradyo_89.png",DZMM Teleradyo
+#EXTINF:-1 group-title="News" tvg-id="DZMM Teleradyo" tvg-name="DZMM Teleradyo" tvg-logo="https://iyadtv.pages.dev/images/dzmm_teleradyo_89.png",DZMM Teleradyo
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -279,21 +279,21 @@ https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/cv8/001/2/ch00
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-teleradyo-dash-abscbnono/index.mpd
-#EXTINF:-1 tvg-id="DZRH TV" tvg-name="DZRH TV" tvg-logo="https://iyadtv.pages.dev/images/dzrh-tv.svg",DZRH TV
+#EXTINF:-1 group-title="News" tvg-id="DZRH TV" tvg-name="DZRH TV" tvg-logo="https://iyadtv.pages.dev/images/dzrh-tv.svg",DZRH TV
 https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/cv1/001/2/ch00000090990000001174/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAorTFLlVQhyuanlrUuZnA07syK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="EDGE SPORT" tvg-name="EDGE SPORT" tvg-logo="https://cdn.iyad.space/images/edge.png",EDGE SPORT
+#EXTINF:-1 group-title="Sports" tvg-id="EDGE SPORT" tvg-name="EDGE SPORT" tvg-logo="https://cdn.iyad.space/images/edge.png",EDGE SPORT
 https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/cv2/001/2/ch00000090990000001406/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMArD3MimqPOP6OVIBIcXmXdD2%2FjHNuou2Jtxin49X3LQKw%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="ESPN" tvg-name="ESPN" tvg-logo="https://iyadtv.pages.dev/images/espn.svg",ESPN
+#EXTINF:-1 group-title="Sports" tvg-id="ESPN" tvg-name="ESPN" tvg-logo="https://iyadtv.pages.dev/images/espn.svg",ESPN
 https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/usa-s/ESPN-HD/index.m3u8
-#EXTINF:-1 tvg-id="Euro News." tvg-name="Euro News." tvg-logo="https://i.ibb.co/mr4gLvgn/image-2026-06-08-132221236.png",Euro News.
+#EXTINF:-1 group-title="News" tvg-id="Euro News." tvg-name="Euro News." tvg-logo="https://i.ibb.co/mr4gLvgn/image-2026-06-08-132221236.png",Euro News.
 https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/cv4/001/2/ch00000090990000001336/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAqhLZBm9kWDyfiRCDGdvX2q2%2FjHNuou2Jtxin49X3LQKw%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="Evolution Earth" tvg-name="Evolution Earth" tvg-logo="https://cdn.iyad.space/images/evolution-earth.png",Evolution Earth
+#EXTINF:-1 group-title="Documentaries" tvg-id="Evolution Earth" tvg-name="Evolution Earth" tvg-logo="https://cdn.iyad.space/images/evolution-earth.png",Evolution Earth
 https://d3em2dvvzq3oj4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-23j2wegjm8ftd/Evolution_Earth.m3u8
-#EXTINF:-1 tvg-id="EWTN" tvg-name="EWTN" tvg-logo="https://play-lh.googleusercontent.com/3716tvZCgzpIt-X1giV8jKwCdC8zwOI4eMUfO_ETWzNX6eGKIi2RiUK9a_fr6BCzjw",EWTN
+#EXTINF:-1 group-title="Faith" tvg-id="EWTN" tvg-name="EWTN" tvg-logo="https://play-lh.googleusercontent.com/3716tvZCgzpIt-X1giV8jKwCdC8zwOI4eMUfO_ETWzNX6eGKIi2RiUK9a_fr6BCzjw",EWTN
 https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/cv2/001/2/ch00000090990000001104/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMArqe%2B6z8S0P4H4d709E7gynsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="FailArmy" tvg-name="FailArmy" tvg-logo="https://iyadtv.pages.dev/images/failarmy_92.png",FailArmy
+#EXTINF:-1 group-title="Entertainment" tvg-id="FailArmy" tvg-name="FailArmy" tvg-logo="https://iyadtv.pages.dev/images/failarmy_92.png",FailArmy
 https://b5b2d4f7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYXVfRmFpbEFybXlfSExT/playlist.m3u8
-#EXTINF:-1 tvg-id="Fashion TV HD" tvg-name="Fashion TV HD" tvg-logo="https://iyadtv.pages.dev/images/fashion_tv_hd_93.png",Fashion TV HD
+#EXTINF:-1 group-title="Lifestyle" tvg-id="Fashion TV HD" tvg-name="Fashion TV HD" tvg-logo="https://iyadtv.pages.dev/images/fashion_tv_hd_93.png",Fashion TV HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -301,13 +301,13 @@ https://b5b2d4f7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYX
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/s/fashiontvhd/default/index.mpd
-#EXTINF:-1 tvg-id="Fight Network" tvg-name="Fight Network" tvg-logo="https://iyadtv.pages.dev/images/fight_network_94.png",Fight Network
+#EXTINF:-1 group-title="Sports" tvg-id="Fight Network" tvg-name="Fight Network" tvg-logo="https://iyadtv.pages.dev/images/fight_network_94.png",Fight Network
 https://amg00966-amg00966c10-amgplt0201.playout.now3.amagi.tv/playlist/amg00966-amg00966c10-amgplt0201/playlist.m3u8
-#EXTINF:-1 tvg-id="Filmrise Anime" tvg-name="Filmrise Anime" tvg-logo="https://images.plex.tv/photo?size=large-1920&amp;scale=1&amp;url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2Fcff7361f-e0ba-4aeb-9251-9530f4eb1d80%2FFilmRise_Anime_1500x1000_Light_Logo.png",Filmrise Anime
+#EXTINF:-1 group-title="Anime" tvg-id="Filmrise Anime" tvg-name="Filmrise Anime" tvg-logo="https://images.plex.tv/photo?size=large-1920&amp;scale=1&amp;url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2Fcff7361f-e0ba-4aeb-9251-9530f4eb1d80%2FFilmRise_Anime_1500x1000_Light_Logo.png",Filmrise Anime
 https://dvu7aia8rjlfm.cloudfront.net/master.m3u8
-#EXTINF:-1 tvg-id="FITE 24/7" tvg-name="FITE 24/7" tvg-logo="https://iyadtv.pages.dev/images/fite_24_7_99.png",FITE 24/7
+#EXTINF:-1 group-title="Sports" tvg-id="FITE 24/7" tvg-name="FITE 24/7" tvg-logo="https://iyadtv.pages.dev/images/fite_24_7_99.png",FITE 24/7
 https://a-cdn.klowdtv.com/live2/fite247_720p/chunks.m3u8
-#EXTINF:-1 tvg-id="Food Network HD" tvg-name="Food Network HD" tvg-logo="https://iyadtv.pages.dev/images/food_network_hd_100.png",Food Network HD
+#EXTINF:-1 group-title="Lifestyle" tvg-id="Food Network HD" tvg-name="Food Network HD" tvg-logo="https://iyadtv.pages.dev/images/food_network_hd_100.png",Food Network HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -315,7 +315,7 @@ https://a-cdn.klowdtv.com/live2/fite247_720p/chunks.m3u8
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/s/cg_foodnetwork_hd1/default/index.mpd
-#EXTINF:-1 tvg-id="FOX" tvg-name="FOX" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/48/FOX_wordmark-orange_2.svg",FOX
+#EXTINF:-1 group-title="Entertainment" tvg-id="FOX" tvg-name="FOX" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/48/FOX_wordmark-orange_2.svg",FOX
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -323,13 +323,13 @@ https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/s/cg_foodnetwo
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd
-#EXTINF:-1 tvg-id="Fox Sports 1" tvg-name="Fox Sports 1" tvg-logo="https://static-media.fox.com/fmc/prod/network_assets/FS1_Color@3x.png",Fox Sports 1
+#EXTINF:-1 group-title="Sports" tvg-id="Fox Sports 1" tvg-name="Fox Sports 1" tvg-logo="https://static-media.fox.com/fmc/prod/network_assets/FS1_Color@3x.png",Fox Sports 1
 https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/usa-s/FOX-SPORTS-1/index.m3u8
-#EXTINF:-1 tvg-id="FRANCE 24" tvg-name="FRANCE 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png?_=20180409235622",FRANCE 24
+#EXTINF:-1 group-title="News" tvg-id="FRANCE 24" tvg-name="FRANCE 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png?_=20180409235622",FRANCE 24
 https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
-#EXTINF:-1 tvg-id="Global Fashion Channel" tvg-name="Global Fashion Channel" tvg-logo="https://iyadtv.pages.dev/images/global_fashion_channel_111.png",Global Fashion Channel
+#EXTINF:-1 group-title="Lifestyle" tvg-id="Global Fashion Channel" tvg-name="Global Fashion Channel" tvg-logo="https://iyadtv.pages.dev/images/global_fashion_channel_111.png",Global Fashion Channel
 https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/cdbe280e-0aea-4bbe-861f-fd115abcfec7_1080p.m3u8
-#EXTINF:-1 tvg-id="Global Trekker" tvg-name="Global Trekker" tvg-logo="https://iyadtv.pages.dev/images/global_trekker_112.png",Global Trekker
+#EXTINF:-1 group-title="Documentaries" tvg-id="Global Trekker" tvg-name="Global Trekker" tvg-logo="https://iyadtv.pages.dev/images/global_trekker_112.png",Global Trekker
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -337,9 +337,9 @@ https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/s/globaltrekker/default/index.mpd
-#EXTINF:-1 tvg-id="GMA" tvg-name="GMA" tvg-logo="https://iyadtv.pages.dev/images/gma_kapuso_105.png",GMA
+#EXTINF:-1 group-title="Entertainment" tvg-id="GMA" tvg-name="GMA" tvg-logo="https://iyadtv.pages.dev/images/gma_kapuso_105.png",GMA
 https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/hls/gma/stream.m3u8
-#EXTINF:-1 tvg-id="GMA Life TV" tvg-name="GMA Life TV" tvg-logo="https://iyadtv.pages.dev/images/gma_life_tv_108.png",GMA Life TV
+#EXTINF:-1 group-title="Lifestyle" tvg-id="GMA Life TV" tvg-name="GMA Life TV" tvg-logo="https://iyadtv.pages.dev/images/gma_life_tv_108.png",GMA Life TV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -347,7 +347,7 @@ https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/hls/gma/stream
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://abslive.akamaized.net/dash/live/2099522/glife3/manifest.mpd
-#EXTINF:-1 tvg-id="GMA News TV" tvg-name="GMA News TV" tvg-logo="https://iyadtv.pages.dev/images/gma-news-tv.svg",GMA News TV
+#EXTINF:-1 group-title="News" tvg-id="GMA News TV" tvg-name="GMA News TV" tvg-logo="https://iyadtv.pages.dev/images/gma-news-tv.svg",GMA News TV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -355,7 +355,7 @@ https://abslive.akamaized.net/dash/live/2099522/glife3/manifest.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://abslive.akamaized.net/dash/live/2099522/gnews3/manifest.mpd
-#EXTINF:-1 tvg-id="GMA Pinoy TV" tvg-name="GMA Pinoy TV" tvg-logo="https://iyadtv.pages.dev/images/gma-pinoy-tv.svg",GMA Pinoy TV
+#EXTINF:-1 group-title="Entertainment" tvg-id="GMA Pinoy TV" tvg-name="GMA Pinoy TV" tvg-logo="https://iyadtv.pages.dev/images/gma-pinoy-tv.svg",GMA Pinoy TV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -363,23 +363,23 @@ https://abslive.akamaized.net/dash/live/2099522/gnews3/manifest.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://abslive.akamaized.net/dash/live/2099522/gmapt3/manifest.mpd
-#EXTINF:-1 tvg-id="GNN" tvg-name="GNN" tvg-logo="https://iyadtv.pages.dev/images/gnn.png",GNN
+#EXTINF:-1 group-title="News" tvg-id="GNN" tvg-name="GNN" tvg-logo="https://iyadtv.pages.dev/images/gnn.png",GNN
 https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/cv3/001/2/ch00000090990000001234/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAp6sHVPy02nySMqUY2vMm%2BjsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="Golden TV" tvg-name="Golden TV" tvg-logo="https://alpha.uscreencdn.com/396xnull/images/logotypes/36356/all-orange-logo-on-transparent-background.1694501197.png?auto=webp",Golden TV
+#EXTINF:-1 group-title="General" tvg-id="Golden TV" tvg-name="Golden TV" tvg-logo="https://alpha.uscreencdn.com/396xnull/images/logotypes/36356/all-orange-logo-on-transparent-background.1694501197.png?auto=webp",Golden TV
 https://goldentv.b-cdn.net/HLS/GOLDENTV_SCTE.m3u8
-#EXTINF:-1 tvg-id="GTV" tvg-name="GTV" tvg-logo="https://iyadtv.pages.dev/images/gtv_114.png",GTV
+#EXTINF:-1 group-title="Entertainment" tvg-id="GTV" tvg-name="GTV" tvg-logo="https://iyadtv.pages.dev/images/gtv_114.png",GTV
 https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/hls/gtv/stream.m3u8
-#EXTINF:-1 tvg-id="Hallmark" tvg-name="Hallmark" tvg-logo="https://cdn.iyad.space/hallmark.png",Hallmark
+#EXTINF:-1 group-title="Movies" tvg-id="Hallmark" tvg-name="Hallmark" tvg-logo="https://cdn.iyad.space/hallmark.png",Hallmark
 https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/hls/hallmark/stream.m3u8
-#EXTINF:-1 tvg-id="Halloween Nights" tvg-name="Halloween Nights" tvg-logo="https://cdn.iyad.space/halloween-nights.png",Halloween Nights
+#EXTINF:-1 group-title="Movies" tvg-id="Halloween Nights" tvg-name="Halloween Nights" tvg-logo="https://cdn.iyad.space/halloween-nights.png",Halloween Nights
 https://shd-amg-fast.edgenextcdn.net/tx012/playlist.m3u8
-#EXTINF:-1 tvg-id="hallypop" tvg-name="hallypop" tvg-logo="https://iyadtv.pages.dev/images/hallypop_116.png",hallypop
+#EXTINF:-1 group-title="Music" tvg-id="hallypop" tvg-name="hallypop" tvg-logo="https://iyadtv.pages.dev/images/hallypop_116.png",hallypop
 https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/cv2/001/2/ch00000090990000001152/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMArQQqEzMGzqacd7xs%2FVYEXbsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://iyadtv.pages.dev/images/hbo_117.png",HBO
+#EXTINF:-1 group-title="Movies" tvg-id="HBO" tvg-name="HBO" tvg-logo="https://iyadtv.pages.dev/images/hbo_117.png",HBO
 https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/cv1/001/2/ch00000090990000001065/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAosKg8aLji3LHWqHUI%2FwQyJsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="HBO Boxing" tvg-name="HBO Boxing" tvg-logo="https://iyadtv.pages.dev/images/hbo_boxing_119.png",HBO Boxing
+#EXTINF:-1 group-title="Sports" tvg-id="HBO Boxing" tvg-name="HBO Boxing" tvg-logo="https://iyadtv.pages.dev/images/hbo_boxing_119.png",HBO Boxing
 https://dbrb49pjoymg4.cloudfront.net/10001/99951469/hls/playlist.m3u8?ads.xumo_channelId=99951469&ads.xumo_streamId=99951469&ads.channelId=99951469&ads.channelName=WBDHBOBoxing_us&ads.caid=WBDHBOBoxing&ads.csid=xumo_[PLATFORM]_WBDHBOBoxing_ssai&ads._fw_coppa=0&ads.xumo_contentId=4315&ads.xumo_contentName=WBDHBOBoxing&ads.xumo_providerId=4315&ads.xumo_providerName=WBDHBOBoxing&ads._fw_ifa_type=[IFA_TYPE]&ads._fw_did=[IFA]&ads.amznappId=[AMZN_APP_ID]&ads.lat=[LAT]&ads.lon=[LON]&ads.os=[OS]&ads.osv=[OS_VERSION]&ads._fw_is_lat=[IS_LAT]&ads._fw_us_privacy=[CCPA_Value]&ads.genre=[CONTENT_IMDB_GENRE]&ads._fw_content_category=[IAB_content_category]&ads._fw_content_language=[content_language]&ads._fw_content_genre=[content_genre]&ads._fw_content_rating=[content_rating]&ads._fw_deviceMake=[device_make]&ads._fw_device_model=[device_model]&ads.xumo_platform=[PLATFORM]&ads.site_id=[publica_site_id]&ads.appVersion=[APP_VERSION]&ads._fw_app_bundle=[app_bundle]&ads._fw_app_store_url=[app_store_url]&ads.appName=XumoPlay
-#EXTINF:-1 tvg-id="HBO Comedy" tvg-name="HBO Comedy" tvg-logo="https://iyadtv.pages.dev/images/hbo_comedy_120.png",HBO Comedy
+#EXTINF:-1 group-title="Movies" tvg-id="HBO Comedy" tvg-name="HBO Comedy" tvg-logo="https://iyadtv.pages.dev/images/hbo_comedy_120.png",HBO Comedy
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -387,7 +387,7 @@ https://dbrb49pjoymg4.cloudfront.net/10001/99951469/hls/playlist.m3u8?ads.xumo_c
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/clients/dash/enc/f6ns8qsqde/out/v1/0827e077a8224107a1e6137627cc8198/cenc.mpd
-#EXTINF:-1 tvg-id="HBO Family" tvg-name="HBO Family" tvg-logo="https://iyadtv.pages.dev/images/hbo_family_121.png",HBO Family
+#EXTINF:-1 group-title="Movies" tvg-id="HBO Family" tvg-name="HBO Family" tvg-logo="https://iyadtv.pages.dev/images/hbo_family_121.png",HBO Family
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -395,7 +395,7 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/clients/dash/enc/f6ns8qsqde/out/v
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/106/106.mpd
-#EXTINF:-1 tvg-id="HBO Mundi" tvg-name="HBO Mundi" tvg-logo="https://cdn.iyad.space/images/hbo-mundi.png",HBO Mundi
+#EXTINF:-1 group-title="Movies" tvg-id="HBO Mundi" tvg-name="HBO Mundi" tvg-logo="https://cdn.iyad.space/images/hbo-mundi.png",HBO Mundi
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -403,9 +403,9 @@ https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/106/106.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/izzigo/live1-ott/8/HBO-MUNDI-HD-H265/default.mpd
-#EXTINF:-1 tvg-id="HBO PLUS" tvg-name="HBO PLUS" tvg-logo="https://iyadtv.pages.dev/images/hbo_plus_125.png",HBO PLUS
+#EXTINF:-1 group-title="Movies" tvg-id="HBO PLUS" tvg-name="HBO PLUS" tvg-logo="https://iyadtv.pages.dev/images/hbo_plus_125.png",HBO PLUS
 https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/hls/hboplus/stream.m3u8
-#EXTINF:-1 tvg-id="HBO POP" tvg-name="HBO POP" tvg-logo="https://iyadtv.pages.dev/images/hbo_pop_126.png",HBO POP
+#EXTINF:-1 group-title="Movies" tvg-id="HBO POP" tvg-name="HBO POP" tvg-logo="https://iyadtv.pages.dev/images/hbo_pop_126.png",HBO POP
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -413,11 +413,11 @@ https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/hls/hboplus/st
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://live3-ott.izzigo.tv/15/out/u/dash/HBO-POP-HD/default.mpd
-#EXTINF:-1 tvg-id="HBO Signature" tvg-name="HBO Signature" tvg-logo="https://iyadtv.pages.dev/images/hbo_signature_123.png",HBO Signature
+#EXTINF:-1 group-title="Movies" tvg-id="HBO Signature" tvg-name="HBO Signature" tvg-logo="https://iyadtv.pages.dev/images/hbo_signature_123.png",HBO Signature
 https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/hls/hbosig/stream.m3u8
-#EXTINF:-1 tvg-id="HBO Xtreme" tvg-name="HBO Xtreme" tvg-logo="https://iyadtv.pages.dev/images/hbo_xtreme_127.png",HBO Xtreme
+#EXTINF:-1 group-title="Movies" tvg-id="HBO Xtreme" tvg-name="HBO Xtreme" tvg-logo="https://iyadtv.pages.dev/images/hbo_xtreme_127.png",HBO Xtreme
 https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/hls/hbox/stream.m3u8
-#EXTINF:-1 tvg-id="HBO Zone" tvg-name="HBO Zone" tvg-logo="https://iyadtv.pages.dev/images/hbo_zone_128.png",HBO Zone
+#EXTINF:-1 group-title="Movies" tvg-id="HBO Zone" tvg-name="HBO Zone" tvg-logo="https://iyadtv.pages.dev/images/hbo_zone_128.png",HBO Zone
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -425,7 +425,7 @@ https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/hls/hbox/strea
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/u7xfabrc5b/out/v1/67371e988d6649afbde43ba1e9747550/cenc.mpd
-#EXTINF:-1 tvg-id="HGTV HD" tvg-name="HGTV HD" tvg-logo="https://iyadtv.pages.dev/images/hgtv_hd_130.png",HGTV HD
+#EXTINF:-1 group-title="Lifestyle" tvg-id="HGTV HD" tvg-name="HGTV HD" tvg-logo="https://iyadtv.pages.dev/images/hgtv_hd_130.png",HGTV HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -433,7 +433,7 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/u7xfabrc5b/
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/s/hgtv_hd1/default/index.mpd
-#EXTINF:-1 tvg-id="History HD" tvg-name="History HD" tvg-logo="https://iyadtv.pages.dev/images/history_hd_132.png",History HD
+#EXTINF:-1 group-title="Documentaries" tvg-id="History HD" tvg-name="History HD" tvg-logo="https://iyadtv.pages.dev/images/history_hd_132.png",History HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -441,7 +441,7 @@ https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/s/hgtv_hd1/def
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/s/dr_historyhd/default/index.mpd
-#EXTINF:-1 tvg-id="Hits HD" tvg-name="Hits HD" tvg-logo="https://iyadtv.pages.dev/images/hits_hd_133.png",Hits HD
+#EXTINF:-1 group-title="Entertainment" tvg-id="Hits HD" tvg-name="Hits HD" tvg-logo="https://iyadtv.pages.dev/images/hits_hd_133.png",Hits HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -449,7 +449,7 @@ https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/s/dr_historyhd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/s/hits_hd1/default/index.mpd
-#EXTINF:-1 tvg-id="Hits Movies" tvg-name="Hits Movies" tvg-logo="https://iyadtv.pages.dev/images/hits_movies_134.png",Hits Movies
+#EXTINF:-1 group-title="Movies" tvg-id="Hits Movies" tvg-name="Hits Movies" tvg-logo="https://iyadtv.pages.dev/images/hits_movies_134.png",Hits Movies
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -457,7 +457,7 @@ https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/s/hits_hd1/def
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/s/hitsmovies/default/index.mpd
-#EXTINF:-1 tvg-id="Hits Now" tvg-name="Hits Now" tvg-logo="https://iyadtv.pages.dev/images/hits_now_135.png",Hits Now
+#EXTINF:-1 group-title="Entertainment" tvg-id="Hits Now" tvg-name="Hits Now" tvg-logo="https://iyadtv.pages.dev/images/hits_now_135.png",Hits Now
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -465,13 +465,13 @@ https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/s/hitsmovies/d
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/s/cg_hitsnow/default/index.mpd
-#EXTINF:-1 tvg-id="HIYAH!" tvg-name="HIYAH!" tvg-logo="https://iyadtv.pages.dev/images/hiyah__136.png",HIYAH!
+#EXTINF:-1 group-title="Movies" tvg-id="HIYAH!" tvg-name="HIYAH!" tvg-logo="https://iyadtv.pages.dev/images/hiyah__136.png",HIYAH!
 https://linear-59.frequency.stream/dist/plex/59/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="Hope Channel PH" tvg-name="Hope Channel PH" tvg-logo="https://iyadtv.pages.dev/images/hope_tv_137.png",Hope Channel PH
+#EXTINF:-1 group-title="Faith" tvg-id="Hope Channel PH" tvg-name="Hope Channel PH" tvg-logo="https://iyadtv.pages.dev/images/hope_tv_137.png",Hope Channel PH
 https://jstre.am/live/jsl:nX5eC7gQvZb.m3u8
-#EXTINF:-1 tvg-id="HypeTV" tvg-name="HypeTV" tvg-logo="https://iyadtv.pages.dev/images/hypetv1.png",HypeTV
+#EXTINF:-1 group-title="General" tvg-id="HypeTV" tvg-name="HypeTV" tvg-logo="https://iyadtv.pages.dev/images/hypetv1.png",HypeTV
 https://live20.bozztv.com/giatvplayout7/giatv-211468/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="IBC13" tvg-name="IBC13" tvg-logo="https://iyadtv.pages.dev/images/ibc13_138.png",IBC13
+#EXTINF:-1 group-title="Entertainment" tvg-id="IBC13" tvg-name="IBC13" tvg-logo="https://iyadtv.pages.dev/images/ibc13_138.png",IBC13
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -479,13 +479,13 @@ https://live20.bozztv.com/giatvplayout7/giatv-211468/tracks-v1a1/mono.ts.m3u8
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/s/ibc13_sd_new/default/index.mpd
-#EXTINF:-1 tvg-id="INCTV" tvg-name="INCTV" tvg-logo="https://iyadtv.pages.dev/images/inctv_141.png",INCTV
+#EXTINF:-1 group-title="Faith" tvg-id="INCTV" tvg-name="INCTV" tvg-logo="https://iyadtv.pages.dev/images/inctv_141.png",INCTV
 https://243529.global.ssl.fastly.net/6842a712b68c56f675d988f1/live_f5ac22b0566511f0805217b960326aaa/index.fmp4.m3u8
-#EXTINF:-1 tvg-id="InWonder" tvg-name="InWonder" tvg-logo="https://iyadtv.pages.dev/images/inwonder.png",InWonder
+#EXTINF:-1 group-title="Documentaries" tvg-id="InWonder" tvg-name="InWonder" tvg-logo="https://iyadtv.pages.dev/images/inwonder.png",InWonder
 https://amg00861-terninternation-inwonder-samsungau-1k63k.amagi.tv/playlist/amg00861-terninternation-inwonder-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-id="ION" tvg-name="ION" tvg-logo="https://iyadtv.pages.dev/images/ion.svg",ION
+#EXTINF:-1 group-title="Entertainment" tvg-id="ION" tvg-name="ION" tvg-logo="https://iyadtv.pages.dev/images/ion.svg",ION
 https://live-manifest.production-public.tubi.io/live/cadd5511-0fda-4045-94b6-4dd982fa63e7/playlist.m3u8
-#EXTINF:-1 tvg-id="Jeepney TV" tvg-name="Jeepney TV" tvg-logo="https://iyadtv.pages.dev/images/jeepney_tv_142.png",Jeepney TV
+#EXTINF:-1 group-title="Entertainment" tvg-id="Jeepney TV" tvg-name="Jeepney TV" tvg-logo="https://iyadtv.pages.dev/images/jeepney_tv_142.png",Jeepney TV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -493,9 +493,9 @@ https://live-manifest.production-public.tubi.io/live/cadd5511-0fda-4045-94b6-4dd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://abslive.akamaized.net/dash/live/2027618/jeepneytv/manifest.mpd
-#EXTINF:-1 tvg-id="Just for Laughs Gags" tvg-name="Just for Laughs Gags" tvg-logo="https://iyadtv.pages.dev/images/just_for_laughs_gags_144.png",Just for Laughs Gags
+#EXTINF:-1 group-title="Entertainment" tvg-id="Just for Laughs Gags" tvg-name="Just for Laughs Gags" tvg-logo="https://iyadtv.pages.dev/images/just_for_laughs_gags_144.png",Just for Laughs Gags
 https://dtqutq7lmcchv.cloudfront.net/10001/99991204/hls/master.m3u8?ads.xumo_channelId=99991204&ads
-#EXTINF:-1 tvg-id="Kapamilya Channel" tvg-name="Kapamilya Channel" tvg-logo="https://iyadtv.pages.dev/images/kapamilya_channel_146.png",Kapamilya Channel
+#EXTINF:-1 group-title="Entertainment" tvg-id="Kapamilya Channel" tvg-name="Kapamilya Channel" tvg-logo="https://iyadtv.pages.dev/images/kapamilya_channel_146.png",Kapamilya Channel
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -503,11 +503,11 @@ https://dtqutq7lmcchv.cloudfront.net/10001/99991204/hls/master.m3u8?ads.xumo_cha
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-kapcha-dash-abscbnono/index.mpd
-#EXTINF:-1 tvg-id="Kapamilya Channel HD" tvg-name="Kapamilya Channel HD" tvg-logo="https://iyadtv.pages.dev/images/kapamilya_channel_hd.png",Kapamilya Channel HD
+#EXTINF:-1 group-title="Entertainment" tvg-id="Kapamilya Channel HD" tvg-name="Kapamilya Channel HD" tvg-logo="https://iyadtv.pages.dev/images/kapamilya_channel_hd.png",Kapamilya Channel HD
 https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/hls/kapamilyahd/stream.m3u8
-#EXTINF:-1 tvg-id="Kartoon Channel" tvg-name="Kartoon Channel" tvg-logo="https://iyadtv.pages.dev/images/kartoon_channel_148.png",Kartoon Channel
+#EXTINF:-1 group-title="Kids" tvg-id="Kartoon Channel" tvg-name="Kartoon Channel" tvg-logo="https://iyadtv.pages.dev/images/kartoon_channel_148.png",Kartoon Channel
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-kartoonchannel-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="KBS World" tvg-name="KBS World" tvg-logo="https://iyadtv.pages.dev/images/kbs_world_149.png",KBS World
+#EXTINF:-1 group-title="Entertainment" tvg-id="KBS World" tvg-name="KBS World" tvg-logo="https://iyadtv.pages.dev/images/kbs_world_149.png",KBS World
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -515,11 +515,11 @@ https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-kartoonchan
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/s/kbsworld/default/index.mpd
-#EXTINF:-1 tvg-id="Kids TV" tvg-name="Kids TV" tvg-logo="https://cdn.iyad.space/kids-tv.avif",Kids TV
+#EXTINF:-1 group-title="Kids" tvg-id="Kids TV" tvg-name="Kids TV" tvg-logo="https://cdn.iyad.space/kids-tv.avif",Kids TV
 https://wurljansonmedia.global.transmit.live/hls/69029561e0b3f0f215eef867/playlist.m3u8?wurl_channel=1379&wurl_name=KidsTV&coppa=1&uid=[DEVICE_ID]&rdid=[IFA]&ifatype=[IFA_TYPE]&dnt=[LMT]&donotsell=[DNS]&isgdpr=[GDPR]&gdpr=[GDPR_CONSENT]&country=[COUNTRY]&pr=[US_PRIVACY]&appstoreurl=[APP_STOREURL]&bundleid=[APP_BUNDLE]&appname=[APP_NAME]&appversion=[APP_VERSION]&dt=[DEVICE_TYPE]&make=[DEVICE_MAKE]&model=[DEVICE_MODEL]&targetad=[TARGETAD_ALLOWED]&fck=[FCK]&viewsize=[VIEWSIZE]&nonce=[NONCE]
-#EXTINF:-1 tvg-id="Kidsflix" tvg-name="Kidsflix" tvg-logo="https://iyadtv.pages.dev/images/kidsflix_152.png",Kidsflix
+#EXTINF:-1 group-title="Kids" tvg-id="Kidsflix" tvg-name="Kidsflix" tvg-logo="https://iyadtv.pages.dev/images/kidsflix_152.png",Kidsflix
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50
-#EXTINF:-1 tvg-id="Kix HD" tvg-name="Kix HD" tvg-logo="https://iyadtv.pages.dev/images/kix_hd_154.png",Kix HD
+#EXTINF:-1 group-title="Entertainment" tvg-id="Kix HD" tvg-name="Kix HD" tvg-logo="https://iyadtv.pages.dev/images/kix_hd_154.png",Kix HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -527,7 +527,7 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/s/kix_hd1/default/index.mpd
-#EXTINF:-1 tvg-id="Knowledge Channel" tvg-name="Knowledge Channel" tvg-logo="https://iyadtv.pages.dev/images/knowledge_channel_156.png",Knowledge Channel
+#EXTINF:-1 group-title="Education" tvg-id="Knowledge Channel" tvg-name="Knowledge Channel" tvg-logo="https://iyadtv.pages.dev/images/knowledge_channel_156.png",Knowledge Channel
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -535,11 +535,11 @@ https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/s/kix_hd1/defa
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://abslive.akamaized.net/dash/live/2027618/kc/manifest.mpd
-#EXTINF:-1 tvg-id="Kpop TV Play" tvg-name="Kpop TV Play" tvg-logo="https://iyadtv.pages.dev/images/kpop_tv_play_157.png",Kpop TV Play
+#EXTINF:-1 group-title="Music" tvg-id="Kpop TV Play" tvg-name="Kpop TV Play" tvg-logo="https://iyadtv.pages.dev/images/kpop_tv_play_157.png",Kpop TV Play
 https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
-#EXTINF:-1 tvg-id="KroneHit TV" tvg-name="KroneHit TV" tvg-logo="https://cdn.iyad.space/images/kronehit.png",KroneHit TV
+#EXTINF:-1 group-title="Music" tvg-id="KroneHit TV" tvg-name="KroneHit TV" tvg-logo="https://cdn.iyad.space/images/kronehit.png",KroneHit TV
 https://bitcdn-kronehit.bitmovin.com/v2/hls/fluxustv.m3u8
-#EXTINF:-1 tvg-id="Lifetime" tvg-name="Lifetime" tvg-logo="https://iyadtv.pages.dev/images/lifetime_159.png",Lifetime
+#EXTINF:-1 group-title="Entertainment" tvg-id="Lifetime" tvg-name="Lifetime" tvg-logo="https://iyadtv.pages.dev/images/lifetime_159.png",Lifetime
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -547,9 +547,9 @@ https://bitcdn-kronehit.bitmovin.com/v2/hls/fluxustv.m3u8
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999772/IBmq8Ikz3oGLUZ8lDc2o6A/s/dr_lifetime/default/index.mpd
-#EXTINF:-1 tvg-id="Light TV" tvg-name="Light TV" tvg-logo="https://iyadtv.pages.dev/images/light_tv_160.png",Light TV
+#EXTINF:-1 group-title="Faith" tvg-id="Light TV" tvg-name="Light TV" tvg-logo="https://iyadtv.pages.dev/images/light_tv_160.png",Light TV
 https://ovh.rise2the.top/aldous/1793999772/IBmq8Ikz3oGLUZ8lDc2o6A/cv3/001/2/ch00000090990000001103/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAqkZ6SnNx3gh97OtxQ2ygibsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="Lotus Macau" tvg-name="Lotus Macau" tvg-logo="https://iyadtv.pages.dev/images/lotus_macau_162.png",Lotus Macau
+#EXTINF:-1 group-title="Movies" tvg-id="Lotus Macau" tvg-name="Lotus Macau" tvg-logo="https://iyadtv.pages.dev/images/lotus_macau_162.png",Lotus Macau
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -557,7 +557,7 @@ https://ovh.rise2the.top/aldous/1793999772/IBmq8Ikz3oGLUZ8lDc2o6A/cv3/001/2/ch00
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999772/IBmq8Ikz3oGLUZ8lDc2o6A/s/lotusmacau_prd/default/index.mpd
-#EXTINF:-1 tvg-id="Media Pilipinas TV" tvg-name="Media Pilipinas TV" tvg-logo="https://iyadtv.pages.dev/images/media_pilipinas_tv_173.png",Media Pilipinas TV
+#EXTINF:-1 group-title="General" tvg-id="Media Pilipinas TV" tvg-name="Media Pilipinas TV" tvg-logo="https://iyadtv.pages.dev/images/media_pilipinas_tv_173.png",Media Pilipinas TV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -565,17 +565,17 @@ https://ovh.rise2the.top/aldous/1793999772/IBmq8Ikz3oGLUZ8lDc2o6A/s/lotusmacau_p
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999772/IBmq8Ikz3oGLUZ8lDc2o6A/s/cg_mptv/default/index.mpd
-#EXTINF:-1 tvg-id="Metro Channel" tvg-name="Metro Channel" tvg-logo="https://iyadtv.pages.dev/images/metro_channel_166.png",Metro Channel
+#EXTINF:-1 group-title="Lifestyle" tvg-id="Metro Channel" tvg-name="Metro Channel" tvg-logo="https://iyadtv.pages.dev/images/metro_channel_166.png",Metro Channel
 https://ovh.rise2the.top/aldous/1793999772/IBmq8Ikz3oGLUZ8lDc2o6A/cv2/001/2/ch00000090990000001267/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAr4hyjlpFsJWrmHS5nwWoXTsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="Mindanow Network" tvg-name="Mindanow Network" tvg-logo="https://iyadtv.pages.dev/images/mindanow_network_165.png",Mindanow Network
+#EXTINF:-1 group-title="General" tvg-id="Mindanow Network" tvg-name="Mindanow Network" tvg-logo="https://iyadtv.pages.dev/images/mindanow_network_165.png",Mindanow Network
 https://cdn.vegasplus.us/vegas/mmn01/playlist.m3u8
-#EXTINF:-1 tvg-id="MIRAMAX" tvg-name="MIRAMAX" tvg-logo="https://iyadtv.pages.dev/images/miramax.png",MIRAMAX
+#EXTINF:-1 group-title="Movies" tvg-id="MIRAMAX" tvg-name="MIRAMAX" tvg-logo="https://iyadtv.pages.dev/images/miramax.png",MIRAMAX
 https://linear-798.frequency.stream/mt/plex/798/hls/master/playlist_1920x1080.m3u8
-#EXTINF:-1 tvg-id="MLB Network" tvg-name="MLB Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/MLBNetworkLogo.svg/500px-MLBNetworkLogo.svg.png",MLB Network
+#EXTINF:-1 group-title="Sports" tvg-id="MLB Network" tvg-name="MLB Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/MLBNetworkLogo.svg/500px-MLBNetworkLogo.svg.png",MLB Network
 https://ovh.rise2the.top/aldous/1793999772/IBmq8Ikz3oGLUZ8lDc2o6A/hls/mlbnetwork/stream.m3u8
-#EXTINF:-1 tvg-id="MMA-TV" tvg-name="MMA-TV" tvg-logo="https://iyadtv.pages.dev/images/mma_tv_97.png",MMA-TV
+#EXTINF:-1 group-title="Sports" tvg-id="MMA-TV" tvg-name="MMA-TV" tvg-logo="https://iyadtv.pages.dev/images/mma_tv_97.png",MMA-TV
 https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
-#EXTINF:-1 tvg-id="MNX HD" tvg-name="MNX HD" tvg-logo="https://iyadtv.pages.dev/images/mnx-hd.svg",MNX HD
+#EXTINF:-1 group-title="Movies" tvg-id="MNX HD" tvg-name="MNX HD" tvg-logo="https://iyadtv.pages.dev/images/mnx-hd.svg",MNX HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -583,7 +583,7 @@ https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://times-ott-live.akamaized.net/mnxhd_wv_drm/index.mpd
-#EXTINF:-1 tvg-id="Moonbug Kids" tvg-name="Moonbug Kids" tvg-logo="https://iyadtv.pages.dev/images/moonbug_kids_169.png",Moonbug Kids
+#EXTINF:-1 group-title="Kids" tvg-id="Moonbug Kids" tvg-name="Moonbug Kids" tvg-logo="https://iyadtv.pages.dev/images/moonbug_kids_169.png",Moonbug Kids
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -591,7 +591,7 @@ https://times-ott-live.akamaized.net/mnxhd_wv_drm/index.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999772/IBmq8Ikz3oGLUZ8lDc2o6A/s/cg_moonbug_kids_sd/default/index.mpd
-#EXTINF:-1 tvg-id="MOR Entertainment" tvg-name="MOR Entertainment" tvg-logo="https://iyadtv.pages.dev/images/mor_entertainment_170.png",MOR Entertainment
+#EXTINF:-1 group-title="Music" tvg-id="MOR Entertainment" tvg-name="MOR Entertainment" tvg-logo="https://iyadtv.pages.dev/images/mor_entertainment_170.png",MOR Entertainment
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -599,13 +599,13 @@ https://ovh.rise2the.top/aldous/1793999772/IBmq8Ikz3oGLUZ8lDc2o6A/s/cg_moonbug_k
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://abslive.akamaized.net/dash/live/2027618/mor/manifest.mpd
-#EXTINF:-1 tvg-id="MotoGP Channel" tvg-name="MotoGP Channel" tvg-logo="https://provider-static.plex.tv/epg/cms/production/d5b19340-b4d9-498d-8f89-2a69bc30fc4b/MotoGPChannel_1500x1000_logo_for_dark_bgd_-_Eddie_Hunter-Higgins.png",MotoGP Channel
+#EXTINF:-1 group-title="Sports" tvg-id="MotoGP Channel" tvg-name="MotoGP Channel" tvg-logo="https://provider-static.plex.tv/epg/cms/production/d5b19340-b4d9-498d-8f89-2a69bc30fc4b/MotoGPChannel_1500x1000_logo_for_dark_bgd_-_Eddie_Hunter-Higgins.png",MotoGP Channel
 https://d1kqz1q7knpsue.cloudfront.net/MotoGP.m3u8
-#EXTINF:-1 tvg-id="Movie Sphere" tvg-name="Movie Sphere" tvg-logo="https://iyadtv.pages.dev/images/movie-sphere2.png",Movie Sphere
+#EXTINF:-1 group-title="Movies" tvg-id="Movie Sphere" tvg-name="Movie Sphere" tvg-logo="https://iyadtv.pages.dev/images/movie-sphere2.png",Movie Sphere
 https://i.mjh.nz/.r/sky-ptms.m3u8
-#EXTINF:-1 tvg-id="MovieBoxPH" tvg-name="MovieBoxPH" tvg-logo="https://iyadtv.pages.dev/images/movieboxph_171.png",MovieBoxPH
+#EXTINF:-1 group-title="Movies" tvg-id="MovieBoxPH" tvg-name="MovieBoxPH" tvg-logo="https://iyadtv.pages.dev/images/movieboxph_171.png",MovieBoxPH
 https://live20.bozztv.com/giatvplayout7/giatv-210731/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="Movies Now" tvg-name="Movies Now" tvg-logo="https://iyadtv.pages.dev/images/movies-now.svg",Movies Now
+#EXTINF:-1 group-title="Movies" tvg-id="Movies Now" tvg-name="Movies Now" tvg-logo="https://iyadtv.pages.dev/images/movies-now.svg",Movies Now
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -613,11 +613,11 @@ https://live20.bozztv.com/giatvplayout7/giatv-210731/tracks-v1a1/mono.ts.m3u8
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd
-#EXTINF:-1 tvg-id="Mr Beast" tvg-name="Mr Beast" tvg-logo="https://cdn.iyad.space/images/mrbeast.png",Mr Beast
+#EXTINF:-1 group-title="Entertainment" tvg-id="Mr Beast" tvg-name="Mr Beast" tvg-logo="https://cdn.iyad.space/images/mrbeast.png",Mr Beast
 https://live-manifest.production-public.tubi.io/live/e8f55e68-0e26-44f2-afac-c132218b4ce9/playlist.m3u8
-#EXTINF:-1 tvg-id="Mr. Bean" tvg-name="Mr. Bean" tvg-logo="https://occ-0-2218-2219.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABbRwik6Z4qzsGK35BQwWH4OnDlHaAWQpMKO7yY1djYpGJrL6MvHF1ewYxmphLAmzAa4fN1EU_OJ6r5dO3MlNHS1c5LocnS8dLsA.png",Mr. Bean
+#EXTINF:-1 group-title="Kids" tvg-id="Mr. Bean" tvg-name="Mr. Bean" tvg-logo="https://occ-0-2218-2219.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABbRwik6Z4qzsGK35BQwWH4OnDlHaAWQpMKO7yY1djYpGJrL6MvHF1ewYxmphLAmzAa4fN1EU_OJ6r5dO3MlNHS1c5LocnS8dLsA.png",Mr. Bean
 https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8
-#EXTINF:-1 tvg-id="MTV" tvg-name="MTV" tvg-logo="https://iyadtv.pages.dev/images/mtv_174.png",MTV
+#EXTINF:-1 group-title="Music" tvg-id="MTV" tvg-name="MTV" tvg-logo="https://iyadtv.pages.dev/images/mtv_174.png",MTV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -625,13 +625,13 @@ https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg0
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://cache4.zapitv.com/live/eds_c2/mtv_espana/dash_live_ez/mtv_espana.mpd
-#EXTINF:-1 tvg-id="MUX DOS" tvg-name="MUX DOS" tvg-logo="https://cdn.iyad.space/images/mux-dos.png",MUX DOS
+#EXTINF:-1 group-title="General" tvg-id="MUX DOS" tvg-name="MUX DOS" tvg-logo="https://cdn.iyad.space/images/mux-dos.png",MUX DOS
 https://live20.bozztv.com/giatvplayout7/giatv-209333/playlist.m3u8
-#EXTINF:-1 tvg-id="Mysterious Worlds" tvg-name="Mysterious Worlds" tvg-logo="https://image.xumo.com/v1/channels/channel/99951398/168x168.png?type=color_onBlack",Mysterious Worlds
+#EXTINF:-1 group-title="Documentaries" tvg-id="Mysterious Worlds" tvg-name="Mysterious Worlds" tvg-logo="https://image.xumo.com/v1/channels/channel/99951398/168x168.png?type=color_onBlack",Mysterious Worlds
 https://dbrb49pjoymg4.cloudfront.net/10001/99951398/hls/playlist.m3u8?includeAssetTags=true&ads.xumo_channelId=99951398&ads.xumo_streamId=99951398&ads.channelId=99951398&ads.channelName=WBDMysteriousWorlds&ads.caid=WBDMysteriousWorlds&ads.csid=xumo_web_WBDMysteriousWorlds_ssai&ads.genre=Entertainment,Drama,GV,GD&ads._fw_content_genre=Entertainment,Drama,GV,GD&ads._fw_coppa=0&ads.xumo_contentId=4206&ads.xumo_contentName=WBDMysteriousWorlds&ads.xumo_providerId=4206&ads.xumo_providerName=WBDMysteriousWorlds&ads.asnw=&ads.xumo_channelName=WBDMysteriousWorlds&ads._fw_h_x_country=US&ads._fw_ifa_type=&ads._fw_did=ce47cf46-c295-4a04-b99e-fcb123a5bb3b&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.xumo_platform=web&ads.site_id=&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads.appName=xumo
-#EXTINF:-1 tvg-id="Mythbusters" tvg-name="Mythbusters" tvg-logo="https://iyadtv.pages.dev/images/mythbusters_178.png",Mythbusters
+#EXTINF:-1 group-title="Documentaries" tvg-id="Mythbusters" tvg-name="Mythbusters" tvg-logo="https://iyadtv.pages.dev/images/mythbusters_178.png",Mythbusters
 https://amg00627-amg00627c14-samsung-ph-4556.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mythbusters-samsungph/playlist.m3u8
-#EXTINF:-1 tvg-id="MYX" tvg-name="MYX" tvg-logo="https://iyadtv.pages.dev/images/myx_179.png",MYX
+#EXTINF:-1 group-title="Music" tvg-id="MYX" tvg-name="MYX" tvg-logo="https://iyadtv.pages.dev/images/myx_179.png",MYX
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -639,7 +639,7 @@ https://amg00627-amg00627c14-samsung-ph-4556.playouts.now.amagi.tv/playlist/amg0
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-myxnola-dash-abscbnono/index.mpd
-#EXTINF:-1 tvg-id="National Geographic" tvg-name="National Geographic" tvg-logo="https://iyadtv.pages.dev/images/national_geographic_181.png",National Geographic
+#EXTINF:-1 group-title="Documentaries" tvg-id="National Geographic" tvg-name="National Geographic" tvg-logo="https://iyadtv.pages.dev/images/national_geographic_181.png",National Geographic
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -647,7 +647,7 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-myxnola-dash-abscbnon
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://cache3.zapitv.com/live/eds_c2/nat_geographic_hd/dash_live_ez/nat_geographic_hd.mpd
-#EXTINF:-1 tvg-id="NBA TV" tvg-name="NBA TV" tvg-logo="https://iyadtv.pages.dev/images/nba_tv_184.png",NBA TV
+#EXTINF:-1 group-title="Sports" tvg-id="NBA TV" tvg-name="NBA TV" tvg-logo="https://iyadtv.pages.dev/images/nba_tv_184.png",NBA TV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -655,7 +655,7 @@ https://cache3.zapitv.com/live/eds_c2/nat_geographic_hd/dash_live_ez/nat_geograp
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/2jbycgm3g3/out/v1/066dd9325648468c9ecdc8b272370931/cenc.mpd
-#EXTINF:-1 tvg-id="NBA TV Philippines" tvg-name="NBA TV Philippines" tvg-logo="https://iyadtv.pages.dev/images/nba_tv_philippines_185.png",NBA TV Philippines
+#EXTINF:-1 group-title="Sports" tvg-id="NBA TV Philippines" tvg-name="NBA TV Philippines" tvg-logo="https://iyadtv.pages.dev/images/nba_tv_philippines_185.png",NBA TV Philippines
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -663,7 +663,7 @@ https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/2jbycgm3g3/
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999773/M_RvmUzCvhWvgTC4LzoR1Q/s/cgnl_nba/default/index.mpd
-#EXTINF:-1 tvg-id="NCAA NXT" tvg-name="NCAA NXT" tvg-logo="https://cdn.iyad.space/ncaa-nxt.png",NCAA NXT
+#EXTINF:-1 group-title="Sports" tvg-id="NCAA NXT" tvg-name="NCAA NXT" tvg-logo="https://cdn.iyad.space/ncaa-nxt.png",NCAA NXT
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -671,13 +671,13 @@ https://ovh.rise2the.top/aldous/1793999773/M_RvmUzCvhWvgTC4LzoR1Q/s/cgnl_nba/def
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999773/M_RvmUzCvhWvgTC4LzoR1Q/s/cg_ncaa/default/index.mpd
-#EXTINF:-1 tvg-id="Net25" tvg-name="Net25" tvg-logo="https://iyadtv.pages.dev/images/net25_186.png",Net25
+#EXTINF:-1 group-title="Entertainment" tvg-id="Net25" tvg-name="Net25" tvg-logo="https://iyadtv.pages.dev/images/net25_186.png",Net25
 https://ovh.rise2the.top/aldous/1793999773/M_RvmUzCvhWvgTC4LzoR1Q/hls/net25/stream.m3u8
-#EXTINF:-1 tvg-id="New KMovies" tvg-name="New KMovies" tvg-logo="https://iyadtv.pages.dev/images/k_movies_155.png",New KMovies
+#EXTINF:-1 group-title="Movies" tvg-id="New KMovies" tvg-name="New KMovies" tvg-logo="https://iyadtv.pages.dev/images/k_movies_155.png",New KMovies
 https://wurlnewidco.global.transmit.live/hls/6994cc64f98934b03cb940b7/v1/new_id_co_newkmovies_2/lg_us/latest/main/hls/manifest.m3u8?wurl_channel=2191&wurl_name=NewKMovies&coppa=0&uid=[DEVICE_ID]&rdid=[IFA]&ifatype=[IFA_TYPE]&dnt=[LMT]&donotsell=[DNS]&isgdpr=[GDPR]&gdpr=[GDPR_CONSENT]&country=[COUNTRY]&pr=[US_PRIVACY]&appstoreurl=[APP_STOREURL]&bundleid=[APP_BUNDLE]&appname=[APP_NAME]&appversion=[APP_VERSION]&dt=[DEVICE_TYPE]&make=[DEVICE_MAKE]&model=[DEVICE_MODEL]&targetad=[TARGETAD_ALLOWED]&fck=[FCK]&viewsize=[VIEWSIZE]&nonce=[NONCE]
-#EXTINF:-1 tvg-id="NHK World Japan" tvg-name="NHK World Japan" tvg-logo="https://iyadtv.pages.dev/images/nhk_world_japan_188.png",NHK World Japan
+#EXTINF:-1 group-title="News" tvg-id="NHK World Japan" tvg-name="NHK World Japan" tvg-logo="https://iyadtv.pages.dev/images/nhk_world_japan_188.png",NHK World Japan
 https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon" tvg-name="Nickelodeon" tvg-logo="https://iyadtv.pages.dev/images/nickelodeon_hd_191.png",Nickelodeon
+#EXTINF:-1 group-title="Kids" tvg-id="Nickelodeon" tvg-name="Nickelodeon" tvg-logo="https://iyadtv.pages.dev/images/nickelodeon_hd_191.png",Nickelodeon
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -685,9 +685,9 @@ https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/303/303.mpd
-#EXTINF:-1 tvg-id="Nickjr" tvg-name="Nickjr" tvg-logo="https://iyadtv.pages.dev/images/nickjr_189.png",Nickjr
+#EXTINF:-1 group-title="Kids" tvg-id="Nickjr" tvg-name="Nickjr" tvg-logo="https://iyadtv.pages.dev/images/nickjr_189.png",Nickjr
 https://ovh.rise2the.top/aldous/1793999773/M_RvmUzCvhWvgTC4LzoR1Q/cv6/001/2/ch00000090990000001215/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BroUjrgwleoSk5QhQ%2F3YakaytokK1MIobcue1ImXa0ZEA%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="One News HD" tvg-name="One News HD" tvg-logo="https://iyadtv.pages.dev/images/one-news.svg",One News HD
+#EXTINF:-1 group-title="News" tvg-id="One News HD" tvg-name="One News HD" tvg-logo="https://iyadtv.pages.dev/images/one-news.svg",One News HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -695,7 +695,7 @@ https://ovh.rise2the.top/aldous/1793999773/M_RvmUzCvhWvgTC4LzoR1Q/cv6/001/2/ch00
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999773/M_RvmUzCvhWvgTC4LzoR1Q/s/onenews_hd1/default/index.mpd
-#EXTINF:-1 tvg-id="One PH" tvg-name="One PH" tvg-logo="https://iyadtv.pages.dev/images/one-ph.svg",One PH
+#EXTINF:-1 group-title="News" tvg-id="One PH" tvg-name="One PH" tvg-logo="https://iyadtv.pages.dev/images/one-ph.svg",One PH
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -703,7 +703,7 @@ https://ovh.rise2the.top/aldous/1793999773/M_RvmUzCvhWvgTC4LzoR1Q/s/onenews_hd1/
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999773/M_RvmUzCvhWvgTC4LzoR1Q/s/oneph_sd/default/index.mpd
-#EXTINF:-1 tvg-id="One Sports" tvg-name="One Sports" tvg-logo="https://iyadtv.pages.dev/images/one-sports.svg",One Sports
+#EXTINF:-1 group-title="Sports" tvg-id="One Sports" tvg-name="One Sports" tvg-logo="https://iyadtv.pages.dev/images/one-sports.svg",One Sports
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -711,13 +711,13 @@ https://ovh.rise2the.top/aldous/1793999773/M_RvmUzCvhWvgTC4LzoR1Q/s/oneph_sd/def
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/s/cg_onesports_hd/default/index.mpd
-#EXTINF:-1 tvg-id="Oras ng Himala" tvg-name="Oras ng Himala" tvg-logo="https://iyadtv.pages.dev/images/oras_ng_himala_202.png",Oras ng Himala
+#EXTINF:-1 group-title="Faith" tvg-id="Oras ng Himala" tvg-name="Oras ng Himala" tvg-logo="https://iyadtv.pages.dev/images/oras_ng_himala_202.png",Oras ng Himala
 https://ovh.rise2the.top/aldous/1793999773/M_RvmUzCvhWvgTC4LzoR1Q/cv2/001/2/ch00000090990000001175/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMApQqyrYGvsQGfBZz9lkpM7HsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="Outdoor Channel" tvg-name="Outdoor Channel" tvg-logo="https://iyadtv.pages.dev/images/outdoor_channel_200.png",Outdoor Channel
+#EXTINF:-1 group-title="Sports" tvg-id="Outdoor Channel" tvg-name="Outdoor Channel" tvg-logo="https://iyadtv.pages.dev/images/outdoor_channel_200.png",Outdoor Channel
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="Paramount Movie Channel" tvg-name="Paramount Movie Channel" tvg-logo="https://iyadtv.pages.dev/images/paramount_movie_channel_203.png",Paramount Movie Channel
+#EXTINF:-1 group-title="Movies" tvg-id="Paramount Movie Channel" tvg-name="Paramount Movie Channel" tvg-logo="https://iyadtv.pages.dev/images/paramount_movie_channel_203.png",Paramount Movie Channel
 https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/plusam/USAJ26000054W
-#EXTINF:-1 tvg-id="PBA Rush" tvg-name="PBA Rush" tvg-logo="https://iyadtv.pages.dev/images/pba_rush_205.png",PBA Rush
+#EXTINF:-1 group-title="Sports" tvg-id="PBA Rush" tvg-name="PBA Rush" tvg-logo="https://iyadtv.pages.dev/images/pba_rush_205.png",PBA Rush
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -725,7 +725,7 @@ https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/plusam/USAJ260
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/s/cg_pbarush_hd1/default/index.mpd
-#EXTINF:-1 tvg-id="PBB Collab 3.0" tvg-name="PBB Collab 3.0" tvg-logo="https://cdn.iyad.space/pbb3.0.png",PBB Collab 3.0
+#EXTINF:-1 group-title="Entertainment" tvg-id="PBB Collab 3.0" tvg-name="PBB Collab 3.0" tvg-logo="https://cdn.iyad.space/pbb3.0.png",PBB Collab 3.0
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -733,13 +733,13 @@ https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/s/cg_pbarush_h
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://abslive.akamaized.net/dash/live/2027618/pinoybigbrothercollabedition30live/manifest.mpd
-#EXTINF:-1 tvg-id="PBS Digital Studios" tvg-name="PBS Digital Studios" tvg-logo="https://iyadtv.pages.dev/images/pbs.png",PBS Digital Studios
+#EXTINF:-1 group-title="Education" tvg-id="PBS Digital Studios" tvg-name="PBS Digital Studios" tvg-logo="https://iyadtv.pages.dev/images/pbs.png",PBS Digital Studios
 https://d1l4qxz5lz9v2h.cloudfront.net/10501/88886029/hls/master.m3u8?ads.xumo_channelId=88886029
-#EXTINF:-1 tvg-id="People Are Awesome" tvg-name="People Are Awesome" tvg-logo="https://iyadtv.pages.dev/images/people_are_awesome_208.png",People Are Awesome
+#EXTINF:-1 group-title="Entertainment" tvg-id="People Are Awesome" tvg-name="People Are Awesome" tvg-logo="https://iyadtv.pages.dev/images/people_are_awesome_208.png",People Are Awesome
 https://jukin-peopleareawesome-2-ca.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Peoples Television" tvg-name="Peoples Television" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/10/People%27s_Televsion_Network_Incorporated_%28PTV%29.svg",Peoples Television
+#EXTINF:-1 group-title="News" tvg-id="Peoples Television" tvg-name="Peoples Television" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/10/People%27s_Televsion_Network_Incorporated_%28PTV%29.svg",Peoples Television
 https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/cv7/001/2/ch00000090990000001086/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAogpxrMDVv1bZ%2FeMkgHZmwQsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="Pilipinas Live" tvg-name="Pilipinas Live" tvg-logo="https://iyadtv.pages.dev/images/pilipinas_live_209.png",Pilipinas Live
+#EXTINF:-1 group-title="Sports" tvg-id="Pilipinas Live" tvg-name="Pilipinas Live" tvg-logo="https://iyadtv.pages.dev/images/pilipinas_live_209.png",Pilipinas Live
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -747,27 +747,27 @@ https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/cv7/001/2/ch00
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/s/pl_sdi1/default/index.mpd
-#EXTINF:-1 tvg-id="Pinoy Box Office" tvg-name="Pinoy Box Office" tvg-logo="https://iyadtv.pages.dev/images/pinoy_box_office_210.png",Pinoy Box Office
+#EXTINF:-1 group-title="Movies" tvg-id="Pinoy Box Office" tvg-name="Pinoy Box Office" tvg-logo="https://iyadtv.pages.dev/images/pinoy_box_office_210.png",Pinoy Box Office
 https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/cv5/001/2/ch00000090990000001078/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAq9SZLE5HgafIcQ2VcLQB9EsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="Pinoy Xtreme" tvg-name="Pinoy Xtreme" tvg-logo="https://iyadtv.pages.dev/images/pinoy_xtreme_211.png",Pinoy Xtreme
+#EXTINF:-1 group-title="Sports" tvg-id="Pinoy Xtreme" tvg-name="Pinoy Xtreme" tvg-logo="https://iyadtv.pages.dev/images/pinoy_xtreme_211.png",Pinoy Xtreme
 https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/cv5/001/2/ch00000090990000001098/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMApC219uqwL0dVmslrkAjamFsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="Popular Science" tvg-name="Popular Science" tvg-logo="https://media.unreel.me/prod/freelivesports/logo/fd143394-5285-40a8-adca-a50243e58288",Popular Science
+#EXTINF:-1 group-title="Documentaries" tvg-id="Popular Science" tvg-name="Popular Science" tvg-logo="https://media.unreel.me/prod/freelivesports/logo/fd143394-5285-40a8-adca-a50243e58288",Popular Science
 https://amg13231-actve-amg13231c5-sportstribal-emea-1269.playouts.now.amagi.tv/playlist/amg13231-actvefast-powder-sportstribalemea/playlist.m3u8
-#EXTINF:-1 tvg-id="Premier Sports" tvg-name="Premier Sports" tvg-logo="https://cdn.iyad.space/images/premier-sports.png",Premier Sports
+#EXTINF:-1 group-title="Sports" tvg-id="Premier Sports" tvg-name="Premier Sports" tvg-logo="https://cdn.iyad.space/images/premier-sports.png",Premier Sports
 https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c3-amgplt0351/playlist.m3u8
-#EXTINF:-1 tvg-id="Radyo Bandido" tvg-name="Radyo Bandido" tvg-logo="https://iyadtv.pages.dev/images/radyo_bandido_215.png",Radyo Bandido
+#EXTINF:-1 group-title="News" tvg-id="Radyo Bandido" tvg-name="Radyo Bandido" tvg-logo="https://iyadtv.pages.dev/images/radyo_bandido_215.png",Radyo Bandido
 https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/cv10/001/2/ch00000090990000001338/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAquM2DhqYshrFbBoS4HC4mc2%2FjHNuou2Jtxin49X3LQKw%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="Real Disaster Channel" tvg-name="Real Disaster Channel" tvg-logo="https://iyadtv.pages.dev/images/real_disaster_channel_216.png",Real Disaster Channel
+#EXTINF:-1 group-title="Documentaries" tvg-id="Real Disaster Channel" tvg-name="Real Disaster Channel" tvg-logo="https://iyadtv.pages.dev/images/real_disaster_channel_216.png",Real Disaster Channel
 https://linear-475.frequency.stream/dist/glewedtv/475/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="Real Wild" tvg-name="Real Wild" tvg-logo="https://iyadtv.pages.dev/images/real_wild_217.png",Real Wild
+#EXTINF:-1 group-title="Documentaries" tvg-id="Real Wild" tvg-name="Real Wild" tvg-logo="https://iyadtv.pages.dev/images/real_wild_217.png",Real Wild
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwildnz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="RedBull TV" tvg-name="RedBull TV" tvg-logo="https://img.redbull.com/images/w_450/q_auto,f_auto/redbullcom/2021/3/8/v1viztxjab9e9a6of4by/redbulltv",RedBull TV
+#EXTINF:-1 group-title="Sports" tvg-id="RedBull TV" tvg-name="RedBull TV" tvg-logo="https://img.redbull.com/images/w_450/q_auto,f_auto/redbullcom/2021/3/8/v1viztxjab9e9a6of4by/redbulltv",RedBull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
-#EXTINF:-1 tvg-id="Retro Crush" tvg-name="Retro Crush" tvg-logo="https://iyadtv.pages.dev/images/retro_crush_218.png",Retro Crush
+#EXTINF:-1 group-title="Anime" tvg-id="Retro Crush" tvg-name="Retro Crush" tvg-logo="https://iyadtv.pages.dev/images/retro_crush_218.png",Retro Crush
 https://cineverse.g-mana.live/media/ac7cff3c-5bc3-4745-ac4d-56aadb586d00/mainManifest.m3u8
-#EXTINF:-1 tvg-id="RJ Digitv" tvg-name="RJ Digitv" tvg-logo="https://iyadtv.pages.dev/images/rj_digitv_222.png",RJ Digitv
+#EXTINF:-1 group-title="General" tvg-id="RJ Digitv" tvg-name="RJ Digitv" tvg-logo="https://iyadtv.pages.dev/images/rj_digitv_222.png",RJ Digitv
 https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/cv8/001/2/ch00000090990000001159/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAreKmZs4H3Zuj6jrvRtgmFqsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="Rock Action" tvg-name="Rock Action" tvg-logo="https://iyadtv.pages.dev/images/rock-action.avif",Rock Action
+#EXTINF:-1 group-title="Movies" tvg-id="Rock Action" tvg-name="Rock Action" tvg-logo="https://iyadtv.pages.dev/images/rock-action.avif",Rock Action
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -775,9 +775,9 @@ https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/cv8/001/2/ch00
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999775/02tJNsjUhQybn-wnKoE4pQ/s/dr_rockextreme/default/index.mpd
-#EXTINF:-1 tvg-id="Rock MNL" tvg-name="Rock MNL" tvg-logo="https://iyadtv.pages.dev/images/rock_of_manila_tv_223.png",Rock MNL
+#EXTINF:-1 group-title="Music" tvg-id="Rock MNL" tvg-name="Rock MNL" tvg-logo="https://iyadtv.pages.dev/images/rock_of_manila_tv_223.png",Rock MNL
 https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/cv3/001/2/ch00000090990000001177/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAq3IoTFSryS9b7zI0P4QXhKsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="RPTV" tvg-name="RPTV" tvg-logo="https://iyadtv.pages.dev/images/rptv_226.png",RPTV
+#EXTINF:-1 group-title="Entertainment" tvg-id="RPTV" tvg-name="RPTV" tvg-logo="https://iyadtv.pages.dev/images/rptv_226.png",RPTV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -785,23 +785,23 @@ https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/cv3/001/2/ch00
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999775/02tJNsjUhQybn-wnKoE4pQ/s/cnn_rptv_prod_hd/default/index.mpd
-#EXTINF:-1 tvg-id="SBS K-Drama" tvg-name="SBS K-Drama" tvg-logo="https://iyadtv.pages.dev/images/sbs-kdrama.png",SBS K-Drama
+#EXTINF:-1 group-title="Entertainment" tvg-id="SBS K-Drama" tvg-name="SBS K-Drama" tvg-logo="https://iyadtv.pages.dev/images/sbs-kdrama.png",SBS K-Drama
 https://ads.its-newid.net/api/manifest.m3u8?tp=lg_channels&channel_name=sbsk-drama&channel_id=newid_008&mpf=c064f5f4-39af1962-6d5d5e50&apikey=48230e6b-1cea0097-15975f93-39af1962&auth=474ab4cb-5d47aa0a-84d0cbca-2a3730a6&ads.live=[CONTENT_LIVE]&ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdpr_consent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.us_privacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]
-#EXTINF:-1 tvg-id="SineManila" tvg-name="SineManila" tvg-logo="https://iyadtv.pages.dev/images/sinemanila_231.png",SineManila
+#EXTINF:-1 group-title="Movies" tvg-id="SineManila" tvg-name="SineManila" tvg-logo="https://iyadtv.pages.dev/images/sinemanila_231.png",SineManila
 https://live20.bozztv.com/giatv/giatv-sinemanila/sinemanila/playlist.m3u8
-#EXTINF:-1 tvg-id="Sky Sports F1" tvg-name="Sky Sports F1" tvg-logo="https://cdn.iyad.space/images/sp-f1.png",Sky Sports F1
+#EXTINF:-1 group-title="Sports" tvg-id="Sky Sports F1" tvg-name="Sky Sports F1" tvg-logo="https://cdn.iyad.space/images/sp-f1.png",Sky Sports F1
 https://ovh.rise2the.top/aldous/1793999775/02tJNsjUhQybn-wnKoE4pQ/hls/skysportsf1/stream.m3u8
-#EXTINF:-1 tvg-id="Smithsonian Channel" tvg-name="Smithsonian Channel" tvg-logo="https://blueantmedia.com/wp-content/uploads/2020/04/Smithsonian-Transparent.png",Smithsonian Channel
+#EXTINF:-1 group-title="Documentaries" tvg-id="Smithsonian Channel" tvg-name="Smithsonian Channel" tvg-logo="https://blueantmedia.com/wp-content/uploads/2020/04/Smithsonian-Transparent.png",Smithsonian Channel
 https://ovh.rise2the.top/aldous/1793999775/02tJNsjUhQybn-wnKoE4pQ/plusam/plu-5f21ea08007a49000762d349.m3u8
-#EXTINF:-1 tvg-id="SMNI News Channel" tvg-name="SMNI News Channel" tvg-logo="https://iyadtv.pages.dev/images/smni_news_channel_233.png",SMNI News Channel
+#EXTINF:-1 group-title="News" tvg-id="SMNI News Channel" tvg-name="SMNI News Channel" tvg-logo="https://iyadtv.pages.dev/images/smni_news_channel_233.png",SMNI News Channel
 https://stream.kdlc.click/hls/stream.m3u8
-#EXTINF:-1 tvg-id="SOLARFLIX" tvg-name="SOLARFLIX" tvg-logo="https://iyadtv.pages.dev/images/solarflix_234.png",SOLARFLIX
+#EXTINF:-1 group-title="Movies" tvg-id="SOLARFLIX" tvg-name="SOLARFLIX" tvg-logo="https://iyadtv.pages.dev/images/solarflix_234.png",SOLARFLIX
 https://ovh.rise2the.top/aldous/1793999775/02tJNsjUhQybn-wnKoE4pQ/cv1/001/2/ch00000090990000001243/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMApbUxUxZzyq5Czg7gUnQAcvsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="SOLARSPORTS" tvg-name="SOLARSPORTS" tvg-logo="https://iyadtv.pages.dev/images/solarsports_235.png",SOLARSPORTS
+#EXTINF:-1 group-title="Sports" tvg-id="SOLARSPORTS" tvg-name="SOLARSPORTS" tvg-logo="https://iyadtv.pages.dev/images/solarsports_235.png",SOLARSPORTS
 https://ovh.rise2the.top/aldous/1793999775/02tJNsjUhQybn-wnKoE4pQ/cv3/001/2/ch00000090990000001081/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMApTfGIKxFqRM2tu30PzY%2FKksyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="Sony Movies" tvg-name="Sony Movies" tvg-logo="https://iyadtv.pages.dev/images/sony-movies.png",Sony Movies
+#EXTINF:-1 group-title="Movies" tvg-id="Sony Movies" tvg-name="Sony Movies" tvg-logo="https://iyadtv.pages.dev/images/sony-movies.png",Sony Movies
 https://a-cdn.klowdtv.com/live1/smc_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="Sony One Action Hits" tvg-name="Sony One Action Hits" tvg-logo="https://moobee.click/images/s1-ah.png",Sony One Action Hits
+#EXTINF:-1 group-title="Entertainment" tvg-id="Sony One Action Hits" tvg-name="Sony One Action Hits" tvg-logo="https://moobee.click/images/s1-ah.png",Sony One Action Hits
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -809,11 +809,11 @@ https://a-cdn.klowdtv.com/live1/smc_720p/playlist.m3u8
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://a153aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/krhwmfeoay/out/v1/c5408fc1dc204decb0c5065effed0f79/cenc.mpd
-#EXTINF:-1 tvg-id="Sony Pix" tvg-name="Sony Pix" tvg-logo="https://cdn.iyad.space/sony-pix.webp",Sony Pix
+#EXTINF:-1 group-title="Movies" tvg-id="Sony Pix" tvg-name="Sony Pix" tvg-logo="https://cdn.iyad.space/sony-pix.webp",Sony Pix
 https://ovh.rise2the.top/aldous/1793999775/02tJNsjUhQybn-wnKoE4pQ/hls/sonypix/stream.m3u8
-#EXTINF:-1 tvg-id="Spotlight TV" tvg-name="Spotlight TV" tvg-logo="https://cdn.iyad.space/spotlight.png",Spotlight TV
+#EXTINF:-1 group-title="Music" tvg-id="Spotlight TV" tvg-name="Spotlight TV" tvg-logo="https://cdn.iyad.space/spotlight.png",Spotlight TV
 https://ovh.rise2the.top/aldous/1793999775/02tJNsjUhQybn-wnKoE4pQ/cv4/001/2/ch00000090990000001134/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bo5iGQ4tDytzSdpM9ehJW6pytokK1MIobcue1ImXa0ZEA%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="SPOTV" tvg-name="SPOTV" tvg-logo="https://iyadtv.pages.dev/images/spotv_238.png",SPOTV
+#EXTINF:-1 group-title="Sports" tvg-id="SPOTV" tvg-name="SPOTV" tvg-logo="https://iyadtv.pages.dev/images/spotv_238.png",SPOTV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -821,17 +821,17 @@ https://ovh.rise2the.top/aldous/1793999775/02tJNsjUhQybn-wnKoE4pQ/cv4/001/2/ch00
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/s/cg_spotvhd/default/index.mpd
-#EXTINF:-1 tvg-id="STAR Movies HD" tvg-name="STAR Movies HD" tvg-logo="https://iyadtv.pages.dev/images/star-movies.png",STAR Movies HD
+#EXTINF:-1 group-title="Movies" tvg-id="STAR Movies HD" tvg-name="STAR Movies HD" tvg-logo="https://iyadtv.pages.dev/images/star-movies.png",STAR Movies HD
 https://ovh.rise2the.top/aldous/1793999775/02tJNsjUhQybn-wnKoE4pQ/hls/starmovies/stream.m3u8
-#EXTINF:-1 tvg-id="STAR Movies Select HD" tvg-name="STAR Movies Select HD" tvg-logo="https://dtil.tmsimg.com/assets/s143830_ld_h15_aa.png",STAR Movies Select HD
+#EXTINF:-1 group-title="Movies" tvg-id="STAR Movies Select HD" tvg-name="STAR Movies Select HD" tvg-logo="https://dtil.tmsimg.com/assets/s143830_ld_h15_aa.png",STAR Movies Select HD
 https://ovh.rise2the.top/aldous/1793999775/02tJNsjUhQybn-wnKoE4pQ/hls/starmovies-s/stream.m3u8
-#EXTINF:-1 tvg-id="Star TV Philippines" tvg-name="Star TV Philippines" tvg-logo="https://iyadtv.pages.dev/images/star_tv_philippines_242.png",Star TV Philippines
+#EXTINF:-1 group-title="General" tvg-id="Star TV Philippines" tvg-name="Star TV Philippines" tvg-logo="https://iyadtv.pages.dev/images/star_tv_philippines_242.png",Star TV Philippines
 https://live20.bozztv.com/giatvplayout7/giatv-208168/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="STARZ" tvg-name="STARZ" tvg-logo="https://iyadtv.pages.dev/images/starz_243.png",STARZ
+#EXTINF:-1 group-title="Movies" tvg-id="STARZ" tvg-name="STARZ" tvg-logo="https://iyadtv.pages.dev/images/starz_243.png",STARZ
 https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/hls/starz/stream.m3u8
-#EXTINF:-1 tvg-id="STBS Global" tvg-name="STBS Global" tvg-logo="https://iyadtv.pages.dev/images/stbs_global_246.png",STBS Global
+#EXTINF:-1 group-title="General" tvg-id="STBS Global" tvg-name="STBS Global" tvg-logo="https://iyadtv.pages.dev/images/stbs_global_246.png",STBS Global
 https://live20.bozztv.com/giatvplayout7/giatv-208591/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="Studio Universal" tvg-name="Studio Universal" tvg-logo="https://cdn.iyad.space/su.png",Studio Universal
+#EXTINF:-1 group-title="Movies" tvg-id="Studio Universal" tvg-name="Studio Universal" tvg-logo="https://cdn.iyad.space/su.png",Studio Universal
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -839,7 +839,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-208591/tracks-v1a1/mono.ts.m3u8
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/s/cg_studio_universal_hd/default/index.mpd
-#EXTINF:-1 tvg-id="SYFY" tvg-name="SYFY" tvg-logo="https://iyadtv.pages.dev/images/syfy.png",SYFY
+#EXTINF:-1 group-title="Entertainment" tvg-id="SYFY" tvg-name="SYFY" tvg-logo="https://iyadtv.pages.dev/images/syfy.png",SYFY
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -847,15 +847,15 @@ https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/s/cg_studio_un
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://cache4.zapitv.com/live/eds_c2/syfy/dash_live_ez/syfy.mpd
-#EXTINF:-1 tvg-id="Tagalized Movie Channel" tvg-name="Tagalized Movie Channel" tvg-logo="https://iyadtv.pages.dev/images/tagalized_movie_channel_248.png",Tagalized Movie Channel
+#EXTINF:-1 group-title="Movies" tvg-id="Tagalized Movie Channel" tvg-name="Tagalized Movie Channel" tvg-logo="https://iyadtv.pages.dev/images/tagalized_movie_channel_248.png",Tagalized Movie Channel
 https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/cv1/001/2/ch00000090990000001080/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMArHx%2Fyl86rMkFVqtHp1NtQIsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="Taiwan Plus" tvg-name="Taiwan Plus" tvg-logo="https://play-lh.googleusercontent.com/Mz76EjIyT6tF0Q7PggP_xs41XPbTSUSEcwmZL4TG04JYGQITNiyVlvprLsv0inC2rPHeQxrh5-MgNswGmruYXII",Taiwan Plus
+#EXTINF:-1 group-title="News" tvg-id="Taiwan Plus" tvg-name="Taiwan Plus" tvg-logo="https://play-lh.googleusercontent.com/Mz76EjIyT6tF0Q7PggP_xs41XPbTSUSEcwmZL4TG04JYGQITNiyVlvprLsv0inC2rPHeQxrh5-MgNswGmruYXII",Taiwan Plus
 https://fastly.live.brightcove.com/6385235869112/ap-northeast-1/6282251407001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiaWU4OWZvLmVncmVzcy5pdjNqZDgiLCJhY2NvdW50X2lkIjoiNjI4MjI1MTQwNzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MjgyMjUxNDA3MDAxIl0sImp0aSI6IjYzODUyMzU4NjkxMTIifQ.4c-V1Ks3nBx9nRljtn5-jCNP_nLuWBbk-pw9BFWZfMQ/playlist-hls.m3u8
-#EXTINF:-1 tvg-id="Tap Action Flix" tvg-name="Tap Action Flix" tvg-logo="https://cdn.iyad.space/images/tap-action.png",Tap Action Flix
+#EXTINF:-1 group-title="Movies" tvg-id="Tap Action Flix" tvg-name="Tap Action Flix" tvg-logo="https://cdn.iyad.space/images/tap-action.png",Tap Action Flix
 https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/taf/001/2/ch00000090990000001305/manifest.mpd
-#EXTINF:-1 tvg-id="TAP Edge" tvg-name="TAP Edge" tvg-logo="https://iyadtv.pages.dev/images/tap_edge_249.png",TAP Edge
+#EXTINF:-1 group-title="Entertainment" tvg-id="TAP Edge" tvg-name="TAP Edge" tvg-logo="https://iyadtv.pages.dev/images/tap_edge_249.png",TAP Edge
 https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/cv10/001/2/ch00000090990000001150/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAq%2B2uVbDOBwGF5t4YHKR5dbsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="Tap Movies" tvg-name="Tap Movies" tvg-logo="https://iyadtv.pages.dev/images/tap_movies_251.png",Tap Movies
+#EXTINF:-1 group-title="Movies" tvg-id="Tap Movies" tvg-name="Tap Movies" tvg-logo="https://iyadtv.pages.dev/images/tap_movies_251.png",Tap Movies
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -863,7 +863,7 @@ https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/cv10/001/2/ch0
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/s/cg_tapmovies_hd1/default/index.mpd
-#EXTINF:-1 tvg-id="TAP Sports" tvg-name="TAP Sports" tvg-logo="https://iyadtv.pages.dev/images/tap_sports_250.png",TAP Sports
+#EXTINF:-1 group-title="Sports" tvg-id="TAP Sports" tvg-name="TAP Sports" tvg-logo="https://iyadtv.pages.dev/images/tap_sports_250.png",TAP Sports
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -871,17 +871,17 @@ https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/s/cg_tapmovies
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/s/dr_tapsports/default/index.mpd
-#EXTINF:-1 tvg-id="TAP TV" tvg-name="TAP TV" tvg-logo="https://iyadtv.pages.dev/images/tap_tv_252.png",TAP TV
+#EXTINF:-1 group-title="Entertainment" tvg-id="TAP TV" tvg-name="TAP TV" tvg-logo="https://iyadtv.pages.dev/images/tap_tv_252.png",TAP TV
 https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/cv7/001/2/ch00000090990000001149/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAroVo9XMLpd0k2y9rVerSvmsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="TapSILOG" tvg-name="TapSILOG" tvg-logo="https://iyadtv.pages.dev/images/tapsilog.png",TapSILOG
+#EXTINF:-1 group-title="Entertainment" tvg-id="TapSILOG" tvg-name="TapSILOG" tvg-logo="https://iyadtv.pages.dev/images/tapsilog.png",TapSILOG
 https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/hls/tapsi/stream.m3u8
-#EXTINF:-1 tvg-id="Tastemade" tvg-name="Tastemade" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/feeds/images/tastemade/Logo_WordmarkLogo_800x200px.png",Tastemade
+#EXTINF:-1 group-title="Lifestyle" tvg-id="Tastemade" tvg-name="Tastemade" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/feeds/images/tastemade/Logo_WordmarkLogo_800x200px.png",Tastemade
 https://rakutenaa-tm-intl-aus-rakuten-eu-n1gtg.amagi.tv/playlist/rakutenAA-tm-intl-aus-rakuten-eu/playlist.m3u8
-#EXTINF:-1 tvg-id="TBN Asia" tvg-name="TBN Asia" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROUq3rHesTr_yxL-GKma2lARcMxdnO30hTgwXs6YrkGQ&amp;s",TBN Asia
+#EXTINF:-1 group-title="Faith" tvg-id="TBN Asia" tvg-name="TBN Asia" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROUq3rHesTr_yxL-GKma2lARcMxdnO30hTgwXs6YrkGQ&amp;s",TBN Asia
 https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/cv9/001/2/ch00000090990000001147/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAr1gDY5x7IZ%2FDqQTvxeS3W1syK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="Tennis Channel" tvg-name="Tennis Channel" tvg-logo="https://iyadtv.pages.dev/images/tennis-channel.png",Tennis Channel
+#EXTINF:-1 group-title="Sports" tvg-id="Tennis Channel" tvg-name="Tennis Channel" tvg-logo="https://iyadtv.pages.dev/images/tennis-channel.png",Tennis Channel
 https://amg01444-tennischannelth-tennischnlintl-lggb-mr3r5.amagi.tv/playlist/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
-#EXTINF:-1 tvg-id="TFC Asia" tvg-name="TFC Asia" tvg-logo="https://iyadtv.pages.dev/images/tfc_asia_254.png",TFC Asia
+#EXTINF:-1 group-title="Entertainment" tvg-id="TFC Asia" tvg-name="TFC Asia" tvg-logo="https://iyadtv.pages.dev/images/tfc_asia_254.png",TFC Asia
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -889,9 +889,9 @@ https://amg01444-tennischannelth-tennischnlintl-lggb-mr3r5.amagi.tv/playlist/amg
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-tfcasia-dash-abscbnono/index.mpd
-#EXTINF:-1 tvg-id="The Manila Times" tvg-name="The Manila Times" tvg-logo="https://iyadtv.pages.dev/images/the_manila_times_256.png",The Manila Times
+#EXTINF:-1 group-title="News" tvg-id="The Manila Times" tvg-name="The Manila Times" tvg-logo="https://iyadtv.pages.dev/images/the_manila_times_256.png",The Manila Times
 https://customer-ksrwu2hvu2ipx2fb.cloudflarestream.com/121fd4c01c7ed1c0b1d2c6699e52309a/manifest/video.m3u8
-#EXTINF:-1 tvg-id="Thrill" tvg-name="Thrill" tvg-logo="https://iyadtv.pages.dev/images/thrill_257.png",Thrill
+#EXTINF:-1 group-title="Movies" tvg-id="Thrill" tvg-name="Thrill" tvg-logo="https://iyadtv.pages.dev/images/thrill_257.png",Thrill
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -899,11 +899,11 @@ https://customer-ksrwu2hvu2ipx2fb.cloudflarestream.com/121fd4c01c7ed1c0b1d2c6699
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/s/cg_thrill_sd/default/index.mpd
-#EXTINF:-1 tvg-id="TLC" tvg-name="TLC" tvg-logo="https://iyadtv.pages.dev/images/tlc_hd_258.png",TLC
+#EXTINF:-1 group-title="Lifestyle" tvg-id="TLC" tvg-name="TLC" tvg-logo="https://iyadtv.pages.dev/images/tlc_hd_258.png",TLC
 https://drk6xq0vhn.gpcdn.net/live/tlc_hd_abr/index.m3u8
-#EXTINF:-1 tvg-id="TNA Wrestling" tvg-name="TNA Wrestling" tvg-logo="https://iyadtv.pages.dev/images/tna_wrestling_259.png",TNA Wrestling
+#EXTINF:-1 group-title="Sports" tvg-id="TNA Wrestling" tvg-name="TNA Wrestling" tvg-logo="https://iyadtv.pages.dev/images/tna_wrestling_259.png",TNA Wrestling
 https://amg00966-amg00966c1-freelivesports-emea-7712.playouts.now.amagi.tv/playlist/amg00966-anthem-tnawrestling-freelivesportsemea/playlist.m3u8
-#EXTINF:-1 tvg-id="TNT Sports 1" tvg-name="TNT Sports 1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-1-uk.png?raw=true",TNT Sports 1
+#EXTINF:-1 group-title="Sports" tvg-id="TNT Sports 1" tvg-name="TNT Sports 1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-1-uk.png?raw=true",TNT Sports 1
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -911,13 +911,13 @@ https://amg00966-amg00966c1-freelivesports-emea-7712.playouts.now.amagi.tv/playl
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
-#EXTINF:-1 tvg-id="Tom and Jerry" tvg-name="Tom and Jerry" tvg-logo="https://iyadtv.pages.dev/images/tom_and_jerry_260.png",Tom and Jerry
+#EXTINF:-1 group-title="Kids" tvg-id="Tom and Jerry" tvg-name="Tom and Jerry" tvg-logo="https://iyadtv.pages.dev/images/tom_and_jerry_260.png",Tom and Jerry
 https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="Top Rank Classics" tvg-name="Top Rank Classics" tvg-logo="https://iyadtv.pages.dev/images/tr.png",Top Rank Classics
+#EXTINF:-1 group-title="Sports" tvg-id="Top Rank Classics" tvg-name="Top Rank Classics" tvg-logo="https://iyadtv.pages.dev/images/tr.png",Top Rank Classics
 https://aka-live1050.delivery.roku.com/d60c9b4b-2756-4dea-adfc-e9ec609b8cce/t2-origin/out/v1/live.m3u8
-#EXTINF:-1 tvg-id="Trace Urban" tvg-name="Trace Urban" tvg-logo="https://iyadtv.pages.dev/images/trace-urban.png",Trace Urban
+#EXTINF:-1 group-title="Music" tvg-id="Trace Urban" tvg-name="Trace Urban" tvg-logo="https://iyadtv.pages.dev/images/trace-urban.png",Trace Urban
 https://amg01131-amg01131c1-samsung-ph-5310.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Travel Channel" tvg-name="Travel Channel" tvg-logo="https://iyadtv.pages.dev/images/travel_channel_263.png",Travel Channel
+#EXTINF:-1 group-title="Lifestyle" tvg-id="Travel Channel" tvg-name="Travel Channel" tvg-logo="https://iyadtv.pages.dev/images/travel_channel_263.png",Travel Channel
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -925,7 +925,7 @@ https://amg01131-amg01131c1-samsung-ph-5310.playouts.now.amagi.tv/playlist.m3u8
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999777/_17zp3Nzf30BmMnFQWMa8Q/s/travel_channel_sd/default/index.mpd
-#EXTINF:-1 tvg-id="TSN" tvg-name="TSN" tvg-logo="https://www.sportspro.com/wp-content/uploads/2023/03/TSN-1.png",TSN
+#EXTINF:-1 group-title="Sports" tvg-id="TSN" tvg-name="TSN" tvg-logo="https://www.sportspro.com/wp-content/uploads/2023/03/TSN-1.png",TSN
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -933,7 +933,7 @@ https://ovh.rise2the.top/aldous/1793999777/_17zp3Nzf30BmMnFQWMa8Q/s/travel_chann
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd
-#EXTINF:-1 tvg-id="TV Maria" tvg-name="TV Maria" tvg-logo="https://iyadtv.pages.dev/images/tv_maria_266.png",TV Maria
+#EXTINF:-1 group-title="Faith" tvg-id="TV Maria" tvg-name="TV Maria" tvg-logo="https://iyadtv.pages.dev/images/tv_maria_266.png",TV Maria
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -941,7 +941,7 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/w0rehjjrwe/out/v1/6
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999777/_17zp3Nzf30BmMnFQWMa8Q/s/tvmaria_prd/default/index.mpd
-#EXTINF:-1 tvg-id="TV5" tvg-name="TV5" tvg-logo="https://iyadtv.pages.dev/images/tv5.svg",TV5
+#EXTINF:-1 group-title="Entertainment" tvg-id="TV5" tvg-name="TV5" tvg-logo="https://iyadtv.pages.dev/images/tv5.svg",TV5
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -949,7 +949,7 @@ https://ovh.rise2the.top/aldous/1793999777/_17zp3Nzf30BmMnFQWMa8Q/s/tvmaria_prd/
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999765/1ToWD3OcLTx1C8bT3mBAHA/s/tv5_hd/default1/index.mpd
-#EXTINF:-1 tvg-id="TV5 Monde" tvg-name="TV5 Monde" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Logo_TV5_Monde_-_2021.svg/960px-Logo_TV5_Monde_-_2021.svg.png",TV5 Monde
+#EXTINF:-1 group-title="Entertainment" tvg-id="TV5 Monde" tvg-name="TV5 Monde" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Logo_TV5_Monde_-_2021.svg/960px-Logo_TV5_Monde_-_2021.svg.png",TV5 Monde
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -957,7 +957,7 @@ https://ovh.rise2the.top/aldous/1793999765/1ToWD3OcLTx1C8bT3mBAHA/s/tv5_hd/defau
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999777/_17zp3Nzf30BmMnFQWMa8Q/s/dr_tv5_monde/default/index.mpd
-#EXTINF:-1 tvg-id="TVN" tvg-name="TVN" tvg-logo="https://s3.amazonaws.com/ivacy-website-images/wp-content/uploads/2020/01/19140041/1200px-Logo_tvN.svg_-1024x406.png",TVN
+#EXTINF:-1 group-title="Entertainment" tvg-id="TVN" tvg-name="TVN" tvg-logo="https://s3.amazonaws.com/ivacy-website-images/wp-content/uploads/2020/01/19140041/1200px-Logo_tvN.svg_-1024x406.png",TVN
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -965,7 +965,7 @@ https://ovh.rise2the.top/aldous/1793999777/_17zp3Nzf30BmMnFQWMa8Q/s/dr_tv5_monde
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999777/_17zp3Nzf30BmMnFQWMa8Q/s/cg_tvnpre/default/index.mpd
-#EXTINF:-1 tvg-id="TVN Movies" tvg-name="TVN Movies" tvg-logo="https://iyadtv.pages.dev/images/tvn_movies_267.png",TVN Movies
+#EXTINF:-1 group-title="Movies" tvg-id="TVN Movies" tvg-name="TVN Movies" tvg-logo="https://iyadtv.pages.dev/images/tvn_movies_267.png",TVN Movies
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -973,7 +973,7 @@ https://ovh.rise2the.top/aldous/1793999777/_17zp3Nzf30BmMnFQWMa8Q/s/cg_tvnpre/de
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/s/cg_tvnmovie/default/index.mpd
-#EXTINF:-1 tvg-id="UAAP Varsity" tvg-name="UAAP Varsity" tvg-logo="https://iyadtv.pages.dev/images/uaap_varsity_270.png",UAAP Varsity
+#EXTINF:-1 group-title="Sports" tvg-id="UAAP Varsity" tvg-name="UAAP Varsity" tvg-logo="https://iyadtv.pages.dev/images/uaap_varsity_270.png",UAAP Varsity
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -981,7 +981,7 @@ https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/s/cg_tvnmovie/
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999777/_17zp3Nzf30BmMnFQWMa8Q/s/cg_uaap_cplay_sd/default/index.mpd
-#EXTINF:-1 tvg-id="UFC" tvg-name="UFC" tvg-logo="https://iyadtv.pages.dev/images/ufc_tv_271.png",UFC
+#EXTINF:-1 group-title="Sports" tvg-id="UFC" tvg-name="UFC" tvg-logo="https://iyadtv.pages.dev/images/ufc_tv_271.png",UFC
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -989,15 +989,15 @@ https://ovh.rise2the.top/aldous/1793999777/_17zp3Nzf30BmMnFQWMa8Q/s/cg_uaap_cpla
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://a151aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/8mxwjnh2te/out/v1/356704796c0c4bed81f67cd3518d0c8a/cenc.mpd
-#EXTINF:-1 tvg-id="UNTV" tvg-name="UNTV" tvg-logo="https://iyadtv.pages.dev/images/untv_news_and_rescue_274.png",UNTV
+#EXTINF:-1 group-title="News" tvg-id="UNTV" tvg-name="UNTV" tvg-logo="https://iyadtv.pages.dev/images/untv_news_and_rescue_274.png",UNTV
 https://ovh.rise2the.top/aldous/1793999777/_17zp3Nzf30BmMnFQWMa8Q/cv1/001/2/ch00000090990000001091/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAp8EKxpteUJNLDuI18c3YYNsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="USA Today" tvg-name="USA Today" tvg-logo="https://cdn.iyad.space/images/usa-today.png",USA Today
+#EXTINF:-1 group-title="News" tvg-id="USA Today" tvg-name="USA Today" tvg-logo="https://cdn.iyad.space/images/usa-today.png",USA Today
 https://ovh.rise2the.top/aldous/1793999778/gInvitzlEJg9qtKjh0VvhA/cv3/001/2/ch00000090990000001199/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoYf5t%2B2bebnbia7IXJABLsytokK1MIobcue1ImXa0ZEA%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="VEVO" tvg-name="VEVO" tvg-logo="https://iyadtv.pages.dev/images/vevopop.png",VEVO
+#EXTINF:-1 group-title="Music" tvg-id="VEVO" tvg-name="VEVO" tvg-logo="https://iyadtv.pages.dev/images/vevopop.png",VEVO
 https://amg00056-amg00056c6-rakuten-uk-3235.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="VIVA Cinema" tvg-name="VIVA Cinema" tvg-logo="https://iyadtv.pages.dev/images/viva.svg",VIVA Cinema
+#EXTINF:-1 group-title="Movies" tvg-id="VIVA Cinema" tvg-name="VIVA Cinema" tvg-logo="https://iyadtv.pages.dev/images/viva.svg",VIVA Cinema
 https://ovh.rise2the.top/aldous/1793999778/gInvitzlEJg9qtKjh0VvhA/cv3/001/2/ch00000090990000001079/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAoglCgy7TAZamPXsCV8PgebsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO
-#EXTINF:-1 tvg-id="Warner TV" tvg-name="Warner TV" tvg-logo="https://iyadtv.pages.dev/images/warner_tv__279.png",Warner TV
+#EXTINF:-1 group-title="Entertainment" tvg-id="Warner TV" tvg-name="Warner TV" tvg-logo="https://iyadtv.pages.dev/images/warner_tv__279.png",Warner TV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -1005,49 +1005,27 @@ https://ovh.rise2the.top/aldous/1793999778/gInvitzlEJg9qtKjh0VvhA/cv3/001/2/ch00
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click
 https://ovh.rise2the.top/aldous/1793999778/gInvitzlEJg9qtKjh0VvhA/s/cg_warnerhd/default/index.mpd
-#EXTINF:-1 tvg-id="Wild Planet" tvg-name="Wild Planet" tvg-logo="https://iyadtv.pages.dev/images/wild_planet_280.png",Wild Planet
+#EXTINF:-1 group-title="Documentaries" tvg-id="Wild Planet" tvg-name="Wild Planet" tvg-logo="https://iyadtv.pages.dev/images/wild_planet_280.png",Wild Planet
 https://d1h8whhtg5u7om.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3u3ceovu5thv6/WildPlanet_GB.m3u8
-#EXTINF:-1 tvg-id="World Poker Tour" tvg-name="World Poker Tour" tvg-logo="https://i.imgur.com/98kLMjj.png",World Poker Tour
+#EXTINF:-1 group-title="Sports" tvg-id="World Poker Tour" tvg-name="World Poker Tour" tvg-logo="https://i.imgur.com/98kLMjj.png",World Poker Tour
 https://amg00218-wptenterprisesi-worldpokertour-xumo-us.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="WWE" tvg-name="WWE" tvg-logo="https://iyadtv.pages.dev/images/wwe_261.png",WWE
+#EXTINF:-1 group-title="Sports" tvg-id="WWE" tvg-name="WWE" tvg-logo="https://iyadtv.pages.dev/images/wwe_261.png",WWE
 https://ovh.rise2the.top/aldous/1793999778/gInvitzlEJg9qtKjh0VvhA/hls/wwe/stream.m3u8
-#EXTINF:-1 tvg-id="XFC TV" tvg-name="XFC TV" tvg-logo="https://iyadtv.pages.dev/images/xfc_tv_282.png",XFC TV
+#EXTINF:-1 group-title="Sports" tvg-id="XFC TV" tvg-name="XFC TV" tvg-logo="https://iyadtv.pages.dev/images/xfc_tv_282.png",XFC TV
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2351&live=1&avod=1&site_page=https%3A%2F%2Fdistro.tv%2F&site_name=XFC%20TV&hls_marker=1
-#EXTINF:-1 tvg-id="Xite Hits" tvg-name="Xite Hits" tvg-logo="https://play-lh.googleusercontent.com/hOlEHI5p3RQBJUUtjwmoNl_7JaaANei1iO2T6RegISDN37buk_uF033sc5QkwuHerMqs",Xite Hits
+#EXTINF:-1 group-title="Music" tvg-id="Xite Hits" tvg-name="Xite Hits" tvg-logo="https://play-lh.googleusercontent.com/hOlEHI5p3RQBJUUtjwmoNl_7JaaANei1iO2T6RegISDN37buk_uF033sc5QkwuHerMqs",Xite Hits
 https://amg01243-xitenetworksint-hitsuk-samsunguk-mvovq.amagi.tv/playlist/amg01243-xitenetworksint-hitsuk-samsunguk/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.tc_string=%7BTC_STRING%7D&ads.coppa=0
-#EXTINF:-1 tvg-id="Yes Network" tvg-name="Yes Network" tvg-logo="https://everpass.com/wp-content/uploads/2026/03/Yes_Logo.png",Yes Network
+#EXTINF:-1 group-title="Sports" tvg-id="Yes Network" tvg-name="Yes Network" tvg-logo="https://everpass.com/wp-content/uploads/2026/03/Yes_Logo.png",Yes Network
 https://ovh.rise2the.top/aldous/1793999778/gInvitzlEJg9qtKjh0VvhA/hls/yes/stream.m3u8
-#EXTINF:-1 tvg-id="Z One" tvg-name="Z One" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png",Z One
+#EXTINF:-1 group-title="General" tvg-id="Z One" tvg-name="Z One" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png",Z One
 https://amg17931-zee-amg17931c6-samsung-ph-6513.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungph/playlist.m3u8
-#EXTINF:-1 tvg-id="3RSTV" tvg-name="3RSTV [Backup]" tvg-logo="https://i.imgur.com/eSiYaLH.png" group-title="Backup",3RSTV [Backup]
+#EXTINF:-1 group-title="General" tvg-id="3RSTV" tvg-name="3RSTV [Backup]" tvg-logo="https://i.imgur.com/eSiYaLH.png",3RSTV [Backup]
 https://live20.bozztv.com/giatvplayout7/giatv-210267/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="3RS MOVIE" tvg-name="3RS MOVIE" tvg-logo="https://i.ibb.co/V00d35XD/3rsmovie.png" group-title="Additional channels",3RS MOVIE
+#EXTINF:-1 group-title="Movies" tvg-id="3RS MOVIE" tvg-name="3RS MOVIE" tvg-logo="https://i.ibb.co/V00d35XD/3rsmovie.png",3RS MOVIE
 https://live20.bozztv.com/giatvplayout7/giatv-210273/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="Star TV Philippines" tvg-name="Star TV Philippines [Backup]" tvg-logo="https://i.ibb.co/Swr1qc2S/Startvph.jpg" group-title="Backup",Star TV Philippines [Backup]
-https://live20.bozztv.com/giatvplayout7/giatv-208168/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="STBS Global" tvg-name="STBS Global [Backup]" tvg-logo="https://i.imgur.com/ypDS0ue.png" group-title="Backup",STBS Global [Backup]
-https://live20.bozztv.com/giatvplayout7/giatv-208591/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="SineManila" tvg-name="SineManila [Backup]" tvg-logo="https://i.imgur.com/ExjGAzo.png" group-title="Backup",SineManila [Backup]
-https://live20.bozztv.com/giatv/giatv-sinemanila/sinemanila/chunks.m3u8
-#EXTINF:-1 tvg-id="RAGE TV" tvg-name="RAGE TV" tvg-logo="https://i.imgur.com/I7FemT6.png" group-title="Additional channels",RAGE TV
+#EXTINF:-1 group-title="Entertainment" tvg-id="RAGE TV" tvg-name="RAGE TV" tvg-logo="https://i.imgur.com/I7FemT6.png",RAGE TV
 https://live20.bozztv.com/giatv/giatv-ragetv/ragetv/chunks.m3u8
-#EXTINF:-1 tvg-id="Kapamilya Channel" tvg-name="Kapamilya Channel [Backup]" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Kapamilya_Channel_Logo_2020.svg/2560px-Kapamilya_Channel_Logo_2020.svg.png" group-title="Backup",Kapamilya Channel [Backup]
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=bd17afb5dc9648a39be79ee3634dd4b8:3ecf305d54a7729299b93a3d69c02ea5
-#KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
-#KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-kapcha-dash-abscbnono/index.mpd
-#EXTINF:-1 tvg-id="CineMo!" tvg-name="CineMo! [Backup]" tvg-logo="https://yt3.ggpht.com/a-/AAuE7mAK5lTlRJwr2rZLeitoTnOYkjForU2cvszswQ=s900-mo-c-c0xffffffff-rj-k-no" group-title="Backup",CineMo! [Backup]
+#EXTINF:-1 group-title="Movies" tvg-id="CineMo!" tvg-name="CineMo! [Backup]" tvg-logo="https://yt3.ggpht.com/a-/AAuE7mAK5lTlRJwr2rZLeitoTnOYkjForU2cvszswQ=s900-mo-c-c0xffffffff-rj-k-no",CineMo! [Backup]
 https://d1bail49udbz1k.cloudfront.net/out/v1/3a895f368f4a467c9bca0962559efc19/index.mpd
-#EXTINF:-1 tvg-id="CinemaOne" tvg-name="CinemaOne [Backup]" tvg-logo="https://static.wikia.nocookie.net/russel/images/9/94/Cinema_One_Logo_2020.png" group-title="Backup",CinemaOne [Backup]
+#EXTINF:-1 group-title="Movies" tvg-id="CinemaOne" tvg-name="CinemaOne [Backup]" tvg-logo="https://static.wikia.nocookie.net/russel/images/9/94/Cinema_One_Logo_2020.png",CinemaOne [Backup]
 https://d9rpesrrg1bdi.cloudfront.net/out/v1/93b9db7b231d45f28f64f29b86dc6c65/index.mpd
-#EXTINF:-1 tvg-id="DZMM Teleradyo" tvg-name="DZMM Teleradyo [Backup]" tvg-logo="https://www.logo.wine/a/logo/DZMM_TeleRadyo/DZMM_TeleRadyo-Logo.wine.svg" group-title="Backup",DZMM Teleradyo [Backup]
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=47c093e0c9fd4f80839a0337da3dd876:50547394045b3d047dc7d92f57b5fb33
-#KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
-#KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-teleradyo-dash-abscbnono/index.mpd

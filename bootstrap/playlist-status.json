@@ -1,6 +1,20 @@
 {
-  "assembledAt": "2026-11-06T19:55:35.972Z",
-  "entryCount": 256,
+  "assembledAt": "2026-11-06T20:04:19.744Z",
+  "entryCount": 251,
   "primaryEntryCount": 246,
-  "alternateEntryCount": 10
+  "alternateEntryCount": 5,
+  "categories": {
+    "General": 17,
+    "Entertainment": 40,
+    "News": 27,
+    "Documentaries": 25,
+    "Anime": 9,
+    "Movies": 47,
+    "Lifestyle": 11,
+    "Kids": 16,
+    "Sports": 37,
+    "Music": 12,
+    "Education": 3,
+    "Faith": 7
+  }
 }

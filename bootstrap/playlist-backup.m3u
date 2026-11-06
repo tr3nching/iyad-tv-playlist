@@ -1,33 +1,11 @@
 #EXTM3U x-tvg-url="https://tr3nching.github.io/ph-tv-playlist/epg.xml.gz"
-#EXTINF:-1 tvg-id="3RSTV" tvg-name="3RSTV [Backup]" tvg-logo="https://i.imgur.com/eSiYaLH.png" group-title="Backup",3RSTV [Backup]
+#EXTINF:-1 group-title="General" tvg-id="3RSTV" tvg-name="3RSTV [Backup]" tvg-logo="https://i.imgur.com/eSiYaLH.png",3RSTV [Backup]
 https://live20.bozztv.com/giatvplayout7/giatv-210267/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="3RS MOVIE" tvg-name="3RS MOVIE" tvg-logo="https://i.ibb.co/V00d35XD/3rsmovie.png" group-title="Additional channels",3RS MOVIE
+#EXTINF:-1 group-title="Movies" tvg-id="3RS MOVIE" tvg-name="3RS MOVIE" tvg-logo="https://i.ibb.co/V00d35XD/3rsmovie.png",3RS MOVIE
 https://live20.bozztv.com/giatvplayout7/giatv-210273/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="Star TV Philippines" tvg-name="Star TV Philippines [Backup]" tvg-logo="https://i.ibb.co/Swr1qc2S/Startvph.jpg" group-title="Backup",Star TV Philippines [Backup]
-https://live20.bozztv.com/giatvplayout7/giatv-208168/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="STBS Global" tvg-name="STBS Global [Backup]" tvg-logo="https://i.imgur.com/ypDS0ue.png" group-title="Backup",STBS Global [Backup]
-https://live20.bozztv.com/giatvplayout7/giatv-208591/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="SineManila" tvg-name="SineManila [Backup]" tvg-logo="https://i.imgur.com/ExjGAzo.png" group-title="Backup",SineManila [Backup]
-https://live20.bozztv.com/giatv/giatv-sinemanila/sinemanila/chunks.m3u8
-#EXTINF:-1 tvg-id="RAGE TV" tvg-name="RAGE TV" tvg-logo="https://i.imgur.com/I7FemT6.png" group-title="Additional channels",RAGE TV
+#EXTINF:-1 group-title="Entertainment" tvg-id="RAGE TV" tvg-name="RAGE TV" tvg-logo="https://i.imgur.com/I7FemT6.png",RAGE TV
 https://live20.bozztv.com/giatv/giatv-ragetv/ragetv/chunks.m3u8
-#EXTINF:-1 tvg-id="Kapamilya Channel" tvg-name="Kapamilya Channel [Backup]" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Kapamilya_Channel_Logo_2020.svg/2560px-Kapamilya_Channel_Logo_2020.svg.png" group-title="Backup",Kapamilya Channel [Backup]
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=bd17afb5dc9648a39be79ee3634dd4b8:3ecf305d54a7729299b93a3d69c02ea5
-#KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
-#KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-kapcha-dash-abscbnono/index.mpd
-#EXTINF:-1 tvg-id="CineMo!" tvg-name="CineMo! [Backup]" tvg-logo="https://yt3.ggpht.com/a-/AAuE7mAK5lTlRJwr2rZLeitoTnOYkjForU2cvszswQ=s900-mo-c-c0xffffffff-rj-k-no" group-title="Backup",CineMo! [Backup]
+#EXTINF:-1 group-title="Movies" tvg-id="CineMo!" tvg-name="CineMo! [Backup]" tvg-logo="https://yt3.ggpht.com/a-/AAuE7mAK5lTlRJwr2rZLeitoTnOYkjForU2cvszswQ=s900-mo-c-c0xffffffff-rj-k-no",CineMo! [Backup]
 https://d1bail49udbz1k.cloudfront.net/out/v1/3a895f368f4a467c9bca0962559efc19/index.mpd
-#EXTINF:-1 tvg-id="CinemaOne" tvg-name="CinemaOne [Backup]" tvg-logo="https://static.wikia.nocookie.net/russel/images/9/94/Cinema_One_Logo_2020.png" group-title="Backup",CinemaOne [Backup]
+#EXTINF:-1 group-title="Movies" tvg-id="CinemaOne" tvg-name="CinemaOne [Backup]" tvg-logo="https://static.wikia.nocookie.net/russel/images/9/94/Cinema_One_Logo_2020.png",CinemaOne [Backup]
 https://d9rpesrrg1bdi.cloudfront.net/out/v1/93b9db7b231d45f28f64f29b86dc6c65/index.mpd
-#EXTINF:-1 tvg-id="DZMM Teleradyo" tvg-name="DZMM Teleradyo [Backup]" tvg-logo="https://www.logo.wine/a/logo/DZMM_TeleRadyo/DZMM_TeleRadyo-Logo.wine.svg" group-title="Backup",DZMM Teleradyo [Backup]
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=47c093e0c9fd4f80839a0337da3dd876:50547394045b3d047dc7d92f57b5fb33
-#KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
-#KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-teleradyo-dash-abscbnono/index.mpd

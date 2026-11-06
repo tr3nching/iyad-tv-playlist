@@ -6,6 +6,7 @@ import { resolve } from 'node:path';
 const API = 'https://auth.iyad.click';
 const EPG_URL = 'https://tr3nching.github.io/ph-tv-playlist/epg.xml.gz';
 const BACKUP_SOURCE = 'https://3rstvportal.blogspot.com/';
+const channelGroups = JSON.parse(await readFile(new URL('../channel-groups.json', import.meta.url), 'utf8'));
 const headers = {
   Origin: 'https://iyad.click',
   Referer: 'https://iyad.click/',
@@ -55,6 +56,54 @@ function attribute(value) {
   return clean(value).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
 }
 
+export function channelCategory(name) {
+  return channelGroups[clean(name).replace(/\s*\[Backup\]$/, '')] || 'General';
+}
+
+export function categorizePlaylist(text) {
+  return text.replace(/^#EXTINF:[^\r\n]*/gm, line => {
+    const encoded = line.match(/\btvg-id="([^"]*)"/)?.[1] || '';
+    const id = encoded.replace(/&(amp|quot|lt|gt);/g, (_, key) => ({ amp: '&', quot: '"', lt: '<', gt: '>' }[key]));
+    const group = attribute(channelCategory(id));
+    return line.replace(/\s+group-title="[^"]*"/g, '').replace(/^#EXTINF:[^ ,]+/, prefix => `${prefix} group-title="${group}"`);
+  });
+}
+
+function playlistEntries(text) {
+  return text.split(/(?=^#EXTINF:)/m).slice(1).map(block => {
+    const id = block.match(/\btvg-id="([^"]*)"/)?.[1] || '';
+    const url = block.split(/\r?\n/).find(line => /^https?:\/\//.test(line));
+    return { id, url, block };
+  });
+}
+
+function stableEndpoint(value) {
+  const url = new URL(value);
+  for (const key of [...url.searchParams.keys()]) {
+    if (/^(token|auth|expires?|expiry|exp|signature|sig|sign|hdnea|hdnts|policy|key-pair-id|x-amz-.*)$/i.test(key)) url.searchParams.delete(key);
+  }
+  url.searchParams.sort();
+  return { host: url.host, path: url.pathname, query: url.searchParams.toString() };
+}
+
+export function deduplicateBackups(primary, backup) {
+  const regular = playlistEntries(primary);
+  const kept = []; const excluded = [];
+  for (const entry of playlistEntries(backup)) {
+    const duplicate = regular.some(original => {
+      if (original.id !== entry.id || !original.url || !entry.url) return false;
+      const a = stableEndpoint(original.url), b = stableEndpoint(entry.url);
+      if (a.host !== b.host || a.query !== b.query) return false;
+      if (a.path === b.path) return true;
+      const folder = path => path.slice(0, path.lastIndexOf('/') + 1);
+      const hlsVariant = path => /\/(?:playlist|chunks|master|index|mono(?:\.ts)?)\.m3u8$/i.test(path);
+      return folder(a.path) !== '/' && folder(a.path) === folder(b.path) && hlsVariant(a.path) && hlsVariant(b.path);
+    });
+    if (duplicate) excluded.push(entry.id); else kept.push(entry);
+  }
+  return { text: backup ? `#EXTM3U x-tvg-url="${EPG_URL}"\n` + kept.map(entry => entry.block.trimEnd() + '\n').join('') : '', excluded, entries: kept };
+}
+
 export function streamUrl(value) {
   const url = new URL(value);
   if (!['https:', 'http:'].includes(url.protocol)) throw new Error('Unsupported stream URL');
@@ -63,7 +112,7 @@ export function streamUrl(value) {
 
 export function playlist(rows, { includeDrm = false, epgUrl = EPG_URL } = {}) {
   return `#EXTM3U x-tvg-url="${attribute(streamUrl(epgUrl))}"\n` + rows.map(row => {
-    const lines = [`#EXTINF:-1 tvg-id="${attribute(row.epgId || row.name)}" tvg-name="${attribute(row.name)}" tvg-logo="${attribute(row.logo)}"${row.group ? ` group-title="${attribute(row.group)}"` : ''},${clean(row.name)}`];
+    const lines = [`#EXTINF:-1 tvg-id="${attribute(row.epgId || row.name)}" tvg-name="${attribute(row.name)}" tvg-logo="${attribute(row.logo)}" group-title="${attribute(row.group || channelCategory(row.epgId || row.name))}",${clean(row.name)}`];
     if (includeDrm && row.clearKey) {
       if (![row.clearKey.id, row.clearKey.value].every(v => typeof v === 'string' && /^[a-fA-F0-9]{32}$/.test(v))) throw new Error('Invalid source ClearKey configuration');
       const origin = encodeURIComponent(row.origin || headers.Origin);
@@ -143,8 +192,9 @@ export async function refreshBackups(savedHtml, savedChecks) {
   for (const row of rows) {
     const hit = catalog.find(c => norm(c.name) === norm(row.name) || c.name === aliases[norm(row.name)]);
     row.epgId = hit?.name || row.name;
-    if (hit) { row.name = hit.name + ' [Backup]'; row.group = 'Backup'; }
-    else { additionalChannels.push(row.name); row.group = 'Additional channels'; }
+    if (hit) { row.name = hit.name + ' [Backup]'; }
+    else { additionalChannels.push(row.name); }
+    row.group = channelCategory(row.epgId);
   }
   await writeFile(new URL('playlist-backup.m3u', output), playlist(rows, { includeDrm: true }));
   await writeFile(new URL('backup-status.json', output), JSON.stringify({ updatedAt: new Date().toISOString(), candidateCount: candidates.length, channelCount: rows.length, additionalChannels, existingChannelBackups: rows.length-additionalChannels.length, clearKeyChannelCount: rows.filter(r => r.clearKey).length,
@@ -157,13 +207,30 @@ export async function combinePlaylists(output = new URL('../site/', import.meta.
   let backup = '';
   try { backup = await readFile(new URL('playlist-backup.m3u', output), 'utf8'); }
   catch (error) { if (error.code !== 'ENOENT') throw error; }
+  const distinct = deduplicateBackups(primary, backup);
+  backup = categorizePlaylist(distinct.text);
+  if (backup) await writeFile(new URL('playlist-backup.m3u', output), backup);
+  try {
+    const statusUrl = new URL('backup-status.json', output);
+    const status = JSON.parse(await readFile(statusUrl, 'utf8'));
+    const ids = new Set(distinct.entries.map(entry => entry.id));
+    status.additionalChannels = (status.additionalChannels || []).filter(name => ids.has(name));
+    status.channelCount = distinct.entries.length;
+    status.existingChannelBackups = status.channelCount - status.additionalChannels.length;
+    status.clearKeyChannelCount = (backup.match(/^#KODIPROP:inputstream\.adaptive\.license_key=/gm) || []).length;
+    status.excludedDuplicates = [...new Set([...(status.excludedDuplicates || []), ...distinct.excluded])].filter(id => !ids.has(id));
+    delete status.source;
+    await writeFile(statusUrl, JSON.stringify(status, null, 2));
+  } catch (error) { if (error.code !== 'ENOENT') throw error; }
   const base = primary.replace(/^#EXTM3U[^\n]*/, `#EXTM3U x-tvg-url="${EPG_URL}"`);
-  const combined = base.trimEnd() + '\n' + backup.split('\n').slice(1).join('\n');
+  const combined = categorizePlaylist(base.trimEnd() + '\n' + backup.split('\n').slice(1).join('\n'));
   await writeFile(new URL('playlist.m3u.tmp', output), combined);
   await rename(new URL('playlist.m3u.tmp', output), new URL('playlist.m3u', output));
   await writeFile(new URL('playlist-combined.m3u', output), combined);
   const count = text => (text.match(/^#EXTINF:/gm) || []).length;
-  await writeFile(new URL('playlist-status.json', output), JSON.stringify({ assembledAt: new Date().toISOString(), entryCount: count(combined), primaryEntryCount: count(primary), alternateEntryCount: count(backup) }, null, 2));
+  const categories = {};
+  for (const match of combined.matchAll(/^#EXTINF:[^\n]*group-title="([^"]*)"/gm)) categories[match[1]] = (categories[match[1]] || 0) + 1;
+  await writeFile(new URL('playlist-status.json', output), JSON.stringify({ assembledAt: new Date().toISOString(), entryCount: count(combined), primaryEntryCount: count(primary), alternateEntryCount: count(backup), categories }, null, 2));
 }
 
 async function resolveChannel(channel, key) {

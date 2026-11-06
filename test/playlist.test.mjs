@@ -5,7 +5,7 @@ import { mkdtemp, readFile, writeFile, unlink, rmdir } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { decrypt, playlist, streamUrl, parseBackupChannels, checkBackupManifests, combinePlaylists } from '../scripts/refresh.mjs';
+import { decrypt, playlist, streamUrl, parseBackupChannels, checkBackupManifests, combinePlaylists, deduplicateBackups } from '../scripts/refresh.mjs';
 
 test('decrypts the player response format without exposing key material', () => {
   const key = '0123456789abcdefextra';
@@ -63,8 +63,8 @@ test('one canonical playlist retains DRM, backups and guide, including without b
   const output = pathToFileURL(directory + '/');
   const files = ['playlist-drm.m3u', 'playlist-backup.m3u', 'playlist.m3u', 'playlist-combined.m3u', 'playlist-status.json'];
   try {
-    const primary = playlist([{ name: 'News', url: 'https://example.com/news.mpd', clearKey: { id: '1'.repeat(32), value: '2'.repeat(32) } }], { includeDrm: true });
-    const backup = playlist([{ name: 'News [Backup]', epgId: 'News', group: 'Backup', url: 'https://example.com/backup.m3u8' }]);
+    const primary = playlist([{ name: 'NBA TV', url: 'https://example.com/news.mpd', clearKey: { id: '1'.repeat(32), value: '2'.repeat(32) } }], { includeDrm: true });
+    const backup = playlist([{ name: 'NBA TV [Backup]', epgId: 'NBA TV', group: 'Backup', url: 'https://example.com/backup.m3u8' }]);
     await writeFile(new URL('playlist-drm.m3u', output), primary);
     await writeFile(new URL('playlist-backup.m3u', output), backup);
     await combinePlaylists(output);
@@ -72,7 +72,8 @@ test('one canonical playlist retains DRM, backups and guide, including without b
     assert.equal((canonical.match(/^#EXTM3U/gm) || []).length, 1);
     assert.equal((canonical.match(/^#EXTINF:/gm) || []).length, 2);
     assert.ok(canonical.includes('license_type=org.w3.clearkey'));
-    assert.ok(canonical.includes('group-title="Backup"'));
+    assert.equal((canonical.match(/group-title="Sports"/g) || []).length, 2);
+    assert.ok(canonical.includes('NBA TV [Backup]'));
     assert.equal(canonical, await readFile(new URL('playlist-combined.m3u', output), 'utf8'));
     assert.equal(JSON.parse(await readFile(new URL('playlist-status.json', output))).entryCount, 2);
     await unlink(new URL('playlist-backup.m3u', output));
@@ -84,4 +85,23 @@ test('one canonical playlist retains DRM, backups and guide, including without b
     for (const file of files) { try { await unlink(new URL(file, output)); } catch {} }
     await rmdir(directory);
   }
+});
+
+test('backups exclude duplicate tokens and HLS variants, preserving different endpoints', () => {
+  const primary = playlist([
+    { name: 'News', url: 'https://example.com/news/master.m3u8?token=old' },
+    { name: 'Sports', url: 'https://example.com/sports/playlist.m3u8' },
+    { name: 'Movies', url: 'https://example.com/play?server=1' },
+  ]);
+  const backups = playlist([
+    { name: 'News [Backup]', epgId: 'News', url: 'https://example.com/news/master.m3u8?token=new' },
+    { name: 'Sports [Backup]', epgId: 'Sports', url: 'https://example.com/sports/chunks.m3u8' },
+    { name: 'Movies [Backup]', epgId: 'Movies', url: 'https://example.com/play?server=2' },
+    { name: 'News [Backup]', epgId: 'News', url: 'https://other.example.com/news/master.m3u8' },
+  ]);
+  const distinct = deduplicateBackups(primary, backups);
+  assert.deepEqual(distinct.excluded, ['News', 'Sports']);
+  assert.equal(distinct.entries.length, 2);
+  assert.ok(distinct.text.includes('server=2'));
+  assert.ok(distinct.text.includes('other.example.com'));
 });

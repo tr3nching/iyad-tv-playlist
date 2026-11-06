@@ -1,12 +1,19 @@
 {
   "updatedAt": "2026-11-06T19:48:13.555Z",
   "candidateCount": 88,
-  "channelCount": 10,
+  "channelCount": 5,
   "additionalChannels": [
     "3RS MOVIE",
     "RAGE TV"
   ],
-  "existingChannelBackups": 8,
-  "clearKeyChannelCount": 2,
-  "note": "Only entries with a readable manifest at refresh time are included. Video playback and source independence are not guaranteed. Failed entries are retried next refresh."
+  "existingChannelBackups": 3,
+  "clearKeyChannelCount": 0,
+  "note": "Only entries with a readable manifest at refresh time are included. Video playback and source independence are not guaranteed. Failed entries are retried next refresh.",
+  "excludedDuplicates": [
+    "Star TV Philippines",
+    "STBS Global",
+    "SineManila",
+    "Kapamilya Channel",
+    "DZMM Teleradyo"
+  ]
 }
