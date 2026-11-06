@@ -8,6 +8,8 @@ Add this URL to your IPTV app. The program guide is included automatically; if y
 
 Channels are grouped by type: Sports, Movies, News, Kids, Anime, Documentaries, Music, Lifestyle, Faith, Education, Entertainment and General. GMA, TFC Asia, Kapamilya Channel, TV5 and A2Z are in Entertainment.
 
+Channel numbers follow category blocks: Entertainment 100–199, Movies 200–299, Sports 300–399, News 400–499, Kids 500–599, Anime 600–699, Documentaries 700–799, Music 800–899, Lifestyle 900–999, Faith 1000–1099, Education 1100–1199 and General 1200–1299. Numbers stay reserved when a channel is temporarily hidden. Use channel-number sorting in your TV app; category menus depend on the app.
+
 Additional streams keep their original names and separate guide IDs. Similar names do not establish that they carry the same channel. Exact duplicate stream URLs are removed; different URLs remain separate. `[Additional]` distinguishes a name that also exists in the main list. These entries do not automatically replace a missing channel or inherit its guide.
 
 When a guide program has no genre, its channel category supplies a fallback using Android TV's supported genre names. Existing program genres are preserved. Channels without guide listings remain without listings; unknown categories stay unclassified. Genre filters depend on the TV app's support.

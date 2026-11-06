@@ -79,6 +79,34 @@ function playlistEntries(text) {
   });
 }
 
+export const categoryNumbers = Object.freeze({ Entertainment: 100, Movies: 200, Sports: 300, News: 400, Kids: 500, Anime: 600, Documentaries: 700, Music: 800, Lifestyle: 900, Faith: 1000, Education: 1100, General: 1200 });
+
+export function numberPlaylist(text, previous = {}) {
+  const assignments = Object.create(null);
+  const used = new Set();
+  // Reserve absent channels too, so a failed check never renumbers its neighbours.
+  for (const [id, number] of Object.entries(previous)) {
+    const start = categoryNumbers[channelCategory(id)];
+    if (Number.isInteger(number) && number >= start && number < start + 100 && !used.has(number)) {
+      assignments[id] = number; used.add(number);
+    }
+  }
+  const entries = playlistEntries(text);
+  for (const entry of [...entries].sort((a, b) => a.id.localeCompare(b.id, 'en'))) {
+    if (Object.hasOwn(assignments, entry.id)) continue;
+    const start = categoryNumbers[channelCategory(entry.id)];
+    let number = start;
+    while (used.has(number) && number < start + 100) number++;
+    if (number >= start + 100) throw new Error(`Channel number range full: ${channelCategory(entry.id)}`);
+    assignments[entry.id] = number; used.add(number);
+  }
+  const header = text.split(/(?=^#EXTINF:)/m)[0];
+  const numbered = entries.sort((a, b) => assignments[a.id] - assignments[b.id]).map(entry =>
+    entry.block.replace(/^#EXTINF:[^\r\n]*/, line => line.replace(/\s+tvg-chno="[^"]*"/g, '').replace(/^#EXTINF:[^ ,]+/, prefix => `${prefix} tvg-chno="${assignments[entry.id]}"`)).trimEnd() + '\n'
+  ).join('');
+  return { text: header + numbered, assignments };
+}
+
 export function deduplicateBackups(primary, backup) {
   const regular = playlistEntries(primary);
   const kept = []; const excluded = [];
@@ -200,6 +228,15 @@ export async function combinePlaylists(output = new URL('../site/', import.meta.
   let backup = '';
   try { backup = await readFile(new URL(health ? 'backup-candidates.m3u' : 'playlist-backup.m3u', output), 'utf8'); }
   catch (error) { if (error.code !== 'ENOENT') throw error; }
+  let previousNumbers = {};
+  try { previousNumbers = JSON.parse(await readFile(new URL('channel-numbers.json', output), 'utf8')); }
+  catch (error) { if (error.code !== 'ENOENT') throw error; }
+  // Assign the complete candidate set before health filtering to keep gaps stable.
+  let candidateBackup = backup;
+  try { candidateBackup = await readFile(new URL('backup-candidates.m3u', output), 'utf8'); }
+  catch (error) { if (error.code !== 'ENOENT') throw error; }
+  const { assignments } = numberPlaylist(primary + '\n' + candidateBackup.split('\n').slice(1).join('\n'), previousNumbers);
+  await writeFile(new URL('channel-numbers.json', output), JSON.stringify(assignments, null, 2) + '\n');
   if (health) {
     const passed = new Set(health.channels.filter(channel => channel.publish ?? channel.reachable).map(channel => channel.id));
     const filter = (text, kind) => `#EXTM3U x-tvg-url="${EPG_URL}"\n` + playlistEntries(text).filter(entry => passed.has(streamCheckId(kind, entry))).map(entry => entry.block.trimEnd() + '\n').join('');
@@ -222,7 +259,7 @@ export async function combinePlaylists(output = new URL('../site/', import.meta.
     await writeFile(statusUrl, JSON.stringify(status, null, 2));
   } catch (error) { if (error.code !== 'ENOENT') throw error; }
   const base = primary.replace(/^#EXTM3U[^\n]*/, `#EXTM3U x-tvg-url="${EPG_URL}"`);
-  const combined = categorizePlaylist(base.trimEnd() + '\n' + backup.split('\n').slice(1).join('\n'));
+  const combined = numberPlaylist(categorizePlaylist(base.trimEnd() + '\n' + backup.split('\n').slice(1).join('\n')), assignments).text;
   await writeFile(new URL('playlist.m3u.tmp', output), combined);
   await rename(new URL('playlist.m3u.tmp', output), new URL('playlist.m3u', output));
   await writeFile(new URL('playlist-combined.m3u', output), combined);
