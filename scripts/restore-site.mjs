@@ -5,7 +5,7 @@ const base = 'https://tr3nching.github.io/ph-tv-playlist/';
 const streamFiles = ['playlist.m3u', 'playlist-drm.m3u', 'playlist-drm.otc.json', 'status.json'];
 const guideFiles = ['epg.xml', 'epg.xml.gz', 'epg-status.json', 'mapping.json', 'mapping.csv', 'verification.json', 'report.txt'];
 const backupFiles = ['playlist-backup.m3u', 'backup-candidates.m3u', 'backup-status.json', 'backup-checks.json'];
-const optionalFiles = ['playlist-combined.m3u', 'playlist-status.json'];
+const optionalFiles = ['playlist-combined.m3u', 'playlist-status.json', 'channel-numbers.json'];
 await mkdir(site, { recursive: true });
 for (const file of [...streamFiles, ...guideFiles, ...backupFiles, ...optionalFiles]) {
   try { await access(new URL(file, bootstrap)); await copyFile(new URL(file, bootstrap), new URL(file, site)); } catch {}
@@ -32,6 +32,16 @@ async function restoreNewer(files, statusFile, timestampField) {
   } catch { console.warn(`Could not restore ${statusFile}; using checked-in snapshot`); }
 }
 if (process.env.PUBLISH_SNAPSHOT !== 'true') {
+  // Number reservations are independent of link refresh times and survive outages.
+  try {
+    const response = await fetch(base + 'channel-numbers.json', { signal: AbortSignal.timeout(15000), cache: 'no-store' });
+    if (response.ok) {
+      const numbers = await response.text();
+      const parsed = numbers.length < 1000000 ? JSON.parse(numbers) : null;
+      if (parsed && typeof parsed === 'object' && !Array.isArray(parsed))
+        await writeFile(new URL('channel-numbers.json', site), numbers);
+    }
+  } catch { console.warn('Using saved channel number reservations'); }
   await restoreNewer(streamFiles, 'status.json', 'updatedAt');
   await restoreNewer(guideFiles, 'epg-status.json', 'generated_utc');
   await restoreNewer(backupFiles, 'backup-status.json', 'updatedAt');

@@ -14,7 +14,7 @@ When a guide program has no genre, its channel category supplies a fallback usin
 
 Playlist and guide updates are scheduled every 30 minutes. All saved channels remain listed, including entries that fail hosted checks. Some channels need a player with DRM support.
 
-Reachability checks are informational and do not hide channels. The playlist entries are ordered by category without custom channel numbers. TV apps that enforce alphabetical sorting may display a different order.
+Reachability checks are informational and do not hide channels. The playlist entries and custom channel numbers follow category blocks: Entertainment 100–199, Movies 200–299, Sports 300–399, News 400–499, Kids 500–599, Anime 600–699, Documentaries 700–799, Music 800–899, Lifestyle 900–999, Faith 1000–1099, Education 1100–1199 and General 1200–1299. Numbers stay reserved between refreshes. TV apps that enforce alphabetical sorting may display a different order.
 
 Checks run from the hosting network and cover manifests plus media requests where supported. They do not guarantee decoding, DRM playback, or access from your TV. `stream-health.json` records the results without stream URLs or keys.
 

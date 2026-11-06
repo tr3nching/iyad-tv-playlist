@@ -5,7 +5,7 @@ import { mkdtemp, readFile, writeFile, unlink, rmdir } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { orderPlaylist, channelCategory, decrypt, playlist, streamUrl, parseBackupChannels, checkBackupManifests, combinePlaylists, deduplicateBackups, streamCheckId, additionalChannelId } from '../scripts/refresh.mjs';
+import { numberPlaylist, orderPlaylist, channelCategory, decrypt, playlist, streamUrl, parseBackupChannels, checkBackupManifests, combinePlaylists, deduplicateBackups, streamCheckId, additionalChannelId } from '../scripts/refresh.mjs';
 
 test('decrypts the player response format without exposing key material', () => {
   const key = '0123456789abcdefextra';
@@ -62,7 +62,7 @@ test('backup checks reject HTML and HTTP errors as stream manifests', async t =>
 test('one canonical playlist retains DRM, backups and guide, including without backups', async () => {
   const directory = await mkdtemp(join(tmpdir(), 'ph-tv-playlist-'));
   const output = pathToFileURL(directory + '/');
-  const files = ['playlist-drm.m3u', 'playlist-backup.m3u', 'playlist.m3u', 'playlist-combined.m3u', 'playlist-status.json'];
+  const files = ['playlist-drm.m3u', 'playlist-backup.m3u', 'playlist.m3u', 'playlist-combined.m3u', 'playlist-status.json', 'channel-numbers.json'];
   try {
     const primary = playlist([{ name: 'NBA TV', url: 'https://example.com/news.mpd', clearKey: { id: '1'.repeat(32), value: '2'.repeat(32) } }], { includeDrm: true });
     const backup = playlist([{ name: 'NBA TV [Backup]', epgId: 'NBA TV', group: 'Backup', url: 'https://example.com/backup.m3u8' }]);
@@ -108,11 +108,11 @@ test('only exact stream duplicates are removed; names and related URLs do not pr
   assert.ok(distinct.text.includes('other.example.com'));
 });
 
-test('all saved candidates remain listed regardless of failed checks, without custom numbers', async () => {
+test('all saved candidates remain listed regardless of failed checks, with custom numbers', async () => {
   const directory = await mkdtemp(join(tmpdir(), 'ph-tv-playlist-')); const output = pathToFileURL(directory + '/');
   const primary = { name: 'NBA TV', url: 'https://example.com/main.m3u8' };
   const extra = { name: 'Different channel', epgId: 'additional:differentchannel', url: 'https://example.com/other.m3u8' };
-  const files = ['playlist-drm.m3u','backup-candidates.m3u','playlist-backup.m3u','playlist.m3u','playlist-combined.m3u','playlist-status.json'];
+  const files = ['playlist-drm.m3u','backup-candidates.m3u','playlist-backup.m3u','playlist.m3u','playlist-combined.m3u','playlist-status.json', 'channel-numbers.json'];
   try {
     const original = playlist([primary]);
     await writeFile(new URL('playlist-drm.m3u',output),original);
@@ -121,7 +121,7 @@ test('all saved candidates remain listed regardless of failed checks, without cu
     await combinePlaylists(output,{health:{channels:checks}});
     let result = await readFile(new URL('playlist.m3u',output),'utf8');
     assert.ok(result.includes(primary.url));assert.ok(result.includes(extra.url));
-    assert.ok(!result.includes('tvg-chno='));
+    assert.ok(result.includes('tvg-chno='));
     assert.equal(await readFile(new URL('playlist-drm.m3u',output),'utf8'),original);
     checks[0].reachable=false;checks[1].reachable=false;
     await combinePlaylists(output,{health:{channels:checks}});
@@ -160,4 +160,28 @@ test('actual playlist entries follow category order and keep playback blocks int
   const before=input.split(/(?=^#EXTINF:)/m).slice(1).map(block=>block.trim()).sort();
   const after=output.split(/(?=^#EXTINF:)/m).slice(1).map(block=>block.trim()).sort();
   assert.deepEqual(after,before);
+});
+
+test('category numbers preserve gaps, stream metadata and distinct Syfy/Sci Fi identities', () => {
+  const rows = [
+    {name:'NBA TV',url:'https://example.com/sports.mpd',clearKey:{id:'1'.repeat(32),value:'2'.repeat(32)}},
+    {name:'SYFY',url:'https://example.com/syfy.m3u8'},
+    {name:'Sci Fi',url:'https://example.com/scifi.m3u8'},
+    {name:'GMA',url:'https://example.com/gma.m3u8'},
+  ];
+  const original=playlist(rows,{includeDrm:true});
+  const first=numberPlaylist(original);
+  assert.equal(channelCategory('SYFY'),'Entertainment');
+  assert.notEqual(first.assignments.SYFY,first.assignments['Sci Fi']);
+  assert.ok(first.assignments['NBA TV']>=300 && first.assignments['NBA TV']<400);
+  const without=numberPlaylist(playlist(rows.filter(row=>row.name!=='GMA')) ,first.assignments);
+  assert.equal(without.assignments.SYFY,first.assignments.SYFY);
+  assert.equal(without.assignments.GMA,first.assignments.GMA);
+  const returned=numberPlaylist(original,without.assignments);
+  assert.equal(returned.text,first.text);
+  assert.ok(returned.text.includes('license_key='+'1'.repeat(32)+':'+'2'.repeat(32)));
+  for(const row of rows) assert.ok(returned.text.includes(row.url));
+  assert.equal((returned.text.match(/tvg-chno=/g)||[]).length,rows.length);
+  const numbers=[...returned.text.matchAll(/tvg-chno="(\d+)"/g)].map(match=>Number(match[1]));
+  assert.deepEqual(numbers,[...numbers].sort((a,b)=>a-b));
 });
