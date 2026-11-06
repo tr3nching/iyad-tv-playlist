@@ -5,7 +5,7 @@ import { mkdtemp, readFile, writeFile, unlink, rmdir } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { numberPlaylist, orderPlaylist, channelCategory, decrypt, playlist, streamUrl, parseBackupChannels, checkBackupManifests, combinePlaylists, deduplicateBackups, streamCheckId, additionalChannelId } from '../scripts/refresh.mjs';
+import { numberPlaylist, orderPlaylist, channelCategory, decrypt, playlist, streamUrl, parseBackupChannels, checkBackupManifests, combinePlaylists, markAdditionalChannels, streamCheckId, additionalChannelId } from '../scripts/refresh.mjs';
 
 test('decrypts the player response format without exposing key material', () => {
   const key = '0123456789abcdefextra';
@@ -74,7 +74,7 @@ test('one canonical playlist retains DRM, backups and guide, including without b
     assert.equal((canonical.match(/^#EXTINF:/gm) || []).length, 2);
     assert.ok(canonical.includes('license_type=org.w3.clearkey'));
     assert.equal((canonical.match(/group-title="Sports"/g) || []).length, 2);
-    assert.ok(canonical.includes('NBA TV [Backup]'));
+    assert.ok(canonical.includes('NBA TV *'));
     assert.equal(canonical, await readFile(new URL('playlist-combined.m3u', output), 'utf8'));
     assert.equal(JSON.parse(await readFile(new URL('playlist-status.json', output))).entryCount, 2);
     await unlink(new URL('playlist-backup.m3u', output));
@@ -88,7 +88,7 @@ test('one canonical playlist retains DRM, backups and guide, including without b
   }
 });
 
-test('only exact stream duplicates are removed; names and related URLs do not prove identity', () => {
+test('additional entries stay separate and duplicates receive an asterisk', () => {
   const primary = playlist([
     { name: 'News', url: 'https://example.com/news/master.m3u8?token=old' },
     { name: 'Sports', url: 'https://example.com/sports/playlist.m3u8' },
@@ -101,9 +101,11 @@ test('only exact stream duplicates are removed; names and related URLs do not pr
     { name: 'News [Backup]', epgId: 'News', url: 'https://other.example.com/news/master.m3u8' },
     { name: 'Another name', epgId: 'additional:another', url: 'https://example.com/news/master.m3u8?token=old' },
   ]);
-  const distinct = deduplicateBackups(primary, backups);
-  assert.deepEqual(distinct.excluded, ['additional:another']);
-  assert.equal(distinct.entries.length, 4);
+  const distinct = markAdditionalChannels(primary, backups);
+  assert.deepEqual(distinct.excluded, []);
+  assert.equal(distinct.entries.length, 5);
+  assert.ok(distinct.text.includes('Another name *'));
+  assert.ok(distinct.text.includes('News *'));
   assert.ok(distinct.text.includes('server=2'));
   assert.ok(distinct.text.includes('other.example.com'));
 });
@@ -162,7 +164,7 @@ test('actual playlist entries follow category order and keep playback blocks int
   assert.deepEqual(after,before);
 });
 
-test('category numbers preserve gaps, stream metadata and distinct Syfy/Sci Fi identities', () => {
+test('category numbers follow alphabetical display names and preserve playback identities', () => {
   const rows = [
     {name:'NBA TV',url:'https://example.com/sports.mpd',clearKey:{id:'1'.repeat(32),value:'2'.repeat(32)}},
     {name:'SYFY',url:'https://example.com/syfy.m3u8'},
@@ -175,10 +177,11 @@ test('category numbers preserve gaps, stream metadata and distinct Syfy/Sci Fi i
   assert.notEqual(first.assignments.SYFY,first.assignments['Sci Fi']);
   assert.ok(first.assignments['NBA TV']>=300 && first.assignments['NBA TV']<400);
   const without=numberPlaylist(playlist(rows.filter(row=>row.name!=='GMA')) ,first.assignments);
-  assert.equal(without.assignments.SYFY,first.assignments.SYFY);
-  assert.equal(without.assignments.GMA,first.assignments.GMA);
+  assert.equal(without.assignments.SYFY,first.assignments.SYFY-1);
+  assert.equal(without.assignments.GMA,undefined);
   const returned=numberPlaylist(original,without.assignments);
   assert.equal(returned.text,first.text);
+  assert.deepEqual([...first.text.matchAll(/tvg-id="([^"]*)"/g)].map(match=>match[1]),['GMA','Sci Fi','SYFY','NBA TV']);
   assert.ok(returned.text.includes('license_key='+'1'.repeat(32)+':'+'2'.repeat(32)));
   for(const row of rows) assert.ok(returned.text.includes(row.url));
   assert.equal((returned.text.match(/tvg-chno=/g)||[]).length,rows.length);

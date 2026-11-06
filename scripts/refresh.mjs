@@ -94,40 +94,45 @@ export function orderPlaylist(text) {
 
 export const categoryNumbers = Object.freeze({ Entertainment: 100, Movies: 200, Sports: 300, News: 400, Kids: 500, Anime: 600, Documentaries: 700, Music: 800, Lifestyle: 900, Faith: 1000, Education: 1100, General: 1200 });
 
-export function numberPlaylist(text, previous = {}) {
+function entryName(entry) {
+  const line = entry.block.split('\n')[0];
+  const encoded = line.match(/\btvg-name="([^"]*)"/)?.[1];
+  return encoded === undefined ? line.slice(line.indexOf(',') + 1).trim() : encoded.replace(/&(amp|quot|lt|gt);/g, (_, key) => ({ amp: '&', quot: '"', lt: '<', gt: '>' }[key]));
+}
+
+const sourceName = name => name.replace(/\s*(?:\[(?:Backup|Alternate|Additional)\]|\*)$/, '').trim();
+const nameKey = name => sourceName(name).toLowerCase().replace(/[^a-z0-9]/g, '');
+const compareNames = (a, b) => sourceName(entryName(a)).localeCompare(sourceName(entryName(b)), 'en', { sensitivity: 'base', numeric: true }) || entryName(a).localeCompare(entryName(b), 'en') || a.id.localeCompare(b.id, 'en');
+
+export function numberPlaylist(text) {
   const assignments = Object.create(null);
-  const used = new Set();
-  // Reserve absent channels too, so a failed check never renumbers its neighbours.
-  for (const [id, number] of Object.entries(previous)) {
-    const start = categoryNumbers[channelCategory(id)];
-    if (Number.isInteger(number) && number >= start && number < start + 100 && !used.has(number)) {
-      assignments[id] = number; used.add(number);
-    }
-  }
-  const entries = playlistEntries(text);
-  for (const entry of [...entries].sort((a, b) => a.id.localeCompare(b.id, 'en'))) {
+  const entries = playlistEntries(text).sort((a, b) => categoryNumbers[channelCategory(a.id)] - categoryNumbers[channelCategory(b.id)] || compareNames(a, b));
+  const next = { ...categoryNumbers };
+  for (const entry of entries) {
     if (Object.hasOwn(assignments, entry.id)) continue;
-    const start = categoryNumbers[channelCategory(entry.id)];
-    let number = start;
-    while (used.has(number) && number < start + 100) number++;
-    if (number >= start + 100) throw new Error(`Channel number range full: ${channelCategory(entry.id)}`);
-    assignments[entry.id] = number; used.add(number);
+    const category = channelCategory(entry.id);
+    if (next[category] >= categoryNumbers[category] + 100) throw new Error(`Channel number range full: ${category}`);
+    assignments[entry.id] = next[category]++;
   }
   const header = text.split(/(?=^#EXTINF:)/m)[0];
-  const numbered = entries.sort((a, b) => assignments[a.id] - assignments[b.id]).map(entry =>
-    entry.block.replace(/^#EXTINF:[^\r\n]*/, line => line.replace(/\s+tvg-chno="[^"]*"/g, '').replace(/^#EXTINF:[^ ,]+/, prefix => `${prefix} tvg-chno="${assignments[entry.id]}"`)).trimEnd() + '\n'
-  ).join('');
+  const numbered = entries.map(entry => entry.block.replace(/^#EXTINF:[^\r\n]*/, line => line.replace(/\s+tvg-chno="[^"]*"/g, '').replace(/^#EXTINF:[^ ,]+/, prefix => `${prefix} tvg-chno="${assignments[entry.id]}"`)).trimEnd() + '\n').join('');
   return { text: header + numbered, assignments };
 }
 
-export function deduplicateBackups(primary, backup) {
+export function markAdditionalChannels(primary, backup) {
   const regular = playlistEntries(primary);
-  const kept = []; const excluded = [];
-  for (const entry of playlistEntries(backup)) {
-    const duplicate = [...regular, ...kept].some(original => original.url && entry.url && original.url === entry.url);
-    if (duplicate) excluded.push(entry.id); else kept.push(entry);
-  }
-  return { text: backup ? `#EXTM3U x-tvg-url="${EPG_URL}"\n` + kept.map(entry => entry.block.trimEnd() + '\n').join('') : '', excluded, entries: kept };
+  const entries = playlistEntries(backup).map(entry => {
+    const name = sourceName(entryName(entry));
+    const duplicate = regular.some(original => nameKey(entryName(original)) === nameKey(name) || (original.url && original.url === entry.url));
+    const displayName = name + (duplicate ? ' *' : '');
+    const block = entry.block.replace(/^#EXTINF:[^\r\n]*/, line => {
+      const metadata = line.match(/^(#EXTINF:(?:[^,"\r\n]|"[^"]*")*),/)?.[1];
+      if (!metadata) throw new Error('Invalid channel metadata');
+      return metadata.replace(/\s+tvg-name="[^"]*"/g, '') + ` tvg-name="${attribute(displayName)}",${clean(displayName)}`;
+    });
+    return { ...entry, block };
+  });
+  return { text: backup ? `#EXTM3U x-tvg-url="${EPG_URL}"\n` + entries.map(entry => entry.block.trimEnd() + '\n').join('') : '', excluded: [], entries };
 }
 
 export function streamUrl(value) {
@@ -211,19 +216,19 @@ export async function refreshBackups(savedHtml, savedChecks) {
     const originalName = row.name;
     row.epgId = additionalChannelId(row);
     row.group = channelCategory(originalName);
-    if (catalog.some(channel => norm(channel.name) === norm(originalName))) row.name += ' [Additional]';
+    if (catalog.some(channel => norm(channel.name) === norm(originalName))) row.name += ' *';
     additionalChannels.push(row.name);
   }
   const checks = savedChecks || await checkBackupManifests(candidates);
   const readable = new Set(checks.filter(c => c.manifest_readable).map(c => c.channel));
-  const rows = candidates.filter(r => readable.has(r.name) || readable.has(r.name.replace(/ \[(?:Alternate|Additional)\]$/, '')));
+  const rows = candidates.filter(r => readable.has(r.name) || readable.has(sourceName(r.name)));
   const output = new URL('../site/', import.meta.url);
   await mkdir(output, { recursive: true });
   await writeFile(new URL('backup-candidates.m3u', output), playlist(candidates, { includeDrm: true }));
   await writeFile(new URL('backup-checks.json', output), JSON.stringify({ checkedAt: new Date().toISOString(), candidates: candidates.length, readableManifests: rows.length, scope: 'Manifest requests only; not video decoding or TV playback. Network-specific results.', channels: checks }, null, 2));
   await writeFile(new URL('playlist-backup.m3u', output), playlist(rows, { includeDrm: true }));
   await writeFile(new URL('backup-status.json', output), JSON.stringify({ updatedAt: new Date().toISOString(), candidateCount: candidates.length, channelCount: rows.length, additionalChannels: rows.map(row => row.name), candidateAdditionalChannels: additionalChannels, verifiedAdditionalChannels: [], existingChannelBackups: 0, clearKeyChannelCount: rows.filter(r => r.clearKey).length,
-    note: 'All saved candidates are included after exact URL deduplication. Reachability checks are informational; playback is not guaranteed.' }, null, 2));
+    note: 'All saved candidates remain listed. An asterisk marks additional entries sharing an original name or stream URL. Reachability checks are informational; playback is not guaranteed.' }, null, 2));
   console.log(`Backup playlist extracted: ${rows.length} channels`);
 }
 
@@ -245,12 +250,7 @@ export async function combinePlaylists(output = new URL('../site/', import.meta.
     try { backup = await readFile(new URL('playlist-backup.m3u', output), 'utf8'); }
     catch (fallbackError) { if (fallbackError.code !== 'ENOENT') throw fallbackError; }
   }
-  let previousNumbers = {};
-  try { previousNumbers = JSON.parse(await readFile(new URL('channel-numbers.json', output), 'utf8')); }
-  catch (error) { if (error.code !== 'ENOENT') throw error; }
-  const { assignments } = numberPlaylist(primary + '\n' + backup.split('\n').slice(1).join('\n'), previousNumbers);
-  await writeFile(new URL('channel-numbers.json', output), JSON.stringify(assignments, null, 2) + '\n');
-  const distinct = deduplicateBackups(primary, backup);
+  const distinct = markAdditionalChannels(primary, backup);
   backup = categorizePlaylist(distinct.text);
   if (backup) await writeFile(new URL('playlist-backup.m3u', output), backup);
   try {
@@ -260,14 +260,16 @@ export async function combinePlaylists(output = new URL('../site/', import.meta.
     status.additionalChannels = distinct.entries.map(entry => entry.block.split('\n')[0].split(',').pop());
     status.channelCount = distinct.entries.length;
     status.existingChannelBackups = 0;
-    status.note = 'All saved candidates are included after exact URL deduplication. Reachability checks are informational; playback is not guaranteed.';
+    status.note = 'All saved candidates remain listed. An asterisk marks additional entries sharing an original name or stream URL. Reachability checks are informational; playback is not guaranteed.';
     status.clearKeyChannelCount = (backup.match(/^#KODIPROP:inputstream\.adaptive\.license_key=/gm) || []).length;
     status.excludedDuplicates = [...new Set([...(status.excludedDuplicates || []), ...distinct.excluded])].filter(id => !ids.has(id));
     delete status.source;
     await writeFile(statusUrl, JSON.stringify(status, null, 2));
   } catch (error) { if (error.code !== 'ENOENT') throw error; }
   const base = primary.replace(/^#EXTM3U[^\n]*/, `#EXTM3U x-tvg-url="${EPG_URL}"`);
-  const combined = numberPlaylist(categorizePlaylist(base.trimEnd() + '\n' + backup.split('\n').slice(1).join('\n')), assignments).text;
+  const numbered = numberPlaylist(categorizePlaylist(base.trimEnd() + '\n' + backup.split('\n').slice(1).join('\n')));
+  const combined = numbered.text;
+  await writeFile(new URL('channel-numbers.json', output), JSON.stringify(numbered.assignments, null, 2) + '\n');
   await writeFile(new URL('playlist.m3u.tmp', output), combined);
   await rename(new URL('playlist.m3u.tmp', output), new URL('playlist.m3u', output));
   await writeFile(new URL('playlist-combined.m3u', output), combined);
