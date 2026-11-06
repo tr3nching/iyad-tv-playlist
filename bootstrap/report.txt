@@ -1,5 +1,5 @@
-Generated 2026-11-06T19:48:13.731483+00:00
-Usable current schedules 170/248; matched including unusable 186; programmes 16641
+Generated 2026-11-06T20:25:17.904515+00:00
+Usable current schedules 170/248; matched including unusable 186; programmes 16553
 
 no matching source listings  3RSTV <- :
 no usable current schedule  TV5 <- :

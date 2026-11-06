@@ -9,6 +9,26 @@ UTC=dt.timezone.utc
 MAX_BYTES=32_000_000
 MAX_XML_BYTES=180_000_000
 PLACEHOLDERS={'no data','no epg','no information','programming unavailable','to be announced','tba'}
+CHANNEL_GROUPS=json.loads((BASE.parent/'channel-groups.json').read_text(encoding='utf-8'))
+# Android TV accepts a fixed set of program genres. Some channel types use a
+# broader equivalent; General has no useful genre to infer.
+FALLBACK_GENRES={'Sports':'SPORTS','Movies':'MOVIES','News':'NEWS','Kids':'FAMILY_KIDS',
+ 'Anime':'ENTERTAINMENT','Documentaries':'EDUCATION','Music':'MUSIC',
+ 'Lifestyle':'LIFE_STYLE','Faith':'LIFE_STYLE','Education':'EDUCATION',
+ 'Entertainment':'ENTERTAINMENT'}
+
+def apply_genre_fallback(programme,channel):
+ """Supply a channel-based genre only when all supplied categories are empty."""
+ categories=programme.findall('category')
+ if any((category.text or '').strip() for category in categories):return False
+ genre=FALLBACK_GENRES.get(CHANNEL_GROUPS.get(channel.strip()))
+ if not genre:return False
+ for category in categories:programme.remove(category)
+ category=ET.Element('category',{'lang':'en'});category.text=genre
+ preceding={'title','sub-title','desc','credits','date'}
+ position=next((i for i,child in enumerate(programme) if child.tag not in preceding),len(programme))
+ programme.insert(position,category)
+ return True
 
 def norm(value):return re.sub(r'[^a-z0-9]','',(value or '').lower())
 def parse_time(value):
@@ -91,6 +111,7 @@ def prepare_channel(name,sid,feed,now):
   key=(a,b,title)
   if key in seen:continue
   seen.add(key);q=copy.deepcopy(p);q.set('channel',name);q.set('start',stamp(a));q.set('stop',stamp(b));q.find('title').text=title
+  apply_genre_fallback(q,name)
   programmes.append((a,b,q))
  programmes.sort(key=lambda x:(x[0],x[1]))
  return programmes,invalid,placeholders
@@ -138,6 +159,7 @@ def build(catalog,out,offline=False,config_path=None):
   selected=[c for c in stats if c['source']==label]
   meta.update(selected_channels=len(selected),selected_programmes=sum(c['programmes'] for c in selected))
  report={'generated_utc':now.isoformat(),'enabled_channels':len(channels),'matched_channels_including_unusable':matched_any,'mapped_channels':len(stats),'unmapped_channels':len(channels)-len(stats),'programmes':total,'total_overlaps':0,'sources':source_meta,'source_counts':{label:{k:meta.get(k,0) for k in ['channel_definitions','programme_entries','selected_channels','selected_programmes']} for label,meta in source_meta.items()},'unmapped_reasons':dict(skipped),'channels':stats,'merge_policy':'Source priority with explicit identities or unique exact names. Try later feeds when earlier listings are stale, placeholders, invalid, or overlapping. One source per channel.','timezone_policy':'Parse explicit UTC offsets; preserve instants; player guide offset 0.','verification_scope':'Timestamp integrity and identity rules checked. Regional feeds and every broadcast are not independently confirmed. Total name matches and usable current schedules are separate counts.'}
+ report['genre_policy']='Preserve non-empty programme categories. When missing, add the channel category mapped to an Android TV genre. General/unknown channels remain unclassified; never create programmes to supply a genre.'
  (out/'epg.xml.tmp').write_bytes(xml);(out/'epg.xml.tmp').replace(out/'epg.xml');(out/'epg.xml.gz').write_bytes(gzip.compress(xml,mtime=0))
  for file,value in [('epg-status.json',report),('verification.json',report),('mapping.json',rows)]:
   (out/file).write_text(json.dumps(value,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')

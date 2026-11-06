@@ -46,4 +46,30 @@ class GuideTests(unittest.TestCase):
   ps,invalid,placeholders=epg.prepare_channel('News','news',f,dt.datetime.now(epg.UTC))
   self.assertEqual((len(ps),invalid,placeholders),(0,1,3))
 
+ def test_missing_genre_uses_channel_category_without_changing_schedule(self):
+  feed=self.feed('NBA TV','nba')
+  original=E.tostring(feed['programmes']['nba'][0])
+  programmes,_,_=epg.prepare_channel('NBA TV','nba',feed,dt.datetime.now(epg.UTC))
+  self.assertTrue(programmes)
+  self.assertTrue(all(p.findtext('category')=='SPORTS' for a,b,p in programmes))
+  self.assertEqual(E.tostring(feed['programmes']['nba'][0]),original)
+  for a,b,p in programmes:
+   self.assertEqual(epg.parse_time(p.get('start')),a)
+   self.assertEqual(epg.parse_time(p.get('stop')),b)
+
+ def test_supplied_genres_are_preserved_and_fallback_is_idempotent(self):
+  p=E.Element('programme');E.SubElement(p,'category',{'lang':'fr'}).text='Actual programme genre'
+  before=E.tostring(p)
+  self.assertFalse(epg.apply_genre_fallback(p,'NBA TV'))
+  self.assertEqual(E.tostring(p),before)
+  blank=E.Element('programme');E.SubElement(blank,'title').text='A programme'
+  E.SubElement(blank,'category').text='  ';E.SubElement(blank,'episode-num').text='1'
+  self.assertTrue(epg.apply_genre_fallback(blank,'Cartoon Network'))
+  self.assertFalse(epg.apply_genre_fallback(blank,'Cartoon Network'))
+  self.assertEqual([c.text for c in blank.findall('category')],['FAMILY_KIDS'])
+  self.assertEqual([child.tag for child in blank],['title','category','episode-num'])
+  unknown=E.Element('programme')
+  self.assertFalse(epg.apply_genre_fallback(unknown,'Unlisted channel'))
+  self.assertEqual(unknown.findall('category'),[])
+
 if __name__=='__main__':unittest.main()
