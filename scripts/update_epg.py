@@ -9,7 +9,21 @@ from pathlib import Path
 BASE = Path(__file__).resolve().parent
 UTC = dt.timezone.utc
 SOURCE = 'https://m3u-edit.com/epg-source.php?file=PH2.xml.gz'
-SOURCES = {'PH2':SOURCE,'PH1':'https://m3u-edit.com/epg-source.php?file=PH1.xml.gz'}
+SOURCES = {'PH2':SOURCE,'PH1':'https://m3u-edit.com/epg-source.php?file=PH1.xml.gz',
+ 'PH_EPG':'https://tr3nching.github.io/ph-epg/epg.xml.gz'}
+# These upstream matches currently describe a different station or regional feed.
+# Keep the explicit PH mappings above; never fill these gaps from a name-only match.
+PH_EPG_HOLD = {
+ 'NBA TV':'Upstream maps the US channel to NBA TV Philippines',
+ 'GMA':'Upstream maps domestic GMA to GMA Pinoy TV',
+ 'TV5':'Upstream maps Philippine TV5 to French-language TV5',
+ 'Tap Action Flix':'Upstream maps this station to Tap Movies',
+ 'TAP Edge':'Upstream maps this station to TAP Sports',
+ 'Discovery Asia':'Upstream maps this station to Discovery Channel',
+ 'Dreamworks HD':'Upstream selects the separate Tagalized feed',
+ 'BBC CBeebies':'Polish regional schedule needs confirmation',
+ 'ION':'UK iON TV is a different station from US ION',
+}
 MAX_BYTES = 8_000_000
 PLACEHOLDERS = {'no data', 'no epg', 'no information', 'programming unavailable', 'to be announced'}
 # Explicit identities, not fuzzy matching. IDs belong to the Philippines PH2 feed.
@@ -172,10 +186,13 @@ def build(catalog, out, offline=False):
  rows=[]; skipped=collections.Counter(); stats=[]; total=0
  for channel in channels:
   name=re.sub(r'\s+', ' ', channel['name']).strip(); programmes=[]; invalid=0;placeholders=0;sid=None;selected=None
-  candidates=[('PH2',cid) for cid in ids(MAPPING,name)]+[('PH1',cid) for cid in ids(PH1_MAPPING,name)]
+  candidates=[('PH2',cid) for cid in ids(MAPPING,name)]
+  if 'PH_EPG' in feeds and name not in PH_EPG_HOLD and name in feeds['PH_EPG']['names']:
+   candidates.append(('PH_EPG',name))
+  candidates += [('PH1',cid) for cid in ids(PH1_MAPPING,name)]
   attempts=[]
   for label,candidate in candidates:
-   allowed=label=='PH2' or alignment['PH1_eligible']
+   allowed=label in {'PH2','PH_EPG'} or alignment['PH1_eligible']
    candidate_programmes,candidate_invalid,candidate_placeholders=prepare_channel(
      name,candidate,feeds[label],now)
    upcoming=sum(p[1]>now for p in candidate_programmes)
@@ -201,7 +218,8 @@ def build(catalog, out, offline=False):
   rows.append({'playlist_tvg_id':name,'source':selected or '', 'source_id':sid or '', 'status':reason,
                'source_url':SOURCES[selected] if selected else '', 'upcoming_programmes':len(future),
                'placeholder_rejected':placeholders,'candidate_ids':' | '.join(f'{a}:{b}' for a,b in candidates),
-               'region':'Philippines' if candidates else '', 'attempts':attempts})
+               'region':'upstream selected feed; regional confirmation incomplete' if selected=='PH_EPG' else ('Philippines' if candidates else ''),
+               'upstream_hold':PH_EPG_HOLD.get(name,''), 'attempts':attempts})
  if not stats or total<100: raise RuntimeError('Refusing to publish empty/inadequate EPG')
  ET.indent(root,space='  '); xml=ET.tostring(root,encoding='utf-8',xml_declaration=True)
  tmp=out/'epg.xml.tmp';tmp.write_bytes(xml);tmp.replace(out/'epg.xml')
@@ -212,14 +230,15 @@ def build(catalog, out, offline=False):
  for label,meta in source_meta.items():
   chosen=[s for s in stats if s['source']==label]
   meta.update({'selected_channels':len(chosen),'selected_programmes':sum(x['programmes'] for x in chosen),
-               'eligible':label=='PH2' or alignment['PH1_eligible']})
+               'eligible':label in {'PH2','PH_EPG'} or alignment['PH1_eligible']})
  report={'generated_utc':now.isoformat(),'enabled_channels':len(channels),'mapped_channels':len(stats),
          'unmapped_channels':len(channels)-len(stats),'programmes':total,'source':source_meta['PH2'],
          'sources':source_meta,'cross_source_alignment':alignment,
          'source_counts':{label:{k:meta.get(k,0) for k in ['channel_definitions','programme_entries','selected_channels','selected_programmes']} for label,meta in source_meta.items()},
-         'merge_policy':'Prefer PH2 current real schedule; otherwise eligible PH1 HD then SD. Select one source per channel; never interleave schedules or shift timestamps.',
+         'merge_policy':'Prefer explicit PH2 mappings, then exact playlist IDs from ph-epg excluding held identities, then eligible PH1. Select one source per channel; never interleave schedules or shift timestamps.',
          'timezone_policy':'Parse explicit source offsets; convert to UTC without shifting instants. Player offset must be 0.',
-         'verification_scope':'Identity matching and timestamp integrity checked. Independent broadcaster checks are recorded separately; not every broadcast is independently confirmed.',
+         'verification_scope':'Imported ph-epg schedules are not independently broadcaster-confirmed. Known identity mismatches, placeholders, invalid times, stale-only schedules and overlapping channels are excluded. Prior representative broadcaster checks apply only to their original PH2 examples.',
+         'upstream_identity_holds':PH_EPG_HOLD,
          'total_overlaps':sum(s['overlaps'] for s in stats),
          'unmapped_reasons':dict(skipped),'channels':stats}
  (out/'verification.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')

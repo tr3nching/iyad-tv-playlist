@@ -1,247 +1,247 @@
-﻿playlist_tvg_id,source,source_id,status,source_url,upcoming_programmes,placeholder_rejected,candidate_ids,region
-3RSTV,,,no unambiguous regional mapping,,0,0,,
-TV5,,,no current eligible real programmes,,0,0,PH2:TV5.ph | PH1:TV5.ph,Philippines
-A2Z,,,no current eligible real programmes,,0,0,PH1:A2Z.ph,Philippines
-Abante Radyo,,,no unambiguous regional mapping,,0,0,,
-ABC Australia,PH2,ABC.Australia.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,74,0,PH2:ABC.Australia.ph,Philippines
-Adventure Earth,,,no unambiguous regional mapping,,0,0,,
-ALIW23,,,no unambiguous regional mapping,,0,0,,
-Al Jazeera,PH2,Al.Jazeera.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,85,0,PH2:Al.Jazeera.ph,Philippines
-Aliwko,,,no unambiguous regional mapping,,0,0,,
-ALLTV2,,,no unambiguous regional mapping,,0,0,,
-AMC+,,,no unambiguous regional mapping,,0,0,,
-ANC,,,no current eligible real programmes,,0,0,PH2:ANC.ph | PH1:ANC.HD.ph | PH1:ANC.ph,Philippines
-Animax,,,no current eligible real programmes,,0,0,PH2:Animax.ph | PH1:ANIMAX.ph,Philippines
-Aniplus,,,no current eligible real programmes,,0,0,PH1:ANIPLUS.SD.ph,Philippines
-Animal Planet,,,no current eligible real programmes,,0,0,PH1:ANIMAL.PLANET.HD.ph | PH1:ANIMAL.PLANET.ph,Philippines
-amasian tv Anime 24/7,,,no unambiguous regional mapping,,0,0,,
-Anime All Day,,,no unambiguous regional mapping,,0,0,,
-Filmrise Anime,,,no unambiguous regional mapping,,0,0,,
-Anime by Pluto,,,no unambiguous regional mapping,,0,0,,
-Anime x Hidive,,,no unambiguous regional mapping,,0,0,,
-Arirang,PH2,Arirang.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,94,0,PH2:Arirang.ph,Philippines
-Asian Crush,,,no unambiguous regional mapping,,0,0,,
-Asian Food Network,,,no current eligible real programmes,,0,0,PH1:ASIAN.FOOD.NETWORK.HD.ph | PH1:ASIAN.FOOD.NETWORK.ph,Philippines
-AVL TV,,,no unambiguous regional mapping,,0,0,,
-AXN,,,no current eligible real programmes,,0,0,PH2:AXN.ph | PH1:AXN.HD.ph | PH1:AXN.ph,Philippines
-BBC CBeebies,,,no unambiguous regional mapping,,0,0,,
-PBB Collab 3.0,,,no unambiguous regional mapping,,0,0,,
-BBC Earth,PH2,BBC.Earth.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,58,0,PH2:BBC.Earth.HD.ph,Philippines
-BBC Lifestyle,PH2,BBC.Lifestyle.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,65,0,PH2:BBC.Lifestyle.ph,Philippines
-BBC News,PH2,BBC.News.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,110,0,PH2:BBC.News.ph,Philippines
-BeIn Sports,,,no unambiguous regional mapping,,0,0,,
-Billiard TV,,,no unambiguous regional mapping,,0,0,,
-Bilyonaryo,PH2,Bilyonaryo.News.Channel.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,68,0,PH2:Bilyonaryo.News.Channel.ph,Philippines
-Blast Movies,PH2,BLASTMOVIES.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,32,0,PH2:BLASTMOVIES.ph,Philippines
-Bloomberg,,,no current eligible real programmes,,0,0,PH1:BLOOMBERG.ph,Philippines
-Boing,,,no unambiguous regional mapping,,0,0,,
-BOOMERANG,,,no current eligible real programmes,,0,0,PH1:BOOMERANG.ph,Philippines
-BS10 + more Converge Channels,,,no unambiguous regional mapping,,0,0,,
-Cartoonito,,,no unambiguous regional mapping,,0,0,,
-Cartoon Channel PH,,,no unambiguous regional mapping,,0,0,,
-Cartoon Network,,,no current eligible real programmes,,0,0,PH1:CARTOON.NETWORK.HD.ph | PH1:CARTOON.NETWORK.ph,Philippines
-CCTV4,PH2,CCTV.4.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,91,0,PH2:CCTV.4.ph,Philippines
-Celestial Classic Movies,,,no current eligible real programmes,,0,0,PH1:CELESTIAL.CLASSIC.MOVIES.ph,Philippines
-Celestial Movies Pinoy,,,no unambiguous regional mapping,,0,0,,
-CGTN Documentary,,,no unambiguous regional mapping,,0,0,,
-Channel News Asia,PH2,CNA.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,101,0,PH2:CNA.ph | PH1:CHANNEL.NEWS.ASIA.ph,Philippines
-CinemaOne,,,no current eligible real programmes,,0,0,PH2:Cinema.One.ph | PH1:CINEMA.ONE.ph,Philippines
-CineMo!,,,no current eligible real programmes,,0,0,PH1:CINEMO!.ph,Philippines
-Cinemax,,,no current eligible real programmes,,0,0,PH1:CINEMAX.HD.ph | PH1:CINEMAX.ph,Philippines
-CLTV36,,,no unambiguous regional mapping,,0,0,,
-CNBC,,,no unambiguous regional mapping,,0,0,,
-CNN HD,PH2,CNN.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,82,0,PH2:CNN.HD.ph,Philippines
-Comedy Central,,,no unambiguous regional mapping,,0,0,,
-Concert Channel,,,no unambiguous regional mapping,,0,0,,
-CRIME INVESTIGATION,,,no current eligible real programmes,,0,0,PH2:Crime.Investigation.ph | PH1:CRIME.&.INVESTIGATION.HD.ph | PH1:CRIME.&.INVESTIGATION.ph,Philippines
-Crunchyroll,,,no unambiguous regional mapping,,0,0,,
-Curiosity Now,,,no unambiguous regional mapping,,0,0,,
-Danger TV,,,no unambiguous regional mapping,,0,0,,
-DepEd TV,,,no current eligible real programmes,,0,0,PH2:DepEd.TV.ph,Philippines
-DAZN,,,no unambiguous regional mapping,,0,0,,
-Discovery Asia,,,no current eligible real programmes,,0,0,PH1:DISCOVERY.ASIA.ph,Philippines
-Discovery Channel,,,no current eligible real programmes,,0,0,PH1:DISCOVERY.CHANNEL.HD.ph | PH1:DISCOVERY.CHANNEL.ph,Philippines
-Discovery Family,,,no unambiguous regional mapping,,0,0,,
-Discovery Science,,,no unambiguous regional mapping,,0,0,,
-Discovery Turbo,,,no unambiguous regional mapping,,0,0,,
-Disney Channel,,,no unambiguous regional mapping,,0,0,,
-DMAX,,,no unambiguous regional mapping,,0,0,,
-Dream TV PH,,,no unambiguous regional mapping,,0,0,,
-Dreamworks HD,PH2,DreamWorks.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,139,0,PH2:DreamWorks.HD.ph | PH1:DREAMWORKS.HD.ph,Philippines
-DW News,,,no unambiguous regional mapping,,0,0,,
-DZMM Teleradyo,,,no current eligible real programmes,,0,0,PH1:DZMM.TELERADYO.ph,Philippines
-DZRH TV,,,no unambiguous regional mapping,,0,0,,
-ESPN,,,no unambiguous regional mapping,,0,0,,
-EDGE SPORT,,,no unambiguous regional mapping,,0,0,,
-Euro News.,,,no current eligible real programmes,,0,0,PH1:EURONEWS.ph,Philippines
-Evolution Earth,,,no unambiguous regional mapping,,0,0,,
-EWTN,,,no unambiguous regional mapping,,0,0,,
-FailArmy,,,no unambiguous regional mapping,,0,0,,
-Fashion TV HD,PH2,Fashion.TV.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,112,0,PH2:Fashion.TV.HD.ph | PH1:FASHION.TV.HD.ph,Philippines
-Fight Network,,,no unambiguous regional mapping,,0,0,,
-FITE 24/7,,,no unambiguous regional mapping,,0,0,,
-Food Network HD,,,no current eligible real programmes,,0,0,PH1:FOOD.NETWORK.HD.ph,Philippines
-FOX,,,no unambiguous regional mapping,,0,0,,
-Fox Sports 1,,,no unambiguous regional mapping,,0,0,,
-FRANCE 24,PH2,France.24.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,272,0,PH2:France.24.ph,Philippines
-Global Fashion Channel,,,no unambiguous regional mapping,,0,0,,
-Global Trekker,PH2,Global.Trekker.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,85,0,PH2:Global.Trekker.ph | PH1:GLOBAL.TREKKER.HD.ph,Philippines
-GMA,,,no current eligible real programmes,,0,0,PH2:GMA.ph,Philippines
-GMA Life TV,,,no unambiguous regional mapping,,0,0,,
-GMA News TV,,,no unambiguous regional mapping,,0,0,,
-GMA Pinoy TV,,,no unambiguous regional mapping,,0,0,,
-GNN,,,no unambiguous regional mapping,,0,0,,
-Golden TV,,,no unambiguous regional mapping,,0,0,,
-GTV,,,no current eligible real programmes,,0,0,PH2:GTV.ph,Philippines
-hallypop,,,no unambiguous regional mapping,,0,0,,
-Hallmark,,,no unambiguous regional mapping,,0,0,,
-HBO,,,no current eligible real programmes,,0,0,PH1:HBO.HD.ph | PH1:HBO.ph,Philippines
-HBO Boxing,,,no unambiguous regional mapping,,0,0,,
-HBO Comedy,,,no unambiguous regional mapping,,0,0,,
-HBO Family,,,no current eligible real programmes,,0,0,PH1:HBO.FAMILY.HD.ph | PH1:HBO.FAMILY.ph,Philippines
-HBO Mundi,,,no unambiguous regional mapping,,0,0,,
-HBO Signature,,,no current eligible real programmes,,0,0,PH1:HBO.SIGNATURE.HD.ph | PH1:HBO.SIGNATURE.ph,Philippines
-HBO PLUS,,,no unambiguous regional mapping,,0,0,,
-HBO POP,,,no unambiguous regional mapping,,0,0,,
-HBO Xtreme,,,no unambiguous regional mapping,,0,0,,
-HBO Zone,,,no unambiguous regional mapping,,0,0,,
-HGTV HD,,,no current eligible real programmes,,0,0,PH1:HGTV.HD.ph,Philippines
-History HD,PH2,History.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,64,0,PH2:History.HD.ph | PH1:HISTORY.HD.ph,Philippines
-Hits HD,PH2,HITS.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,75,0,PH2:HITS.HD.ph,Philippines
-Hits Movies,PH2,HITS.MOVIES.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,26,0,PH2:HITS.MOVIES.ph,Philippines
-Hits Now,PH2,HITS.NOW.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,52,0,PH2:HITS.NOW.ph,Philippines
-HIYAH!,,,no unambiguous regional mapping,,0,0,,
-Hope Channel PH,,,no unambiguous regional mapping,,0,0,,
-HypeTV,,,no unambiguous regional mapping,,0,0,,
-IBC13,,,no current eligible real programmes,,0,0,PH2:IBC.13.ph,Philippines
-INCTV,,,no unambiguous regional mapping,,0,0,,
-InWonder,,,no unambiguous regional mapping,,0,0,,
-ION,,,no unambiguous regional mapping,,0,0,,
-Jeepney TV,,,no current eligible real programmes,,0,0,PH2:Jeepney.TV.ph | PH1:JEEPNEY.TV.ph,Philippines
-Just for Laughs Gags,,,no unambiguous regional mapping,,0,0,,
-Kapamilya Channel,,,no current eligible real programmes,,0,0,PH2:Kapamilya.Channel.ph | PH1:KAPAMILYA.CHANNEL.HD.ph | PH1:KAPAMILYA.CHANNEL.ph,Philippines
-Kapamilya Channel HD,,,no current eligible real programmes,,0,0,PH2:Kapamilya.Channel.ph | PH1:KAPAMILYA.CHANNEL.HD.ph,Philippines
-Kartoon Channel,,,no unambiguous regional mapping,,0,0,,
-KBS World,,,no current eligible real programmes,,0,0,PH1:KBS.WORLD.ph,Philippines
-Kidsflix,,,no unambiguous regional mapping,,0,0,,
-Kids TV,,,no unambiguous regional mapping,,0,0,,
-Kix HD,,,no current eligible real programmes,,0,0,PH1:KIX.HD.ph,Philippines
-Knowledge Channel,PH2,Knowledge.Channel.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,109,0,PH2:Knowledge.Channel.ph | PH1:KNOWLEDGE.CHANNEL.ph,Philippines
-Kpop TV Play,,,no unambiguous regional mapping,,0,0,,
-KroneHit TV,,,no unambiguous regional mapping,,0,0,,
-Lifetime,PH2,Lifetime.SD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,53,0,PH2:Lifetime.SD.ph | PH1:LIFETIME..HD.ph | PH1:LIFETIME.ph,Philippines
-Light TV,,,no unambiguous regional mapping,,0,0,,
-Lotus Macau,,,no current eligible real programmes,,0,0,PH2:Lotus.Macau.ph,Philippines
-MMA-TV,,,no unambiguous regional mapping,,0,0,,
-Mindanow Network,,,no unambiguous regional mapping,,0,0,,
-Metro Channel,,,no current eligible real programmes,,0,0,PH2:Metro.Channel.ph | PH1:METRO.CHANNEL.HD.ph | PH1:METRO.CHANNEL.SD.ph,Philippines
-MIRAMAX,,,no unambiguous regional mapping,,0,0,,
-MLB Network,,,no unambiguous regional mapping,,0,0,,
-MNX HD,,,no unambiguous regional mapping,,0,0,,
-Moonbug Kids,,,no current eligible real programmes,,0,0,PH2:Moonbug.Kids.ph,Philippines
-MOR Entertainment,,,no unambiguous regional mapping,,0,0,,
-MotoGP Channel,,,no unambiguous regional mapping,,0,0,,
-MovieBoxPH,,,no unambiguous regional mapping,,0,0,,
-Halloween Nights,,,no unambiguous regional mapping,,0,0,,
-Movies Now,,,no unambiguous regional mapping,,0,0,,
-Movie Sphere,,,no unambiguous regional mapping,,0,0,,
-Mr. Bean,,,no unambiguous regional mapping,,0,0,,
-Mr Beast,,,no unambiguous regional mapping,,0,0,,
-Media Pilipinas TV,,,no unambiguous regional mapping,,0,0,,
-MTV,,,no current eligible real programmes,,0,0,PH1:MTV.ASIA.ph,Philippines
-MUX DOS,,,no unambiguous regional mapping,,0,0,,
-Mythbusters,,,no unambiguous regional mapping,,0,0,,
-Mysterious Worlds,,,no unambiguous regional mapping,,0,0,,
-MYX,,,no current eligible real programmes,,0,0,PH2:MYX.ph | PH1:MYX.ph,Philippines
-National Geographic,,,no current eligible real programmes,,0,0,PH1:NATIONAL.GEOGRAPHIC.HD.ph | PH1:NATIONAL.GEOGRAPHIC.ph,Philippines
-NBA TV,,,no unambiguous regional mapping,,0,0,,
-NBA TV Philippines,PH2,NBA.TV.Philippines.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,54,0,PH2:NBA.TV.Philippines.ph,Philippines
-NCAA NXT,PH2,NCAA.NXT.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,19,0,PH2:NCAA.NXT.ph,Philippines
-New KMovies,,,no unambiguous regional mapping,,0,0,,
-Net25,,,no current eligible real programmes,,0,0,PH2:Net.25.ph,Philippines
-NHK World Japan,PH2,NHK.World.Japan.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,155,0,PH2:NHK.World.Japan.ph | PH1:NHK.WORLD.JAPAN.ph,Philippines
-Nickjr,,,no current eligible real programmes,,0,0,PH1:NICK.JR..ph,Philippines
-Nickelodeon,PH2,Nickelodeon.SD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,96,0,PH2:Nickelodeon.SD.ph | PH1:NICKELODEON.ph,Philippines
-One News HD,PH2,One.News.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,79,0,PH2:One.News.ph,Philippines
-One PH,PH2,One.PH.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,58,0,PH2:One.PH.ph,Philippines
-One Sports,PH2,One.Sports.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,28,0,PH2:One.Sports.HD.ph | PH1:ONE.SPORTS.ph,Philippines
-Outdoor Channel,,,no current eligible real programmes,,0,0,PH1:OUTDOOR.CHANNEL.HD.ph | PH1:OUTDOOR.CHANNEL.ph,Philippines
-Oras ng Himala,,,no unambiguous regional mapping,,0,0,,
-Paramount Movie Channel,,,no unambiguous regional mapping,,0,0,,
-PBA Rush,,,no current eligible real programmes,,0,0,PH2:PBA.Rush.ph,Philippines
-PBS Digital Studios,,,no unambiguous regional mapping,,0,0,,
-People Are Awesome,,,no unambiguous regional mapping,,0,0,,
-Pilipinas Live,,,no unambiguous regional mapping,,0,0,,
-Pinoy Box Office,,,no current eligible real programmes,,0,0,PH2:PBO.ph | PH1:PBO.ph,Philippines
-Pinoy Xtreme,,,no unambiguous regional mapping,,0,0,,
-Premier Sports,PH2,Premier.Sports.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,21,0,PH2:Premier.Sports.HD.ph | PH1:PREMIER.SPORTS.HD.ph | PH1:PREMIER.SPORTS.ph,Philippines
-Peoples Television,,,no current eligible real programmes,,0,0,PH2:PTV.4.ph,Philippines
-Popular Science,,,no unambiguous regional mapping,,0,0,,
-Radyo Bandido,,,no unambiguous regional mapping,,0,0,,
-Real Disaster Channel,,,no unambiguous regional mapping,,0,0,,
-Real Wild,,,no unambiguous regional mapping,,0,0,,
-Retro Crush,,,no unambiguous regional mapping,,0,0,,
-RedBull TV,,,no unambiguous regional mapping,,0,0,,
-RJ Digitv,,,no unambiguous regional mapping,,0,0,,
-Rock Action,PH2,Rock.Action.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,30,0,PH2:Rock.Action.ph,Philippines
-Rock MNL,,,no unambiguous regional mapping,,0,0,,
-RPTV,PH2,RPTV.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,36,0,PH2:RPTV.HD.ph | PH1:RPTV.ph,Philippines
-SBS K-Drama,,,no unambiguous regional mapping,,0,0,,
-SineManila,,,no unambiguous regional mapping,,0,0,,
-Sky Sports F1,,,no unambiguous regional mapping,,0,0,,
-Smithsonian Channel,,,no unambiguous regional mapping,,0,0,,
-SMNI News Channel,,,no unambiguous regional mapping,,0,0,,
-SOLARFLIX,,,no current eligible real programmes,,0,0,PH2:Solar.Flix.ph | PH1:SOLARFLIX.ph,Philippines
-SOLARSPORTS,,,no current eligible real programmes,,0,0,PH1:SOLAR.SPORTS.ph,Philippines
-Sony Movies,,,no unambiguous regional mapping,,0,0,,
-Sony Pix,,,no unambiguous regional mapping,,0,0,,
-Sony One Action Hits,,,no unambiguous regional mapping,,0,0,,
-Spotlight TV,,,no unambiguous regional mapping,,0,0,,
-SPOTV,,,no current eligible real programmes,,0,0,PH2:SPOTV.HD.ph | PH1:SPOTV.HD.ph | PH1:SPOTV.ph,Philippines
-STAR Movies HD,,,no unambiguous regional mapping,,0,0,,
-STAR Movies Select HD,,,no unambiguous regional mapping,,0,0,,
-Star TV Philippines,,,no unambiguous regional mapping,,0,0,,
-STBS Global,,,no unambiguous regional mapping,,0,0,,
-SYFY,,,no unambiguous regional mapping,,0,0,,
-STARZ,,,no unambiguous regional mapping,,0,0,,
-Studio Universal,PH2,STUDIOUNIVERSAL.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,29,0,PH2:STUDIOUNIVERSAL.ph,Philippines
-Tagalized Movie Channel,,,no current eligible real programmes,,0,0,PH2:Tagalized.Movie.Channel.ph | PH1:TMC.(TAGALIZED.MOVIE.CHANNEL).ph,Philippines
-Taiwan Plus,,,no unambiguous regional mapping,,0,0,,
-Tap Action Flix,,,no current eligible real programmes,,0,0,PH2:TAPACTIONFLIX.ph | PH1:TapAction.Flix.HD.ph | PH1:TapAction.Flix.ph,Philippines
-TAP Edge,,,no current eligible real programmes,,0,0,PH2:TAPEDGE.ph | PH1:TAP.EDGE.ph,Philippines
-Tap Movies,PH2,TAP.Movies.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,32,0,PH2:TAP.Movies.HD.ph | PH1:TAP.MOVIES.HD.ph | PH1:TAP.MOVIES.ph,Philippines
-TapSILOG,,,no current eligible real programmes,,0,0,PH2:Tapsilog.ph,Philippines
-TAP Sports,PH2,Tap.Sports.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,27,0,PH2:Tap.Sports.ph | PH1:TAP.SPORTS.HD.ph,Philippines
-TAP TV,,,no current eligible real programmes,,0,0,PH2:TAPTV.ph | PH1:TAP.TV.ph,Philippines
-Tastemade,,,no unambiguous regional mapping,,0,0,,
-TBN Asia,,,no unambiguous regional mapping,,0,0,,
-TFC Asia,,,no unambiguous regional mapping,,0,0,,
-Tennis Channel,,,no unambiguous regional mapping,,0,0,,
-The Manila Times,,,no unambiguous regional mapping,,0,0,,
-Thrill,,,no current eligible real programmes,,0,0,PH1:THRILL.ph,Philippines
-TLC,,,no current eligible real programmes,,0,0,PH1:TLC.HD.ph | PH1:TLC.ph,Philippines
-TNA Wrestling,,,no unambiguous regional mapping,,0,0,,
-TNT Sports 1,,,no unambiguous regional mapping,,0,0,,
-Tom and Jerry,,,no unambiguous regional mapping,,0,0,,
-Top Rank Classics,,,no unambiguous regional mapping,,0,0,,
-Trace Urban,,,no unambiguous regional mapping,,0,0,,
-Travel Channel,,,no current eligible real programmes,,0,0,PH1:TRAVEL.CHANNEL.HD.ph | PH1:TRAVEL.CHANNEL.ph,Philippines
-TSN,,,no unambiguous regional mapping,,0,0,,
-TV Maria,,,no current eligible real programmes,,0,0,PH2:TV.Maria.ph,Philippines
-TVN Movies,PH2,tvN.Movies.Pinoy.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,33,0,PH2:tvN.Movies.Pinoy.ph,Philippines
-TVN,PH2,tvN.Premium.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,45,0,PH2:tvN.Premium.HD.ph,Philippines
-TV5 Monde,,,no current eligible real programmes,,0,0,PH1:TV.5.MONDE.ph,Philippines
-UAAP Varsity,PH2,UAAP.Varsity.Channel.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,31,0,PH2:UAAP.Varsity.Channel.ph,Philippines
-UFC,,,no unambiguous regional mapping,,0,0,,
-UNTV,,,no unambiguous regional mapping,,0,0,,
-USA Today,,,no unambiguous regional mapping,,0,0,,
-VEVO,,,no unambiguous regional mapping,,0,0,,
-VIVA Cinema,,,no current eligible real programmes,,0,0,PH2:VIVA.Cinema.ph,Philippines
-Warner TV,,,no current eligible real programmes,,0,0,PH1:WARNER.TV.HD.ph | PH1:WARNER.TV.ph,Philippines
-Wild Planet,,,no unambiguous regional mapping,,0,0,,
-World Poker Tour,,,no unambiguous regional mapping,,0,0,,
-WWE,,,no unambiguous regional mapping,,0,0,,
-XFC TV,,,no unambiguous regional mapping,,0,0,,
-Xite Hits,,,no unambiguous regional mapping,,0,0,,
-Yes Network,,,no unambiguous regional mapping,,0,0,,
-Z One,,,no unambiguous regional mapping,,0,0,,
+﻿playlist_tvg_id,source,source_id,status,source_url,upcoming_programmes,placeholder_rejected,candidate_ids,region,upstream_hold
+3RSTV,,,no unambiguous regional mapping,,0,0,,,
+TV5,,,no current eligible real programmes,,0,0,PH2:TV5.ph | PH1:TV5.ph,Philippines,Upstream maps Philippine TV5 to French-language TV5
+A2Z,,,no current eligible real programmes,,0,0,PH_EPG:A2Z | PH1:A2Z.ph,Philippines,
+Abante Radyo,,,no unambiguous regional mapping,,0,0,,,
+ABC Australia,PH2,ABC.Australia.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,67,0,PH2:ABC.Australia.ph | PH_EPG:ABC Australia,Philippines,
+Adventure Earth,,,no current eligible real programmes,,0,0,PH_EPG:Adventure Earth,Philippines,
+ALIW23,,,no unambiguous regional mapping,,0,0,,,
+Al Jazeera,PH2,Al.Jazeera.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,82,0,PH2:Al.Jazeera.ph | PH_EPG:Al Jazeera,Philippines,
+Aliwko,PH_EPG,Aliwko,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,121,0,PH_EPG:Aliwko,upstream selected feed; regional confirmation incomplete,
+ALLTV2,,,no unambiguous regional mapping,,0,0,,,
+AMC+,PH_EPG,AMC+,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,74,0,PH_EPG:AMC+,upstream selected feed; regional confirmation incomplete,
+ANC,PH_EPG,ANC,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,2,0,PH2:ANC.ph | PH_EPG:ANC | PH1:ANC.HD.ph | PH1:ANC.ph,upstream selected feed; regional confirmation incomplete,
+Animax,PH_EPG,Animax,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,2,0,PH2:Animax.ph | PH_EPG:Animax | PH1:ANIMAX.ph,upstream selected feed; regional confirmation incomplete,
+Aniplus,PH_EPG,Aniplus,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,137,0,PH_EPG:Aniplus | PH1:ANIPLUS.SD.ph,upstream selected feed; regional confirmation incomplete,
+Animal Planet,PH_EPG,Animal Planet,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,85,0,PH_EPG:Animal Planet | PH1:ANIMAL.PLANET.HD.ph | PH1:ANIMAL.PLANET.ph,upstream selected feed; regional confirmation incomplete,
+amasian tv Anime 24/7,PH_EPG,amasian tv Anime 24/7,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,14,0,PH_EPG:amasian tv Anime 24/7,upstream selected feed; regional confirmation incomplete,
+Anime All Day,PH_EPG,Anime All Day,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,11,0,PH_EPG:Anime All Day,upstream selected feed; regional confirmation incomplete,
+Filmrise Anime,PH_EPG,Filmrise Anime,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,115,0,PH_EPG:Filmrise Anime,upstream selected feed; regional confirmation incomplete,
+Anime by Pluto,PH_EPG,Anime by Pluto,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,26,0,PH_EPG:Anime by Pluto,upstream selected feed; regional confirmation incomplete,
+Anime x Hidive,PH_EPG,Anime x Hidive,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,145,0,PH_EPG:Anime x Hidive,upstream selected feed; regional confirmation incomplete,
+Arirang,PH2,Arirang.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,87,0,PH2:Arirang.ph | PH_EPG:Arirang,Philippines,
+Asian Crush,PH_EPG,Asian Crush,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,59,0,PH_EPG:Asian Crush,upstream selected feed; regional confirmation incomplete,
+Asian Food Network,PH_EPG,Asian Food Network,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,121,0,PH_EPG:Asian Food Network | PH1:ASIAN.FOOD.NETWORK.HD.ph | PH1:ASIAN.FOOD.NETWORK.ph,upstream selected feed; regional confirmation incomplete,
+AVL TV,,,no unambiguous regional mapping,,0,0,,,
+AXN,PH_EPG,AXN,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,1,0,PH2:AXN.ph | PH_EPG:AXN | PH1:AXN.HD.ph | PH1:AXN.ph,upstream selected feed; regional confirmation incomplete,
+BBC CBeebies,,,no unambiguous regional mapping,,0,0,,,Polish regional schedule needs confirmation
+PBB Collab 3.0,,,no unambiguous regional mapping,,0,0,,,
+BBC Earth,PH2,BBC.Earth.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,55,0,PH2:BBC.Earth.HD.ph | PH_EPG:BBC Earth,Philippines,
+BBC Lifestyle,PH2,BBC.Lifestyle.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,61,0,PH2:BBC.Lifestyle.ph | PH_EPG:BBC Lifestyle,Philippines,
+BBC News,PH2,BBC.News.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,104,0,PH2:BBC.News.ph | PH_EPG:BBC News,Philippines,
+BeIn Sports,PH_EPG,BeIn Sports,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,68,0,PH_EPG:BeIn Sports,upstream selected feed; regional confirmation incomplete,
+Billiard TV,PH_EPG,Billiard TV,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,33,0,PH_EPG:Billiard TV,upstream selected feed; regional confirmation incomplete,
+Bilyonaryo,PH2,Bilyonaryo.News.Channel.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,64,0,PH2:Bilyonaryo.News.Channel.ph | PH_EPG:Bilyonaryo,Philippines,
+Blast Movies,PH2,BLASTMOVIES.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,30,0,PH2:BLASTMOVIES.ph | PH_EPG:Blast Movies,Philippines,
+Bloomberg,PH_EPG,Bloomberg,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,77,0,PH_EPG:Bloomberg | PH1:BLOOMBERG.ph,upstream selected feed; regional confirmation incomplete,
+Boing,,,no unambiguous regional mapping,,0,0,,,
+BOOMERANG,PH_EPG,BOOMERANG,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,84,0,PH_EPG:BOOMERANG | PH1:BOOMERANG.ph,upstream selected feed; regional confirmation incomplete,
+BS10 + more Converge Channels,,,no unambiguous regional mapping,,0,0,,,
+Cartoonito,PH_EPG,Cartoonito,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,71,0,PH_EPG:Cartoonito,upstream selected feed; regional confirmation incomplete,
+Cartoon Channel PH,,,no unambiguous regional mapping,,0,0,,,
+Cartoon Network,PH_EPG,Cartoon Network,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,97,0,PH_EPG:Cartoon Network | PH1:CARTOON.NETWORK.HD.ph | PH1:CARTOON.NETWORK.ph,upstream selected feed; regional confirmation incomplete,
+CCTV4,PH2,CCTV.4.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,85,0,PH2:CCTV.4.ph | PH_EPG:CCTV4,Philippines,
+Celestial Classic Movies,PH_EPG,Celestial Classic Movies,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,29,0,PH_EPG:Celestial Classic Movies | PH1:CELESTIAL.CLASSIC.MOVIES.ph,upstream selected feed; regional confirmation incomplete,
+Celestial Movies Pinoy,,,no unambiguous regional mapping,,0,0,,,
+CGTN Documentary,PH_EPG,CGTN Documentary,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,183,0,PH_EPG:CGTN Documentary,upstream selected feed; regional confirmation incomplete,
+Channel News Asia,PH2,CNA.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,98,0,PH2:CNA.ph | PH_EPG:Channel News Asia | PH1:CHANNEL.NEWS.ASIA.ph,Philippines,
+CinemaOne,,,no current eligible real programmes,,0,0,PH2:Cinema.One.ph | PH_EPG:CinemaOne | PH1:CINEMA.ONE.ph,Philippines,
+CineMo!,,,no current eligible real programmes,,0,0,PH1:CINEMO!.ph,Philippines,
+Cinemax,PH_EPG,Cinemax,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,38,0,PH_EPG:Cinemax | PH1:CINEMAX.HD.ph | PH1:CINEMAX.ph,upstream selected feed; regional confirmation incomplete,
+CLTV36,,,no unambiguous regional mapping,,0,0,,,
+CNBC,PH_EPG,CNBC,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,102,0,PH_EPG:CNBC,upstream selected feed; regional confirmation incomplete,
+CNN HD,PH2,CNN.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,79,0,PH2:CNN.HD.ph | PH_EPG:CNN HD,Philippines,
+Comedy Central,PH_EPG,Comedy Central,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,82,0,PH_EPG:Comedy Central,upstream selected feed; regional confirmation incomplete,
+Concert Channel,PH_EPG,Concert Channel,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,11,0,PH_EPG:Concert Channel,upstream selected feed; regional confirmation incomplete,
+CRIME INVESTIGATION,PH_EPG,CRIME INVESTIGATION,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,1,0,PH2:Crime.Investigation.ph | PH_EPG:CRIME INVESTIGATION | PH1:CRIME.&.INVESTIGATION.HD.ph | PH1:CRIME.&.INVESTIGATION.ph,upstream selected feed; regional confirmation incomplete,
+Crunchyroll,PH_EPG,Crunchyroll,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,152,0,PH_EPG:Crunchyroll,upstream selected feed; regional confirmation incomplete,
+Curiosity Now,PH_EPG,Curiosity Now,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,88,0,PH_EPG:Curiosity Now,upstream selected feed; regional confirmation incomplete,
+Danger TV,PH_EPG,Danger TV,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,78,0,PH_EPG:Danger TV,upstream selected feed; regional confirmation incomplete,
+DepEd TV,,,no current eligible real programmes,,0,0,PH2:DepEd.TV.ph | PH_EPG:DepEd TV,Philippines,
+DAZN,,,no unambiguous regional mapping,,0,0,,,
+Discovery Asia,,,no current eligible real programmes,,0,0,PH1:DISCOVERY.ASIA.ph,Philippines,Upstream maps this station to Discovery Channel
+Discovery Channel,PH_EPG,Discovery Channel,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,84,0,PH_EPG:Discovery Channel | PH1:DISCOVERY.CHANNEL.HD.ph | PH1:DISCOVERY.CHANNEL.ph,upstream selected feed; regional confirmation incomplete,
+Discovery Family,PH_EPG,Discovery Family,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,109,0,PH_EPG:Discovery Family,upstream selected feed; regional confirmation incomplete,
+Discovery Science,PH_EPG,Discovery Science,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,113,0,PH_EPG:Discovery Science,upstream selected feed; regional confirmation incomplete,
+Discovery Turbo,PH_EPG,Discovery Turbo,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,122,0,PH_EPG:Discovery Turbo,upstream selected feed; regional confirmation incomplete,
+Disney Channel,PH_EPG,Disney Channel,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,103,0,PH_EPG:Disney Channel,upstream selected feed; regional confirmation incomplete,
+DMAX,PH_EPG,DMAX,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,107,0,PH_EPG:DMAX,upstream selected feed; regional confirmation incomplete,
+Dream TV PH,,,no unambiguous regional mapping,,0,0,,,
+Dreamworks HD,PH2,DreamWorks.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,131,0,PH2:DreamWorks.HD.ph | PH1:DREAMWORKS.HD.ph,Philippines,Upstream selects the separate Tagalized feed
+DW News,PH_EPG,DW News,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,188,0,PH_EPG:DW News,upstream selected feed; regional confirmation incomplete,
+DZMM Teleradyo,,,no current eligible real programmes,,0,0,PH_EPG:DZMM Teleradyo | PH1:DZMM.TELERADYO.ph,Philippines,
+DZRH TV,,,no unambiguous regional mapping,,0,0,,,
+ESPN,PH_EPG,ESPN,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,67,0,PH_EPG:ESPN,upstream selected feed; regional confirmation incomplete,
+EDGE SPORT,,,no unambiguous regional mapping,,0,0,,,
+Euro News.,PH_EPG,Euro News.,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,301,0,PH_EPG:Euro News. | PH1:EURONEWS.ph,upstream selected feed; regional confirmation incomplete,
+Evolution Earth,PH_EPG,Evolution Earth,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,7,0,PH_EPG:Evolution Earth,upstream selected feed; regional confirmation incomplete,
+EWTN,PH_EPG,EWTN,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,127,0,PH_EPG:EWTN,upstream selected feed; regional confirmation incomplete,
+FailArmy,,,no current eligible real programmes,,0,0,PH_EPG:FailArmy,Philippines,
+Fashion TV HD,PH2,Fashion.TV.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,106,0,PH2:Fashion.TV.HD.ph | PH_EPG:Fashion TV HD | PH1:FASHION.TV.HD.ph,Philippines,
+Fight Network,PH_EPG,Fight Network,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,45,0,PH_EPG:Fight Network,upstream selected feed; regional confirmation incomplete,
+FITE 24/7,,,no unambiguous regional mapping,,0,0,,,
+Food Network HD,PH_EPG,Food Network HD,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,121,0,PH_EPG:Food Network HD | PH1:FOOD.NETWORK.HD.ph,upstream selected feed; regional confirmation incomplete,
+FOX,,,no unambiguous regional mapping,,0,0,,,
+Fox Sports 1,PH_EPG,Fox Sports 1,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,40,0,PH_EPG:Fox Sports 1,upstream selected feed; regional confirmation incomplete,
+FRANCE 24,PH2,France.24.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,261,0,PH2:France.24.ph | PH_EPG:FRANCE 24,Philippines,
+Global Fashion Channel,,,no unambiguous regional mapping,,0,0,,,
+Global Trekker,PH2,Global.Trekker.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,81,0,PH2:Global.Trekker.ph | PH_EPG:Global Trekker | PH1:GLOBAL.TREKKER.HD.ph,Philippines,
+GMA,,,no current eligible real programmes,,0,0,PH2:GMA.ph,Philippines,Upstream maps domestic GMA to GMA Pinoy TV
+GMA Life TV,PH_EPG,GMA Life TV,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,84,0,PH_EPG:GMA Life TV,upstream selected feed; regional confirmation incomplete,
+GMA News TV,PH_EPG,GMA News TV,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,77,0,PH_EPG:GMA News TV,upstream selected feed; regional confirmation incomplete,
+GMA Pinoy TV,PH_EPG,GMA Pinoy TV,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,72,0,PH_EPG:GMA Pinoy TV,upstream selected feed; regional confirmation incomplete,
+GNN,,,no unambiguous regional mapping,,0,0,,,
+Golden TV,,,no unambiguous regional mapping,,0,0,,,
+GTV,,,no current eligible real programmes,,0,0,PH2:GTV.ph | PH_EPG:GTV,Philippines,
+hallypop,,,no unambiguous regional mapping,,0,0,,,
+Hallmark,PH_EPG,Hallmark,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,30,0,PH_EPG:Hallmark,upstream selected feed; regional confirmation incomplete,
+HBO,PH_EPG,HBO,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,40,0,PH_EPG:HBO | PH1:HBO.HD.ph | PH1:HBO.ph,upstream selected feed; regional confirmation incomplete,
+HBO Boxing,PH_EPG,HBO Boxing,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,82,0,PH_EPG:HBO Boxing,upstream selected feed; regional confirmation incomplete,
+HBO Comedy,PH_EPG,HBO Comedy,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,52,0,PH_EPG:HBO Comedy,upstream selected feed; regional confirmation incomplete,
+HBO Family,PH_EPG,HBO Family,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,140,0,PH_EPG:HBO Family | PH1:HBO.FAMILY.HD.ph | PH1:HBO.FAMILY.ph,upstream selected feed; regional confirmation incomplete,
+HBO Mundi,PH_EPG,HBO Mundi,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,27,0,PH_EPG:HBO Mundi,upstream selected feed; regional confirmation incomplete,
+HBO Signature,PH_EPG,HBO Signature,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,43,0,PH_EPG:HBO Signature | PH1:HBO.SIGNATURE.HD.ph | PH1:HBO.SIGNATURE.ph,upstream selected feed; regional confirmation incomplete,
+HBO PLUS,,,no unambiguous regional mapping,,0,0,,,
+HBO POP,PH_EPG,HBO POP,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,32,0,PH_EPG:HBO POP,upstream selected feed; regional confirmation incomplete,
+HBO Xtreme,PH_EPG,HBO Xtreme,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,27,0,PH_EPG:HBO Xtreme,upstream selected feed; regional confirmation incomplete,
+HBO Zone,PH_EPG,HBO Zone,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,35,0,PH_EPG:HBO Zone,upstream selected feed; regional confirmation incomplete,
+HGTV HD,PH_EPG,HGTV HD,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,112,0,PH_EPG:HGTV HD | PH1:HGTV.HD.ph,upstream selected feed; regional confirmation incomplete,
+History HD,PH2,History.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,60,0,PH2:History.HD.ph | PH_EPG:History HD | PH1:HISTORY.HD.ph,Philippines,
+Hits HD,PH2,HITS.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,70,0,PH2:HITS.HD.ph | PH_EPG:Hits HD,Philippines,
+Hits Movies,PH2,HITS.MOVIES.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,24,0,PH2:HITS.MOVIES.ph | PH_EPG:Hits Movies,Philippines,
+Hits Now,PH2,HITS.NOW.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,50,0,PH2:HITS.NOW.ph | PH_EPG:Hits Now,Philippines,
+HIYAH!,PH_EPG,HIYAH!,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,37,0,PH_EPG:HIYAH!,upstream selected feed; regional confirmation incomplete,
+Hope Channel PH,,,no unambiguous regional mapping,,0,0,,,
+HypeTV,,,no unambiguous regional mapping,,0,0,,,
+IBC13,,,no current eligible real programmes,,0,0,PH2:IBC.13.ph | PH_EPG:IBC13,Philippines,
+INCTV,,,no unambiguous regional mapping,,0,0,,,
+InWonder,PH_EPG,InWonder,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,8,0,PH_EPG:InWonder,upstream selected feed; regional confirmation incomplete,
+ION,,,no unambiguous regional mapping,,0,0,,,UK iON TV is a different station from US ION
+Jeepney TV,,,no current eligible real programmes,,0,0,PH2:Jeepney.TV.ph | PH_EPG:Jeepney TV | PH1:JEEPNEY.TV.ph,Philippines,
+Just for Laughs Gags,,,no current eligible real programmes,,0,0,PH_EPG:Just for Laughs Gags,Philippines,
+Kapamilya Channel,PH_EPG,Kapamilya Channel,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,1,0,PH2:Kapamilya.Channel.ph | PH_EPG:Kapamilya Channel | PH1:KAPAMILYA.CHANNEL.HD.ph | PH1:KAPAMILYA.CHANNEL.ph,upstream selected feed; regional confirmation incomplete,
+Kapamilya Channel HD,PH_EPG,Kapamilya Channel HD,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,1,0,PH2:Kapamilya.Channel.ph | PH_EPG:Kapamilya Channel HD | PH1:KAPAMILYA.CHANNEL.HD.ph,upstream selected feed; regional confirmation incomplete,
+Kartoon Channel,PH_EPG,Kartoon Channel,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,157,0,PH_EPG:Kartoon Channel,upstream selected feed; regional confirmation incomplete,
+KBS World,,,no current eligible real programmes,,0,0,PH1:KBS.WORLD.ph,Philippines,
+Kidsflix,PH_EPG,Kidsflix,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,63,0,PH_EPG:Kidsflix,upstream selected feed; regional confirmation incomplete,
+Kids TV,,,no unambiguous regional mapping,,0,0,,,
+Kix HD,PH_EPG,Kix HD,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,54,0,PH_EPG:Kix HD | PH1:KIX.HD.ph,upstream selected feed; regional confirmation incomplete,
+Knowledge Channel,PH2,Knowledge.Channel.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,109,0,PH2:Knowledge.Channel.ph | PH_EPG:Knowledge Channel | PH1:KNOWLEDGE.CHANNEL.ph,Philippines,
+Kpop TV Play,,,no unambiguous regional mapping,,0,0,,,
+KroneHit TV,,,no unambiguous regional mapping,,0,0,,,
+Lifetime,PH2,Lifetime.SD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,50,0,PH2:Lifetime.SD.ph | PH_EPG:Lifetime | PH1:LIFETIME..HD.ph | PH1:LIFETIME.ph,Philippines,
+Light TV,,,no unambiguous regional mapping,,0,0,,,
+Lotus Macau,,,no current eligible real programmes,,0,0,PH2:Lotus.Macau.ph | PH_EPG:Lotus Macau,Philippines,
+MMA-TV,,,no unambiguous regional mapping,,0,0,,,
+Mindanow Network,,,no unambiguous regional mapping,,0,0,,,
+Metro Channel,,,no current eligible real programmes,,0,0,PH2:Metro.Channel.ph | PH1:METRO.CHANNEL.HD.ph | PH1:METRO.CHANNEL.SD.ph,Philippines,
+MIRAMAX,PH_EPG,MIRAMAX,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,34,0,PH_EPG:MIRAMAX,upstream selected feed; regional confirmation incomplete,
+MLB Network,PH_EPG,MLB Network,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,45,0,PH_EPG:MLB Network,upstream selected feed; regional confirmation incomplete,
+MNX HD,PH_EPG,MNX HD,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,10,0,PH_EPG:MNX HD,upstream selected feed; regional confirmation incomplete,
+Moonbug Kids,,,no current eligible real programmes,,0,0,PH2:Moonbug.Kids.ph | PH_EPG:Moonbug Kids,Philippines,
+MOR Entertainment,,,no unambiguous regional mapping,,0,0,,,
+MotoGP Channel,PH_EPG,MotoGP Channel,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,55,0,PH_EPG:MotoGP Channel,upstream selected feed; regional confirmation incomplete,
+MovieBoxPH,,,no unambiguous regional mapping,,0,0,,,
+Halloween Nights,,,no unambiguous regional mapping,,0,0,,,
+Movies Now,PH_EPG,Movies Now,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,9,0,PH_EPG:Movies Now,upstream selected feed; regional confirmation incomplete,
+Movie Sphere,PH_EPG,Movie Sphere,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,68,0,PH_EPG:Movie Sphere,upstream selected feed; regional confirmation incomplete,
+Mr. Bean,,,no current eligible real programmes,,0,0,PH_EPG:Mr. Bean,Philippines,
+Mr Beast,PH_EPG,Mr Beast,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,89,0,PH_EPG:Mr Beast,upstream selected feed; regional confirmation incomplete,
+Media Pilipinas TV,,,no unambiguous regional mapping,,0,0,,,
+MTV,PH_EPG,MTV,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,65,0,PH_EPG:MTV | PH1:MTV.ASIA.ph,upstream selected feed; regional confirmation incomplete,
+MUX DOS,,,no unambiguous regional mapping,,0,0,,,
+Mythbusters,,,no current eligible real programmes,,0,0,PH_EPG:Mythbusters,Philippines,
+Mysterious Worlds,PH_EPG,Mysterious Worlds,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,94,0,PH_EPG:Mysterious Worlds,upstream selected feed; regional confirmation incomplete,
+MYX,,,no current eligible real programmes,,0,0,PH2:MYX.ph | PH1:MYX.ph,Philippines,
+National Geographic,PH_EPG,National Geographic,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,65,0,PH_EPG:National Geographic | PH1:NATIONAL.GEOGRAPHIC.HD.ph | PH1:NATIONAL.GEOGRAPHIC.ph,upstream selected feed; regional confirmation incomplete,
+NBA TV,,,no unambiguous regional mapping,,0,0,,,Upstream maps the US channel to NBA TV Philippines
+NBA TV Philippines,PH2,NBA.TV.Philippines.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,52,0,PH2:NBA.TV.Philippines.ph | PH_EPG:NBA TV Philippines,Philippines,
+NCAA NXT,PH2,NCAA.NXT.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,18,0,PH2:NCAA.NXT.ph | PH_EPG:NCAA NXT,Philippines,
+New KMovies,PH_EPG,New KMovies,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,37,0,PH_EPG:New KMovies,upstream selected feed; regional confirmation incomplete,
+Net25,PH_EPG,Net25,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,3,0,PH2:Net.25.ph | PH_EPG:Net25,upstream selected feed; regional confirmation incomplete,
+NHK World Japan,PH2,NHK.World.Japan.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,147,0,PH2:NHK.World.Japan.ph | PH_EPG:NHK World Japan | PH1:NHK.WORLD.JAPAN.ph,Philippines,
+Nickjr,PH_EPG,Nickjr,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,225,0,PH_EPG:Nickjr | PH1:NICK.JR..ph,upstream selected feed; regional confirmation incomplete,
+Nickelodeon,PH2,Nickelodeon.SD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,86,0,PH2:Nickelodeon.SD.ph | PH_EPG:Nickelodeon | PH1:NICKELODEON.ph,Philippines,
+One News HD,PH2,One.News.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,77,0,PH2:One.News.ph | PH_EPG:One News HD,Philippines,
+One PH,PH2,One.PH.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,56,0,PH2:One.PH.ph | PH_EPG:One PH,Philippines,
+One Sports,PH2,One.Sports.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,28,0,PH2:One.Sports.HD.ph | PH_EPG:One Sports | PH1:ONE.SPORTS.ph,Philippines,
+Outdoor Channel,PH_EPG,Outdoor Channel,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,120,0,PH_EPG:Outdoor Channel | PH1:OUTDOOR.CHANNEL.HD.ph | PH1:OUTDOOR.CHANNEL.ph,upstream selected feed; regional confirmation incomplete,
+Oras ng Himala,,,no unambiguous regional mapping,,0,0,,,
+Paramount Movie Channel,PH_EPG,Paramount Movie Channel,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,7,0,PH_EPG:Paramount Movie Channel,upstream selected feed; regional confirmation incomplete,
+PBA Rush,,,no current eligible real programmes,,0,0,PH2:PBA.Rush.ph | PH_EPG:PBA Rush,Philippines,
+PBS Digital Studios,PH_EPG,PBS Digital Studios,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,5,0,PH_EPG:PBS Digital Studios,upstream selected feed; regional confirmation incomplete,
+People Are Awesome,,,no current eligible real programmes,,0,0,PH_EPG:People Are Awesome,Philippines,
+Pilipinas Live,,,no unambiguous regional mapping,,0,0,,,
+Pinoy Box Office,PH_EPG,Pinoy Box Office,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,1,0,PH2:PBO.ph | PH_EPG:Pinoy Box Office | PH1:PBO.ph,upstream selected feed; regional confirmation incomplete,
+Pinoy Xtreme,,,no unambiguous regional mapping,,0,0,,,
+Premier Sports,PH2,Premier.Sports.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,21,0,PH2:Premier.Sports.HD.ph | PH_EPG:Premier Sports | PH1:PREMIER.SPORTS.HD.ph | PH1:PREMIER.SPORTS.ph,Philippines,
+Peoples Television,PH_EPG,Peoples Television,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,51,0,PH2:PTV.4.ph | PH_EPG:Peoples Television,upstream selected feed; regional confirmation incomplete,
+Popular Science,PH_EPG,Popular Science,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,93,0,PH_EPG:Popular Science,upstream selected feed; regional confirmation incomplete,
+Radyo Bandido,,,no unambiguous regional mapping,,0,0,,,
+Real Disaster Channel,,,no unambiguous regional mapping,,0,0,,,
+Real Wild,PH_EPG,Real Wild,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,85,0,PH_EPG:Real Wild,upstream selected feed; regional confirmation incomplete,
+Retro Crush,PH_EPG,Retro Crush,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,141,0,PH_EPG:Retro Crush,upstream selected feed; regional confirmation incomplete,
+RedBull TV,PH_EPG,RedBull TV,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,117,0,PH_EPG:RedBull TV,upstream selected feed; regional confirmation incomplete,
+RJ Digitv,,,no unambiguous regional mapping,,0,0,,,
+Rock Action,PH2,Rock.Action.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,28,0,PH2:Rock.Action.ph | PH_EPG:Rock Action,Philippines,
+Rock MNL,,,no unambiguous regional mapping,,0,0,,,
+RPTV,PH2,RPTV.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,36,0,PH2:RPTV.HD.ph | PH_EPG:RPTV | PH1:RPTV.ph,Philippines,
+SBS K-Drama,,,no unambiguous regional mapping,,0,0,,,
+SineManila,,,no unambiguous regional mapping,,0,0,,,
+Sky Sports F1,PH_EPG,Sky Sports F1,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,84,0,PH_EPG:Sky Sports F1,upstream selected feed; regional confirmation incomplete,
+Smithsonian Channel,PH_EPG,Smithsonian Channel,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,59,0,PH_EPG:Smithsonian Channel,upstream selected feed; regional confirmation incomplete,
+SMNI News Channel,,,no unambiguous regional mapping,,0,0,,,
+SOLARFLIX,,,no current eligible real programmes,,0,0,PH2:Solar.Flix.ph | PH_EPG:SOLARFLIX | PH1:SOLARFLIX.ph,Philippines,
+SOLARSPORTS,,,no current eligible real programmes,,0,0,PH1:SOLAR.SPORTS.ph,Philippines,
+Sony Movies,PH_EPG,Sony Movies,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,33,0,PH_EPG:Sony Movies,upstream selected feed; regional confirmation incomplete,
+Sony Pix,PH_EPG,Sony Pix,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,9,0,PH_EPG:Sony Pix,upstream selected feed; regional confirmation incomplete,
+Sony One Action Hits,PH_EPG,Sony One Action Hits,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,3,0,PH_EPG:Sony One Action Hits,upstream selected feed; regional confirmation incomplete,
+Spotlight TV,,,no unambiguous regional mapping,,0,0,,,
+SPOTV,PH_EPG,SPOTV,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,36,0,PH2:SPOTV.HD.ph | PH_EPG:SPOTV | PH1:SPOTV.HD.ph | PH1:SPOTV.ph,upstream selected feed; regional confirmation incomplete,
+STAR Movies HD,PH_EPG,STAR Movies HD,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,8,0,PH_EPG:STAR Movies HD,upstream selected feed; regional confirmation incomplete,
+STAR Movies Select HD,PH_EPG,STAR Movies Select HD,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,9,0,PH_EPG:STAR Movies Select HD,upstream selected feed; regional confirmation incomplete,
+Star TV Philippines,,,no unambiguous regional mapping,,0,0,,,
+STBS Global,,,no unambiguous regional mapping,,0,0,,,
+SYFY,PH_EPG,SYFY,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,45,0,PH_EPG:SYFY,upstream selected feed; regional confirmation incomplete,
+STARZ,PH_EPG,STARZ,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,46,0,PH_EPG:STARZ,upstream selected feed; regional confirmation incomplete,
+Studio Universal,PH2,STUDIOUNIVERSAL.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,28,0,PH2:STUDIOUNIVERSAL.ph | PH_EPG:Studio Universal,Philippines,
+Tagalized Movie Channel,,,no current eligible real programmes,,0,0,PH2:Tagalized.Movie.Channel.ph | PH_EPG:Tagalized Movie Channel | PH1:TMC.(TAGALIZED.MOVIE.CHANNEL).ph,Philippines,
+Taiwan Plus,PH_EPG,Taiwan Plus,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,156,0,PH_EPG:Taiwan Plus,upstream selected feed; regional confirmation incomplete,
+Tap Action Flix,,,no current eligible real programmes,,0,0,PH2:TAPACTIONFLIX.ph | PH1:TapAction.Flix.HD.ph | PH1:TapAction.Flix.ph,Philippines,Upstream maps this station to Tap Movies
+TAP Edge,,,no current eligible real programmes,,0,0,PH2:TAPEDGE.ph | PH1:TAP.EDGE.ph,Philippines,Upstream maps this station to TAP Sports
+Tap Movies,PH2,TAP.Movies.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,31,0,PH2:TAP.Movies.HD.ph | PH_EPG:Tap Movies | PH1:TAP.MOVIES.HD.ph | PH1:TAP.MOVIES.ph,Philippines,
+TapSILOG,,,no current eligible real programmes,,0,0,PH2:Tapsilog.ph | PH_EPG:TapSILOG,Philippines,
+TAP Sports,PH2,Tap.Sports.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,25,0,PH2:Tap.Sports.ph | PH_EPG:TAP Sports | PH1:TAP.SPORTS.HD.ph,Philippines,
+TAP TV,,,no current eligible real programmes,,0,0,PH2:TAPTV.ph | PH1:TAP.TV.ph,Philippines,
+Tastemade,PH_EPG,Tastemade,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,117,0,PH_EPG:Tastemade,upstream selected feed; regional confirmation incomplete,
+TBN Asia,,,no unambiguous regional mapping,,0,0,,,
+TFC Asia,PH_EPG,TFC Asia,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,10,0,PH_EPG:TFC Asia,upstream selected feed; regional confirmation incomplete,
+Tennis Channel,PH_EPG,Tennis Channel,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,19,0,PH_EPG:Tennis Channel,upstream selected feed; regional confirmation incomplete,
+The Manila Times,,,no unambiguous regional mapping,,0,0,,,
+Thrill,PH_EPG,Thrill,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,51,0,PH_EPG:Thrill | PH1:THRILL.ph,upstream selected feed; regional confirmation incomplete,
+TLC,PH_EPG,TLC,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,96,0,PH_EPG:TLC | PH1:TLC.HD.ph | PH1:TLC.ph,upstream selected feed; regional confirmation incomplete,
+TNA Wrestling,PH_EPG,TNA Wrestling,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,47,0,PH_EPG:TNA Wrestling,upstream selected feed; regional confirmation incomplete,
+TNT Sports 1,PH_EPG,TNT Sports 1,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,43,0,PH_EPG:TNT Sports 1,upstream selected feed; regional confirmation incomplete,
+Tom and Jerry,,,no unambiguous regional mapping,,0,0,,,
+Top Rank Classics,PH_EPG,Top Rank Classics,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,15,0,PH_EPG:Top Rank Classics,upstream selected feed; regional confirmation incomplete,
+Trace Urban,,,no current eligible real programmes,,0,0,PH_EPG:Trace Urban,Philippines,
+Travel Channel,PH_EPG,Travel Channel,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,204,0,PH_EPG:Travel Channel | PH1:TRAVEL.CHANNEL.HD.ph | PH1:TRAVEL.CHANNEL.ph,upstream selected feed; regional confirmation incomplete,
+TSN,PH_EPG,TSN,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,67,0,PH_EPG:TSN,upstream selected feed; regional confirmation incomplete,
+TV Maria,,,no current eligible real programmes,,0,0,PH2:TV.Maria.ph | PH_EPG:TV Maria,Philippines,
+TVN Movies,PH2,tvN.Movies.Pinoy.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,31,0,PH2:tvN.Movies.Pinoy.ph | PH_EPG:TVN Movies,Philippines,
+TVN,PH2,tvN.Premium.HD.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,43,0,PH2:tvN.Premium.HD.ph,Philippines,
+TV5 Monde,PH_EPG,TV5 Monde,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,164,0,PH_EPG:TV5 Monde | PH1:TV.5.MONDE.ph,upstream selected feed; regional confirmation incomplete,
+UAAP Varsity,PH2,UAAP.Varsity.Channel.ph,mapped,https://m3u-edit.com/epg-source.php?file=PH2.xml.gz,28,0,PH2:UAAP.Varsity.Channel.ph | PH_EPG:UAAP Varsity,Philippines,
+UFC,PH_EPG,UFC,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,95,0,PH_EPG:UFC,upstream selected feed; regional confirmation incomplete,
+UNTV,,,no unambiguous regional mapping,,0,0,,,
+USA Today,PH_EPG,USA Today,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,145,0,PH_EPG:USA Today,upstream selected feed; regional confirmation incomplete,
+VEVO,PH_EPG,VEVO,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,44,0,PH_EPG:VEVO,upstream selected feed; regional confirmation incomplete,
+VIVA Cinema,,,no current eligible real programmes,,0,0,PH2:VIVA.Cinema.ph | PH_EPG:VIVA Cinema,Philippines,
+Warner TV,PH_EPG,Warner TV,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,56,0,PH_EPG:Warner TV | PH1:WARNER.TV.HD.ph | PH1:WARNER.TV.ph,upstream selected feed; regional confirmation incomplete,
+Wild Planet,PH_EPG,Wild Planet,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,6,0,PH_EPG:Wild Planet,upstream selected feed; regional confirmation incomplete,
+World Poker Tour,,,no current eligible real programmes,,0,0,PH_EPG:World Poker Tour,Philippines,
+WWE,PH_EPG,WWE,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,116,0,PH_EPG:WWE,upstream selected feed; regional confirmation incomplete,
+XFC TV,,,no current eligible real programmes,,0,0,PH_EPG:XFC TV,Philippines,
+Xite Hits,PH_EPG,Xite Hits,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,26,0,PH_EPG:Xite Hits,upstream selected feed; regional confirmation incomplete,
+Yes Network,PH_EPG,Yes Network,mapped,https://tr3nching.github.io/ph-epg/epg.xml.gz,57,0,PH_EPG:Yes Network,upstream selected feed; regional confirmation incomplete,
+Z One,,,no unambiguous regional mapping,,0,0,,,

@@ -9,6 +9,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -21,6 +22,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "PH2:TV5.ph | PH1:TV5.ph",
     "region": "Philippines",
+    "upstream_hold": "Upstream maps Philippine TV5 to French-language TV5",
     "attempts": [
       {
         "source": "PH2",
@@ -48,9 +50,18 @@
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:A2Z.ph",
+    "candidate_ids": "PH_EPG:A2Z | PH1:A2Z.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "A2Z",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 50,
+        "overlaps": 0
+      },
       {
         "source": "PH1",
         "source_id": "A2Z.ph",
@@ -71,6 +82,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -79,15 +91,16 @@
     "source_id": "ABC.Australia.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 74,
+    "upcoming_programmes": 67,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:ABC.Australia.ph",
+    "candidate_ids": "PH2:ABC.Australia.ph | PH_EPG:ABC Australia",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "ABC.Australia.ph",
-        "upcoming_programmes": 74,
+        "upcoming_programmes": 67,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -98,13 +111,23 @@
     "playlist_tvg_id": "Adventure Earth",
     "source": "",
     "source_id": "",
-    "status": "no unambiguous regional mapping",
+    "status": "no current eligible real programmes",
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Adventure Earth",
+    "region": "Philippines",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Adventure Earth",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "ALIW23",
@@ -116,6 +139,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -124,15 +148,16 @@
     "source_id": "Al.Jazeera.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 85,
+    "upcoming_programmes": 82,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Al.Jazeera.ph",
+    "candidate_ids": "PH2:Al.Jazeera.ph | PH_EPG:Al Jazeera",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Al.Jazeera.ph",
-        "upcoming_programmes": 85,
+        "upcoming_programmes": 82,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -141,15 +166,25 @@
   },
   {
     "playlist_tvg_id": "Aliwko",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Aliwko",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 121,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Aliwko",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Aliwko",
+        "upcoming_programmes": 121,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "ALLTV2",
@@ -161,30 +196,42 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "AMC+",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "AMC+",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 74,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:AMC+",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "AMC+",
+        "upcoming_programmes": 74,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "ANC",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "ANC",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 2,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:ANC.ph | PH1:ANC.HD.ph | PH1:ANC.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH2:ANC.ph | PH_EPG:ANC | PH1:ANC.HD.ph | PH1:ANC.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -195,18 +242,10 @@
         "overlaps": 0
       },
       {
-        "source": "PH1",
-        "source_id": "ANC.HD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
-        "placeholder_rejected": 0,
-        "overlaps": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "ANC.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "ANC",
+        "upcoming_programmes": 2,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -214,14 +253,15 @@
   },
   {
     "playlist_tvg_id": "Animax",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Animax",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 2,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Animax.ph | PH1:ANIMAX.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH2:Animax.ph | PH_EPG:Animax | PH1:ANIMAX.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -232,10 +272,10 @@
         "overlaps": 0
       },
       {
-        "source": "PH1",
-        "source_id": "ANIMAX.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "Animax",
+        "upcoming_programmes": 2,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -243,20 +283,21 @@
   },
   {
     "playlist_tvg_id": "Aniplus",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Aniplus",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 137,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:ANIPLUS.SD.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:Aniplus | PH1:ANIPLUS.SD.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "ANIPLUS.SD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "Aniplus",
+        "upcoming_programmes": 137,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -264,28 +305,21 @@
   },
   {
     "playlist_tvg_id": "Animal Planet",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Animal Planet",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 85,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:ANIMAL.PLANET.HD.ph | PH1:ANIMAL.PLANET.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:Animal Planet | PH1:ANIMAL.PLANET.HD.ph | PH1:ANIMAL.PLANET.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "ANIMAL.PLANET.HD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
-        "placeholder_rejected": 0,
-        "overlaps": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "ANIMAL.PLANET.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "Animal Planet",
+        "upcoming_programmes": 85,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -293,63 +327,113 @@
   },
   {
     "playlist_tvg_id": "amasian tv Anime 24/7",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "amasian tv Anime 24/7",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 14,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:amasian tv Anime 24/7",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "amasian tv Anime 24/7",
+        "upcoming_programmes": 14,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Anime All Day",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Anime All Day",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 11,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Anime All Day",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Anime All Day",
+        "upcoming_programmes": 11,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Filmrise Anime",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Filmrise Anime",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 115,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Filmrise Anime",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Filmrise Anime",
+        "upcoming_programmes": 115,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Anime by Pluto",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Anime by Pluto",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 26,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Anime by Pluto",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Anime by Pluto",
+        "upcoming_programmes": 26,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Anime x Hidive",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Anime x Hidive",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 145,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Anime x Hidive",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Anime x Hidive",
+        "upcoming_programmes": 145,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Arirang",
@@ -357,15 +441,16 @@
     "source_id": "Arirang.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 94,
+    "upcoming_programmes": 87,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Arirang.ph",
+    "candidate_ids": "PH2:Arirang.ph | PH_EPG:Arirang",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Arirang.ph",
-        "upcoming_programmes": 94,
+        "upcoming_programmes": 87,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -374,40 +459,43 @@
   },
   {
     "playlist_tvg_id": "Asian Crush",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Asian Crush",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 59,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Asian Crush",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Asian Crush",
+        "upcoming_programmes": 59,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Asian Food Network",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Asian Food Network",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 121,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:ASIAN.FOOD.NETWORK.HD.ph | PH1:ASIAN.FOOD.NETWORK.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:Asian Food Network | PH1:ASIAN.FOOD.NETWORK.HD.ph | PH1:ASIAN.FOOD.NETWORK.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "ASIAN.FOOD.NETWORK.HD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
-        "placeholder_rejected": 0,
-        "overlaps": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "ASIAN.FOOD.NETWORK.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "Asian Food Network",
+        "upcoming_programmes": 121,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -423,18 +511,20 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "AXN",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "AXN",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 1,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:AXN.ph | PH1:AXN.HD.ph | PH1:AXN.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH2:AXN.ph | PH_EPG:AXN | PH1:AXN.HD.ph | PH1:AXN.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -445,18 +535,10 @@
         "overlaps": 0
       },
       {
-        "source": "PH1",
-        "source_id": "AXN.HD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
-        "placeholder_rejected": 0,
-        "overlaps": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "AXN.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "AXN",
+        "upcoming_programmes": 1,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -472,6 +554,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "Polish regional schedule needs confirmation",
     "attempts": []
   },
   {
@@ -484,6 +567,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -492,15 +576,16 @@
     "source_id": "BBC.Earth.HD.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 58,
+    "upcoming_programmes": 55,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:BBC.Earth.HD.ph",
+    "candidate_ids": "PH2:BBC.Earth.HD.ph | PH_EPG:BBC Earth",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "BBC.Earth.HD.ph",
-        "upcoming_programmes": 58,
+        "upcoming_programmes": 55,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -513,15 +598,16 @@
     "source_id": "BBC.Lifestyle.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 65,
+    "upcoming_programmes": 61,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:BBC.Lifestyle.ph",
+    "candidate_ids": "PH2:BBC.Lifestyle.ph | PH_EPG:BBC Lifestyle",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "BBC.Lifestyle.ph",
-        "upcoming_programmes": 65,
+        "upcoming_programmes": 61,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -534,15 +620,16 @@
     "source_id": "BBC.News.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 110,
+    "upcoming_programmes": 104,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:BBC.News.ph",
+    "candidate_ids": "PH2:BBC.News.ph | PH_EPG:BBC News",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "BBC.News.ph",
-        "upcoming_programmes": 110,
+        "upcoming_programmes": 104,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -551,27 +638,47 @@
   },
   {
     "playlist_tvg_id": "BeIn Sports",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "BeIn Sports",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 68,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:BeIn Sports",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "BeIn Sports",
+        "upcoming_programmes": 68,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Billiard TV",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Billiard TV",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 33,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Billiard TV",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Billiard TV",
+        "upcoming_programmes": 33,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Bilyonaryo",
@@ -579,15 +686,16 @@
     "source_id": "Bilyonaryo.News.Channel.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 68,
+    "upcoming_programmes": 64,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Bilyonaryo.News.Channel.ph",
+    "candidate_ids": "PH2:Bilyonaryo.News.Channel.ph | PH_EPG:Bilyonaryo",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Bilyonaryo.News.Channel.ph",
-        "upcoming_programmes": 68,
+        "upcoming_programmes": 64,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -600,15 +708,16 @@
     "source_id": "BLASTMOVIES.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 32,
+    "upcoming_programmes": 30,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:BLASTMOVIES.ph",
+    "candidate_ids": "PH2:BLASTMOVIES.ph | PH_EPG:Blast Movies",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "BLASTMOVIES.ph",
-        "upcoming_programmes": 32,
+        "upcoming_programmes": 30,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -617,20 +726,21 @@
   },
   {
     "playlist_tvg_id": "Bloomberg",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Bloomberg",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 77,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:BLOOMBERG.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:Bloomberg | PH1:BLOOMBERG.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "BLOOMBERG.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "Bloomberg",
+        "upcoming_programmes": 77,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -646,24 +756,26 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "BOOMERANG",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "BOOMERANG",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 84,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:BOOMERANG.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:BOOMERANG | PH1:BOOMERANG.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "BOOMERANG.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "BOOMERANG",
+        "upcoming_programmes": 84,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -679,19 +791,30 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "Cartoonito",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Cartoonito",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 71,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Cartoonito",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Cartoonito",
+        "upcoming_programmes": 71,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Cartoon Channel PH",
@@ -703,32 +826,26 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "Cartoon Network",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Cartoon Network",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 97,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:CARTOON.NETWORK.HD.ph | PH1:CARTOON.NETWORK.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:Cartoon Network | PH1:CARTOON.NETWORK.HD.ph | PH1:CARTOON.NETWORK.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "CARTOON.NETWORK.HD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
-        "placeholder_rejected": 0,
-        "overlaps": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "CARTOON.NETWORK.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "Cartoon Network",
+        "upcoming_programmes": 97,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -740,15 +857,16 @@
     "source_id": "CCTV.4.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 91,
+    "upcoming_programmes": 85,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:CCTV.4.ph",
+    "candidate_ids": "PH2:CCTV.4.ph | PH_EPG:CCTV4",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "CCTV.4.ph",
-        "upcoming_programmes": 91,
+        "upcoming_programmes": 85,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -757,20 +875,21 @@
   },
   {
     "playlist_tvg_id": "Celestial Classic Movies",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Celestial Classic Movies",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 29,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:CELESTIAL.CLASSIC.MOVIES.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:Celestial Classic Movies | PH1:CELESTIAL.CLASSIC.MOVIES.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "CELESTIAL.CLASSIC.MOVIES.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "Celestial Classic Movies",
+        "upcoming_programmes": 29,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -786,19 +905,30 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "CGTN Documentary",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "CGTN Documentary",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 183,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:CGTN Documentary",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "CGTN Documentary",
+        "upcoming_programmes": 183,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Channel News Asia",
@@ -806,15 +936,16 @@
     "source_id": "CNA.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 101,
+    "upcoming_programmes": 98,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:CNA.ph | PH1:CHANNEL.NEWS.ASIA.ph",
+    "candidate_ids": "PH2:CNA.ph | PH_EPG:Channel News Asia | PH1:CHANNEL.NEWS.ASIA.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "CNA.ph",
-        "upcoming_programmes": 101,
+        "upcoming_programmes": 98,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -829,12 +960,21 @@
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Cinema.One.ph | PH1:CINEMA.ONE.ph",
+    "candidate_ids": "PH2:Cinema.One.ph | PH_EPG:CinemaOne | PH1:CINEMA.ONE.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Cinema.One.ph",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      },
+      {
+        "source": "PH_EPG",
+        "source_id": "CinemaOne",
         "upcoming_programmes": 0,
         "eligible": true,
         "placeholder_rejected": 0,
@@ -860,6 +1000,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "PH1:CINEMO!.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH1",
@@ -873,28 +1014,21 @@
   },
   {
     "playlist_tvg_id": "Cinemax",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Cinemax",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 38,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:CINEMAX.HD.ph | PH1:CINEMAX.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:Cinemax | PH1:CINEMAX.HD.ph | PH1:CINEMAX.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "CINEMAX.HD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
-        "placeholder_rejected": 0,
-        "overlaps": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "CINEMAX.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "Cinemax",
+        "upcoming_programmes": 38,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -910,19 +1044,30 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "CNBC",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "CNBC",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 102,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:CNBC",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "CNBC",
+        "upcoming_programmes": 102,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "CNN HD",
@@ -930,15 +1075,16 @@
     "source_id": "CNN.HD.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 82,
+    "upcoming_programmes": 79,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:CNN.HD.ph",
+    "candidate_ids": "PH2:CNN.HD.ph | PH_EPG:CNN HD",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "CNN.HD.ph",
-        "upcoming_programmes": 82,
+        "upcoming_programmes": 79,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -947,38 +1093,59 @@
   },
   {
     "playlist_tvg_id": "Comedy Central",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Comedy Central",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 82,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Comedy Central",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Comedy Central",
+        "upcoming_programmes": 82,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Concert Channel",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Concert Channel",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 11,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Concert Channel",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Concert Channel",
+        "upcoming_programmes": 11,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "CRIME INVESTIGATION",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "CRIME INVESTIGATION",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 1,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Crime.Investigation.ph | PH1:CRIME.&.INVESTIGATION.HD.ph | PH1:CRIME.&.INVESTIGATION.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH2:Crime.Investigation.ph | PH_EPG:CRIME INVESTIGATION | PH1:CRIME.&.INVESTIGATION.HD.ph | PH1:CRIME.&.INVESTIGATION.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -989,18 +1156,10 @@
         "overlaps": 0
       },
       {
-        "source": "PH1",
-        "source_id": "CRIME.&.INVESTIGATION.HD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
-        "placeholder_rejected": 0,
-        "overlaps": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "CRIME.&.INVESTIGATION.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "CRIME INVESTIGATION",
+        "upcoming_programmes": 1,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -1008,39 +1167,69 @@
   },
   {
     "playlist_tvg_id": "Crunchyroll",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Crunchyroll",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 152,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Crunchyroll",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Crunchyroll",
+        "upcoming_programmes": 152,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Curiosity Now",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Curiosity Now",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 88,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Curiosity Now",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Curiosity Now",
+        "upcoming_programmes": 88,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Danger TV",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Danger TV",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 78,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Danger TV",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Danger TV",
+        "upcoming_programmes": 78,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "DepEd TV",
@@ -1050,8 +1239,9 @@
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:DepEd.TV.ph",
+    "candidate_ids": "PH2:DepEd.TV.ph | PH_EPG:DepEd TV",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -1059,6 +1249,14 @@
         "upcoming_programmes": 0,
         "eligible": true,
         "placeholder_rejected": 165,
+        "overlaps": 0
+      },
+      {
+        "source": "PH_EPG",
+        "source_id": "DepEd TV",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 166,
         "overlaps": 0
       }
     ]
@@ -1073,6 +1271,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -1085,6 +1284,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "PH1:DISCOVERY.ASIA.ph",
     "region": "Philippines",
+    "upstream_hold": "Upstream maps this station to Discovery Channel",
     "attempts": [
       {
         "source": "PH1",
@@ -1098,28 +1298,21 @@
   },
   {
     "playlist_tvg_id": "Discovery Channel",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Discovery Channel",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 84,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:DISCOVERY.CHANNEL.HD.ph | PH1:DISCOVERY.CHANNEL.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:Discovery Channel | PH1:DISCOVERY.CHANNEL.HD.ph | PH1:DISCOVERY.CHANNEL.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "DISCOVERY.CHANNEL.HD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
-        "placeholder_rejected": 0,
-        "overlaps": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "DISCOVERY.CHANNEL.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "Discovery Channel",
+        "upcoming_programmes": 84,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -1127,63 +1320,113 @@
   },
   {
     "playlist_tvg_id": "Discovery Family",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Discovery Family",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 109,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Discovery Family",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Discovery Family",
+        "upcoming_programmes": 109,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Discovery Science",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Discovery Science",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 113,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Discovery Science",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Discovery Science",
+        "upcoming_programmes": 113,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Discovery Turbo",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Discovery Turbo",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 122,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Discovery Turbo",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Discovery Turbo",
+        "upcoming_programmes": 122,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Disney Channel",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Disney Channel",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 103,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Disney Channel",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Disney Channel",
+        "upcoming_programmes": 103,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "DMAX",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "DMAX",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 107,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:DMAX",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "DMAX",
+        "upcoming_programmes": 107,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Dream TV PH",
@@ -1195,6 +1438,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -1203,15 +1447,16 @@
     "source_id": "DreamWorks.HD.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 139,
+    "upcoming_programmes": 131,
     "placeholder_rejected": 0,
     "candidate_ids": "PH2:DreamWorks.HD.ph | PH1:DREAMWORKS.HD.ph",
     "region": "Philippines",
+    "upstream_hold": "Upstream selects the separate Tagalized feed",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "DreamWorks.HD.ph",
-        "upcoming_programmes": 139,
+        "upcoming_programmes": 131,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -1220,15 +1465,25 @@
   },
   {
     "playlist_tvg_id": "DW News",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "DW News",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 188,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:DW News",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "DW News",
+        "upcoming_programmes": 188,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "DZMM Teleradyo",
@@ -1238,9 +1493,18 @@
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:DZMM.TELERADYO.ph",
+    "candidate_ids": "PH_EPG:DZMM Teleradyo | PH1:DZMM.TELERADYO.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "DZMM Teleradyo",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      },
       {
         "source": "PH1",
         "source_id": "DZMM.TELERADYO.ph",
@@ -1261,19 +1525,30 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "ESPN",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "ESPN",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 67,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:ESPN",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "ESPN",
+        "upcoming_programmes": 67,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "EDGE SPORT",
@@ -1285,24 +1560,26 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "Euro News.",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Euro News.",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 301,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:EURONEWS.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:Euro News. | PH1:EURONEWS.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "EURONEWS.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "Euro News.",
+        "upcoming_programmes": 301,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -1310,39 +1587,69 @@
   },
   {
     "playlist_tvg_id": "Evolution Earth",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Evolution Earth",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 7,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Evolution Earth",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Evolution Earth",
+        "upcoming_programmes": 7,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "EWTN",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "EWTN",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 127,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:EWTN",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "EWTN",
+        "upcoming_programmes": 127,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "FailArmy",
     "source": "",
     "source_id": "",
-    "status": "no unambiguous regional mapping",
+    "status": "no current eligible real programmes",
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:FailArmy",
+    "region": "Philippines",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "FailArmy",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Fashion TV HD",
@@ -1350,15 +1657,16 @@
     "source_id": "Fashion.TV.HD.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 112,
+    "upcoming_programmes": 106,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Fashion.TV.HD.ph | PH1:FASHION.TV.HD.ph",
+    "candidate_ids": "PH2:Fashion.TV.HD.ph | PH_EPG:Fashion TV HD | PH1:FASHION.TV.HD.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Fashion.TV.HD.ph",
-        "upcoming_programmes": 112,
+        "upcoming_programmes": 106,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -1367,15 +1675,25 @@
   },
   {
     "playlist_tvg_id": "Fight Network",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Fight Network",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 45,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Fight Network",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Fight Network",
+        "upcoming_programmes": 45,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "FITE 24/7",
@@ -1387,24 +1705,26 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "Food Network HD",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Food Network HD",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 121,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:FOOD.NETWORK.HD.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:Food Network HD | PH1:FOOD.NETWORK.HD.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "FOOD.NETWORK.HD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "Food Network HD",
+        "upcoming_programmes": 121,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -1420,19 +1740,30 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "Fox Sports 1",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Fox Sports 1",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 40,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Fox Sports 1",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Fox Sports 1",
+        "upcoming_programmes": 40,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "FRANCE 24",
@@ -1440,15 +1771,16 @@
     "source_id": "France.24.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 272,
+    "upcoming_programmes": 261,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:France.24.ph",
+    "candidate_ids": "PH2:France.24.ph | PH_EPG:FRANCE 24",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "France.24.ph",
-        "upcoming_programmes": 272,
+        "upcoming_programmes": 261,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -1465,6 +1797,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -1473,15 +1806,16 @@
     "source_id": "Global.Trekker.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 85,
+    "upcoming_programmes": 81,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Global.Trekker.ph | PH1:GLOBAL.TREKKER.HD.ph",
+    "candidate_ids": "PH2:Global.Trekker.ph | PH_EPG:Global Trekker | PH1:GLOBAL.TREKKER.HD.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Global.Trekker.ph",
-        "upcoming_programmes": 85,
+        "upcoming_programmes": 81,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -1498,6 +1832,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "PH2:GMA.ph",
     "region": "Philippines",
+    "upstream_hold": "Upstream maps domestic GMA to GMA Pinoy TV",
     "attempts": [
       {
         "source": "PH2",
@@ -1511,39 +1846,69 @@
   },
   {
     "playlist_tvg_id": "GMA Life TV",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "GMA Life TV",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 84,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:GMA Life TV",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "GMA Life TV",
+        "upcoming_programmes": 84,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "GMA News TV",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "GMA News TV",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 77,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:GMA News TV",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "GMA News TV",
+        "upcoming_programmes": 77,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "GMA Pinoy TV",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "GMA Pinoy TV",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 72,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:GMA Pinoy TV",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "GMA Pinoy TV",
+        "upcoming_programmes": 72,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "GNN",
@@ -1555,6 +1920,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -1567,6 +1933,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -1577,12 +1944,21 @@
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:GTV.ph",
+    "candidate_ids": "PH2:GTV.ph | PH_EPG:GTV",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "GTV.ph",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      },
+      {
+        "source": "PH_EPG",
+        "source_id": "GTV",
         "upcoming_programmes": 0,
         "eligible": true,
         "placeholder_rejected": 0,
@@ -1600,44 +1976,48 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "Hallmark",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Hallmark",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 30,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Hallmark",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Hallmark",
+        "upcoming_programmes": 30,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "HBO",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "HBO",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 40,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:HBO.HD.ph | PH1:HBO.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:HBO | PH1:HBO.HD.ph | PH1:HBO.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "HBO.HD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
-        "placeholder_rejected": 0,
-        "overlaps": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "HBO.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "HBO",
+        "upcoming_programmes": 40,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -1645,52 +2025,65 @@
   },
   {
     "playlist_tvg_id": "HBO Boxing",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "HBO Boxing",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 82,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:HBO Boxing",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "HBO Boxing",
+        "upcoming_programmes": 82,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "HBO Comedy",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "HBO Comedy",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 52,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:HBO Comedy",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "HBO Comedy",
+        "upcoming_programmes": 52,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "HBO Family",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "HBO Family",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 140,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:HBO.FAMILY.HD.ph | PH1:HBO.FAMILY.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:HBO Family | PH1:HBO.FAMILY.HD.ph | PH1:HBO.FAMILY.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "HBO.FAMILY.HD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
-        "placeholder_rejected": 0,
-        "overlaps": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "HBO.FAMILY.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "HBO Family",
+        "upcoming_programmes": 140,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -1698,40 +2091,43 @@
   },
   {
     "playlist_tvg_id": "HBO Mundi",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "HBO Mundi",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 27,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:HBO Mundi",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "HBO Mundi",
+        "upcoming_programmes": 27,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "HBO Signature",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "HBO Signature",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 43,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:HBO.SIGNATURE.HD.ph | PH1:HBO.SIGNATURE.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:HBO Signature | PH1:HBO.SIGNATURE.HD.ph | PH1:HBO.SIGNATURE.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "HBO.SIGNATURE.HD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
-        "placeholder_rejected": 0,
-        "overlaps": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "HBO.SIGNATURE.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "HBO Signature",
+        "upcoming_programmes": 43,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -1747,60 +2143,92 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "HBO POP",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "HBO POP",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 32,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:HBO POP",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "HBO POP",
+        "upcoming_programmes": 32,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "HBO Xtreme",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "HBO Xtreme",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 27,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:HBO Xtreme",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "HBO Xtreme",
+        "upcoming_programmes": 27,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "HBO Zone",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "HBO Zone",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 35,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:HBO Zone",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "HBO Zone",
+        "upcoming_programmes": 35,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "HGTV HD",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "HGTV HD",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 112,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:HGTV.HD.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:HGTV HD | PH1:HGTV.HD.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "HGTV.HD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "HGTV HD",
+        "upcoming_programmes": 112,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -1812,15 +2240,16 @@
     "source_id": "History.HD.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 64,
+    "upcoming_programmes": 60,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:History.HD.ph | PH1:HISTORY.HD.ph",
+    "candidate_ids": "PH2:History.HD.ph | PH_EPG:History HD | PH1:HISTORY.HD.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "History.HD.ph",
-        "upcoming_programmes": 64,
+        "upcoming_programmes": 60,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -1833,15 +2262,16 @@
     "source_id": "HITS.HD.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 75,
+    "upcoming_programmes": 70,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:HITS.HD.ph",
+    "candidate_ids": "PH2:HITS.HD.ph | PH_EPG:Hits HD",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "HITS.HD.ph",
-        "upcoming_programmes": 75,
+        "upcoming_programmes": 70,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -1854,15 +2284,16 @@
     "source_id": "HITS.MOVIES.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 26,
+    "upcoming_programmes": 24,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:HITS.MOVIES.ph",
+    "candidate_ids": "PH2:HITS.MOVIES.ph | PH_EPG:Hits Movies",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "HITS.MOVIES.ph",
-        "upcoming_programmes": 26,
+        "upcoming_programmes": 24,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -1875,15 +2306,16 @@
     "source_id": "HITS.NOW.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 52,
+    "upcoming_programmes": 50,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:HITS.NOW.ph",
+    "candidate_ids": "PH2:HITS.NOW.ph | PH_EPG:Hits Now",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "HITS.NOW.ph",
-        "upcoming_programmes": 52,
+        "upcoming_programmes": 50,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -1892,15 +2324,25 @@
   },
   {
     "playlist_tvg_id": "HIYAH!",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "HIYAH!",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 37,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:HIYAH!",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "HIYAH!",
+        "upcoming_programmes": 37,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Hope Channel PH",
@@ -1912,6 +2354,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -1924,6 +2367,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -1934,8 +2378,9 @@
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:IBC.13.ph",
+    "candidate_ids": "PH2:IBC.13.ph | PH_EPG:IBC13",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -1943,6 +2388,14 @@
         "upcoming_programmes": 0,
         "eligible": true,
         "placeholder_rejected": 165,
+        "overlaps": 0
+      },
+      {
+        "source": "PH_EPG",
+        "source_id": "IBC13",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 166,
         "overlaps": 0
       }
     ]
@@ -1957,19 +2410,30 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "InWonder",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "InWonder",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 8,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:InWonder",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "InWonder",
+        "upcoming_programmes": 8,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "ION",
@@ -1981,6 +2445,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "UK iON TV is a different station from US ION",
     "attempts": []
   },
   {
@@ -1991,12 +2456,21 @@
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Jeepney.TV.ph | PH1:JEEPNEY.TV.ph",
+    "candidate_ids": "PH2:Jeepney.TV.ph | PH_EPG:Jeepney TV | PH1:JEEPNEY.TV.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Jeepney.TV.ph",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      },
+      {
+        "source": "PH_EPG",
+        "source_id": "Jeepney TV",
         "upcoming_programmes": 0,
         "eligible": true,
         "placeholder_rejected": 0,
@@ -2016,24 +2490,35 @@
     "playlist_tvg_id": "Just for Laughs Gags",
     "source": "",
     "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
-    "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
-  },
-  {
-    "playlist_tvg_id": "Kapamilya Channel",
-    "source": "",
-    "source_id": "",
     "status": "no current eligible real programmes",
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Kapamilya.Channel.ph | PH1:KAPAMILYA.CHANNEL.HD.ph | PH1:KAPAMILYA.CHANNEL.ph",
+    "candidate_ids": "PH_EPG:Just for Laughs Gags",
     "region": "Philippines",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Just for Laughs Gags",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
+  },
+  {
+    "playlist_tvg_id": "Kapamilya Channel",
+    "source": "PH_EPG",
+    "source_id": "Kapamilya Channel",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 1,
+    "placeholder_rejected": 0,
+    "candidate_ids": "PH2:Kapamilya.Channel.ph | PH_EPG:Kapamilya Channel | PH1:KAPAMILYA.CHANNEL.HD.ph | PH1:KAPAMILYA.CHANNEL.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -2044,18 +2529,10 @@
         "overlaps": 0
       },
       {
-        "source": "PH1",
-        "source_id": "KAPAMILYA.CHANNEL.HD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
-        "placeholder_rejected": 0,
-        "overlaps": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "KAPAMILYA.CHANNEL.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "Kapamilya Channel",
+        "upcoming_programmes": 1,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -2063,14 +2540,15 @@
   },
   {
     "playlist_tvg_id": "Kapamilya Channel HD",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Kapamilya Channel HD",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 1,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Kapamilya.Channel.ph | PH1:KAPAMILYA.CHANNEL.HD.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH2:Kapamilya.Channel.ph | PH_EPG:Kapamilya Channel HD | PH1:KAPAMILYA.CHANNEL.HD.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -2081,10 +2559,10 @@
         "overlaps": 0
       },
       {
-        "source": "PH1",
-        "source_id": "KAPAMILYA.CHANNEL.HD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "Kapamilya Channel HD",
+        "upcoming_programmes": 1,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -2092,15 +2570,25 @@
   },
   {
     "playlist_tvg_id": "Kartoon Channel",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Kartoon Channel",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 157,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Kartoon Channel",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Kartoon Channel",
+        "upcoming_programmes": 157,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "KBS World",
@@ -2112,6 +2600,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "PH1:KBS.WORLD.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH1",
@@ -2125,15 +2614,25 @@
   },
   {
     "playlist_tvg_id": "Kidsflix",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Kidsflix",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 63,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Kidsflix",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Kidsflix",
+        "upcoming_programmes": 63,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Kids TV",
@@ -2145,24 +2644,26 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "Kix HD",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Kix HD",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 54,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:KIX.HD.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:Kix HD | PH1:KIX.HD.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "KIX.HD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "Kix HD",
+        "upcoming_programmes": 54,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -2176,8 +2677,9 @@
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
     "upcoming_programmes": 109,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Knowledge.Channel.ph | PH1:KNOWLEDGE.CHANNEL.ph",
+    "candidate_ids": "PH2:Knowledge.Channel.ph | PH_EPG:Knowledge Channel | PH1:KNOWLEDGE.CHANNEL.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -2199,6 +2701,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -2211,6 +2714,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -2219,15 +2723,16 @@
     "source_id": "Lifetime.SD.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 53,
+    "upcoming_programmes": 50,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Lifetime.SD.ph | PH1:LIFETIME..HD.ph | PH1:LIFETIME.ph",
+    "candidate_ids": "PH2:Lifetime.SD.ph | PH_EPG:Lifetime | PH1:LIFETIME..HD.ph | PH1:LIFETIME.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Lifetime.SD.ph",
-        "upcoming_programmes": 53,
+        "upcoming_programmes": 50,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -2244,6 +2749,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -2254,8 +2760,9 @@
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Lotus.Macau.ph",
+    "candidate_ids": "PH2:Lotus.Macau.ph | PH_EPG:Lotus Macau",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -2263,6 +2770,14 @@
         "upcoming_programmes": 0,
         "eligible": true,
         "placeholder_rejected": 165,
+        "overlaps": 0
+      },
+      {
+        "source": "PH_EPG",
+        "source_id": "Lotus Macau",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 166,
         "overlaps": 0
       }
     ]
@@ -2277,6 +2792,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -2289,6 +2805,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -2301,6 +2818,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "PH2:Metro.Channel.ph | PH1:METRO.CHANNEL.HD.ph | PH1:METRO.CHANNEL.SD.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -2330,39 +2848,69 @@
   },
   {
     "playlist_tvg_id": "MIRAMAX",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "MIRAMAX",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 34,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:MIRAMAX",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "MIRAMAX",
+        "upcoming_programmes": 34,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "MLB Network",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "MLB Network",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 45,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:MLB Network",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "MLB Network",
+        "upcoming_programmes": 45,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "MNX HD",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "MNX HD",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 10,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:MNX HD",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "MNX HD",
+        "upcoming_programmes": 10,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Moonbug Kids",
@@ -2372,8 +2920,9 @@
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Moonbug.Kids.ph",
+    "candidate_ids": "PH2:Moonbug.Kids.ph | PH_EPG:Moonbug Kids",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -2381,6 +2930,14 @@
         "upcoming_programmes": 0,
         "eligible": true,
         "placeholder_rejected": 49,
+        "overlaps": 0
+      },
+      {
+        "source": "PH_EPG",
+        "source_id": "Moonbug Kids",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 50,
         "overlaps": 0
       }
     ]
@@ -2395,19 +2952,30 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "MotoGP Channel",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "MotoGP Channel",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 55,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:MotoGP Channel",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "MotoGP Channel",
+        "upcoming_programmes": 55,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "MovieBoxPH",
@@ -2419,6 +2987,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -2431,55 +3000,96 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "Movies Now",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Movies Now",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 9,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Movies Now",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Movies Now",
+        "upcoming_programmes": 9,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Movie Sphere",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Movie Sphere",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 68,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Movie Sphere",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Movie Sphere",
+        "upcoming_programmes": 68,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Mr. Bean",
     "source": "",
     "source_id": "",
-    "status": "no unambiguous regional mapping",
+    "status": "no current eligible real programmes",
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Mr. Bean",
+    "region": "Philippines",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Mr. Bean",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 32,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Mr Beast",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Mr Beast",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 89,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Mr Beast",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Mr Beast",
+        "upcoming_programmes": 89,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Media Pilipinas TV",
@@ -2491,24 +3101,26 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "MTV",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "MTV",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 65,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:MTV.ASIA.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:MTV | PH1:MTV.ASIA.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "MTV.ASIA.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "MTV",
+        "upcoming_programmes": 65,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -2524,31 +3136,52 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "Mythbusters",
     "source": "",
     "source_id": "",
-    "status": "no unambiguous regional mapping",
+    "status": "no current eligible real programmes",
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Mythbusters",
+    "region": "Philippines",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Mythbusters",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 145,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Mysterious Worlds",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Mysterious Worlds",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 94,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Mysterious Worlds",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Mysterious Worlds",
+        "upcoming_programmes": 94,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "MYX",
@@ -2560,6 +3193,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "PH2:MYX.ph | PH1:MYX.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -2581,28 +3215,21 @@
   },
   {
     "playlist_tvg_id": "National Geographic",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "National Geographic",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 65,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:NATIONAL.GEOGRAPHIC.HD.ph | PH1:NATIONAL.GEOGRAPHIC.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:National Geographic | PH1:NATIONAL.GEOGRAPHIC.HD.ph | PH1:NATIONAL.GEOGRAPHIC.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "NATIONAL.GEOGRAPHIC.HD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
-        "placeholder_rejected": 0,
-        "overlaps": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "NATIONAL.GEOGRAPHIC.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "National Geographic",
+        "upcoming_programmes": 65,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -2618,6 +3245,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "Upstream maps the US channel to NBA TV Philippines",
     "attempts": []
   },
   {
@@ -2626,15 +3254,16 @@
     "source_id": "NBA.TV.Philippines.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 54,
+    "upcoming_programmes": 52,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:NBA.TV.Philippines.ph",
+    "candidate_ids": "PH2:NBA.TV.Philippines.ph | PH_EPG:NBA TV Philippines",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "NBA.TV.Philippines.ph",
-        "upcoming_programmes": 54,
+        "upcoming_programmes": 52,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -2647,15 +3276,16 @@
     "source_id": "NCAA.NXT.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 19,
+    "upcoming_programmes": 18,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:NCAA.NXT.ph",
+    "candidate_ids": "PH2:NCAA.NXT.ph | PH_EPG:NCAA NXT",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "NCAA.NXT.ph",
-        "upcoming_programmes": 19,
+        "upcoming_programmes": 18,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -2664,31 +3294,50 @@
   },
   {
     "playlist_tvg_id": "New KMovies",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "New KMovies",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 37,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:New KMovies",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "New KMovies",
+        "upcoming_programmes": 37,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Net25",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Net25",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 3,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Net.25.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH2:Net.25.ph | PH_EPG:Net25",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Net.25.ph",
         "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      },
+      {
+        "source": "PH_EPG",
+        "source_id": "Net25",
+        "upcoming_programmes": 3,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -2701,15 +3350,16 @@
     "source_id": "NHK.World.Japan.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 155,
+    "upcoming_programmes": 147,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:NHK.World.Japan.ph | PH1:NHK.WORLD.JAPAN.ph",
+    "candidate_ids": "PH2:NHK.World.Japan.ph | PH_EPG:NHK World Japan | PH1:NHK.WORLD.JAPAN.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "NHK.World.Japan.ph",
-        "upcoming_programmes": 155,
+        "upcoming_programmes": 147,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -2718,20 +3368,21 @@
   },
   {
     "playlist_tvg_id": "Nickjr",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Nickjr",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 225,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:NICK.JR..ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:Nickjr | PH1:NICK.JR..ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "NICK.JR..ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "Nickjr",
+        "upcoming_programmes": 225,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -2743,15 +3394,16 @@
     "source_id": "Nickelodeon.SD.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 96,
+    "upcoming_programmes": 86,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Nickelodeon.SD.ph | PH1:NICKELODEON.ph",
+    "candidate_ids": "PH2:Nickelodeon.SD.ph | PH_EPG:Nickelodeon | PH1:NICKELODEON.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Nickelodeon.SD.ph",
-        "upcoming_programmes": 96,
+        "upcoming_programmes": 86,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -2764,15 +3416,16 @@
     "source_id": "One.News.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 79,
+    "upcoming_programmes": 77,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:One.News.ph",
+    "candidate_ids": "PH2:One.News.ph | PH_EPG:One News HD",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "One.News.ph",
-        "upcoming_programmes": 79,
+        "upcoming_programmes": 77,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -2785,15 +3438,16 @@
     "source_id": "One.PH.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 58,
+    "upcoming_programmes": 56,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:One.PH.ph",
+    "candidate_ids": "PH2:One.PH.ph | PH_EPG:One PH",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "One.PH.ph",
-        "upcoming_programmes": 58,
+        "upcoming_programmes": 56,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -2808,8 +3462,9 @@
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
     "upcoming_programmes": 28,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:One.Sports.HD.ph | PH1:ONE.SPORTS.ph",
+    "candidate_ids": "PH2:One.Sports.HD.ph | PH_EPG:One Sports | PH1:ONE.SPORTS.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -2823,28 +3478,21 @@
   },
   {
     "playlist_tvg_id": "Outdoor Channel",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Outdoor Channel",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 120,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:OUTDOOR.CHANNEL.HD.ph | PH1:OUTDOOR.CHANNEL.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:Outdoor Channel | PH1:OUTDOOR.CHANNEL.HD.ph | PH1:OUTDOOR.CHANNEL.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "OUTDOOR.CHANNEL.HD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
-        "placeholder_rejected": 0,
-        "overlaps": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "OUTDOOR.CHANNEL.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "Outdoor Channel",
+        "upcoming_programmes": 120,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -2860,19 +3508,30 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "Paramount Movie Channel",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Paramount Movie Channel",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 7,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Paramount Movie Channel",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Paramount Movie Channel",
+        "upcoming_programmes": 7,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "PBA Rush",
@@ -2882,8 +3541,9 @@
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:PBA.Rush.ph",
+    "candidate_ids": "PH2:PBA.Rush.ph | PH_EPG:PBA Rush",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -2892,32 +3552,60 @@
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
+      },
+      {
+        "source": "PH_EPG",
+        "source_id": "PBA Rush",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 72,
+        "overlaps": 0
       }
     ]
   },
   {
     "playlist_tvg_id": "PBS Digital Studios",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "PBS Digital Studios",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 5,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:PBS Digital Studios",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "PBS Digital Studios",
+        "upcoming_programmes": 5,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "People Are Awesome",
     "source": "",
     "source_id": "",
-    "status": "no unambiguous regional mapping",
+    "status": "no current eligible real programmes",
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:People Are Awesome",
+    "region": "Philippines",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "People Are Awesome",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Pilipinas Live",
@@ -2929,18 +3617,20 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "Pinoy Box Office",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Pinoy Box Office",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 1,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:PBO.ph | PH1:PBO.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH2:PBO.ph | PH_EPG:Pinoy Box Office | PH1:PBO.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -2951,10 +3641,10 @@
         "overlaps": 0
       },
       {
-        "source": "PH1",
-        "source_id": "PBO.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "Pinoy Box Office",
+        "upcoming_programmes": 1,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -2970,6 +3660,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -2980,8 +3671,9 @@
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
     "upcoming_programmes": 21,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Premier.Sports.HD.ph | PH1:PREMIER.SPORTS.HD.ph | PH1:PREMIER.SPORTS.ph",
+    "candidate_ids": "PH2:Premier.Sports.HD.ph | PH_EPG:Premier Sports | PH1:PREMIER.SPORTS.HD.ph | PH1:PREMIER.SPORTS.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -2995,14 +3687,15 @@
   },
   {
     "playlist_tvg_id": "Peoples Television",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Peoples Television",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 51,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:PTV.4.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH2:PTV.4.ph | PH_EPG:Peoples Television",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -3011,20 +3704,38 @@
         "eligible": true,
         "placeholder_rejected": 165,
         "overlaps": 0
+      },
+      {
+        "source": "PH_EPG",
+        "source_id": "Peoples Television",
+        "upcoming_programmes": 51,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
       }
     ]
   },
   {
     "playlist_tvg_id": "Popular Science",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Popular Science",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 93,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Popular Science",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Popular Science",
+        "upcoming_programmes": 93,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Radyo Bandido",
@@ -3036,6 +3747,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -3048,43 +3760,74 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "Real Wild",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Real Wild",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 85,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Real Wild",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Real Wild",
+        "upcoming_programmes": 85,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Retro Crush",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Retro Crush",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 141,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Retro Crush",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Retro Crush",
+        "upcoming_programmes": 141,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "RedBull TV",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "RedBull TV",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 117,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:RedBull TV",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "RedBull TV",
+        "upcoming_programmes": 117,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "RJ Digitv",
@@ -3096,6 +3839,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -3104,15 +3848,16 @@
     "source_id": "Rock.Action.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 30,
+    "upcoming_programmes": 28,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Rock.Action.ph",
+    "candidate_ids": "PH2:Rock.Action.ph | PH_EPG:Rock Action",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Rock.Action.ph",
-        "upcoming_programmes": 30,
+        "upcoming_programmes": 28,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -3129,6 +3874,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -3139,8 +3885,9 @@
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
     "upcoming_programmes": 36,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:RPTV.HD.ph | PH1:RPTV.ph",
+    "candidate_ids": "PH2:RPTV.HD.ph | PH_EPG:RPTV | PH1:RPTV.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -3162,6 +3909,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -3174,31 +3922,52 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "Sky Sports F1",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Sky Sports F1",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 84,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Sky Sports F1",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Sky Sports F1",
+        "upcoming_programmes": 84,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Smithsonian Channel",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Smithsonian Channel",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 59,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Smithsonian Channel",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Smithsonian Channel",
+        "upcoming_programmes": 59,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "SMNI News Channel",
@@ -3210,6 +3979,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -3220,12 +3990,21 @@
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Solar.Flix.ph | PH1:SOLARFLIX.ph",
+    "candidate_ids": "PH2:Solar.Flix.ph | PH_EPG:SOLARFLIX | PH1:SOLARFLIX.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Solar.Flix.ph",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      },
+      {
+        "source": "PH_EPG",
+        "source_id": "SOLARFLIX",
         "upcoming_programmes": 0,
         "eligible": true,
         "placeholder_rejected": 0,
@@ -3251,6 +4030,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "PH1:SOLAR.SPORTS.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH1",
@@ -3264,39 +4044,69 @@
   },
   {
     "playlist_tvg_id": "Sony Movies",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Sony Movies",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 33,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Sony Movies",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Sony Movies",
+        "upcoming_programmes": 33,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Sony Pix",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Sony Pix",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 9,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Sony Pix",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Sony Pix",
+        "upcoming_programmes": 9,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Sony One Action Hits",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Sony One Action Hits",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 3,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Sony One Action Hits",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Sony One Action Hits",
+        "upcoming_programmes": 3,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Spotlight TV",
@@ -3308,18 +4118,20 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "SPOTV",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "SPOTV",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 36,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:SPOTV.HD.ph | PH1:SPOTV.HD.ph | PH1:SPOTV.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH2:SPOTV.HD.ph | PH_EPG:SPOTV | PH1:SPOTV.HD.ph | PH1:SPOTV.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -3330,18 +4142,10 @@
         "overlaps": 0
       },
       {
-        "source": "PH1",
-        "source_id": "SPOTV.HD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
-        "placeholder_rejected": 0,
-        "overlaps": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "SPOTV.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "SPOTV",
+        "upcoming_programmes": 36,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -3349,27 +4153,47 @@
   },
   {
     "playlist_tvg_id": "STAR Movies HD",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "STAR Movies HD",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 8,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:STAR Movies HD",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "STAR Movies HD",
+        "upcoming_programmes": 8,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "STAR Movies Select HD",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "STAR Movies Select HD",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 9,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:STAR Movies Select HD",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "STAR Movies Select HD",
+        "upcoming_programmes": 9,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Star TV Philippines",
@@ -3381,6 +4205,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
@@ -3393,31 +4218,52 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "SYFY",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "SYFY",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 45,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:SYFY",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "SYFY",
+        "upcoming_programmes": 45,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "STARZ",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "STARZ",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 46,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:STARZ",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "STARZ",
+        "upcoming_programmes": 46,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Studio Universal",
@@ -3425,15 +4271,16 @@
     "source_id": "STUDIOUNIVERSAL.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 29,
+    "upcoming_programmes": 28,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:STUDIOUNIVERSAL.ph",
+    "candidate_ids": "PH2:STUDIOUNIVERSAL.ph | PH_EPG:Studio Universal",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "STUDIOUNIVERSAL.ph",
-        "upcoming_programmes": 29,
+        "upcoming_programmes": 28,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -3448,12 +4295,21 @@
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Tagalized.Movie.Channel.ph | PH1:TMC.(TAGALIZED.MOVIE.CHANNEL).ph",
+    "candidate_ids": "PH2:Tagalized.Movie.Channel.ph | PH_EPG:Tagalized Movie Channel | PH1:TMC.(TAGALIZED.MOVIE.CHANNEL).ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Tagalized.Movie.Channel.ph",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      },
+      {
+        "source": "PH_EPG",
+        "source_id": "Tagalized Movie Channel",
         "upcoming_programmes": 0,
         "eligible": true,
         "placeholder_rejected": 0,
@@ -3471,15 +4327,25 @@
   },
   {
     "playlist_tvg_id": "Taiwan Plus",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Taiwan Plus",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 156,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Taiwan Plus",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Taiwan Plus",
+        "upcoming_programmes": 156,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Tap Action Flix",
@@ -3491,6 +4357,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "PH2:TAPACTIONFLIX.ph | PH1:TapAction.Flix.HD.ph | PH1:TapAction.Flix.ph",
     "region": "Philippines",
+    "upstream_hold": "Upstream maps this station to Tap Movies",
     "attempts": [
       {
         "source": "PH2",
@@ -3528,6 +4395,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "PH2:TAPEDGE.ph | PH1:TAP.EDGE.ph",
     "region": "Philippines",
+    "upstream_hold": "Upstream maps this station to TAP Sports",
     "attempts": [
       {
         "source": "PH2",
@@ -3553,15 +4421,16 @@
     "source_id": "TAP.Movies.HD.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 32,
+    "upcoming_programmes": 31,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:TAP.Movies.HD.ph | PH1:TAP.MOVIES.HD.ph | PH1:TAP.MOVIES.ph",
+    "candidate_ids": "PH2:TAP.Movies.HD.ph | PH_EPG:Tap Movies | PH1:TAP.MOVIES.HD.ph | PH1:TAP.MOVIES.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "TAP.Movies.HD.ph",
-        "upcoming_programmes": 32,
+        "upcoming_programmes": 31,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -3576,8 +4445,9 @@
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Tapsilog.ph",
+    "candidate_ids": "PH2:Tapsilog.ph | PH_EPG:TapSILOG",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -3585,6 +4455,14 @@
         "upcoming_programmes": 0,
         "eligible": true,
         "placeholder_rejected": 0,
+        "overlaps": 0
+      },
+      {
+        "source": "PH_EPG",
+        "source_id": "TapSILOG",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 72,
         "overlaps": 0
       }
     ]
@@ -3595,15 +4473,16 @@
     "source_id": "Tap.Sports.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 27,
+    "upcoming_programmes": 25,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:Tap.Sports.ph | PH1:TAP.SPORTS.HD.ph",
+    "candidate_ids": "PH2:Tap.Sports.ph | PH_EPG:TAP Sports | PH1:TAP.SPORTS.HD.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Tap.Sports.ph",
-        "upcoming_programmes": 27,
+        "upcoming_programmes": 25,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -3620,6 +4499,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "PH2:TAPTV.ph | PH1:TAP.TV.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -3641,15 +4521,25 @@
   },
   {
     "playlist_tvg_id": "Tastemade",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Tastemade",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 117,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Tastemade",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Tastemade",
+        "upcoming_programmes": 117,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "TBN Asia",
@@ -3661,31 +4551,52 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "TFC Asia",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "TFC Asia",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 10,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:TFC Asia",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "TFC Asia",
+        "upcoming_programmes": 10,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Tennis Channel",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Tennis Channel",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 19,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Tennis Channel",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Tennis Channel",
+        "upcoming_programmes": 19,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "The Manila Times",
@@ -3697,24 +4608,26 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "Thrill",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Thrill",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 51,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:THRILL.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:Thrill | PH1:THRILL.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "THRILL.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "Thrill",
+        "upcoming_programmes": 51,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -3722,28 +4635,21 @@
   },
   {
     "playlist_tvg_id": "TLC",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "TLC",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 96,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:TLC.HD.ph | PH1:TLC.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:TLC | PH1:TLC.HD.ph | PH1:TLC.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "TLC.HD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
-        "placeholder_rejected": 0,
-        "overlaps": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "TLC.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "TLC",
+        "upcoming_programmes": 96,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -3751,27 +4657,47 @@
   },
   {
     "playlist_tvg_id": "TNA Wrestling",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "TNA Wrestling",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 47,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:TNA Wrestling",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "TNA Wrestling",
+        "upcoming_programmes": 47,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "TNT Sports 1",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "TNT Sports 1",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 43,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:TNT Sports 1",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "TNT Sports 1",
+        "upcoming_programmes": 43,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Tom and Jerry",
@@ -3783,56 +4709,70 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "Top Rank Classics",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Top Rank Classics",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 15,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Top Rank Classics",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Top Rank Classics",
+        "upcoming_programmes": 15,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Trace Urban",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
-    "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
-  },
-  {
-    "playlist_tvg_id": "Travel Channel",
     "source": "",
     "source_id": "",
     "status": "no current eligible real programmes",
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:TRAVEL.CHANNEL.HD.ph | PH1:TRAVEL.CHANNEL.ph",
+    "candidate_ids": "PH_EPG:Trace Urban",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "TRAVEL.CHANNEL.HD.ph",
+        "source": "PH_EPG",
+        "source_id": "Trace Urban",
         "upcoming_programmes": 0,
-        "eligible": false,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
-      },
+      }
+    ]
+  },
+  {
+    "playlist_tvg_id": "Travel Channel",
+    "source": "PH_EPG",
+    "source_id": "Travel Channel",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 204,
+    "placeholder_rejected": 0,
+    "candidate_ids": "PH_EPG:Travel Channel | PH1:TRAVEL.CHANNEL.HD.ph | PH1:TRAVEL.CHANNEL.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
       {
-        "source": "PH1",
-        "source_id": "TRAVEL.CHANNEL.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "Travel Channel",
+        "upcoming_programmes": 204,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -3840,15 +4780,25 @@
   },
   {
     "playlist_tvg_id": "TSN",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "TSN",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 67,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:TSN",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "TSN",
+        "upcoming_programmes": 67,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "TV Maria",
@@ -3858,8 +4808,9 @@
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:TV.Maria.ph",
+    "candidate_ids": "PH2:TV.Maria.ph | PH_EPG:TV Maria",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
@@ -3867,6 +4818,14 @@
         "upcoming_programmes": 0,
         "eligible": true,
         "placeholder_rejected": 165,
+        "overlaps": 0
+      },
+      {
+        "source": "PH_EPG",
+        "source_id": "TV Maria",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 166,
         "overlaps": 0
       }
     ]
@@ -3877,15 +4836,16 @@
     "source_id": "tvN.Movies.Pinoy.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 33,
+    "upcoming_programmes": 31,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:tvN.Movies.Pinoy.ph",
+    "candidate_ids": "PH2:tvN.Movies.Pinoy.ph | PH_EPG:TVN Movies",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "tvN.Movies.Pinoy.ph",
-        "upcoming_programmes": 33,
+        "upcoming_programmes": 31,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -3898,15 +4858,16 @@
     "source_id": "tvN.Premium.HD.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 45,
+    "upcoming_programmes": 43,
     "placeholder_rejected": 0,
     "candidate_ids": "PH2:tvN.Premium.HD.ph",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "tvN.Premium.HD.ph",
-        "upcoming_programmes": 45,
+        "upcoming_programmes": 43,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -3915,20 +4876,21 @@
   },
   {
     "playlist_tvg_id": "TV5 Monde",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "TV5 Monde",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 164,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:TV.5.MONDE.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:TV5 Monde | PH1:TV.5.MONDE.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "TV.5.MONDE.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "TV5 Monde",
+        "upcoming_programmes": 164,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -3940,15 +4902,16 @@
     "source_id": "UAAP.Varsity.Channel.ph",
     "status": "mapped",
     "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
-    "upcoming_programmes": 31,
+    "upcoming_programmes": 28,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:UAAP.Varsity.Channel.ph",
+    "candidate_ids": "PH2:UAAP.Varsity.Channel.ph | PH_EPG:UAAP Varsity",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "UAAP.Varsity.Channel.ph",
-        "upcoming_programmes": 31,
+        "upcoming_programmes": 28,
         "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
@@ -3957,15 +4920,25 @@
   },
   {
     "playlist_tvg_id": "UFC",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "UFC",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 95,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:UFC",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "UFC",
+        "upcoming_programmes": 95,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "UNTV",
@@ -3977,31 +4950,52 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   },
   {
     "playlist_tvg_id": "USA Today",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "USA Today",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 145,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:USA Today",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "USA Today",
+        "upcoming_programmes": 145,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "VEVO",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "VEVO",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 44,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:VEVO",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "VEVO",
+        "upcoming_programmes": 44,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "VIVA Cinema",
@@ -4011,12 +5005,21 @@
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH2:VIVA.Cinema.ph",
+    "candidate_ids": "PH2:VIVA.Cinema.ph | PH_EPG:VIVA Cinema",
     "region": "Philippines",
+    "upstream_hold": "",
     "attempts": [
       {
         "source": "PH2",
         "source_id": "VIVA.Cinema.ph",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      },
+      {
+        "source": "PH_EPG",
+        "source_id": "VIVA Cinema",
         "upcoming_programmes": 0,
         "eligible": true,
         "placeholder_rejected": 0,
@@ -4026,28 +5029,21 @@
   },
   {
     "playlist_tvg_id": "Warner TV",
-    "source": "",
-    "source_id": "",
-    "status": "no current eligible real programmes",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Warner TV",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 56,
     "placeholder_rejected": 0,
-    "candidate_ids": "PH1:WARNER.TV.HD.ph | PH1:WARNER.TV.ph",
-    "region": "Philippines",
+    "candidate_ids": "PH_EPG:Warner TV | PH1:WARNER.TV.HD.ph | PH1:WARNER.TV.ph",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
     "attempts": [
       {
-        "source": "PH1",
-        "source_id": "WARNER.TV.HD.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
-        "placeholder_rejected": 0,
-        "overlaps": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "WARNER.TV.ph",
-        "upcoming_programmes": 0,
-        "eligible": false,
+        "source": "PH_EPG",
+        "source_id": "Warner TV",
+        "upcoming_programmes": 56,
+        "eligible": true,
         "placeholder_rejected": 0,
         "overlaps": 0
       }
@@ -4055,75 +5051,135 @@
   },
   {
     "playlist_tvg_id": "Wild Planet",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Wild Planet",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 6,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Wild Planet",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Wild Planet",
+        "upcoming_programmes": 6,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "World Poker Tour",
     "source": "",
     "source_id": "",
-    "status": "no unambiguous regional mapping",
+    "status": "no current eligible real programmes",
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:World Poker Tour",
+    "region": "Philippines",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "World Poker Tour",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "WWE",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "WWE",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 116,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:WWE",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "WWE",
+        "upcoming_programmes": 116,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "XFC TV",
     "source": "",
     "source_id": "",
-    "status": "no unambiguous regional mapping",
+    "status": "no current eligible real programmes",
     "source_url": "",
     "upcoming_programmes": 0,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:XFC TV",
+    "region": "Philippines",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "XFC TV",
+        "upcoming_programmes": 0,
+        "eligible": true,
+        "placeholder_rejected": 24,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Xite Hits",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Xite Hits",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 26,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Xite Hits",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Xite Hits",
+        "upcoming_programmes": 26,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Yes Network",
-    "source": "",
-    "source_id": "",
-    "status": "no unambiguous regional mapping",
-    "source_url": "",
-    "upcoming_programmes": 0,
+    "source": "PH_EPG",
+    "source_id": "Yes Network",
+    "status": "mapped",
+    "source_url": "https://tr3nching.github.io/ph-epg/epg.xml.gz",
+    "upcoming_programmes": 57,
     "placeholder_rejected": 0,
-    "candidate_ids": "",
-    "region": "",
-    "attempts": []
+    "candidate_ids": "PH_EPG:Yes Network",
+    "region": "upstream selected feed; regional confirmation incomplete",
+    "upstream_hold": "",
+    "attempts": [
+      {
+        "source": "PH_EPG",
+        "source_id": "Yes Network",
+        "upcoming_programmes": 57,
+        "eligible": true,
+        "placeholder_rejected": 0,
+        "overlaps": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "Z One",
@@ -4135,6 +5191,7 @@
     "placeholder_rejected": 0,
     "candidate_ids": "",
     "region": "",
+    "upstream_hold": "",
     "attempts": []
   }
 ]

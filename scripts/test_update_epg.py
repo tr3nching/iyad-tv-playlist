@@ -47,4 +47,26 @@ class MergeTests(unittest.TestCase):
    self.assertEqual(r['programmes'],120);self.assertEqual(r['total_overlaps'],0)
    self.assertEqual(len(E.parse(out/'epg.xml').getroot().findall('programme')),120)
 
+ def test_import_uses_exact_ids_preserves_ph2_and_holds_wrong_identities(self):
+  feeds=self.feeds(); now=dt.datetime.now(epg.UTC).replace(microsecond=0)
+  feeds['PH_EPG']={'names':{},'programmes':{}}
+  for name in ['NHK World Japan','Crunchyroll','NBA TV','TV5','Broken Times','Stale Guide','Overlapping Guide']:
+   feeds['PH_EPG']['names'][name]=name; entries=[]
+   for n in range(70):
+    start=now+dt.timedelta(hours=n if name!='Stale Guide' else n-72)
+    stop=start+dt.timedelta(minutes=90 if name=='Overlapping Guide' else -1 if name=='Broken Times' else 30)
+    p=E.Element('programme',{'channel':name,'start':epg.stamp(start),'stop':epg.stamp(stop)})
+    E.SubElement(p,'title').text=f'Programme {n}';entries.append(p)
+   feeds['PH_EPG']['programmes'][name]=entries
+  names=['NHK World Japan','Crunchyroll','NBA TV','TV5','Broken Times','Stale Guide','Overlapping Guide','crunchyroll']
+  metadata={s:{'programme_entries':sum(len(v) for v in f['programmes'].values())} for s,f in feeds.items()}
+  with tempfile.TemporaryDirectory() as directory:
+   out=Path(directory);catalog=out/'catalog.json';catalog.write_text(json.dumps([{'name':n,'enabled':True} for n in names]))
+   with patch.object(epg,'load_sources',return_value=(feeds,metadata)):r=epg.build(catalog,out)
+   chosen={c['channel']:c for c in r['channels']}
+   self.assertEqual(set(chosen),{'NHK World Japan','Crunchyroll'})
+   self.assertEqual(chosen['NHK World Japan']['source'],'PH2')
+   self.assertEqual(chosen['Crunchyroll']['source'],'PH_EPG')
+   self.assertEqual(r['total_overlaps'],0)
+
 if __name__=='__main__':unittest.main()
