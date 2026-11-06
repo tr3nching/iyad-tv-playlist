@@ -1,5 +1,5 @@
 import { createDecipheriv } from 'node:crypto';
-import { mkdir, writeFile, rename } from 'node:fs/promises';
+import { mkdir, readFile, writeFile, rename } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
 
@@ -82,14 +82,23 @@ async function resolveChannel(channel, key) {
 async function main() {
   const { key } = await request('/key');
   if (typeof key !== 'string' || !key.length) throw new Error('Missing catalog key');
-  const encrypted = await request('/data');
-  const catalog = decrypt(encrypted.data, key);
+  let catalog;
+  let catalogSource = 'live';
+  try {
+    const encrypted = await request('/data');
+    catalog = decrypt(encrypted.data, key);
+  } catch (error) {
+    console.warn(`Catalog unavailable (${error.message}); trying saved channel names with fresh playback requests`);
+    catalog = JSON.parse(await readFile(new URL('../catalog.json', import.meta.url), 'utf8'));
+    catalogSource = 'saved';
+  }
   if (!Array.isArray(catalog)) throw new Error('Invalid catalog');
   const channels = catalog.filter(channel => channel.enabled !== false && typeof channel.name === 'string');
   if (channels.length < 10) throw new Error('Unexpectedly small catalog; keeping previous deployment');
-  const rows = [];
+  // Fail promptly if playback itself is down, rather than retrying the whole catalog.
+  const rows = [await resolveChannel(channels[0], key)];
   const failed = [];
-  let cursor = 0;
+  let cursor = 1;
   await Promise.all(Array.from({ length: 4 }, async () => {
     while (cursor < channels.length) {
       const channel = channels[cursor++];
@@ -115,6 +124,7 @@ async function main() {
     updatedAt: new Date().toISOString(),
     channelCount: rows.length,
     catalogCount: channels.length,
+    catalogSource,
     failedChannels: failed,
     note: 'Stream URLs were resolved, not playback-tested. Some channels require the original player or DRM.',
   }, null, 2) + '\n');

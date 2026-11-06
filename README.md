@@ -10,7 +10,7 @@ GitHub Actions retrieves the enabled channel catalog and resolves each channel's
 
 The schedule runs every 30 minutes at minutes 17 and 47 (UTC). GitHub may delay scheduled jobs. The source's tokens can expire before the next update; this interval is provisional, not a guarantee of uninterrupted playback. Some channels require DRM, browser headers, or the original player and will not play in TiviMate. Successful URL extraction does not verify video playback.
 
-If the catalog fails or fewer than 90% of enabled channels resolve, publishing stops and the previous deployment remains available. It may still contain expired links. Check **Actions** for failures and **status.json** on the published site for the last successful update.
+If the live catalog fails, the updater uses saved channel names from `catalog.json` and still requests fresh playback URLs. New or removed channels will only be picked up when the live catalog works again. If playback requests fail or fewer than 90% of enabled channels resolve, publishing stops and the previous deployment remains available. It may still contain expired links. Check **Actions** for failures and **status.json** on the published site for the last successful update and whether the live or saved catalog was used.
 
 GitHub disables scheduled workflows in public repositories after 60 days without repository activity. If that happens, re-enable the workflow in Actions. The workflow can also be run manually through **Actions → Refresh and publish playlist → Run workflow**.
 

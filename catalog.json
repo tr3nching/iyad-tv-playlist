@@ -1,0 +1,1232 @@
+[
+  {
+    "name": "3RSTV",
+    "logo": "https://iyadtv.pages.dev/images/3rstv.svg",
+    "enabled": true
+  },
+  {
+    "name": "TV5",
+    "logo": "https://iyadtv.pages.dev/images/tv5.svg",
+    "enabled": true
+  },
+  {
+    "name": "A2Z",
+    "logo": "https://iyadtv.pages.dev/images/a2z_4.png",
+    "enabled": true
+  },
+  {
+    "name": "Abante Radyo",
+    "logo": "https://iyadtv.pages.dev/images/abante-radyo.svg",
+    "enabled": true
+  },
+  {
+    "name": "ABC Australia",
+    "logo": "https://iyadtv.pages.dev/images/abc_australia_6.png",
+    "enabled": true
+  },
+  {
+    "name": "Adventure Earth",
+    "logo": "https://iyadtv.pages.dev/images/adventure-earth.svg",
+    "enabled": true
+  },
+  {
+    "name": "ALIW23",
+    "logo": "https://iyadtv.pages.dev/images/aliw23_8.png",
+    "enabled": true
+  },
+  {
+    "name": "Al Jazeera",
+    "logo": "https://iyadtv.pages.dev/images/al_jazeera_10.png",
+    "enabled": true
+  },
+  {
+    "name": "Aliwko",
+    "logo": "https://iyadtv.pages.dev/images/aliwko.png",
+    "enabled": true
+  },
+  {
+    "name": "ALLTV2",
+    "logo": "https://iyadtv.pages.dev/images/alltv2_12.png",
+    "enabled": true
+  },
+  {
+    "name": "AMC+",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4a/AMC%2B_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+    "enabled": true
+  },
+  {
+    "name": "ANC",
+    "logo": "https://iyadtv.pages.dev/images/anc_26.png",
+    "enabled": true
+  },
+  {
+    "name": "Animax",
+    "logo": "https://iyadtv.pages.dev/images/animax.svg",
+    "enabled": true
+  },
+  {
+    "name": "Aniplus",
+    "logo": "https://iyadtv.pages.dev/images/aniplus.svg",
+    "enabled": true
+  },
+  {
+    "name": "Animal Planet",
+    "logo": "https://iyadtv.pages.dev/images/animal-planet.svg",
+    "enabled": true
+  },
+  {
+    "name": "amasian tv Anime 24/7",
+    "logo": "https://provider-static.plex.tv/epg/cms/production/aa882b26-2283-430c-8e7f-8468227ad362/anime247_logo_dark_-_Jason_Hwang.png",
+    "enabled": true
+  },
+  {
+    "name": "Anime All Day",
+    "logo": "https://iyadtv.pages.dev/images/anime_all_day_22.png",
+    "enabled": true
+  },
+  {
+    "name": "Filmrise Anime",
+    "logo": "https://images.plex.tv/photo?size=large-1920&scale=1&url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2Fcff7361f-e0ba-4aeb-9251-9530f4eb1d80%2FFilmRise_Anime_1500x1000_Light_Logo.png",
+    "enabled": true
+  },
+  {
+    "name": "Anime by Pluto",
+    "logo": "https://images.pluto.tv/channels/5812b7d3249444e05d09cc49/colorLogoPNG_1748797351518.png",
+    "enabled": true
+  },
+  {
+    "name": "Anime x Hidive",
+    "logo": "https://iyadtv.pages.dev/images/anime_x_hidive_25.png",
+    "enabled": true
+  },
+  {
+    "name": "Arirang",
+    "logo": "https://iyadtv.pages.dev/images/arirang.svg",
+    "enabled": true
+  },
+  {
+    "name": "Asian Crush",
+    "logo": "https://iyadtv.pages.dev/images/asian_crush_28.png",
+    "enabled": true
+  },
+  {
+    "name": "Asian Food Network",
+    "logo": "https://iyadtv.pages.dev/images/asian_food_network_29.png",
+    "enabled": true
+  },
+  {
+    "name": "AVL TV",
+    "logo": "https://cdn.iyad.space/avl.avif",
+    "enabled": true
+  },
+  {
+    "name": "AXN",
+    "logo": "https://iyadtv.pages.dev/images/axn_30.png",
+    "enabled": true
+  },
+  {
+    "name": "BBC CBeebies",
+    "logo": "https://iyadtv.pages.dev/images/cbeebies.png",
+    "enabled": true
+  },
+  {
+    "name": "PBB Collab 3.0",
+    "logo": "https://cdn.iyad.space/pbb3.0.png",
+    "enabled": true
+  },
+  {
+    "name": "BBC Earth",
+    "logo": "https://cms.bbcasia.com/sites/default/files/2023-09/BBC-Earth-YouTube-Stacked.png",
+    "enabled": true
+  },
+  {
+    "name": "BBC Lifestyle",
+    "logo": "https://iyadtv.pages.dev/images/bbc_lifestyle_35.png",
+    "enabled": true
+  },
+  {
+    "name": "BBC News",
+    "logo": "https://cdn.iyad.space/bbcnews.png",
+    "enabled": true
+  },
+  {
+    "name": "BeIn Sports",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/2016_beIN_Sports_logo.svg/langfr-330px-2016_beIN_Sports_logo.svg.png",
+    "enabled": true
+  },
+  {
+    "name": "Billiard TV",
+    "logo": "https://iyadtv.pages.dev/images/billiard_tv_37.png",
+    "enabled": true
+  },
+  {
+    "name": "Bilyonaryo",
+    "logo": "https://iyadtv.pages.dev/images/bilyonaryo_38.png",
+    "enabled": true
+  },
+  {
+    "name": "Blast Movies",
+    "logo": "https://iyadtv.pages.dev/images/blast_movies_39.png",
+    "enabled": true
+  },
+  {
+    "name": "Bloomberg",
+    "logo": "https://iyadtv.pages.dev/images/bloomberg_41.png",
+    "enabled": true
+  },
+  {
+    "name": "Boing",
+    "logo": "https://iyadtv.pages.dev/images/boing_42.png",
+    "enabled": true
+  },
+  {
+    "name": "BOOMERANG",
+    "logo": "https://iyadtv.pages.dev/images/boomerang_43.png",
+    "enabled": true
+  },
+  {
+    "name": "BS10 + more Converge Channels",
+    "logo": "https://cdn.iyad.space/bs10.png",
+    "enabled": true
+  },
+  {
+    "name": "Cartoonito",
+    "logo": "https://iyadtv.pages.dev/images/cartoonito_46.png",
+    "enabled": true
+  },
+  {
+    "name": "Cartoon Channel PH",
+    "logo": "https://iyadtv.pages.dev/images/cartoon_channel_ph_47.png",
+    "enabled": true
+  },
+  {
+    "name": "Cartoon Network",
+    "logo": "https://iyadtv.pages.dev/images/cartoon_network_48.png",
+    "enabled": true
+  },
+  {
+    "name": "CCTV4",
+    "logo": "https://iyadtv.pages.dev/images/cctv4_49.png",
+    "enabled": true
+  },
+  {
+    "name": "Celestial Classic Movies",
+    "logo": "https://iyadtv.pages.dev/images/celestial_classic_movies_51.png",
+    "enabled": true
+  },
+  {
+    "name": "Celestial Movies Pinoy",
+    "logo": "https://iyadtv.pages.dev/images/celestial_movies_pinoy_52.png",
+    "enabled": true
+  },
+  {
+    "name": "CGTN Documentary",
+    "logo": "https://iyadtv.pages.dev/images/cgtn_documentary_53.png",
+    "enabled": true
+  },
+  {
+    "name": "Channel News Asia",
+    "logo": "https://iyadtv.pages.dev/images/channel_news_asia_54.png",
+    "enabled": true
+  },
+  {
+    "name": "CinemaOne",
+    "logo": "https://iyadtv.pages.dev/images/cinemaone.svg",
+    "enabled": true
+  },
+  {
+    "name": "CineMo!",
+    "logo": "https://iyadtv.pages.dev/images/cinemo__57.png",
+    "enabled": true
+  },
+  {
+    "name": "Cinemax",
+    "logo": "https://iyadtv.pages.dev/images/cinemax_60.png",
+    "enabled": true
+  },
+  {
+    "name": "CLTV36",
+    "logo": "https://iyadtv.pages.dev/images/cltv36_61.png",
+    "enabled": true
+  },
+  {
+    "name": "CNBC",
+    "logo": "https://iyadtv.pages.dev/images/cnbc.png",
+    "enabled": true
+  },
+  {
+    "name": "CNN HD",
+    "logo": "https://iyadtv.pages.dev/images/cnn_63.png",
+    "enabled": true
+  },
+  {
+    "name": "Comedy Central",
+    "logo": "https://cdn.iyad.space/comcen.png",
+    "enabled": true
+  },
+  {
+    "name": "Concert Channel",
+    "logo": "https://images.pluto.tv/channels/6868152657543d1f8be4ece3/colorLogoPNG_1751652184592.png",
+    "enabled": true
+  },
+  {
+    "name": "CRIME INVESTIGATION",
+    "logo": "https://iyadtv.pages.dev/images/crime_investigation_65.png",
+    "enabled": true
+  },
+  {
+    "name": "Crunchyroll",
+    "logo": "https://iyadtv.pages.dev/images/crunchyroll_66.png",
+    "enabled": true
+  },
+  {
+    "name": "Curiosity Now",
+    "logo": "https://iyadtv.pages.dev/images/curiosity_now_69.png",
+    "enabled": true
+  },
+  {
+    "name": "Danger TV",
+    "logo": "https://cdn.iyad.space/dangertv.png",
+    "enabled": true
+  },
+  {
+    "name": "DepEd TV",
+    "logo": "https://iyadtv.pages.dev/images/deped_channel_70.png",
+    "enabled": true
+  },
+  {
+    "name": "DAZN",
+    "logo": "https://cdn.iyad.space/dazn.png",
+    "enabled": true
+  },
+  {
+    "name": "Discovery Asia",
+    "logo": "https://iyadtv.pages.dev/images/discovery_asia_71.png",
+    "enabled": true
+  },
+  {
+    "name": "Discovery Channel",
+    "logo": "https://iyadtv.pages.dev/images/discovery-channel.svg",
+    "enabled": true
+  },
+  {
+    "name": "Discovery Family",
+    "logo": "https://cdn.iyad.space/dfc.png",
+    "enabled": true
+  },
+  {
+    "name": "Discovery Science",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Discovery_Science_Canada_2011.PNG/250px-Discovery_Science_Canada_2011.PNG",
+    "enabled": true
+  },
+  {
+    "name": "Discovery Turbo",
+    "logo": "https://iyadtv.pages.dev/images/discovery_turbo_78.png",
+    "enabled": true
+  },
+  {
+    "name": "Disney Channel",
+    "logo": "https://iyadtv.pages.dev/images/disney_channel_79.png",
+    "enabled": true
+  },
+  {
+    "name": "DMAX",
+    "logo": "https://iyadtv.pages.dev/images/dmax_82.png",
+    "enabled": true
+  },
+  {
+    "name": "Dream TV PH",
+    "logo": "https://iyadtv.pages.dev/images/dream_tv_ph_84.png",
+    "enabled": true
+  },
+  {
+    "name": "Dreamworks HD",
+    "logo": "https://iyadtv.pages.dev/images/dreamworks_hd_85.png",
+    "enabled": true
+  },
+  {
+    "name": "DW News",
+    "logo": "https://cdn.iyad.space/images/dw-news.png",
+    "enabled": true
+  },
+  {
+    "name": "DZMM Teleradyo",
+    "logo": "https://iyadtv.pages.dev/images/dzmm_teleradyo_89.png",
+    "enabled": true
+  },
+  {
+    "name": "DZRH TV",
+    "logo": "https://iyadtv.pages.dev/images/dzrh-tv.svg",
+    "enabled": true
+  },
+  {
+    "name": "ESPN",
+    "logo": "https://iyadtv.pages.dev/images/espn.svg",
+    "enabled": true
+  },
+  {
+    "name": "EDGE SPORT",
+    "logo": "https://cdn.iyad.space/images/edge.png",
+    "enabled": true
+  },
+  {
+    "name": "Euro News.",
+    "logo": "https://i.ibb.co/mr4gLvgn/image-2026-06-08-132221236.png",
+    "enabled": true
+  },
+  {
+    "name": "Evolution Earth",
+    "logo": "https://cdn.iyad.space/images/evolution-earth.png",
+    "enabled": true
+  },
+  {
+    "name": "EWTN",
+    "logo": "https://play-lh.googleusercontent.com/3716tvZCgzpIt-X1giV8jKwCdC8zwOI4eMUfO_ETWzNX6eGKIi2RiUK9a_fr6BCzjw",
+    "enabled": true
+  },
+  {
+    "name": "FailArmy",
+    "logo": "https://iyadtv.pages.dev/images/failarmy_92.png",
+    "enabled": true
+  },
+  {
+    "name": "Fashion TV HD",
+    "logo": "https://iyadtv.pages.dev/images/fashion_tv_hd_93.png",
+    "enabled": true
+  },
+  {
+    "name": "Fight Network",
+    "logo": "https://iyadtv.pages.dev/images/fight_network_94.png",
+    "enabled": true
+  },
+  {
+    "name": "FITE 24/7",
+    "logo": "https://iyadtv.pages.dev/images/fite_24_7_99.png",
+    "enabled": true
+  },
+  {
+    "name": "Food Network HD",
+    "logo": "https://iyadtv.pages.dev/images/food_network_hd_100.png",
+    "enabled": true
+  },
+  {
+    "name": "FOX",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/48/FOX_wordmark-orange_2.svg",
+    "enabled": true
+  },
+  {
+    "name": "Fox Sports 1",
+    "logo": "https://static-media.fox.com/fmc/prod/network_assets/FS1_Color@3x.png",
+    "enabled": true
+  },
+  {
+    "name": "FRANCE 24",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png?_=20180409235622",
+    "enabled": true
+  },
+  {
+    "name": "Global Fashion Channel",
+    "logo": "https://iyadtv.pages.dev/images/global_fashion_channel_111.png",
+    "enabled": true
+  },
+  {
+    "name": "Global Trekker",
+    "logo": "https://iyadtv.pages.dev/images/global_trekker_112.png",
+    "enabled": true
+  },
+  {
+    "name": "GMA",
+    "logo": "https://iyadtv.pages.dev/images/gma_kapuso_105.png",
+    "enabled": true
+  },
+  {
+    "name": "GMA Life TV",
+    "logo": "https://iyadtv.pages.dev/images/gma_life_tv_108.png",
+    "enabled": true
+  },
+  {
+    "name": "GMA News TV",
+    "logo": "https://iyadtv.pages.dev/images/gma-news-tv.svg",
+    "enabled": true
+  },
+  {
+    "name": "GMA Pinoy TV",
+    "logo": "https://iyadtv.pages.dev/images/gma-pinoy-tv.svg",
+    "enabled": true
+  },
+  {
+    "name": "GNN",
+    "logo": "https://iyadtv.pages.dev/images/gnn.png",
+    "enabled": true
+  },
+  {
+    "name": "Golden TV",
+    "logo": "https://alpha.uscreencdn.com/396xnull/images/logotypes/36356/all-orange-logo-on-transparent-background.1694501197.png?auto=webp",
+    "enabled": true
+  },
+  {
+    "name": "GTV",
+    "logo": "https://iyadtv.pages.dev/images/gtv_114.png",
+    "enabled": true
+  },
+  {
+    "name": "hallypop",
+    "logo": "https://iyadtv.pages.dev/images/hallypop_116.png",
+    "enabled": true
+  },
+  {
+    "name": "Hallmark",
+    "logo": "https://cdn.iyad.space/hallmark.png",
+    "enabled": true
+  },
+  {
+    "name": "HBO",
+    "logo": "https://iyadtv.pages.dev/images/hbo_117.png",
+    "enabled": true
+  },
+  {
+    "name": "HBO Boxing",
+    "logo": "https://iyadtv.pages.dev/images/hbo_boxing_119.png",
+    "enabled": true
+  },
+  {
+    "name": "HBO Comedy",
+    "logo": "https://iyadtv.pages.dev/images/hbo_comedy_120.png",
+    "enabled": true
+  },
+  {
+    "name": "HBO Family",
+    "logo": "https://iyadtv.pages.dev/images/hbo_family_121.png",
+    "enabled": true
+  },
+  {
+    "name": "HBO Mundi",
+    "logo": "https://cdn.iyad.space/images/hbo-mundi.png",
+    "enabled": true
+  },
+  {
+    "name": "HBO Signature",
+    "logo": "https://iyadtv.pages.dev/images/hbo_signature_123.png",
+    "enabled": true
+  },
+  {
+    "name": "HBO PLUS",
+    "logo": "https://iyadtv.pages.dev/images/hbo_plus_125.png",
+    "enabled": true
+  },
+  {
+    "name": "HBO POP",
+    "logo": "https://iyadtv.pages.dev/images/hbo_pop_126.png",
+    "enabled": true
+  },
+  {
+    "name": "HBO Xtreme",
+    "logo": "https://iyadtv.pages.dev/images/hbo_xtreme_127.png",
+    "enabled": true
+  },
+  {
+    "name": "HBO Zone",
+    "logo": "https://iyadtv.pages.dev/images/hbo_zone_128.png",
+    "enabled": true
+  },
+  {
+    "name": "HGTV HD",
+    "logo": "https://iyadtv.pages.dev/images/hgtv_hd_130.png",
+    "enabled": true
+  },
+  {
+    "name": "History HD",
+    "logo": "https://iyadtv.pages.dev/images/history_hd_132.png",
+    "enabled": true
+  },
+  {
+    "name": "Hits HD",
+    "logo": "https://iyadtv.pages.dev/images/hits_hd_133.png",
+    "enabled": true
+  },
+  {
+    "name": "Hits Movies",
+    "logo": "https://iyadtv.pages.dev/images/hits_movies_134.png",
+    "enabled": true
+  },
+  {
+    "name": "Hits Now",
+    "logo": "https://iyadtv.pages.dev/images/hits_now_135.png",
+    "enabled": true
+  },
+  {
+    "name": "HIYAH!",
+    "logo": "https://iyadtv.pages.dev/images/hiyah__136.png",
+    "enabled": true
+  },
+  {
+    "name": "Hope Channel PH",
+    "logo": "https://iyadtv.pages.dev/images/hope_tv_137.png",
+    "enabled": true
+  },
+  {
+    "name": "HypeTV",
+    "logo": "https://iyadtv.pages.dev/images/hypetv1.png",
+    "enabled": true
+  },
+  {
+    "name": "IBC13",
+    "logo": "https://iyadtv.pages.dev/images/ibc13_138.png",
+    "enabled": true
+  },
+  {
+    "name": "INCTV",
+    "logo": "https://iyadtv.pages.dev/images/inctv_141.png",
+    "enabled": true
+  },
+  {
+    "name": "InWonder",
+    "logo": "https://iyadtv.pages.dev/images/inwonder.png",
+    "enabled": true
+  },
+  {
+    "name": "ION",
+    "logo": "https://iyadtv.pages.dev/images/ion.svg",
+    "enabled": true
+  },
+  {
+    "name": "Jeepney TV",
+    "logo": "https://iyadtv.pages.dev/images/jeepney_tv_142.png",
+    "enabled": true
+  },
+  {
+    "name": "Just for Laughs Gags",
+    "logo": "https://iyadtv.pages.dev/images/just_for_laughs_gags_144.png",
+    "enabled": true
+  },
+  {
+    "name": "Kapamilya Channel",
+    "logo": "https://iyadtv.pages.dev/images/kapamilya_channel_146.png",
+    "enabled": true
+  },
+  {
+    "name": "Kapamilya Channel HD",
+    "logo": "https://iyadtv.pages.dev/images/kapamilya_channel_hd.png",
+    "enabled": true
+  },
+  {
+    "name": "Kartoon Channel",
+    "logo": "https://iyadtv.pages.dev/images/kartoon_channel_148.png",
+    "enabled": true
+  },
+  {
+    "name": "KBS World",
+    "logo": "https://iyadtv.pages.dev/images/kbs_world_149.png",
+    "enabled": true
+  },
+  {
+    "name": "Kidsflix",
+    "logo": "https://iyadtv.pages.dev/images/kidsflix_152.png",
+    "enabled": true
+  },
+  {
+    "name": "Kids TV",
+    "logo": "https://cdn.iyad.space/kids-tv.avif",
+    "enabled": true
+  },
+  {
+    "name": "Kix HD",
+    "logo": "https://iyadtv.pages.dev/images/kix_hd_154.png",
+    "enabled": true
+  },
+  {
+    "name": "Knowledge Channel",
+    "logo": "https://iyadtv.pages.dev/images/knowledge_channel_156.png",
+    "enabled": true
+  },
+  {
+    "name": "Kpop TV Play",
+    "logo": "https://iyadtv.pages.dev/images/kpop_tv_play_157.png",
+    "enabled": true
+  },
+  {
+    "name": "KroneHit TV",
+    "logo": "https://cdn.iyad.space/images/kronehit.png",
+    "enabled": true
+  },
+  {
+    "name": "Lifetime",
+    "logo": "https://iyadtv.pages.dev/images/lifetime_159.png",
+    "enabled": true
+  },
+  {
+    "name": "Light TV",
+    "logo": "https://iyadtv.pages.dev/images/light_tv_160.png",
+    "enabled": true
+  },
+  {
+    "name": "Lotus Macau",
+    "logo": "https://iyadtv.pages.dev/images/lotus_macau_162.png",
+    "enabled": true
+  },
+  {
+    "name": "MMA-TV",
+    "logo": "https://iyadtv.pages.dev/images/mma_tv_97.png",
+    "enabled": true
+  },
+  {
+    "name": "Mindanow Network",
+    "logo": "https://iyadtv.pages.dev/images/mindanow_network_165.png",
+    "enabled": true
+  },
+  {
+    "name": "Metro Channel",
+    "logo": "https://iyadtv.pages.dev/images/metro_channel_166.png",
+    "enabled": true
+  },
+  {
+    "name": "MIRAMAX",
+    "logo": "https://iyadtv.pages.dev/images/miramax.png",
+    "enabled": true
+  },
+  {
+    "name": "MLB Network",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/MLBNetworkLogo.svg/500px-MLBNetworkLogo.svg.png",
+    "enabled": true
+  },
+  {
+    "name": "MNX HD",
+    "logo": "https://iyadtv.pages.dev/images/mnx-hd.svg",
+    "enabled": true
+  },
+  {
+    "name": "Moonbug Kids",
+    "logo": "https://iyadtv.pages.dev/images/moonbug_kids_169.png",
+    "enabled": true
+  },
+  {
+    "name": "MOR Entertainment",
+    "logo": "https://iyadtv.pages.dev/images/mor_entertainment_170.png",
+    "enabled": true
+  },
+  {
+    "name": "MotoGP Channel",
+    "logo": "https://provider-static.plex.tv/epg/cms/production/d5b19340-b4d9-498d-8f89-2a69bc30fc4b/MotoGPChannel_1500x1000_logo_for_dark_bgd_-_Eddie_Hunter-Higgins.png",
+    "enabled": true
+  },
+  {
+    "name": "MovieBoxPH",
+    "logo": "https://iyadtv.pages.dev/images/movieboxph_171.png",
+    "enabled": true
+  },
+  {
+    "name": "Halloween Nights",
+    "logo": "https://cdn.iyad.space/halloween-nights.png",
+    "enabled": true
+  },
+  {
+    "name": "Movies Now",
+    "logo": "https://iyadtv.pages.dev/images/movies-now.svg",
+    "enabled": true
+  },
+  {
+    "name": "Movie Sphere",
+    "logo": "https://iyadtv.pages.dev/images/movie-sphere2.png",
+    "enabled": true
+  },
+  {
+    "name": "Mr. Bean",
+    "logo": "https://occ-0-2218-2219.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABbRwik6Z4qzsGK35BQwWH4OnDlHaAWQpMKO7yY1djYpGJrL6MvHF1ewYxmphLAmzAa4fN1EU_OJ6r5dO3MlNHS1c5LocnS8dLsA.png",
+    "enabled": true
+  },
+  {
+    "name": "Mr Beast",
+    "logo": "https://cdn.iyad.space/images/mrbeast.png",
+    "enabled": true
+  },
+  {
+    "name": "Media Pilipinas TV",
+    "logo": "https://iyadtv.pages.dev/images/media_pilipinas_tv_173.png",
+    "enabled": true
+  },
+  {
+    "name": "MTV",
+    "logo": "https://iyadtv.pages.dev/images/mtv_174.png",
+    "enabled": true
+  },
+  {
+    "name": "MUX DOS",
+    "logo": "https://cdn.iyad.space/images/mux-dos.png",
+    "enabled": true
+  },
+  {
+    "name": "Mythbusters",
+    "logo": "https://iyadtv.pages.dev/images/mythbusters_178.png",
+    "enabled": true
+  },
+  {
+    "name": "Mysterious Worlds",
+    "logo": "https://image.xumo.com/v1/channels/channel/99951398/168x168.png?type=color_onBlack",
+    "enabled": true
+  },
+  {
+    "name": "MYX",
+    "logo": "https://iyadtv.pages.dev/images/myx_179.png",
+    "enabled": true
+  },
+  {
+    "name": "National Geographic",
+    "logo": "https://iyadtv.pages.dev/images/national_geographic_181.png",
+    "enabled": true
+  },
+  {
+    "name": "NBA TV",
+    "logo": "https://iyadtv.pages.dev/images/nba_tv_184.png",
+    "enabled": true
+  },
+  {
+    "name": "NBA TV Philippines",
+    "logo": "https://iyadtv.pages.dev/images/nba_tv_philippines_185.png",
+    "enabled": true
+  },
+  {
+    "name": "NCAA NXT",
+    "logo": "https://cdn.iyad.space/ncaa-nxt.png",
+    "enabled": true
+  },
+  {
+    "name": "New KMovies",
+    "logo": "https://iyadtv.pages.dev/images/k_movies_155.png",
+    "enabled": true
+  },
+  {
+    "name": "Net25",
+    "logo": "https://iyadtv.pages.dev/images/net25_186.png",
+    "enabled": true
+  },
+  {
+    "name": "NHK World Japan",
+    "logo": "https://iyadtv.pages.dev/images/nhk_world_japan_188.png",
+    "enabled": true
+  },
+  {
+    "name": "Nickjr",
+    "logo": "https://iyadtv.pages.dev/images/nickjr_189.png",
+    "enabled": true
+  },
+  {
+    "name": "Nickelodeon",
+    "logo": "https://iyadtv.pages.dev/images/nickelodeon_hd_191.png",
+    "enabled": true
+  },
+  {
+    "name": "One News HD",
+    "logo": "https://iyadtv.pages.dev/images/one-news.svg",
+    "enabled": true
+  },
+  {
+    "name": "One PH",
+    "logo": "https://iyadtv.pages.dev/images/one-ph.svg",
+    "enabled": true
+  },
+  {
+    "name": "One Sports",
+    "logo": "https://iyadtv.pages.dev/images/one-sports.svg",
+    "enabled": true
+  },
+  {
+    "name": "Outdoor Channel",
+    "logo": "https://iyadtv.pages.dev/images/outdoor_channel_200.png",
+    "enabled": true
+  },
+  {
+    "name": "Oras ng Himala",
+    "logo": "https://iyadtv.pages.dev/images/oras_ng_himala_202.png",
+    "enabled": true
+  },
+  {
+    "name": "Paramount Movie Channel",
+    "logo": "https://iyadtv.pages.dev/images/paramount_movie_channel_203.png",
+    "enabled": true
+  },
+  {
+    "name": "PBA Rush",
+    "logo": "https://iyadtv.pages.dev/images/pba_rush_205.png",
+    "enabled": true
+  },
+  {
+    "name": "PBS Digital Studios",
+    "logo": "https://iyadtv.pages.dev/images/pbs.png",
+    "enabled": true
+  },
+  {
+    "name": "People Are Awesome",
+    "logo": "https://iyadtv.pages.dev/images/people_are_awesome_208.png",
+    "enabled": true
+  },
+  {
+    "name": "Pilipinas Live",
+    "logo": "https://iyadtv.pages.dev/images/pilipinas_live_209.png",
+    "enabled": true
+  },
+  {
+    "name": "Pinoy Box Office",
+    "logo": "https://iyadtv.pages.dev/images/pinoy_box_office_210.png",
+    "enabled": true
+  },
+  {
+    "name": "Pinoy Xtreme",
+    "logo": "https://iyadtv.pages.dev/images/pinoy_xtreme_211.png",
+    "enabled": true
+  },
+  {
+    "name": "Premier Sports",
+    "logo": "https://cdn.iyad.space/images/premier-sports.png",
+    "enabled": true
+  },
+  {
+    "name": "Peoples Television",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/10/People%27s_Televsion_Network_Incorporated_%28PTV%29.svg",
+    "enabled": true
+  },
+  {
+    "name": "Popular Science",
+    "logo": "https://media.unreel.me/prod/freelivesports/logo/fd143394-5285-40a8-adca-a50243e58288",
+    "enabled": true
+  },
+  {
+    "name": "Radyo Bandido",
+    "logo": "https://iyadtv.pages.dev/images/radyo_bandido_215.png",
+    "enabled": true
+  },
+  {
+    "name": "Real Disaster Channel",
+    "logo": "https://iyadtv.pages.dev/images/real_disaster_channel_216.png",
+    "enabled": true
+  },
+  {
+    "name": "Real Wild",
+    "logo": "https://iyadtv.pages.dev/images/real_wild_217.png",
+    "enabled": true
+  },
+  {
+    "name": "Retro Crush",
+    "logo": "https://iyadtv.pages.dev/images/retro_crush_218.png",
+    "enabled": true
+  },
+  {
+    "name": "RedBull TV",
+    "logo": "https://img.redbull.com/images/w_450/q_auto,f_auto/redbullcom/2021/3/8/v1viztxjab9e9a6of4by/redbulltv",
+    "enabled": true
+  },
+  {
+    "name": "RJ Digitv",
+    "logo": "https://iyadtv.pages.dev/images/rj_digitv_222.png",
+    "enabled": true
+  },
+  {
+    "name": "Rock Action",
+    "logo": "https://iyadtv.pages.dev/images/rock-action.avif",
+    "enabled": true
+  },
+  {
+    "name": "Rock MNL",
+    "logo": "https://iyadtv.pages.dev/images/rock_of_manila_tv_223.png",
+    "enabled": true
+  },
+  {
+    "name": "RPTV",
+    "logo": "https://iyadtv.pages.dev/images/rptv_226.png",
+    "enabled": true
+  },
+  {
+    "name": "SBS K-Drama",
+    "logo": "https://iyadtv.pages.dev/images/sbs-kdrama.png",
+    "enabled": true
+  },
+  {
+    "name": "SineManila",
+    "logo": "https://iyadtv.pages.dev/images/sinemanila_231.png",
+    "enabled": true
+  },
+  {
+    "name": "Sky Sports F1",
+    "logo": "https://cdn.iyad.space/images/sp-f1.png",
+    "enabled": true
+  },
+  {
+    "name": "Smithsonian Channel",
+    "logo": "https://blueantmedia.com/wp-content/uploads/2020/04/Smithsonian-Transparent.png",
+    "enabled": true
+  },
+  {
+    "name": "SMNI News Channel",
+    "logo": "https://iyadtv.pages.dev/images/smni_news_channel_233.png",
+    "enabled": true
+  },
+  {
+    "name": "SOLARFLIX",
+    "logo": "https://iyadtv.pages.dev/images/solarflix_234.png",
+    "enabled": true
+  },
+  {
+    "name": "SOLARSPORTS",
+    "logo": "https://iyadtv.pages.dev/images/solarsports_235.png",
+    "enabled": true
+  },
+  {
+    "name": "Sony Movies",
+    "logo": "https://iyadtv.pages.dev/images/sony-movies.png",
+    "enabled": true
+  },
+  {
+    "name": "Sony Pix",
+    "logo": "https://cdn.iyad.space/sony-pix.webp",
+    "enabled": true
+  },
+  {
+    "name": "Sony One Action Hits",
+    "logo": "https://moobee.click/images/s1-ah.png",
+    "enabled": true
+  },
+  {
+    "name": "Spotlight TV",
+    "logo": "https://cdn.iyad.space/spotlight.png",
+    "enabled": true
+  },
+  {
+    "name": "SPOTV",
+    "logo": "https://iyadtv.pages.dev/images/spotv_238.png",
+    "enabled": true
+  },
+  {
+    "name": "STAR Movies HD",
+    "logo": "https://iyadtv.pages.dev/images/star-movies.png",
+    "enabled": true
+  },
+  {
+    "name": "STAR Movies Select HD",
+    "logo": "https://dtil.tmsimg.com/assets/s143830_ld_h15_aa.png",
+    "enabled": true
+  },
+  {
+    "name": "Star TV Philippines",
+    "logo": "https://iyadtv.pages.dev/images/star_tv_philippines_242.png",
+    "enabled": true
+  },
+  {
+    "name": "STBS Global",
+    "logo": "https://iyadtv.pages.dev/images/stbs_global_246.png",
+    "enabled": true
+  },
+  {
+    "name": "SYFY",
+    "logo": "https://iyadtv.pages.dev/images/syfy.png",
+    "enabled": true
+  },
+  {
+    "name": "STARZ",
+    "logo": "https://iyadtv.pages.dev/images/starz_243.png",
+    "enabled": true
+  },
+  {
+    "name": "Studio Universal",
+    "logo": "https://cdn.iyad.space/su.png",
+    "enabled": true
+  },
+  {
+    "name": "Tagalized Movie Channel",
+    "logo": "https://iyadtv.pages.dev/images/tagalized_movie_channel_248.png",
+    "enabled": true
+  },
+  {
+    "name": "Taiwan Plus",
+    "logo": "https://play-lh.googleusercontent.com/Mz76EjIyT6tF0Q7PggP_xs41XPbTSUSEcwmZL4TG04JYGQITNiyVlvprLsv0inC2rPHeQxrh5-MgNswGmruYXII",
+    "enabled": true
+  },
+  {
+    "name": "Tap Action Flix",
+    "logo": "https://cdn.iyad.space/images/tap-action.png",
+    "enabled": true
+  },
+  {
+    "name": "TAP Edge",
+    "logo": "https://iyadtv.pages.dev/images/tap_edge_249.png",
+    "enabled": true
+  },
+  {
+    "name": "Tap Movies",
+    "logo": "https://iyadtv.pages.dev/images/tap_movies_251.png",
+    "enabled": true
+  },
+  {
+    "name": "TapSILOG",
+    "logo": "https://iyadtv.pages.dev/images/tapsilog.png",
+    "enabled": true
+  },
+  {
+    "name": "TAP Sports",
+    "logo": "https://iyadtv.pages.dev/images/tap_sports_250.png",
+    "enabled": true
+  },
+  {
+    "name": "TAP TV",
+    "logo": "https://iyadtv.pages.dev/images/tap_tv_252.png",
+    "enabled": true
+  },
+  {
+    "name": "Tastemade",
+    "logo": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/tastemade/Logo_WordmarkLogo_800x200px.png",
+    "enabled": true
+  },
+  {
+    "name": "TBN Asia",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROUq3rHesTr_yxL-GKma2lARcMxdnO30hTgwXs6YrkGQ&s",
+    "enabled": true
+  },
+  {
+    "name": "TFC Asia",
+    "logo": "https://iyadtv.pages.dev/images/tfc_asia_254.png",
+    "enabled": true
+  },
+  {
+    "name": "Tennis Channel",
+    "logo": "https://iyadtv.pages.dev/images/tennis-channel.png",
+    "enabled": true
+  },
+  {
+    "name": "The Manila Times",
+    "logo": "https://iyadtv.pages.dev/images/the_manila_times_256.png",
+    "enabled": true
+  },
+  {
+    "name": "Thrill",
+    "logo": "https://iyadtv.pages.dev/images/thrill_257.png",
+    "enabled": true
+  },
+  {
+    "name": "TLC",
+    "logo": "https://iyadtv.pages.dev/images/tlc_hd_258.png",
+    "enabled": true
+  },
+  {
+    "name": "TNA Wrestling",
+    "logo": "https://iyadtv.pages.dev/images/tna_wrestling_259.png",
+    "enabled": true
+  },
+  {
+    "name": "TNT Sports 1",
+    "logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-1-uk.png?raw=true",
+    "enabled": true
+  },
+  {
+    "name": "Tom and Jerry",
+    "logo": "https://iyadtv.pages.dev/images/tom_and_jerry_260.png",
+    "enabled": true
+  },
+  {
+    "name": "Top Rank Classics",
+    "logo": "https://iyadtv.pages.dev/images/tr.png",
+    "enabled": true
+  },
+  {
+    "name": "Trace Urban",
+    "logo": "https://iyadtv.pages.dev/images/trace-urban.png",
+    "enabled": true
+  },
+  {
+    "name": "Travel Channel",
+    "logo": "https://iyadtv.pages.dev/images/travel_channel_263.png",
+    "enabled": true
+  },
+  {
+    "name": "TSN",
+    "logo": "https://www.sportspro.com/wp-content/uploads/2023/03/TSN-1.png",
+    "enabled": true
+  },
+  {
+    "name": "TV Maria",
+    "logo": "https://iyadtv.pages.dev/images/tv_maria_266.png",
+    "enabled": true
+  },
+  {
+    "name": "TVN Movies",
+    "logo": "https://iyadtv.pages.dev/images/tvn_movies_267.png",
+    "enabled": true
+  },
+  {
+    "name": "TVN",
+    "logo": "https://s3.amazonaws.com/ivacy-website-images/wp-content/uploads/2020/01/19140041/1200px-Logo_tvN.svg_-1024x406.png",
+    "enabled": true
+  },
+  {
+    "name": "TV5 Monde",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Logo_TV5_Monde_-_2021.svg/960px-Logo_TV5_Monde_-_2021.svg.png",
+    "enabled": true
+  },
+  {
+    "name": "UAAP Varsity",
+    "logo": "https://iyadtv.pages.dev/images/uaap_varsity_270.png",
+    "enabled": true
+  },
+  {
+    "name": "UFC",
+    "logo": "https://iyadtv.pages.dev/images/ufc_tv_271.png",
+    "enabled": true
+  },
+  {
+    "name": "UNTV",
+    "logo": "https://iyadtv.pages.dev/images/untv_news_and_rescue_274.png",
+    "enabled": true
+  },
+  {
+    "name": "USA Today",
+    "logo": "https://cdn.iyad.space/images/usa-today.png",
+    "enabled": true
+  },
+  {
+    "name": "VEVO",
+    "logo": "https://iyadtv.pages.dev/images/vevopop.png",
+    "enabled": true
+  },
+  {
+    "name": "VIVA Cinema",
+    "logo": "https://iyadtv.pages.dev/images/viva.svg",
+    "enabled": true
+  },
+  {
+    "name": "Warner TV ",
+    "logo": "https://iyadtv.pages.dev/images/warner_tv__279.png",
+    "enabled": true
+  },
+  {
+    "name": "Wild Planet",
+    "logo": "https://iyadtv.pages.dev/images/wild_planet_280.png",
+    "enabled": true
+  },
+  {
+    "name": "World Poker Tour",
+    "logo": "https://i.imgur.com/98kLMjj.png",
+    "enabled": true
+  },
+  {
+    "name": "WWE",
+    "logo": "https://iyadtv.pages.dev/images/wwe_261.png",
+    "enabled": true
+  },
+  {
+    "name": "XFC TV",
+    "logo": "https://iyadtv.pages.dev/images/xfc_tv_282.png",
+    "enabled": true
+  },
+  {
+    "name": "Xite Hits",
+    "logo": "https://play-lh.googleusercontent.com/hOlEHI5p3RQBJUUtjwmoNl_7JaaANei1iO2T6RegISDN37buk_uF033sc5QkwuHerMqs",
+    "enabled": true
+  },
+  {
+    "name": "Yes Network",
+    "logo": "https://everpass.com/wp-content/uploads/2026/03/Yes_Logo.png",
+    "enabled": true
+  },
+  {
+    "name": "Z One",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png",
+    "enabled": true
+  }
+]
