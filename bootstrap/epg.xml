@@ -419,17 +419,492 @@
     <title lang="en">ABC News Mornings</title>
     <desc lang="en">Stay in the know with what's happening this morning. ABC News brings you up-to-the-minute news to fuel your daily conversations so you can stay connected and follow the discussion across the day. Presented by Gemma Veness.</desc>
   </programme>
+  <channel id="Al Jazeera">
+    <display-name>Al Jazeera</display-name>
+  </channel>
+  <programme start="20261105160000 +0000" stop="20261105170000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261105170000 +0000" stop="20261105180000 +0000" channel="Al Jazeera">
+    <title lang="en">Witness</title>
+    <desc lang="en">Two young horse herders revive Mongolia's most dangerous winter ritual in a last-ditch attempt to save their community's ancient way of life.</desc>
+  </programme>
+  <programme start="20261105180000 +0000" stop="20261105190000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261105190000 +0000" stop="20261105193000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261105193000 +0000" stop="20261105200000 +0000" channel="Al Jazeera">
+    <title lang="en">Fault Lines</title>
+    <desc lang="en">Fault Lines investigates evidence of torture, starvation and sexual abuse of Palestinians inside Israeli prisons.</desc>
+  </programme>
+  <programme start="20261105200000 +0000" stop="20261105203000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261105203000 +0000" stop="20261105210000 +0000" channel="Al Jazeera">
+    <title lang="en">The Population Bust</title>
+    <desc lang="en">Japan's population is ageing and plummeting what is the impact are the consequences of a world where age outpaces birth.</desc>
+  </programme>
+  <programme start="20261105210000 +0000" stop="20261105213000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261105213000 +0000" stop="20261105220000 +0000" channel="Al Jazeera">
+    <title lang="en">Inside Story</title>
+    <desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
+  </programme>
+  <programme start="20261105220000 +0000" stop="20261105223000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261105223000 +0000" stop="20261105230000 +0000" channel="Al Jazeera">
+    <title lang="en">Witness</title>
+    <desc lang="en">A young Indonesian Indigenous leader makes bold plans to protect her village from Borneo's wildfires.</desc>
+  </programme>
+  <programme start="20261105230000 +0000" stop="20261106000000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261106000000 +0000" stop="20261106003000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261106003000 +0000" stop="20261106010000 +0000" channel="Al Jazeera">
+    <title lang="en">Al Jazeera Reels</title>
+    <desc lang="en">Seven stories explore Lebanon's contradictions — from banks and identity to sectarian power, diaspora, war and the compromises holding it together.</desc>
+  </programme>
+  <programme start="20261106010000 +0000" stop="20261106013000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261106013000 +0000" stop="20261106020000 +0000" channel="Al Jazeera">
+    <title lang="en">101 East</title>
+    <desc lang="en">101 East reports on the people and events shaping the Asia Pacific region.                  .</desc>
+  </programme>
+  <programme start="20261106020000 +0000" stop="20261106030000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261106030000 +0000" stop="20261106033000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261106033000 +0000" stop="20261106040000 +0000" channel="Al Jazeera">
+    <title lang="en">Inside Story</title>
+    <desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
+  </programme>
+  <programme start="20261106040000 +0000" stop="20261106050000 +0000" channel="Al Jazeera">
+    <title lang="en">Who Killed Shireen?</title>
+    <desc lang="en">Zeteo is proud to present an original documentary investigating who killed acclaimed journalist Shireen Abu Akleh in 2022, the first Palestinian-American journalist to be shot dead by Israeli forces in the Occupied West Bank.</desc>
+  </programme>
+  <programme start="20261106050000 +0000" stop="20261106060000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261106060000 +0000" stop="20261106063000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261106063000 +0000" stop="20261106070000 +0000" channel="Al Jazeera">
+    <title lang="en">Fault Lines</title>
+    <desc lang="en">Fault Lines investigates evidence of torture, starvation and sexual abuse of Palestinians inside Israeli prisons.</desc>
+  </programme>
+  <programme start="20261106070000 +0000" stop="20261106080000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261106080000 +0000" stop="20261106090000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261106090000 +0000" stop="20261106093000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261106093000 +0000" stop="20261106100000 +0000" channel="Al Jazeera">
+    <title lang="en">Inside Story</title>
+    <desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
+  </programme>
+  <programme start="20261106100000 +0000" stop="20261106110000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261106110000 +0000" stop="20261106120000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261106120000 +0000" stop="20261106130000 +0000" channel="Al Jazeera">
+    <title lang="en">Al Jazeera World</title>
+    <desc lang="en">Thriving trading nation or a land without a people? This 20th century history uses sources and testimonies to show the other side of the Palestinian story.</desc>
+  </programme>
+  <programme start="20261106130000 +0000" stop="20261106140000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261106140000 +0000" stop="20261106143000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261106143000 +0000" stop="20261106150000 +0000" channel="Al Jazeera">
+    <title lang="en">UpFront</title>
+    <desc lang="en">Frank, blunt and UpFront, Marc Lamont Hill cuts through the headlines to get to the heart of the matter with influential guests and newsmakers.</desc>
+  </programme>
+  <programme start="20261106150000 +0000" stop="20261106153000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261106153000 +0000" stop="20261106160000 +0000" channel="Al Jazeera">
+    <title lang="en">Inside Story</title>
+    <desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
+  </programme>
+  <programme start="20261106160000 +0000" stop="20261106170000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261106170000 +0000" stop="20261106180000 +0000" channel="Al Jazeera">
+    <title lang="en">Who Killed Shireen?</title>
+    <desc lang="en">Zeteo is proud to present an original documentary investigating who killed acclaimed journalist Shireen Abu Akleh in 2022, the first Palestinian-American journalist to be shot dead by Israeli forces in the Occupied West Bank.</desc>
+  </programme>
+  <programme start="20261106180000 +0000" stop="20261106190000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261106190000 +0000" stop="20261106193000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261106193000 +0000" stop="20261106200000 +0000" channel="Al Jazeera">
+    <title lang="en">101 East</title>
+    <desc lang="en">101 East reports on the people and events shaping the Asia Pacific region.                  .</desc>
+  </programme>
+  <programme start="20261106200000 +0000" stop="20261106203000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261106203000 +0000" stop="20261106210000 +0000" channel="Al Jazeera">
+    <title lang="en">Witness</title>
+    <desc lang="en">A young Indonesian Indigenous leader makes bold plans to protect her village from Borneo's wildfires.</desc>
+  </programme>
+  <programme start="20261106210000 +0000" stop="20261106213000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261106213000 +0000" stop="20261106220000 +0000" channel="Al Jazeera">
+    <title lang="en">Inside Story</title>
+    <desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
+  </programme>
+  <programme start="20261106220000 +0000" stop="20261106223000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261106223000 +0000" stop="20261106230000 +0000" channel="Al Jazeera">
+    <title lang="en">Making Peace</title>
+    <desc lang="en">Amid a global polycrisis, new arrivals in New York face a fractured city where sanctuary feels increasingly out of reach.</desc>
+  </programme>
+  <programme start="20261106230000 +0000" stop="20261107000000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261107000000 +0000" stop="20261107003000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261107003000 +0000" stop="20261107010000 +0000" channel="Al Jazeera">
+    <title lang="en">Counting the Cost</title>
+    <desc lang="en">Counting the Cost provides background to the economics stories that shape our world and impact the lives of ordinary people.</desc>
+  </programme>
+  <programme start="20261107010000 +0000" stop="20261107013000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261107013000 +0000" stop="20261107020000 +0000" channel="Al Jazeera">
+    <title lang="en">UpFront</title>
+    <desc lang="en">Frank, blunt and UpFront, Marc Lamont Hill cuts through the headlines to get to the heart of the matter with influential guests and newsmakers.</desc>
+  </programme>
+  <programme start="20261107020000 +0000" stop="20261107030000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261107030000 +0000" stop="20261107033000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261107033000 +0000" stop="20261107040000 +0000" channel="Al Jazeera">
+    <title lang="en">Inside Story</title>
+    <desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
+  </programme>
+  <programme start="20261107040000 +0000" stop="20261107050000 +0000" channel="Al Jazeera">
+    <title lang="en">Al Jazeera World</title>
+    <desc lang="en">Thriving trading nation or a land without a people? This 20th century history uses sources and testimonies to show the other side of the Palestinian story.</desc>
+  </programme>
+  <programme start="20261107050000 +0000" stop="20261107060000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261107060000 +0000" stop="20261107063000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261107063000 +0000" stop="20261107070000 +0000" channel="Al Jazeera">
+    <title lang="en">101 East</title>
+    <desc lang="en">101 East reports on the people and events shaping the Asia Pacific region.                  .</desc>
+  </programme>
+  <programme start="20261107070000 +0000" stop="20261107080000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261107080000 +0000" stop="20261107083000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261107083000 +0000" stop="20261107090000 +0000" channel="Al Jazeera">
+    <title lang="en">Fault Lines</title>
+    <desc lang="en">Fault Lines investigates evidence of torture, starvation and sexual abuse of Palestinians inside Israeli prisons.</desc>
+  </programme>
+  <programme start="20261107090000 +0000" stop="20261107093000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261107093000 +0000" stop="20261107100000 +0000" channel="Al Jazeera">
+    <title lang="en">Inside Story</title>
+    <desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
+  </programme>
+  <programme start="20261107100000 +0000" stop="20261107110000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261107110000 +0000" stop="20261107113000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261107113000 +0000" stop="20261107120000 +0000" channel="Al Jazeera">
+    <title lang="en">The Listening Post</title>
+    <desc lang="en">What is being reported by world media and how? Richard Gizbert guides you through the global news maze.</desc>
+  </programme>
+  <programme start="20261107120000 +0000" stop="20261107130000 +0000" channel="Al Jazeera">
+    <title lang="en">Witness</title>
+    <desc lang="en">Two young horse herders revive Mongolia's most dangerous winter ritual in a last-ditch attempt to save their community's ancient way of life.</desc>
+  </programme>
+  <programme start="20261107130000 +0000" stop="20261107140000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261107140000 +0000" stop="20261107143000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261107143000 +0000" stop="20261107150000 +0000" channel="Al Jazeera">
+    <title lang="en">The Bottom Line</title>
+    <desc lang="en">Weekly discussion show on U.S. politics and policies hosted by Steve Clemons.</desc>
+  </programme>
+  <programme start="20261107150000 +0000" stop="20261107153000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261107153000 +0000" stop="20261107160000 +0000" channel="Al Jazeera">
+    <title lang="en">Inside Story</title>
+    <desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
+  </programme>
+  <programme start="20261107160000 +0000" stop="20261107170000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261107170000 +0000" stop="20261107180000 +0000" channel="Al Jazeera">
+    <title lang="en">Al Jazeera World</title>
+    <desc lang="en">Thriving trading nation or a land without a people? This 20th century history uses sources and testimonies to show the other side of the Palestinian story.</desc>
+  </programme>
+  <programme start="20261107180000 +0000" stop="20261107190000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261107190000 +0000" stop="20261107193000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261107193000 +0000" stop="20261107200000 +0000" channel="Al Jazeera">
+    <title lang="en">UpFront</title>
+    <desc lang="en">Frank, blunt and UpFront, Marc Lamont Hill cuts through the headlines to get to the heart of the matter with influential guests and newsmakers.</desc>
+  </programme>
+  <programme start="20261107200000 +0000" stop="20261107203000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261107203000 +0000" stop="20261107210000 +0000" channel="Al Jazeera">
+    <title lang="en">Counting the Cost</title>
+    <desc lang="en">Counting the Cost provides background to the economics stories that shape our world and impact the lives of ordinary people.</desc>
+  </programme>
+  <programme start="20261107210000 +0000" stop="20261107213000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261107213000 +0000" stop="20261107220000 +0000" channel="Al Jazeera">
+    <title lang="en">Inside Story</title>
+    <desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
+  </programme>
+  <programme start="20261107220000 +0000" stop="20261107223000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261107223000 +0000" stop="20261107230000 +0000" channel="Al Jazeera">
+    <title lang="en">Fault Lines</title>
+    <desc lang="en">Fault Lines investigates evidence of torture, starvation and sexual abuse of Palestinians inside Israeli prisons.</desc>
+  </programme>
+  <programme start="20261107230000 +0000" stop="20261108000000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261108003000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261108003000 +0000" stop="20261108010000 +0000" channel="Al Jazeera">
+    <title lang="en">The Listening Post</title>
+    <desc lang="en">What is being reported by world media and how? Richard Gizbert guides you through the global news maze.</desc>
+  </programme>
+  <programme start="20261108010000 +0000" stop="20261108013000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261108013000 +0000" stop="20261108020000 +0000" channel="Al Jazeera">
+    <title lang="en">The Bottom Line</title>
+    <desc lang="en">Weekly discussion show on U.S. politics and policies hosted by Steve Clemons.</desc>
+  </programme>
+  <programme start="20261108020000 +0000" stop="20261108030000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261108030000 +0000" stop="20261108033000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261108033000 +0000" stop="20261108050000 +0000" channel="Al Jazeera">
+    <title lang="en">Inside Story</title>
+    <desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
+  </programme>
+  <programme start="20261108050000 +0000" stop="20261108060000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261108060000 +0000" stop="20261108063000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261108063000 +0000" stop="20261108070000 +0000" channel="Al Jazeera">
+    <title lang="en">Making Peace</title>
+    <desc lang="en">Amid a global polycrisis, new arrivals in New York face a fractured city where sanctuary feels increasingly out of reach.</desc>
+  </programme>
+  <programme start="20261108070000 +0000" stop="20261108080000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261108080000 +0000" stop="20261108083000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261108083000 +0000" stop="20261108090000 +0000" channel="Al Jazeera">
+    <title lang="en">101 East</title>
+    <desc lang="en">101 East reports on the people and events shaping the Asia Pacific region.                  .</desc>
+  </programme>
+  <programme start="20261108090000 +0000" stop="20261108093000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261108093000 +0000" stop="20261108100000 +0000" channel="Al Jazeera">
+    <title lang="en">Inside Story</title>
+    <desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
+  </programme>
+  <programme start="20261108100000 +0000" stop="20261108110000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261108110000 +0000" stop="20261108113000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261108113000 +0000" stop="20261108120000 +0000" channel="Al Jazeera">
+    <title lang="en">Talk to Al Jazeera</title>
+    <desc lang="en">One-on-one conversations with global leaders, icons, influencers and alternative voices shaping our times.</desc>
+  </programme>
+  <programme start="20261108120000 +0000" stop="20261108130000 +0000" channel="Al Jazeera">
+    <title lang="en">Who Killed Shireen?</title>
+    <desc lang="en">Zeteo is proud to present an original documentary investigating who killed acclaimed journalist Shireen Abu Akleh in 2022, the first Palestinian-American journalist to be shot dead by Israeli forces in the Occupied West Bank.</desc>
+  </programme>
+  <programme start="20261108130000 +0000" stop="20261108140000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261108140000 +0000" stop="20261108143000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261108143000 +0000" stop="20261108150000 +0000" channel="Al Jazeera">
+    <title lang="en">The Population Bust</title>
+    <desc lang="en">From anti abortion policies in Hungary to promotions for procreating in South Korea, meet the politicians and companies trying to reverse dropping birth rates.</desc>
+  </programme>
+  <programme start="20261108150000 +0000" stop="20261108153000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261108153000 +0000" stop="20261108160000 +0000" channel="Al Jazeera">
+    <title lang="en">Inside Story</title>
+    <desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
+  </programme>
+  <programme start="20261108160000 +0000" stop="20261108170000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261108170000 +0000" stop="20261108180000 +0000" channel="Al Jazeera">
+    <title lang="en">Witness</title>
+    <desc lang="en">Two young horse herders revive Mongolia's most dangerous winter ritual in a last-ditch attempt to save their community's ancient way of life.</desc>
+  </programme>
+  <programme start="20261108180000 +0000" stop="20261108190000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
+  <programme start="20261108190000 +0000" stop="20261108193000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261108193000 +0000" stop="20261108200000 +0000" channel="Al Jazeera">
+    <title lang="en">The Bottom Line</title>
+    <desc lang="en">Weekly discussion show on U.S. politics and policies hosted by Steve Clemons.</desc>
+  </programme>
+  <programme start="20261108200000 +0000" stop="20261108203000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261108203000 +0000" stop="20261108210000 +0000" channel="Al Jazeera">
+    <title lang="en">The Listening Post</title>
+    <desc lang="en">What is being reported by world media and how? Richard Gizbert guides you through the global news maze.</desc>
+  </programme>
+  <programme start="20261108210000 +0000" stop="20261108213000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261108213000 +0000" stop="20261108220000 +0000" channel="Al Jazeera">
+    <title lang="en">Inside Story</title>
+    <desc lang="en">Beyond the headlines to the heart of the news of the day. Al Jazeera gets the Inside Story from some of the best minds from around the globe.</desc>
+  </programme>
+  <programme start="20261108220000 +0000" stop="20261108223000 +0000" channel="Al Jazeera">
+    <title lang="en">News Live</title>
+    <desc lang="en">Up-to-date news and analysis from around the world.</desc>
+  </programme>
+  <programme start="20261108223000 +0000" stop="20261108230000 +0000" channel="Al Jazeera">
+    <title lang="en">101 East</title>
+    <desc lang="en">101 East reveals Nepal's efforts to save lives and rebuild communities after a devastating natural disaster.</desc>
+  </programme>
+  <programme start="20261108230000 +0000" stop="20261109000000 +0000" channel="Al Jazeera">
+    <title lang="en">Newshour</title>
+    <desc lang="en">Latest news and in-depth analysis from around the world.</desc>
+  </programme>
   <channel id="Arirang">
     <display-name>Arirang</display-name>
   </channel>
-  <programme start="20261105150000 +0000" stop="20261105153000 +0000" channel="Arirang">
-    <title lang="en">News Generation [R]</title>
-    <desc lang="en">News Generation [R]"n":".</desc>
-  </programme>
-  <programme start="20261105153000 +0000" stop="20261105160000 +0000" channel="Arirang">
-    <title lang="en">Trip In Korea</title>
-    <desc lang="en">Trip In Korea.</desc>
-  </programme>
   <programme start="20261105160000 +0000" stop="20261105163000 +0000" channel="Arirang">
     <title lang="en">Premium Collection</title>
     <desc lang="en">Premium Collection.</desc>
@@ -1021,10 +1496,6 @@
   <channel id="BBC Earth">
     <display-name>BBC Earth</display-name>
   </channel>
-  <programme start="20261105150000 +0000" stop="20261105155000 +0000" channel="BBC Earth">
-    <title lang="en">Life Below Zero 11</title>
-    <desc lang="en">Alaskans rediscover old practises to get through the heart of winter.</desc>
-  </programme>
   <programme start="20261105155000 +0000" stop="20261105165500 +0000" channel="BBC Earth">
     <title lang="en">Wild London 1</title>
     <desc lang="en">After a life spent travelling the world, Sir David Attenborough returns home to show us the hidden natural wonders of his favourite place on earth.</desc>
@@ -1735,10 +2206,6 @@
   <channel id="BBC News">
     <display-name>BBC News</display-name>
   </channel>
-  <programme start="20261105150000 +0000" stop="20261105160000 +0000" channel="BBC News">
-    <title lang="en">BBC World News America</title>
-    <desc lang="en">The BBC presents in-depth reports on the major international and US news of the day presented from Washington DC.</desc>
-  </programme>
   <programme start="20261105160000 +0000" stop="20261105163000 +0000" channel="BBC News">
     <title lang="en">BBC News</title>
     <desc lang="en">The latest news from the BBC.</desc>
@@ -2430,10 +2897,6 @@
   <channel id="Bilyonaryo">
     <display-name>Bilyonaryo</display-name>
   </channel>
-  <programme start="20261105143000 +0000" stop="20261105160000 +0000" channel="Bilyonaryo">
-    <title lang="en">On Point</title>
-    <desc lang="en">On Point.</desc>
-  </programme>
   <programme start="20261105160000 +0000" stop="20261105163000 +0000" channel="Bilyonaryo">
     <title lang="en">Memo With Korina</title>
     <desc lang="en">Memo With Korina.</desc>
@@ -3072,10 +3535,6 @@
   <channel id="CCTV4">
     <display-name>CCTV4</display-name>
   </channel>
-  <programme start="20261105150000 +0000" stop="20261105155000 +0000" channel="CCTV4">
-    <title lang="en">TV Drama</title>
-    <desc lang="en">Chinese produced television drama.</desc>
-  </programme>
   <programme start="20261105155000 +0000" stop="20261105164000 +0000" channel="CCTV4">
     <title lang="en">TV Drama</title>
     <desc lang="en">Chinese produced television drama.</desc>
@@ -3607,18 +4066,6 @@
   <channel id="Channel News Asia">
     <display-name>Channel News Asia</display-name>
   </channel>
-  <programme start="20261105150000 +0000" stop="20261105153000 +0000" channel="Channel News Asia">
-    <title lang="en">Money Mind</title>
-    <desc lang="en">Money Mind is a weekly magazine programme centering on personal finance. Every week, the programme offers tips on how to grow, save and spend your money wisely.</desc>
-  </programme>
-  <programme start="20261105153000 +0000" stop="20261105160000 +0000" channel="Channel News Asia">
-    <title lang="en">CNA Correspondent</title>
-    <desc lang="en">They're your eyes and ears around the globe. CNA's network of correspondents shines a light on stories from their corners of the world, from groundbreaking events to up-and-coming trends.</desc>
-  </programme>
-  <programme start="20261105160000 +0000" stop="20261105160300 +0000" channel="Channel News Asia">
-    <title lang="en">Headline News</title>
-    <desc lang="en">The latest top stories of the hour.</desc>
-  </programme>
   <programme start="20261105160300 +0000" stop="20261105170000 +0000" channel="Channel News Asia">
     <title lang="en">East Asia Tonight</title>
     <desc lang="en">Spotlight on East Asia, a region steeped in history and now helping to write the future of our world. We'll break down the key stories and explain why they matter.</desc>
@@ -4115,17 +4562,460 @@
     <title lang="en">Asia First 2026/2027</title>
     <desc lang="en">(Live) Top stories, business news and market updates from across the region as Asia gears up for the day ahead.</desc>
   </programme>
+  <channel id="CNN HD">
+    <display-name>CNN HD</display-name>
+  </channel>
+  <programme start="20261105160000 +0000" stop="20261105170000 +0000" channel="CNN HD">
+    <title lang="en">Erin Burnett OutFront</title>
+    <desc lang="en">Erin Burnett stays ahead of the headlines, delivering a show that's in-depth and informative.</desc>
+  </programme>
+  <programme start="20261105170000 +0000" stop="20261105180000 +0000" channel="CNN HD">
+    <title lang="en">Anderson Cooper 360</title>
+    <desc lang="en">Anderson Cooper takes you beyond the headlines with in-depth reporting and investigations.</desc>
+  </programme>
+  <programme start="20261105180000 +0000" stop="20261105190000 +0000" channel="CNN HD">
+    <title lang="en">The Source with Kaitlan Collins</title>
+    <desc lang="en">Kaitlan Collins goes straight to the source for the best reporting on the day's biggest stories.</desc>
+  </programme>
+  <programme start="20261105190000 +0000" stop="20261105200000 +0000" channel="CNN HD">
+    <title lang="en">CNN NewsNight</title>
+    <desc lang="en">Abby Phillip leads a roundtable discussion on the day's biggest stories and issues shaping our world.</desc>
+  </programme>
+  <programme start="20261105200000 +0000" stop="20261105210000 +0000" channel="CNN HD">
+    <title lang="en">Laura Coates Live</title>
+    <desc lang="en">Laura Coates goes inside the story with a relentless pursuit of the facts.</desc>
+  </programme>
+  <programme start="20261105210000 +0000" stop="20261105220000 +0000" channel="CNN HD">
+    <title lang="en">The Story Is With Elex Michaelson</title>
+    <desc lang="en">Elex Michaelson tackles the breaking stories making headlines with sharp analysis, fresh perspective, and a dose of humor.</desc>
+  </programme>
+  <programme start="20261105220000 +0000" stop="20261105224500 +0000" channel="CNN HD">
+    <title lang="en">The Story Is With Elex Michaelson</title>
+    <desc lang="en">Elex Michaelson tackles the breaking stories making headlines with sharp analysis, fresh perspective, and a dose of humor.</desc>
+  </programme>
+  <programme start="20261105224500 +0000" stop="20261105230000 +0000" channel="CNN HD">
+    <title lang="en">World Sport</title>
+    <desc lang="en">Daily sports show features major stories and issues making news in the world of sports.</desc>
+  </programme>
+  <programme start="20261105230000 +0000" stop="20261106000000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom</title>
+    <desc lang="en">Live context and clarity to the day's top stories from around the world.</desc>
+  </programme>
+  <programme start="20261106000000 +0000" stop="20261106004500 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom</title>
+    <desc lang="en">Live context and clarity to the day's top stories from around the world.</desc>
+  </programme>
+  <programme start="20261106004500 +0000" stop="20261106010000 +0000" channel="CNN HD">
+    <title lang="en">World Sport</title>
+    <desc lang="en">Daily sports show features major stories and issues making news in the world of sports.</desc>
+  </programme>
+  <programme start="20261106010000 +0000" stop="20261106020000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom</title>
+    <desc lang="en">Live context and clarity to the day's top stories from around the world.</desc>
+  </programme>
+  <programme start="20261106020000 +0000" stop="20261106030000 +0000" channel="CNN HD">
+    <title lang="en">CNN Headline Express</title>
+    <desc lang="en">The biggest headlines and most buzzworthy stories with live updates throughout the day.</desc>
+  </programme>
+  <programme start="20261106030000 +0000" stop="20261106040000 +0000" channel="CNN HD">
+    <title lang="en">CNN This Morning</title>
+    <desc lang="en">Start your day with Audie Cornish bringing you the latest headlines and analysis.</desc>
+  </programme>
+  <programme start="20261106040000 +0000" stop="20261106050000 +0000" channel="CNN HD">
+    <title lang="en">CNN News Central</title>
+    <desc lang="en">Stay up to date with John Berman, Kate Bolduan, and Sara Sidner from CNN's immersive news hub.</desc>
+  </programme>
+  <programme start="20261106050000 +0000" stop="20261106053000 +0000" channel="CNN HD">
+    <title lang="en">CNN News Central</title>
+    <desc lang="en">Stay up to date with John Berman, Kate Bolduan, and Sara Sidner from CNN's immersive news hub.</desc>
+  </programme>
+  <programme start="20261106053000 +0000" stop="20261106060000 +0000" channel="CNN HD">
+    <title lang="en">World Sport</title>
+    <desc lang="en">Daily sports show features major stories and issues making news in the world of sports.</desc>
+  </programme>
+  <programme start="20261106060000 +0000" stop="20261106064500 +0000" channel="CNN HD">
+    <title lang="en">Connect the World</title>
+    <desc lang="en">Becky Anderson explores diverse perspectives and explains global issues of the day.</desc>
+  </programme>
+  <programme start="20261106064500 +0000" stop="20261106070000 +0000" channel="CNN HD">
+    <title lang="en">World Sport</title>
+    <desc lang="en">Daily sports show features major stories and issues making news in the world of sports.</desc>
+  </programme>
+  <programme start="20261106070000 +0000" stop="20261106080000 +0000" channel="CNN HD">
+    <title lang="en">Connect the World</title>
+    <desc lang="en">Becky Anderson explores diverse perspectives and explains global issues of the day.</desc>
+  </programme>
+  <programme start="20261106080000 +0000" stop="20261106090000 +0000" channel="CNN HD">
+    <title lang="en">One World</title>
+    <desc lang="en">Zain Asher and Bianna Golodryga cover the top global and national issues of the day.</desc>
+  </programme>
+  <programme start="20261106090000 +0000" stop="20261106094500 +0000" channel="CNN HD">
+    <title lang="en">One World</title>
+    <desc lang="en">Zain Asher and Bianna Golodryga cover the top global and national issues of the day.</desc>
+  </programme>
+  <programme start="20261106094500 +0000" stop="20261106100000 +0000" channel="CNN HD">
+    <title lang="en">African Voices</title>
+    <desc lang="en">Shining a spotlight on Africa's most influential and inspiring talents through in-depth, authentic conversations. Hosted by Larry Madowo.</desc>
+  </programme>
+  <programme start="20261106100000 +0000" stop="20261106110000 +0000" channel="CNN HD">
+    <title lang="en">Amanpour</title>
+    <desc lang="en">Christiane Amanpour provides her powerful interview skills and provocative analysis on global stories that matter to you.</desc>
+  </programme>
+  <programme start="20261106110000 +0000" stop="20261106120000 +0000" channel="CNN HD">
+    <title lang="en">Isa Soares Tonight</title>
+    <desc lang="en">Isa Soares deep dives into today's top stories with insightful conversations and reports from around the world.</desc>
+  </programme>
+  <programme start="20261106120000 +0000" stop="20261106130000 +0000" channel="CNN HD">
+    <title lang="en">What We Know with Max Foster</title>
+    <desc lang="en">Max Foster has a definitive roundup of the day's top stories, with urgent need-to-know context and a deeper dive into the questions sparking debate.</desc>
+  </programme>
+  <programme start="20261106130000 +0000" stop="20261106140000 +0000" channel="CNN HD">
+    <title lang="en">Quest Means Business</title>
+    <desc lang="en">Richard Quest speaks to the top names in global business to bring viewers the bottom line.</desc>
+  </programme>
+  <programme start="20261106140000 +0000" stop="20261106143000 +0000" channel="CNN HD">
+    <title lang="en">The Lead with Jake Tapper</title>
+    <desc lang="en">Jake Tapper covers all the day's top stories around the country and the globe, from politics to money and sports to popular culture.</desc>
+  </programme>
+  <programme start="20261106143000 +0000" stop="20261106150000 +0000" channel="CNN HD">
+    <title lang="en">World Sport</title>
+    <desc lang="en">Daily sports show features major stories and issues making news in the world of sports.</desc>
+  </programme>
+  <programme start="20261106150000 +0000" stop="20261106160000 +0000" channel="CNN HD">
+    <title lang="en">The Brief with Jim Sciutto</title>
+    <desc lang="en">The best CNN reporting from correspondents across the world, to guide global audiences through the fast-paced news cycle with insight and analysis.</desc>
+  </programme>
+  <programme start="20261106160000 +0000" stop="20261106170000 +0000" channel="CNN HD">
+    <title lang="en">Erin Burnett OutFront</title>
+    <desc lang="en">Erin Burnett stays ahead of the headlines, delivering a show that's in-depth and informative.</desc>
+  </programme>
+  <programme start="20261106170000 +0000" stop="20261106180000 +0000" channel="CNN HD">
+    <title lang="en">Anderson Cooper 360</title>
+    <desc lang="en">Anderson Cooper takes you beyond the headlines with in-depth reporting and investigations.</desc>
+  </programme>
+  <programme start="20261106180000 +0000" stop="20261106190000 +0000" channel="CNN HD">
+    <title lang="en">The Source with Kaitlan Collins</title>
+    <desc lang="en">Kaitlan Collins goes straight to the source for the best reporting on the day's biggest stories.</desc>
+  </programme>
+  <programme start="20261106190000 +0000" stop="20261106200000 +0000" channel="CNN HD">
+    <title lang="en">CNN NewsNight</title>
+    <desc lang="en">Abby Phillip leads a roundtable discussion on the day's biggest stories and issues shaping our world.</desc>
+  </programme>
+  <programme start="20261106200000 +0000" stop="20261106210000 +0000" channel="CNN HD">
+    <title lang="en">Laura Coates Live</title>
+    <desc lang="en">Laura Coates goes inside the story with a relentless pursuit of the facts.</desc>
+  </programme>
+  <programme start="20261106210000 +0000" stop="20261106220000 +0000" channel="CNN HD">
+    <title lang="en">The Story Is With Elex Michaelson</title>
+    <desc lang="en">Elex Michaelson tackles the breaking stories making headlines with sharp analysis, fresh perspective, and a dose of humor.</desc>
+  </programme>
+  <programme start="20261106220000 +0000" stop="20261106223000 +0000" channel="CNN HD">
+    <title lang="en">The Story Is With Elex Michaelson</title>
+    <desc lang="en">Elex Michaelson tackles the breaking stories making headlines with sharp analysis, fresh perspective, and a dose of humor.</desc>
+  </programme>
+  <programme start="20261106223000 +0000" stop="20261106230000 +0000" channel="CNN HD">
+    <title lang="en">Global Perspectives</title>
+    <desc lang="en">CNN’s new events franchise convenes leaders and visionaries to tackle the world’s emerging challenges and showcase opportunities for action.</desc>
+  </programme>
+  <programme start="20261106230000 +0000" stop="20261106233000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom</title>
+    <desc lang="en">Live context and clarity to the day's top stories from around the world.</desc>
+  </programme>
+  <programme start="20261106233000 +0000" stop="20261107000000 +0000" channel="CNN HD">
+    <title lang="en">African Voices</title>
+    <desc lang="en">Shining a spotlight on Africa's most influential and inspiring talents through in-depth, authentic conversations. Hosted by Larry Madowo.</desc>
+  </programme>
+  <programme start="20261107000000 +0000" stop="20261107003000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom</title>
+    <desc lang="en">Live context and clarity to the day's top stories from around the world.</desc>
+  </programme>
+  <programme start="20261107003000 +0000" stop="20261107010000 +0000" channel="CNN HD">
+    <title lang="en">Connecting Africa</title>
+    <desc lang="en">We profile the people, projects and companies revolutionizing African business and bringing the continent together.</desc>
+  </programme>
+  <programme start="20261107010000 +0000" stop="20261107013000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom</title>
+    <desc lang="en">Live context and clarity to the day's top stories from around the world.</desc>
+  </programme>
+  <programme start="20261107013000 +0000" stop="20261107020000 +0000" channel="CNN HD">
+    <title lang="en">CNN Creators</title>
+    <desc lang="en">A team of digital-native storytellers navigate the stories that matter most, with a focus on tech, art, culture, sport, and social trends.</desc>
+  </programme>
+  <programme start="20261107020000 +0000" stop="20261107030000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom</title>
+    <desc lang="en">Live context and clarity to the day's top stories from around the world.</desc>
+  </programme>
+  <programme start="20261107030000 +0000" stop="20261107033000 +0000" channel="CNN HD">
+    <title lang="en">African Voices</title>
+    <desc lang="en">Shining a spotlight on Africa's most influential and inspiring talents through in-depth, authentic conversations. Hosted by Larry Madowo.</desc>
+  </programme>
+  <programme start="20261107033000 +0000" stop="20261107040000 +0000" channel="CNN HD">
+    <title lang="en">Global Perspectives</title>
+    <desc lang="en">CNN’s new events franchise convenes leaders and visionaries to tackle the world’s emerging challenges and showcase opportunities for action.</desc>
+  </programme>
+  <programme start="20261107040000 +0000" stop="20261107050000 +0000" channel="CNN HD">
+    <title lang="en">CNN This Morning Weekend</title>
+    <desc lang="en">Start your day with Victor Blackwell bringing you the latest headlines and analysis.</desc>
+  </programme>
+  <programme start="20261107050000 +0000" stop="20261107060000 +0000" channel="CNN HD">
+    <title lang="en">First of All With Victor Blackwell</title>
+    <desc lang="en">Victor Blackwell brings a fresh perspective on the week's news with a focus on stories affecting communities of color.</desc>
+  </programme>
+  <programme start="20261107060000 +0000" stop="20261107070000 +0000" channel="CNN HD">
+    <title lang="en">Smerconish</title>
+    <desc lang="en">Michael Smerconish tackles the American political and news stories of the week, offering only one kind of talking point: his own.</desc>
+  </programme>
+  <programme start="20261107070000 +0000" stop="20261107073000 +0000" channel="CNN HD">
+    <title lang="en">CNN Creators</title>
+    <desc lang="en">A team of digital-native storytellers navigate the stories that matter most, with a focus on tech, art, culture, sport, and social trends.</desc>
+  </programme>
+  <programme start="20261107073000 +0000" stop="20261107080000 +0000" channel="CNN HD">
+    <title lang="en">Inside Africa</title>
+    <desc lang="en">Inside Africa takes its viewers on a journey across Africa, exploring the true diversity and depth of different cultures, countries and regions.</desc>
+  </programme>
+  <programme start="20261107080000 +0000" stop="20261107090000 +0000" channel="CNN HD">
+    <title lang="en">The Amanpour Hour</title>
+    <desc lang="en">Christiane Amanpour, CNN’s chief international anchor, brings valuable insight to the biggest global and domestic news stories of the week.</desc>
+  </programme>
+  <programme start="20261107090000 +0000" stop="20261107093000 +0000" channel="CNN HD">
+    <title lang="en">World Sport</title>
+    <desc lang="en">Daily sports show features major stories and issues making news in the world of sports.</desc>
+  </programme>
+  <programme start="20261107093000 +0000" stop="20261107094500 +0000" channel="CNN HD">
+    <title lang="en">Marketplace Middle East</title>
+    <desc lang="en">The latest business headlines, events and developments in and around the Middle East.</desc>
+  </programme>
+  <programme start="20261107094500 +0000" stop="20261107100000 +0000" channel="CNN HD">
+    <title lang="en">Marketplace Africa</title>
+    <desc lang="en">Marketplace Africa reports on the latest African market information, with a look at events and developments that impact the business world.</desc>
+  </programme>
+  <programme start="20261107100000 +0000" stop="20261107110000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom Saturday</title>
+    <desc lang="en">The latest news and information from around the world.</desc>
+  </programme>
+  <programme start="20261107110000 +0000" stop="20261107120000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom Saturday</title>
+    <desc lang="en">The latest news and information from around the world.</desc>
+  </programme>
+  <programme start="20261107120000 +0000" stop="20261107130000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom Saturday</title>
+    <desc lang="en">The latest news and information from around the world.</desc>
+  </programme>
+  <programme start="20261107130000 +0000" stop="20261107140000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom Saturday</title>
+    <desc lang="en">The latest news and information from around the world.</desc>
+  </programme>
+  <programme start="20261107140000 +0000" stop="20261107143000 +0000" channel="CNN HD">
+    <title lang="en">World Sport</title>
+    <desc lang="en">Daily sports show features major stories and issues making news in the world of sports.</desc>
+  </programme>
+  <programme start="20261107143000 +0000" stop="20261107150000 +0000" channel="CNN HD">
+    <title lang="en">CNN Creators</title>
+    <desc lang="en">A team of digital-native storytellers navigate the stories that matter most, with a focus on tech, art, culture, sport, and social trends.</desc>
+  </programme>
+  <programme start="20261107150000 +0000" stop="20261107160000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom Saturday</title>
+    <desc lang="en">The latest news and information from around the world.</desc>
+  </programme>
+  <programme start="20261107160000 +0000" stop="20261107170000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom Saturday</title>
+    <desc lang="en">The latest news and information from around the world.</desc>
+  </programme>
+  <programme start="20261107170000 +0000" stop="20261107180000 +0000" channel="CNN HD">
+    <title lang="en">Smerconish</title>
+    <desc lang="en">Michael Smerconish tackles the American political and news stories of the week, offering only one kind of talking point: his own.</desc>
+  </programme>
+  <programme start="20261107180000 +0000" stop="20261107183000 +0000" channel="CNN HD">
+    <title lang="en">World Sport</title>
+    <desc lang="en">Daily sports show features major stories and issues making news in the world of sports.</desc>
+  </programme>
+  <programme start="20261107183000 +0000" stop="20261107190000 +0000" channel="CNN HD">
+    <title lang="en">Global Perspectives</title>
+    <desc lang="en">CNN’s new events franchise convenes leaders and visionaries to tackle the world’s emerging challenges and showcase opportunities for action.</desc>
+  </programme>
+  <programme start="20261107190000 +0000" stop="20261107193000 +0000" channel="CNN HD">
+    <title lang="en">Inside Africa</title>
+    <desc lang="en">Inside Africa takes its viewers on a journey across Africa, exploring the true diversity and depth of different cultures, countries and regions.</desc>
+  </programme>
+  <programme start="20261107193000 +0000" stop="20261107200000 +0000" channel="CNN HD">
+    <title lang="en">African Voices</title>
+    <desc lang="en">Shining a spotlight on Africa's most influential and inspiring talents through in-depth, authentic conversations. Hosted by Larry Madowo.</desc>
+  </programme>
+  <programme start="20261107200000 +0000" stop="20261107203000 +0000" channel="CNN HD">
+    <title lang="en">Connecting Africa</title>
+    <desc lang="en">We profile the people, projects and companies revolutionizing African business and bringing the continent together.</desc>
+  </programme>
+  <programme start="20261107203000 +0000" stop="20261107204500 +0000" channel="CNN HD">
+    <title lang="en">Marketplace Middle East</title>
+    <desc lang="en">The latest business headlines, events and developments in and around the Middle East.</desc>
+  </programme>
+  <programme start="20261107204500 +0000" stop="20261107210000 +0000" channel="CNN HD">
+    <title lang="en">Marketplace Africa</title>
+    <desc lang="en">Marketplace Africa reports on the latest African market information, with a look at events and developments that impact the business world.</desc>
+  </programme>
+  <programme start="20261107210000 +0000" stop="20261107213000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom</title>
+    <desc lang="en">Live context and clarity to the day's top stories from around the world.</desc>
+  </programme>
+  <programme start="20261107213000 +0000" stop="20261107220000 +0000" channel="CNN HD">
+    <title lang="en">World Sport</title>
+    <desc lang="en">Daily sports show features major stories and issues making news in the world of sports.</desc>
+  </programme>
+  <programme start="20261107220000 +0000" stop="20261107223000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom</title>
+    <desc lang="en">Live context and clarity to the day's top stories from around the world.</desc>
+  </programme>
+  <programme start="20261107223000 +0000" stop="20261107230000 +0000" channel="CNN HD">
+    <title lang="en">Inside Africa</title>
+    <desc lang="en">Inside Africa takes its viewers on a journey across Africa, exploring the true diversity and depth of different cultures, countries and regions.</desc>
+  </programme>
+  <programme start="20261107230000 +0000" stop="20261107233000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom</title>
+    <desc lang="en">Live context and clarity to the day's top stories from around the world.</desc>
+  </programme>
+  <programme start="20261107233000 +0000" stop="20261107234500 +0000" channel="CNN HD">
+    <title lang="en">Marketplace Middle East</title>
+    <desc lang="en">The latest business headlines, events and developments in and around the Middle East.</desc>
+  </programme>
+  <programme start="20261107234500 +0000" stop="20261108000000 +0000" channel="CNN HD">
+    <title lang="en">Marketplace Africa</title>
+    <desc lang="en">Marketplace Africa reports on the latest African market information, with a look at events and developments that impact the business world.</desc>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261108003000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom</title>
+    <desc lang="en">Live context and clarity to the day's top stories from around the world.</desc>
+  </programme>
+  <programme start="20261108003000 +0000" stop="20261108010000 +0000" channel="CNN HD">
+    <title lang="en">Global Perspectives</title>
+    <desc lang="en">CNN’s new events franchise convenes leaders and visionaries to tackle the world’s emerging challenges and showcase opportunities for action.</desc>
+  </programme>
+  <programme start="20261108010000 +0000" stop="20261108020000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom</title>
+    <desc lang="en">Live context and clarity to the day's top stories from around the world.</desc>
+  </programme>
+  <programme start="20261108020000 +0000" stop="20261108030000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom</title>
+    <desc lang="en">Live context and clarity to the day's top stories from around the world.</desc>
+  </programme>
+  <programme start="20261108030000 +0000" stop="20261108033000 +0000" channel="CNN HD">
+    <title lang="en">Connecting Africa</title>
+    <desc lang="en">We profile the people, projects and companies revolutionizing African business and bringing the continent together.</desc>
+  </programme>
+  <programme start="20261108033000 +0000" stop="20261108040000 +0000" channel="CNN HD">
+    <title lang="en">Inside Africa</title>
+    <desc lang="en">Inside Africa takes its viewers on a journey across Africa, exploring the true diversity and depth of different cultures, countries and regions.</desc>
+  </programme>
+  <programme start="20261108040000 +0000" stop="20261108050000 +0000" channel="CNN HD">
+    <title lang="en">CNN This Morning Weekend</title>
+    <desc lang="en">Start your day with Victor Blackwell bringing you the latest headlines and analysis.</desc>
+  </programme>
+  <programme start="20261108050000 +0000" stop="20261108060000 +0000" channel="CNN HD">
+    <title lang="en">Inside Politics With Manu Raju</title>
+    <desc lang="en">Manu Raju leads an in-depth conversation on the week's most important political storylines, with a diverse set of analysts and news-making interviews.</desc>
+  </programme>
+  <programme start="20261108060000 +0000" stop="20261108070000 +0000" channel="CNN HD">
+    <title lang="en">State of the Union with Jake Tapper and Dana Bash</title>
+    <desc lang="en">Jake Tapper and Dana Bash bring together major newsmakers, analysts and experts to tackle pressing domestic issues and diplomacy on the global stage.</desc>
+  </programme>
+  <programme start="20261108070000 +0000" stop="20261108080000 +0000" channel="CNN HD">
+    <title lang="en">Fareed Zakaria GPS</title>
+    <desc lang="en">Fareed Zakaria brings viewers his insights and analysis, and interviews world leaders.</desc>
+  </programme>
+  <programme start="20261108080000 +0000" stop="20261108090000 +0000" channel="CNN HD">
+    <title lang="en">Inside Politics With Manu Raju</title>
+    <desc lang="en">Manu Raju leads an in-depth conversation on the week's most important political storylines, with a diverse set of analysts and news-making interviews.</desc>
+  </programme>
+  <programme start="20261108090000 +0000" stop="20261108093000 +0000" channel="CNN HD">
+    <title lang="en">World Sport</title>
+    <desc lang="en">Daily sports show features major stories and issues making news in the world of sports.</desc>
+  </programme>
+  <programme start="20261108093000 +0000" stop="20261108100000 +0000" channel="CNN HD">
+    <title lang="en">Inside Africa</title>
+    <desc lang="en">Inside Africa takes its viewers on a journey across Africa, exploring the true diversity and depth of different cultures, countries and regions.</desc>
+  </programme>
+  <programme start="20261108100000 +0000" stop="20261108103000 +0000" channel="CNN HD">
+    <title lang="en">African Voices</title>
+    <desc lang="en">Shining a spotlight on Africa's most influential and inspiring talents through in-depth, authentic conversations. Hosted by Larry Madowo.</desc>
+  </programme>
+  <programme start="20261108103000 +0000" stop="20261108110000 +0000" channel="CNN HD">
+    <title lang="en">Global Perspectives</title>
+    <desc lang="en">CNN’s new events franchise convenes leaders and visionaries to tackle the world’s emerging challenges and showcase opportunities for action.</desc>
+  </programme>
+  <programme start="20261108110000 +0000" stop="20261108120000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom Sunday</title>
+    <desc lang="en">The latest news and information from around the world.</desc>
+  </programme>
+  <programme start="20261108120000 +0000" stop="20261108130000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom Sunday</title>
+    <desc lang="en">The latest news and information from around the world.</desc>
+  </programme>
+  <programme start="20261108130000 +0000" stop="20261108140000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom Sunday</title>
+    <desc lang="en">The latest news and information from around the world.</desc>
+  </programme>
+  <programme start="20261108140000 +0000" stop="20261108143000 +0000" channel="CNN HD">
+    <title lang="en">World Sport</title>
+    <desc lang="en">Daily sports show features major stories and issues making news in the world of sports.</desc>
+  </programme>
+  <programme start="20261108143000 +0000" stop="20261108150000 +0000" channel="CNN HD">
+    <title lang="en">Connecting Africa</title>
+    <desc lang="en">We profile the people, projects and companies revolutionizing African business and bringing the continent together.</desc>
+  </programme>
+  <programme start="20261108150000 +0000" stop="20261108160000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom Sunday</title>
+    <desc lang="en">The latest news and information from around the world.</desc>
+  </programme>
+  <programme start="20261108160000 +0000" stop="20261108170000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom Sunday</title>
+    <desc lang="en">The latest news and information from around the world.</desc>
+  </programme>
+  <programme start="20261108170000 +0000" stop="20261108180000 +0000" channel="CNN HD">
+    <title lang="en">The Whole Story With Anderson Cooper</title>
+    <desc lang="en">The Whole Story With Anderson Cooper.</desc>
+  </programme>
+  <programme start="20261108180000 +0000" stop="20261108190000 +0000" channel="CNN HD">
+    <title lang="en">Fareed Zakaria GPS</title>
+    <desc lang="en">Fareed Zakaria brings viewers his insights and analysis, and interviews world leaders.</desc>
+  </programme>
+  <programme start="20261108190000 +0000" stop="20261108193000 +0000" channel="CNN HD">
+    <title lang="en">African Voices</title>
+    <desc lang="en">Shining a spotlight on Africa's most influential and inspiring talents through in-depth, authentic conversations. Hosted by Larry Madowo.</desc>
+  </programme>
+  <programme start="20261108193000 +0000" stop="20261108194500 +0000" channel="CNN HD">
+    <title lang="en">Marketplace Middle East</title>
+    <desc lang="en">The latest business headlines, events and developments in and around the Middle East.</desc>
+  </programme>
+  <programme start="20261108194500 +0000" stop="20261108200000 +0000" channel="CNN HD">
+    <title lang="en">Marketplace Africa</title>
+    <desc lang="en">Marketplace Africa reports on the latest African market information, with a look at events and developments that impact the business world.</desc>
+  </programme>
+  <programme start="20261108200000 +0000" stop="20261108203000 +0000" channel="CNN HD">
+    <title lang="en">Global Perspectives</title>
+    <desc lang="en">CNN’s new events franchise convenes leaders and visionaries to tackle the world’s emerging challenges and showcase opportunities for action.</desc>
+  </programme>
+  <programme start="20261108203000 +0000" stop="20261108210000 +0000" channel="CNN HD">
+    <title lang="en">Inside Africa</title>
+    <desc lang="en">Inside Africa takes its viewers on a journey across Africa, exploring the true diversity and depth of different cultures, countries and regions.</desc>
+  </programme>
+  <programme start="20261108210000 +0000" stop="20261108220000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom</title>
+    <desc lang="en">Live context and clarity to the day's top stories from around the world.</desc>
+  </programme>
+  <programme start="20261108220000 +0000" stop="20261108224500 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom</title>
+    <desc lang="en">Live context and clarity to the day's top stories from around the world.</desc>
+  </programme>
+  <programme start="20261108224500 +0000" stop="20261108230000 +0000" channel="CNN HD">
+    <title lang="en">World Sport</title>
+    <desc lang="en">Daily sports show features major stories and issues making news in the world of sports.</desc>
+  </programme>
+  <programme start="20261108230000 +0000" stop="20261109000000 +0000" channel="CNN HD">
+    <title lang="en">CNN Newsroom</title>
+    <desc lang="en">Live context and clarity to the day's top stories from around the world.</desc>
+  </programme>
   <channel id="Dreamworks HD">
     <display-name>Dreamworks HD</display-name>
   </channel>
-  <programme start="20261105150500 +0000" stop="20261105153000 +0000" channel="Dreamworks HD">
-    <title lang="en">Boss Baby: Back in the Crib</title>
-    <desc lang="en">Boss Baby and Tina reject the 5%er system that says the cuter you are, the more love you deserve. Teaming up with the Uncuddleables, the team tries to take down the system from within, forming a resistance of the eight department heads of Baby Corp in the hopes of changing the way we look at Baby Love forever.</desc>
-  </programme>
-  <programme start="20261105153000 +0000" stop="20261105155500 +0000" channel="Dreamworks HD">
-    <title lang="en">Spirit Riding Free</title>
-    <desc lang="en">Lucky takes part in a secret Miradero tradition a nighttime scavenger hunt.</desc>
-  </programme>
   <programme start="20261105155500 +0000" stop="20261105162000 +0000" channel="Dreamworks HD">
     <title lang="en">Spirit Riding Free</title>
     <desc lang="en">When Miradero's Christmas presents are delayed and snow isn't falling, Lucky and her friends decide it's up to them to bring the Christmas spirit to Miradero.</desc>
@@ -4921,14 +5811,6 @@
   <channel id="Fashion TV HD">
     <display-name>Fashion TV HD</display-name>
   </channel>
-  <programme start="20261105150000 +0000" stop="20261105153000 +0000" channel="Fashion TV HD">
-    <title lang="en">Designers</title>
-    <desc lang="en">Explore stories of the top fashion designers of all time! Meet the legends, like Coco Chanel or Karl Lagerfeld and don’t miss the amazingly talented young designers who shape the future of fashion now.</desc>
-  </programme>
-  <programme start="20261105153000 +0000" stop="20261105160000 +0000" channel="Fashion TV HD">
-    <title lang="en">Designers</title>
-    <desc lang="en">Explore stories of the top fashion designers of all time! Meet the legends, like Coco Chanel or Karl Lagerfeld and don’t miss the amazingly talented young designers who shape the future of fashion now.</desc>
-  </programme>
   <programme start="20261105160000 +0000" stop="20261105163000 +0000" channel="Fashion TV HD">
     <title lang="en">Lingerie</title>
     <desc lang="en">Don’t miss the latest trends in the most sensual pieces of fashion, we’re talking about the latest lingerie collections presented on the world podiums! Sizzling hot looks from top lingerie designers.</desc>
@@ -5572,26 +6454,6 @@
   <channel id="FRANCE 24">
     <display-name>FRANCE 24</display-name>
   </channel>
-  <programme start="20261105151500 +0000" stop="20261105153000 +0000" channel="FRANCE 24">
-    <title lang="en">Business + Truth or Fake</title>
-    <desc lang="en">The presenters offer you the latest news, developments and updates from the world of business and economy.</desc>
-  </programme>
-  <programme start="20261105153000 +0000" stop="20261105154500 +0000" channel="FRANCE 24">
-    <title lang="en">News</title>
-    <desc lang="en">An international news bulletin, presented live from the newsroom.</desc>
-  </programme>
-  <programme start="20261105154500 +0000" stop="20261105155100 +0000" channel="FRANCE 24">
-    <title lang="en">Sports</title>
-    <desc lang="en">A summary of world sports news of the day, both on and off the pitch.</desc>
-  </programme>
-  <programme start="20261105155100 +0000" stop="20261105160000 +0000" channel="FRANCE 24">
-    <title lang="en">Focus</title>
-    <desc lang="en">Exclusive reports from France 24 correspondents around the world.</desc>
-  </programme>
-  <programme start="20261105160000 +0000" stop="20261105161000 +0000" channel="FRANCE 24">
-    <title lang="en">News</title>
-    <desc lang="en">An international news bulletin, presented live from the newsroom.</desc>
-  </programme>
   <programme start="20261105161000 +0000" stop="20261105165300 +0000" channel="FRANCE 24">
     <title lang="en">The Debate</title>
     <desc lang="en">A live debate on the international topic of the day, bringing together four guests to share perspectives, challenge ideas and provide in-depth analysis.</desc>
@@ -7151,10 +8013,6 @@
   <channel id="Global Trekker">
     <display-name>Global Trekker</display-name>
   </channel>
-  <programme start="20261105145500 +0000" stop="20261105160500 +0000" channel="Global Trekker">
-    <title lang="en">Whitney: Behind The Voice</title>
-    <desc lang="en">A powerful journey into the meteoric rise of Whitney Houston — from her gospel roots to global superstardom — unraveling the tangled relationships, haunting battles with addiction, and the heartbreaking fall of a once-unshakable voice, before her untimely end.</desc>
-  </programme>
   <programme start="20261105160500 +0000" stop="20261105173500 +0000" channel="Global Trekker">
     <title lang="en">Barbie Uncovered: A Dream House Divided</title>
     <desc lang="en">Barbie Uncovered reveals the dramatic true story behind Barbie’s creation, spotlighting the rise and fallout of co-creators Ruth Handler and Jack Ryan, and the lasting impact of their iconic, controversial invention.</desc>
@@ -7602,10 +8460,6 @@
   <channel id="History HD">
     <display-name>History HD</display-name>
   </channel>
-  <programme start="20261105145000 +0000" stop="20261105154500 +0000" channel="History HD">
-    <title lang="en">The Death Coast</title>
-    <desc lang="en">After finding an American coin at Le Chameau's wreck site, Jeff MacKinnon must choose to either—stay the course or chase a new mystery.</desc>
-  </programme>
   <programme start="20261105154500 +0000" stop="20261105164000 +0000" channel="History HD">
     <title lang="en">History's Greatest Machines With Dolph Lundgren</title>
     <desc lang="en">When the mission looks impossible, you call in special ops — and Dolph Lundgren. Join him as he takes you behind enemy lines to reveal the elite machines behind history’s boldest operations.</desc>
@@ -7973,10 +8827,6 @@
   <channel id="Hits HD">
     <display-name>Hits HD</display-name>
   </channel>
-  <programme start="20261105150000 +0000" stop="20261105160000 +0000" channel="Hits HD">
-    <title lang="en">Law &amp; Order Special Victims Unit S12 E08 - Penetration</title>
-    <desc lang="en">The Special Victims Unit, a specially trained squad of dedicated detectives in the NYPD, who investigate these vicious felonies. These are their stories.</desc>
-  </programme>
   <programme start="20261105160000 +0000" stop="20261105163000 +0000" channel="Hits HD">
     <title lang="en">I Dream Of Jeannie S5 E04 - Guess Who's Going To Be A Bride (Part II)</title>
     <desc lang="en">An astronaut's life is thrown into chaos when he discovers a bottle that contains a beautiful female genie.</desc>
@@ -8539,10 +9389,6 @@
   <channel id="Hits Now">
     <display-name>Hits Now</display-name>
   </channel>
-  <programme start="20261105150000 +0000" stop="20261105153000 +0000" channel="Hits Now">
-    <title lang="en">Entertainment Tonight</title>
-    <desc lang="en">The foremost authority on breaking entertainment news since its debut, ENTERTAINMENT TONIGHT is the No. 1 syndicated entertainment newsmagazine in the world.</desc>
-  </programme>
   <programme start="20261105153000 +0000" stop="20261105163000 +0000" channel="Hits Now">
     <title lang="en">Shark Tank S17</title>
     <desc lang="en">The critically acclaimed and multi-Emmy Award-winning entrepreneurial-themed reality show returns to spearhead entrepreneurship and inspire a nation to dream bigger.</desc>
@@ -9507,14 +10353,6 @@
   <channel id="Lifetime">
     <display-name>Lifetime</display-name>
   </channel>
-  <programme start="20261105140000 +0000" stop="20261105153500 +0000" channel="Lifetime">
-    <title lang="en">My Child Has My Doctor's Face</title>
-    <desc lang="en">Jessica and Dylan are happy parents to young Henry, but when Jessica learns that her fertility doctor is actually Henry's biological father, she pulls out all the stops to bring him to justice.</desc>
-  </programme>
-  <programme start="20261105153500 +0000" stop="20261105160500 +0000" channel="Lifetime">
-    <title lang="en">Rachael Ray's Holidays</title>
-    <desc lang="en">Rachael shows how to prepare a meat-free holiday meal that everyone will love! First, she makes a flavourful soup using Italian pumpkins. Next, she prepares her family's traditional "Holiday Stars".</desc>
-  </programme>
   <programme start="20261105160500 +0000" stop="20261105163500 +0000" channel="Lifetime">
     <title lang="en">Instant Italian With Anna Gass (S1)</title>
     <desc lang="en">Anna offers two innovative takes on classic meatball dishes: tuna meatballs served with an aioli dipping sauce, and eggplant meatballs paired with spicy marinara and topped with ricotta salata.</desc>
@@ -9822,14 +10660,6 @@
   <channel id="NBA TV Philippines">
     <display-name>NBA TV Philippines</display-name>
   </channel>
-  <programme start="20261105150000 +0000" stop="20261105153000 +0000" channel="NBA TV Philippines">
-    <title lang="en">Full Court</title>
-    <desc lang="en">Full Court.</desc>
-  </programme>
-  <programme start="20261105153000 +0000" stop="20261105160000 +0000" channel="NBA TV Philippines">
-    <title lang="en">The Association: Post Up</title>
-    <desc lang="en">The Association: Post Up.</desc>
-  </programme>
   <programme start="20261105160000 +0000" stop="20261105180000 +0000" channel="NBA TV Philippines">
     <title lang="en">NBA Playback (Premiere)</title>
     <desc lang="en">NBA Playback (Premiere).</desc>
@@ -10165,10 +10995,6 @@
   <channel id="NCAA NXT">
     <display-name>NCAA NXT</display-name>
   </channel>
-  <programme start="20261105133000 +0000" stop="20261105160000 +0000" channel="NCAA NXT">
-    <title lang="en">San Beda vs. Lyceum Men's Basketball NCAA Season 102</title>
-    <desc lang="en">San Beda vs. Lyceum Men's Basketball NCAA Season 102.</desc>
-  </programme>
   <programme start="20261105160000 +0000" stop="20261105183000 +0000" channel="NCAA NXT">
     <title lang="en">JRU vs. Lyceum Men's Basketball NCAA Season 102</title>
     <desc lang="en">JRU vs. Lyceum Men's Basketball NCAA Season 102.</desc>
@@ -10292,14 +11118,6 @@
   <channel id="NHK World Japan">
     <display-name>NHK World Japan</display-name>
   </channel>
-  <programme start="20261105150000 +0000" stop="20261105153000 +0000" channel="NHK World Japan">
-    <title lang="en">NHK NEWSLINE</title>
-    <desc lang="en">NHK NEWSLINE brings you up to date with the latest from Japan, Asia and around the world. Our team covers breaking news and major developments, with trusted anchors to tie it all together.</desc>
-  </programme>
-  <programme start="20261105153000 +0000" stop="20261105160000 +0000" channel="NHK World Japan">
-    <title lang="en">Today's Close-Up</title>
-    <desc lang="en">Dig deeper into current affairs. Cutting-edge information and critical analysis on important issues confronting Japanese lives.</desc>
-  </programme>
   <programme start="20261105160000 +0000" stop="20261105163000 +0000" channel="NHK World Japan">
     <title lang="en">NHK NEWSLINE</title>
     <desc lang="en">NHK NEWSLINE brings you up to date with the latest from Japan, Asia and around the world. Our team covers breaking news and major developments, with trusted anchors to tie it all together.</desc>
@@ -11135,14 +11953,6 @@
   <channel id="Nickelodeon">
     <display-name>Nickelodeon</display-name>
   </channel>
-  <programme start="20261105151500 +0000" stop="20261105154000 +0000" channel="Nickelodeon">
-    <title lang="en">The Marsupilamis</title>
-    <desc lang="en">Stan sees Twister eating fish and hides a tracker in one, so he knows Twister's every move. / Thanks to the Marsupilamis Jade looks like an expert at Parkour with Mica filming her moves.</desc>
-  </programme>
-  <programme start="20261105154000 +0000" stop="20261105160000 +0000" channel="Nickelodeon">
-    <title lang="en">SpongeBob SquarePants</title>
-    <desc lang="en">SpongeBob obtains a magician's wand and accidentally causes magical mayhem wherever he goes. // On Friday the 13th, Mr. Krabs' extreme superstitions become a disruption for everyone around him.</desc>
-  </programme>
   <programme start="20261105160000 +0000" stop="20261105163000 +0000" channel="Nickelodeon">
     <title lang="en">The Patrick Star Show</title>
     <desc lang="en">SpongeBob represents Patrick in Kid Court. // Perch travels through time to cover historical events.</desc>
@@ -11802,10 +12612,6 @@
   <channel id="One News HD">
     <display-name>One News HD</display-name>
   </channel>
-  <programme start="20261105150000 +0000" stop="20261105160000 +0000" channel="One News HD">
-    <title lang="en">The Big Story</title>
-    <desc lang="en">The Big Story.</desc>
-  </programme>
   <programme start="20261105160000 +0000" stop="20261105173000 +0000" channel="One News HD">
     <title lang="en">Storycon</title>
     <desc lang="en">Storycon.</desc>
@@ -12273,10 +13079,6 @@
   <channel id="One PH">
     <display-name>One PH</display-name>
   </channel>
-  <programme start="20261105150000 +0000" stop="20261105160000 +0000" channel="One PH">
-    <title lang="en">Cristy Ferminute</title>
-    <desc lang="en">Cristy Ferminute.</desc>
-  </programme>
   <programme start="20261105160000 +0000" stop="20261105170000 +0000" channel="One PH">
     <title lang="en">Woman In Action</title>
     <desc lang="en">Woman In Action.</desc>
@@ -12596,14 +13398,6 @@
   <channel id="One Sports">
     <display-name>One Sports</display-name>
   </channel>
-  <programme start="20261105130000 +0000" stop="20261105153000 +0000" channel="One Sports">
-    <title lang="en">2026 Spikers Turf Invitational: AFP vs Vns</title>
-    <desc lang="en">2026 Spikers Turf Invitational: AFP vs Vns.</desc>
-  </programme>
-  <programme start="20261105153000 +0000" stop="20261105160000 +0000" channel="One Sports">
-    <title lang="en">Starting Line-Up</title>
-    <desc lang="en">Starting Line-Up.</desc>
-  </programme>
   <programme start="20261105160000 +0000" stop="20261105212800 +0000" channel="One Sports">
     <title lang="en">Sign Off</title>
     <desc lang="en">Sign Off.</desc>
@@ -12767,10 +13561,6 @@
   <channel id="Premier Sports">
     <display-name>Premier Sports</display-name>
   </channel>
-  <programme start="20261105100000 +0000" stop="20261105160000 +0000" channel="Premier Sports">
-    <title lang="en">ATP 1000: Rolex Paris Masters Day 4</title>
-    <desc lang="en">ATP 1000: Rolex Paris Masters Day 4.</desc>
-  </programme>
   <programme start="20261105160000 +0000" stop="20261105220000 +0000" channel="Premier Sports">
     <title lang="en">ATP 1000: Rolex Paris Masters Day 4</title>
     <desc lang="en">ATP 1000: Rolex Paris Masters Day 4.</desc>
@@ -12882,10 +13672,6 @@
   <channel id="Rock Action">
     <display-name>Rock Action</display-name>
   </channel>
-  <programme start="20261105125500 +0000" stop="20261105153500 +0000" channel="Rock Action">
-    <title lang="en">The Hateful Eight</title>
-    <desc lang="en">Quentin Tarantino’s 8th film takes place in wintry Wyoming, where eight strangers, including two bounty hunters and a wanted fugitive, find themselves battling the elements and each other.</desc>
-  </programme>
   <programme start="20261105153500 +0000" stop="20261105173000 +0000" channel="Rock Action">
     <title lang="en">Ghost Rider</title>
     <desc lang="en">Based on the Marvel Comics character, stunt motorcyclist Johnny Blaze gives up his soul to become a hell-blazing vigilante, to fight against power-hungry Blackheart, the son of the devil himself.</desc>
@@ -13061,10 +13847,6 @@
   <channel id="RPTV">
     <display-name>RPTV</display-name>
   </channel>
-  <programme start="20261105151500 +0000" stop="20261105155500 +0000" channel="RPTV">
-    <title lang="en">Frontline Tonight</title>
-    <desc lang="en">Frontline Tonight.</desc>
-  </programme>
   <programme start="20261105155500 +0000" stop="20261105215700 +0000" channel="RPTV">
     <title lang="en">Sign Off</title>
     <desc lang="en">Sign Off.</desc>
@@ -13525,14 +14307,6 @@
   <channel id="Tap Movies">
     <display-name>Tap Movies</display-name>
   </channel>
-  <programme start="20261105132000 +0000" stop="20261105153000 +0000" channel="Tap Movies">
-    <title lang="en">Bumblebee</title>
-    <desc lang="en">Bumblebee.</desc>
-  </programme>
-  <programme start="20261105153000 +0000" stop="20261105160000 +0000" channel="Tap Movies">
-    <title lang="en">Hollywood On Set</title>
-    <desc lang="en">Hollywood On Set.</desc>
-  </programme>
   <programme start="20261105160000 +0000" stop="20261105175000 +0000" channel="Tap Movies">
     <title lang="en">Generation Um...</title>
     <desc lang="en">Generation Um...</desc>
@@ -13720,10 +14494,6 @@
   <channel id="TAP Sports">
     <display-name>TAP Sports</display-name>
   </channel>
-  <programme start="20261105150000 +0000" stop="20261105160000 +0000" channel="TAP Sports">
-    <title lang="en">Women of Wrestling Season 2</title>
-    <desc lang="en">Women of Wrestling Season 2.</desc>
-  </programme>
   <programme start="20261105160000 +0000" stop="20261105180000 +0000" channel="TAP Sports">
     <title lang="en">MPBL 2026</title>
     <desc lang="en">MPBL 2026.</desc>
@@ -13900,13 +14670,451 @@
     <title lang="en">Women of Wrestling Season 2</title>
     <desc lang="en">Women of Wrestling Season 2.</desc>
   </programme>
+  <channel id="TVN Movies">
+    <display-name>TVN Movies</display-name>
+  </channel>
+  <programme start="20261105145500 +0000" stop="20261105165500 +0000" channel="TVN Movies">
+    <title lang="en">Cold Eyes</title>
+    <desc lang="en">Yoon-joo, a rookie detective, joins a crime unit specialises in surveillance activities of high-profile criminals. They work together and track down a dangerous robber and his crew.</desc>
+  </programme>
+  <programme start="20261105165500 +0000" stop="20261105184000 +0000" channel="TVN Movies">
+    <title lang="en">Cart</title>
+    <desc lang="en">As a social critique, ‘Cart’ tells a story of the employees of a retail supermarket band together when the contract workers are summarily laid off.</desc>
+  </programme>
+  <programme start="20261105184000 +0000" stop="20261105203000 +0000" channel="TVN Movies">
+    <title lang="en">Cheer Up, Mr. Lee!</title>
+    <desc lang="en">Unlike his heart-throb appearances, Mr. Lee, who has very child-like characteristics, embarks on a voyage of discovery with his young daughter ‘Saet-byeol’ whom he has just met.</desc>
+  </programme>
+  <programme start="20261105203000 +0000" stop="20261105220000 +0000" channel="TVN Movies">
+    <title lang="en">Fist &amp; Furious</title>
+    <desc lang="en">A former detective grants permission to a freelance video journalist to cover his revenge journey on a mob boss whom previously killed his partner during an investigation.</desc>
+  </programme>
+  <programme start="20261105220000 +0000" stop="20261105235000 +0000" channel="TVN Movies">
+    <title lang="en">One Win</title>
+    <desc lang="en">Woo-jin is the newly appointed manager of a girls' volleyball team which is going to disband. The new owner sold all ace players for money and asked the team to win at least once.</desc>
+  </programme>
+  <programme start="20261105235000 +0000" stop="20261106015000 +0000" channel="TVN Movies">
+    <title lang="en">The Villainess</title>
+    <desc lang="en">Assassin Sook-hee is recruited as a sleeper agent with the promise of freedom after ten years of service. But after secrets from her past destroy her normal life, she decides to take revenge.</desc>
+  </programme>
+  <programme start="20261106015000 +0000" stop="20261106040500 +0000" channel="TVN Movies">
+    <title lang="en">Forbidden Dream</title>
+    <desc lang="en">Two Korean inventors develop a 20-year relationship while advancing the field of astronomy.</desc>
+  </programme>
+  <programme start="20261106040500 +0000" stop="20261106050000 +0000" channel="TVN Movies">
+    <title lang="en">Heo's Diner Ep5</title>
+    <desc lang="en">Based on a web novel of the same name, a man from Joseon dynasty accidentally travels 400 years into the future and opens a restaurant unintentionally in modern Seoul.</desc>
+  </programme>
+  <programme start="20261106050000 +0000" stop="20261106060000 +0000" channel="TVN Movies">
+    <title lang="en">Heo's Diner Ep6</title>
+    <desc lang="en">Based on a web novel of the same name, a man from Joseon dynasty accidentally travels 400 years into the future and opens a restaurant unintentionally in modern Seoul.</desc>
+  </programme>
+  <programme start="20261106060000 +0000" stop="20261106073500 +0000" channel="TVN Movies">
+    <title lang="en">Worst Woman</title>
+    <desc lang="en">Eun-hee is an actress with poor acting and she acts in her life. She creates different characters when she dates a man. Eventually, her lies are tangled up and everything is messed up...</desc>
+  </programme>
+  <programme start="20261106073500 +0000" stop="20261106095000 +0000" channel="TVN Movies">
+    <title lang="en">The King</title>
+    <desc lang="en">Believing power is paramount, Tae-soo aspires to become a prosecutor. As he achieves his goal and rises swiftly to power, he also sees the cruelty of a life at the top hierarchy in 90's Korea.</desc>
+  </programme>
+  <programme start="20261106095000 +0000" stop="20261106113000 +0000" channel="TVN Movies">
+    <title lang="en">Room No. 7</title>
+    <desc lang="en">Doo-Sik tries to evade bankruptcy by selling his DVD screening business, but a crisis arises as he discovers a corpse and a stash of drugs that belongs to his employee in screening room number seven.</desc>
+  </programme>
+  <programme start="20261106113000 +0000" stop="20261106133000 +0000" channel="TVN Movies">
+    <title lang="en">Love Barista</title>
+    <desc lang="en">Superstar Jun-woo is stranded in Vietnam with no passport and money. Barista Tao breaks his phone and offers him shelter. As their bond begins to blossom, scandals tear them apart...</desc>
+  </programme>
+  <programme start="20261106133000 +0000" stop="20261106154000 +0000" channel="TVN Movies">
+    <title lang="en">The Pirates</title>
+    <desc lang="en">Before the founding of the Joseon Dynasty, envoys from China lose the Royal Seal to a whale. A group of bandits attempt to retrieve it for a large reward and run into a group of pirates.</desc>
+  </programme>
+  <programme start="20261106154000 +0000" stop="20261106172000 +0000" channel="TVN Movies">
+    <title lang="en">Heartman: Rock And Love</title>
+    <desc lang="en">Seung-min, a former rock singer scarred by a humiliating past, reunites with his first love Bo-na. As romance sparks again, hidden secrets and old wounds threaten their second chance.</desc>
+  </programme>
+  <programme start="20261106172000 +0000" stop="20261106190000 +0000" channel="TVN Movies">
+    <title lang="en">The Noisy Mansion</title>
+    <desc lang="en">Geo-ul moves into the mysterious apartment plagued by unexplained floor noise. Determined to solve the mystery, she faces unexpected challenges while uncovering the apartment's secrets.</desc>
+  </programme>
+  <programme start="20261106190000 +0000" stop="20261106211500 +0000" channel="TVN Movies">
+    <title lang="en">New World</title>
+    <desc lang="en">An undercover cop infiltrates South Korea’s largest crime organization and spends eight years rising in the ranks. When the head of the organization is killed, he becomes torn between his loyalties.</desc>
+  </programme>
+  <programme start="20261106211500 +0000" stop="20261106225500 +0000" channel="TVN Movies">
+    <title lang="en">The Silenced</title>
+    <desc lang="en">When a girl transfers to a mysterious boarding school, she slowly begins to discover the dark secrets threatening her life.</desc>
+  </programme>
+  <programme start="20261106225500 +0000" stop="20261107004500 +0000" channel="TVN Movies">
+    <title lang="en">Metamorphosis</title>
+    <desc lang="en">An evil spirit that changes faces infiltrates a family, placing one brother in danger while the other tries to save him.</desc>
+  </programme>
+  <programme start="20261107004500 +0000" stop="20261107025000 +0000" channel="TVN Movies">
+    <title lang="en">War Of The Arrows</title>
+    <desc lang="en">Set during the second Manchu invasion of Korea, Nam Yi, the best archer in Korea, goes up against the Qing Dynasty to rescue his younger sister Ja In - who was to be enslaved by the Manchurians.</desc>
+  </programme>
+  <programme start="20261107025000 +0000" stop="20261107045000 +0000" channel="TVN Movies">
+    <title lang="en">Cold Eyes</title>
+    <desc lang="en">Yoon-joo, a rookie detective, joins a crime unit specialises in surveillance activities of high-profile criminals. They work together and track down a dangerous robber and his crew.</desc>
+  </programme>
+  <programme start="20261107045000 +0000" stop="20261107064000 +0000" channel="TVN Movies">
+    <title lang="en">Hear Me: Our Summer</title>
+    <desc lang="en">Yong-jun is working as a delivery man when he meets and instantly falls for Yeo-reum, the devoted sister of a gifter deaf swimmer. Yeo-reum slowly opens her heart to warm-hearted Yong-jun.</desc>
+  </programme>
+  <programme start="20261107064000 +0000" stop="20261107083000 +0000" channel="TVN Movies">
+    <title lang="en">4Pm</title>
+    <desc lang="en">A couple moved to a new house, dreaming of a peaceful country life. But they face a terrifying reality due to their neighbor, who visits them at the same time every day with just silence….</desc>
+  </programme>
+  <programme start="20261107083000 +0000" stop="20261107102500 +0000" channel="TVN Movies">
+    <title lang="en">Only God Knows Everything</title>
+    <desc lang="en">Do-woon has just been ordained. A man admits to killing his mother during confession. Torn between his duty as a priest and his desire for revenge as a son, he faces a demonic group...</desc>
+  </programme>
+  <programme start="20261107102500 +0000" stop="20261107120000 +0000" channel="TVN Movies">
+    <title lang="en">Dragon Inn Part 1: The City Of Sadness</title>
+    <desc lang="en">Dragon Inn is a Chinese restaurant that also serves as a safe house for a revenge team. A murder case arises, and the victim turns out to be a close friend of one of the members...</desc>
+  </programme>
+  <programme start="20261107120000 +0000" stop="20261107133000 +0000" channel="TVN Movies">
+    <title lang="en">Holy Night: Demon Hunters</title>
+    <desc lang="en">Seoul falls into chaos as a devil-worshipping cult summons an ancient demon Asmodeus. “Holy Night”, the demon-hunting trio, unleash their power to battle against the cult enforcers and the demon in order to save a possessed girl from Asmodeus.</desc>
+  </programme>
+  <programme start="20261107133000 +0000" stop="20261107151000 +0000" channel="TVN Movies">
+    <title lang="en">The Ultimate Duo</title>
+    <desc lang="en">Jae-hyuk teams up with rookie detective Joong-ho. They arrest a thief and discover he may be a culprit of a closed case. They reopen the case yet the investigation runs into obstacles...</desc>
+  </programme>
+  <programme start="20261107151000 +0000" stop="20261107164500 +0000" channel="TVN Movies">
+    <title lang="en">Streaming</title>
+    <desc lang="en">Top crime channel streamer Woo Sang goes live to catch a serial killer and reclaim fame—until he learns the killer is watching, turning his hunt into a deadly game.</desc>
+  </programme>
+  <programme start="20261107164500 +0000" stop="20261107185500 +0000" channel="TVN Movies">
+    <title lang="en">The Attorney</title>
+    <desc lang="en">When tax attorney Song Woo-Suk agrees to defend a student activist who was arrested and tortured into giving a false confession, his entire life and worldview begin to change drastically.</desc>
+  </programme>
+  <programme start="20261107185500 +0000" stop="20261107205000 +0000" channel="TVN Movies">
+    <title lang="en">Hidden Face</title>
+    <desc lang="en">While Sung-jin is searching for his fiancée Su-yeon, he meets her friend Mi-ju. A breathtaking thriller unfolds in which Su-yeon, who is trapped in a secret room, witnesses a naked truth.</desc>
+  </programme>
+  <programme start="20261107205000 +0000" stop="20261107223500 +0000" channel="TVN Movies">
+    <title lang="en">Miss Baek</title>
+    <desc lang="en">A woman finds it difficult to shake off her ex-convict label, until she meets a girl whom she is determined to save.</desc>
+  </programme>
+  <programme start="20261107223500 +0000" stop="20261108000000 +0000" channel="TVN Movies">
+    <title lang="en">Abroad</title>
+    <desc lang="en">After the disappearance of his girlfriend, a foreigner man lost in a hostile land becomes the main suspect and his desperate research for her turns into a fight to stay alive.</desc>
+  </programme>
+  <programme start="20261108000000 +0000" stop="20261108014000 +0000" channel="TVN Movies">
+    <title lang="en">The Noisy Mansion</title>
+    <desc lang="en">Geo-ul moves into the mysterious apartment plagued by unexplained floor noise. Determined to solve the mystery, she faces unexpected challenges while uncovering the apartment's secrets.</desc>
+  </programme>
+  <programme start="20261108014000 +0000" stop="20261108033500 +0000" channel="TVN Movies">
+    <title lang="en">The Sheriff In Town</title>
+    <desc lang="en">When a former police investigator from Busan suspects something off about a slick businessman from Seoul, the “sheriff” resolves to track his every move in order to keep his town safe.</desc>
+  </programme>
+  <programme start="20261108033500 +0000" stop="20261108053000 +0000" channel="TVN Movies">
+    <title lang="en">Peninsula</title>
+    <desc lang="en">Set four years after the zombie outbreak, a former soldier and his team return to the zombie-infested wastelands to retrieve a truck of money and try to escape from it alive.</desc>
+  </programme>
+  <programme start="20261108053000 +0000" stop="20261108064000 +0000" channel="TVN Movies">
+    <title lang="en">Boyhood Ep7</title>
+    <desc lang="en">A socially-awkward boy was mistakenly recognized as "White Tiger", the best fighter in town, on his first day transferring to Buyeo Agricultural High School.</desc>
+  </programme>
+  <programme start="20261108064000 +0000" stop="20261108074000 +0000" channel="TVN Movies">
+    <title lang="en">Boyhood Ep8</title>
+    <desc lang="en">A socially-awkward boy was mistakenly recognized as "White Tiger", the best fighter in town, on his first day transferring to Buyeo Agricultural High School.</desc>
+  </programme>
+  <programme start="20261108074000 +0000" stop="20261108094000 +0000" channel="TVN Movies">
+    <title lang="en">Love, Lies</title>
+    <desc lang="en">A gisaeng is consumed by jealousy after her friend finds success as a pop singer and her lover falls for her. Feeling betrayed, things begin to fall apart as she tries to regain the things she lost.</desc>
+  </programme>
+  <programme start="20261108094000 +0000" stop="20261108120000 +0000" channel="TVN Movies">
+    <title lang="en">No Other Choice</title>
+    <desc lang="en">After being laid off and humiliated by a ruthless job market, a paper mill manager has no other choice but to turn to violence to eliminate those who stand in the way of his dream life.</desc>
+  </programme>
+  <programme start="20261108120000 +0000" stop="20261108133000 +0000" channel="TVN Movies">
+    <title lang="en">Dragon Inn Part 2: The Night Of Salvation</title>
+    <desc lang="en">Dragon Inn investigates a missing case related to a pseudoreligion. Their location and identities are exposed by mistake. Can they defeat the cult and rescue the missing girl?</desc>
+  </programme>
+  <programme start="20261108133000 +0000" stop="20261108153500 +0000" channel="TVN Movies">
+    <title lang="en">Veteran</title>
+    <desc lang="en">A merciless detective hunts down a young and successful drug addict who always escapes from investigations with the help of his wealth and connections.</desc>
+  </programme>
+  <programme start="20261108153500 +0000" stop="20261108170500 +0000" channel="TVN Movies">
+    <title lang="en">Second Sister</title>
+    <desc lang="en">So-eun, grieving her sister’s suicide after sexual harassment and cyberbullying, teams up with a private investigator Jun-gyeong to uncover the dark truth behind the malicious rumors.</desc>
+  </programme>
+  <programme start="20261108170500 +0000" stop="20261108183500 +0000" channel="TVN Movies">
+    <title lang="en">The Cursed Lesson</title>
+    <desc lang="en">Hyo-Jeong, a fashion model who face the threat of being unemployed, decided to join a mysterious yoga class to maintain her beauty. Yet strange things start to happen...</desc>
+  </programme>
+  <programme start="20261108183500 +0000" stop="20261108193000 +0000" channel="TVN Movies">
+    <title lang="en">Heo's Diner Ep5</title>
+    <desc lang="en">Based on a web novel of the same name, a man from Joseon dynasty accidentally travels 400 years into the future and opens a restaurant unintentionally in modern Seoul.</desc>
+  </programme>
+  <programme start="20261108193000 +0000" stop="20261108203000 +0000" channel="TVN Movies">
+    <title lang="en">Heo's Diner Ep6</title>
+    <desc lang="en">Based on a web novel of the same name, a man from Joseon dynasty accidentally travels 400 years into the future and opens a restaurant unintentionally in modern Seoul.</desc>
+  </programme>
+  <programme start="20261108203000 +0000" stop="20261108224500 +0000" channel="TVN Movies">
+    <title lang="en">New World</title>
+    <desc lang="en">An undercover cop infiltrates South Korea’s largest crime organization and spends eight years rising in the ranks. When the head of the organization is killed, he becomes torn between his loyalties.</desc>
+  </programme>
+  <programme start="20261108224500 +0000" stop="20261109002500 +0000" channel="TVN Movies">
+    <title lang="en">What A Man Wants</title>
+    <desc lang="en">Taxi driver Seok-geun, his sister Mi-young, and their spouses face infidelity, desire, and tangled emotions while searching for love, laughter, and meaning in their lives.</desc>
+  </programme>
+  <channel id="TVN">
+    <display-name>TVN</display-name>
+  </channel>
+  <programme start="20261105143000 +0000" stop="20261105162000 +0000" channel="TVN">
+    <title lang="en">World Dice Tour 4</title>
+    <desc lang="en">Three travel creators roll dice to travel the world, filming cinematic travelogues across genres to compete for the prestigious "Golden Cloud Award.".</desc>
+  </programme>
+  <programme start="20261105162000 +0000" stop="20261105173500 +0000" channel="TVN">
+    <title lang="en">My Bias, My Boss</title>
+    <desc lang="en">Joining fashion firm Appello to meet her ultimate idol Lee Chan, new employee Nam Da-reum ends up working under workaholic CEO Kang Ha-gi, leading to a tangled workplace love triangle.</desc>
+  </programme>
+  <programme start="20261105173500 +0000" stop="20261105185500 +0000" channel="TVN">
+    <title lang="en">My Bias, My Boss</title>
+    <desc lang="en">Joining fashion firm Appello to meet her ultimate idol Lee Chan, new employee Nam Da-reum ends up working under workaholic CEO Kang Ha-gi, leading to a tangled workplace love triangle.</desc>
+  </programme>
+  <programme start="20261105185500 +0000" stop="20261105201000 +0000" channel="TVN">
+    <title lang="en">The Judge Returns</title>
+    <desc lang="en">Judge Lee Han-young, who regains consciousness after an unjust death, returns to the past to punish the wrongdoers and change his fate.</desc>
+  </programme>
+  <programme start="20261105201000 +0000" stop="20261105220000 +0000" channel="TVN">
+    <title lang="en">World Dice Tour 4</title>
+    <desc lang="en">Three travel creators roll dice to travel the world, filming cinematic travelogues across genres to compete for the prestigious "Golden Cloud Award.".</desc>
+  </programme>
+  <programme start="20261105220000 +0000" stop="20261105232000 +0000" channel="TVN">
+    <title lang="en">Sixth Sense: B-side</title>
+    <desc lang="en">Each journey exploring trending SNS destinations hides a fake place created by the production team! Join the 'Sixth Sensers' for a brand new season and distinguish the fake from the real.</desc>
+  </programme>
+  <programme start="20261105232000 +0000" stop="20261106012500 +0000" channel="TVN">
+    <title lang="en">Europe Outside Your Tent: Romantic Italy</title>
+    <desc lang="en">Join veteran camper Ra Mi-ran as she leads a trio of rookie campers - Kwak Sun-young, Lee Joo-bin and Lee Se-young - on a romantic camping trip across Italy's hidden gems.</desc>
+  </programme>
+  <programme start="20261106012500 +0000" stop="20261106030000 +0000" channel="TVN">
+    <title lang="en">Abra-ca Empty: The Weight We Share</title>
+    <desc lang="en">Four travelers embark on a two-week journey to four destinations with just one shared suitcase, turning every packing choice into a challenge, compromise and adventure.</desc>
+  </programme>
+  <programme start="20261106030000 +0000" stop="20261106041500 +0000" channel="TVN">
+    <title lang="en">The Judge Returns</title>
+    <desc lang="en">Judge Lee Han-young, who regains consciousness after an unjust death, returns to the past to punish the wrongdoers and change his fate.</desc>
+  </programme>
+  <programme start="20261106041500 +0000" stop="20261106053500 +0000" channel="TVN">
+    <title lang="en">My Bias, My Boss</title>
+    <desc lang="en">Joining fashion firm Appello to meet her ultimate idol Lee Chan, new employee Nam Da-reum ends up working under workaholic CEO Kang Ha-gi, leading to a tangled workplace love triangle.</desc>
+  </programme>
+  <programme start="20261106053500 +0000" stop="20261106065500 +0000" channel="TVN">
+    <title lang="en">My Bias, My Boss</title>
+    <desc lang="en">Joining fashion firm Appello to meet her ultimate idol Lee Chan, new employee Nam Da-reum ends up working under workaholic CEO Kang Ha-gi, leading to a tangled workplace love triangle.</desc>
+  </programme>
+  <programme start="20261106065500 +0000" stop="20261106090000 +0000" channel="TVN">
+    <title lang="en">Undercover Chef: Friends from Afar</title>
+    <desc lang="en">Overseas veteran chefs from Italy and China visit South Korea, reuniting with Korean star chefs to cross borders and culture through food, shared laughter, and new culinary adventures.</desc>
+  </programme>
+  <programme start="20261106090000 +0000" stop="20261106100000 +0000" channel="TVN">
+    <title lang="en">Walking Through The Village</title>
+    <desc lang="en">Actor Gu Bon-seung shows the warmth and purity of life in the village along the river, and presents how new history was made and became one’s memory.</desc>
+  </programme>
+  <programme start="20261106100000 +0000" stop="20261106115000 +0000" channel="TVN">
+    <title lang="en">World Dice Tour 4</title>
+    <desc lang="en">Three travel creators roll dice to travel the world, filming cinematic travelogues across genres to compete for the prestigious "Golden Cloud Award.".</desc>
+  </programme>
+  <programme start="20261106115000 +0000" stop="20261106131000 +0000" channel="TVN">
+    <title lang="en">The Judge Returns</title>
+    <desc lang="en">Judge Lee Han-young, who regains consciousness after an unjust death, returns to the past to punish the wrongdoers and change his fate.</desc>
+  </programme>
+  <programme start="20261106131000 +0000" stop="20261106143000 +0000" channel="TVN">
+    <title lang="en">The Judge Returns</title>
+    <desc lang="en">Judge Lee Han-young, who regains consciousness after an unjust death, returns to the past to punish the wrongdoers and change his fate.</desc>
+  </programme>
+  <programme start="20261106143000 +0000" stop="20261106160000 +0000" channel="TVN">
+    <title lang="en">Abra-ca Empty: The Weight We Share</title>
+    <desc lang="en">Four travelers embark on a two-week journey to four destinations with just one shared suitcase, turning every packing choice into a challenge, compromise and adventure.</desc>
+  </programme>
+  <programme start="20261106160000 +0000" stop="20261106172000 +0000" channel="TVN">
+    <title lang="en">Sixth Sense: B-side</title>
+    <desc lang="en">Each journey exploring trending SNS destinations hides a fake place created by the production team! Join the 'Sixth Sensers' for a brand new season and distinguish the fake from the real.</desc>
+  </programme>
+  <programme start="20261106172000 +0000" stop="20261106184000 +0000" channel="TVN">
+    <title lang="en">Sixth Sense: B-side</title>
+    <desc lang="en">Each journey exploring trending SNS destinations hides a fake place created by the production team! Join the 'Sixth Sensers' for a brand new season and distinguish the fake from the real.</desc>
+  </programme>
+  <programme start="20261106184000 +0000" stop="20261106200000 +0000" channel="TVN">
+    <title lang="en">The Judge Returns</title>
+    <desc lang="en">Judge Lee Han-young, who regains consciousness after an unjust death, returns to the past to punish the wrongdoers and change his fate.</desc>
+  </programme>
+  <programme start="20261106200000 +0000" stop="20261106203000 +0000" channel="TVN">
+    <title lang="en">Chansung's Cooking</title>
+    <desc lang="en">2PM’s Chansung will explore different restaurants, taste popular menus and recreate them with his own recipes!</desc>
+  </programme>
+  <programme start="20261106203000 +0000" stop="20261106220000 +0000" channel="TVN">
+    <title lang="en">Abra-ca Empty: The Weight We Share</title>
+    <desc lang="en">Four travelers embark on a two-week journey to four destinations with just one shared suitcase, turning every packing choice into a challenge, compromise and adventure.</desc>
+  </programme>
+  <programme start="20261106220000 +0000" stop="20261106222000 +0000" channel="TVN">
+    <title lang="en">You Can Cook With Sam Kim</title>
+    <desc lang="en">Star chef Sam Kim will teach you how to make all kinds of delicious dishes – from Italian pasta, Spanish food to desserts! Follow his easy recipes and enjoy cooking!</desc>
+  </programme>
+  <programme start="20261106222000 +0000" stop="20261106224000 +0000" channel="TVN">
+    <title lang="en">You Can Cook With Sam Kim</title>
+    <desc lang="en">Star chef Sam Kim will teach you how to make all kinds of delicious dishes – from Italian pasta, Spanish food to desserts! Follow his easy recipes and enjoy cooking!</desc>
+  </programme>
+  <programme start="20261106224000 +0000" stop="20261107002000 +0000" channel="TVN">
+    <title lang="en">GBRB: Joy Pops Laugh Pops</title>
+    <desc lang="en">Forget about farming or cooking, the GBRB trio are heading overseas this time! Join them on the exciting and bumpy freestyle trip in Mexico.</desc>
+  </programme>
+  <programme start="20261107002000 +0000" stop="20261107014000 +0000" channel="TVN">
+    <title lang="en">My Bias, My Boss</title>
+    <desc lang="en">Joining fashion firm Appello to meet her ultimate idol Lee Chan, new employee Nam Da-reum ends up working under workaholic CEO Kang Ha-gi, leading to a tangled workplace love triangle.</desc>
+  </programme>
+  <programme start="20261107014000 +0000" stop="20261107030000 +0000" channel="TVN">
+    <title lang="en">My Bias, My Boss</title>
+    <desc lang="en">Joining fashion firm Appello to meet her ultimate idol Lee Chan, new employee Nam Da-reum ends up working under workaholic CEO Kang Ha-gi, leading to a tangled workplace love triangle.</desc>
+  </programme>
+  <programme start="20261107030000 +0000" stop="20261107042000 +0000" channel="TVN">
+    <title lang="en">The Judge Returns</title>
+    <desc lang="en">Judge Lee Han-young, who regains consciousness after an unjust death, returns to the past to punish the wrongdoers and change his fate.</desc>
+  </programme>
+  <programme start="20261107042000 +0000" stop="20261107061000 +0000" channel="TVN">
+    <title lang="en">World Dice Tour 4</title>
+    <desc lang="en">Three travel creators roll dice to travel the world, filming cinematic travelogues across genres to compete for the prestigious "Golden Cloud Award.".</desc>
+  </programme>
+  <programme start="20261107061000 +0000" stop="20261107075000 +0000" channel="TVN">
+    <title lang="en">3 Meals A Day : Light</title>
+    <desc lang="en">3 Meals A Day returns on its 10th anniversary. Cha Seung-won and Yoo Hae-jin will experience a self-sufficient village life again and enjoy simple yet fulfilling meals with surprise guests.</desc>
+  </programme>
+  <programme start="20261107075000 +0000" stop="20261107093000 +0000" channel="TVN">
+    <title lang="en">GBRB: Joy Pops Laugh Pops</title>
+    <desc lang="en">Forget about farming or cooking, the GBRB trio are heading overseas this time! Join them on the exciting and bumpy freestyle trip in Mexico.</desc>
+  </programme>
+  <programme start="20261107093000 +0000" stop="20261107100000 +0000" channel="TVN">
+    <title lang="en">Chansung's Cooking</title>
+    <desc lang="en">2PM’s Chansung will explore different restaurants, taste popular menus and recreate them with his own recipes!</desc>
+  </programme>
+  <programme start="20261107100000 +0000" stop="20261107103000 +0000" channel="TVN">
+    <title lang="en">Chansung's Cooking</title>
+    <desc lang="en">2PM’s Chansung will explore different restaurants, taste popular menus and recreate them with his own recipes!</desc>
+  </programme>
+  <programme start="20261107103000 +0000" stop="20261107115000 +0000" channel="TVN">
+    <title lang="en">Sixth Sense: B-side</title>
+    <desc lang="en">Each journey exploring trending SNS destinations hides a fake place created by the production team! Join the 'Sixth Sensers' for a brand new season and distinguish the fake from the real.</desc>
+  </programme>
+  <programme start="20261107115000 +0000" stop="20261107131000 +0000" channel="TVN">
+    <title lang="en">The Judge Returns</title>
+    <desc lang="en">Judge Lee Han-young, who regains consciousness after an unjust death, returns to the past to punish the wrongdoers and change his fate.</desc>
+  </programme>
+  <programme start="20261107131000 +0000" stop="20261107151000 +0000" channel="TVN">
+    <title lang="en">Undercover Chef: Friends from Afar</title>
+    <desc lang="en">Overseas veteran chefs from Italy and China visit South Korea, reuniting with Korean star chefs to cross borders and culture through food, shared laughter, and new culinary adventures.</desc>
+  </programme>
+  <programme start="20261107151000 +0000" stop="20261107171000 +0000" channel="TVN">
+    <title lang="en">Europe Outside Your Tent: Romantic Italy</title>
+    <desc lang="en">Join veteran camper Ra Mi-ran as she leads a trio of rookie campers - Kwak Sun-young, Lee Joo-bin and Lee Se-young - on a romantic camping trip across Italy's hidden gems.</desc>
+  </programme>
+  <programme start="20261107171000 +0000" stop="20261107190000 +0000" channel="TVN">
+    <title lang="en">World Dice Tour 4</title>
+    <desc lang="en">Three travel creators roll dice to travel the world, filming cinematic travelogues across genres to compete for the prestigious "Golden Cloud Award.".</desc>
+  </programme>
+  <programme start="20261107190000 +0000" stop="20261107192000 +0000" channel="TVN">
+    <title lang="en">You Can Cook With Sam Kim</title>
+    <desc lang="en">Star chef Sam Kim will teach you how to make all kinds of delicious dishes – from Italian pasta, Spanish food to desserts! Follow his easy recipes and enjoy cooking!</desc>
+  </programme>
+  <programme start="20261107192000 +0000" stop="20261107204000 +0000" channel="TVN">
+    <title lang="en">Sixth Sense: B-side</title>
+    <desc lang="en">Each journey exploring trending SNS destinations hides a fake place created by the production team! Join the 'Sixth Sensers' for a brand new season and distinguish the fake from the real.</desc>
+  </programme>
+  <programme start="20261107204000 +0000" stop="20261107220000 +0000" channel="TVN">
+    <title lang="en">Sixth Sense: B-side</title>
+    <desc lang="en">Each journey exploring trending SNS destinations hides a fake place created by the production team! Join the 'Sixth Sensers' for a brand new season and distinguish the fake from the real.</desc>
+  </programme>
+  <programme start="20261107220000 +0000" stop="20261108000500 +0000" channel="TVN">
+    <title lang="en">Europe Outside Your Tent: Romantic Italy</title>
+    <desc lang="en">Join veteran camper Ra Mi-ran as she leads a trio of rookie campers - Kwak Sun-young, Lee Joo-bin and Lee Se-young - on a romantic camping trip across Italy's hidden gems.</desc>
+  </programme>
+  <programme start="20261108000500 +0000" stop="20261108002500 +0000" channel="TVN">
+    <title lang="en">You Can Cook With Sam Kim</title>
+    <desc lang="en">Star chef Sam Kim will teach you how to make all kinds of delicious dishes – from Italian pasta, Spanish food to desserts! Follow his easy recipes and enjoy cooking!</desc>
+  </programme>
+  <programme start="20261108002500 +0000" stop="20261108014000 +0000" channel="TVN">
+    <title lang="en">The Judge Returns</title>
+    <desc lang="en">Judge Lee Han-young, who regains consciousness after an unjust death, returns to the past to punish the wrongdoers and change his fate.</desc>
+  </programme>
+  <programme start="20261108014000 +0000" stop="20261108030000 +0000" channel="TVN">
+    <title lang="en">The Judge Returns</title>
+    <desc lang="en">Judge Lee Han-young, who regains consciousness after an unjust death, returns to the past to punish the wrongdoers and change his fate.</desc>
+  </programme>
+  <programme start="20261108030000 +0000" stop="20261108050000 +0000" channel="TVN">
+    <title lang="en">Undercover Chef: Friends from Afar</title>
+    <desc lang="en">Overseas veteran chefs from Italy and China visit South Korea, reuniting with Korean star chefs to cross borders and culture through food, shared laughter, and new culinary adventures.</desc>
+  </programme>
+  <programme start="20261108050000 +0000" stop="20261108062000 +0000" channel="TVN">
+    <title lang="en">Sixth Sense: B-side</title>
+    <desc lang="en">Each journey exploring trending SNS destinations hides a fake place created by the production team! Join the 'Sixth Sensers' for a brand new season and distinguish the fake from the real.</desc>
+  </programme>
+  <programme start="20261108062000 +0000" stop="20261108074000 +0000" channel="TVN">
+    <title lang="en">Sixth Sense: B-side</title>
+    <desc lang="en">Each journey exploring trending SNS destinations hides a fake place created by the production team! Join the 'Sixth Sensers' for a brand new season and distinguish the fake from the real.</desc>
+  </programme>
+  <programme start="20261108074000 +0000" stop="20261108081000 +0000" channel="TVN">
+    <title lang="en">Chansung's Cooking</title>
+    <desc lang="en">2PM’s Chansung will explore different restaurants, taste popular menus and recreate them with his own recipes!</desc>
+  </programme>
+  <programme start="20261108081000 +0000" stop="20261108100000 +0000" channel="TVN">
+    <title lang="en">World Dice Tour 4</title>
+    <desc lang="en">Three travel creators roll dice to travel the world, filming cinematic travelogues across genres to compete for the prestigious "Golden Cloud Award.".</desc>
+  </programme>
+  <programme start="20261108100000 +0000" stop="20261108113000 +0000" channel="TVN">
+    <title lang="en">Abra-ca Empty: The Weight We Share</title>
+    <desc lang="en">Four travelers embark on a two-week journey to four destinations with just one shared suitcase, turning every packing choice into a challenge, compromise and adventure.</desc>
+  </programme>
+  <programme start="20261108113000 +0000" stop="20261108131000 +0000" channel="TVN">
+    <title lang="en">GBRB: Joy Pops Laugh Pops</title>
+    <desc lang="en">Forget about farming or cooking, the GBRB trio are heading overseas this time! Join them on the exciting and bumpy freestyle trip in Mexico.</desc>
+  </programme>
+  <programme start="20261108131000 +0000" stop="20261108143000 +0000" channel="TVN">
+    <title lang="en">My Bias, My Boss</title>
+    <desc lang="en">Joining fashion firm Appello to meet her ultimate idol Lee Chan, new employee Nam Da-reum ends up working under workaholic CEO Kang Ha-gi, leading to a tangled workplace love triangle.</desc>
+  </programme>
+  <programme start="20261108143000 +0000" stop="20261108155000 +0000" channel="TVN">
+    <title lang="en">My Bias, My Boss</title>
+    <desc lang="en">Joining fashion firm Appello to meet her ultimate idol Lee Chan, new employee Nam Da-reum ends up working under workaholic CEO Kang Ha-gi, leading to a tangled workplace love triangle.</desc>
+  </programme>
+  <programme start="20261108155000 +0000" stop="20261108171000 +0000" channel="TVN">
+    <title lang="en">The Judge Returns</title>
+    <desc lang="en">Judge Lee Han-young, who regains consciousness after an unjust death, returns to the past to punish the wrongdoers and change his fate.</desc>
+  </programme>
+  <programme start="20261108171000 +0000" stop="20261108183000 +0000" channel="TVN">
+    <title lang="en">The Judge Returns</title>
+    <desc lang="en">Judge Lee Han-young, who regains consciousness after an unjust death, returns to the past to punish the wrongdoers and change his fate.</desc>
+  </programme>
+  <programme start="20261108183000 +0000" stop="20261108200000 +0000" channel="TVN">
+    <title lang="en">Abra-ca Empty: The Weight We Share</title>
+    <desc lang="en">Four travelers embark on a two-week journey to four destinations with just one shared suitcase, turning every packing choice into a challenge, compromise and adventure.</desc>
+  </programme>
+  <programme start="20261108200000 +0000" stop="20261108202000 +0000" channel="TVN">
+    <title lang="en">You Can Cook With Sam Kim</title>
+    <desc lang="en">Star chef Sam Kim will teach you how to make all kinds of delicious dishes – from Italian pasta, Spanish food to desserts! Follow his easy recipes and enjoy cooking!</desc>
+  </programme>
+  <programme start="20261108202000 +0000" stop="20261108220000 +0000" channel="TVN">
+    <title lang="en">GBRB: Joy Pops Laugh Pops</title>
+    <desc lang="en">Forget about farming or cooking, the GBRB trio are heading overseas this time! Join them on the exciting and bumpy freestyle trip in Mexico.</desc>
+  </programme>
+  <programme start="20261108220000 +0000" stop="20261108225500 +0000" channel="TVN">
+    <title lang="en">Walking Through The Village</title>
+    <desc lang="en">Actor Gu Bon-seung shows the warmth and purity of life in the village along the river, and presents how new history was made and became one’s memory.</desc>
+  </programme>
+  <programme start="20261108225500 +0000" stop="20261108232500 +0000" channel="TVN">
+    <title lang="en">Chansung's Cooking</title>
+    <desc lang="en">2PM’s Chansung will explore different restaurants, taste popular menus and recreate them with his own recipes!</desc>
+  </programme>
+  <programme start="20261108232500 +0000" stop="20261109012500 +0000" channel="TVN">
+    <title lang="en">Europe Outside Your Tent: Romantic Italy</title>
+    <desc lang="en">Join veteran camper Ra Mi-ran as she leads a trio of rookie campers - Kwak Sun-young, Lee Joo-bin and Lee Se-young - on a romantic camping trip across Italy's hidden gems.</desc>
+  </programme>
   <channel id="UAAP Varsity">
     <display-name>UAAP Varsity</display-name>
   </channel>
-  <programme start="20261105133000 +0000" stop="20261105160000 +0000" channel="UAAP Varsity">
-    <title lang="en">UP vs. AdU Men's Basketball Tournament UAAP Season 89</title>
-    <desc lang="en">UP vs. AdU Men's Basketball Tournament UAAP Season 89.</desc>
-  </programme>
   <programme start="20261105160000 +0000" stop="20261105180000 +0000" channel="UAAP Varsity">
     <title lang="en">UE vs. FEU Women's Basketball Tournament UAAP Season 89</title>
     <desc lang="en">UE vs. FEU Women's Basketball Tournament UAAP Season 89.</desc>

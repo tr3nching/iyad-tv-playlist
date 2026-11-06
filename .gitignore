@@ -11,4 +11,10 @@ site/mapping.json
 site/mapping.csv
 site/verification.json
 scripts/cache/
+__pycache__/
+site/VERIFICATION.md
+site/independent-alignment.json
+site/ph2-coverage-breakdown.json
+site/INDEX-LOOKUP.md
+site/index-lookup-report.json
 *.zip

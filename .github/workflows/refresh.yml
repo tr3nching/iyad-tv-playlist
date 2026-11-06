@@ -30,6 +30,8 @@ jobs:
           node-version: '22'
       - name: Check playlist handling
         run: npm test
+      - name: Check guide merge and time alignment
+        run: python3 scripts/test_update_epg.py
       - name: Restore current assets or checked snapshot
         env:
           PUBLISH_SNAPSHOT: ${{ github.event_name == 'push' && startsWith(github.event.head_commit.message, 'Publish playlist snapshot') }}

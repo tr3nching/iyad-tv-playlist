@@ -1,0 +1,467 @@
+{
+  "source": "PH2",
+  "total_definitions": 111,
+  "counts": {
+    "station_only_placeholders": 7,
+    "no_programme_entries": 43,
+    "selected": 37,
+    "no_future_programmes": 19,
+    "current_other_regional_or_alternate_feed": 5
+  },
+  "groups": {
+    "station_only_placeholders": [
+      {
+        "source_id": "A2Z.ph",
+        "name": "A2Z"
+      },
+      {
+        "source_id": "DepEd.TV.ph",
+        "name": "DepEd TV"
+      },
+      {
+        "source_id": "IBC.13.ph",
+        "name": "IBC 13"
+      },
+      {
+        "source_id": "Lotus.Macau.ph",
+        "name": "Lotus Macau"
+      },
+      {
+        "source_id": "Moonbug.Kids.ph",
+        "name": "Moonbug Kids"
+      },
+      {
+        "source_id": "PTV.4.ph",
+        "name": "PTV 4"
+      },
+      {
+        "source_id": "TV.Maria.ph",
+        "name": "TV Maria"
+      }
+    ],
+    "no_programme_entries": [
+      {
+        "source_id": "A3G.ph",
+        "name": "A3G"
+      },
+      {
+        "source_id": "ABANTE.ph",
+        "name": "ABANTE"
+      },
+      {
+        "source_id": "ANIONE.ph",
+        "name": "ANIONE"
+      },
+      {
+        "source_id": "Abante.News.TV.ph",
+        "name": "Abante News TV"
+      },
+      {
+        "source_id": "BILYONARYO.ph",
+        "name": "BILYONARYO"
+      },
+      {
+        "source_id": "BLASTSPORTS.ph",
+        "name": "BLASTSPORTS"
+      },
+      {
+        "source_id": "Bloomberg.ph",
+        "name": "Bloomberg"
+      },
+      {
+        "source_id": "CGTN.ph",
+        "name": "CGTN"
+      },
+      {
+        "source_id": "CNN.Philippines.ph",
+        "name": "CNN Philippines"
+      },
+      {
+        "source_id": "COMICU.ph",
+        "name": "COMICU"
+      },
+      {
+        "source_id": "Cinemax.ph",
+        "name": "Cinemax"
+      },
+      {
+        "source_id": "DREAMWORKS.ph",
+        "name": "DREAMWORKS"
+      },
+      {
+        "source_id": "F1F.ph",
+        "name": "F1F"
+      },
+      {
+        "source_id": "IBC.TV.13.ph",
+        "name": "IBC TV 13"
+      },
+      {
+        "source_id": "K-Movies.Pinoy.ph",
+        "name": "K-Movies Pinoy"
+      },
+      {
+        "source_id": "Liga.ph",
+        "name": "Liga"
+      },
+      {
+        "source_id": "MYX.ph",
+        "name": "MYX"
+      },
+      {
+        "source_id": "Metro.Channel.ph",
+        "name": "Metro Channel"
+      },
+      {
+        "source_id": "National.Geographic.ph",
+        "name": "National Geographic"
+      },
+      {
+        "source_id": "OUTDOORCHANNEL.ph",
+        "name": "OUTDOORCHANNEL"
+      },
+      {
+        "source_id": "PBA.Rush.ph",
+        "name": "PBA Rush"
+      },
+      {
+        "source_id": "PLIVE.SDI.6.ph",
+        "name": "PLIVE SDI 6"
+      },
+      {
+        "source_id": "PLIVE.SDI.7.ph",
+        "name": "PLIVE SDI 7"
+      },
+      {
+        "source_id": "PLIVE.SDI.8.ph",
+        "name": "PLIVE SDI 8"
+      },
+      {
+        "source_id": "PREMIERFOOTBALL.ph",
+        "name": "PREMIERFOOTBALL"
+      },
+      {
+        "source_id": "PREMIERSPORTS1.ph",
+        "name": "PREMIERSPORTS1"
+      },
+      {
+        "source_id": "PREMIERSPORTS2.ph",
+        "name": "PREMIERSPORTS2"
+      },
+      {
+        "source_id": "REALBLAST.ph",
+        "name": "REALBLAST"
+      },
+      {
+        "source_id": "Rock.Extreme.ph",
+        "name": "Rock Extreme"
+      },
+      {
+        "source_id": "SPOTV.HD.ph",
+        "name": "SPOTV HD"
+      },
+      {
+        "source_id": "Studio.Universal.ph",
+        "name": "Studio Universal"
+      },
+      {
+        "source_id": "TAPACTIONFLIX.ph",
+        "name": "TAPACTIONFLIX"
+      },
+      {
+        "source_id": "TAPEDGE.ph",
+        "name": "TAPEDGE"
+      },
+      {
+        "source_id": "TAPMOVIES.ph",
+        "name": "TAPMOVIES"
+      },
+      {
+        "source_id": "TAPSPORTS.ph",
+        "name": "TAPSPORTS"
+      },
+      {
+        "source_id": "TAPTV.ph",
+        "name": "TAPTV"
+      },
+      {
+        "source_id": "TV5.HD.ph",
+        "name": "TV5 HD"
+      },
+      {
+        "source_id": "TV5.Monde.ph",
+        "name": "TV5 Monde"
+      },
+      {
+        "source_id": "TVN.ph",
+        "name": "TVN"
+      },
+      {
+        "source_id": "TVNMOVIESPINOY.ph",
+        "name": "TVNMOVIESPINOY"
+      },
+      {
+        "source_id": "Tapsilog.ph",
+        "name": "Tapsilog"
+      },
+      {
+        "source_id": "Telenovela.Channel.ph",
+        "name": "Telenovela Channel"
+      },
+      {
+        "source_id": "UFCTV.ph",
+        "name": "UFCTV"
+      }
+    ],
+    "selected": [
+      {
+        "source_id": "ABC.Australia.ph",
+        "name": "ABC Australia"
+      },
+      {
+        "source_id": "Al.Jazeera.ph",
+        "name": "Al Jazeera"
+      },
+      {
+        "source_id": "Arirang.ph",
+        "name": "Arirang"
+      },
+      {
+        "source_id": "BBC.Earth.HD.ph",
+        "name": "BBC Earth HD"
+      },
+      {
+        "source_id": "BBC.Lifestyle.ph",
+        "name": "BBC Lifestyle"
+      },
+      {
+        "source_id": "BBC.News.ph",
+        "name": "BBC News"
+      },
+      {
+        "source_id": "BLASTMOVIES.ph",
+        "name": "BLASTMOVIES"
+      },
+      {
+        "source_id": "Bilyonaryo.News.Channel.ph",
+        "name": "Bilyonaryo News Channel"
+      },
+      {
+        "source_id": "CCTV.4.ph",
+        "name": "CCTV 4"
+      },
+      {
+        "source_id": "CNA.ph",
+        "name": "CNA"
+      },
+      {
+        "source_id": "CNN.HD.ph",
+        "name": "CNN HD"
+      },
+      {
+        "source_id": "DreamWorks.HD.ph",
+        "name": "DreamWorks HD"
+      },
+      {
+        "source_id": "Fashion.TV.HD.ph",
+        "name": "Fashion TV HD"
+      },
+      {
+        "source_id": "France.24.ph",
+        "name": "France 24"
+      },
+      {
+        "source_id": "Global.Trekker.ph",
+        "name": "Global Trekker"
+      },
+      {
+        "source_id": "HITS.HD.ph",
+        "name": "HITS HD"
+      },
+      {
+        "source_id": "HITS.MOVIES.ph",
+        "name": "HITS MOVIES"
+      },
+      {
+        "source_id": "HITS.NOW.ph",
+        "name": "HITS NOW"
+      },
+      {
+        "source_id": "History.HD.ph",
+        "name": "History HD"
+      },
+      {
+        "source_id": "Knowledge.Channel.ph",
+        "name": "Knowledge Channel"
+      },
+      {
+        "source_id": "Lifetime.SD.ph",
+        "name": "Lifetime SD"
+      },
+      {
+        "source_id": "NBA.TV.Philippines.ph",
+        "name": "NBA TV Philippines"
+      },
+      {
+        "source_id": "NCAA.NXT.ph",
+        "name": "NCAA NXT"
+      },
+      {
+        "source_id": "NHK.World.Japan.ph",
+        "name": "NHK World Japan"
+      },
+      {
+        "source_id": "Nickelodeon.SD.ph",
+        "name": "Nickelodeon SD"
+      },
+      {
+        "source_id": "One.News.ph",
+        "name": "One News"
+      },
+      {
+        "source_id": "One.PH.ph",
+        "name": "One PH"
+      },
+      {
+        "source_id": "One.Sports.HD.ph",
+        "name": "One Sports HD"
+      },
+      {
+        "source_id": "Premier.Sports.HD.ph",
+        "name": "Premier Sports HD"
+      },
+      {
+        "source_id": "RPTV.HD.ph",
+        "name": "RPTV HD"
+      },
+      {
+        "source_id": "Rock.Action.ph",
+        "name": "Rock Action"
+      },
+      {
+        "source_id": "STUDIOUNIVERSAL.ph",
+        "name": "STUDIOUNIVERSAL"
+      },
+      {
+        "source_id": "TAP.Movies.HD.ph",
+        "name": "TAP Movies HD"
+      },
+      {
+        "source_id": "Tap.Sports.ph",
+        "name": "Tap Sports"
+      },
+      {
+        "source_id": "UAAP.Varsity.Channel.ph",
+        "name": "UAAP Varsity Channel"
+      },
+      {
+        "source_id": "tvN.Movies.Pinoy.ph",
+        "name": "tvN Movies Pinoy"
+      },
+      {
+        "source_id": "tvN.Premium.HD.ph",
+        "name": "tvN Premium HD"
+      }
+    ],
+    "no_future_programmes": [
+      {
+        "source_id": "ANC.ph",
+        "name": "ANC"
+      },
+      {
+        "source_id": "AXN.ph",
+        "name": "AXN"
+      },
+      {
+        "source_id": "Animax.ph",
+        "name": "Animax"
+      },
+      {
+        "source_id": "Cinema.One.ph",
+        "name": "Cinema One"
+      },
+      {
+        "source_id": "Crime.Investigation.ph",
+        "name": "Crime Investigation"
+      },
+      {
+        "source_id": "GMA.ph",
+        "name": "GMA"
+      },
+      {
+        "source_id": "GTV.ph",
+        "name": "GTV"
+      },
+      {
+        "source_id": "History.ph",
+        "name": "History"
+      },
+      {
+        "source_id": "Jeepney.TV.ph",
+        "name": "Jeepney TV"
+      },
+      {
+        "source_id": "Kapamilya.Channel.ph",
+        "name": "Kapamilya Channel"
+      },
+      {
+        "source_id": "Net.25.ph",
+        "name": "Net 25"
+      },
+      {
+        "source_id": "PBO.ph",
+        "name": "PBO"
+      },
+      {
+        "source_id": "PTV.ph",
+        "name": "PTV"
+      },
+      {
+        "source_id": "Rock.Entertainment.ph",
+        "name": "Rock Entertainment"
+      },
+      {
+        "source_id": "Solar.Flix.ph",
+        "name": "Solar Flix"
+      },
+      {
+        "source_id": "TV5.ph",
+        "name": "TV5"
+      },
+      {
+        "source_id": "Tagalized.Movie.Channel.ph",
+        "name": "Tagalized Movie Channel"
+      },
+      {
+        "source_id": "VIVA.Cinema.ph",
+        "name": "VIVA Cinema"
+      },
+      {
+        "source_id": "a2z.Channel.11.ph",
+        "name": "a2z Channel 11"
+      }
+    ],
+    "current_other_regional_or_alternate_feed": [
+      {
+        "source_id": "DreamWorks.(Tagalized).ph",
+        "name": "DreamWorks (Tagalized)"
+      },
+      {
+        "source_id": "Kapatid.Channel.ph",
+        "name": "Kapatid Channel"
+      },
+      {
+        "source_id": "One.Sports+.ph",
+        "name": "One Sports+"
+      },
+      {
+        "source_id": "Premier.Sports.2.ph",
+        "name": "Premier Sports 2"
+      },
+      {
+        "source_id": "SPOTV.2.HD.ph",
+        "name": "SPOTV 2 HD"
+      }
+    ]
+  }
+}

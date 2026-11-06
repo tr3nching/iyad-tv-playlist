@@ -1,28 +1,14 @@
 {
-  "checked_utc": "2026-11-06T15:27:01.019274+00:00",
+  "checked_utc": "2026-11-06T16:10:55.383360+00:00",
   "schedule_date": "20261106",
   "checks": [
     {
       "channel": "NHK World Japan",
       "source_url": "https://masterpl.hls.nhkworld.jp/epg/w/20261106.json",
-      "exact_title_and_time_matches": 49,
+      "exact_title_and_time_matches": 47,
       "same_time_title_differences": 4,
-      "no_same_start_in_selected_window": 77,
+      "no_same_start_in_selected_window": 79,
       "examples": [
-        {
-          "source_title": "NHK NEWSLINE",
-          "xmltv_title": "NHK NEWSLINE",
-          "utc": "2026-11-05T15:00:00+00:00",
-          "manila": "2026-11-05T23:00:00+08:00",
-          "start_time_delta_seconds": 0
-        },
-        {
-          "source_title": "Today's Close-Up",
-          "xmltv_title": "Today's Close-Up",
-          "utc": "2026-11-05T15:30:00+00:00",
-          "manila": "2026-11-05T23:30:00+08:00",
-          "start_time_delta_seconds": 0
-        },
         {
           "source_title": "NHK NEWSLINE",
           "xmltv_title": "NHK NEWSLINE",
@@ -64,6 +50,20 @@
           "utc": "2026-11-05T19:00:00+00:00",
           "manila": "2026-11-06T03:00:00+08:00",
           "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "Easy Japanese",
+          "xmltv_title": "Easy Japanese",
+          "utc": "2026-11-05T19:27:00+00:00",
+          "manila": "2026-11-06T03:27:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "Japanology Plus",
+          "xmltv_title": "Japanology Plus",
+          "utc": "2026-11-05T19:30:00+00:00",
+          "manila": "2026-11-06T03:30:00+08:00",
+          "start_time_delta_seconds": 0
         }
       ],
       "differences": [
@@ -100,24 +100,10 @@
     {
       "channel": "Arirang",
       "source_url": "https://www.arirang.com/v1.0/open/external/proxy [schedule: WORLD / CH_W]",
-      "exact_title_and_time_matches": 41,
+      "exact_title_and_time_matches": 39,
       "same_time_title_differences": 12,
-      "no_same_start_in_selected_window": 1,
+      "no_same_start_in_selected_window": 3,
       "examples": [
-        {
-          "source_title": "NEWS GENERATION [R]",
-          "xmltv_title": "News Generation [R]",
-          "utc": "2026-11-05T15:00:00+00:00",
-          "manila": "2026-11-05T23:00:00+08:00",
-          "start_time_delta_seconds": 0
-        },
-        {
-          "source_title": "TRIP IN KOREA",
-          "xmltv_title": "Trip In Korea",
-          "utc": "2026-11-05T15:30:00+00:00",
-          "manila": "2026-11-05T23:30:00+08:00",
-          "start_time_delta_seconds": 0
-        },
         {
           "source_title": "RE: SPACE",
           "xmltv_title": "Re: Space",
@@ -158,6 +144,20 @@
           "xmltv_title": "The Living Sea Of Jeju",
           "utc": "2026-11-05T19:50:00+00:00",
           "manila": "2026-11-06T03:50:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "MOO NO PLAN",
+          "xmltv_title": "Moo No Plan",
+          "utc": "2026-11-05T20:00:00+00:00",
+          "manila": "2026-11-06T04:00:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "THE GRAND HERITAGE K-ASMR(10)",
+          "xmltv_title": "The Grand Heritage K-ASMR(10)",
+          "utc": "2026-11-05T20:50:00+00:00",
+          "manila": "2026-11-06T04:50:00+08:00",
           "start_time_delta_seconds": 0
         }
       ],
