@@ -31,7 +31,11 @@ jobs:
       - name: Check playlist handling
         run: npm test
       - name: Retrieve fresh links
+        if: ${{ !(github.event_name == 'push' && github.event.head_commit.message == 'Publish initial playlist snapshot') }}
         run: npm run refresh
+      - name: Publish previously retrieved snapshot for initial setup
+        if: ${{ github.event_name == 'push' && github.event.head_commit.message == 'Publish initial playlist snapshot' }}
+        run: node -e "const fs=require('node:fs');for(const file of ['playlist.m3u','status.json'])fs.copyFileSync('bootstrap/'+file,'site/'+file)"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

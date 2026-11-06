@@ -13,7 +13,7 @@
 <script>
 document.getElementById('url').value = new URL('playlist.m3u', location.href).href;
 fetch('status.json', {cache:'no-store'}).then(r => {if(!r.ok) throw Error(); return r.json()}).then(s => {
- document.getElementById('status').textContent = `${s.channelCount} channels. Last refreshed ${new Date(s.updatedAt).toLocaleString()}.`;
+ document.getElementById('status').textContent = `${s.channelCount} channels. Last refreshed ${new Date(s.updatedAt).toLocaleString()}.` + (s.refreshMode === 'snapshot' ? ' Initial saved snapshot: automatic updates are waiting for the source to recover.' : '');
 }).catch(() => document.getElementById('status').textContent = 'No successful refresh is available yet.');
 </script>
 </html>

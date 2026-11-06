@@ -21,7 +21,7 @@ GitHub disables scheduled workflows in public repositories after 60 days without
 3. Run the workflow from the Actions tab.
 4. Replace the account/repository in the URL above if you use a different repository.
 
-The playlist and its signed stream URLs are public. Generated playlists are deployed as Pages artifacts rather than committed to source history. Use sources you are authorized to access; GitHub hosting does not provide additional viewing rights.
+The playlist and its signed stream URLs are public. The initial successfully retrieved snapshot is included under `bootstrap/` so the URL can be tried while the upstream stream database is unavailable. It is deployed only for the initial setup commit; subsequent scheduled refreshes must retrieve fresh URLs successfully to replace it. Check `status.json` to distinguish that snapshot from a successful automatic refresh. Later generated playlists are deployed as Pages artifacts rather than committed to source history. Use sources you are authorized to access; GitHub hosting does not provide additional viewing rights.
 
 ## Local checks
 
