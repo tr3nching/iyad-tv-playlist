@@ -1,0 +1,4 @@
+node_modules/
+site/playlist.m3u
+site/status.json
+*.zip

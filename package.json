@@ -1,0 +1,10 @@
+{
+  "name": "iyad-tv-playlist",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "refresh": "node scripts/refresh.mjs",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=22" }
+}
