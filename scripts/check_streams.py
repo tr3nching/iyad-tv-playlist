@@ -134,7 +134,7 @@ def probe(row):
  except Exception as error:
   reason='HTTP '+str(error.code) if isinstance(error,urllib.error.HTTPError) else type(error).__name__
   uncertain=(isinstance(error,urllib.error.HTTPError) and error.code in (401,403,429)) or isinstance(error,(TimeoutError,urllib.error.URLError,OSError,ET.ParseError)) and not isinstance(error,urllib.error.HTTPError)
-  result.update(reachable=False,status='inconclusive' if uncertain else 'unreachable',publish=uncertain and row['kind']=='primary',error=reason)
+  result.update(reachable=False,status='inconclusive' if uncertain else 'unreachable',publish=True,error=reason)
   return result
 
 def check(directory):
@@ -143,10 +143,9 @@ def check(directory):
  if candidate.exists():rows+=entries(candidate.read_text(encoding='utf-8'),'additional')
  with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:results=list(pool.map(probe,rows))
  passed=sum(r['reachable'] for r in results)
- report={'checkedAt':dt.datetime.now(UTC).isoformat(),'candidateCount':len(results),'reachableCount':passed,'unreachableCount':sum(r.get('status')=='unreachable' for r in results),'inconclusiveCount':sum(r.get('status')=='inconclusive' for r in results),'hiddenCount':sum(not r.get('publish',r['reachable']) for r in results),'scope':'Network-specific manifest and media-request checks; not full video decoding or DRM license validation. DASH forms whose media location cannot be resolved receive manifest-only checks.','retryPolicy':'Recheck every candidate each refresh. Keep primary streams on inconclusive access/network errors; hide definite failures. Additional streams must pass a check.','channels':results}
+ report={'checkedAt':dt.datetime.now(UTC).isoformat(),'candidateCount':len(results),'reachableCount':passed,'unreachableCount':sum(r.get('status')=='unreachable' for r in results),'inconclusiveCount':sum(r.get('status')=='inconclusive' for r in results),'hiddenCount':0,'scope':'Network-specific manifest and media-request checks; not full video decoding or DRM license validation. DASH forms whose media location cannot be resolved receive manifest-only checks.','retryPolicy':'Recheck every candidate each refresh for information only. All saved streams remain listed regardless of check result.','channels':results}
  (directory/'stream-health.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
  print(json.dumps({k:report[k] for k in ['candidateCount','reachableCount','unreachableCount']}),flush=True)
- if not passed:raise RuntimeError('No candidates reachable; retain previous deployment rather than publish an empty list')
  return report
 
 if __name__=='__main__':

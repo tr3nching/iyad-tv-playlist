@@ -79,32 +79,17 @@ function playlistEntries(text) {
   });
 }
 
-export const categoryNumbers = Object.freeze({ Entertainment: 100, Movies: 200, Sports: 300, News: 400, Kids: 500, Anime: 600, Documentaries: 700, Music: 800, Lifestyle: 900, Faith: 1000, Education: 1100, General: 1200 });
+const categoryOrder = ['Entertainment', 'Movies', 'Sports', 'News', 'Kids', 'Anime', 'Documentaries', 'Music', 'Lifestyle', 'Faith', 'Education', 'General'];
 
-export function numberPlaylist(text, previous = {}) {
-  const assignments = Object.create(null);
-  const used = new Set();
-  // Reserve absent channels too, so a failed check never renumbers its neighbours.
-  for (const [id, number] of Object.entries(previous)) {
-    const start = categoryNumbers[channelCategory(id)];
-    if (Number.isInteger(number) && number >= start && number < start + 100 && !used.has(number)) {
-      assignments[id] = number; used.add(number);
-    }
-  }
-  const entries = playlistEntries(text);
-  for (const entry of [...entries].sort((a, b) => a.id.localeCompare(b.id, 'en'))) {
-    if (Object.hasOwn(assignments, entry.id)) continue;
-    const start = categoryNumbers[channelCategory(entry.id)];
-    let number = start;
-    while (used.has(number) && number < start + 100) number++;
-    if (number >= start + 100) throw new Error(`Channel number range full: ${channelCategory(entry.id)}`);
-    assignments[entry.id] = number; used.add(number);
-  }
+export function orderPlaylist(text) {
   const header = text.split(/(?=^#EXTINF:)/m)[0];
-  const numbered = entries.sort((a, b) => assignments[a.id] - assignments[b.id]).map(entry =>
-    entry.block.replace(/^#EXTINF:[^\r\n]*/, line => line.replace(/\s+tvg-chno="[^"]*"/g, '').replace(/^#EXTINF:[^ ,]+/, prefix => `${prefix} tvg-chno="${assignments[entry.id]}"`)).trimEnd() + '\n'
-  ).join('');
-  return { text: header + numbered, assignments };
+  // Stable category ordering keeps each complete entry and its playback settings together.
+  const entries = playlistEntries(text).sort((a, b) => {
+    const group = entry => entry.block.split('\n')[0].match(/\bgroup-title="([^"]*)"/)?.[1] || 'General';
+    const rank = entry => { const index = categoryOrder.indexOf(group(entry)); return index < 0 ? categoryOrder.length : index; };
+    return rank(a) - rank(b);
+  });
+  return header + entries.map(entry => entry.block.trimEnd() + '\n').join('');
 }
 
 export function deduplicateBackups(primary, backup) {
@@ -210,7 +195,7 @@ export async function refreshBackups(savedHtml, savedChecks) {
   await writeFile(new URL('backup-checks.json', output), JSON.stringify({ checkedAt: new Date().toISOString(), candidates: candidates.length, readableManifests: rows.length, scope: 'Manifest requests only; not video decoding or TV playback. Network-specific results.', channels: checks }, null, 2));
   await writeFile(new URL('playlist-backup.m3u', output), playlist(rows, { includeDrm: true }));
   await writeFile(new URL('backup-status.json', output), JSON.stringify({ updatedAt: new Date().toISOString(), candidateCount: candidates.length, channelCount: rows.length, additionalChannels: rows.map(row => row.name), candidateAdditionalChannels: additionalChannels, verifiedAdditionalChannels: [], existingChannelBackups: 0, clearKeyChannelCount: rows.filter(r => r.clearKey).length,
-    note: 'Only entries with a readable manifest at refresh time are included. Video playback and source independence are not guaranteed. Failed entries are retried next refresh.' }, null, 2));
+    note: 'All saved candidates are included after exact URL deduplication. Reachability checks are informational; playback is not guaranteed.' }, null, 2));
   console.log(`Backup playlist extracted: ${rows.length} channels`);
 }
 
@@ -223,25 +208,14 @@ export function streamCheckId(kind, entry) {
   return createHash('sha256').update(`${kind}\0${entry.id}\0${entry.url}`).digest('hex');
 }
 
-export async function combinePlaylists(output = new URL('../site/', import.meta.url), { health = null } = {}) {
+export async function combinePlaylists(output = new URL('../site/', import.meta.url)) {
   let primary = await readFile(new URL('playlist-drm.m3u', output), 'utf8');
   let backup = '';
-  try { backup = await readFile(new URL(health ? 'backup-candidates.m3u' : 'playlist-backup.m3u', output), 'utf8'); }
-  catch (error) { if (error.code !== 'ENOENT') throw error; }
-  let previousNumbers = {};
-  try { previousNumbers = JSON.parse(await readFile(new URL('channel-numbers.json', output), 'utf8')); }
-  catch (error) { if (error.code !== 'ENOENT') throw error; }
-  // Assign the complete candidate set before health filtering to keep gaps stable.
-  let candidateBackup = backup;
-  try { candidateBackup = await readFile(new URL('backup-candidates.m3u', output), 'utf8'); }
-  catch (error) { if (error.code !== 'ENOENT') throw error; }
-  const { assignments } = numberPlaylist(primary + '\n' + candidateBackup.split('\n').slice(1).join('\n'), previousNumbers);
-  await writeFile(new URL('channel-numbers.json', output), JSON.stringify(assignments, null, 2) + '\n');
-  if (health) {
-    const passed = new Set(health.channels.filter(channel => channel.publish ?? channel.reachable).map(channel => channel.id));
-    const filter = (text, kind) => `#EXTM3U x-tvg-url="${EPG_URL}"\n` + playlistEntries(text).filter(entry => passed.has(streamCheckId(kind, entry))).map(entry => entry.block.trimEnd() + '\n').join('');
-    primary = filter(primary, 'primary');
-    backup = filter(backup, 'additional');
+  try { backup = await readFile(new URL('backup-candidates.m3u', output), 'utf8'); }
+  catch (error) {
+    if (error.code !== 'ENOENT') throw error;
+    try { backup = await readFile(new URL('playlist-backup.m3u', output), 'utf8'); }
+    catch (fallbackError) { if (fallbackError.code !== 'ENOENT') throw fallbackError; }
   }
   const distinct = deduplicateBackups(primary, backup);
   backup = categorizePlaylist(distinct.text);
@@ -253,13 +227,14 @@ export async function combinePlaylists(output = new URL('../site/', import.meta.
     status.additionalChannels = distinct.entries.map(entry => entry.block.split('\n')[0].split(',').pop());
     status.channelCount = distinct.entries.length;
     status.existingChannelBackups = 0;
+    status.note = 'All saved candidates are included after exact URL deduplication. Reachability checks are informational; playback is not guaranteed.';
     status.clearKeyChannelCount = (backup.match(/^#KODIPROP:inputstream\.adaptive\.license_key=/gm) || []).length;
     status.excludedDuplicates = [...new Set([...(status.excludedDuplicates || []), ...distinct.excluded])].filter(id => !ids.has(id));
     delete status.source;
     await writeFile(statusUrl, JSON.stringify(status, null, 2));
   } catch (error) { if (error.code !== 'ENOENT') throw error; }
   const base = primary.replace(/^#EXTM3U[^\n]*/, `#EXTM3U x-tvg-url="${EPG_URL}"`);
-  const combined = numberPlaylist(categorizePlaylist(base.trimEnd() + '\n' + backup.split('\n').slice(1).join('\n')), assignments).text;
+  const combined = orderPlaylist(categorizePlaylist(base.trimEnd() + '\n' + backup.split('\n').slice(1).join('\n')).replace(/\s+tvg-chno="[^"]*"/g, ''));
   await writeFile(new URL('playlist.m3u.tmp', output), combined);
   await rename(new URL('playlist.m3u.tmp', output), new URL('playlist.m3u', output));
   await writeFile(new URL('playlist-combined.m3u', output), combined);
@@ -346,8 +321,7 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === resolve(process.argv[1
   (async () => {
     if (process.argv.includes('--finalize')) {
       const output = new URL('../site/', import.meta.url);
-      const health = JSON.parse(await readFile(new URL('stream-health.json', output), 'utf8'));
-      await combinePlaylists(output, { health }); return;
+      await combinePlaylists(output); return;
     }
     try { await refreshBackups(); } catch (error) { console.warn(`Backup refresh failed: ${error.message}`); }
     try { if (!process.argv.includes('--backup-only')) await main(); }

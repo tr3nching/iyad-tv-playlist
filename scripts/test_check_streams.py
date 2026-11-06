@@ -16,8 +16,8 @@ class StreamChecks(unittest.TestCase):
   with patch.object(check,'sample',side_effect=sample):r=check.probe(self.row())
   self.assertFalse(r['reachable']);self.assertEqual(r['error'],'HTTP 403');self.assertEqual(len(calls),3)
   self.assertTrue(r['publish']);self.assertEqual(r['status'],'inconclusive')
- def test_definite_failure_is_hidden_and_unverified_additional_must_pass(self):
-  for code,kind,expected in [(404,'primary',False),(403,'additional',False),(403,'primary',True)]:
+ def test_failed_checks_do_not_hide_primary_or_additional_channels(self):
+  for code,kind,expected in [(404,'primary',True),(502,'additional',True),(403,'additional',True),(403,'primary',True)]:
    row=self.row();row['kind']=kind
    with patch.object(check,'sample',side_effect=urllib.error.HTTPError(row['url'],code,'Failure',{},None)):r=check.probe(row)
    self.assertEqual(r['publish'],expected)
@@ -43,5 +43,8 @@ class StreamChecks(unittest.TestCase):
    self.assertEqual((out/'playlist-drm.m3u').read_text(),text)
    report=(out/'stream-health.json').read_text();self.assertNotIn('private',report);self.assertNotIn('https://',report)
    self.assertEqual(r['reachableCount'],1)
+   def failed(row):return {k:row[k] for k in ['id','channel','kind']}|{'reachable':False,'publish':True,'status':'unreachable','error':'HTTP 502'}
+   with patch.object(check,'probe',side_effect=failed):r=check.check(out)
+   self.assertEqual(r['reachableCount'],0);self.assertEqual(r['hiddenCount'],0)
 
 if __name__=='__main__':unittest.main()
