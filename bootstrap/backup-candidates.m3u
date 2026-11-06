@@ -333,14 +333,6 @@ https://a77aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/zuf794yutz/o
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/onenews_hd1.mpd
-#EXTINF:-1 tvg-id="additional:oneph:5a60945755ca" tvg-name="One PH [Additional]" tvg-logo="https://th.bing.com/th/id/R.2d24d7b257bea97175c1fcbb2aa4b21d?rik=sOXtQ%2fKznVBrVg&amp;riu=http%3a%2f%2fjessejake.com%2fwp-content%2fuploads%2f2020%2f03%2fOne-PH-logo-1024x791.png&amp;ehk=aQKsT0s1TCKGvvMXE7xsRaJI7CHqYN5glMEbGBc5tDk%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" group-title="News",One PH [Additional]
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=92834ab4a7e1499b90886c5d49220e46:a7108d9a6cfcc1b7939eb111daf09ab3
-#KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
-#KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
-https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/oneph_sd.mpd
 #EXTINF:-1 tvg-id="additional:onesports:2a5eac860dc2" tvg-name="One Sports [Additional]" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/5/56/TV5_One_Sports_Channel.png/revision/latest/scale-to-width-down/300?cb=20181221055916" group-title="Sports",One Sports [Additional]
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd

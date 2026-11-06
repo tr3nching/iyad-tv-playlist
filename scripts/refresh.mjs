@@ -83,7 +83,7 @@ export function deduplicateBackups(primary, backup) {
   const regular = playlistEntries(primary);
   const kept = []; const excluded = [];
   for (const entry of playlistEntries(backup)) {
-    const duplicate = regular.some(original => original.url && entry.url && original.url === entry.url);
+    const duplicate = [...regular, ...kept].some(original => original.url && entry.url && original.url === entry.url);
     if (duplicate) excluded.push(entry.id); else kept.push(entry);
   }
   return { text: backup ? `#EXTM3U x-tvg-url="${EPG_URL}"\n` + kept.map(entry => entry.block.trimEnd() + '\n').join('') : '', excluded, entries: kept };
@@ -126,7 +126,7 @@ export function parseBackupChannels(html) {
     rows.push({ name: clean(fields.name), url, logo: fields.logo || '', origin: new URL(BACKUP_SOURCE).origin,
       ...(dash && validKeys ? { clearKey: { id: fields.keyId, value: fields.key } } : {}) });
   }
-  return rows;
+  return rows.filter((row, index) => rows.findIndex(other => other.url === row.url) === index);
 }
 
 export async function checkBackupManifests(rows) {

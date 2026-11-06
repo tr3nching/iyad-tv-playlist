@@ -42,6 +42,7 @@ test('DRM metadata only appears in the explicitly requested format', () => {
 test('backup extraction reads literal fields without executing page scripts', () => {
   const html = `<script>throw Error('must not execute'); const channels = [
     {name: 'News', url: 'https://example.com/a.m3u8', type: 'hls'},
+    {name: 'Same URL under another name', url: 'https://example.com/a.m3u8', type: 'hls'},
     {name: 'Bad URL', url: 'javascript:alert(1)', type: 'hls'},
     {name: 'Bad DRM', url: 'https://example.com/a.mpd', type: 'mpd', keyId: 'bad', key: 'bad'},
     {name: 'Embed', url: 'https://example.com/embed', type: 'youtube'}

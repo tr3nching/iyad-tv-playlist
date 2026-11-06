@@ -1,8 +1,8 @@
 {
   "checkedAt": "2026-11-06T20:36:04.901106+00:00",
-  "candidateCount": 334,
+  "candidateCount": 333,
   "reachableCount": 238,
-  "unreachableCount": 96,
+  "unreachableCount": 95,
   "scope": "Network-specific manifest and media-request checks; not full video decoding or DRM license validation. Unsupported DASH timelines receive manifest-only checks.",
   "retryPolicy": "Retain all candidates and recheck every refresh; publish reachable entries only.",
   "channels": [
@@ -2179,13 +2179,6 @@
     {
       "id": "07ed7a941fb3543f538988199732477488f20d741caad98c59320f2db16b322e",
       "channel": "additional:onenewshd:c62da151d142",
-      "kind": "additional",
-      "reachable": false,
-      "error": "HTTP 400"
-    },
-    {
-      "id": "d48516dfb21bcc5440a03f9473a5e2dbc41fc696c716043edb8f5f20648bd40c",
-      "channel": "additional:oneph:5a60945755ca",
       "kind": "additional",
       "reachable": false,
       "error": "HTTP 400"
