@@ -23,13 +23,20 @@ export function decrypt(data, key) {
 async function request(path, body) {
   for (let attempt = 0; attempt < 5; attempt++) {
     try {
-      const response = await fetch(`${API}${path}`, {
+      const response = await fetch(`${API}${path}${path === '/data' ? `?refresh=${Date.now()}` : ''}`, {
         headers: { ...headers, ...(body ? { 'Content-Type': 'application/json' } : {}) },
         method: body ? 'POST' : 'GET',
         ...(body ? { body: JSON.stringify(body) } : {}),
         signal: AbortSignal.timeout(15000),
       });
-      if (!response.ok) throw new Error(`${path}: HTTP ${response.status}`);
+      if (!response.ok) {
+        let detail = '';
+        try {
+          const failure = await response.json();
+          if (typeof failure.error === 'string') detail = ` (${clean(failure.error).slice(0, 160)})`;
+        } catch {}
+        throw new Error(`${path}: HTTP ${response.status}${detail}`);
+      }
       return await response.json();
     } catch (error) {
       if (attempt === 4) throw error;
