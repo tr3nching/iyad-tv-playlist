@@ -125,6 +125,9 @@ test('unreachable entries are hidden and return on the next successful check wit
     checks[0].reachable=true;
     await combinePlaylists(output,{health:{channels:checks}});
     result=await readFile(new URL('playlist.m3u',output),'utf8');assert.ok(result.includes(primary.url));assert.ok(result.includes(extra.url));
+    checks[0].reachable=false;checks[0].publish=true;checks[0].status='inconclusive';
+    await combinePlaylists(output,{health:{channels:checks}});
+    assert.ok((await readFile(new URL('playlist.m3u',output),'utf8')).includes(primary.url));
   } finally { for(const file of files){try{await unlink(new URL(file,output));}catch{}} await rmdir(directory); }
 });
 

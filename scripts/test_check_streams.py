@@ -6,7 +6,7 @@ import check_streams as check
 class StreamChecks(unittest.TestCase):
  def row(self,url='https://example.com/master.m3u8'):
   return {'id':'hash','channel':'Test','kind':'primary','url':url,'headers':{}}
- def test_hls_checks_media_and_rejects_forbidden_fragment(self):
+ def test_hls_checks_media_and_keeps_primary_on_inconclusive_forbidden_fragment(self):
   calls=[]
   def sample(url,headers,deadline,media=False):
    calls.append(url)
@@ -15,6 +15,12 @@ class StreamChecks(unittest.TestCase):
    raise urllib.error.HTTPError(url,403,'Forbidden',{},None)
   with patch.object(check,'sample',side_effect=sample):r=check.probe(self.row())
   self.assertFalse(r['reachable']);self.assertEqual(r['error'],'HTTP 403');self.assertEqual(len(calls),3)
+  self.assertTrue(r['publish']);self.assertEqual(r['status'],'inconclusive')
+ def test_definite_failure_is_hidden_and_unverified_additional_must_pass(self):
+  for code,kind,expected in [(404,'primary',False),(403,'additional',False),(403,'primary',True)]:
+   row=self.row();row['kind']=kind
+   with patch.object(check,'sample',side_effect=urllib.error.HTTPError(row['url'],code,'Failure',{},None)):r=check.probe(row)
+   self.assertEqual(r['publish'],expected)
  def test_hls_reachable_media_and_empty_playlist(self):
   with patch.object(check,'sample',side_effect=[(b'#EXTM3U\n#EXTINF:6,\na.ts\n','https://example.com/a.m3u8'),(b'video','https://example.com/a.ts')]):
    r=check.probe(self.row());self.assertTrue(r['reachable']);self.assertEqual(r['stage'],'media')

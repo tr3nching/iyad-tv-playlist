@@ -118,22 +118,24 @@ def probe(row):
      data,url=sample(target,row['headers'],deadline);continue
     content,_=sample(target,row['headers'],deadline,True)
     if not content or b'<html' in content[:200].lower():raise ValueError('Invalid media response')
-    result.update(reachable=True,stage='media');return result
+    result.update(reachable=True,publish=True,status='reachable',stage='media');return result
    if b'<MPD' in data[:3000]:
     target=dash_media(data,url)
     if target:
      content,_=sample(target,row['headers'],deadline,True)
      if not content or b'<html' in content[:200].lower():raise ValueError('Invalid media response')
-     result.update(reachable=True,stage='media')
-    else:result.update(reachable=True,stage='manifest_only')
+     result.update(reachable=True,publish=True,status='reachable',stage='media')
+    else:result.update(reachable=True,publish=True,status='reachable',stage='manifest_only')
     return result
    if urlsplit(url).path.lower().endswith(('.ts','.mp4','.mkv','.aac','.mp3')) and data and b'<html' not in data[:200].lower():
-    result.update(reachable=True,stage='media');return result
+    result.update(reachable=True,publish=True,status='reachable',stage='media');return result
    raise ValueError('Not a supported stream response')
   raise ValueError('Playlist nesting limit')
  except Exception as error:
   reason='HTTP '+str(error.code) if isinstance(error,urllib.error.HTTPError) else type(error).__name__
-  result.update(reachable=False,error=reason);return result
+  uncertain=(isinstance(error,urllib.error.HTTPError) and error.code in (401,403,429)) or isinstance(error,(TimeoutError,urllib.error.URLError,OSError,ET.ParseError)) and not isinstance(error,urllib.error.HTTPError)
+  result.update(reachable=False,status='inconclusive' if uncertain else 'unreachable',publish=uncertain and row['kind']=='primary',error=reason)
+  return result
 
 def check(directory):
  rows=entries((directory/'playlist-drm.m3u').read_text(encoding='utf-8'),'primary')
@@ -141,7 +143,7 @@ def check(directory):
  if candidate.exists():rows+=entries(candidate.read_text(encoding='utf-8'),'additional')
  with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:results=list(pool.map(probe,rows))
  passed=sum(r['reachable'] for r in results)
- report={'checkedAt':dt.datetime.now(UTC).isoformat(),'candidateCount':len(results),'reachableCount':passed,'unreachableCount':len(results)-passed,'scope':'Network-specific manifest and media-request checks; not full video decoding or DRM license validation. DASH forms whose media location cannot be resolved receive manifest-only checks.','retryPolicy':'Retain all candidates and recheck every refresh; publish reachable entries only.','channels':results}
+ report={'checkedAt':dt.datetime.now(UTC).isoformat(),'candidateCount':len(results),'reachableCount':passed,'unreachableCount':sum(r.get('status')=='unreachable' for r in results),'inconclusiveCount':sum(r.get('status')=='inconclusive' for r in results),'hiddenCount':sum(not r.get('publish',r['reachable']) for r in results),'scope':'Network-specific manifest and media-request checks; not full video decoding or DRM license validation. DASH forms whose media location cannot be resolved receive manifest-only checks.','retryPolicy':'Recheck every candidate each refresh. Keep primary streams on inconclusive access/network errors; hide definite failures. Additional streams must pass a check.','channels':results}
  (directory/'stream-health.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
  print(json.dumps({k:report[k] for k in ['candidateCount','reachableCount','unreachableCount']}),flush=True)
  if not passed:raise RuntimeError('No candidates reachable; retain previous deployment rather than publish an empty list')

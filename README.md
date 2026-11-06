@@ -14,7 +14,7 @@ When a guide program has no genre, its channel category supplies a fallback usin
 
 Playlist and guide updates are scheduled every 30 minutes. Failed entries are checked again at the next update. Some channels need a player with DRM support.
 
-Every refresh checks the saved stream candidates and temporarily hides unreachable entries from the main playlist. Entries return after a later successful check. The candidate lists are retained, so hiding an entry does not delete it. If every check fails, the last published playlist is retained.
+Every refresh checks the saved stream candidates and temporarily hides definite failures. Entries return after a later successful check. Access denials such as HTTP 403 and network timeouts are inconclusive: a main channel may still work on your TV, so it remains listed. Additional streams must pass a check before inclusion. Candidate lists are retained for retries. If every check fails, the last published playlist is retained.
 
 Checks run from the hosting network and cover manifests plus media requests where supported. They do not guarantee decoding, DRM playback, or access from your TV. `stream-health.json` records the results without stream URLs or keys.
 

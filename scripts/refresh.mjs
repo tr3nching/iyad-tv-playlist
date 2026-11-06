@@ -201,7 +201,7 @@ export async function combinePlaylists(output = new URL('../site/', import.meta.
   try { backup = await readFile(new URL(health ? 'backup-candidates.m3u' : 'playlist-backup.m3u', output), 'utf8'); }
   catch (error) { if (error.code !== 'ENOENT') throw error; }
   if (health) {
-    const passed = new Set(health.channels.filter(channel => channel.reachable).map(channel => channel.id));
+    const passed = new Set(health.channels.filter(channel => channel.publish ?? channel.reachable).map(channel => channel.id));
     const filter = (text, kind) => `#EXTM3U x-tvg-url="${EPG_URL}"\n` + playlistEntries(text).filter(entry => passed.has(streamCheckId(kind, entry))).map(entry => entry.block.trimEnd() + '\n').join('');
     primary = filter(primary, 'primary');
     backup = filter(backup, 'additional');
