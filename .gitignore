@@ -1,4 +1,14 @@
 node_modules/
 site/playlist.m3u
+site/playlist-drm.m3u
+site/playlist-drm.otc.json
 site/status.json
+site/refresh-status.json
+site/epg.xml
+site/epg.xml.gz
+site/epg-status.json
+site/mapping.json
+site/mapping.csv
+site/verification.json
+scripts/cache/
 *.zip

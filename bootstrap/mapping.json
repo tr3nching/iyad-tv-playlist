@@ -1,0 +1,2216 @@
+[
+  {
+    "playlist_tvg_id": "3RSTV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "TV5",
+    "source_id": "TV5.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "A2Z",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Abante Radyo",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "ABC Australia",
+    "source_id": "ABC.Australia.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 74,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Adventure Earth",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "ALIW23",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Al Jazeera",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Aliwko",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "ALLTV2",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "AMC+",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "ANC",
+    "source_id": "ANC.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Animax",
+    "source_id": "Animax.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Aniplus",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Animal Planet",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "amasian tv Anime 24/7",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Anime All Day",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Filmrise Anime",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Anime by Pluto",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Anime x Hidive",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Arirang",
+    "source_id": "Arirang.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 96,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Asian Crush",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Asian Food Network",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "AVL TV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "AXN",
+    "source_id": "AXN.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "BBC CBeebies",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "PBB Collab 3.0",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "BBC Earth",
+    "source_id": "BBC.Earth.HD.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 59,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "BBC Lifestyle",
+    "source_id": "BBC.Lifestyle.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 65,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "BBC News",
+    "source_id": "BBC.News.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 113,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "BeIn Sports",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Billiard TV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Bilyonaryo",
+    "source_id": "Bilyonaryo.News.Channel.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 68,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Blast Movies",
+    "source_id": "BLASTMOVIES.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 32,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Bloomberg",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Boing",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "BOOMERANG",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "BS10 + more Converge Channels",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Cartoonito",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Cartoon Channel PH",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Cartoon Network",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "CCTV4",
+    "source_id": "CCTV.4.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 92,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Celestial Classic Movies",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Celestial Movies Pinoy",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "CGTN Documentary",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Channel News Asia",
+    "source_id": "CNA.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 103,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "CinemaOne",
+    "source_id": "Cinema.One.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "CineMo!",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Cinemax",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "CLTV36",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "CNBC",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "CNN HD",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Comedy Central",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Concert Channel",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "CRIME INVESTIGATION",
+    "source_id": "Crime.Investigation.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Crunchyroll",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Curiosity Now",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Danger TV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "DepEd TV",
+    "source_id": "DepEd.TV.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 165,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "DAZN",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Discovery Asia",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Discovery Channel",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Discovery Family",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Discovery Science",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Discovery Turbo",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Disney Channel",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "DMAX",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Dream TV PH",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Dreamworks HD",
+    "source_id": "DreamWorks.HD.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 141,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "DW News",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "DZMM Teleradyo",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "DZRH TV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "ESPN",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "EDGE SPORT",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Euro News.",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Evolution Earth",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "EWTN",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "FailArmy",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Fashion TV HD",
+    "source_id": "Fashion.TV.HD.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 114,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Fight Network",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "FITE 24/7",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Food Network HD",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "FOX",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Fox Sports 1",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "FRANCE 24",
+    "source_id": "France.24.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 277,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Global Fashion Channel",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Global Trekker",
+    "source_id": "Global.Trekker.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 86,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "GMA",
+    "source_id": "GMA.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "GMA Life TV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "GMA News TV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "GMA Pinoy TV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "GNN",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Golden TV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "GTV",
+    "source_id": "GTV.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "hallypop",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Hallmark",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "HBO",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "HBO Boxing",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "HBO Comedy",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "HBO Family",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "HBO Mundi",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "HBO Signature",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "HBO PLUS",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "HBO POP",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "HBO Xtreme",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "HBO Zone",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "HGTV HD",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "History HD",
+    "source_id": "History.HD.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 65,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Hits HD",
+    "source_id": "HITS.HD.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 76,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Hits Movies",
+    "source_id": "HITS.MOVIES.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 26,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Hits Now",
+    "source_id": "HITS.NOW.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 54,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "HIYAH!",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Hope Channel PH",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "HypeTV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "IBC13",
+    "source_id": "IBC.13.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 165,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "INCTV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "InWonder",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "ION",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Jeepney TV",
+    "source_id": "Jeepney.TV.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Just for Laughs Gags",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Kapamilya Channel",
+    "source_id": "Kapamilya.Channel.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Kapamilya Channel HD",
+    "source_id": "Kapamilya.Channel.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Kartoon Channel",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "KBS World",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Kidsflix",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Kids TV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Kix HD",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Knowledge Channel",
+    "source_id": "Knowledge.Channel.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 109,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Kpop TV Play",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "KroneHit TV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Lifetime",
+    "source_id": "Lifetime.SD.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 55,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Light TV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Lotus Macau",
+    "source_id": "Lotus.Macau.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 165,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "MMA-TV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Mindanow Network",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Metro Channel",
+    "source_id": "Metro.Channel.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "MIRAMAX",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "MLB Network",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "MNX HD",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Moonbug Kids",
+    "source_id": "Moonbug.Kids.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 49,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "MOR Entertainment",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "MotoGP Channel",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "MovieBoxPH",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Halloween Nights",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Movies Now",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Movie Sphere",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Mr. Bean",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Mr Beast",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Media Pilipinas TV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "MTV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "MUX DOS",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Mythbusters",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Mysterious Worlds",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "MYX",
+    "source_id": "MYX.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "National Geographic",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "NBA TV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "NBA TV Philippines",
+    "source_id": "NBA.TV.Philippines.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 56,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "NCAA NXT",
+    "source_id": "NCAA.NXT.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 20,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "New KMovies",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Net25",
+    "source_id": "Net.25.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "NHK World Japan",
+    "source_id": "NHK.World.Japan.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 157,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Nickjr",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Nickelodeon",
+    "source_id": "Nickelodeon.SD.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 98,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "One News HD",
+    "source_id": "One.News.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 80,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "One PH",
+    "source_id": "One.PH.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 59,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "One Sports",
+    "source_id": "One.Sports.HD.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 29,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Outdoor Channel",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Oras ng Himala",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Paramount Movie Channel",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "PBA Rush",
+    "source_id": "PBA.Rush.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "PBS Digital Studios",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "People Are Awesome",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Pilipinas Live",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Pinoy Box Office",
+    "source_id": "PBO.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Pinoy Xtreme",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Premier Sports",
+    "source_id": "Premier.Sports.HD.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 22,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Peoples Television",
+    "source_id": "PTV.4.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 165,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Popular Science",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Radyo Bandido",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Real Disaster Channel",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Real Wild",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Retro Crush",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "RedBull TV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "RJ Digitv",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Rock Action",
+    "source_id": "Rock.Action.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 30,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Rock MNL",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "RPTV",
+    "source_id": "RPTV.HD.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 37,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "SBS K-Drama",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "SineManila",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Sky Sports F1",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Smithsonian Channel",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "SMNI News Channel",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "SOLARFLIX",
+    "source_id": "Solar.Flix.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "SOLARSPORTS",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Sony Movies",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Sony Pix",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Sony One Action Hits",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Spotlight TV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "SPOTV",
+    "source_id": "SPOTV.HD.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "STAR Movies HD",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "STAR Movies Select HD",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Star TV Philippines",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "STBS Global",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "SYFY",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "STARZ",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Studio Universal",
+    "source_id": "STUDIOUNIVERSAL.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 30,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Tagalized Movie Channel",
+    "source_id": "Tagalized.Movie.Channel.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Taiwan Plus",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Tap Action Flix",
+    "source_id": "TAPACTIONFLIX.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "TAP Edge",
+    "source_id": "TAPEDGE.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Tap Movies",
+    "source_id": "TAP.Movies.HD.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 34,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "TapSILOG",
+    "source_id": "Tapsilog.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "TAP Sports",
+    "source_id": "Tap.Sports.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 29,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "TAP TV",
+    "source_id": "TAPTV.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Tastemade",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "TBN Asia",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "TFC Asia",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Tennis Channel",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "The Manila Times",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Thrill",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "TLC",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "TNA Wrestling",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "TNT Sports 1",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Tom and Jerry",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Top Rank Classics",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Trace Urban",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Travel Channel",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "TSN",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "TV Maria",
+    "source_id": "TV.Maria.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 165,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "TVN Movies",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "TVN",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "TV5 Monde",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "UAAP Varsity",
+    "source_id": "UAAP.Varsity.Channel.ph",
+    "status": "mapped",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 32,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "UFC",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "UNTV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "USA Today",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "VEVO",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "VIVA Cinema",
+    "source_id": "VIVA.Cinema.ph",
+    "status": "no current real programmes",
+    "source_url": "https://m3u-edit.com/epg-source.php?file=PH2.xml.gz",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": "Philippines"
+  },
+  {
+    "playlist_tvg_id": "Warner TV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Wild Planet",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "World Poker Tour",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "WWE",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "XFC TV",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Xite Hits",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Yes Network",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  },
+  {
+    "playlist_tvg_id": "Z One",
+    "source_id": "",
+    "status": "no unambiguous regional mapping",
+    "source_url": "",
+    "upcoming_programmes": 0,
+    "placeholder_rejected": 0,
+    "region": ""
+  }
+]

@@ -2,15 +2,31 @@
 
 Playlist URL: **https://tr3nching.github.io/iyad-tv-playlist/playlist.m3u**
 
+DRM-capable playlist: **https://tr3nching.github.io/iyad-tv-playlist/playlist-drm.m3u**
+
+OTT Navigator native format: **https://tr3nching.github.io/iyad-tv-playlist/playlist-drm.otc.json**
+
+Program guide: **https://tr3nching.github.io/iyad-tv-playlist/epg.xml** (also available as `epg.xml.gz`). Both playlist formats reference the guide automatically. Set the player's guide time offset to **0**; timestamps are UTC and the player displays local time.
+
+The separate DRM playlist includes ClearKey settings supplied by the source's normal player, in KODIPROP format. Use a player supporting that format, such as OTT Navigator. These settings are publicly hosted together with the stream URLs. The basic playlist omits them. A successful desktop decode does not guarantee Google TV app compatibility.
+
 In TiviMate on Google TV, choose **Add playlist → M3U playlist → Enter URL** and paste the URL above. Enable playlist updates on app startup, and periodic updates if available. This displays channels inside TiviMate; it does not add them to Google TV Freeplay.
+
+## Playback and guide verification
+
+The initial clear-stream check decoded video on 137 channels. A separate fresh ClearKey test decoded 19 of 88 configured DASH channels, including NBA TV. NBA TV Philippines still returned HTTP 403 for media fragments even with fresh settings and the source player's no-referrer behavior. Supplying DRM settings cannot fix source access failures, and the new playlist does not imply every channel works. Results are short desktop samples, not a Google TV hardware test.
+
+The checked guide covers **33 of 246 channels**, with **3,456 listings and zero overlaps** in the initial snapshot. It excludes placeholders, stale listings, and ambiguous regional identities. NBA TV Philippines is mapped; generic NBA TV is deliberately unmapped. The 213 channels without a verified usable mapping retain no guide rather than an unrelated schedule.
+
+The guide agent independently matched 49 NHK and 41 Arirang World titles/times and cross-checked an NBA TV Philippines game time. It rejected a mirror with an eight-hour timestamp error. These representative checks establish the chosen feed's time interpretation for those examples, not universal broadcaster or stream-picture synchronization. See the published `VERIFICATION.md`, `independent-alignment.json`, `mapping.csv`, and `epg-status.json` for sources, coverage and limitations.
 
 ## Updates
 
-GitHub Actions retrieves the enabled channel catalog and resolves each channel's primary source using the same public endpoints as https://iyad.click. It requests the site's normal playback tokens where required, then publishes an M3U file through GitHub Pages. No video is hosted or relayed. No DRM keys are published. Alternate sources and program schedules are not included.
+GitHub Actions retrieves the enabled channel catalog and resolves each channel's primary source using the same public endpoints as https://iyad.click. It requests the site's normal playback tokens where required, then publishes basic and DRM-capable M3U files through GitHub Pages. No video is hosted or relayed. The DRM variant preserves the source-supplied ClearKey settings; it does not obtain missing keys or licenses. Alternate sources are not included.
 
 The schedule runs every 30 minutes at minutes 17 and 47 (UTC). GitHub may delay scheduled jobs. The source's tokens can expire before the next update; this interval is provisional, not a guarantee of uninterrupted playback. Some channels require DRM, browser headers, or the original player and will not play in TiviMate. Successful URL extraction does not verify video playback.
 
-If the live catalog fails, the updater uses saved channel names from `catalog.json` and still requests fresh playback URLs. New or removed channels will only be picked up when the live catalog works again. If playback requests fail or fewer than 90% of enabled channels resolve, publishing stops and the previous deployment remains available. It may still contain expired links. Check **Actions** for failures and **status.json** on the published site for the last successful update and whether the live or saved catalog was used.
+If the live catalog fails, the updater uses saved channel names from `catalog.json` and still requests fresh playback URLs. New or removed channels will only be picked up when the live catalog works again. If playback requests fail or fewer than 90% of enabled channels resolve, it retains previously published stream files (or the checked-in snapshot). Those links may expire. The EPG updater runs independently using its own public source, so stream-source errors do not stop guide updates. Check `refresh-status.json` for the outcome of each attempt, `status.json` for the age of stream links, and `epg-status.json` for guide freshness and coverage. A green Pages deployment alone does not prove a successful stream refresh.
 
 GitHub disables scheduled workflows in public repositories after 60 days without repository activity. If that happens, re-enable the workflow in Actions. The workflow can also be run manually through **Actions → Refresh and publish playlist → Run workflow**.
 
@@ -25,11 +41,12 @@ The playlist and its signed stream URLs are public. The initial successfully ret
 
 ## Local checks
 
-Requires Node.js 22 or newer, with no additional packages.
+Requires Node.js 22 or newer and Python 3.10 or newer, with no additional packages.
 
 ```
 npm test
 npm run refresh
+python scripts/update_epg.py --catalog catalog.json --out site
 ```
 
 Output is written to `site/playlist.m3u` and `site/status.json`. The source API can reject requests from particular networks, including GitHub runners; inspect the workflow logs if local retrieval succeeds but hosted updates fail.

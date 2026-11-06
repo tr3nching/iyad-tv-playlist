@@ -1,0 +1,225 @@
+{
+  "checked_utc": "2026-11-06T15:27:01.019274+00:00",
+  "schedule_date": "20261106",
+  "checks": [
+    {
+      "channel": "NHK World Japan",
+      "source_url": "https://masterpl.hls.nhkworld.jp/epg/w/20261106.json",
+      "exact_title_and_time_matches": 49,
+      "same_time_title_differences": 4,
+      "no_same_start_in_selected_window": 77,
+      "examples": [
+        {
+          "source_title": "NHK NEWSLINE",
+          "xmltv_title": "NHK NEWSLINE",
+          "utc": "2026-11-05T15:00:00+00:00",
+          "manila": "2026-11-05T23:00:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "Today's Close-Up",
+          "xmltv_title": "Today's Close-Up",
+          "utc": "2026-11-05T15:30:00+00:00",
+          "manila": "2026-11-05T23:30:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "NHK NEWSLINE",
+          "xmltv_title": "NHK NEWSLINE",
+          "utc": "2026-11-05T16:00:00+00:00",
+          "manila": "2026-11-06T00:00:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "Backstage Japan",
+          "xmltv_title": "Backstage Japan",
+          "utc": "2026-11-05T16:30:00+00:00",
+          "manila": "2026-11-06T00:30:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "NHK NEWSLINE",
+          "xmltv_title": "NHK NEWSLINE",
+          "utc": "2026-11-05T17:00:00+00:00",
+          "manila": "2026-11-06T01:00:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "Core Kyoto",
+          "xmltv_title": "Core Kyoto",
+          "utc": "2026-11-05T17:30:00+00:00",
+          "manila": "2026-11-06T01:30:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "NEWSROOM TOKYO",
+          "xmltv_title": "NEWSROOM TOKYO",
+          "utc": "2026-11-05T18:00:00+00:00",
+          "manila": "2026-11-06T02:00:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "Hometown Stories",
+          "xmltv_title": "Hometown Stories",
+          "utc": "2026-11-05T19:00:00+00:00",
+          "manila": "2026-11-06T03:00:00+08:00",
+          "start_time_delta_seconds": 0
+        }
+      ],
+      "differences": [
+        {
+          "source_title": "Direct Talk #279",
+          "xmltv_title": "Direct Talk",
+          "utc": "2026-11-05T18:28:00+00:00",
+          "manila": "2026-11-06T02:28:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "JAPAN FROM ABOVE: UP CLOSE",
+          "xmltv_title": "NHK WORLD Selection",
+          "utc": "2026-11-05T18:43:00+00:00",
+          "manila": "2026-11-06T02:43:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "Ukiyoe EDO-LIFE",
+          "xmltv_title": "Ukiyoe EDO-LIFE: A Bedtime Routine",
+          "utc": "2026-11-05T18:55:00+00:00",
+          "manila": "2026-11-06T02:55:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "Direct Talk #281",
+          "xmltv_title": "Direct Talk",
+          "utc": "2026-11-06T11:28:00+00:00",
+          "manila": "2026-11-06T19:28:00+08:00",
+          "start_time_delta_seconds": 0
+        }
+      ]
+    },
+    {
+      "channel": "Arirang",
+      "source_url": "https://www.arirang.com/v1.0/open/external/proxy [schedule: WORLD / CH_W]",
+      "exact_title_and_time_matches": 41,
+      "same_time_title_differences": 12,
+      "no_same_start_in_selected_window": 1,
+      "examples": [
+        {
+          "source_title": "NEWS GENERATION [R]",
+          "xmltv_title": "News Generation [R]",
+          "utc": "2026-11-05T15:00:00+00:00",
+          "manila": "2026-11-05T23:00:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "TRIP IN KOREA",
+          "xmltv_title": "Trip In Korea",
+          "utc": "2026-11-05T15:30:00+00:00",
+          "manila": "2026-11-05T23:30:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "RE: SPACE",
+          "xmltv_title": "Re: Space",
+          "utc": "2026-11-05T16:30:00+00:00",
+          "manila": "2026-11-06T00:30:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "K-CULTURE DIVE [R]",
+          "xmltv_title": "K-Culture Dive [R]",
+          "utc": "2026-11-05T18:00:00+00:00",
+          "manila": "2026-11-06T02:00:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "BEAUTY ON AND OFF",
+          "xmltv_title": "Beauty On And Off",
+          "utc": "2026-11-05T18:30:00+00:00",
+          "manila": "2026-11-06T02:30:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "WITHIN THE FRAME [R]",
+          "xmltv_title": "Within The Frame [R]",
+          "utc": "2026-11-05T19:00:00+00:00",
+          "manila": "2026-11-06T03:00:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "K-CULTURE MINUTES: K-STAGE",
+          "xmltv_title": "K-Culture Minutes: K-Stage",
+          "utc": "2026-11-05T19:30:00+00:00",
+          "manila": "2026-11-06T03:30:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "THE LIVING SEA OF JEJU",
+          "xmltv_title": "The Living Sea Of Jeju",
+          "utc": "2026-11-05T19:50:00+00:00",
+          "manila": "2026-11-06T03:50:00+08:00",
+          "start_time_delta_seconds": 0
+        }
+      ],
+      "differences": [
+        {
+          "source_title": "PREMIUM COLLECTION B",
+          "xmltv_title": "Premium Collection",
+          "utc": "2026-11-05T16:00:00+00:00",
+          "manila": "2026-11-06T00:00:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "SIMPLY K-POP",
+          "xmltv_title": "Simply K-Pop 2026",
+          "utc": "2026-11-05T17:00:00+00:00",
+          "manila": "2026-11-06T01:00:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "(20분)THE GRAND HERITAGE ASMR",
+          "xmltv_title": "The Grand Heritage ASMR",
+          "utc": "2026-11-05T20:30:00+00:00",
+          "manila": "2026-11-06T04:30:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "SIMPLY K-POP",
+          "xmltv_title": "Simply K-Pop 2026",
+          "utc": "2026-11-05T21:00:00+00:00",
+          "manila": "2026-11-06T05:00:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "NEW DAY AT ARIRANG [L] ",
+          "xmltv_title": "New Day At Arirang",
+          "utc": "2026-11-06T01:00:00+00:00",
+          "manila": "2026-11-06T09:00:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "HERITAGE WALKS WITH LITTLE FRIEND",
+          "xmltv_title": "K-Sports Beyond",
+          "utc": "2026-11-06T03:30:00+00:00",
+          "manila": "2026-11-06T11:30:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "NEWS SPECIAL [L]",
+          "xmltv_title": "Show K-Pop [R]",
+          "utc": "2026-11-06T03:50:00+00:00",
+          "manila": "2026-11-06T11:50:00+08:00",
+          "start_time_delta_seconds": 0
+        },
+        {
+          "source_title": "SMARTBIZ ACCEL 2(10분)",
+          "xmltv_title": "Smartbiz Accelerators 2",
+          "utc": "2026-11-06T06:50:00+00:00",
+          "manila": "2026-11-06T14:50:00+08:00",
+          "start_time_delta_seconds": 0
+        }
+      ]
+    }
+  ],
+  "scope": "Independent broadcaster-schedule comparison, not a live picture/content synchronization test. No global EPG shift applied."
+}

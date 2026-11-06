@@ -30,12 +30,25 @@ jobs:
           node-version: '22'
       - name: Check playlist handling
         run: npm test
+      - name: Restore current assets or checked snapshot
+        env:
+          PUBLISH_SNAPSHOT: ${{ github.event_name == 'push' && startsWith(github.event.head_commit.message, 'Publish playlist snapshot') }}
+        run: node scripts/restore-site.mjs
       - name: Retrieve fresh links
-        if: ${{ !(github.event_name == 'push' && github.event.head_commit.message == 'Publish initial playlist snapshot') }}
+        id: streams
+        continue-on-error: true
+        if: ${{ !(github.event_name == 'push' && startsWith(github.event.head_commit.message, 'Publish playlist snapshot')) }}
         run: npm run refresh
-      - name: Publish previously retrieved snapshot for initial setup
-        if: ${{ github.event_name == 'push' && github.event.head_commit.message == 'Publish initial playlist snapshot' }}
-        run: node -e "const fs=require('node:fs');for(const file of ['playlist.m3u','status.json'])fs.copyFileSync('bootstrap/'+file,'site/'+file)"
+      - name: Refresh independently verified guide mapping
+        id: guide
+        continue-on-error: true
+        run: python3 scripts/update_epg.py --catalog catalog.json --out site
+      - name: Record refresh outcomes and check publishing assets
+        env:
+          PUBLISH_SNAPSHOT: ${{ github.event_name == 'push' && startsWith(github.event.head_commit.message, 'Publish playlist snapshot') }}
+          STREAM_OUTCOME: ${{ steps.streams.outcome }}
+          GUIDE_OUTCOME: ${{ steps.guide.outcome }}
+        run: node scripts/record-refresh.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

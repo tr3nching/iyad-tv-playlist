@@ -24,3 +24,13 @@ test('rejects non-web playback URLs', () => {
   assert.throws(() => streamUrl('javascript:alert(1)'));
   assert.throws(() => streamUrl('file:///private'));
 });
+
+test('DRM metadata only appears in the explicitly requested format', () => {
+  const clearKey = { id: '1'.repeat(32), value: '2'.repeat(32) };
+  const rows = [{ name: 'Test', url: 'https://example.com/live.mpd', clearKey }];
+  assert.ok(!playlist(rows).includes('license_key'));
+  const result = playlist(rows, { includeDrm: true });
+  assert.ok(result.includes('license_type=org.w3.clearkey'));
+  assert.ok(result.includes(`license_key=${clearKey.id}:${clearKey.value}`));
+  assert.throws(() => playlist([{ ...rows[0], clearKey: { id: 'bad\n#EXTINF:-1,Injected', value: clearKey.value } }], { includeDrm: true }));
+});

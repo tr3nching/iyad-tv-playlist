@@ -1,0 +1,2011 @@
+{
+  "channels": [
+    {
+      "name": "3RSTV",
+      "icon": "https://iyadtv.pages.dev/images/3rstv.svg",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-210631/tracks-v1a1/mono.ts.m3u8",
+      "epg_id": "3RSTV"
+    },
+    {
+      "name": "A2Z",
+      "icon": "https://iyadtv.pages.dev/images/a2z_4.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999765/1ToWD3OcLTx1C8bT3mBAHA/cv1/001/2/ch00000090990000001087/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAqHRrK8UUahwItHhKpXgPXKsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "A2Z"
+    },
+    {
+      "name": "Abante Radyo",
+      "icon": "https://iyadtv.pages.dev/images/abante-radyo.svg",
+      "url": "https://amg19223-amg19223c12-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c12-amgplt0352/playlist.m3u8",
+      "epg_id": "Abante Radyo"
+    },
+    {
+      "name": "ABC Australia",
+      "icon": "https://iyadtv.pages.dev/images/abc_australia_6.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999765/1ToWD3OcLTx1C8bT3mBAHA/s/abc_aus/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "d6f1a8c29b7e4d5a8f332c1e9d7b6a90:790bd17b9e623e832003a993a2de1d87",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "ABC Australia"
+    },
+    {
+      "name": "Adventure Earth",
+      "icon": "https://iyadtv.pages.dev/images/adventure-earth.svg",
+      "url": "https://autentic-adventure-earth-1-eu.rakuten.wurl.tv/playlist.m3u8",
+      "epg_id": "Adventure Earth"
+    },
+    {
+      "name": "Al Jazeera",
+      "icon": "https://iyadtv.pages.dev/images/al_jazeera_10.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/s/dr_aljazeera/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "73c5f8919d424b06a2186e7c3a5d9040:bf46e85e8fba9f0eae0931394d478d25",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Al Jazeera"
+    },
+    {
+      "name": "ALIW23",
+      "icon": "https://iyadtv.pages.dev/images/aliw23_8.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/cv4/001/2/ch00000090990000001109/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAp%2BWYKp0pXQLOnfpLMLHi2tsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "ALIW23"
+    },
+    {
+      "name": "Aliwko",
+      "icon": "https://iyadtv.pages.dev/images/aliwko.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999765/1ToWD3OcLTx1C8bT3mBAHA/plex-epg/library/parts/5e20b730f2f8d5003d739db7-64d4ee537b323f6abbd19e59/?X-Plex-Token=z9-J-4imuPJVE9JXpQzP",
+      "epg_id": "Aliwko"
+    },
+    {
+      "name": "ALLTV2",
+      "icon": "https://iyadtv.pages.dev/images/alltv2_12.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/hls/alltv2/stream.m3u8",
+      "epg_id": "ALLTV2"
+    },
+    {
+      "name": "amasian tv Anime 24/7",
+      "icon": "https://provider-static.plex.tv/epg/cms/production/aa882b26-2283-430c-8e7f-8468227ad362/anime247_logo_dark_-_Jason_Hwang.png",
+      "url": "https://1nox1-adobo.hf.space/amasian.m3u8",
+      "epg_id": "amasian tv Anime 24/7"
+    },
+    {
+      "name": "AMC+",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/4/4a/AMC%2B_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+      "url": "https://a148aivottlinear-a.akamaihd.net/OTTB/PDX/clients/dash/enc/0f5clvxn6o/out/v1/d5a953bb19734fa3baa1776266887fcb/cenc.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "59a51164c2c915352f04066a06f6e807:eba5cc362d1d63c0fe6460febca0fd11",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "AMC+"
+    },
+    {
+      "name": "ANC",
+      "icon": "https://iyadtv.pages.dev/images/anc_26.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/cv5/001/2/ch00000090990000001216/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoK2PIan60vhUUxnwtpVvgcytokK1MIobcue1ImXa0ZEA%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "ANC"
+    },
+    {
+      "name": "Animal Planet",
+      "icon": "https://iyadtv.pages.dev/images/animal-planet.svg",
+      "url": "https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/s/cg_animal_planet_sd/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "3c8e5a927d414b069f236a5c8e1d7049:a9b9198bf7b116b30492aea4dc471122",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Animal Planet"
+    },
+    {
+      "name": "Animax",
+      "icon": "https://iyadtv.pages.dev/images/animax.svg",
+      "url": "https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/s/cg_animax_sd_new/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "a7d3f5916c844b209e158f3a7d5c2046:021fe5515e7dfb1a00a98d51abd0cb7f",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Animax"
+    },
+    {
+      "name": "Anime All Day",
+      "icon": "https://iyadtv.pages.dev/images/anime_all_day_22.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/plusam/USAJ3504502A",
+      "epg_id": "Anime All Day"
+    },
+    {
+      "name": "Anime by Pluto",
+      "icon": "https://images.pluto.tv/channels/5812b7d3249444e05d09cc49/colorLogoPNG_1748797351518.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/plusam/plu-5812b7d3249444e05d09cc49.m3u8",
+      "epg_id": "Anime by Pluto"
+    },
+    {
+      "name": "Anime x Hidive",
+      "icon": "https://iyadtv.pages.dev/images/anime_x_hidive_25.png",
+      "url": "https://ec48e468.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEdfQU5JTUV4SElESVZFX0hMUw/playlist.m3u8",
+      "epg_id": "Anime x Hidive"
+    },
+    {
+      "name": "Aniplus",
+      "icon": "https://iyadtv.pages.dev/images/aniplus.svg",
+      "url": "https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/playlist.m3u8",
+      "epg_id": "Aniplus"
+    },
+    {
+      "name": "Arirang",
+      "icon": "https://iyadtv.pages.dev/images/arirang.svg",
+      "url": "https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8",
+      "epg_id": "Arirang"
+    },
+    {
+      "name": "Asian Crush",
+      "icon": "https://iyadtv.pages.dev/images/asian_crush_28.png",
+      "url": "https://cineverse.g-mana.live/media/1ebfbe30-c35c-4404-8bc5-0339d750eb58/mainManifest.m3u8",
+      "epg_id": "Asian Crush"
+    },
+    {
+      "name": "Asian Food Network",
+      "icon": "https://iyadtv.pages.dev/images/asian_food_network_29.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/s/asianfoodnetwork_sd/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "f4b7c8219e364a058d295c6f3e7a1042:d10c7f2a37c1079e6b83837423c0d6b2",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Asian Food Network"
+    },
+    {
+      "name": "AVL TV",
+      "icon": "https://cdn.iyad.space/avl.avif",
+      "url": "https://avlmedianetwork.vonnhost1.workers.dev/avl.live.m3u8",
+      "epg_id": "AVL TV"
+    },
+    {
+      "name": "AXN",
+      "icon": "https://iyadtv.pages.dev/images/axn_30.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999766/CkTzS8EC6NydMUk002J5Dw/s/cg_axn_sd/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "c7e5a2199d644b318f702a6c4e5d8139:300778996b5a71594db508982256f365",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "AXN"
+    },
+    {
+      "name": "BBC CBeebies",
+      "icon": "https://iyadtv.pages.dev/images/cbeebies.png",
+      "url": "https://rise2the.top/aldous/1793999767/mXvSF6o-M5AixQdvn63vFQ/hls/cbee/stream.m3u8",
+      "epg_id": "BBC CBeebies"
+    },
+    {
+      "name": "BBC Earth",
+      "icon": "https://cms.bbcasia.com/sites/default/files/2023-09/BBC-Earth-YouTube-Stacked.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999767/mXvSF6o-M5AixQdvn63vFQ/s/cg_bbcearth_hd1/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "4f9c6e217a354d80b9268e5c3f1a7042:41b33eebbacf91fe6c86bd28081bf3fd",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "BBC Earth"
+    },
+    {
+      "name": "BBC Lifestyle",
+      "icon": "https://iyadtv.pages.dev/images/bbc_lifestyle_35.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999767/mXvSF6o-M5AixQdvn63vFQ/s/cg_bbclifestyle/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "34880f56627c11ee8c990242ac120002:c23677c829bb244b79a3dc09ffd88ca0",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "BBC Lifestyle"
+    },
+    {
+      "name": "BBC News",
+      "icon": "https://cdn.iyad.space/bbcnews.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999767/mXvSF6o-M5AixQdvn63vFQ/cv4/001/2/ch00000090990000001095/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAqx1PFsBS2oDQ%2F0bDb4P2SmsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "BBC News"
+    },
+    {
+      "name": "BeIn Sports",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/2016_beIN_Sports_logo.svg/langfr-330px-2016_beIN_Sports_logo.svg.png",
+      "url": "https://tvsen6.aynaott.com/beinsports/index.m3u8?e=1784102515&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=67d5960a5b93b5cfcf562312b4627330",
+      "epg_id": "BeIn Sports"
+    },
+    {
+      "name": "Billiard TV",
+      "icon": "https://iyadtv.pages.dev/images/billiard_tv_37.png",
+      "url": "https://1b29dd71cd5e4191a3eb26afff631ed3.mediatailor.us-west-2.amazonaws.com/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SportsTribal-BilliardTV/BILLIARDTV_SCTE.m3u8",
+      "epg_id": "Billiard TV"
+    },
+    {
+      "name": "Bilyonaryo",
+      "icon": "https://iyadtv.pages.dev/images/bilyonaryo_38.png",
+      "url": "https://amg19223-amg19223c11-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c11-amgplt0352/playlist.m3u8",
+      "epg_id": "Bilyonaryo"
+    },
+    {
+      "name": "Blast Movies",
+      "icon": "https://iyadtv.pages.dev/images/blast_movies_39.png",
+      "url": "https://amg19223-amg19223c7-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c7-amgplt0351/playlist.m3u8",
+      "epg_id": "Blast Movies"
+    },
+    {
+      "name": "Bloomberg",
+      "icon": "https://iyadtv.pages.dev/images/bloomberg_41.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999767/mXvSF6o-M5AixQdvn63vFQ/s/bloomberg_sd/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "19f6c8325a744d90b2618e3f7c2a5049:784fffb38dc4fb6d5b74de822074feb4",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Bloomberg"
+    },
+    {
+      "name": "Boing",
+      "icon": "https://iyadtv.pages.dev/images/boing_42.png",
+      "url": "https://cache02.zapitv.com/live/eds_c2/boing/dash_live_ez/boing.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "d67836bb61bc468292412db53f3e193d:865826b7df4a6ce1493cde232531374e",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Boing"
+    },
+    {
+      "name": "BOOMERANG",
+      "icon": "https://iyadtv.pages.dev/images/boomerang_43.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999767/mXvSF6o-M5AixQdvn63vFQ/move1/USA_BOOMERANG/index.m3u8",
+      "epg_id": "BOOMERANG"
+    },
+    {
+      "name": "BS10 + more Converge Channels",
+      "icon": "https://cdn.iyad.space/bs10.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999768/UDYisu9zCjOktDJzkxLfeA/cv9/001/2/ch00000090990000001202/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAo5DOWlb1sl%2Btaq5YYAtO9QsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "BS10 + more Converge Channels"
+    },
+    {
+      "name": "Cartoon Channel PH",
+      "icon": "https://iyadtv.pages.dev/images/cartoon_channel_ph_47.png",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-209905/playlist.m3u8",
+      "epg_id": "Cartoon Channel PH"
+    },
+    {
+      "name": "Cartoon Network",
+      "icon": "https://iyadtv.pages.dev/images/cartoon_network_48.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999768/UDYisu9zCjOktDJzkxLfeA/s/cartoonnetworkhd/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "53c8e6914d724f30a9168b5e2c7d1043:1e17afbdfff786533796780f3f04aa67",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Cartoon Network"
+    },
+    {
+      "name": "Cartoonito",
+      "icon": "https://iyadtv.pages.dev/images/cartoonito_46.png",
+      "url": "https://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8",
+      "epg_id": "Cartoonito"
+    },
+    {
+      "name": "CCTV4",
+      "icon": "https://iyadtv.pages.dev/images/cctv4_49.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999767/mXvSF6o-M5AixQdvn63vFQ/s/dr_cctv4/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "83e5c4917d624b00a2196f3c8a5e2047:d8fae6a24d5df3fa8e17a8f4a4854426",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "CCTV4"
+    },
+    {
+      "name": "Celestial Classic Movies",
+      "icon": "https://iyadtv.pages.dev/images/celestial_classic_movies_51.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999767/mXvSF6o-M5AixQdvn63vFQ/cv2/001/2/ch00000090990000001244/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAp8jImOa2AKrqwa1m%2FJfhcesyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "Celestial Classic Movies"
+    },
+    {
+      "name": "Celestial Movies Pinoy",
+      "icon": "https://iyadtv.pages.dev/images/celestial_movies_pinoy_52.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999768/UDYisu9zCjOktDJzkxLfeA/cv4/001/2/ch00000090990000001077/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMArHUpvQtyXgWxpVCozt4hcgsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "Celestial Movies Pinoy"
+    },
+    {
+      "name": "CGTN Documentary",
+      "icon": "https://iyadtv.pages.dev/images/cgtn_documentary_53.png",
+      "url": "https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8",
+      "epg_id": "CGTN Documentary"
+    },
+    {
+      "name": "Channel News Asia",
+      "icon": "https://iyadtv.pages.dev/images/channel_news_asia_54.png",
+      "url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8",
+      "epg_id": "Channel News Asia"
+    },
+    {
+      "name": "CinemaOne",
+      "icon": "https://iyadtv.pages.dev/images/cinemaone.svg",
+      "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-cinemaone-dash-abscbnono/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "58d0e56991194043b8fb82feb4db7276:c116c612201e178193693eced13d7319",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "CinemaOne"
+    },
+    {
+      "name": "Cinemax",
+      "icon": "https://iyadtv.pages.dev/images/cinemax_60.png",
+      "url": "https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/107/107.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "f48caba466394e93b50780f21798787a:9a074a10db4342e7937076b3e52f6029",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Cinemax"
+    },
+    {
+      "name": "CineMo!",
+      "icon": "https://iyadtv.pages.dev/images/cinemo__57.png",
+      "url": "https://d1bail49udbz1k.cloudfront.net/out/v1/78e282e04f0944f3ad0aa1db7a1be645/index.m3u8",
+      "epg_id": "CineMo!"
+    },
+    {
+      "name": "CLTV36",
+      "icon": "https://iyadtv.pages.dev/images/cltv36_61.png",
+      "url": "https://live.cltv36.tv:5443/LiveApp/streams/cltvlive.m3u8",
+      "epg_id": "CLTV36"
+    },
+    {
+      "name": "CNBC",
+      "icon": "https://iyadtv.pages.dev/images/cnbc.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999768/UDYisu9zCjOktDJzkxLfeA/cv8/001/2/ch00000090990000001344/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMApysTfm9HUYOIUKeEg06TC92%2FjHNuou2Jtxin49X3LQKw%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "CNBC"
+    },
+    {
+      "name": "CNN HD",
+      "icon": "https://iyadtv.pages.dev/images/cnn_63.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999768/UDYisu9zCjOktDJzkxLfeA/s/cg_cnnhd/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "1d9f6b828c454a17b2395e7d3f90a621:c5776d83cbf50c9354f27b1c830e1996",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "CNN HD"
+    },
+    {
+      "name": "Comedy Central",
+      "icon": "https://cdn.iyad.space/comcen.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999768/UDYisu9zCjOktDJzkxLfeA/plusam/plu-5ca671f215a62078d2ec0abf.m3u8",
+      "epg_id": "Comedy Central"
+    },
+    {
+      "name": "Concert Channel",
+      "icon": "https://images.pluto.tv/channels/6868152657543d1f8be4ece3/colorLogoPNG_1751652184592.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999768/UDYisu9zCjOktDJzkxLfeA/plusam/plu-6868152657543d1f8be4ece3.m3u8",
+      "epg_id": "Concert Channel"
+    },
+    {
+      "name": "CRIME INVESTIGATION",
+      "icon": "https://iyadtv.pages.dev/images/crime_investigation_65.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999768/UDYisu9zCjOktDJzkxLfeA/s/crime_invest/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "e7a3d5916c824b459f105d8e2c7a3046:616f8ab0c416966e8de415cb60e9e6cf",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "CRIME INVESTIGATION"
+    },
+    {
+      "name": "Crunchyroll",
+      "icon": "https://iyadtv.pages.dev/images/crunchyroll_66.png",
+      "url": "https://a3c4ecbd.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEdfQ3J1bmNoeXJvbGxfSExT/playlist.m3u8",
+      "epg_id": "Crunchyroll"
+    },
+    {
+      "name": "Curiosity Now",
+      "icon": "https://iyadtv.pages.dev/images/curiosity_now_69.png",
+      "url": "https://amg00170-curiositystream-amg00170c3-rakuten-us-2289.playouts.now.amagi.tv/playlist/amg00170-curiositystreamllcfast-curiositynowrow-rakutenus/playlist.m3u8",
+      "epg_id": "Curiosity Now"
+    },
+    {
+      "name": "Danger TV",
+      "icon": "https://cdn.iyad.space/dangertv.png",
+      "url": "https://d2e596wr2jmq0r.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-thh836k5h4fyb/playlist.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.ssai_vendor=SSSLIVE&ads.afsdk_params=%7BAFSDK_VALUE%7D&ads.service_id=CA1300002XC",
+      "epg_id": "Danger TV"
+    },
+    {
+      "name": "DAZN",
+      "icon": "https://cdn.iyad.space/dazn.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/hls/dazn/stream.m3u8",
+      "epg_id": "DAZN"
+    },
+    {
+      "name": "DepEd TV",
+      "icon": "https://iyadtv.pages.dev/images/deped_channel_70.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999768/UDYisu9zCjOktDJzkxLfeA/s/depedch_sd/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "c1a5e8329d644f70b2187a3c6e5d2041:55979431f291f7dff35a43b73b3c2a36",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "DepEd TV"
+    },
+    {
+      "name": "Discovery Asia",
+      "icon": "https://iyadtv.pages.dev/images/discovery_asia_71.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/cv9/001/2/ch00000090990000001334/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAqvvSnkxKfMhap8P4VuFwrV2%2FjHNuou2Jtxin49X3LQKw%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "Discovery Asia"
+    },
+    {
+      "name": "Discovery Channel",
+      "icon": "https://iyadtv.pages.dev/images/discovery-channel.svg",
+      "url": "https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/s/discovery/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "d5a7f8219c364e50b2147f6d3a8c9025:c77d5e56c52c4065c42594422ac85e2c",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Discovery Channel"
+    },
+    {
+      "name": "Discovery Family",
+      "icon": "https://cdn.iyad.space/dfc.png",
+      "url": "https://tvsen5.aynaott.com/discoveryfamily/index.m3u8?e=1784102581&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=7551ec4daacd3d773ab2a992615f1f6c",
+      "epg_id": "Discovery Family"
+    },
+    {
+      "name": "Discovery Science",
+      "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Discovery_Science_Canada_2011.PNG/250px-Discovery_Science_Canada_2011.PNG",
+      "url": "https://login.bheem.tv/bpk-tv/22647/output/index.mpd?",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "fd7754b16f8459f1b3ef2ffac4c2de28:7fbdfce2567136b26042962ca2e46fad",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Discovery Science"
+    },
+    {
+      "name": "Discovery Turbo",
+      "icon": "https://iyadtv.pages.dev/images/discovery_turbo_78.png",
+      "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryturbo2/default/manifest.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "c011525969e44b99a86059dbb3cdf4e8:6700a5d93203417b8585f7de7dd1a09b",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Discovery Turbo"
+    },
+    {
+      "name": "Disney Channel",
+      "icon": "https://iyadtv.pages.dev/images/disney_channel_79.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/hls/disneychannel/stream.m3u8",
+      "epg_id": "Disney Channel"
+    },
+    {
+      "name": "DMAX",
+      "icon": "https://iyadtv.pages.dev/images/dmax_82.png",
+      "url": "https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/dmax.smil/manifest.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "53b26f904ae03a20b56477cfb9c5dca2:0c64ccfb978e7390bd33344075492aec",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "DMAX"
+    },
+    {
+      "name": "Dream TV PH",
+      "icon": "https://iyadtv.pages.dev/images/dream_tv_ph_84.png",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-209574/tracks-v1a1/mono.m3u8",
+      "epg_id": "Dream TV PH"
+    },
+    {
+      "name": "Dreamworks HD",
+      "icon": "https://iyadtv.pages.dev/images/dreamworks_hd_85.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/s/cg_dreamworks_hd1/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "1f7c9a425d864e30b2198a3c6f7d5041:b392ee3cd42686a8cff3070eef614745",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Dreamworks HD"
+    },
+    {
+      "name": "DW News",
+      "icon": "https://cdn.iyad.space/images/dw-news.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/cv8/001/2/ch00000090990000001166/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAoTcUYwq3PMi%2FTObKiSY6bDsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "DW News"
+    },
+    {
+      "name": "DZMM Teleradyo",
+      "icon": "https://iyadtv.pages.dev/images/dzmm_teleradyo_89.png",
+      "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-teleradyo-dash-abscbnono/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "47c093e0c9fd4f80839a0337da3dd876:603248b858276f533a13e17f2f48c711",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "DZMM Teleradyo"
+    },
+    {
+      "name": "DZRH TV",
+      "icon": "https://iyadtv.pages.dev/images/dzrh-tv.svg",
+      "url": "https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/cv1/001/2/ch00000090990000001174/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAorTFLlVQhyuanlrUuZnA07syK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "DZRH TV"
+    },
+    {
+      "name": "EDGE SPORT",
+      "icon": "https://cdn.iyad.space/images/edge.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/cv2/001/2/ch00000090990000001406/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMArD3MimqPOP6OVIBIcXmXdD2%2FjHNuou2Jtxin49X3LQKw%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "EDGE SPORT"
+    },
+    {
+      "name": "ESPN",
+      "icon": "https://iyadtv.pages.dev/images/espn.svg",
+      "url": "https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/usa-s/ESPN-HD/index.m3u8",
+      "epg_id": "ESPN"
+    },
+    {
+      "name": "Euro News.",
+      "icon": "https://i.ibb.co/mr4gLvgn/image-2026-06-08-132221236.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/cv4/001/2/ch00000090990000001336/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAqhLZBm9kWDyfiRCDGdvX2q2%2FjHNuou2Jtxin49X3LQKw%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "Euro News."
+    },
+    {
+      "name": "Evolution Earth",
+      "icon": "https://cdn.iyad.space/images/evolution-earth.png",
+      "url": "https://d3em2dvvzq3oj4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-23j2wegjm8ftd/Evolution_Earth.m3u8",
+      "epg_id": "Evolution Earth"
+    },
+    {
+      "name": "EWTN",
+      "icon": "https://play-lh.googleusercontent.com/3716tvZCgzpIt-X1giV8jKwCdC8zwOI4eMUfO_ETWzNX6eGKIi2RiUK9a_fr6BCzjw",
+      "url": "https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/cv2/001/2/ch00000090990000001104/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMArqe%2B6z8S0P4H4d709E7gynsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "EWTN"
+    },
+    {
+      "name": "FailArmy",
+      "icon": "https://iyadtv.pages.dev/images/failarmy_92.png",
+      "url": "https://b5b2d4f7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYXVfRmFpbEFybXlfSExT/playlist.m3u8",
+      "epg_id": "FailArmy"
+    },
+    {
+      "name": "Fashion TV HD",
+      "icon": "https://iyadtv.pages.dev/images/fashion_tv_hd_93.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999769/uOdycClGadUEumBRAtqgYA/s/fashiontvhd/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "c8a4e6917f324d05b9186c5e3a2f7049:92b4ece8c84379145045267b47f183d2",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Fashion TV HD"
+    },
+    {
+      "name": "Fight Network",
+      "icon": "https://iyadtv.pages.dev/images/fight_network_94.png",
+      "url": "https://amg00966-amg00966c10-amgplt0201.playout.now3.amagi.tv/playlist/amg00966-amg00966c10-amgplt0201/playlist.m3u8",
+      "epg_id": "Fight Network"
+    },
+    {
+      "name": "Filmrise Anime",
+      "icon": "https://images.plex.tv/photo?size=large-1920&scale=1&url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2Fcff7361f-e0ba-4aeb-9251-9530f4eb1d80%2FFilmRise_Anime_1500x1000_Light_Logo.png",
+      "url": "https://dvu7aia8rjlfm.cloudfront.net/master.m3u8",
+      "epg_id": "Filmrise Anime"
+    },
+    {
+      "name": "FITE 24/7",
+      "icon": "https://iyadtv.pages.dev/images/fite_24_7_99.png",
+      "url": "https://a-cdn.klowdtv.com/live2/fite247_720p/chunks.m3u8",
+      "epg_id": "FITE 24/7"
+    },
+    {
+      "name": "Food Network HD",
+      "icon": "https://iyadtv.pages.dev/images/food_network_hd_100.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/s/cg_foodnetwork_hd1/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "b1f4a8926c374d509e218a7c3f5d6049:15cde0b44b44f38ea936513a99606c1b",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Food Network HD"
+    },
+    {
+      "name": "FOX",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/4/48/FOX_wordmark-orange_2.svg",
+      "url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "FOX"
+    },
+    {
+      "name": "Fox Sports 1",
+      "icon": "https://static-media.fox.com/fmc/prod/network_assets/FS1_Color@3x.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/usa-s/FOX-SPORTS-1/index.m3u8",
+      "epg_id": "Fox Sports 1"
+    },
+    {
+      "name": "FRANCE 24",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png?_=20180409235622",
+      "url": "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8",
+      "epg_id": "FRANCE 24"
+    },
+    {
+      "name": "Global Fashion Channel",
+      "icon": "https://iyadtv.pages.dev/images/global_fashion_channel_111.png",
+      "url": "https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/cdbe280e-0aea-4bbe-861f-fd115abcfec7_1080p.m3u8",
+      "epg_id": "Global Fashion Channel"
+    },
+    {
+      "name": "Global Trekker",
+      "icon": "https://iyadtv.pages.dev/images/global_trekker_112.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/s/globaltrekker/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "e4b8d2916a534f709c187d3e5a2f6049:85d67d8b52caf380c82dc45b07f26f69",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Global Trekker"
+    },
+    {
+      "name": "GMA",
+      "icon": "https://iyadtv.pages.dev/images/gma_kapuso_105.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/hls/gma/stream.m3u8",
+      "epg_id": "GMA"
+    },
+    {
+      "name": "GMA Life TV",
+      "icon": "https://iyadtv.pages.dev/images/gma_life_tv_108.png",
+      "url": "https://abslive.akamaized.net/dash/live/2099522/glife3/manifest.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "5d308ef487f54107b7da758e195ecbd3:9d4004d4c065dd4b85ad5bd12c35386f",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "GMA Life TV"
+    },
+    {
+      "name": "GMA News TV",
+      "icon": "https://iyadtv.pages.dev/images/gma-news-tv.svg",
+      "url": "https://abslive.akamaized.net/dash/live/2099522/gnews3/manifest.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "d5d848730e4a4f9b962290039dd2b96b:c959dc12f1bff5a66d030117fb7e9855",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "GMA News TV"
+    },
+    {
+      "name": "GMA Pinoy TV",
+      "icon": "https://iyadtv.pages.dev/images/gma-pinoy-tv.svg",
+      "url": "https://abslive.akamaized.net/dash/live/2099522/gmapt3/manifest.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "7b5d15a7385546768aca9fd505ad5e16:f534393c84c1a9c17fa36bc3a4380981",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "GMA Pinoy TV"
+    },
+    {
+      "name": "GNN",
+      "icon": "https://iyadtv.pages.dev/images/gnn.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/cv3/001/2/ch00000090990000001234/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAp6sHVPy02nySMqUY2vMm%2BjsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "GNN"
+    },
+    {
+      "name": "Golden TV",
+      "icon": "https://alpha.uscreencdn.com/396xnull/images/logotypes/36356/all-orange-logo-on-transparent-background.1694501197.png?auto=webp",
+      "url": "https://goldentv.b-cdn.net/HLS/GOLDENTV_SCTE.m3u8",
+      "epg_id": "Golden TV"
+    },
+    {
+      "name": "GTV",
+      "icon": "https://iyadtv.pages.dev/images/gtv_114.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/hls/gtv/stream.m3u8",
+      "epg_id": "GTV"
+    },
+    {
+      "name": "Hallmark",
+      "icon": "https://cdn.iyad.space/hallmark.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/hls/hallmark/stream.m3u8",
+      "epg_id": "Hallmark"
+    },
+    {
+      "name": "Halloween Nights",
+      "icon": "https://cdn.iyad.space/halloween-nights.png",
+      "url": "https://shd-amg-fast.edgenextcdn.net/tx012/playlist.m3u8",
+      "epg_id": "Halloween Nights"
+    },
+    {
+      "name": "hallypop",
+      "icon": "https://iyadtv.pages.dev/images/hallypop_116.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/cv2/001/2/ch00000090990000001152/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMArQQqEzMGzqacd7xs%2FVYEXbsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "hallypop"
+    },
+    {
+      "name": "HBO",
+      "icon": "https://iyadtv.pages.dev/images/hbo_117.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/cv1/001/2/ch00000090990000001065/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAosKg8aLji3LHWqHUI%2FwQyJsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "HBO"
+    },
+    {
+      "name": "HBO Boxing",
+      "icon": "https://iyadtv.pages.dev/images/hbo_boxing_119.png",
+      "url": "https://dbrb49pjoymg4.cloudfront.net/10001/99951469/hls/playlist.m3u8?ads.xumo_channelId=99951469&ads.xumo_streamId=99951469&ads.channelId=99951469&ads.channelName=WBDHBOBoxing_us&ads.caid=WBDHBOBoxing&ads.csid=xumo_[PLATFORM]_WBDHBOBoxing_ssai&ads._fw_coppa=0&ads.xumo_contentId=4315&ads.xumo_contentName=WBDHBOBoxing&ads.xumo_providerId=4315&ads.xumo_providerName=WBDHBOBoxing&ads._fw_ifa_type=[IFA_TYPE]&ads._fw_did=[IFA]&ads.amznappId=[AMZN_APP_ID]&ads.lat=[LAT]&ads.lon=[LON]&ads.os=[OS]&ads.osv=[OS_VERSION]&ads._fw_is_lat=[IS_LAT]&ads._fw_us_privacy=[CCPA_Value]&ads.genre=[CONTENT_IMDB_GENRE]&ads._fw_content_category=[IAB_content_category]&ads._fw_content_language=[content_language]&ads._fw_content_genre=[content_genre]&ads._fw_content_rating=[content_rating]&ads._fw_deviceMake=[device_make]&ads._fw_device_model=[device_model]&ads.xumo_platform=[PLATFORM]&ads.site_id=[publica_site_id]&ads.appVersion=[APP_VERSION]&ads._fw_app_bundle=[app_bundle]&ads._fw_app_store_url=[app_store_url]&ads.appName=XumoPlay",
+      "epg_id": "HBO Boxing"
+    },
+    {
+      "name": "HBO Comedy",
+      "icon": "https://iyadtv.pages.dev/images/hbo_comedy_120.png",
+      "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/clients/dash/enc/f6ns8qsqde/out/v1/0827e077a8224107a1e6137627cc8198/cenc.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "217624a3983b3593ca7d1f3b01042d4f:fecaa3486d9deef3f7f0e1a95b662cb7",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "HBO Comedy"
+    },
+    {
+      "name": "HBO Family",
+      "icon": "https://iyadtv.pages.dev/images/hbo_family_121.png",
+      "url": "https://cco-streamer1.cdn.3bbtv.com:8443/3bb/live/106/106.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "07b138f30ad3441ca5a2f476e550af25:826ee4deef4b45cfafd5f79a591b15c6",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "HBO Family"
+    },
+    {
+      "name": "HBO Mundi",
+      "icon": "https://cdn.iyad.space/images/hbo-mundi.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/izzigo/live1-ott/8/HBO-MUNDI-HD-H265/default.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "96b2370bdcc9acb6caa0cfd5aa35dcf4:b732a02918aa32e739e43952db768cc6",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "HBO Mundi"
+    },
+    {
+      "name": "HBO PLUS",
+      "icon": "https://iyadtv.pages.dev/images/hbo_plus_125.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/hls/hboplus/stream.m3u8",
+      "epg_id": "HBO PLUS"
+    },
+    {
+      "name": "HBO POP",
+      "icon": "https://iyadtv.pages.dev/images/hbo_pop_126.png",
+      "url": "https://live3-ott.izzigo.tv/15/out/u/dash/HBO-POP-HD/default.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "861ab989089891d84ad0da296954437c:3bdf94f9fc1888529f8d27d070d38566",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "HBO POP"
+    },
+    {
+      "name": "HBO Signature",
+      "icon": "https://iyadtv.pages.dev/images/hbo_signature_123.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999770/E0LaYgU5sasmVC1ZtnIXVw/hls/hbosig/stream.m3u8",
+      "epg_id": "HBO Signature"
+    },
+    {
+      "name": "HBO Xtreme",
+      "icon": "https://iyadtv.pages.dev/images/hbo_xtreme_127.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/hls/hbox/stream.m3u8",
+      "epg_id": "HBO Xtreme"
+    },
+    {
+      "name": "HBO Zone",
+      "icon": "https://iyadtv.pages.dev/images/hbo_zone_128.png",
+      "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/u7xfabrc5b/out/v1/67371e988d6649afbde43ba1e9747550/cenc.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "0b380bec87af5c16ee145bbf8cd7d65e:edcb65d1269bd76f166d6bc56114211f",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "HBO Zone"
+    },
+    {
+      "name": "HGTV HD",
+      "icon": "https://iyadtv.pages.dev/images/hgtv_hd_130.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/s/hgtv_hd1/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "4e9a6c317d524f808b163c5a2e7d9048:5079e2288b584f47d4bbf8d149b2a986",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "HGTV HD"
+    },
+    {
+      "name": "History HD",
+      "icon": "https://iyadtv.pages.dev/images/history_hd_132.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/s/dr_historyhd/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "f5c7a8219d464e30b2186a3f7c5d9041:dacc84b7010ca22f8c63a7c290461ed3",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "History HD"
+    },
+    {
+      "name": "Hits HD",
+      "icon": "https://iyadtv.pages.dev/images/hits_hd_133.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/s/hits_hd1/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "d2e8c4715a634f09b2187c6d3e9a5042:8b11760042654021997fd07a8a0b7acc",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Hits HD"
+    },
+    {
+      "name": "Hits Movies",
+      "icon": "https://iyadtv.pages.dev/images/hits_movies_134.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/s/hitsmovies/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "45c9e7328b614d059f247a6c3e5d1048:13ef5feae7c84eb06bcc655a225fb01d",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Hits Movies"
+    },
+    {
+      "name": "Hits Now",
+      "icon": "https://iyadtv.pages.dev/images/hits_now_135.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/s/cg_hitsnow/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "24a8e6917c534d809f165b3e6a2d9047:183f05bcb80e9cfcb613b8c767777f27",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Hits Now"
+    },
+    {
+      "name": "HIYAH!",
+      "icon": "https://iyadtv.pages.dev/images/hiyah__136.png",
+      "url": "https://linear-59.frequency.stream/dist/plex/59/hls/master/playlist.m3u8",
+      "epg_id": "HIYAH!"
+    },
+    {
+      "name": "Hope Channel PH",
+      "icon": "https://iyadtv.pages.dev/images/hope_tv_137.png",
+      "url": "https://jstre.am/live/jsl:nX5eC7gQvZb.m3u8",
+      "epg_id": "Hope Channel PH"
+    },
+    {
+      "name": "HypeTV",
+      "icon": "https://iyadtv.pages.dev/images/hypetv1.png",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-211468/tracks-v1a1/mono.ts.m3u8",
+      "epg_id": "HypeTV"
+    },
+    {
+      "name": "IBC13",
+      "icon": "https://iyadtv.pages.dev/images/ibc13_138.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/s/ibc13_sd_new/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "f4a8d6216c954e709b187d3a5f2c8049:34710df996a4089ee6f7e8deb7f46586",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "IBC13"
+    },
+    {
+      "name": "INCTV",
+      "icon": "https://iyadtv.pages.dev/images/inctv_141.png",
+      "url": "https://243529.global.ssl.fastly.net/6842a712b68c56f675d988f1/live_f5ac22b0566511f0805217b960326aaa/index.fmp4.m3u8",
+      "epg_id": "INCTV"
+    },
+    {
+      "name": "InWonder",
+      "icon": "https://iyadtv.pages.dev/images/inwonder.png",
+      "url": "https://amg00861-terninternation-inwonder-samsungau-1k63k.amagi.tv/playlist/amg00861-terninternation-inwonder-samsungau/playlist.m3u8",
+      "epg_id": "InWonder"
+    },
+    {
+      "name": "ION",
+      "icon": "https://iyadtv.pages.dev/images/ion.svg",
+      "url": "https://live-manifest.production-public.tubi.io/live/cadd5511-0fda-4045-94b6-4dd982fa63e7/playlist.m3u8",
+      "epg_id": "ION"
+    },
+    {
+      "name": "Jeepney TV",
+      "icon": "https://iyadtv.pages.dev/images/jeepney_tv_142.png",
+      "url": "https://abslive.akamaized.net/dash/live/2027618/jeepneytv/manifest.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "dc9fec234a5841bb8d06e92042c741ec:225676f32612dc803cb4d0f950d063d0",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Jeepney TV"
+    },
+    {
+      "name": "Just for Laughs Gags",
+      "icon": "https://iyadtv.pages.dev/images/just_for_laughs_gags_144.png",
+      "url": "https://dtqutq7lmcchv.cloudfront.net/10001/99991204/hls/master.m3u8?ads.xumo_channelId=99991204&ads",
+      "epg_id": "Just for Laughs Gags"
+    },
+    {
+      "name": "Kapamilya Channel",
+      "icon": "https://iyadtv.pages.dev/images/kapamilya_channel_146.png",
+      "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-kapcha-dash-abscbnono/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "bd17afb5dc9648a39be79ee3634dd4b8:b475084a1a58857e18480e30fbb0e544",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Kapamilya Channel"
+    },
+    {
+      "name": "Kapamilya Channel HD",
+      "icon": "https://iyadtv.pages.dev/images/kapamilya_channel_hd.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/hls/kapamilyahd/stream.m3u8",
+      "epg_id": "Kapamilya Channel HD"
+    },
+    {
+      "name": "Kartoon Channel",
+      "icon": "https://iyadtv.pages.dev/images/kartoon_channel_148.png",
+      "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-kartoonchannel-samsungnz/playlist.m3u8",
+      "epg_id": "Kartoon Channel"
+    },
+    {
+      "name": "KBS World",
+      "icon": "https://iyadtv.pages.dev/images/kbs_world_149.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/s/kbsworld/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "e8c5d2317a944f06b2186d3a9e7c5042:ce327be0871677eb1c480d10a73eac34",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "KBS World"
+    },
+    {
+      "name": "Kids TV",
+      "icon": "https://cdn.iyad.space/kids-tv.avif",
+      "url": "https://wurljansonmedia.global.transmit.live/hls/69029561e0b3f0f215eef867/playlist.m3u8?wurl_channel=1379&wurl_name=KidsTV&coppa=1&uid=[DEVICE_ID]&rdid=[IFA]&ifatype=[IFA_TYPE]&dnt=[LMT]&donotsell=[DNS]&isgdpr=[GDPR]&gdpr=[GDPR_CONSENT]&country=[COUNTRY]&pr=[US_PRIVACY]&appstoreurl=[APP_STOREURL]&bundleid=[APP_BUNDLE]&appname=[APP_NAME]&appversion=[APP_VERSION]&dt=[DEVICE_TYPE]&make=[DEVICE_MAKE]&model=[DEVICE_MODEL]&targetad=[TARGETAD_ALLOWED]&fck=[FCK]&viewsize=[VIEWSIZE]&nonce=[NONCE]",
+      "epg_id": "Kids TV"
+    },
+    {
+      "name": "Kidsflix",
+      "icon": "https://iyadtv.pages.dev/images/kidsflix_152.png",
+      "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50",
+      "epg_id": "Kidsflix"
+    },
+    {
+      "name": "Kix HD",
+      "icon": "https://iyadtv.pages.dev/images/kix_hd_154.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999771/T8UKWAq1ebnwn8bY9OFbNA/s/kix_hd1/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "7f4a9c312e854d67b0198c6f5a3e7240:141f058ad1a6230e7c6f9d302ce378ef",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Kix HD"
+    },
+    {
+      "name": "Knowledge Channel",
+      "icon": "https://iyadtv.pages.dev/images/knowledge_channel_156.png",
+      "url": "https://abslive.akamaized.net/dash/live/2027618/kc/manifest.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "bd1f88dd3b254514bf7a113188c10dc2:ea86da60f0116f3b92a86acf45b8e071",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Knowledge Channel"
+    },
+    {
+      "name": "Kpop TV Play",
+      "icon": "https://iyadtv.pages.dev/images/kpop_tv_play_157.png",
+      "url": "https://live20.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
+      "epg_id": "Kpop TV Play"
+    },
+    {
+      "name": "KroneHit TV",
+      "icon": "https://cdn.iyad.space/images/kronehit.png",
+      "url": "https://bitcdn-kronehit.bitmovin.com/v2/hls/fluxustv.m3u8",
+      "epg_id": "KroneHit TV"
+    },
+    {
+      "name": "Lifetime",
+      "icon": "https://iyadtv.pages.dev/images/lifetime_159.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999772/IBmq8Ikz3oGLUZ8lDc2o6A/s/dr_lifetime/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "b9e6a3214c754f908d165a3c7e2f6048:32300d9517f91a4acb747d360768dd00",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Lifetime"
+    },
+    {
+      "name": "Light TV",
+      "icon": "https://iyadtv.pages.dev/images/light_tv_160.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999772/IBmq8Ikz3oGLUZ8lDc2o6A/cv3/001/2/ch00000090990000001103/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAqkZ6SnNx3gh97OtxQ2ygibsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "Light TV"
+    },
+    {
+      "name": "Lotus Macau",
+      "icon": "https://iyadtv.pages.dev/images/lotus_macau_162.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999772/IBmq8Ikz3oGLUZ8lDc2o6A/s/lotusmacau_prd/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "e2c9a5748b314f60a9276d5e3c1f8042:c845cc41e3826b6d880b802911eb43f9",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Lotus Macau"
+    },
+    {
+      "name": "Media Pilipinas TV",
+      "icon": "https://iyadtv.pages.dev/images/media_pilipinas_tv_173.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999772/IBmq8Ikz3oGLUZ8lDc2o6A/s/cg_mptv/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "6aab8f40536f4ea98e7c97b8f3aa7d4e:139aa5a55ade471faaddacc4f4de8807",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Media Pilipinas TV"
+    },
+    {
+      "name": "Metro Channel",
+      "icon": "https://iyadtv.pages.dev/images/metro_channel_166.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999772/IBmq8Ikz3oGLUZ8lDc2o6A/cv2/001/2/ch00000090990000001267/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAr4hyjlpFsJWrmHS5nwWoXTsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "Metro Channel"
+    },
+    {
+      "name": "Mindanow Network",
+      "icon": "https://iyadtv.pages.dev/images/mindanow_network_165.png",
+      "url": "https://cdn.vegasplus.us/vegas/mmn01/playlist.m3u8",
+      "epg_id": "Mindanow Network"
+    },
+    {
+      "name": "MIRAMAX",
+      "icon": "https://iyadtv.pages.dev/images/miramax.png",
+      "url": "https://linear-798.frequency.stream/mt/plex/798/hls/master/playlist_1920x1080.m3u8",
+      "epg_id": "MIRAMAX"
+    },
+    {
+      "name": "MLB Network",
+      "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/MLBNetworkLogo.svg/500px-MLBNetworkLogo.svg.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999772/IBmq8Ikz3oGLUZ8lDc2o6A/hls/mlbnetwork/stream.m3u8",
+      "epg_id": "MLB Network"
+    },
+    {
+      "name": "MMA-TV",
+      "icon": "https://iyadtv.pages.dev/images/mma_tv_97.png",
+      "url": "https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8",
+      "epg_id": "MMA-TV"
+    },
+    {
+      "name": "MNX HD",
+      "icon": "https://iyadtv.pages.dev/images/mnx-hd.svg",
+      "url": "https://times-ott-live.akamaized.net/mnxhd_wv_drm/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "MNX HD"
+    },
+    {
+      "name": "Moonbug Kids",
+      "icon": "https://iyadtv.pages.dev/images/moonbug_kids_169.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999772/IBmq8Ikz3oGLUZ8lDc2o6A/s/cg_moonbug_kids_sd/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "48e7d3219c564f80b2147a5d3e6c2048:23a7b41054c60983ad020652f7ffa06e",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Moonbug Kids"
+    },
+    {
+      "name": "MOR Entertainment",
+      "icon": "https://iyadtv.pages.dev/images/mor_entertainment_170.png",
+      "url": "https://abslive.akamaized.net/dash/live/2027618/mor/manifest.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "7e5905e0a87641798a200510f01ae5ca:814310518395440d57c67f2ef70ea250",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "MOR Entertainment"
+    },
+    {
+      "name": "MotoGP Channel",
+      "icon": "https://provider-static.plex.tv/epg/cms/production/d5b19340-b4d9-498d-8f89-2a69bc30fc4b/MotoGPChannel_1500x1000_logo_for_dark_bgd_-_Eddie_Hunter-Higgins.png",
+      "url": "https://d1kqz1q7knpsue.cloudfront.net/MotoGP.m3u8",
+      "epg_id": "MotoGP Channel"
+    },
+    {
+      "name": "Movie Sphere",
+      "icon": "https://iyadtv.pages.dev/images/movie-sphere2.png",
+      "url": "https://i.mjh.nz/.r/sky-ptms.m3u8",
+      "epg_id": "Movie Sphere"
+    },
+    {
+      "name": "MovieBoxPH",
+      "icon": "https://iyadtv.pages.dev/images/movieboxph_171.png",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-210731/tracks-v1a1/mono.ts.m3u8",
+      "epg_id": "MovieBoxPH"
+    },
+    {
+      "name": "Movies Now",
+      "icon": "https://iyadtv.pages.dev/images/movies-now.svg",
+      "url": "https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Movies Now"
+    },
+    {
+      "name": "Mr Beast",
+      "icon": "https://cdn.iyad.space/images/mrbeast.png",
+      "url": "https://live-manifest.production-public.tubi.io/live/e8f55e68-0e26-44f2-afac-c132218b4ce9/playlist.m3u8",
+      "epg_id": "Mr Beast"
+    },
+    {
+      "name": "Mr. Bean",
+      "icon": "https://occ-0-2218-2219.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABbRwik6Z4qzsGK35BQwWH4OnDlHaAWQpMKO7yY1djYpGJrL6MvHF1ewYxmphLAmzAa4fN1EU_OJ6r5dO3MlNHS1c5LocnS8dLsA.png",
+      "url": "https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8",
+      "epg_id": "Mr. Bean"
+    },
+    {
+      "name": "MTV",
+      "icon": "https://iyadtv.pages.dev/images/mtv_174.png",
+      "url": "https://cache4.zapitv.com/live/eds_c2/mtv_espana/dash_live_ez/mtv_espana.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "ad26ea37ce8e4cd8899c85bccc295021:7893f2b2fcfd15e4f1a896fd1eeaa676",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "MTV"
+    },
+    {
+      "name": "MUX DOS",
+      "icon": "https://cdn.iyad.space/images/mux-dos.png",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-209333/playlist.m3u8",
+      "epg_id": "MUX DOS"
+    },
+    {
+      "name": "Mysterious Worlds",
+      "icon": "https://image.xumo.com/v1/channels/channel/99951398/168x168.png?type=color_onBlack",
+      "url": "https://dbrb49pjoymg4.cloudfront.net/10001/99951398/hls/playlist.m3u8?includeAssetTags=true&ads.xumo_channelId=99951398&ads.xumo_streamId=99951398&ads.channelId=99951398&ads.channelName=WBDMysteriousWorlds&ads.caid=WBDMysteriousWorlds&ads.csid=xumo_web_WBDMysteriousWorlds_ssai&ads.genre=Entertainment,Drama,GV,GD&ads._fw_content_genre=Entertainment,Drama,GV,GD&ads._fw_coppa=0&ads.xumo_contentId=4206&ads.xumo_contentName=WBDMysteriousWorlds&ads.xumo_providerId=4206&ads.xumo_providerName=WBDMysteriousWorlds&ads.asnw=&ads.xumo_channelName=WBDMysteriousWorlds&ads._fw_h_x_country=US&ads._fw_ifa_type=&ads._fw_did=ce47cf46-c295-4a04-b99e-fcb123a5bb3b&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.xumo_platform=web&ads.site_id=&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads.appName=xumo",
+      "epg_id": "Mysterious Worlds"
+    },
+    {
+      "name": "Mythbusters",
+      "icon": "https://iyadtv.pages.dev/images/mythbusters_178.png",
+      "url": "https://amg00627-amg00627c14-samsung-ph-4556.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mythbusters-samsungph/playlist.m3u8",
+      "epg_id": "Mythbusters"
+    },
+    {
+      "name": "MYX",
+      "icon": "https://iyadtv.pages.dev/images/myx_179.png",
+      "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-myxnola-dash-abscbnono/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "f40a52a3ac9b4702bdd5b735d910fd2f:35e4893c6e76546085941be3010932d4",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "MYX"
+    },
+    {
+      "name": "National Geographic",
+      "icon": "https://iyadtv.pages.dev/images/national_geographic_181.png",
+      "url": "https://cache3.zapitv.com/live/eds_c2/nat_geographic_hd/dash_live_ez/nat_geographic_hd.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "489955dbc55c44ad93b69a07cb031e84:870f3b7c49e8660daf21fe7783d23074",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "National Geographic"
+    },
+    {
+      "name": "NBA TV",
+      "icon": "https://iyadtv.pages.dev/images/nba_tv_184.png",
+      "url": "https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/2jbycgm3g3/out/v1/066dd9325648468c9ecdc8b272370931/cenc.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "84077d18bcf234a42de3745be106a87f:aee3069c062ec8ee6bfdd32985f287ef",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "NBA TV"
+    },
+    {
+      "name": "NBA TV Philippines",
+      "icon": "https://iyadtv.pages.dev/images/nba_tv_philippines_185.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999773/M_RvmUzCvhWvgTC4LzoR1Q/s/cgnl_nba/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "2f7c9a615d834e40b2188a6d3c7f9042:41d2ade5ff1798859420e925d5d2080d",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "NBA TV Philippines"
+    },
+    {
+      "name": "NCAA NXT",
+      "icon": "https://cdn.iyad.space/ncaa-nxt.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999773/M_RvmUzCvhWvgTC4LzoR1Q/s/cg_ncaa/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "d84f2a917c364e58b10963a7f2c8d451:e75d40a44350a148b32ad27081eadacb",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "NCAA NXT"
+    },
+    {
+      "name": "Net25",
+      "icon": "https://iyadtv.pages.dev/images/net25_186.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999773/M_RvmUzCvhWvgTC4LzoR1Q/hls/net25/stream.m3u8",
+      "epg_id": "Net25"
+    },
+    {
+      "name": "New KMovies",
+      "icon": "https://iyadtv.pages.dev/images/k_movies_155.png",
+      "url": "https://wurlnewidco.global.transmit.live/hls/6994cc64f98934b03cb940b7/v1/new_id_co_newkmovies_2/lg_us/latest/main/hls/manifest.m3u8?wurl_channel=2191&wurl_name=NewKMovies&coppa=0&uid=[DEVICE_ID]&rdid=[IFA]&ifatype=[IFA_TYPE]&dnt=[LMT]&donotsell=[DNS]&isgdpr=[GDPR]&gdpr=[GDPR_CONSENT]&country=[COUNTRY]&pr=[US_PRIVACY]&appstoreurl=[APP_STOREURL]&bundleid=[APP_BUNDLE]&appname=[APP_NAME]&appversion=[APP_VERSION]&dt=[DEVICE_TYPE]&make=[DEVICE_MAKE]&model=[DEVICE_MODEL]&targetad=[TARGETAD_ALLOWED]&fck=[FCK]&viewsize=[VIEWSIZE]&nonce=[NONCE]",
+      "epg_id": "New KMovies"
+    },
+    {
+      "name": "NHK World Japan",
+      "icon": "https://iyadtv.pages.dev/images/nhk_world_japan_188.png",
+      "url": "https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8",
+      "epg_id": "NHK World Japan"
+    },
+    {
+      "name": "Nickelodeon",
+      "icon": "https://iyadtv.pages.dev/images/nickelodeon_hd_191.png",
+      "url": "https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/303/303.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "9130a6448a74430794d355b48b56a64c:c2f4d3288cdb43cf81e519ceb414dd6f",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Nickelodeon"
+    },
+    {
+      "name": "Nickjr",
+      "icon": "https://iyadtv.pages.dev/images/nickjr_189.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999773/M_RvmUzCvhWvgTC4LzoR1Q/cv6/001/2/ch00000090990000001215/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BroUjrgwleoSk5QhQ%2F3YakaytokK1MIobcue1ImXa0ZEA%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "Nickjr"
+    },
+    {
+      "name": "One News HD",
+      "icon": "https://iyadtv.pages.dev/images/one-news.svg",
+      "url": "https://ovh.rise2the.top/aldous/1793999773/M_RvmUzCvhWvgTC4LzoR1Q/s/onenews_hd1/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "d5c8a2914e734b609f127a3d6c5e8048:11368a3b001407d65a85b4edb410ecdd",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "One News HD"
+    },
+    {
+      "name": "One PH",
+      "icon": "https://iyadtv.pages.dev/images/one-ph.svg",
+      "url": "https://ovh.rise2the.top/aldous/1793999773/M_RvmUzCvhWvgTC4LzoR1Q/s/oneph_sd/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "5e9a3c718d464f20b9157a6c2e4d8031:7bf8a7666a2d572fe111b5f829c99266",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "One PH"
+    },
+    {
+      "name": "One Sports",
+      "icon": "https://iyadtv.pages.dev/images/one-sports.svg",
+      "url": "https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/s/cg_onesports_hd/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "69f5a2318d744c609b125e3a7d8f2046:182523c0bae912e17e916dd4283280e9",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "One Sports"
+    },
+    {
+      "name": "Oras ng Himala",
+      "icon": "https://iyadtv.pages.dev/images/oras_ng_himala_202.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999773/M_RvmUzCvhWvgTC4LzoR1Q/cv2/001/2/ch00000090990000001175/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMApQqyrYGvsQGfBZz9lkpM7HsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "Oras ng Himala"
+    },
+    {
+      "name": "Outdoor Channel",
+      "icon": "https://iyadtv.pages.dev/images/outdoor_channel_200.png",
+      "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8",
+      "epg_id": "Outdoor Channel"
+    },
+    {
+      "name": "Paramount Movie Channel",
+      "icon": "https://iyadtv.pages.dev/images/paramount_movie_channel_203.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/plusam/USAJ26000054W",
+      "epg_id": "Paramount Movie Channel"
+    },
+    {
+      "name": "PBA Rush",
+      "icon": "https://iyadtv.pages.dev/images/pba_rush_205.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/s/cg_pbarush_hd1/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "91a5e6327c844f09b2186d3a5e7c2041:984beb3aeff3554c1a5acc04d6044e55",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "PBA Rush"
+    },
+    {
+      "name": "PBB Collab 3.0",
+      "icon": "https://cdn.iyad.space/pbb3.0.png",
+      "url": "https://abslive.akamaized.net/dash/live/2027618/pinoybigbrothercollabedition30live/manifest.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "02b0d6aa78d547af890c9e27113e81af:890160f8ece56b8cd232889acb74e276",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "PBB Collab 3.0"
+    },
+    {
+      "name": "PBS Digital Studios",
+      "icon": "https://iyadtv.pages.dev/images/pbs.png",
+      "url": "https://d1l4qxz5lz9v2h.cloudfront.net/10501/88886029/hls/master.m3u8?ads.xumo_channelId=88886029",
+      "epg_id": "PBS Digital Studios"
+    },
+    {
+      "name": "People Are Awesome",
+      "icon": "https://iyadtv.pages.dev/images/people_are_awesome_208.png",
+      "url": "https://jukin-peopleareawesome-2-ca.samsung.wurl.tv/playlist.m3u8",
+      "epg_id": "People Are Awesome"
+    },
+    {
+      "name": "Peoples Television",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/1/10/People%27s_Televsion_Network_Incorporated_%28PTV%29.svg",
+      "url": "https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/cv7/001/2/ch00000090990000001086/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAogpxrMDVv1bZ%2FeMkgHZmwQsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "Peoples Television"
+    },
+    {
+      "name": "Pilipinas Live",
+      "icon": "https://iyadtv.pages.dev/images/pilipinas_live_209.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/s/pl_sdi1/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "73f8c2915d644e70b2189a3c6d7f2045:fb199597a99e601c9bc8767a1b20312b",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Pilipinas Live"
+    },
+    {
+      "name": "Pinoy Box Office",
+      "icon": "https://iyadtv.pages.dev/images/pinoy_box_office_210.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/cv5/001/2/ch00000090990000001078/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAq9SZLE5HgafIcQ2VcLQB9EsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "Pinoy Box Office"
+    },
+    {
+      "name": "Pinoy Xtreme",
+      "icon": "https://iyadtv.pages.dev/images/pinoy_xtreme_211.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/cv5/001/2/ch00000090990000001098/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMApC219uqwL0dVmslrkAjamFsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "Pinoy Xtreme"
+    },
+    {
+      "name": "Popular Science",
+      "icon": "https://media.unreel.me/prod/freelivesports/logo/fd143394-5285-40a8-adca-a50243e58288",
+      "url": "https://amg13231-actve-amg13231c5-sportstribal-emea-1269.playouts.now.amagi.tv/playlist/amg13231-actvefast-powder-sportstribalemea/playlist.m3u8",
+      "epg_id": "Popular Science"
+    },
+    {
+      "name": "Premier Sports",
+      "icon": "https://cdn.iyad.space/images/premier-sports.png",
+      "url": "https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c3-amgplt0351/playlist.m3u8",
+      "epg_id": "Premier Sports"
+    },
+    {
+      "name": "Radyo Bandido",
+      "icon": "https://iyadtv.pages.dev/images/radyo_bandido_215.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/cv10/001/2/ch00000090990000001338/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAquM2DhqYshrFbBoS4HC4mc2%2FjHNuou2Jtxin49X3LQKw%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "Radyo Bandido"
+    },
+    {
+      "name": "Real Disaster Channel",
+      "icon": "https://iyadtv.pages.dev/images/real_disaster_channel_216.png",
+      "url": "https://linear-475.frequency.stream/dist/glewedtv/475/hls/master/playlist.m3u8",
+      "epg_id": "Real Disaster Channel"
+    },
+    {
+      "name": "Real Wild",
+      "icon": "https://iyadtv.pages.dev/images/real_wild_217.png",
+      "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwildnz-samsungnz/playlist.m3u8",
+      "epg_id": "Real Wild"
+    },
+    {
+      "name": "RedBull TV",
+      "icon": "https://img.redbull.com/images/w_450/q_auto,f_auto/redbullcom/2021/3/8/v1viztxjab9e9a6of4by/redbulltv",
+      "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8",
+      "epg_id": "RedBull TV"
+    },
+    {
+      "name": "Retro Crush",
+      "icon": "https://iyadtv.pages.dev/images/retro_crush_218.png",
+      "url": "https://cineverse.g-mana.live/media/ac7cff3c-5bc3-4745-ac4d-56aadb586d00/mainManifest.m3u8",
+      "epg_id": "Retro Crush"
+    },
+    {
+      "name": "RJ Digitv",
+      "icon": "https://iyadtv.pages.dev/images/rj_digitv_222.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/cv8/001/2/ch00000090990000001159/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAreKmZs4H3Zuj6jrvRtgmFqsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "RJ Digitv"
+    },
+    {
+      "name": "Rock Action",
+      "icon": "https://iyadtv.pages.dev/images/rock-action.avif",
+      "url": "https://ovh.rise2the.top/aldous/1793999775/02tJNsjUhQybn-wnKoE4pQ/s/dr_rockextreme/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "d9a4f5218c374b069e156f2d7a3c8049:72aa902f471adf15bef2710b6b689ed0",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Rock Action"
+    },
+    {
+      "name": "Rock MNL",
+      "icon": "https://iyadtv.pages.dev/images/rock_of_manila_tv_223.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999774/L6fwhPjtZHJimP-GgUVSQg/cv3/001/2/ch00000090990000001177/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAq3IoTFSryS9b7zI0P4QXhKsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "Rock MNL"
+    },
+    {
+      "name": "RPTV",
+      "icon": "https://iyadtv.pages.dev/images/rptv_226.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999775/02tJNsjUhQybn-wnKoE4pQ/s/cnn_rptv_prod_hd/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "b5d7a6219c434e188f026a3d7c5e9148:28e1244057ff6feae879c1e985ded0fb",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "RPTV"
+    },
+    {
+      "name": "SBS K-Drama",
+      "icon": "https://iyadtv.pages.dev/images/sbs-kdrama.png",
+      "url": "https://ads.its-newid.net/api/manifest.m3u8?tp=lg_channels&channel_name=sbsk-drama&channel_id=newid_008&mpf=c064f5f4-39af1962-6d5d5e50&apikey=48230e6b-1cea0097-15975f93-39af1962&auth=474ab4cb-5d47aa0a-84d0cbca-2a3730a6&ads.live=[CONTENT_LIVE]&ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdpr_consent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.us_privacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]",
+      "epg_id": "SBS K-Drama"
+    },
+    {
+      "name": "SineManila",
+      "icon": "https://iyadtv.pages.dev/images/sinemanila_231.png",
+      "url": "https://live20.bozztv.com/giatv/giatv-sinemanila/sinemanila/playlist.m3u8",
+      "epg_id": "SineManila"
+    },
+    {
+      "name": "Sky Sports F1",
+      "icon": "https://cdn.iyad.space/images/sp-f1.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999775/02tJNsjUhQybn-wnKoE4pQ/hls/skysportsf1/stream.m3u8",
+      "epg_id": "Sky Sports F1"
+    },
+    {
+      "name": "Smithsonian Channel",
+      "icon": "https://blueantmedia.com/wp-content/uploads/2020/04/Smithsonian-Transparent.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999775/02tJNsjUhQybn-wnKoE4pQ/plusam/plu-5f21ea08007a49000762d349.m3u8",
+      "epg_id": "Smithsonian Channel"
+    },
+    {
+      "name": "SMNI News Channel",
+      "icon": "https://iyadtv.pages.dev/images/smni_news_channel_233.png",
+      "url": "https://stream.kdlc.click/hls/stream.m3u8",
+      "epg_id": "SMNI News Channel"
+    },
+    {
+      "name": "SOLARFLIX",
+      "icon": "https://iyadtv.pages.dev/images/solarflix_234.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999775/02tJNsjUhQybn-wnKoE4pQ/cv1/001/2/ch00000090990000001243/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMApbUxUxZzyq5Czg7gUnQAcvsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "SOLARFLIX"
+    },
+    {
+      "name": "SOLARSPORTS",
+      "icon": "https://iyadtv.pages.dev/images/solarsports_235.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999775/02tJNsjUhQybn-wnKoE4pQ/cv3/001/2/ch00000090990000001081/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMApTfGIKxFqRM2tu30PzY%2FKksyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "SOLARSPORTS"
+    },
+    {
+      "name": "Sony Movies",
+      "icon": "https://iyadtv.pages.dev/images/sony-movies.png",
+      "url": "https://a-cdn.klowdtv.com/live1/smc_720p/playlist.m3u8",
+      "epg_id": "Sony Movies"
+    },
+    {
+      "name": "Sony One Action Hits",
+      "icon": "https://moobee.click/images/s1-ah.png",
+      "url": "https://a153aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/krhwmfeoay/out/v1/c5408fc1dc204decb0c5065effed0f79/cenc.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "f923872b58cb63c827a402ed0b52857a:c7fa135ed77f7c42389234846b402b71",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Sony One Action Hits"
+    },
+    {
+      "name": "Sony Pix",
+      "icon": "https://cdn.iyad.space/sony-pix.webp",
+      "url": "https://ovh.rise2the.top/aldous/1793999775/02tJNsjUhQybn-wnKoE4pQ/hls/sonypix/stream.m3u8",
+      "epg_id": "Sony Pix"
+    },
+    {
+      "name": "Spotlight TV",
+      "icon": "https://cdn.iyad.space/spotlight.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999775/02tJNsjUhQybn-wnKoE4pQ/cv4/001/2/ch00000090990000001134/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bo5iGQ4tDytzSdpM9ehJW6pytokK1MIobcue1ImXa0ZEA%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "Spotlight TV"
+    },
+    {
+      "name": "SPOTV",
+      "icon": "https://iyadtv.pages.dev/images/spotv_238.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/s/cg_spotvhd/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "c5e8a3927d414b609f286a3c5e1d7049:7c5edbd3d090bb6de9a9c3685defa959",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "SPOTV"
+    },
+    {
+      "name": "STAR Movies HD",
+      "icon": "https://iyadtv.pages.dev/images/star-movies.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999775/02tJNsjUhQybn-wnKoE4pQ/hls/starmovies/stream.m3u8",
+      "epg_id": "STAR Movies HD"
+    },
+    {
+      "name": "STAR Movies Select HD",
+      "icon": "https://dtil.tmsimg.com/assets/s143830_ld_h15_aa.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999775/02tJNsjUhQybn-wnKoE4pQ/hls/starmovies-s/stream.m3u8",
+      "epg_id": "STAR Movies Select HD"
+    },
+    {
+      "name": "Star TV Philippines",
+      "icon": "https://iyadtv.pages.dev/images/star_tv_philippines_242.png",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-208168/tracks-v1a1/mono.ts.m3u8",
+      "epg_id": "Star TV Philippines"
+    },
+    {
+      "name": "STARZ",
+      "icon": "https://iyadtv.pages.dev/images/starz_243.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/hls/starz/stream.m3u8",
+      "epg_id": "STARZ"
+    },
+    {
+      "name": "STBS Global",
+      "icon": "https://iyadtv.pages.dev/images/stbs_global_246.png",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-208591/tracks-v1a1/mono.ts.m3u8",
+      "epg_id": "STBS Global"
+    },
+    {
+      "name": "Studio Universal",
+      "icon": "https://cdn.iyad.space/su.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/s/cg_studio_universal_hd/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "f8391e9130634854b4614f02ec028ea7:9b9640f873cf906b91dd03c02612d5ce",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Studio Universal"
+    },
+    {
+      "name": "SYFY",
+      "icon": "https://iyadtv.pages.dev/images/syfy.png",
+      "url": "https://cache4.zapitv.com/live/eds_c2/syfy/dash_live_ez/syfy.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "a753e0a4a5084b61ba93ae058c38b1ba:16257ff813b1dbeaf5573871f540ad70",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "SYFY"
+    },
+    {
+      "name": "Tagalized Movie Channel",
+      "icon": "https://iyadtv.pages.dev/images/tagalized_movie_channel_248.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/cv1/001/2/ch00000090990000001080/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMArHx%2Fyl86rMkFVqtHp1NtQIsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "Tagalized Movie Channel"
+    },
+    {
+      "name": "Taiwan Plus",
+      "icon": "https://play-lh.googleusercontent.com/Mz76EjIyT6tF0Q7PggP_xs41XPbTSUSEcwmZL4TG04JYGQITNiyVlvprLsv0inC2rPHeQxrh5-MgNswGmruYXII",
+      "url": "https://fastly.live.brightcove.com/6385235869112/ap-northeast-1/6282251407001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiaWU4OWZvLmVncmVzcy5pdjNqZDgiLCJhY2NvdW50X2lkIjoiNjI4MjI1MTQwNzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MjgyMjUxNDA3MDAxIl0sImp0aSI6IjYzODUyMzU4NjkxMTIifQ.4c-V1Ks3nBx9nRljtn5-jCNP_nLuWBbk-pw9BFWZfMQ/playlist-hls.m3u8",
+      "epg_id": "Taiwan Plus"
+    },
+    {
+      "name": "Tap Action Flix",
+      "icon": "https://cdn.iyad.space/images/tap-action.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/taf/001/2/ch00000090990000001305/manifest.mpd",
+      "epg_id": "Tap Action Flix"
+    },
+    {
+      "name": "TAP Edge",
+      "icon": "https://iyadtv.pages.dev/images/tap_edge_249.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/cv10/001/2/ch00000090990000001150/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAq%2B2uVbDOBwGF5t4YHKR5dbsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "TAP Edge"
+    },
+    {
+      "name": "Tap Movies",
+      "icon": "https://iyadtv.pages.dev/images/tap_movies_251.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/s/cg_tapmovies_hd1/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "65d8c4912f734a90b8163e7c5d9a2041:fd495b984013da4e26f83b1a921c0a15",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Tap Movies"
+    },
+    {
+      "name": "TAP Sports",
+      "icon": "https://iyadtv.pages.dev/images/tap_sports_250.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/s/dr_tapsports/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "a6d4f8912c734b608e159f3a7d5c2046:ec647e6c500235352a8df03c518e9b23",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "TAP Sports"
+    },
+    {
+      "name": "TAP TV",
+      "icon": "https://iyadtv.pages.dev/images/tap_tv_252.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/cv7/001/2/ch00000090990000001149/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAroVo9XMLpd0k2y9rVerSvmsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "TAP TV"
+    },
+    {
+      "name": "TapSILOG",
+      "icon": "https://iyadtv.pages.dev/images/tapsilog.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/hls/tapsi/stream.m3u8",
+      "epg_id": "TapSILOG"
+    },
+    {
+      "name": "Tastemade",
+      "icon": "https://d3bd0tgyk368z1.cloudfront.net/feeds/images/tastemade/Logo_WordmarkLogo_800x200px.png",
+      "url": "https://rakutenaa-tm-intl-aus-rakuten-eu-n1gtg.amagi.tv/playlist/rakutenAA-tm-intl-aus-rakuten-eu/playlist.m3u8",
+      "epg_id": "Tastemade"
+    },
+    {
+      "name": "TBN Asia",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROUq3rHesTr_yxL-GKma2lARcMxdnO30hTgwXs6YrkGQ&s",
+      "url": "https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/cv9/001/2/ch00000090990000001147/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAr1gDY5x7IZ%2FDqQTvxeS3W1syK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "TBN Asia"
+    },
+    {
+      "name": "Tennis Channel",
+      "icon": "https://iyadtv.pages.dev/images/tennis-channel.png",
+      "url": "https://amg01444-tennischannelth-tennischnlintl-lggb-mr3r5.amagi.tv/playlist/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8",
+      "epg_id": "Tennis Channel"
+    },
+    {
+      "name": "TFC Asia",
+      "icon": "https://iyadtv.pages.dev/images/tfc_asia_254.png",
+      "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-tfcasia-dash-abscbnono/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "9568cc84e1d944f38eac304517eab6fd:2c8306892361e3fba18cb142f31ec775",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "TFC Asia"
+    },
+    {
+      "name": "The Manila Times",
+      "icon": "https://iyadtv.pages.dev/images/the_manila_times_256.png",
+      "url": "https://customer-ksrwu2hvu2ipx2fb.cloudflarestream.com/121fd4c01c7ed1c0b1d2c6699e52309a/manifest/video.m3u8",
+      "epg_id": "The Manila Times"
+    },
+    {
+      "name": "Thrill",
+      "icon": "https://iyadtv.pages.dev/images/thrill_257.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/s/cg_thrill_sd/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "b8c3d5906e424f17a9215d8c7a2e6043:02ce48f1b48f7cbdc3e2703a56e8fa31",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Thrill"
+    },
+    {
+      "name": "TLC",
+      "icon": "https://iyadtv.pages.dev/images/tlc_hd_258.png",
+      "url": "https://drk6xq0vhn.gpcdn.net/live/tlc_hd_abr/index.m3u8",
+      "epg_id": "TLC"
+    },
+    {
+      "name": "TNA Wrestling",
+      "icon": "https://iyadtv.pages.dev/images/tna_wrestling_259.png",
+      "url": "https://amg00966-amg00966c1-freelivesports-emea-7712.playouts.now.amagi.tv/playlist/amg00966-anthem-tnawrestling-freelivesportsemea/playlist.m3u8",
+      "epg_id": "TNA Wrestling"
+    },
+    {
+      "name": "TNT Sports 1",
+      "icon": "https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/tnt-sports-1-uk.png?raw=true",
+      "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "TNT Sports 1"
+    },
+    {
+      "name": "Tom and Jerry",
+      "icon": "https://iyadtv.pages.dev/images/tom_and_jerry_260.png",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8",
+      "epg_id": "Tom and Jerry"
+    },
+    {
+      "name": "Top Rank Classics",
+      "icon": "https://iyadtv.pages.dev/images/tr.png",
+      "url": "https://aka-live1050.delivery.roku.com/d60c9b4b-2756-4dea-adfc-e9ec609b8cce/t2-origin/out/v1/live.m3u8",
+      "epg_id": "Top Rank Classics"
+    },
+    {
+      "name": "Trace Urban",
+      "icon": "https://iyadtv.pages.dev/images/trace-urban.png",
+      "url": "https://amg01131-amg01131c1-samsung-ph-5310.playouts.now.amagi.tv/playlist.m3u8",
+      "epg_id": "Trace Urban"
+    },
+    {
+      "name": "Travel Channel",
+      "icon": "https://iyadtv.pages.dev/images/travel_channel_263.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999777/_17zp3Nzf30BmMnFQWMa8Q/s/travel_channel_sd/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "18c6f9235b744d81a0397e2c9f6a5048:7974c1376447c563f5fdb41be0104ddf",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Travel Channel"
+    },
+    {
+      "name": "TSN",
+      "icon": "https://www.sportspro.com/wp-content/uploads/2023/03/TSN-1.png",
+      "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "TSN"
+    },
+    {
+      "name": "TV Maria",
+      "icon": "https://iyadtv.pages.dev/images/tv_maria_266.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999777/_17zp3Nzf30BmMnFQWMa8Q/s/tvmaria_prd/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "6a2d9f815c744e30b9168f3a7d2c5049:fb07ec8ca16ffdb8b8a045fa4c8aac74",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "TV Maria"
+    },
+    {
+      "name": "TV5",
+      "icon": "https://iyadtv.pages.dev/images/tv5.svg",
+      "url": "https://ovh.rise2the.top/aldous/1793999765/1ToWD3OcLTx1C8bT3mBAHA/s/tv5_hd/default1/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "9c3e7a516d824f04a9175b8c2e3d7040:524a9c2cec98272f71c347345a3fd12e",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "TV5"
+    },
+    {
+      "name": "TV5 Monde",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Logo_TV5_Monde_-_2021.svg/960px-Logo_TV5_Monde_-_2021.svg.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999777/_17zp3Nzf30BmMnFQWMa8Q/s/dr_tv5_monde/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "e6b4c8217a954d309f165c8e2a3d7049:1acbc3a347d31fa2236f180574342e71",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "TV5 Monde"
+    },
+    {
+      "name": "TVN",
+      "icon": "https://s3.amazonaws.com/ivacy-website-images/wp-content/uploads/2020/01/19140041/1200px-Logo_tvN.svg_-1024x406.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999777/_17zp3Nzf30BmMnFQWMa8Q/s/cg_tvnpre/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "3a7f9c615d824e40a9168c5b2d7f3049:2bc91eced1660ecf88299a42e4c0cd91",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "TVN"
+    },
+    {
+      "name": "TVN Movies",
+      "icon": "https://iyadtv.pages.dev/images/tvn_movies_267.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999776/g2V19ZM-ReyL9xOmO8kf3Q/s/cg_tvnmovie/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "e6c9a4215d734f608b197c3e2a5d9048:ec695ab203cb2258db220b3863e2a7ee",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "TVN Movies"
+    },
+    {
+      "name": "UAAP Varsity",
+      "icon": "https://iyadtv.pages.dev/images/uaap_varsity_270.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999777/_17zp3Nzf30BmMnFQWMa8Q/s/cg_uaap_cplay_sd/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "b6c9f4218d734a059e165c3d7a2f8049:948aa5c0d0c15c70efb9257f5b75c379",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "UAAP Varsity"
+    },
+    {
+      "name": "UFC",
+      "icon": "https://iyadtv.pages.dev/images/ufc_tv_271.png",
+      "url": "https://a151aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/8mxwjnh2te/out/v1/356704796c0c4bed81f67cd3518d0c8a/cenc.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "a49085f8da5e65af1efff0edac830b1f:4659bc58a85c062e3fe0c039a446fe47",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "UFC"
+    },
+    {
+      "name": "UNTV",
+      "icon": "https://iyadtv.pages.dev/images/untv_news_and_rescue_274.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999777/_17zp3Nzf30BmMnFQWMa8Q/cv1/001/2/ch00000090990000001091/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAp8EKxpteUJNLDuI18c3YYNsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "UNTV"
+    },
+    {
+      "name": "USA Today",
+      "icon": "https://cdn.iyad.space/images/usa-today.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999778/gInvitzlEJg9qtKjh0VvhA/cv3/001/2/ch00000090990000001199/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoYf5t%2B2bebnbia7IXJABLsytokK1MIobcue1ImXa0ZEA%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "USA Today"
+    },
+    {
+      "name": "VEVO",
+      "icon": "https://iyadtv.pages.dev/images/vevopop.png",
+      "url": "https://amg00056-amg00056c6-rakuten-uk-3235.playouts.now.amagi.tv/playlist.m3u8",
+      "epg_id": "VEVO"
+    },
+    {
+      "name": "VIVA Cinema",
+      "icon": "https://iyadtv.pages.dev/images/viva.svg",
+      "url": "https://ovh.rise2the.top/aldous/1793999778/gInvitzlEJg9qtKjh0VvhA/cv3/001/2/ch00000090990000001079/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20TsXah2%2FZLFNNIdWrVrXDMAoglCgy7TAZamPXsCV8PgebsyK4TH4mOENKJ45mwOyS0g%3D%3D&virtualDomain=001.live_hls.zte.com&JITPDRMType=NO",
+      "epg_id": "VIVA Cinema"
+    },
+    {
+      "name": "Warner TV",
+      "icon": "https://iyadtv.pages.dev/images/warner_tv__279.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999778/gInvitzlEJg9qtKjh0VvhA/s/cg_warnerhd/default/index.mpd",
+      "source_format": "dash",
+      "drm_type": "clearkey",
+      "drm_key": "c4a8d5319e624f078b156d3c7a5e2049:cee9422b4a40d85589f36f1d76fb144f",
+      "headers": {
+        "Origin": "https://iyad.click"
+      },
+      "epg_id": "Warner TV"
+    },
+    {
+      "name": "Wild Planet",
+      "icon": "https://iyadtv.pages.dev/images/wild_planet_280.png",
+      "url": "https://d1h8whhtg5u7om.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3u3ceovu5thv6/WildPlanet_GB.m3u8",
+      "epg_id": "Wild Planet"
+    },
+    {
+      "name": "World Poker Tour",
+      "icon": "https://i.imgur.com/98kLMjj.png",
+      "url": "https://amg00218-wptenterprisesi-worldpokertour-xumo-us.amagi.tv/playlist.m3u8",
+      "epg_id": "World Poker Tour"
+    },
+    {
+      "name": "WWE",
+      "icon": "https://iyadtv.pages.dev/images/wwe_261.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999778/gInvitzlEJg9qtKjh0VvhA/hls/wwe/stream.m3u8",
+      "epg_id": "WWE"
+    },
+    {
+      "name": "XFC TV",
+      "icon": "https://iyadtv.pages.dev/images/xfc_tv_282.png",
+      "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2351&live=1&avod=1&site_page=https%3A%2F%2Fdistro.tv%2F&site_name=XFC%20TV&hls_marker=1",
+      "epg_id": "XFC TV"
+    },
+    {
+      "name": "Xite Hits",
+      "icon": "https://play-lh.googleusercontent.com/hOlEHI5p3RQBJUUtjwmoNl_7JaaANei1iO2T6RegISDN37buk_uF033sc5QkwuHerMqs",
+      "url": "https://amg01243-xitenetworksint-hitsuk-samsunguk-mvovq.amagi.tv/playlist/amg01243-xitenetworksint-hitsuk-samsunguk/playlist.m3u8?ads.did=%7BPSID%7D&ads.dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.tc_string=%7BTC_STRING%7D&ads.coppa=0",
+      "epg_id": "Xite Hits"
+    },
+    {
+      "name": "Yes Network",
+      "icon": "https://everpass.com/wp-content/uploads/2026/03/Yes_Logo.png",
+      "url": "https://ovh.rise2the.top/aldous/1793999778/gInvitzlEJg9qtKjh0VvhA/hls/yes/stream.m3u8",
+      "epg_id": "Yes Network"
+    },
+    {
+      "name": "Z One",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png",
+      "url": "https://amg17931-zee-amg17931c6-samsung-ph-6513.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungph/playlist.m3u8",
+      "epg_id": "Z One"
+    }
+  ],
+  "provider": {
+    "epg": "https://tr3nching.github.io/iyad-tv-playlist/epg.xml"
+  }
+}

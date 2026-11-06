@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-06T14:17:32.058Z",
+  "updatedAt": "2026-11-06T15:16:17.568Z",
   "channelCount": 246,
   "catalogCount": 246,
-  "failedChannels": [],
-  "note": "Stream URLs were resolved, not playback-tested. Some channels require the original player or DRM.",
+  "clearKeyChannelCount": 88,
   "refreshMode": "snapshot",
-  "automaticRefreshStatus": "Source API currently returns HTTP 500; scheduled updates will retry."
+  "automaticRefreshStatus": "Configured every 30 minutes. Source retrieval from GitHub has failed; check Actions for latest result.",
+  "note": "DRM playlist includes source-supplied ClearKey settings. Player compatibility and playback vary by channel."
 }

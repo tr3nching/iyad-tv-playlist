@@ -59,24 +59,34 @@ export function streamUrl(value) {
   return url.href;
 }
 
-export function playlist(rows) {
-  return '#EXTM3U\n' + rows.map(row =>
-    `#EXTINF:-1 tvg-id="${attribute(row.name)}" tvg-name="${attribute(row.name)}" tvg-logo="${attribute(row.logo)}",${clean(row.name)}\n${streamUrl(row.url)}\n`
-  ).join('');
+export function playlist(rows, { includeDrm = false, epgUrl = 'https://tr3nching.github.io/iyad-tv-playlist/epg.xml' } = {}) {
+  return `#EXTM3U x-tvg-url="${attribute(streamUrl(epgUrl))}"\n` + rows.map(row => {
+    const lines = [`#EXTINF:-1 tvg-id="${attribute(row.name)}" tvg-name="${attribute(row.name)}" tvg-logo="${attribute(row.logo)}",${clean(row.name)}`];
+    if (includeDrm && row.clearKey) {
+      if (![row.clearKey.id, row.clearKey.value].every(v => typeof v === 'string' && /^[a-fA-F0-9]{32}$/.test(v))) throw new Error('Invalid source ClearKey configuration');
+      lines.push('#KODIPROP:inputstream=inputstream.adaptive', '#KODIPROP:inputstream.adaptive.manifest_type=mpd', '#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey', `#KODIPROP:inputstream.adaptive.license_key=${row.clearKey.id}:${row.clearKey.value}`, '#KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2Fiyad.click', '#KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2Fiyad.click');
+    }
+    lines.push(streamUrl(row.url));
+    return lines.join('\n') + '\n';
+  }).join('');
 }
 
 async function resolveChannel(channel, key) {
   const response = await request('/play', { channelName: channel.name, serverIndex: 0 });
   const data = decrypt(response.data, key);
   let url = streamUrl(data.url || data.embedUrl);
-  // Match the site's normal short-lived token flow; don't export DRM keys.
+  // Match the site's normal short-lived token flow. The user approved a separate
+  // public DRM playlist containing the settings supplied by the normal player.
   const parsed = new URL(url);
   if ((parsed.hostname === 'rise2the.top' || parsed.hostname.endsWith('.rise2the.top')) && !parsed.pathname.includes('/aldous/')) {
     const token = await request('/estes', { url, expiry: 3600 });
     if (!token.tokenizedUrl) throw new Error('Missing playback token');
     url = streamUrl(token.tokenizedUrl);
   }
-  return { name: channel.name, logo: channel.logo || '', url };
+  const mediaPath = new URL(url).pathname.toLowerCase();
+  const isDash = !mediaPath.endsWith('.m3u8') && (mediaPath.endsWith('.mpd') || ['mpd', 'dash'].includes(String(data.type).toLowerCase()));
+  const clearKey = isDash && [data.keyId, data.key].every(v => typeof v === 'string' && /^[a-fA-F0-9]{32}$/.test(v)) ? { id: data.keyId, value: data.key } : undefined;
+  return { name: channel.name, logo: channel.logo || '', url, clearKey };
 }
 
 async function main() {
@@ -120,13 +130,19 @@ async function main() {
   const temporary = new URL('playlist.m3u.tmp', output);
   await writeFile(temporary, playlist(rows), 'utf8');
   await rename(temporary, new URL('playlist.m3u', output));
+  const drmTemporary = new URL('playlist-drm.m3u.tmp', output);
+  await writeFile(drmTemporary, playlist(rows, { includeDrm: true }), 'utf8');
+  await rename(drmTemporary, new URL('playlist-drm.m3u', output));
+  const otcChannels = rows.map(row => ({ name: clean(row.name), epg_id: clean(row.name), icon: row.logo, url: row.url, ...(row.clearKey ? { source_format: 'dash', drm_type: 'clearkey', drm_key: `${row.clearKey.id}:${row.clearKey.value}`, headers: { Origin: 'https://iyad.click' } } : {}) }));
+  await writeFile(new URL('playlist-drm.otc.json', output), JSON.stringify({ provider: { epg: 'https://tr3nching.github.io/iyad-tv-playlist/epg.xml' }, channels: otcChannels }, null, 2));
   await writeFile(new URL('status.json', output), JSON.stringify({
     updatedAt: new Date().toISOString(),
     channelCount: rows.length,
     catalogCount: channels.length,
     catalogSource,
+    clearKeyChannelCount: rows.filter(row => row.clearKey).length,
     failedChannels: failed,
-    note: 'Stream URLs were resolved, not playback-tested. Some channels require the original player or DRM.',
+    note: 'Stream URLs were resolved, not playback-tested. The separate DRM playlist preserves source-supplied ClearKey settings and requires a compatible player.',
   }, null, 2) + '\n');
   console.log(`Playlist refreshed: ${rows.length}/${channels.length} channels`);
 }
