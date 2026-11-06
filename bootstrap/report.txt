@@ -1,5 +1,5 @@
-Generated 2026-11-06T19:41:37.687527+00:00
-Usable current schedules 170/246; matched including unusable 186; programmes 16646
+Generated 2026-11-06T19:48:13.731483+00:00
+Usable current schedules 170/248; matched including unusable 186; programmes 16641
 
 no matching source listings  3RSTV <- :
 no usable current schedule  TV5 <- :
@@ -247,3 +247,5 @@ no usable current schedule  XFC TV <- :
 mapped  Xite Hits <- PLEX1:plex.tv.XITE.Hits.plex
 mapped  Yes Network <- US2:Yes.Network.us2
 no matching source listings  Z One <- :
+no matching source listings  3RS MOVIE <- :
+no matching source listings  RAGE TV <- :

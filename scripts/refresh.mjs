@@ -95,7 +95,31 @@ export function parseBackupChannels(html) {
   return rows;
 }
 
-export async function refreshBackups(savedHtml) {
+export async function checkBackupManifests(rows) {
+  const checks = []; let cursor = 0;
+  await Promise.all(Array.from({ length: 6 }, async () => {
+    while (cursor < rows.length) {
+      const row = rows[cursor++];
+      try {
+        const response = await fetch(row.url, { headers: { Origin: row.origin, 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(8000) });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const reader = response.body.getReader();
+        let sample = ''; const decoder = new TextDecoder();
+        try {
+          while (sample.length < 65536) {
+            const chunk = await reader.read(); if (chunk.done) break;
+            sample += decoder.decode(chunk.value, { stream: true });
+            if (/#EXTM3U|<MPD\b/.test(sample)) break;
+          }
+        } finally { await reader.cancel(); }
+        checks.push({ channel: row.name, manifest_readable: /#EXTM3U|<MPD\b/.test(sample), http: response.status });
+      } catch (error) { checks.push({ channel: row.name, manifest_readable: false, error: error.message.startsWith('HTTP ') ? error.message : error.name }); }
+    }
+  }));
+  return checks;
+}
+
+export async function refreshBackups(savedHtml, savedChecks) {
   let html = savedHtml;
   if (html === undefined) {
     const response = await fetch(BACKUP_SOURCE, { signal: AbortSignal.timeout(30000) });
@@ -103,21 +127,28 @@ export async function refreshBackups(savedHtml) {
     html = await response.text();
     if (html.length > 2000000) throw new Error('Backup page exceeds size limit');
   }
-  const rows = parseBackupChannels(html);
-  if (rows.length < 10) throw new Error('Backup catalog too small; keeping previous assets');
+  const candidates = parseBackupChannels(html);
+  if (candidates.length < 10) throw new Error('Backup catalog too small; keeping previous assets');
+  const checks = savedChecks || await checkBackupManifests(candidates);
+  const readable = new Set(checks.filter(c => c.manifest_readable).map(c => c.channel));
+  const rows = candidates.filter(r => readable.has(r.name));
+  const output = new URL('../site/', import.meta.url);
+  await mkdir(output, { recursive: true });
+  await writeFile(new URL('backup-checks.json', output), JSON.stringify({ checkedAt: new Date().toISOString(), candidates: candidates.length, readableManifests: rows.length, scope: 'Manifest requests only; not video decoding or TV playback. Network-specific results.', channels: checks }, null, 2));
+  if (!rows.length) throw new Error('No readable backup manifests; keeping previous playlist');
   const catalog = JSON.parse(await readFile(new URL('../catalog.json', import.meta.url), 'utf8'));
   const norm = name => name.toLowerCase().replace(/[^a-z0-9]/g, '');
-  const aliases = { '3rstv': '3RSTV', 'startvphilippines': 'Star TV Philippines' };
+  const aliases = { '3rstv': '3RSTV', 'startvphilippines': 'Star TV Philippines', 'kapamilya': 'Kapamilya Channel', 'cinemaone': 'CinemaOne', 'teleradyo': 'DZMM Teleradyo', 'nbatvph': 'NBA TV Philippines', 'pbo': 'Pinoy Box Office', 'tmc': 'Tagalized Movie Channel', 'depedchannel': 'DepEd TV', 'axnchannel': 'AXN', 'hbohd': 'HBO', 'ptv4': 'Peoples Television' };
+  const additionalChannels = [];
   for (const row of rows) {
     const hit = catalog.find(c => norm(c.name) === norm(row.name) || c.name === aliases[norm(row.name)]);
     row.epgId = hit?.name || row.name;
-    row.name += ' [Backup]'; row.group = 'Backup';
+    if (hit) { row.name = hit.name + ' [Backup]'; row.group = 'Backup'; }
+    else { additionalChannels.push(row.name); row.group = 'Additional channels'; }
   }
-  const output = new URL('../site/', import.meta.url);
-  await mkdir(output, { recursive: true });
   await writeFile(new URL('playlist-backup.m3u', output), playlist(rows, { includeDrm: true }));
-  await writeFile(new URL('backup-status.json', output), JSON.stringify({ updatedAt: new Date().toISOString(), source: BACKUP_SOURCE, channelCount: rows.length, clearKeyChannelCount: rows.filter(r => r.clearKey).length,
-    note: 'Extracted from the public player configuration; playback and source independence are not guaranteed. Unsupported embeds and malformed DRM settings are excluded.' }, null, 2));
+  await writeFile(new URL('backup-status.json', output), JSON.stringify({ updatedAt: new Date().toISOString(), source: BACKUP_SOURCE, candidateCount: candidates.length, channelCount: rows.length, additionalChannels, existingChannelBackups: rows.length-additionalChannels.length, clearKeyChannelCount: rows.filter(r => r.clearKey).length,
+    note: 'Only entries with a readable manifest at refresh time are included. Video playback and source independence are not guaranteed. Failed entries are retried next refresh.' }, null, 2));
   console.log(`Backup playlist extracted: ${rows.length} channels`);
 }
 

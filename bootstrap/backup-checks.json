@@ -1,0 +1,448 @@
+{
+  "checkedAt": "2026-11-06T19:48:13.552Z",
+  "candidates": 88,
+  "readableManifests": 10,
+  "scope": "Manifest requests only; not video decoding or TV playback. Network-specific results.",
+  "channels": [
+    {
+      "channel": "3RS TV",
+      "http": 200,
+      "manifest_readable": true
+    },
+    {
+      "channel": "3RS MOVIE",
+      "http": 200,
+      "manifest_readable": true
+    },
+    {
+      "channel": "STBS PH",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "STAR TV PHILIPPINES",
+      "http": 200,
+      "manifest_readable": true
+    },
+    {
+      "channel": "DREAMSTAR TV",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "STBS GLOBAL",
+      "http": 200,
+      "manifest_readable": true
+    },
+    {
+      "channel": "COLORS TV",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "STARTIMES PHILIPPINES",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "ATBS",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "PINAS TV",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "KQTV",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "Cartoon Channel PH",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "JUNGO PINOY TV",
+      "manifest_readable": false,
+      "error": "URLError"
+    },
+    {
+      "channel": "HALLYPOP",
+      "manifest_readable": false,
+      "error": "URLError"
+    },
+    {
+      "channel": "ZEESINE",
+      "manifest_readable": false,
+      "error": "URLError"
+    },
+    {
+      "channel": "DUBAI ONE",
+      "manifest_readable": false,
+      "error": "URLError"
+    },
+    {
+      "channel": "NBA TV PH",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "SINEMANILA",
+      "http": 200,
+      "manifest_readable": true
+    },
+    {
+      "channel": "RAGE TV",
+      "http": 200,
+      "manifest_readable": true
+    },
+    {
+      "channel": "ALL TV",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "GMA",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "GTV",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "KAPAMILYA",
+      "http": 200,
+      "manifest_readable": true
+    },
+    {
+      "channel": "A2Z",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "RPTV",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "TV5",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "Heart of Asia",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "iHeart Movies",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "PBARUSH",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "ONEPH",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "JEEPNEYTV",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "CineMo!",
+      "http": 200,
+      "manifest_readable": true
+    },
+    {
+      "channel": "Cinema One!",
+      "http": 200,
+      "manifest_readable": true
+    },
+    {
+      "channel": "PBO",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "VIVACINEMA",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "Cinemax",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "CLTV36",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "TMC",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "DepEd Channel",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "AXN CHANNEL",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "Disney channel",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "Dreamworks HD",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "Dreamworks Tagalog",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "Fashion TV HD",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "Food Network HD",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "HBO Family",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "HBO Hits",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "HBO Signature",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "HBO HD",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "HGTV HD",
+      "manifest_readable": false,
+      "error": "TimeoutError"
+    },
+    {
+      "channel": "History HD",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "Hits Now",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "IBC13",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "INCTV",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "Kix HD",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "Knowledge Channel",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "Lifetime",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "K-Movies",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "MPTV",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "MYX",
+      "manifest_readable": false,
+      "error": "URLError"
+    },
+    {
+      "channel": "MTV Live",
+      "manifest_readable": false,
+      "error": "URLError"
+    },
+    {
+      "channel": "Nickjr",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "Nickelodeon",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "Disney Channel",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "One News HD",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "One PH",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "One Sports",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "One Sports Plus HD",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "Premier Sports",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "Premier Tennis",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "PTV4",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "SARISARI",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "Sony Pix",
+      "manifest_readable": false,
+      "error": "URLError"
+    },
+    {
+      "channel": "SPOTV",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "SPOTV2",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "TAP Edge",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "TAP Sports",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "Tap Movies",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "TAP TV",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "Tap Action Flix",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "Teleradyo",
+      "http": 200,
+      "manifest_readable": true
+    },
+    {
+      "channel": "Thrill",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "Travel Channel",
+      "manifest_readable": false,
+      "error": "TimeoutError"
+    },
+    {
+      "channel": "ROCK ACTION",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "ROCK ENTERTAIMENT",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "TVN Movies",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "TVN",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    },
+    {
+      "channel": "UAAP Varsity",
+      "manifest_readable": false,
+      "error": "HTTPError"
+    }
+  ]
+}

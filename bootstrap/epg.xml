@@ -19953,10 +19953,6 @@
   <channel id="BBC News">
     <display-name>BBC News</display-name>
   </channel>
-  <programme start="20261105193000 +0000" stop="20261105194500 +0000" channel="BBC News">
-    <title lang="en">Business Today</title>
-    <desc lang="en">Bringing the latest business news and up-to-date informed analysis from Singapore and around the world.</desc>
-  </programme>
   <programme start="20261105194500 +0000" stop="20261105200000 +0000" channel="BBC News">
     <title lang="en">BBC Sport (R)</title>
     <desc lang="en">A round-up of the day's sporting action, plus talking points, analysis and original journalism.</desc>
@@ -22014,12 +22010,6 @@
   <channel id="Blast Movies">
     <display-name>Blast Movies</display-name>
   </channel>
-  <programme start="20261105172700 +0000" stop="20261105194600 +0000" channel="Blast Movies">
-    <title lang="en">The Company You Keep</title>
-    <desc lang="en">After a journalist discovers his identity, a former Weather Underground activist goes on the run.</desc>
-    <category lang="en">Thriller</category>
-    <icon src="https://s3.ap-southeast-1.amazonaws.com/epg.tapdmv.com/blastmovies.png" />
-  </programme>
   <programme start="20261105194600 +0000" stop="20261105220400 +0000" channel="Blast Movies">
     <title lang="en">The Professor and the Madman</title>
     <desc lang="en">Professor James Murray begins work compiling words for the first edition of the Oxford English Dictionary in the 19th century, and receives over 10,000 entries from a patient at Broadmoor Criminal Lunatic Asylum, Dr. William Minor.</desc>
@@ -39753,42 +39743,6 @@
   <channel id="Curiosity Now">
     <display-name>Curiosity Now</display-name>
   </channel>
-  <programme channel="Curiosity Now" start="20261105184400 +0000" stop="20261105194200 +0000">
-    <title lang="en">Ancient Engineering</title>
-    <sub-title lang="en">Extreme Buildings</sub-title>
-    <desc lang="en">Throughout history, ancestors have always strived to go higher, bigger, deeper, further.</desc>
-    <credits>
-      <actor>Greg Johnson</actor>
-      <director>Darren New</director>
-      <director>Simon Watts-Davies</director>
-    </credits>
-    <date>2022</date>
-    <category lang="en">Series</category>
-    <category lang="en">History</category>
-    <category lang="en">World history</category>
-    <category lang="en">Documentary</category>
-    <icon src="http://dtil.tmsimg.com/assets/p22515454_b_h8_ae.jpg?w=960&amp;h=540" />
-    <episode-num system="onscreen">S2 E7</episode-num>
-    <previously-shown />
-    <rating system="USA Parental Rating">
-      <value>TVPG</value>
-    </rating>
-    <rating system="Canadian Parental Rating">
-      <value>PG</value>
-    </rating>
-    <rating system="Australian Classification Board">
-      <value>PG</value>
-    </rating>
-    <rating system="Departamento de Justiça, Classificação, Títulos e Qualificação">
-      <value>A10</value>
-    </rating>
-    <rating system="Krajowa Rada Radiofonii i Telewizji">
-      <value>12</value>
-    </rating>
-    <rating system="방송통신심의위원회">
-      <value>All</value>
-    </rating>
-  </programme>
   <programme channel="Curiosity Now" start="20261105194200 +0000" stop="20261105204000 +0000">
     <title lang="en">Ancient Engineering</title>
     <sub-title lang="en">History's Hidden Marvels</sub-title>
@@ -95678,17 +95632,6 @@
   <channel id="InWonder">
     <display-name>InWonder</display-name>
   </channel>
-  <programme start="20261105184000 +0000" stop="20261105194500 +0000" channel="InWonder">
-    <title lang="en">Top 10: The Art of Architecture</title>
-    <sub-title lang="en">MUSEUMS AND GALLERIES - ARCHITECTURAL TREASURES</sub-title>
-    <desc lang="en">Bilbao, Amsterdam, Antwerp and Florence belong to a dynamic group of cities that preserve the heritage of humanity through museums.</desc>
-    <category lang="en">Special Interest</category>
-    <icon src="https://www.fetchtv.com.au/v2/epg/program/4752285/image/334x188" />
-    <episode-num system="onscreen">S1 E3</episode-num>
-    <rating system="AU">
-      <value>M</value>
-    </rating>
-  </programme>
   <programme start="20261105194500 +0000" stop="20261105201300 +0000" channel="InWonder">
     <title lang="en">Backyard Ballistics</title>
     <sub-title lang="en">Cannon Carnage</sub-title>
@@ -157340,12 +157283,6 @@
   <channel id="TNT Sports 1">
     <display-name>TNT Sports 1</display-name>
   </channel>
-  <programme channel="TNT Sports 1" start="20261105170000 +0000" stop="20261105194500 +0000">
-    <title lang="en">Live UEFA Europa League</title>
-    <sub-title lang="en">Crystal Palace v TSG Hoffenheim (Kick-off 5.45pm)</sub-title>
-    <desc lang="en">Crystal Palace v TSG Hoffenheim (Kick-off 5.45pm). Coverage of the league phase match from Selhurst Park.</desc>
-    <icon src="https://tv.assets.pressassociation.io/74ab7def-754c-5348-ae6a-a849808367e4.jpg" />
-  </programme>
   <programme channel="TNT Sports 1" start="20261105194500 +0000" stop="20261105223000 +0000">
     <title lang="en">Live UEFA Europa League</title>
     <sub-title lang="en">Sunderland v Dinamo Zagreb (Kick-off 8.00pm)</sub-title>

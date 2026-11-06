@@ -1,10 +1,10 @@
 {
-  "generated_utc": "2026-11-06T19:41:37.687527+00:00",
-  "enabled_channels": 246,
+  "generated_utc": "2026-11-06T19:48:13.731483+00:00",
+  "enabled_channels": 248,
   "matched_channels_including_unusable": 186,
   "mapped_channels": 170,
-  "unmapped_channels": 76,
-  "programmes": 16646,
+  "unmapped_channels": 78,
+  "programmes": 16641,
   "total_overlaps": 0,
   "sources": {
     "PH2": {
@@ -14,7 +14,7 @@
       "channel_definitions": 111,
       "programme_entries": 5960,
       "selected_channels": 37,
-      "selected_programmes": 3619
+      "selected_programmes": 3617
     },
     "PH1": {
       "url": "https://m3u-edit.com/epg-source.php?file=PH1.xml.gz",
@@ -86,7 +86,7 @@
       "channel_definitions": 345,
       "programme_entries": 57195,
       "selected_channels": 5,
-      "selected_programmes": 616
+      "selected_programmes": 615
     },
     "UK1": {
       "url": "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz",
@@ -95,7 +95,7 @@
       "channel_definitions": 487,
       "programme_entries": 42040,
       "selected_channels": 4,
-      "selected_programmes": 389
+      "selected_programmes": 388
     },
     "US2": {
       "url": "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
@@ -104,7 +104,7 @@
       "channel_definitions": 791,
       "programme_entries": 81992,
       "selected_channels": 26,
-      "selected_programmes": 2311
+      "selected_programmes": 2310
     },
     "IN4": {
       "url": "https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz",
@@ -238,7 +238,7 @@
       "channel_definitions": 111,
       "programme_entries": 5960,
       "selected_channels": 37,
-      "selected_programmes": 3619
+      "selected_programmes": 3617
     },
     "PH1": {
       "channel_definitions": 134,
@@ -286,19 +286,19 @@
       "channel_definitions": 345,
       "programme_entries": 57195,
       "selected_channels": 5,
-      "selected_programmes": 616
+      "selected_programmes": 615
     },
     "UK1": {
       "channel_definitions": 487,
       "programme_entries": 42040,
       "selected_channels": 4,
-      "selected_programmes": 389
+      "selected_programmes": 388
     },
     "US2": {
       "channel_definitions": 791,
       "programme_entries": 81992,
       "selected_channels": 26,
-      "selected_programmes": 2311
+      "selected_programmes": 2310
     },
     "IN4": {
       "channel_definitions": 557,
@@ -386,7 +386,7 @@
     }
   },
   "unmapped_reasons": {
-    "no matching source listings": 60,
+    "no matching source listings": 62,
     "no usable current schedule": 16
   },
   "channels": [
@@ -408,7 +408,7 @@
       "source": "SAMSUNG",
       "source_id": "GBBC900015D3",
       "programmes": 7,
-      "upcoming": 6,
+      "upcoming": 5,
       "first_utc": "2026-11-06T17:41:01+00:00",
       "last_utc": "2026-11-07T00:32:08+00:00",
       "overlaps": 0,
@@ -667,9 +667,9 @@
       "channel": "BBC News",
       "source": "PH2",
       "source_id": "BBC.News.ph",
-      "programmes": 164,
+      "programmes": 163,
       "upcoming": 103,
-      "first_utc": "2026-11-05T19:30:00+00:00",
+      "first_utc": "2026-11-05T19:45:00+00:00",
       "last_utc": "2026-11-09T00:00:00+00:00",
       "overlaps": 0,
       "invalid_rejected": 0,
@@ -719,9 +719,9 @@
       "channel": "Blast Movies",
       "source": "PH2",
       "source_id": "BLASTMOVIES.ph",
-      "programmes": 43,
+      "programmes": 42,
       "upcoming": 30,
-      "first_utc": "2026-11-05T17:27:00+00:00",
+      "first_utc": "2026-11-05T19:46:00+00:00",
       "last_utc": "2026-11-09T01:39:00+00:00",
       "overlaps": 0,
       "invalid_rejected": 0,
@@ -953,9 +953,9 @@
       "channel": "Curiosity Now",
       "source": "US2",
       "source_id": "Curiosity.NOW.us2",
-      "programmes": 114,
+      "programmes": 113,
       "upcoming": 88,
-      "first_utc": "2026-11-05T18:44:00+00:00",
+      "first_utc": "2026-11-05T19:42:00+00:00",
       "last_utc": "2026-11-09T06:29:00+00:00",
       "overlaps": 0,
       "invalid_rejected": 0,
@@ -1110,7 +1110,7 @@
       "source": "HK1",
       "source_id": "euronews.hk",
       "programmes": 336,
-      "upcoming": 300,
+      "upcoming": 299,
       "first_utc": "2026-11-06T08:00:00+00:00",
       "last_utc": "2026-11-09T16:30:00+00:00",
       "overlaps": 0,
@@ -1292,7 +1292,7 @@
       "source": "SG1",
       "source_id": "HBO.HD.sg",
       "programmes": 54,
-      "upcoming": 40,
+      "upcoming": 39,
       "first_utc": "2026-11-05T18:45:00+00:00",
       "last_utc": "2026-11-09T15:55:00+00:00",
       "overlaps": 0,
@@ -1370,7 +1370,7 @@
       "source": "CO1",
       "source_id": "HBO.POP.co",
       "programmes": 46,
-      "upcoming": 32,
+      "upcoming": 31,
       "first_utc": "2026-11-05T19:12:00+00:00",
       "last_utc": "2026-11-09T00:59:00+00:00",
       "overlaps": 0,
@@ -1486,9 +1486,9 @@
       "channel": "InWonder",
       "source": "AU1",
       "source_id": "InWonder.au",
-      "programmes": 50,
+      "programmes": 49,
       "upcoming": 7,
-      "first_utc": "2026-11-05T18:40:00+00:00",
+      "first_utc": "2026-11-05T19:45:00+00:00",
       "last_utc": "2026-11-07T00:27:00+00:00",
       "overlaps": 0,
       "invalid_rejected": 0,
@@ -1526,7 +1526,7 @@
       "source": "PLEX1",
       "source_id": "plex.tv.Just.For.Laughs.Gags.plex",
       "programmes": 190,
-      "upcoming": 152,
+      "upcoming": 151,
       "first_utc": "2026-11-06T00:18:00+00:00",
       "last_utc": "2026-11-10T00:25:00+00:00",
       "overlaps": 0,
@@ -1578,7 +1578,7 @@
       "source": "HK1",
       "source_id": "KBS.World.hk",
       "programmes": 91,
-      "upcoming": 73,
+      "upcoming": 72,
       "first_utc": "2026-11-06T08:00:00+00:00",
       "last_utc": "2026-11-09T16:30:00+00:00",
       "overlaps": 0,
@@ -1721,7 +1721,7 @@
       "source": "AU1",
       "source_id": "Moviesphere.au",
       "programmes": 80,
-      "upcoming": 68,
+      "upcoming": 67,
       "first_utc": "2026-11-05T19:10:00+00:00",
       "last_utc": "2026-11-12T01:59:00+00:00",
       "overlaps": 0,
@@ -2241,7 +2241,7 @@
       "source": "US2",
       "source_id": "Starz.HD.us2",
       "programmes": 62,
-      "upcoming": 46,
+      "upcoming": 45,
       "first_utc": "2026-11-05T19:00:00+00:00",
       "last_utc": "2026-11-09T06:40:00+00:00",
       "overlaps": 0,
@@ -2383,9 +2383,9 @@
       "channel": "TNT Sports 1",
       "source": "UK1",
       "source_id": "TNT.Sports.1.HD.uk",
-      "programmes": 69,
+      "programmes": 68,
       "upcoming": 43,
-      "first_utc": "2026-11-05T17:00:00+00:00",
+      "first_utc": "2026-11-05T19:45:00+00:00",
       "last_utc": "2026-11-09T05:30:00+00:00",
       "overlaps": 0,
       "invalid_rejected": 0,
@@ -2397,7 +2397,7 @@
       "source": "PLUTO",
       "source_id": "64d160f53c785e0008df525e",
       "programmes": 19,
-      "upcoming": 15,
+      "upcoming": 14,
       "first_utc": "2026-11-06T15:45:00+00:00",
       "last_utc": "2026-11-07T08:30:00+00:00",
       "overlaps": 0,

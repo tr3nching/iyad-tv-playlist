@@ -99,6 +99,10 @@ def build(catalog,out,offline=False,config_path=None):
  now=dt.datetime.now(UTC);out.mkdir(parents=True,exist_ok=True)
  config=json.loads((config_path or BASE.parent/'epg-config.json').read_text(encoding='utf-8'))
  channels=[c['name'].strip() for c in json.loads(catalog.read_text(encoding='utf-8')) if c.get('enabled',True) and c['name'] not in config.get('exclude',[])]
+ try:
+  additions=json.loads((out/'backup-status.json').read_text(encoding='utf-8')).get('additionalChannels',[])
+  channels=list(dict.fromkeys(channels+additions))
+ except (FileNotFoundError,ValueError):pass
  feeds,source_meta=load_sources(config,channels,offline)
  root=ET.Element('tv',{'generator-info-name':'PH TV EPG builder'})
  stats=[];rows=[];skipped=collections.Counter();matched_any=0

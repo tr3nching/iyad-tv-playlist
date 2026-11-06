@@ -22,3 +22,4 @@ site/playlist-backup.m3u
 site/playlist-combined.m3u
 site/backup-status.json
 site/report.txt
+site/backup-checks.json

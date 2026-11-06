@@ -16,7 +16,7 @@ OTT Navigator native primary playlist: https://tr3nching.github.io/ph-tv-playlis
 
 EPG: **https://tr3nching.github.io/ph-tv-playlist/epg.xml.gz** (uncompressed `epg.xml` also available).
 
-All playlists include the EPG URL automatically. Compatible TV apps can import both from the playlist; some require enabling automatic EPG refresh once. Set the guide offset to **0**. Combined playlists label alternate entries `[Backup]` in a Backup group; selecting another stream is manual, not automatic failover. Channels exclusive to the backup source may lack a guide.
+All playlists include the EPG URL automatically. Compatible TV apps can import both from the playlist; some require enabling automatic EPG refresh once. Set the guide offset to **0**. The checked backup snapshot adds two channels absent from the primary catalog: **3RS MOVIE** and **RAGE TV**, plus eight alternate streams for existing channels. New stations appear in Additional channels; alternate entries are labeled `[Backup]`. Selecting another stream is manual, not automatic failover. Additional channels may lack a guide.
 
 The repository was renamed from its original name. GitHub repository links redirect, but old GitHub Pages playlist links must be replaced with the new URLs above. Operational source API addresses, logo URLs and required playback headers remain so source access keeps working.
 
@@ -30,7 +30,7 @@ Configuration preserves all imported source definitions; `activeSources` selects
 
 ## Stream sources and updates
 
-The M3U builder resolves the primary provider's public player API and extracts the backup site's public literal player configuration at https://3rstvportal.blogspot.com/. It never executes that page's scripts. Unsupported embeds and malformed ClearKey settings are excluded. Backup extraction runs independently before primary-source retrieval, so a primary outage does not prevent the backup playlist updating. `backup-status.json` describes the extraction, not proof of playback or source independence.
+The M3U builder resolves the primary provider's public player API and extracts the backup site's public literal player configuration at https://3rstvportal.blogspot.com/. It never executes that page's scripts. Unsupported embeds and malformed ClearKey settings are excluded. All supported candidates are checked for a readable HLS/DASH manifest; failed requests and HTML pages are excluded from the published playlist and retried on the next refresh. The checked snapshot had 10 readable manifests out of 88 supported entries; this is not a video-decode test. `backup-checks.json` records the checks without stream URLs or keys. Backup extraction runs independently before primary-source retrieval, so a primary outage does not prevent the backup playlist updating. `backup-status.json` describes the extraction, not proof of playback or source independence.
 
 Primary DRM settings are the public source-supplied ClearKey metadata. Use a player that supports KODIPROP/ClearKey or the OTT Navigator native format. Stream URLs and these settings are publicly hosted. No video is hosted or relayed. URLs can expire; source access, headers and app support affect playback. The backup website may use some of the same underlying servers as the primary provider.
 

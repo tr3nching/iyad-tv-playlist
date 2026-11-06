@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createCipheriv, randomBytes } from 'node:crypto';
-import { decrypt, playlist, streamUrl, parseBackupChannels } from '../scripts/refresh.mjs';
+import { decrypt, playlist, streamUrl, parseBackupChannels, checkBackupManifests } from '../scripts/refresh.mjs';
 
 test('decrypts the player response format without exposing key material', () => {
   const key = '0123456789abcdefextra';
@@ -46,4 +46,10 @@ test('backup extraction reads literal fields without executing page scripts', ()
   assert.equal(rows.length, 1);
   assert.equal(rows[0].name, 'News');
   assert.ok(playlist(rows).startsWith('#EXTM3U x-tvg-url="https://tr3nching.github.io/ph-tv-playlist/epg.xml.gz"'));
+});
+
+test('backup checks reject HTML and HTTP errors as stream manifests', async t => {
+  t.mock.method(globalThis, 'fetch', async url => new Response(url.endsWith('good') ? '#EXTM3U\n#EXT-X-VERSION:3' : '<html>Unavailable</html>', { status: url.endsWith('denied') ? 403 : 200 }));
+  const checks = await checkBackupManifests(['good', 'html', 'denied'].map(name => ({ name, url: `https://example.com/${name}`, origin: 'https://example.com' })));
+  assert.deepEqual(checks.filter(c => c.manifest_readable).map(c => c.channel), ['good']);
 });

@@ -4,7 +4,7 @@ const bootstrap = new URL('../bootstrap/', import.meta.url);
 const base = 'https://tr3nching.github.io/ph-tv-playlist/';
 const streamFiles = ['playlist.m3u', 'playlist-drm.m3u', 'playlist-drm.otc.json', 'status.json'];
 const guideFiles = ['epg.xml', 'epg.xml.gz', 'epg-status.json'];
-const optionalFiles = ['mapping.json', 'mapping.csv', 'verification.json', 'independent-alignment.json', 'VERIFICATION.md', 'ph2-coverage-breakdown.json', 'INDEX-LOOKUP.md', 'index-lookup-report.json', 'report.txt', 'playlist-backup.m3u', 'playlist-combined.m3u', 'backup-status.json'];
+const optionalFiles = ['mapping.json', 'mapping.csv', 'verification.json', 'independent-alignment.json', 'VERIFICATION.md', 'ph2-coverage-breakdown.json', 'INDEX-LOOKUP.md', 'index-lookup-report.json', 'report.txt', 'playlist-backup.m3u', 'playlist-combined.m3u', 'backup-status.json', 'backup-checks.json'];
 await mkdir(site, { recursive: true });
 for (const file of [...streamFiles, ...guideFiles, ...optionalFiles]) {
   try { await access(new URL(file, bootstrap)); await copyFile(new URL(file, bootstrap), new URL(file, site)); } catch {}

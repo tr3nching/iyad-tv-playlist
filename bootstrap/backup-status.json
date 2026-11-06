@@ -1,7 +1,13 @@
 {
-  "updatedAt": "2026-11-06T19:43:30.117Z",
+  "updatedAt": "2026-11-06T19:48:13.555Z",
   "source": "https://3rstvportal.blogspot.com/",
-  "channelCount": 88,
-  "clearKeyChannelCount": 56,
-  "note": "Extracted from the public player configuration; playback and source independence are not guaranteed. Unsupported embeds and malformed DRM settings are excluded."
+  "candidateCount": 88,
+  "channelCount": 10,
+  "additionalChannels": [
+    "3RS MOVIE",
+    "RAGE TV"
+  ],
+  "existingChannelBackups": 8,
+  "clearKeyChannelCount": 2,
+  "note": "Only entries with a readable manifest at refresh time are included. Video playback and source independence are not guaranteed. Failed entries are retried next refresh."
 }

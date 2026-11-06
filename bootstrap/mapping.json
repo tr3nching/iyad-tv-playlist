@@ -137,7 +137,7 @@
     "source": "SAMSUNG",
     "source_id": "GBBC900015D3",
     "status": "mapped",
-    "upcoming_programmes": 6,
+    "upcoming_programmes": 5,
     "attempts": [
       {
         "source": "WHALETVPLUS1",
@@ -152,7 +152,7 @@
         "source": "SAMSUNG",
         "source_id": "GBBC900015D3",
         "raw_entries": 7,
-        "upcoming_programmes": 6,
+        "upcoming_programmes": 5,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1601,7 +1601,7 @@
     "source": "HK1",
     "source_id": "euronews.hk",
     "status": "mapped",
-    "upcoming_programmes": 300,
+    "upcoming_programmes": 299,
     "attempts": [
       {
         "source": "PH1",
@@ -1616,7 +1616,7 @@
         "source": "HK1",
         "source_id": "euronews.hk",
         "raw_entries": 336,
-        "upcoming_programmes": 300,
+        "upcoming_programmes": 299,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2036,7 +2036,7 @@
     "source": "SG1",
     "source_id": "HBO.HD.sg",
     "status": "mapped",
-    "upcoming_programmes": 40,
+    "upcoming_programmes": 39,
     "attempts": [
       {
         "source": "PH1",
@@ -2060,7 +2060,7 @@
         "source": "SG1",
         "source_id": "HBO.HD.sg",
         "raw_entries": 58,
-        "upcoming_programmes": 40,
+        "upcoming_programmes": 39,
         "overlaps": 0,
         "invalid_rejected": 3,
         "placeholder_rejected": 0
@@ -2206,13 +2206,13 @@
     "source": "CO1",
     "source_id": "HBO.POP.co",
     "status": "mapped",
-    "upcoming_programmes": 32,
+    "upcoming_programmes": 31,
     "attempts": [
       {
         "source": "CO1",
         "source_id": "HBO.POP.co",
         "raw_entries": 47,
-        "upcoming_programmes": 32,
+        "upcoming_programmes": 31,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2500,7 +2500,7 @@
     "source": "PLEX1",
     "source_id": "plex.tv.Just.For.Laughs.Gags.plex",
     "status": "mapped",
-    "upcoming_programmes": 152,
+    "upcoming_programmes": 151,
     "attempts": [
       {
         "source": "WHALETVPLUS1",
@@ -2515,7 +2515,7 @@
         "source": "PLEX1",
         "source_id": "plex.tv.Just.For.Laughs.Gags.plex",
         "raw_entries": 190,
-        "upcoming_programmes": 152,
+        "upcoming_programmes": 151,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2626,7 +2626,7 @@
     "source": "HK1",
     "source_id": "KBS.World.hk",
     "status": "mapped",
-    "upcoming_programmes": 73,
+    "upcoming_programmes": 72,
     "attempts": [
       {
         "source": "PH1",
@@ -2641,7 +2641,7 @@
         "source": "HK1",
         "source_id": "KBS.World.hk",
         "raw_entries": 91,
-        "upcoming_programmes": 73,
+        "upcoming_programmes": 72,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2996,13 +2996,13 @@
     "source": "AU1",
     "source_id": "Moviesphere.au",
     "status": "mapped",
-    "upcoming_programmes": 68,
+    "upcoming_programmes": 67,
     "attempts": [
       {
         "source": "AU1",
         "source_id": "Moviesphere.au",
         "raw_entries": 89,
-        "upcoming_programmes": 68,
+        "upcoming_programmes": 67,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4143,13 +4143,13 @@
     "source": "US2",
     "source_id": "Starz.HD.us2",
     "status": "mapped",
-    "upcoming_programmes": 46,
+    "upcoming_programmes": 45,
     "attempts": [
       {
         "source": "US2",
         "source_id": "Starz.HD.us2",
         "raw_entries": 70,
-        "upcoming_programmes": 46,
+        "upcoming_programmes": 45,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4563,13 +4563,13 @@
     "source": "PLUTO",
     "source_id": "64d160f53c785e0008df525e",
     "status": "mapped",
-    "upcoming_programmes": 15,
+    "upcoming_programmes": 14,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "64d160f53c785e0008df525e",
         "raw_entries": 19,
-        "upcoming_programmes": 15,
+        "upcoming_programmes": 14,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -5027,6 +5027,22 @@
   },
   {
     "playlist_tvg_id": "Z One",
+    "source": "",
+    "source_id": "",
+    "status": "no matching source listings",
+    "upcoming_programmes": 0,
+    "attempts": []
+  },
+  {
+    "playlist_tvg_id": "3RS MOVIE",
+    "source": "",
+    "source_id": "",
+    "status": "no matching source listings",
+    "upcoming_programmes": 0,
+    "attempts": []
+  },
+  {
+    "playlist_tvg_id": "RAGE TV",
     "source": "",
     "source_id": "",
     "status": "no matching source listings",
