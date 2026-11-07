@@ -20,9 +20,19 @@ def check(task):
 with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
  for result in pool.map(check,tasks):print(json.dumps(result),flush=True)
 
-# These are diagnostic-only checks; they never affect the local visibility counters.
-from check_local_playback import candidates,probe
+# Diagnostic only: report errors without exposing request URLs or keys.
+from check_local_playback import candidates
 primary=candidates(root/'playlist-drm.m3u','primary')
 for row in primary:
- if row['channel'] in ('TV5','One PH'):
-  print(json.dumps({'channel':row['channel'],'method':'decode','profile':'browser_headers','result':probe(row,'ffmpeg')}),flush=True)
+ if row['channel'] not in ('TV5','One PH'):continue
+ headers=''.join(f'{key}: {value}\r\n' for key,value in row['headers'].items())
+ command=['ffmpeg','-hide_banner','-loglevel','error','-nostdin','-rw_timeout','25000000','-headers',headers]
+ if row.get('key'):command+=['-cenc_decryption_key',row['key']]
+ command+=['-i',row['url'],'-map','0:v:0','-frames:v','25','-an','-progress','pipe:1','-f','null','-']
+ try:
+  p=subprocess.run(command,capture_output=True,timeout=40);err=p.stderr.decode(errors='replace');out=p.stdout.decode(errors='replace');import re
+  frames=max([int(n) for n in re.findall(r'^frame=(\d+)',out,re.M)],default=0)
+  statuses=re.findall(r'(?:HTTP error|Server returned)\s+(\d{3})',err,re.I)
+  classes=[phrase for phrase in ('Invalid data found','No such file or directory','Error opening input','Connection refused','timed out','Invalid argument','Error when loading first segment') if phrase.lower() in err.lower()]
+  print(json.dumps({'channel':row['channel'],'method':'decode','frames':frames,'http':statuses,'errors':classes,'exit':p.returncode}),flush=True)
+ except subprocess.TimeoutExpired:print(json.dumps({'channel':row['channel'],'method':'decode','error':'timeout'}),flush=True)
