@@ -17,7 +17,7 @@
       "serverIndex": 1,
       "name": "TV5 Stream 2",
       "category": "Entertainment",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -44,7 +44,7 @@
       "serverIndex": 1,
       "name": "A2Z Stream 2",
       "category": "Entertainment",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -53,7 +53,7 @@
       "serverIndex": 1,
       "name": "Abante Radyo Stream 2",
       "category": "News",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -80,7 +80,7 @@
       "serverIndex": 1,
       "name": "Al Jazeera Stream 2",
       "category": "News",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -89,7 +89,7 @@
       "serverIndex": 1,
       "name": "ALLTV2 Stream 2",
       "category": "Entertainment",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -125,7 +125,7 @@
       "serverIndex": 2,
       "name": "Animax Stream 3",
       "category": "Anime",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -197,7 +197,7 @@
       "serverIndex": 1,
       "name": "Arirang Stream 2",
       "category": "Entertainment",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -206,7 +206,7 @@
       "serverIndex": 1,
       "name": "AXN Stream 2",
       "category": "Entertainment",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -223,8 +223,8 @@
       "parentName": "PBB Collab 3.0",
       "serverIndex": 1,
       "name": "Main Livestream",
-      "category": "General",
-      "categoryBasis": "unresolved named source",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -232,8 +232,8 @@
       "parentName": "PBB Collab 3.0",
       "serverIndex": 3,
       "name": "Dining Area",
-      "category": "General",
-      "categoryBasis": "unresolved named source",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -241,8 +241,8 @@
       "parentName": "PBB Collab 3.0",
       "serverIndex": 4,
       "name": "External Den",
-      "category": "General",
-      "categoryBasis": "unresolved named source",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -251,7 +251,7 @@
       "serverIndex": 1,
       "name": "BBC Lifestyle Stream 2",
       "category": "Lifestyle",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -269,7 +269,7 @@
       "serverIndex": 1,
       "name": "BeIn Sports 1",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -278,7 +278,7 @@
       "serverIndex": 2,
       "name": "BeIn Sports 2",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -287,7 +287,7 @@
       "serverIndex": 3,
       "name": "BeIn Sports 3",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -296,7 +296,7 @@
       "serverIndex": 4,
       "name": "BeIn Sports XTRA",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -305,7 +305,7 @@
       "serverIndex": 1,
       "name": "Bilyonaryo Stream 2",
       "category": "News",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -314,7 +314,7 @@
       "serverIndex": 1,
       "name": "Bloomberg Stream 2",
       "category": "News",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -377,7 +377,7 @@
       "serverIndex": 7,
       "name": "Phoenix Television",
       "category": "General",
-      "categoryBasis": "unresolved named source",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -440,7 +440,7 @@
       "serverIndex": 1,
       "name": "Cartoonito Stream 2",
       "category": "Kids",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -449,7 +449,7 @@
       "serverIndex": 1,
       "name": "Cartoon Network Stream 2",
       "category": "Kids",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -485,7 +485,7 @@
       "serverIndex": 1,
       "name": "CCTV4 Stream 2",
       "category": "News",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -530,7 +530,7 @@
       "serverIndex": 1,
       "name": "CineMo! Stream 2",
       "category": "Movies",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -557,7 +557,7 @@
       "serverIndex": 1,
       "name": "Cinemax Stream 2",
       "category": "Movies",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -565,8 +565,8 @@
       "parentName": "CLTV36",
       "serverIndex": 1,
       "name": "CLTV36 Stream 2",
-      "category": "General",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "category": "News",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -575,7 +575,7 @@
       "serverIndex": 1,
       "name": "CNBC Stream 2",
       "category": "News",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -593,7 +593,7 @@
       "serverIndex": 1,
       "name": "Crunchyroll Stream 2",
       "category": "Anime",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -602,7 +602,7 @@
       "serverIndex": 2,
       "name": "Crunchyroll Stream 3",
       "category": "Anime",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -611,7 +611,7 @@
       "serverIndex": 3,
       "name": "Crunchyroll Stream 4",
       "category": "Anime",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -629,7 +629,7 @@
       "serverIndex": 1,
       "name": "Discovery Channel Stream 2",
       "category": "Documentaries",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -656,7 +656,7 @@
       "serverIndex": 1,
       "name": "DMAX Stream 2",
       "category": "Documentaries",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -719,7 +719,7 @@
       "serverIndex": 1,
       "name": "FITE 24/7 Stream 2",
       "category": "Sports",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -728,7 +728,7 @@
       "serverIndex": 1,
       "name": "FRANCE 24 Stream 2",
       "category": "News",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -737,7 +737,7 @@
       "serverIndex": 1,
       "name": "GMA Stream 2",
       "category": "Entertainment",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -746,7 +746,7 @@
       "serverIndex": 1,
       "name": "GTV Stream 2",
       "category": "Entertainment",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -764,7 +764,7 @@
       "serverIndex": 1,
       "name": "HBO Boxing Stream 2",
       "category": "Sports",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -773,7 +773,7 @@
       "serverIndex": 1,
       "name": "HBO POP Stream 2",
       "category": "Movies",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -790,8 +790,8 @@
       "parentName": "History HD",
       "serverIndex": 2,
       "name": "Deal Zone",
-      "category": "General",
-      "categoryBasis": "unresolved named source",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -845,7 +845,7 @@
       "serverIndex": 1,
       "name": "IBC13 Stream 2",
       "category": "Entertainment",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -854,7 +854,7 @@
       "serverIndex": 1,
       "name": "INCTV Stream 2",
       "category": "Faith",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -908,7 +908,7 @@
       "serverIndex": 1,
       "name": "Jeepney TV Stream 2",
       "category": "Entertainment",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -917,7 +917,7 @@
       "serverIndex": 1,
       "name": "Just for Laughs Gags Stream 2",
       "category": "Entertainment",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -926,7 +926,7 @@
       "serverIndex": 1,
       "name": "Kapamilya Channel HD Stream 2",
       "category": "Entertainment",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1034,7 +1034,7 @@
       "serverIndex": 1,
       "name": "Kix HD Stream 2",
       "category": "Entertainment",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1043,7 +1043,7 @@
       "serverIndex": 1,
       "name": "Knowledge Channel Stream 2",
       "category": "Education",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1061,7 +1061,7 @@
       "serverIndex": 1,
       "name": "Lotus Macau Stream 2",
       "category": "Movies",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1106,7 +1106,7 @@
       "serverIndex": 1,
       "name": "Mindanow Network Stream 2",
       "category": "Lifestyle",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1241,7 +1241,7 @@
       "serverIndex": 1,
       "name": "Movie Sphere Stream 2",
       "category": "Movies",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1286,7 +1286,7 @@
       "serverIndex": 4,
       "name": "MUX WORLD",
       "category": "General",
-      "categoryBasis": "unresolved named source",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1295,7 +1295,7 @@
       "serverIndex": 1,
       "name": "Mythbusters Stream 2",
       "category": "Documentaries",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1367,7 +1367,7 @@
       "serverIndex": 1,
       "name": "8:00am Wizards vs Hawks",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1376,7 +1376,7 @@
       "serverIndex": 2,
       "name": "8:00am Celtics vs Hornets",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1385,7 +1385,7 @@
       "serverIndex": 3,
       "name": "8:30am 76ers vs Cavaliers",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1394,7 +1394,7 @@
       "serverIndex": 4,
       "name": "9:00am Jazz vs Mavericks",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1403,7 +1403,7 @@
       "serverIndex": 5,
       "name": "9:00am Thunder vs Grizzlies",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1412,7 +1412,7 @@
       "serverIndex": 6,
       "name": "9:00am Raptors vs Bucks",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1421,7 +1421,7 @@
       "serverIndex": 7,
       "name": "9:00am Timberwolves vs Pelicans",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1430,7 +1430,7 @@
       "serverIndex": 8,
       "name": "11:00am Trail Blazers vs Lakers",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1439,7 +1439,7 @@
       "serverIndex": 9,
       "name": "11:00am Spurs vs Kings",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1475,7 +1475,7 @@
       "serverIndex": 1,
       "name": "Net25 Stream 2",
       "category": "Entertainment",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1484,7 +1484,7 @@
       "serverIndex": 1,
       "name": "Nickjr Stream 2",
       "category": "Kids",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1502,7 +1502,7 @@
       "serverIndex": 1,
       "name": "Nickelodeon Stream 2",
       "category": "Kids",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1511,7 +1511,7 @@
       "serverIndex": 2,
       "name": "Nickelodeon Stream 3",
       "category": "Kids",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1547,7 +1547,7 @@
       "serverIndex": 1,
       "name": "One PH Stream 2",
       "category": "News",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1574,7 +1574,7 @@
       "serverIndex": 1,
       "name": "Pilipinas Live 2",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1583,7 +1583,7 @@
       "serverIndex": 2,
       "name": "Pilipinas Live 3",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1592,7 +1592,7 @@
       "serverIndex": 3,
       "name": "Pilipinas Live 4",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1601,7 +1601,7 @@
       "serverIndex": 4,
       "name": "Pilipinas Live 5",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1610,7 +1610,7 @@
       "serverIndex": 5,
       "name": "Pilipinas Live 6",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1619,7 +1619,7 @@
       "serverIndex": 6,
       "name": "Pilipinas Live 7",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1628,7 +1628,7 @@
       "serverIndex": 7,
       "name": "Pilipinas Live 8",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1637,7 +1637,7 @@
       "serverIndex": 8,
       "name": "Pilipinas Live 9",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1646,7 +1646,7 @@
       "serverIndex": 9,
       "name": "Pilipinas Live 10",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1655,7 +1655,7 @@
       "serverIndex": 1,
       "name": "Premier Sports Stream 2",
       "category": "Sports",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1691,7 +1691,7 @@
       "serverIndex": 1,
       "name": "Peoples Television Stream 2",
       "category": "News",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1718,7 +1718,7 @@
       "serverIndex": 1,
       "name": "RPTV Stream 2",
       "category": "Entertainment",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1763,7 +1763,7 @@
       "serverIndex": 1,
       "name": "SMNI News Channel Stream 2",
       "category": "News",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1799,7 +1799,7 @@
       "serverIndex": 1,
       "name": "SyFy 2",
       "category": "Entertainment",
-      "categoryBasis": "source-specific override",
+      "categoryBasis": "configured broad channel type; see category review",
       "regionalEvidence": "US station identifier in source route",
       "enabled": true
     },
@@ -1809,7 +1809,7 @@
       "serverIndex": 1,
       "name": "TAP Edge Stream 2",
       "category": "Entertainment",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1818,7 +1818,7 @@
       "serverIndex": 1,
       "name": "TAP Sports Stream 2",
       "category": "Sports",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1836,7 +1836,7 @@
       "serverIndex": 1,
       "name": "TFC Asia Stream 2",
       "category": "Entertainment",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1854,7 +1854,7 @@
       "serverIndex": 1,
       "name": "Thrill Stream 2",
       "category": "Movies",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1881,7 +1881,7 @@
       "serverIndex": 1,
       "name": "TNA Wrestling Stream 2",
       "category": "Sports",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1890,7 +1890,7 @@
       "serverIndex": 2,
       "name": "TNA Wrestling Stream 3",
       "category": "Sports",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1908,7 +1908,7 @@
       "serverIndex": 1,
       "name": "TNT Sports 2",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1917,7 +1917,7 @@
       "serverIndex": 2,
       "name": "TNT Sports 3",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1926,7 +1926,7 @@
       "serverIndex": 3,
       "name": "TNT Sports 4",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1944,7 +1944,7 @@
       "serverIndex": 1,
       "name": "TSN 1 FHD",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1953,7 +1953,7 @@
       "serverIndex": 3,
       "name": "TSN the Ocho",
       "category": "Sports",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1962,7 +1962,7 @@
       "serverIndex": 1,
       "name": "TV Maria Stream 2",
       "category": "Faith",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -1980,7 +1980,7 @@
       "serverIndex": 1,
       "name": "TV5 Monde Stream 2",
       "category": "Entertainment",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -2007,7 +2007,7 @@
       "serverIndex": 1,
       "name": "VEVO 2K",
       "category": "Music",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -2016,7 +2016,7 @@
       "serverIndex": 2,
       "name": "VEVO Country",
       "category": "Music",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -2025,7 +2025,7 @@
       "serverIndex": 3,
       "name": "VEVO Hip-Hop",
       "category": "Music",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -2034,7 +2034,7 @@
       "serverIndex": 4,
       "name": "VEVO Latino",
       "category": "Music",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -2043,7 +2043,7 @@
       "serverIndex": 5,
       "name": "VEVO POP",
       "category": "Music",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -2052,7 +2052,7 @@
       "serverIndex": 6,
       "name": "VEVO R&B",
       "category": "Music",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -2061,7 +2061,7 @@
       "serverIndex": 1,
       "name": "Warner TV  Stream 2",
       "category": "Entertainment",
-      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -2088,7 +2088,7 @@
       "serverIndex": 1,
       "name": "XITE 80s Flashback",
       "category": "Music",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -2097,7 +2097,7 @@
       "serverIndex": 2,
       "name": "XITE 90s Throwback",
       "category": "Music",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -2106,7 +2106,7 @@
       "serverIndex": 4,
       "name": "XITE Classic Country",
       "category": "Music",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -2115,7 +2115,7 @@
       "serverIndex": 5,
       "name": "XITE Country Today",
       "category": "Music",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -2124,7 +2124,7 @@
       "serverIndex": 6,
       "name": "XITE Just Chill",
       "category": "Music",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -2133,7 +2133,7 @@
       "serverIndex": 7,
       "name": "XITE R&B Classic Jams",
       "category": "Music",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
     {
@@ -2142,7 +2142,7 @@
       "serverIndex": 8,
       "name": "XITE Rock x Metal",
       "category": "Music",
-      "categoryBasis": "broad branded channel family",
+      "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     }
   ]

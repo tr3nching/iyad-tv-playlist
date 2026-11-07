@@ -5,7 +5,7 @@ import { mkdtemp, readFile, writeFile, unlink, rmdir } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { addCategoryHeaders, validatedAdditional, primarySourceJobs, resolveChannel, numberPlaylist, orderPlaylist, channelCategory, decrypt, playlist, streamUrl, parseBackupChannels, checkBackupManifests, combinePlaylists, markAdditionalChannels, streamCheckId, additionalChannelId } from '../scripts/refresh.mjs';
+import { configuredSourceCategory, addCategoryHeaders, validatedAdditional, primarySourceJobs, resolveChannel, numberPlaylist, orderPlaylist, channelCategory, decrypt, playlist, streamUrl, parseBackupChannels, checkBackupManifests, combinePlaylists, markAdditionalChannels, streamCheckId, additionalChannelId } from '../scripts/refresh.mjs';
 
 test('decrypts the player response format without exposing key material', () => {
   const key = '0123456789abcdefextra';
@@ -223,7 +223,7 @@ test('large categories retain unique whole numbers and alphabetical order', () =
 
 
 test('source alternates use their base major number and padded actual source index', () => {
-  const jobs=primarySourceJobs([{name:'SYFY',alt_name:'Stream 2',alt_name2:'Different Channel'}]);
+  const jobs=primarySourceJobs([{name:'SYFY',alt_name:'Stream 2',alt_name2:'Stream 3'}]);
   const rows=jobs.map((job,index)=>({...job,url:`https://example.com/${index}.m3u8`}));
   rows.push({name:'Sci Fi *',epgId:'additional:scifitest',url:rows[0].url});
   const {assignments}=numberPlaylist(playlist(rows));
@@ -252,4 +252,20 @@ test('category title channels lead their block and reserve its starting whole nu
  assert.equal(first.assignments['NBA TV'],301);
  assert.equal((first.text.match(/tvg-id="category:/g)||[]).length,2);
  assert.equal(numberPlaylist(addCategoryHeaders(first.text)).text,first.text);
+});
+
+
+test('a named source of a different channel type keeps its own category number', () => {
+ const jobs=primarySourceJobs([{name:'Fixture Parent',alt_name:'ABC Kids'}]);
+ const rows=jobs.map((job,index)=>({...job,url:`https://example.com/different-type-${index}.m3u8`}));
+ const {assignments}=numberPlaylist(playlist(rows));
+ assert.ok(Number.isInteger(assignments['primary-source:fixtureparent:1']));
+ assert.ok(assignments['primary-source:fixtureparent:1']>=500&&assignments['primary-source:fixtureparent:1']<600);
+});
+
+
+test('cached generic sources inherit corrected broad categories without relabeling named sources', () => {
+ assert.equal(configuredSourceCategory({name:'NBA TV Stream 2',parentName:'NBA TV',category:'General'}),'Sports');
+ assert.equal(configuredSourceCategory({name:'Unknown Station',parentName:'NBA TV',category:'General'}),'General');
+ assert.equal(configuredSourceCategory({name:'ABC Kids',parentName:'NBA TV',category:'General'}),'Kids');
 });

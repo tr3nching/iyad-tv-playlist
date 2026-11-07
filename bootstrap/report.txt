@@ -1,5 +1,5 @@
-Generated 2026-11-07T01:09:24.145098+00:00
-Usable current schedules 181/495; matched including unusable 228; programmes 17106
+Generated 2026-11-07T01:23:12.136827+00:00
+Usable current schedules 179/495; matched including unusable 228; programmes 17098
 
 no matching source listings  3RSTV <- :
 no usable current schedule  TV5 <- :
@@ -147,12 +147,12 @@ no matching source listings  MovieBoxPH <- :
 no matching source listings  Halloween Nights <- :
 mapped  Movies Now <- IN4:MOVIES.NOW.in
 mapped  Movie Sphere <- AU1:Moviesphere.au
-mapped  Mr. Bean <- SAMSUNG:KR2400001TI
+no usable current schedule  Mr. Bean <- :
 mapped  Mr Beast <- PLEX1:plex.tv.MrBeast.plex
 no matching source listings  Media Pilipinas TV <- :
 mapped  MTV <- UK1:MTV.HD.uk
 no matching source listings  MUX DOS <- :
-mapped  Mythbusters <- SAMSUNG:GB200005LI
+no usable current schedule  Mythbusters <- :
 mapped  Mysterious Worlds <- PLEX1:plex.tv.Mysterious.Worlds.plex
 no matching source listings  MYX <- :
 mapped  National Geographic <- US2:National.Geographic.HD.us2
@@ -197,7 +197,7 @@ no usable current schedule  SOLARFLIX <- :
 no matching source listings  SOLARSPORTS <- :
 mapped  Sony Movies <- US2:Sony.Movie.Channel.HD.us2
 mapped  Sony Pix <- IN4:SONY.PIX.in
-mapped  Sony One Action Hits <- SAMSUNG:AT300007S8
+mapped  Sony One Action Hits <- PLEXMJH:64305451fc3be5947773c339-692111d750fe592fd6d5b7da
 no matching source listings  Spotlight TV <- :
 mapped  SPOTV <- SG1:SPOTV.(HD).sg
 mapped  STAR Movies HD <- IN4:STAR.MOVIES.HD.in

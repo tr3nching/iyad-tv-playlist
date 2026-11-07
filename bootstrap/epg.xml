@@ -1024,18 +1024,6 @@
   <channel id="Aliwko">
     <display-name>Aliwko</display-name>
   </channel>
-  <programme start="20261106004600 +0000" stop="20261106011600 +0000" channel="Aliwko">
-    <title lang="en">Till I Met You</title>
-    <sub-title lang="en">15</sub-title>
-    <desc lang="en">Greggy struggles to accept Ali’s sexual orientation when he finally comes out to him.</desc>
-    <date>2016</date>
-    <category lang="en">Global</category>
-    <icon src="https://img.static-ottera.com/prod/imd/video/thumbnails/widescreen/3840x2160/till_i_met_you_s2_15_landscape.jpg" />
-    <episode-num system="onscreen">S2 E15</episode-num>
-    <rating system="US">
-      <value>M/12</value>
-    </rating>
-  </programme>
   <programme start="20261106011600 +0000" stop="20261106014800 +0000" channel="Aliwko">
     <title lang="en">Till I Met You</title>
     <sub-title lang="en">16</sub-title>
@@ -10474,11 +10462,6 @@
   <channel id="Animal Planet">
     <display-name>Animal Planet</display-name>
   </channel>
-  <programme start="20261106005000 +0000" stop="20261106011700 +0000" channel="Animal Planet">
-    <title lang="en">Little Giants (S1)</title>
-    <desc lang="en">Bradley and Billy are recruited to capture an escaped sugar glider, a cute Australian marsupial that's running amok in California.</desc>
-    <category lang="en">EDUCATION</category>
-  </programme>
   <programme start="20261106011700 +0000" stop="20261106014500 +0000" channel="Animal Planet">
     <title lang="en">Little Giants (S1)</title>
     <desc lang="en">The team heads to South Africa to track down the Cape mole rat - a mammal with a vicious bite, as Bradley soon discovers.</desc>
@@ -13075,19 +13058,6 @@
   <channel id="Anime x Hidive">
     <display-name>Anime x Hidive</display-name>
   </channel>
-  <programme start="20261106004600 +0000" stop="20261106011500 +0000" channel="Anime x Hidive">
-    <title lang="en">My Teen Romantic Comedy - SNAFU</title>
-    <sub-title lang="en">For the Third Time, He Turns Back on the Path from Whence He..</sub-title>
-    <desc lang="en">Hachiman becomes restless as summer comes to an end; a firework festival opens the door for more teasing.</desc>
-    <date>2013</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Romantic comedy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <category lang="en">Comedy</category>
-    <icon src="https://metadata-static.plex.tv/8/gracenote/8f796dca5ce84242f31efe81f18b2cdb.jpg" />
-    <episode-num system="onscreen">S1 E9</episode-num>
-  </programme>
   <programme start="20261106011500 +0000" stop="20261106014800 +0000" channel="Anime x Hidive">
     <title lang="en">My Teen Romantic Comedy - SNAFU</title>
     <sub-title lang="en">The Distance Between Them Remains Unchanged as the Festival..</sub-title>
@@ -19807,11 +19777,6 @@
   <channel id="BBC CBeebies">
     <display-name>BBC CBeebies</display-name>
   </channel>
-  <programme start="20261106010900 +0000" stop="20261106011500 +0000" channel="BBC CBeebies">
-    <title lang="en">Hey Duggee (S2)</title>
-    <desc lang="en">The squirrels are off for a Jamboree to make some new friends, play games and have a picnic. They meet another group of young animals with their very own version of Duggee but everything they do is different.</desc>
-    <category lang="en">FAMILY_KIDS</category>
-  </programme>
   <programme start="20261106011500 +0000" stop="20261106012500 +0000" channel="BBC CBeebies">
     <title lang="en">Go Jetters (S2)</title>
     <desc lang="en">Greener fuel spells trouble for Glitch.</desc>
@@ -27088,26 +27053,6 @@
   <channel id="Boing">
     <display-name>Boing</display-name>
   </channel>
-  <programme channel="Boing" start="20261106010000 +0000" stop="20261106011000 +0000">
-    <title lang="fr">Alice &amp; Lewis</title>
-    <sub-title lang="fr">Le vide-grenier royal</sub-title>
-    <desc lang="fr">Lors d'un vide grenier des vieilles affaires de la Reine, les jumeaux repartent avec une ardoise que Charlie a trouvée sous le lit de sa tante. Quand cette dernière l'apprend, elle veut absolument la récupérer. Sauf qu'entre-temps, les jumeaux ont jeté l'ardoise. En apprenant cela, la Reine semble étonnement soulagée de la savoir à la poubelle. Mais Charlie culpabilise. Alice et Lewis décident alors de l'aider à la récupérer. La Reine fait tout pour les en empêcher. Mais que cache cette mystérieuse ardoise ?</desc>
-    <date>2023</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Feuilleton</category>
-    <country lang="fr">France</country>
-    <episode-num system="onscreen">S2 E104</episode-num>
-  </programme>
-  <programme channel="Boing" start="20261106011000 +0000" stop="20261106012000 +0000">
-    <title lang="fr">Alice &amp; Lewis</title>
-    <sub-title lang="fr">Les prédictions de Dodson</sub-title>
-    <desc lang="fr">Quand Alice va au Pays des Merveilles, une chose est sûre : elle ne sait jamais quelle aventure elle va vivre ! Tomber dans le ciel, cueillir des fleurs du silences, traverser la vallée de la nuit, chasser des coucous… Lorsque quelque chose la tracasse dans le monde réel, ou au contraire, lorsqu'elle est de super humeur, elle n'hésite jamais à aller rendre visite à son meilleur ami Lewis ! Il est toujours là pour la réconforter, la surprendre, la faire rire… et c'est réciproque !</desc>
-    <date>2023</date>
-    <category lang="fr">Série</category>
-    <category lang="fr">Feuilleton</category>
-    <country lang="fr">France</country>
-    <episode-num system="onscreen">S2 E68</episode-num>
-  </programme>
   <programme channel="Boing" start="20261106012000 +0000" stop="20261106013000 +0000">
     <title lang="fr">Alice &amp; Lewis</title>
     <sub-title lang="fr">Le Cactus-garou</sub-title>
@@ -35235,21 +35180,6 @@
   <channel id="Cartoon Network">
     <display-name>Cartoon Network</display-name>
   </channel>
-  <programme start="20261106004500 +0000" stop="20261106011000 +0000" channel="Cartoon Network">
-    <title lang="en">Tiny Toons Looniversity</title>
-    <desc lang="en">It's the first day of school at Acme Looniversity where we find fraternal twins, Babs and Buster Bunny meeting their new friends.</desc>
-    <category lang="en">FAMILY_KIDS</category>
-  </programme>
-  <programme start="20261106011000 +0000" stop="20261106011200 +0000" channel="Cartoon Network">
-    <title lang="en">Tom And Jerry Gokko</title>
-    <desc lang="en">Tom plays instruments at night—sorry, Jerry!</desc>
-    <category lang="en">FAMILY_KIDS</category>
-  </programme>
-  <programme start="20261106011200 +0000" stop="20261106011500 +0000" channel="Cartoon Network">
-    <title lang="en">Tom And Jerry Gokko</title>
-    <desc lang="en">Is that butterflies Tom is feeling? Or is it two little trickster mice trying to steal his Valentine's gift?!</desc>
-    <category lang="en">FAMILY_KIDS</category>
-  </programme>
   <programme start="20261106011500 +0000" stop="20261106021500 +0000" channel="Cartoon Network">
     <title lang="en">The Tom And Jerry Show</title>
     <desc lang="en">Tom and Jerry are hired to investigate a tuna can legacy.</desc>
@@ -38756,11 +38686,6 @@
   <channel id="Cinemax">
     <display-name>Cinemax</display-name>
   </channel>
-  <programme start="20261105233000 +0000" stop="20261106011000 +0000" channel="Cinemax">
-    <title lang="en">TAG</title>
-    <desc lang="en">Five competitive friends hit the ground running with their annual game of tag, coinciding with the wedding of their only undefeated player, making him an easy target.</desc>
-    <category lang="en">MOVIES</category>
-  </programme>
   <programme start="20261106011000 +0000" stop="20261106024500 +0000" channel="Cinemax">
     <title lang="en">BROTHER NATURE</title>
     <desc lang="en">A straight-laced politician plans to propose to his dream girl but everything goes awry when he meets his potential brother-in-law who pins to be his best friend.</desc>
@@ -65512,11 +65437,6 @@
   <channel id="Dreamworks HD">
     <display-name>Dreamworks HD</display-name>
   </channel>
-  <programme start="20261106005500 +0000" stop="20261106012000 +0000" channel="Dreamworks HD">
-    <title lang="en">Dew Drops Diaries</title>
-    <desc lang="en">When Harper is missing an ingredient to make her Mom’s favorite dessert on Mother’s Day, Eden enlists the help of her fellow Dew Drops to do an emergency city-wide ingredient search! / When Marcus records a video of his inventions, Phoebe gets caught on camera and must erase the footage before Marcus sees, or her Dew Drop cover will be blown!</desc>
-    <category lang="en">FAMILY_KIDS</category>
-  </programme>
   <programme start="20261106012000 +0000" stop="20261106014500 +0000" channel="Dreamworks HD">
     <title lang="en">Not Quite Narwhal</title>
     <desc lang="en">The kids have a race to decide who gets to try some extremely rare berries. / When Scallop finds a beautiful and mysterious sea sculpture, she enlists the help of her friends to search the sea for the artist behind the masterpiece.</desc>
@@ -66390,14 +66310,6 @@
   <channel id="DW News">
     <display-name>DW News</display-name>
   </channel>
-  <programme channel="DW News" start="20261106010200 +0000" stop="20261106011500 +0000">
-    <title lang="en">DW News Focus</title>
-    <desc lang="en">News, off-beat stories and analysis of German and international affairs.</desc>
-    <date>2026</date>
-    <category lang="en">News</category>
-    <icon src="http://dtil.tmsimg.com/assets/p32388907_b_h8_ab.jpg?w=960&amp;h=540" />
-    <previously-shown />
-  </programme>
   <programme channel="DW News" start="20261106011500 +0000" stop="20261106020000 +0000">
     <title lang="de">DocFilm</title>
     <sub-title lang="de">Piedmont - A Life of Pleasure at the Foot of the Alps</sub-title>
@@ -75215,18 +75127,6 @@
   <channel id="FailArmy">
     <display-name>FailArmy</display-name>
   </channel>
-  <programme start="20261106004700 +0000" stop="20261106011800 +0000" channel="FailArmy">
-    <title lang="en">Humans VS. Everything</title>
-    <sub-title lang="en">Humans VS. Everything - Humans vs Elements</sub-title>
-    <desc lang="en">From gusty winds to fiery flames, get ready to watch humans face off against the unstoppable elements!</desc>
-    <date>2024</date>
-    <category lang="en">Comedy</category>
-    <icon src="https://provider-static.plex.tv/epg/cms/production/52262e32-e0cb-4c06-b8ab-dddc61a69895/FA-asset-1920x1080_-_Erica_Laible__1_.jpg" />
-    <episode-num system="onscreen">S2 E1</episode-num>
-    <rating system="US">
-      <value>TV-14</value>
-    </rating>
-  </programme>
   <programme start="20261106011800 +0000" stop="20261106014900 +0000" channel="FailArmy">
     <title lang="en">Humans VS. Everything</title>
     <sub-title lang="en">Humans VS. Everything - Humans vs Heavy Machines</sub-title>
@@ -80998,16 +80898,6 @@
   <channel id="FRANCE 24">
     <display-name>FRANCE 24</display-name>
   </channel>
-  <programme start="20261106010000 +0000" stop="20261106011500 +0000" channel="FRANCE 24">
-    <title lang="en">News</title>
-    <desc lang="en">An international news bulletin, presented live from the newsroom.</desc>
-    <category lang="en">NEWS</category>
-  </programme>
-  <programme start="20261106011500 +0000" stop="20261106011600 +0000" channel="FRANCE 24">
-    <title lang="en">News</title>
-    <desc lang="en">An international news bulletin, presented live from the newsroom.</desc>
-    <category lang="en">NEWS</category>
-  </programme>
   <programme start="20261106011600 +0000" stop="20261106013000 +0000" channel="FRANCE 24">
     <title lang="en">Tête à tête</title>
     <desc lang="en">Tête à Tête is an interview-based program on France 24 that features in-depth conversations with influential figures from politics, culture, and business. Each episode provides personal insights, expert opinions, and behind-the-scenes perspectives on current events and global issues.</desc>
@@ -82761,11 +82651,6 @@
   <channel id="Global Trekker">
     <display-name>Global Trekker</display-name>
   </channel>
-  <programme start="20261106005000 +0000" stop="20261106012000 +0000" channel="Global Trekker">
-    <title lang="en">Wild Warrior Encounters</title>
-    <desc lang="en">Meet the new wild warrior volunteers, as they are introduced to Imire’s extended animal family. Getting dirty is part of the job. And of course, there are always striking surprises at any moment.</desc>
-    <category lang="en">EDUCATION</category>
-  </programme>
   <programme start="20261106012000 +0000" stop="20261106022000 +0000" channel="Global Trekker">
     <title lang="en">Costa Rica: The Rise Of Nature</title>
     <desc lang="en">Join us on a journey to the heart of Costa Rica, to discover several fabulous Eden-like biotopes, and see the unprecedented efforts that are made every day to preserve, and in some cases restore, this exceptional natural heritage.</desc>
@@ -83274,11 +83159,6 @@
   <channel id="GMA Life TV">
     <display-name>GMA Life TV</display-name>
   </channel>
-  <programme start="20261106001500 +0000" stop="20261106011500 +0000" channel="GMA Life TV">
-    <title lang="en">Bubble Gang Fun Size</title>
-    <desc lang="en">Features a collection of classic comedy sketches, parodies, and unforgettable moments from the iconic Filipino gag show.</desc>
-    <category lang="en">LIFE_STYLE</category>
-  </programme>
   <programme start="20261106011500 +0000" stop="20261106021500 +0000" channel="GMA Life TV">
     <title lang="en">Balitanghali</title>
     <desc lang="en">The noontime daily newscast that delivers the hottest news and happenings in the country.</desc>
@@ -86160,17 +86040,6 @@
   <channel id="HBO Boxing">
     <display-name>HBO Boxing</display-name>
   </channel>
-  <programme start="20261106004900 +0000" stop="20261106011800 +0000" channel="HBO Boxing">
-    <title lang="en">Garcia vs. Lopez</title>
-    <desc lang="en">Champion Mikey Garcia (31-0, 26 KOs) faces top contender Juan Manuel Lopez (33-2, 30 KOs).</desc>
-    <date>2013</date>
-    <category lang="en">Sports</category>
-    <icon src="https://d31l2nn7dlh4li.cloudfront.net/amg00136/asset_artifacts/image/fetch_media/3d304fc7951c2675/6fa415ed-4b5c-4814-9628-d1201f5e5c3e.jpg" />
-    <premiere lang="en" />
-    <rating system="US">
-      <value>TV-PG</value>
-    </rating>
-  </programme>
   <programme start="20261106011800 +0000" stop="20261106015000 +0000" channel="HBO Boxing">
     <title lang="en">Road To Dallas: Pacquiao vs. Clottey</title>
     <desc lang="en">Get an exclusive inside look at Manny Pacquiao vs. Joshua Clottey's 2010 welterweight title fight.</desc>
@@ -105469,18 +105338,6 @@
   <channel id="Just for Laughs Gags">
     <display-name>Just for Laughs Gags</display-name>
   </channel>
-  <programme start="20261106004900 +0000" stop="20261106011900 +0000" channel="Just for Laughs Gags">
-    <title lang="en">Just for Laughs Gags</title>
-    <sub-title lang="en">Just for Laughs GAGS - S.2 E.1</sub-title>
-    <desc lang="en">Get ready for nonstop laughs as a clumsy street cleaner causes chaos, a faulty hearing aid sparks confusion, and a fresh paint job goes very, very wrong.</desc>
-    <date>2001</date>
-    <category lang="en">Comedy</category>
-    <icon src="https://dki01q1l7yn3y.cloudfront.net/thumbnails-platform-prod/assets/cs::content::shows/23321-25369/47762161-default_v1.jpg" />
-    <episode-num system="onscreen">S0 E1</episode-num>
-    <rating system="US">
-      <value>PG</value>
-    </rating>
-  </programme>
   <programme start="20261106011900 +0000" stop="20261106014400 +0000" channel="Just for Laughs Gags">
     <title lang="en">Just for Laughs Gags</title>
     <sub-title lang="en">Just for Laughs GAGS - S. 1 E. 12 - Hello?</sub-title>
@@ -114405,11 +114262,6 @@
   <channel id="Knowledge Channel">
     <display-name>Knowledge Channel</display-name>
   </channel>
-  <programme start="20261106010000 +0000" stop="20261106012000 +0000" channel="Knowledge Channel">
-    <title lang="en">Grade 1 Math</title>
-    <desc lang="en">Learn how to add and subtract whole numbers up to 100 including money.</desc>
-    <category lang="en">EDUCATION</category>
-  </programme>
   <programme start="20261106012000 +0000" stop="20261106014000 +0000" channel="Knowledge Channel">
     <title lang="en">Grade 1 Reading &amp; Literacy</title>
     <desc lang="en">Identify what are action words and describing words, and know how to follow and give directions involving one to two steps.</desc>
@@ -118648,15 +118500,6 @@
       <value>M</value>
     </rating>
   </programme>
-  <channel id="Mr. Bean">
-    <display-name>Mr. Bean</display-name>
-  </channel>
-  <programme channel="Mr. Bean" start="20261106175824 +0000" stop="20261107011129 +0000">
-    <title>Spring Clean</title>
-    <desc>Mr Bean finds that cleanliness can be a filthy business.</desc>
-    <category lang="en">FAMILY_KIDS</category>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/KR_USQO570425A_544756409_3_20240717T062518196Z_36.jpeg" />
-  </programme>
   <channel id="Mr Beast">
     <display-name>Mr Beast</display-name>
   </channel>
@@ -120593,65 +120436,6 @@
     <category lang="en">Factual</category>
     <icon src="https://images.metadata.sky.com/pd-image/9f1cfa64-f136-4980-8545-dcd3ce90ad66/16-9" />
     <episode-num system="xmltv_ns">1.4.</episode-num>
-  </programme>
-  <channel id="Mythbusters">
-    <display-name>Mythbusters</display-name>
-  </channel>
-  <programme channel="Mythbusters" start="20261106171952 +0000" stop="20261106182052 +0000">
-    <title>MythBusters Season 07</title>
-    <sub-title>Repack Special: A To Z Explosions</sub-title>
-    <desc>This A to Z of MythBusters Booms is arguably the most perfect episode in MythBusters history.</desc>
-    <category lang="en">EDUCATION</category>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQT620324A_711439590_0_20250313T101706820Z_89_imageprocessorclient-tvplus-linear-6fb5b47f79-69cwt.jpeg" />
-  </programme>
-  <programme channel="Mythbusters" start="20261106182052 +0000" stop="20261106191956 +0000">
-    <title>MythBusters Season 07</title>
-    <sub-title>Bourne Magazine / Blue Ice</sub-title>
-    <desc>Bourne Magazine sees Adam and Jamie take on an explosive getaway from the Bourne Supremacy movie.</desc>
-    <category lang="en">EDUCATION</category>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQT620324A_711439590_0_20250313T101706820Z_89_imageprocessorclient-tvplus-linear-6fb5b47f79-69cwt.jpeg" />
-  </programme>
-  <programme channel="Mythbusters" start="20261106191956 +0000" stop="20261106201900 +0000">
-    <title>MythBusters Season 07</title>
-    <sub-title>Bubble Trouble / Dynamite Axe</sub-title>
-    <desc>Adam and Jamie are tackling a fizzy fable that's bound to float your boat…</desc>
-    <category lang="en">EDUCATION</category>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQT620324A_711439590_0_20250313T101706820Z_89_imageprocessorclient-tvplus-linear-6fb5b47f79-69cwt.jpeg" />
-  </programme>
-  <programme channel="Mythbusters" start="20261106201900 +0000" stop="20261106211800 +0000">
-    <title>MythBusters Season 08</title>
-    <sub-title>Trench Torpedo / Party Balloon Pile Up</sub-title>
-    <desc>In Trench Torpedo, Adam and Jamie tackle a blast from the past.</desc>
-    <category lang="en">EDUCATION</category>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQT620324A_711447473_0_20250313T101706801Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-69cwt.jpeg" />
-  </programme>
-  <programme channel="Mythbusters" start="20261106211800 +0000" stop="20261106221700 +0000">
-    <title>MythBusters Season 08</title>
-    <sub-title>A Titanic Tale / Rocket Surfer</sub-title>
-    <desc>Adam and Jamie, joined by James Cameron, tackle the most requested myth in MythBuster history.</desc>
-    <category lang="en">EDUCATION</category>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQT620324A_711447473_0_20250313T101706801Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-69cwt.jpeg" />
-  </programme>
-  <programme channel="Mythbusters" start="20261106221700 +0000" stop="20261106231600 +0000">
-    <title>MythBusters Season 08</title>
-    <sub-title>Halloween: The Haunted Hum / The Smell of Fear</sub-title>
-    <desc>On this horrific episode of MythBusters, there's thrills, spills and spine tingling chills.</desc>
-    <category lang="en">EDUCATION</category>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQT620324A_711447473_0_20250313T101706801Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-69cwt.jpeg" />
-  </programme>
-  <programme channel="Mythbusters" start="20261106231600 +0000" stop="20261107001501 +0000">
-    <title>MythBusters Season 08</title>
-    <sub-title>Motorcycle Mayhem / Home Made Parachute</sub-title>
-    <desc>On this episode of MythBusters, Adam and Jamie literally put their lives on the line.</desc>
-    <category lang="en">EDUCATION</category>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQT620324A_711447473_0_20250313T101706801Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-69cwt.jpeg" />
-  </programme>
-  <programme channel="Mythbusters" start="20261107001501 +0000" stop="20261107011401 +0000">
-    <title>MythBusters Season 08</title>
-    <sub-title>Randomizer Rises / Monk Magic</sub-title>
-    <desc>The Mythbusters pitch in with all-star pitcher Matt Cain to answer a medley of mini myths.</desc>
-    <category lang="en">EDUCATION</category>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/GB_USQT620324A_711447473_0_20250313T101706801Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-69cwt.jpeg" />
   </programme>
   <channel id="Mysterious Worlds">
     <display-name>Mysterious Worlds</display-name>
@@ -127628,11 +127412,6 @@
   <channel id="Nickjr">
     <display-name>Nickjr</display-name>
   </channel>
-  <programme start="20261106005000 +0000" stop="20261106011000 +0000" channel="Nickjr">
-    <title lang="en">Deer Squad</title>
-    <desc lang="en">Kai's Dojobot for training the Deer Squad is stolen by Baron Bite who turns it against them! // Lady Fluffpot spots a sea Monster whilst swimming at the beach!</desc>
-    <category lang="en">FAMILY_KIDS</category>
-  </programme>
   <programme start="20261106011000 +0000" stop="20261106013500 +0000" channel="Nickjr">
     <title lang="en">Blue's Clues &amp; You</title>
     <desc lang="en">Welcome to Blue's Bistro - a very fancy restaurant! While playing Blue's Clues to figure out what Blue wants to eat, we help Josh take our friends' orders and skidoo to Farmer Goat's farm to retrieve fresh vegetables!</desc>
@@ -129086,11 +128865,6 @@
   <channel id="Nickelodeon">
     <display-name>Nickelodeon</display-name>
   </channel>
-  <programme start="20261106010500 +0000" stop="20261106012000 +0000" channel="Nickelodeon">
-    <title lang="en">The Patrick Star Show</title>
-    <desc lang="en">Patrick's evil twin cousin shows up to ruin Patrick' reputation.</desc>
-    <category lang="en">FAMILY_KIDS</category>
-  </programme>
   <programme start="20261106012000 +0000" stop="20261106014500 +0000" channel="Nickelodeon">
     <title lang="en">SpongeBob SquarePants</title>
     <desc lang="en">Plankton's family open their own restaurant...directly next to the Chum Bucket. // SpongeBob suddenly finds everything funny...much to everyone's annoyance.</desc>
@@ -134716,11 +134490,6 @@
   <channel id="Premier Sports">
     <display-name>Premier Sports</display-name>
   </channel>
-  <programme start="20261105220000 +0000" stop="20261106011500 +0000" channel="Premier Sports">
-    <title lang="en">ATP 1000: Rolex Paris Masters Day 4</title>
-    <desc lang="en">ATP 1000: Rolex Paris Masters Day 4.</desc>
-    <category lang="en">SPORTS</category>
-  </programme>
   <programme start="20261106011500 +0000" stop="20261106043000 +0000" channel="Premier Sports">
     <title lang="en">NFL: Baltimore Ravens vs. Jacksonville Jaguars</title>
     <desc lang="en">NFL: Baltimore Ravens vs. Jacksonville Jaguars.</desc>
@@ -142333,17 +142102,6 @@
   <channel id="Sky Sports F1">
     <display-name>Sky Sports F1</display-name>
   </channel>
-  <programme start="20261106001500 +0000" stop="20261106011500 +0000" channel="Sky Sports F1">
-    <title lang="en">Formula 1</title>
-    <sub-title lang="en">Mexico City Grand Prix: Highlights</sub-title>
-    <desc lang="en">It's lights out for the Mexico City Grand Prix. Lewis Hamilton takes a record 105th career pole, and a first for Ferrari. George Russell and Charles Leclerc complete the top three.</desc>
-    <date>2026</date>
-    <category lang="en">Sport</category>
-    <category lang="en">Motorsport</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F34368665~~2FEP013880434455,imi:7d8774feb0562c609a863e930392ade9eb365f0b/posterTile?imageVersion=LDDMIQ&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S2026 E110155</episode-num>
-  </programme>
   <programme start="20261106011500 +0000" stop="20261106013000 +0000" channel="Sky Sports F1">
     <title lang="en">Jamie Chadwick Realises an F1 Dream</title>
     <desc lang="en">Joining Jamie Chadwick as she fulfils her childhood dream of driving a Formula 1 car.</desc>
@@ -148399,41 +148157,175 @@
   <channel id="Sony One Action Hits">
     <display-name>Sony One Action Hits</display-name>
   </channel>
-  <programme channel="Sony One Action Hits" start="20261106162115 +0000" stop="20261106184246 +0000">
-    <title>Suspect (1987)</title>
-    <desc>Als an einem Flußufer die Leiche einer junge Frau aufgefunden wird, steht der Obdachlose Carl Anderson (Liam Neeson) unter Verdacht. Er soll die Sekretärin ermordet haben, nachdem ihr Chef - ein Richter - Selbstmord begangen hat. Für die Gerichtsverhandlung wird Anderson die Pflichtverteidigerin Kathleen Riley (Cher) bestellt, die von seiner Unschuld überzeugt ist. Zusammen mit dem Geschworenen Eddie Sanger (Dennis Quaid) versucht sie die Wahrheit herauszufinden. Eigentlich darf der Geschworene keinen Kontakt zur Anwältin aufnehmen, lässt ihr aber dennoch einen wichtigen Hinweis zukommen. Schon bald entpuppt sich der Fall als brisanter als vermutet: Die Spur des Mörders führt bis an die Spitze der Regierung...</desc>
+  <programme channel="Sony One Action Hits" start="20261106002403 +0000" stop="20261106024442 +0000">
+    <title>Against All Odds (1984)</title>
+    <desc>A dangerous love triangle develops when a shady nightclub owner hires an ex-football player to findhis runaway girlfriend.</desc>
     <category lang="en">ENTERTAINMENT</category>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/AT_USQT620324A_869373132_0_20250508T212144779Z_79_imageprocessorclient-tvplus-linear-6fb5b47f79-tqk7n.png" />
-    <rating>
-      <value>12</value>
-    </rating>
   </programme>
-  <programme channel="Sony One Action Hits" start="20261106184246 +0000" stop="20261106210355 +0000">
-    <title>Gegen jede Chance</title>
-    <desc>Korruption, Intrigen und Machtgier beherrschen das Leben, aus dem Jessie (Rachel Ward) ausbricht. Terry (Jeff Bridges) ein Ex-Footballspieler soll sie finden und zurückbringen. In Mexico treffen beide aufeinander - eine heiße leidenschaftliche Liebe entbrennt. Gehetzt von Terrys Auftraggebern fliehen sie bald nach Los Angeles zurück. Hier hält der betrügerische Anwalt Caxton (Richard Widmark) alle Fäden in der Hand. Terry findet Belastungsmaterial gegen Caxton und versucht ihn damit zu erpressen. Doch seine Rechnung scheint nicht aufzugehen.</desc>
+  <programme channel="Sony One Action Hits" start="20261106024442 +0000" stop="20261106050403 +0000">
+    <title>Crouching Tiger, Hidden Dragon</title>
+    <desc>A legendary warrior's stolen magic sword becomes the centerpiece of epic, intertwining love stories, set against the breathtaking landscapes of ancient China.</desc>
     <category lang="en">ENTERTAINMENT</category>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/AT_USQT620324A_869384614_1_20250508T212150579Z_28_imageprocessorclient-tvplus-linear-6fb5b47f79-btpzm.png" />
-    <rating>
-      <value>12</value>
-    </rating>
   </programme>
-  <programme channel="Sony One Action Hits" start="20261106210355 +0000" stop="20261106232131 +0000">
-    <title>Anzio (1968)</title>
-    <desc>Italien, Januar 1944: Dick Ennis (Robert Mitchum) ist Kriegsberichterstatter bei den Alliierten. Ohne großen Widerstand von seiten der Gegner rücken sie vor. Doch Generalfeldmarschall Kesselring erwartet sie gut gesichert bei Anzio. Eine mörderische Schlacht bricht los ... Zusammen mit sieben anderen Männern gerät Ennis im Gefecht hinter die deutschen Linien. Ständig den Tod vor Augen, versuchen sie sich zu ihren Einheiten durchzuschlagen.</desc>
+  <programme channel="Sony One Action Hits" start="20261106050403 +0000" stop="20261106071942 +0000">
+    <title>The Green Hornet</title>
+    <desc>Britt Reid (Seth Rogen), son and heir to Los Angeles' largest newspaper fortune, is a rich, spoiled playboy who has been happy to maintain a direction-less existence.</desc>
     <category lang="en">ENTERTAINMENT</category>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/AT_USQT620324A_2120019630_4_20260820T022150639Z_90_imageprocessorclient-tvplus-linear-b5879c6c6-669wl.jpeg" />
-    <rating>
-      <value>14</value>
-    </rating>
   </programme>
-  <programme channel="Sony One Action Hits" start="20261106232131 +0000" stop="20261107011659 +0000">
-    <title>Ice Soldiers</title>
-    <desc>Col. Desmond Trump (Michael Ironside) und seine militärische Forschergruppe sind im hohen Norden Kanadas unterwegs, um dort Ausgrabungen zu machen. Unter dem ewigen Eis werden Überbleibsel russischer Waffen aus dem Kalten Krieg vermutet, die den Ausgang des Kriegs zugunsten der Kommunisten hätten entscheiden können. Der Spezialist Malraux (Dominic Purcell) macht eine erschreckende Entdeckung: In einer unterirdischen Höhle befinden sich drei Menschen, die unversehrt im Frost überdauert haben. Es stellt sich heraus, dass es sich um genmanipulierte Soldaten handelt, die aufgetaut nur eine Mission kennen: Den kalten Krieg für Russland gewinnen. Das Camp wird zerstört und jeder, der sich ihnen in den Weg stellt, getötet. Gemeinsam mit TC Cardinal (Adam Beach) begibt sich Malraux auf die Jagd nach den Eissoldaten…</desc>
+  <programme channel="Sony One Action Hits" start="20261106071942 +0000" stop="20261106094917 +0000">
+    <title>All The Money in The World</title>
+    <desc>After the kidnapping of John Paul Getty III, in a race against time, his mother works to convince his wealthy grandfather to pay the ransom. Inspired by historical events. Certain scenes, characters and dialogue have been fictionalized for dramatic purposes.</desc>
     <category lang="en">ENTERTAINMENT</category>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/AT_USQT620324A_1294008799_2_20251031T214702504Z_51_imageprocessorclient-tvplus-linear-5db7c6bc99-fc88h.jpeg" />
-    <rating>
-      <value>14</value>
-    </rating>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261106094917 +0000" stop="20261106113627 +0000">
+    <title>Ultraviolet</title>
+    <desc>Set in the late 21st century, a subculture of humans called Hemophages has emerged who have been genetically modified, giving them enhanced speed, incredible stamina and acute intelligence. To the government's dismay, more and more of the population are being transformed, and they have set out to rid the world of this new subculture that they deem a menace to society. One rogue warrior is bent on protecting her race - and seeking revenge on those who changed her life forever. With fierce fighting skills and chameleon-like abilities, Violet sets out to destroy a government-designed time bomb that will eliminate all Hemophages.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261106113627 +0000" stop="20261106133039 +0000">
+    <title>Wild Things II</title>
+    <desc>Keeping your friends close and your enemies closer has never been more important...or more dangerous. The girls of Blue Bay are back, and they're wilder than ever in this seductive sequel where no one is innocent and nothing is what it appears to be.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261106133039 +0000" stop="20261106152909 +0000">
+    <title>Trapped</title>
+    <desc>The parents of an abducted daughter go to unprecedented lengths to get her back unharmed.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261106152909 +0000" stop="20261106174319 +0000">
+    <title>Battle: Los Angeles</title>
+    <desc>A platoon of Marines battles an alien invasion on the streets of Los Angeles.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261106174319 +0000" stop="20261106195931 +0000">
+    <title>Thunderheart</title>
+    <desc>An engrossing suspense thriller based on actual events, THUNDERHEART stars Val Kilmer as an FBI agent with Sioux indian ancestry who is sent to a South Dakota indian reservation to capture a radical native American protester. As Kilmer struggles to get in touch with his own heritage, he begins to discover that the U.S. government has framed an innocent man.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261106195931 +0000" stop="20261106214806 +0000">
+    <title>Underworld: Blood Wars</title>
+    <desc>The fifth installment of the Underworld franchise.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261106214806 +0000" stop="20261106235740 +0000">
+    <title>Lakeview Terrace</title>
+    <desc>A young interracial couple move into their dream home and are increasingly harassed by their next-door neighbor, a tightly wound black LAPD officer. When the couple decides to fight back the feud turns deadly.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261106235740 +0000" stop="20261107015238 +0000">
+    <title>Faster</title>
+    <desc>An ex-con sets out to avenge his brother's death after they were double-crossed during a heist years ago. During his campaign, however, he's tracked by a veteran cop and an egocentric hit man.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261107015238 +0000" stop="20261107034758 +0000">
+    <title>Hush</title>
+    <desc>A new bride (Gwyneth Paltrow) moves to a beautiful country estate where she meets her psychopathic mother-in-law.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261107034758 +0000" stop="20261107060244 +0000">
+    <title>8 Million Ways To Die</title>
+    <desc>Trying to help a Los Angeles prostitute, an alcholoic ex-cop runs up against her vicious Colombian drug dealer boyfriend.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261107060244 +0000" stop="20261107074619 +0000">
+    <title>No Good Deed</title>
+    <desc>A thriller centered on a one-time district attorney who is kidnapped along with her two children.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261107074619 +0000" stop="20261107101413 +0000">
+    <title>Last Action Hero</title>
+    <desc>Arnold Schwarzenegger is movie idol Jack Slater in Last Action Hero, which follows the adventures of 11-year-old Danny (Austin O'Brien), whose magic ticket blasts him out of his theater seat and into an action movie. There he teams up with Slater, living his wildest fantasies in a celluloid world where anything is possible.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261107101413 +0000" stop="20261107123308 +0000">
+    <title>Hellboy</title>
+    <desc>A demon, raised from infancy after being conjured by and rescued from the Nazis, grows up to become a defender against the forces of darkness.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261107123308 +0000" stop="20261107143628 +0000">
+    <title>The Rundown (2003)</title>
+    <desc>A bounty hunter travels to the Amazon to retrieve the son of a mob boss.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261107143628 +0000" stop="20261107162354 +0000">
+    <title>The Medallion</title>
+    <desc>A Hong Kong detective teams up with a British agent and an investigator to stop a global slave ring.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261107162354 +0000" stop="20261107181302 +0000">
+    <title>Vantage Point</title>
+    <desc>Seen from seven different perspectives, the President of the United States - who's really a body double of the prez - is shot during a speech in Madrid, while the real President (in a nearby hotel) is kidnapped by terrorists. Figuring out the terrorists' diversionary tactics and stunned by the betrayal of a fellow American agent, a skittish but brave Secret Service Agent tracks the terrorist leader to find the real president.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261107181302 +0000" stop="20261107200317 +0000">
+    <title>The Forgotten (2004)</title>
+    <desc>Haunted by the memories of a son her husband swears she never had, a distraught mother's search for the truth leads to a mind-shattering conspiracy of unearthly terror.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261107200317 +0000" stop="20261107220305 +0000">
+    <title>After Earth</title>
+    <desc>Far in the future, a young boy and his estranged father navigates an abandoned planet on which their space ship crashed.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261107220305 +0000" stop="20261108001622 +0000">
+    <title>The International</title>
+    <desc>An Interpol agent (Owen) attempts to expose a high-profile financial institution's role in an international arms dealing ring.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261108001622 +0000" stop="20261108023543 +0000">
+    <title>Crouching Tiger, Hidden Dragon</title>
+    <desc>A legendary warrior's stolen magic sword becomes the centerpiece of epic, intertwining love stories, set against the breathtaking landscapes of ancient China.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261108023543 +0000" stop="20261108050718 +0000">
+    <title>Silverado</title>
+    <desc>Four drifters arrive in a small frontier town and become unlikely heroes in a battle against a powerful family and a corrupt sheriff.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261108050718 +0000" stop="20261108074854 +0000">
+    <title>Ivanhoe (1982)</title>
+    <desc>Sir Walter Scott's epic novel of timeless romance and knightly daring comes to life! The year is 1194. At long last, the noble knight Wilfred of Ivanhoe (Anthony Andrews) has returned from the Crusades to regain his title and win the hand of his beloved Lady Rowena (Lysette Anthony).</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261108074854 +0000" stop="20261108100912 +0000">
+    <title>Krull</title>
+    <desc>A young prince battles aliens and sorcerers to rescue his princess from the Beast on the fantastic planet Krull.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261108100912 +0000" stop="20261108121357 +0000">
+    <title>Charlie's Angels: Full Throttle</title>
+    <desc>The Angels (Cameron Diaz, Drew Barrymore &amp; Lucy Liu) go head-to-head with Angel-Gone-Bad!</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261108121357 +0000" stop="20261108141139 +0000">
+    <title>Money Monster</title>
+    <desc>Lee Gates, a bombastic television stock huckster, is taken hostage on his TV show by an outraged gunman. As much of the world watches live, Gates must keep himself alive and, with help from the woman who produces the show, uncover the truth behind a tangle of big money lies.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261108141139 +0000" stop="20261108160015 +0000">
+    <title>Resident Evil: Apocalypse</title>
+    <desc>After escaping from the Racoon City Medical Facility Alice searches for answers to the T-Virus and how to contain it, all while trying to find a way to escape the ruined city with fellow survivors.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261108160015 +0000" stop="20261108175637 +0000">
+    <title>Resident Evil: Afterlife</title>
+    <desc>In a world ravaged by a virus infection, turning its victims into the Undead, Alice (Jovovich), continues on her journey to find survivors and lead them to safety. Her deadly battle with the Umbrella Corporation reaches new heights, but Alice gets some unexpected help from an old friend. A new lead that promises a safe haven from the Undead takes them to Los Angeles, but when they arrive the city is overrun by thousands of Undead - and Alice and her comrades are about to step into a deadly trap.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261108175637 +0000" stop="20261108195836 +0000">
+    <title>Never Back Down 2: The Beatdown</title>
+    <desc>Four fighters from different backgrounds come together to train under an ex-MMA rising star and then ultimately have to fight each other and the traitor in their midst.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261108195836 +0000" stop="20261108221841 +0000">
+    <title>Tears Of The Sun</title>
+    <desc>After a West African president's family is assassinated and civil unrest is rampant, a top secret team is deployed to the far reaches of the jungle to rescue a U.S. doctor who is acting as a missionary. She insists the U.S. forces rescue all of her charges. As a result, the group falls under rebel attacks when it is revealed that the son of the deposed West African president is among those being saved.</desc>
+    <category lang="en">ENTERTAINMENT</category>
+  </programme>
+  <programme channel="Sony One Action Hits" start="20261108221841 +0000" stop="20261109003846 +0000">
+    <title>Tears Of The Sun</title>
+    <desc>After a West African president's family is assassinated and civil unrest is rampant, a top secret team is deployed to the far reaches of the jungle to rescue a U.S. doctor who is acting as a missionary. She insists the U.S. forces rescue all of her charges. As a result, the group falls under rebel attacks when it is revealed that the son of the deposed West African president is among those being saved.</desc>
+    <category lang="en">ENTERTAINMENT</category>
   </programme>
   <channel id="SPOTV">
     <display-name>SPOTV</display-name>
@@ -152025,13 +151917,6 @@
   <channel id="Taiwan Plus">
     <display-name>Taiwan Plus</display-name>
   </channel>
-  <programme start="20261106010000 +0000" stop="20261106011500 +0000" channel="Taiwan Plus">
-    <title lang="en-GB">What's Up Taiwan!</title>
-    <desc lang="en-GB">The host presents a detailed account of the latest news updates and key developments on various pressing issues from across Taiwan.</desc>
-    <category lang="en-GB">178</category>
-    <icon src="http://jiotv.catchup.cdn.jio.com/dare_images/shows/epgdata/77da62081faf59bae187061c8fc216ce.jpg" />
-    <premiere />
-  </programme>
   <programme start="20261106011500 +0000" stop="20261106013000 +0000" channel="Taiwan Plus">
     <title lang="en-GB">Namaste Taiwan</title>
     <desc lang="en-GB">The host travels across Taiwan and offers detailed insights into the diverse lifestyles led by communities of Indian origins.</desc>
@@ -159341,17 +159226,6 @@
   <channel id="Travel Channel">
     <display-name>Travel Channel</display-name>
   </channel>
-  <programme start="20261106005200 +0000" stop="20261106011300 +0000" channel="Travel Channel">
-    <title lang="en">Island Hunters</title>
-    <sub-title lang="en">The Hunt For A Second Island On Lake Huron's Georgian Bay</sub-title>
-    <desc lang="en">Father and daughter, Robert and Laura, search for an island on Lake Huron's Georgian Bay north of Toronto.</desc>
-    <category lang="en">LIFE_STYLE</category>
-    <icon src="https://www.fetchtv.com.au/v2/epg/program/46962/image/334x188" />
-    <episode-num system="onscreen">S1 E7</episode-num>
-    <rating system="AU">
-      <value>G</value>
-    </rating>
-  </programme>
   <programme start="20261106011300 +0000" stop="20261106013500 +0000" channel="Travel Channel">
     <title lang="en">Island Hunters</title>
     <sub-title lang="en">Looking For A Tropical Island Paradise In The Republic Of Fiji</sub-title>
@@ -163235,17 +163109,6 @@
   <channel id="TV5 Monde">
     <display-name>TV5 Monde</display-name>
   </channel>
-  <programme start="20261106005700 +0000" stop="20261106012000 +0000" channel="TV5 Monde">
-    <title lang="en-GB">64' débat</title>
-    <desc lang="en-GB">With a focus on Francophone cultural news, guests take an in-depth look at a key issue.</desc>
-    <credits>
-      <actor>Mohamed Kaci,Estelle Martin</actor>
-    </credits>
-    <category lang="en-GB">178</category>
-    <category lang="en-GB">177</category>
-    <icon src="http://jiotv.catchup.cdn.jio.com/dare_images/shows/epgdata/3fb69101451f1ba00f5ceffd221f5ca4.jpg" />
-    <premiere />
-  </programme>
   <programme start="20261106012000 +0000" stop="20261106012800 +0000" channel="TV5 Monde">
     <title lang="en-GB">L'invité</title>
     <desc lang="en-GB">Host Patrick Simonin interviews a guest from a specific field that happens to be in the news, be it politics, economics or culture.</desc>
@@ -169918,10 +169781,6 @@
   <channel id="Warner TV">
     <display-name>Warner TV</display-name>
   </channel>
-  <programme start="20261106005500 +0000" stop="20261106012000 +0000" channel="Warner TV">
-    <title lang="th">Storage Hunters S5</title>
-    <category lang="en">ENTERTAINMENT</category>
-  </programme>
   <programme start="20261106012000 +0000" stop="20261106014500 +0000" channel="Warner TV">
     <title lang="th">The Carbonaro Effect: Holiday Survival Guide</title>
     <category lang="en">ENTERTAINMENT</category>
@@ -174789,11 +174648,6 @@
   <channel id="primary-source:dreamworkshd:1">
     <display-name>Dreamworks Tagalized</display-name>
   </channel>
-  <programme start="20261106005500 +0000" stop="20261106012000 +0000" channel="primary-source:dreamworkshd:1">
-    <title lang="en">Dew Drops Diaries</title>
-    <desc lang="en">When Harper is missing an ingredient to make her Mom’s favorite dessert on Mother’s Day, Eden enlists the help of her fellow Dew Drops to do an emergency city-wide ingredient search! / When Marcus records a video of his inventions, Phoebe gets caught on camera and must erase the footage before Marcus sees, or her Dew Drop cover will be blown!</desc>
-    <category lang="en">FAMILY_KIDS</category>
-  </programme>
   <programme start="20261106012000 +0000" stop="20261106014500 +0000" channel="primary-source:dreamworkshd:1">
     <title lang="en">Not Quite Narwhal</title>
     <desc lang="en">The kids have a race to decide who gets to try some extremely rare berries. / When Scallop finds a beautiful and mysterious sea sculpture, she enlists the help of her friends to search the sea for the artist behind the masterpiece.</desc>

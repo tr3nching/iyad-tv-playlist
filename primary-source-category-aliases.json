@@ -131,7 +131,16 @@
     "Zoo Moo": "Kids",
     "[adult swim]": "Entertainment",
     "by Lionsgate": "Movies",
-    "impact Plus": "Sports"
+    "impact Plus": "Sports",
+    "Aliwko": "Entertainment",
+    "BS10 + more Converge Channels": "Entertainment",
+    "CLTV36": "News",
+    "Deal Zone": "Entertainment",
+    "Golden TV": "Entertainment",
+    "Z One": "Entertainment",
+    "Main Livestream": "Entertainment",
+    "Dining Area": "Entertainment",
+    "External Den": "Entertainment"
   },
   "review": [
     {
@@ -1058,6 +1067,90 @@
       "status": "inferred_broad_type",
       "sources": [],
       "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Aliwko",
+      "category": "Entertainment",
+      "status": "researched",
+      "sources": [
+        "https://www.aliwkotv.com/how-to-watch",
+        "https://www.imediadistribution.com/imd-networks/aliwko"
+      ],
+      "basis": "The channel and its distributor describe Filipino dramas, movies and lifestyle programmes; the official viewing instructions place Aliwko in Entertainment."
+    },
+    {
+      "name": "BS10 + more Converge Channels",
+      "category": "Entertainment",
+      "status": "researched",
+      "sources": [
+        "https://www.bs10.jp/20260520_imawoatsuku/"
+      ],
+      "basis": "BS10 itself describes a mixed schedule of sport, films, Korean drama, mahjong and quiz programmes. This applies to the default BS10 feed only, not every named alternate in this container."
+    },
+    {
+      "name": "CLTV36",
+      "category": "News",
+      "status": "researched",
+      "sources": [
+        "https://cltv36.tv/cltv36-bilyonaryo-news-channel-forge-strategic-partnership/",
+        "https://lausgroup.com.ph/cltv36/"
+      ],
+      "basis": "The broadcaster identifies itself as the hyper-local news authority for Central Luzon and describes news/public affairs roots. News is its broad fallback despite carrying some entertainment and public service programmes."
+    },
+    {
+      "name": "Deal Zone",
+      "category": "Entertainment",
+      "status": "researched",
+      "sources": [
+        "https://www.directv.com/insider/deal-zone/",
+        "https://www.sling.com/whatson/freestream/classic-reality"
+      ],
+      "basis": "Provider descriptions identify Pawn Stars, Storage Wars and American Pickers reality programming. It is not a shopping channel or a history documentary feed merely because its parent catalog container is HISTORY."
+    },
+    {
+      "name": "Golden TV",
+      "category": "Entertainment",
+      "status": "researched",
+      "sources": [
+        "https://getgolden.tv/"
+      ],
+      "basis": "The broadcaster describes AAPI movies, television shows, documentaries and stories. Catalog branding and the owner-hosted logo establish this GoldenTV brand; broad Entertainment does not establish a particular regional guide."
+    },
+    {
+      "name": "Z One",
+      "category": "Entertainment",
+      "status": "researched",
+      "sources": [
+        "https://www.zee5.com/global/collections/entertainment-channels-live/0-8-3z5754643"
+      ],
+      "basis": "The broadcaster lists Zee One under Entertainment and describes Indian family drama, reality, lifestyle and films. Catalog uses the Zee One logo. No language or regional EPG is inferred."
+    },
+    {
+      "name": "Main Livestream",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [
+        "https://www.gmanetwork.com/entertainment/showbiznews/klarisse-de-guzman-ginulat-ang-pbb-20-housemates/129680/"
+      ],
+      "basis": "This catalog label belongs to the PBB Collab 3.0 container and is a reality-show camera feed. Entertainment follows that programme format; the cited broadcaster describes the PBB all-access reality livestream. No programme schedule or exact season identity is inferred."
+    },
+    {
+      "name": "Dining Area",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [
+        "https://www.gmanetwork.com/entertainment/showbiznews/klarisse-de-guzman-ginulat-ang-pbb-20-housemates/129680/"
+      ],
+      "basis": "This catalog label belongs to the PBB Collab 3.0 container and is a reality-show camera feed. Entertainment follows that programme format; the cited broadcaster describes the PBB all-access reality livestream. No programme schedule or exact season identity is inferred."
+    },
+    {
+      "name": "External Den",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [
+        "https://www.gmanetwork.com/entertainment/showbiznews/klarisse-de-guzman-ginulat-ang-pbb-20-housemates/129680/"
+      ],
+      "basis": "This catalog label belongs to the PBB Collab 3.0 container and is a reality-show camera feed. Entertainment follows that programme format; the cited broadcaster describes the PBB all-access reality livestream. No programme schedule or exact season identity is inferred."
     }
   ]
 }

@@ -155,7 +155,7 @@ export function numberPlaylist(text) {
   const parents = new Map();
   for (const entry of entries) {
     const source = primarySourceParents.get(entry.id);
-    if (source && present.has(source.parentId)) parents.set(entry.id, source);
+    if (source && present.has(source.parentId) && channelCategory(entry.id) === channelCategory(source.parentId)) parents.set(entry.id, source);
   }
   // A verified additional duplicate shares its matching source family's major number.
   const primary = entries.filter(entry => !entry.id.startsWith('additional:'));
@@ -185,7 +185,11 @@ export function numberPlaylist(text) {
     assignments[id] = `${assignments[source.parentId]}.${String(index).padStart(3,'0')}`;
   }
   const header = text.split(/(?=^#EXTINF:)/m)[0];
-  const numbered = entries.map(entry => entry.block.replace(/^#EXTINF:[^\r\n]*/, line => line.replace(/\s+tvg-chno="[^"]*"/g, '').replace(/^#EXTINF:[^ ,]+/, prefix => `${prefix} tvg-chno="${assignments[entry.id]}"`)).trimEnd() + '\n').join('');
+  const numbered = entries.map(entry => {
+    let block = entry.block.replace(/\n# Category title:[^\n]*/g, '');
+    if (entry.id.startsWith('category:')) block = block.replace(/^(#EXTINF:[^\r\n]*)/, `$1\n# Category title: ${channelCategory(entry.id)}`);
+    return block.replace(/^#EXTINF:[^\r\n]*/, line => line.replace(/\s+tvg-chno="[^"]*"/g, '').replace(/^#EXTINF:[^ ,]+/, prefix => `${prefix} tvg-chno="${assignments[entry.id]}"`)).trimEnd() + '\n';
+  }).join('');
   return { text: header + numbered, assignments };
 }
 
@@ -322,6 +326,13 @@ export function validatedAdditional(text, report, now = Date.now()) {
   return `#EXTM3U x-tvg-url="${EPG_URL}"\n` + selected.map(entry => entry.block.trimEnd() + '\n').join('');
 }
 
+export function configuredSourceCategory(entry) {
+  const key = clean(entry.name).toLowerCase().replace(/[^a-z0-9]/g, '');
+  const parent = clean(entry.parentName);
+  const generic = clean(entry.name).toLowerCase().startsWith(parent.toLowerCase() + ' ') && /^Stream \d+$/i.test(clean(entry.name).slice(parent.length).trim());
+  return primaryOverrides[entry.parentName]?.[entry.serverIndex]?.category || primaryAliases.get(key) || normalizedGroups.get(key) || (generic ? channelCategory(parent) : null) || entry.category || 'General';
+}
+
 export async function combinePlaylists(output = new URL('../site/', import.meta.url)) {
   let primary = await readFile(new URL('playlist-drm.m3u', output), 'utf8');
   let backup = '';
@@ -333,7 +344,13 @@ export async function combinePlaylists(output = new URL('../site/', import.meta.
   }
   try {
     const inventory = JSON.parse(await readFile(new URL('primary-source-catalog.json', output), 'utf8'));
-    for (const entry of inventory.entries || []) if (entry.id?.startsWith('primary-source:')) { primarySourceGroups.set(entry.id, entry.category || 'General'); primarySourceParents.set(entry.id, { parentId: primaryOverrides[entry.parentName]?.[0]?.epgId || entry.parentName, index: entry.serverIndex }); }
+    for (const entry of inventory.entries || []) if (entry.id?.startsWith('primary-source:')) {
+      entry.category = configuredSourceCategory(entry);
+      entry.categoryBasis = 'configured broad channel type; see category review';
+      primarySourceGroups.set(entry.id, entry.category || 'General');
+      primarySourceParents.set(entry.id, { parentId: primaryOverrides[entry.parentName]?.[0]?.epgId || entry.parentName, index: entry.serverIndex });
+    }
+    await writeFile(new URL('primary-source-catalog.json', output), JSON.stringify(inventory, null, 2) + '\n');
   } catch (error) { if (error.code !== 'ENOENT') throw error; }
   let validation = {};
   try { validation = JSON.parse(await readFile(new URL('backup-validation.json', output), 'utf8')); }

@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-11-07T00:26:38.097329+00:00",
+  "reviewedAt": "2026-11-07T01:21:30.174447+00:00",
   "policy": "Channel type is a fallback only when a real programme lacks genres. Retain supplied genres. No invented programmes. General/unknown produces no inferred genre. Category similarity does not establish stream or schedule identity.",
   "channels": [
     {
@@ -12,9 +12,9 @@
     {
       "channel": "3RSTV",
       "category": "General",
-      "status": "retained_existing",
+      "status": "unresolved",
       "sources": [],
-      "basis": "Existing broad classification retained; not newly independently researched in this review."
+      "basis": "Custom primary feed. Catalog movie/entertainment tags are suggestions only; the user correction to the separate additional 3RS SINEPINOY entry does not establish this feed identity."
     },
     {
       "channel": "A2Z",
@@ -62,10 +62,13 @@
     },
     {
       "channel": "Aliwko",
-      "category": "General",
-      "status": "retained_existing",
-      "sources": [],
-      "basis": "Existing broad classification retained; not newly independently researched in this review."
+      "category": "Entertainment",
+      "status": "researched",
+      "sources": [
+        "https://www.aliwkotv.com/how-to-watch",
+        "https://www.imediadistribution.com/imd-networks/aliwko"
+      ],
+      "basis": "The channel and its distributor describe Filipino dramas, movies and lifestyle programmes; the official viewing instructions place Aliwko in Entertainment."
     },
     {
       "channel": "ALLTV2",
@@ -161,9 +164,9 @@
     {
       "channel": "AVL TV",
       "category": "General",
-      "status": "retained_existing",
+      "status": "unresolved",
       "sources": [],
-      "basis": "Existing broad classification retained; not newly independently researched in this review."
+      "basis": "Catalog tags mix teleserye and teleradyo. No authoritative station description located to choose Entertainment or News."
     },
     {
       "channel": "AXN",
@@ -251,10 +254,12 @@
     },
     {
       "channel": "BS10 + more Converge Channels",
-      "category": "General",
-      "status": "retained_existing",
-      "sources": [],
-      "basis": "Existing broad classification retained; not newly independently researched in this review."
+      "category": "Entertainment",
+      "status": "researched",
+      "sources": [
+        "https://www.bs10.jp/20260520_imawoatsuku/"
+      ],
+      "basis": "BS10 itself describes a mixed schedule of sport, films, Korean drama, mahjong and quiz programmes. This applies to the default BS10 feed only, not every named alternate in this container."
     },
     {
       "channel": "Cartoon Channel PH",
@@ -335,10 +340,13 @@
     },
     {
       "channel": "CLTV36",
-      "category": "General",
-      "status": "retained_existing",
-      "sources": [],
-      "basis": "Existing broad classification retained; not newly independently researched in this review."
+      "category": "News",
+      "status": "researched",
+      "sources": [
+        "https://cltv36.tv/cltv36-bilyonaryo-news-channel-forge-strategic-partnership/",
+        "https://lausgroup.com.ph/cltv36/"
+      ],
+      "basis": "The broadcaster identifies itself as the hyper-local news authority for Central Luzon and describes news/public affairs roots. News is its broad fallback despite carrying some entertainment and public service programmes."
     },
     {
       "channel": "CNBC",
@@ -464,9 +472,9 @@
     {
       "channel": "Dream TV PH",
       "category": "General",
-      "status": "retained_existing",
+      "status": "unresolved",
       "sources": [],
-      "basis": "Existing broad classification retained; not newly independently researched in this review."
+      "basis": "Custom name; no verified operator/programming description. Catalog movie tags alone do not establish channel identity."
     },
     {
       "channel": "Dreamworks HD",
@@ -645,10 +653,12 @@
     },
     {
       "channel": "Golden TV",
-      "category": "General",
-      "status": "retained_existing",
-      "sources": [],
-      "basis": "Existing broad classification retained; not newly independently researched in this review."
+      "category": "Entertainment",
+      "status": "researched",
+      "sources": [
+        "https://getgolden.tv/"
+      ],
+      "basis": "The broadcaster describes AAPI movies, television shows, documentaries and stories. Catalog branding and the owner-hosted logo establish this GoldenTV brand; broad Entertainment does not establish a particular regional guide."
     },
     {
       "channel": "GTV",
@@ -802,9 +812,9 @@
     {
       "channel": "HypeTV",
       "category": "General",
-      "status": "retained_existing",
+      "status": "unresolved",
       "sources": [],
-      "basis": "Existing broad classification retained; not newly independently researched in this review."
+      "basis": "Several unrelated brands share this name. No verified operator/programming description linking the catalog feed to a particular one."
     },
     {
       "channel": "IBC13",
@@ -942,9 +952,11 @@
     {
       "channel": "Media Pilipinas TV",
       "category": "General",
-      "status": "retained_existing",
-      "sources": [],
-      "basis": "Existing broad classification retained; not newly independently researched in this review."
+      "status": "unresolved",
+      "sources": [
+        "https://cignal.tv/channels/250/mptv"
+      ],
+      "basis": "The official Cignal page confirms the station name but gives no accessible programming description. Catalog Lifestyle tags conflict with historic sports descriptions; current feed identity and programme mix need direct confirmation."
     },
     {
       "channel": "Metro Channel",
@@ -1058,9 +1070,11 @@
     {
       "channel": "MUX DOS",
       "category": "General",
-      "status": "retained_existing",
-      "sources": [],
-      "basis": "Existing broad classification retained; not newly independently researched in this review."
+      "status": "unresolved",
+      "sources": [
+        "https://linktr.ee/muxnews"
+      ],
+      "basis": "Custom station identified in a network social-link listing, but no authoritative accessible programming description establishes its broad format."
     },
     {
       "channel": "Mysterious Worlds",
@@ -1303,9 +1317,11 @@
     {
       "channel": "RJ Digitv",
       "category": "General",
-      "status": "retained_existing",
-      "sources": [],
-      "basis": "Existing broad classification retained; not newly independently researched in this review."
+      "status": "unresolved",
+      "sources": [
+        "https://www.rjplanet.com/"
+      ],
+      "basis": "The owner website describes the broadcasting group and older television branding, not an unambiguous current DigiTV programme mix. Music is plausible from catalog tags but should not be established from the distinct Rock MNL service."
     },
     {
       "channel": "Rock Action",
@@ -1429,9 +1445,9 @@
     {
       "channel": "Star TV Philippines",
       "category": "General",
-      "status": "retained_existing",
+      "status": "unresolved",
       "sources": [],
-      "basis": "Existing broad classification retained; not newly independently researched in this review."
+      "basis": "Custom name; no verified operator/programming description. Not equated to the unrelated international Star brand."
     },
     {
       "channel": "STARZ",
@@ -1443,9 +1459,9 @@
     {
       "channel": "STBS Global",
       "category": "General",
-      "status": "retained_existing",
+      "status": "unresolved",
       "sources": [],
-      "basis": "Existing broad classification retained; not newly independently researched in this review."
+      "basis": "Custom name; no verified operator/programming description. Catalog movie tags alone do not establish channel identity."
     },
     {
       "channel": "Studio Universal",
@@ -1750,10 +1766,12 @@
     },
     {
       "channel": "Z One",
-      "category": "General",
-      "status": "retained_existing",
-      "sources": [],
-      "basis": "Existing broad classification retained; not newly independently researched in this review."
+      "category": "Entertainment",
+      "status": "researched",
+      "sources": [
+        "https://www.zee5.com/global/collections/entertainment-channels-live/0-8-3z5754643"
+      ],
+      "basis": "The broadcaster lists Zee One under Entertainment and describes Indian family drama, reality, lifestyle and films. Catalog uses the Zee One logo. No language or regional EPG is inferred."
     },
     {
       "channel": "STBS PH",
@@ -2029,6 +2047,87 @@
       "status": "user_identity",
       "sources": [],
       "basis": "User corrected this additional stream identity; broad movie category applies only to this source entry."
+    },
+    {
+      "channel": "Deal Zone",
+      "category": "Entertainment",
+      "status": "researched",
+      "sources": [
+        "https://www.directv.com/insider/deal-zone/",
+        "https://www.sling.com/whatson/freestream/classic-reality"
+      ],
+      "basis": "Provider descriptions identify Pawn Stars, Storage Wars and American Pickers reality programming. It is not a shopping channel or a history documentary feed merely because its parent catalog container is HISTORY."
+    },
+    {
+      "channel": "Main Livestream",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [
+        "https://www.gmanetwork.com/entertainment/showbiznews/klarisse-de-guzman-ginulat-ang-pbb-20-housemates/129680/"
+      ],
+      "basis": "This catalog label belongs to the PBB Collab 3.0 container and is a reality-show camera feed. Entertainment follows that programme format; the cited broadcaster describes the PBB all-access reality livestream. No programme schedule or exact season identity is inferred."
+    },
+    {
+      "channel": "Dining Area",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [
+        "https://www.gmanetwork.com/entertainment/showbiznews/klarisse-de-guzman-ginulat-ang-pbb-20-housemates/129680/"
+      ],
+      "basis": "This catalog label belongs to the PBB Collab 3.0 container and is a reality-show camera feed. Entertainment follows that programme format; the cited broadcaster describes the PBB all-access reality livestream. No programme schedule or exact season identity is inferred."
+    },
+    {
+      "channel": "External Den",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [
+        "https://www.gmanetwork.com/entertainment/showbiznews/klarisse-de-guzman-ginulat-ang-pbb-20-housemates/129680/"
+      ],
+      "basis": "This catalog label belongs to the PBB Collab 3.0 container and is a reality-show camera feed. Entertainment follows that programme format; the cited broadcaster describes the PBB all-access reality livestream. No programme schedule or exact season identity is inferred."
+    },
+    {
+      "channel": "MUX WORLD",
+      "category": "General",
+      "status": "unresolved",
+      "sources": [],
+      "basis": "World in a custom source label does not establish News, Music or Entertainment. No verified operator/programming description found."
+    },
+    {
+      "channel": "Phoenix Television",
+      "category": "General",
+      "status": "unresolved",
+      "sources": [
+        "https://phtv.ifeng.com/english.shtml"
+      ],
+      "basis": "The corporate identity covers distinct news, movies and general entertainment channels. The generic source label/logo does not identify which Phoenix service this feed carries."
     }
-  ]
+  ],
+  "generalCategoryResearch": {
+    "policy": "Research broad channel type using broadcaster/provider descriptions; keep custom or ambiguous identities General. Source catalog tags alone are not independent verification. These classifications never establish EPG identity.",
+    "correctedNames": [
+      "Aliwko",
+      "BS10 + more Converge Channels",
+      "CLTV36",
+      "Deal Zone",
+      "Golden TV",
+      "Z One",
+      "Main Livestream",
+      "Dining Area",
+      "External Den"
+    ],
+    "remainingUnresolvedNames": [
+      "3RSTV",
+      "AVL TV",
+      "Dream TV PH",
+      "HypeTV",
+      "Media Pilipinas TV",
+      "MUX DOS",
+      "MUX WORLD",
+      "Phoenix Television",
+      "RJ Digitv",
+      "Star TV Philippines",
+      "STBS Global"
+    ],
+    "scope": "All General labels in the current published working playlist; synthetic category titles excluded. Generic CLTV36 Stream 2 inherits the corrected CLTV36 type; duplicate additional labels use the same broad station category."
+  }
 }

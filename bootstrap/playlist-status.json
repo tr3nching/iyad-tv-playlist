@@ -1,20 +1,21 @@
 {
-  "assembledAt": "2026-11-07T01:14:00.943Z",
-  "entryCount": 495,
+  "assembledAt": "2026-11-07T01:23:11.879Z",
+  "entryCount": 507,
+  "categoryHeaderCount": 12,
   "primaryEntryCount": 484,
   "alternateEntryCount": 11,
   "categories": {
-    "Entertainment": 87,
-    "Movies": 70,
-    "Sports": 99,
-    "News": 42,
-    "Kids": 43,
-    "Anime": 19,
-    "Documentaries": 40,
-    "Music": 26,
-    "Lifestyle": 26,
-    "Faith": 15,
-    "Education": 4,
-    "General": 24
+    "Entertainment": 96,
+    "Movies": 71,
+    "Sports": 100,
+    "News": 46,
+    "Kids": 44,
+    "Anime": 20,
+    "Documentaries": 41,
+    "Music": 27,
+    "Lifestyle": 27,
+    "Faith": 16,
+    "Education": 5,
+    "General": 14
   }
 }
