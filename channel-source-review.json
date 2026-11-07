@@ -508,5 +508,336 @@
       "reported_utc": "2026-11-07T07:46:04.316483+00:00",
       "note": "User confirmed playback after GitHub ffprobe returned HTTP 403."
     }
+  ],
+  "repeat_samples": [
+    {
+      "checked_utc": "2026-11-07T16:25:00.923437+00:00",
+      "scope": "Two short video samples on the local network; resolution options seen in tool output may not be the selected adaptive quality. A failure here does not prove failure on TV.",
+      "streams": [
+        {
+          "channel": "A2Z",
+          "id": "A2Z",
+          "frames": 2,
+          "resolutions": [
+            "320x240",
+            "720x576"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "A2Z Stream 2",
+          "id": "primary-source:a2z:1",
+          "frames": 0,
+          "resolutions": [],
+          "result": "HTTP 403"
+        },
+        {
+          "channel": "ALLTV2",
+          "id": "ALLTV2",
+          "frames": 2,
+          "resolutions": [
+            "1920x1080"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "ALLTV2 Stream 2",
+          "id": "primary-source:alltv2:1",
+          "frames": 2,
+          "resolutions": [
+            "1920x1080",
+            "640x360"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "GMA",
+          "id": "GMA",
+          "frames": 2,
+          "resolutions": [
+            "720x576"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "GMA Stream 2",
+          "id": "primary-source:gma:1",
+          "frames": 2,
+          "resolutions": [
+            "320x240",
+            "720x576"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "GTV",
+          "id": "GTV",
+          "frames": 2,
+          "resolutions": [
+            "720x576"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "GTV Stream 2",
+          "id": "primary-source:gtv:1",
+          "frames": 2,
+          "resolutions": [
+            "320x240",
+            "720x576"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "IBC13",
+          "id": "IBC13",
+          "frames": 0,
+          "resolutions": [],
+          "result": "HTTP 403"
+        },
+        {
+          "channel": "IBC13 Stream 2",
+          "id": "primary-source:ibc13:1",
+          "frames": 2,
+          "resolutions": [
+            "320x240",
+            "720x576"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "Jeepney TV",
+          "id": "Jeepney TV",
+          "frames": 0,
+          "resolutions": [],
+          "result": "HTTP 404"
+        },
+        {
+          "channel": "Jeepney TV Stream 2",
+          "id": "primary-source:jeepneytv:1",
+          "frames": 2,
+          "resolutions": [
+            "320x240",
+            "720x576"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "Kapamilya Channel HD",
+          "id": "Kapamilya Channel HD",
+          "frames": 2,
+          "resolutions": [
+            "1920x1080"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "Kapamilya Channel HD Stream 2",
+          "id": "primary-source:kapamilyachannelhd:1",
+          "frames": 2,
+          "resolutions": [
+            "1920x1080",
+            "640x360"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "Net25",
+          "id": "Net25",
+          "frames": 2,
+          "resolutions": [
+            "720x576"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "Net25 Stream 2",
+          "id": "primary-source:net25:1",
+          "frames": 2,
+          "resolutions": [
+            "320x240",
+            "720x576"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "TFC Asia",
+          "id": "TFC Asia",
+          "frames": 2,
+          "resolutions": [
+            "1280x720",
+            "1920x1080",
+            "640x360"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "TFC Asia Stream 2",
+          "id": "primary-source:tfcasia:1",
+          "frames": 2,
+          "resolutions": [
+            "1280x720"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "TV5",
+          "id": "TV5",
+          "frames": 0,
+          "resolutions": [],
+          "result": "HTTP 403"
+        },
+        {
+          "channel": "TV5 Stream 2",
+          "id": "primary-source:tv5:1",
+          "frames": 2,
+          "resolutions": [
+            "1920x1080",
+            "640x360"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "3RS MOVIE",
+          "id": "additional:3rsmovie:c9ec2881f7b9",
+          "frames": 2,
+          "resolutions": [
+            "1330x720"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "3RS SinePinoy",
+          "id": "primary-source:3rstv:1",
+          "frames": 2,
+          "resolutions": [
+            "1280x720"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "3RS SINEPINOY *",
+          "id": "additional:3rstv:f6519c3696a9",
+          "frames": 2,
+          "resolutions": [
+            "1280x720"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "CineMo!",
+          "id": "CineMo!",
+          "frames": 2,
+          "resolutions": [
+            "1280x720",
+            "1920x1080",
+            "640x360"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "CineMo! Stream 2",
+          "id": "primary-source:cinemo:1",
+          "frames": 2,
+          "resolutions": [
+            "1280x720",
+            "1920x1080",
+            "640x360"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "CineMo! PH Stream 2",
+          "id": "primary-source:cinemo:4",
+          "frames": 2,
+          "resolutions": [
+            "320x240",
+            "720x576"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "CLTV36",
+          "id": "CLTV36",
+          "frames": 0,
+          "resolutions": [],
+          "result": "HTTP 404"
+        },
+        {
+          "channel": "CLTV36 Stream 2",
+          "id": "primary-source:cltv36:1",
+          "frames": 2,
+          "resolutions": [
+            "320x240",
+            "720x576"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "CLTV36 *",
+          "id": "additional:cltv36:2fa1c383918d",
+          "frames": 0,
+          "resolutions": [],
+          "result": "HTTP 404"
+        },
+        {
+          "channel": "SMNI News Channel",
+          "id": "SMNI News Channel",
+          "frames": 2,
+          "resolutions": [
+            "1280x720"
+          ],
+          "result": "played"
+        },
+        {
+          "channel": "SMNI News Channel Stream 2",
+          "id": "primary-source:smninewschannel:1",
+          "frames": 2,
+          "resolutions": [
+            "320x240",
+            "720x576"
+          ],
+          "result": "played"
+        }
+      ],
+      "paired_observations": [
+        {
+          "channel": "GMA",
+          "observation": "Both sources showed the same station screen in this pass; a prior pass showed the same program. Both advertised up to 720x576."
+        },
+        {
+          "channel": "GTV",
+          "observation": "Both sources showed the same station screen in this pass; a prior pass showed the same program. Both advertised up to 720x576."
+        },
+        {
+          "channel": "Net25",
+          "observation": "Both showed the same presenter at the sampling instant; both advertised up to 720x576."
+        },
+        {
+          "channel": "ALLTV2",
+          "observation": "Both showed the same station screen; an earlier pass showed the same program. Both offered 1080p."
+        },
+        {
+          "channel": "Kapamilya Channel HD",
+          "observation": "Both showed the same scene in this pass and offered 1080p. Previous samples differed at the sampled instant; continued verification is appropriate."
+        },
+        {
+          "channel": "TFC Asia",
+          "observation": "Both showed the same program in this pass. The main offered 1080p and Stream 2 offered 720p; previous samples differed at the sampled instant."
+        },
+        {
+          "channel": "3RS SinePinoy",
+          "observation": "Both showed the same scene and currently use the exact same playback URL. They are not independent links."
+        },
+        {
+          "channel": "CineMo!",
+          "observation": "Both had the same station logo and both advertised up to 1080p; one earlier pass showed the same program. Current samples alone do not establish synchronization."
+        },
+        {
+          "channel": "SMNI News Channel",
+          "observation": "Both showed the same station branding with different scenes at the sampled instant; earlier samples matched. Main advertised 720p, Stream 2 up to 720x576."
+        }
+      ]
+    }
   ]
 }
