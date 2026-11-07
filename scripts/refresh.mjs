@@ -11,6 +11,7 @@ const sourceOverrides = JSON.parse(await readFile(new URL('../source-channel-ove
 const primaryOverrides = JSON.parse(await readFile(new URL('../primary-source-overrides.json', import.meta.url), 'utf8'));
 const primaryAliases = new Map(Object.entries(JSON.parse(await readFile(new URL('../primary-source-category-aliases.json', import.meta.url), 'utf8')).aliases).map(([name, group]) => [name.toLowerCase().replace(/[^a-z0-9]/g, ''), group]));
 const primarySourceGroups = new Map();
+const primarySourceParents = new Map();
 const normalizedGroups = new Map(Object.entries(channelGroups).map(([name, group]) => [name.toLowerCase().replace(/[^a-z0-9]/g, ''), group]));
 const headers = {
   Origin: 'https://iyad.click',
@@ -37,7 +38,7 @@ export function primarySourceJobs(catalog) {
       const epgId = index === 0 ? override.epgId || name : `primary-source:${norm(channel.name)}:${index}`;
       const categoryBasis = override.category ? 'source-specific override' : explicit ? 'configured broad channel type; see category review' : family ? 'broad branded channel family' : generic ? 'parent broad type for generic source label; not schedule identity' : index === 0 ? 'existing primary category' : 'unresolved named source';
       const job = { id: epgId, epgId, parentName: channel.name, serverIndex: index, name, logo: override.logo || (index > 0 ? channel[`alt_logo${suffix}`] : channel.logo) || channel.logo || '', category, group: category, categoryBasis, regionalEvidence: override.regionalEvidence, enabled: true };
-      if (index > 0) primarySourceGroups.set(epgId, category);
+      if (index > 0) { primarySourceGroups.set(epgId, category); primarySourceParents.set(epgId, { parentId: primaryOverrides[channel.name]?.[0]?.epgId || channel.name, index }); }
       jobs.push(job);
     }
   }
@@ -106,7 +107,8 @@ export function categorizePlaylist(text) {
 
 function playlistEntries(text) {
   return text.split(/(?=^#EXTINF:)/m).slice(1).map(block => {
-    const id = block.match(/\btvg-id="([^"]*)"/)?.[1] || '';
+    const encoded = block.match(/\btvg-id="([^"]*)"/)?.[1] || '';
+    const id = encoded.replace(/&(amp|quot|lt|gt);/g, (_, key) => ({ amp: '&', quot: '"', lt: '<', gt: '>' }[key]));
     const url = block.split(/\r?\n/).find(line => /^https?:\/\//.test(line));
     return { id, url, block };
   });
@@ -140,15 +142,38 @@ const compareNames = (a, b) => sourceName(entryName(a)).localeCompare(sourceName
 export function numberPlaylist(text) {
   const assignments = Object.create(null);
   const entries = playlistEntries(text).sort((a, b) => categoryNumbers[channelCategory(a.id)] - categoryNumbers[channelCategory(b.id)] || compareNames(a, b));
-  const next = { ...categoryNumbers };
-  const groupCounts = {};
-  for (const entry of entries) { const group = channelCategory(entry.id); groupCounts[group] = (groupCounts[group] || 0) + 1; }
+  const present = new Set(entries.map(entry => entry.id));
+  const parents = new Map();
   for (const entry of entries) {
-    if (Object.hasOwn(assignments, entry.id)) continue;
-    const category = channelCategory(entry.id);
-    const offset = next[category]++ - categoryNumbers[category];
-    // TVirl accepts decimal subchannels; large groups stay inside their category block.
-    assignments[entry.id] = groupCounts[category] > 100 ? `${categoryNumbers[category]}.${String(offset + 1).padStart(3, '0')}` : categoryNumbers[category] + offset;
+    const source = primarySourceParents.get(entry.id);
+    if (source && present.has(source.parentId)) parents.set(entry.id, source);
+  }
+  // A verified additional duplicate shares its matching source family's major number.
+  const primary = entries.filter(entry => !entry.id.startsWith('additional:'));
+  for (const entry of entries.filter(entry => entry.id.startsWith('additional:'))) {
+    const matches = primary.filter(other => other.url === entry.url);
+    const names = primary.filter(other => nameKey(entryName(other)) === nameKey(entryName(entry)));
+    const match = (matches.length ? matches : names).sort((a,b) => Number(parents.has(a.id))-Number(parents.has(b.id)) || a.id.localeCompare(b.id))[0];
+    if (match) parents.set(entry.id, { parentId: parents.get(match.id)?.parentId || match.id });
+  }
+  let lastMajor = 0;
+  for (const entry of entries.filter(entry => !parents.has(entry.id))) {
+    if (Object.hasOwn(assignments,entry.id)) continue;
+    const major = Math.max(categoryNumbers[channelCategory(entry.id)], lastMajor + 1);
+    assignments[entry.id] = major; lastMajor = major;
+  }
+  const used = new Map();
+  for (const [id, source] of parents) {
+    if (!source.index) continue;
+    if (!used.has(source.parentId)) used.set(source.parentId, new Set());
+    used.get(source.parentId).add(source.index);
+    assignments[id] = `${assignments[source.parentId]}.${String(source.index).padStart(3,'0')}`;
+  }
+  for (const [id, source] of parents) {
+    if (source.index) continue;
+    if (!used.has(source.parentId)) used.set(source.parentId, new Set());
+    const slots=used.get(source.parentId);let index=Math.max(0,...slots)+1;slots.add(index);
+    assignments[id] = `${assignments[source.parentId]}.${String(index).padStart(3,'0')}`;
   }
   const header = text.split(/(?=^#EXTINF:)/m)[0];
   const numbered = entries.map(entry => entry.block.replace(/^#EXTINF:[^\r\n]*/, line => line.replace(/\s+tvg-chno="[^"]*"/g, '').replace(/^#EXTINF:[^ ,]+/, prefix => `${prefix} tvg-chno="${assignments[entry.id]}"`)).trimEnd() + '\n').join('');
@@ -299,7 +324,7 @@ export async function combinePlaylists(output = new URL('../site/', import.meta.
   }
   try {
     const inventory = JSON.parse(await readFile(new URL('primary-source-catalog.json', output), 'utf8'));
-    for (const entry of inventory.entries || []) if (entry.id?.startsWith('primary-source:')) primarySourceGroups.set(entry.id, entry.category || 'General');
+    for (const entry of inventory.entries || []) if (entry.id?.startsWith('primary-source:')) { primarySourceGroups.set(entry.id, entry.category || 'General'); primarySourceParents.set(entry.id, { parentId: primaryOverrides[entry.parentName]?.[0]?.epgId || entry.parentName, index: entry.serverIndex }); }
   } catch (error) { if (error.code !== 'ENOENT') throw error; }
   let validation = {};
   try { validation = JSON.parse(await readFile(new URL('backup-validation.json', output), 'utf8')); }

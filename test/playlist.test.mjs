@@ -211,12 +211,33 @@ test('alternate playback requests use the original container name and actual sou
   assert.equal(row.epgId,job.epgId);assert.equal(row.name,'Different Channel');
 });
 
-test('large categories retain alphabetical order using supported subchannel numbers', () => {
+test('large categories retain unique whole numbers and alphabetical order', () => {
   const rows=Array.from({length:105},(_,i)=>({name:`NBA TV ${104-i}`,epgId:`additional:nbatv:${104-i}`,url:`https://example.com/${i}.m3u8`}));
   const output=numberPlaylist(playlist(rows)).text;
   const numbers=[...output.matchAll(/tvg-chno="([^"]*)"/g)].map(match=>Number(match[1]));
   assert.equal(new Set(numbers).size,105);
-  assert.ok(numbers.every(number=>number>=300&&number<400));
+  assert.ok(numbers.every(Number.isInteger));
   assert.deepEqual(numbers,[...numbers].sort((a,b)=>a-b));
   assert.ok(output.indexOf('tvg-name="NBA TV 2"')<output.indexOf('tvg-name="NBA TV 10"'));
+});
+
+
+test('source alternates use their base major number and padded actual source index', () => {
+  const jobs=primarySourceJobs([{name:'SYFY',alt_name:'Stream 2',alt_name2:'Different Channel'}]);
+  const rows=jobs.map((job,index)=>({...job,url:`https://example.com/${index}.m3u8`}));
+  rows.push({name:'Sci Fi *',epgId:'additional:scifitest',url:rows[0].url});
+  const {assignments}=numberPlaylist(playlist(rows));
+  const major=assignments['Sci Fi'];
+  assert.equal(assignments['primary-source:syfy:1'],`${major}.001`);
+  assert.equal(assignments['primary-source:syfy:2'],`${major}.002`);
+  assert.equal(assignments['additional:scifitest'],`${major}.003`);
+  assert.equal(new Set(Object.values(assignments)).size,4);
+});
+
+
+test('source numbering handles escaped base channel identities', () => {
+  const jobs=primarySourceJobs([{name:'R&B Test',alt_name:'Stream 2'}]);
+  const rows=jobs.map((job,index)=>({...job,url:`https://example.com/escaped-${index}.m3u8`}));
+  const {assignments}=numberPlaylist(playlist(rows));
+  assert.equal(assignments['primary-source:rbtest:1'],`${assignments['R&B Test']}.001`);
 });
