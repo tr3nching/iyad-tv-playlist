@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T00:43:09.230Z",
+  "updatedAt": "2026-11-07T06:38:08.242Z",
   "catalogSource": "live",
   "entries": [
     {
@@ -376,7 +376,7 @@
       "parentName": "BS10 + more Converge Channels",
       "serverIndex": 7,
       "name": "Phoenix Television",
-      "category": "General",
+      "category": "Documentaries",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -1285,7 +1285,7 @@
       "parentName": "MUX DOS",
       "serverIndex": 4,
       "name": "MUX WORLD",
-      "category": "General",
+      "category": "Entertainment",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
