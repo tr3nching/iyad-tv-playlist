@@ -115,7 +115,7 @@ function playlistEntries(text) {
   });
 }
 
-const categoryOrder = ['Entertainment', 'Movies', 'Sports', 'News', 'Kids', 'Anime', 'Documentaries', 'Music', 'Lifestyle', 'Faith', 'Education', 'General'];
+const categoryOrder = ['Entertainment', 'Movies', 'Sports', 'Lifestyle', 'Documentaries', 'Education', 'News', 'Kids', 'Anime', 'Faith', 'Music', 'General'];
 
 export function orderPlaylist(text) {
   const header = text.split(/(?=^#EXTINF:)/m)[0];
@@ -128,7 +128,7 @@ export function orderPlaylist(text) {
   return header + entries.map(entry => entry.block.trimEnd() + '\n').join('');
 }
 
-export const categoryNumbers = Object.freeze({ Entertainment: 100, Movies: 200, Sports: 300, News: 400, Kids: 500, Anime: 600, Documentaries: 700, Music: 800, Lifestyle: 900, Faith: 1000, Education: 1100, General: 1200 });
+export const categoryNumbers = Object.freeze({ Entertainment: 100, Movies: 200, Sports: 300, Lifestyle: 400, Documentaries: 500, Education: 600, News: 700, Kids: 800, Anime: 900, Faith: 1000, Music: 1100, General: 1200 });
 
 function entryName(entry) {
   const line = entry.block.split('\n')[0];
@@ -160,8 +160,8 @@ export function numberPlaylist(text) {
   // A verified additional duplicate shares its matching source family's major number.
   const primary = entries.filter(entry => !entry.id.startsWith('additional:'));
   for (const entry of entries.filter(entry => entry.id.startsWith('additional:'))) {
-    const matches = primary.filter(other => other.url === entry.url);
-    const names = primary.filter(other => nameKey(entryName(other)) === nameKey(entryName(entry)));
+    const matches = primary.filter(other => channelCategory(other.id) === channelCategory(entry.id) && other.url === entry.url);
+    const names = primary.filter(other => channelCategory(other.id) === channelCategory(entry.id) && nameKey(entryName(other)) === nameKey(entryName(entry)));
     const match = (matches.length ? matches : names).sort((a,b) => Number(parents.has(a.id))-Number(parents.has(b.id)) || a.id.localeCompare(b.id))[0];
     if (match) parents.set(entry.id, { parentId: parents.get(match.id)?.parentId || match.id });
   }

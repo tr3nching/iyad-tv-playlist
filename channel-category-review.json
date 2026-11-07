@@ -11,10 +11,10 @@
     },
     {
       "channel": "3RSTV",
-      "category": "General",
-      "status": "unresolved",
+      "category": "Movies",
+      "status": "user_selected",
       "sources": [],
-      "basis": "Custom primary feed. Catalog movie/entertainment tags are suggestions only; the user correction to the separate additional 3RS SINEPINOY entry does not establish this feed identity."
+      "basis": "Category selected by the user; it does not establish guide identity."
     },
     {
       "channel": "A2Z",
@@ -471,10 +471,10 @@
     },
     {
       "channel": "Dream TV PH",
-      "category": "General",
-      "status": "unresolved",
+      "category": "Entertainment",
+      "status": "user_selected",
       "sources": [],
-      "basis": "Custom name; no verified operator/programming description. Catalog movie tags alone do not establish channel identity."
+      "basis": "Category selected by the user; it does not establish guide identity."
     },
     {
       "channel": "Dreamworks HD",
@@ -811,10 +811,10 @@
     },
     {
       "channel": "HypeTV",
-      "category": "General",
-      "status": "unresolved",
+      "category": "Movies",
+      "status": "user_selected",
       "sources": [],
-      "basis": "Several unrelated brands share this name. No verified operator/programming description linking the catalog feed to a particular one."
+      "basis": "Category selected by the user; it does not establish guide identity."
     },
     {
       "channel": "IBC13",
@@ -951,12 +951,12 @@
     },
     {
       "channel": "Media Pilipinas TV",
-      "category": "General",
-      "status": "unresolved",
+      "category": "Entertainment",
+      "status": "user_selected",
       "sources": [
         "https://cignal.tv/channels/250/mptv"
       ],
-      "basis": "The official Cignal page confirms the station name but gives no accessible programming description. Catalog Lifestyle tags conflict with historic sports descriptions; current feed identity and programme mix need direct confirmation."
+      "basis": "Category selected by the user; it does not establish guide identity."
     },
     {
       "channel": "Metro Channel",
@@ -1069,12 +1069,12 @@
     },
     {
       "channel": "MUX DOS",
-      "category": "General",
-      "status": "unresolved",
+      "category": "Lifestyle",
+      "status": "user_selected",
       "sources": [
         "https://linktr.ee/muxnews"
       ],
-      "basis": "Custom station identified in a network social-link listing, but no authoritative accessible programming description establishes its broad format."
+      "basis": "Category selected by the user; it does not establish guide identity."
     },
     {
       "channel": "Mysterious Worlds",
@@ -1316,12 +1316,12 @@
     },
     {
       "channel": "RJ Digitv",
-      "category": "General",
-      "status": "unresolved",
+      "category": "Music",
+      "status": "user_selected",
       "sources": [
         "https://www.rjplanet.com/"
       ],
-      "basis": "The owner website describes the broadcasting group and older television branding, not an unambiguous current DigiTV programme mix. Music is plausible from catalog tags but should not be established from the distinct Rock MNL service."
+      "basis": "Category selected by the user; it does not establish guide identity."
     },
     {
       "channel": "Rock Action",
@@ -1396,23 +1396,23 @@
     {
       "channel": "Sony Movies",
       "category": "Movies",
-      "status": "retained_existing",
+      "status": "user_selected",
       "sources": [],
-      "basis": "Existing broad classification retained; not newly independently researched in this review."
+      "basis": "Category selected by the user; it does not establish guide identity."
     },
     {
       "channel": "Sony One Action Hits",
-      "category": "Entertainment",
-      "status": "retained_existing",
+      "category": "Movies",
+      "status": "user_selected",
       "sources": [],
-      "basis": "Existing broad classification retained; not newly independently researched in this review."
+      "basis": "Category selected by the user; it does not establish guide identity."
     },
     {
       "channel": "Sony Pix",
       "category": "Movies",
-      "status": "retained_existing",
+      "status": "user_selected",
       "sources": [],
-      "basis": "Existing broad classification retained; not newly independently researched in this review."
+      "basis": "Category selected by the user; it does not establish guide identity."
     },
     {
       "channel": "Spotlight TV",
@@ -1444,10 +1444,10 @@
     },
     {
       "channel": "Star TV Philippines",
-      "category": "General",
-      "status": "unresolved",
+      "category": "Movies",
+      "status": "user_selected",
       "sources": [],
-      "basis": "Custom name; no verified operator/programming description. Not equated to the unrelated international Star brand."
+      "basis": "Category selected by the user; it does not establish guide identity."
     },
     {
       "channel": "STARZ",
@@ -1458,10 +1458,10 @@
     },
     {
       "channel": "STBS Global",
-      "category": "General",
-      "status": "unresolved",
+      "category": "Movies",
+      "status": "user_selected",
       "sources": [],
-      "basis": "Custom name; no verified operator/programming description. Catalog movie tags alone do not establish channel identity."
+      "basis": "Category selected by the user; it does not establish guide identity."
     },
     {
       "channel": "Studio Universal",
@@ -2087,19 +2087,19 @@
     },
     {
       "channel": "MUX WORLD",
-      "category": "General",
-      "status": "unresolved",
+      "category": "Entertainment",
+      "status": "user_selected",
       "sources": [],
-      "basis": "World in a custom source label does not establish News, Music or Entertainment. No verified operator/programming description found."
+      "basis": "Category selected by the user; it does not establish guide identity."
     },
     {
       "channel": "Phoenix Television",
-      "category": "General",
-      "status": "unresolved",
+      "category": "Documentaries",
+      "status": "user_selected",
       "sources": [
         "https://phtv.ifeng.com/english.shtml"
       ],
-      "basis": "The corporate identity covers distinct news, movies and general entertainment channels. The generic source label/logo does not identify which Phoenix service this feed carries."
+      "basis": "Category selected by the user; it does not establish guide identity."
     }
   ],
   "generalCategoryResearch": {
@@ -2116,17 +2116,7 @@
       "External Den"
     ],
     "remainingUnresolvedNames": [
-      "3RSTV",
-      "AVL TV",
-      "Dream TV PH",
-      "HypeTV",
-      "Media Pilipinas TV",
-      "MUX DOS",
-      "MUX WORLD",
-      "Phoenix Television",
-      "RJ Digitv",
-      "Star TV Philippines",
-      "STBS Global"
+      "AVL TV"
     ],
     "scope": "All General labels in the current published working playlist; synthetic category titles excluded. Generic CLTV36 Stream 2 inherits the corrected CLTV36 type; duplicate additional labels use the same broad station category."
   }

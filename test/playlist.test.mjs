@@ -185,7 +185,7 @@ test('source rename and movie category apply only to the additional 3RS identity
   assert.ok(renamed.includes(',3RS SINEPINOY\n'));
   assert.ok(renamed.includes(`tvg-id="${id}"`));
   assert.ok(primary.includes(',3RSTV\n'));
-  assert.equal(channelCategory('3RSTV'),'General');
+  assert.equal(channelCategory('3RSTV'),'Movies');
   assert.equal(channelCategory(id),'Movies');
 });
 
@@ -225,12 +225,12 @@ test('large categories retain unique whole numbers and alphabetical order', () =
 test('source alternates use their base major number and padded actual source index', () => {
   const jobs=primarySourceJobs([{name:'SYFY',alt_name:'Stream 2',alt_name2:'Stream 3'}]);
   const rows=jobs.map((job,index)=>({...job,url:`https://example.com/${index}.m3u8`}));
-  rows.push({name:'Sci Fi *',epgId:'additional:scifitest',url:rows[0].url});
+  rows.push({name:'Sci Fi *',epgId:'additional:scifi:fixture',url:rows[0].url});
   const {assignments}=numberPlaylist(playlist(rows));
   const major=assignments['Sci Fi'];
   assert.equal(assignments['primary-source:syfy:1'],`${major}.001`);
   assert.equal(assignments['primary-source:syfy:2'],`${major}.002`);
-  assert.equal(assignments['additional:scifitest'],`${major}.003`);
+  assert.equal(assignments['additional:scifi:fixture'],`${major}.003`);
   assert.equal(new Set(Object.values(assignments)).size,4);
 });
 
@@ -260,7 +260,7 @@ test('a named source of a different channel type keeps its own category number',
  const rows=jobs.map((job,index)=>({...job,url:`https://example.com/different-type-${index}.m3u8`}));
  const {assignments}=numberPlaylist(playlist(rows));
  assert.ok(Number.isInteger(assignments['primary-source:fixtureparent:1']));
- assert.ok(assignments['primary-source:fixtureparent:1']>=500&&assignments['primary-source:fixtureparent:1']<600);
+ assert.ok(assignments['primary-source:fixtureparent:1']>=800&&assignments['primary-source:fixtureparent:1']<900);
 });
 
 
@@ -268,4 +268,23 @@ test('cached generic sources inherit corrected broad categories without relabeli
  assert.equal(configuredSourceCategory({name:'NBA TV Stream 2',parentName:'NBA TV',category:'General'}),'Sports');
  assert.equal(configuredSourceCategory({name:'Unknown Station',parentName:'NBA TV',category:'General'}),'General');
  assert.equal(configuredSourceCategory({name:'ABC Kids',parentName:'NBA TV',category:'General'}),'Kids');
+});
+
+
+test('requested categories persist for named and generic alternate streams', () => {
+  const jobs=primarySourceJobs([{name:'MUX DOS',alt_name:'MUX WORLD',alt_name2:'Stream 3'}, {name:'Sony Channel',alt_name:'Sony Movies Stream 2'}, {name:'BS10 + more Converge Channels',alt_name:'Phoenix Television'}]);
+  assert.deepEqual(jobs.map(j=>j.category),['Lifestyle','Entertainment','Lifestyle','Movies','Movies','Entertainment','Documentaries']);
+  for (const job of jobs.filter(j=>j.serverIndex)) assert.equal(configuredSourceCategory({...job,category:'General'}),job.category);
+  for (const name of ['3RSTV','Star TV Philippines','STBS Global','HypeTV','Sony One Action Hits']) assert.equal(channelCategory(name),'Movies');
+  assert.equal(channelCategory('Dream TV PH'),'Entertainment');
+  assert.equal(channelCategory('Media Pilipinas TV'),'Entertainment');
+  assert.equal(channelCategory('RJ Digitv'),'Music');
+});
+
+test('category headers use requested channel numbers and order', () => {
+  const names=['Entertainment','Movies','Sports','Lifestyle','Documentaries','Education','News','Kids','Anime','Faith','Music','General'];
+  const rows=names.map(name=>({name,epgId:`category:${name}`,url:'https://example.com/title.m3u8'})).reverse();
+  const result=numberPlaylist(playlist(rows));
+  assert.deepEqual(names.map(name=>result.assignments[`category:${name}`]),names.map((_,i)=>(i+1)*100));
+  assert.deepEqual([...result.text.matchAll(/tvg-id="category:([^"]+)"/g)].map(m=>m[1]),names);
 });
