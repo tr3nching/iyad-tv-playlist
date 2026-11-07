@@ -31,3 +31,5 @@ site/backup-validation.json
 site/channel-sources.json
 
 site/local-playback-state.json
+
+site/host-playback-health.json

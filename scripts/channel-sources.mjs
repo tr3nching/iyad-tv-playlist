@@ -1,4 +1,5 @@
 import { readFile, writeFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 
 const decode = value => value.replace(/&(amp|quot|lt|gt);/g, (_, key) => ({amp:'&',quot:'"',lt:'<',gt:'>'}[key]));
 const attr = (line, name) => decode(line.match(new RegExp(`\\b${name}="([^"]*)"`))?.[1] || '');
@@ -18,7 +19,9 @@ export function buildSourceInventory(playlist, inventory = {}, mappings = []) {
     const url = block.split(/\r?\n/).find(row => /^https?:\/\//.test(row));
     if (!url) continue;
     const source = sources.get(id);
-    const entry = {name, number: attr(line, 'tvg-chno'), category: attr(line, 'group-title'),
+    const healthKind = id.startsWith('additional:') ? 'additional' : 'primary';
+    const healthId = createHash('sha256').update(`${healthKind}\0${id}\0${url}`).digest('hex');
+    const entry = {healthId, name, number: attr(line, 'tvg-chno'), category: attr(line, 'group-title'),
       kind: id.startsWith('additional:') ? 'additional' : source ? 'alternate' : 'primary',
       ...(source ? {listedUnder: source.parentName, sourceSlot: source.serverIndex} : {}),
       guide: guides.has(id) ? guides.get(id) : null, sameLink: false};

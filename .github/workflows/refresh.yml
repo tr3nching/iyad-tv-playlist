@@ -36,6 +36,7 @@ jobs:
           python3 scripts/test_check_streams.py
           python3 scripts/test_validate_additional.py
           python3 scripts/test_check_local_playback.py
+          python3 scripts/test_check_host_playback.py
       - name: Restore current assets or checked snapshot
         env:
           PUBLISH_SNAPSHOT: ${{ github.event_name == 'push' && startsWith(github.event.head_commit.message, 'Publish playlist snapshot') }}
@@ -50,6 +51,11 @@ jobs:
       - name: Report channel reachability
         continue-on-error: true
         run: python3 scripts/check_streams.py --out site
+      - name: Check streams from the publishing host
+        continue-on-error: true
+        run: |
+          if ! command -v ffprobe >/dev/null; then sudo apt-get update -qq && sudo apt-get install -y ffmpeg; fi
+          python3 scripts/check_host_playback.py --out site
       - name: Build program guide
         id: guide
         continue-on-error: true
