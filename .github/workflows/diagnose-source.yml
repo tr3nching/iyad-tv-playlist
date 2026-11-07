@@ -5,7 +5,11 @@ permissions:
   contents: read
 jobs:
   diagnose:
-    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
@@ -14,3 +18,11 @@ jobs:
           node-version: '22'
       - name: Compare public request styles
         run: node scripts/diagnose-source.mjs
+      - name: Install browser for comparison
+        if: runner.os == 'Linux'
+        run: |
+          npm install --no-save --package-lock=false playwright
+          npx playwright install --with-deps chromium
+      - name: Compare real website browser requests
+        if: runner.os == 'Linux'
+        run: node scripts/diagnose-browser.cjs
