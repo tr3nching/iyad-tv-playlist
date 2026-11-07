@@ -1,0 +1,16 @@
+{
+  "SYFY": {
+    "0": {
+      "name": "Sci Fi",
+      "epgId": "Sci Fi",
+      "category": "Entertainment",
+      "basis": "User-confirmed default source name; regional guide not established."
+    },
+    "1": {
+      "name": "SyFy 2",
+      "category": "Entertainment",
+      "regionalEvidence": "US station identifier in source route",
+      "basis": "User-confirmed alternate source name."
+    }
+  }
+}

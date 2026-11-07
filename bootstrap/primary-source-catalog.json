@@ -1,0 +1,2149 @@
+{
+  "updatedAt": "2026-11-07T00:43:09.230Z",
+  "catalogSource": "live",
+  "entries": [
+    {
+      "id": "primary-source:3rstv:1",
+      "parentName": "3RSTV",
+      "serverIndex": 1,
+      "name": "3RS SinePinoy",
+      "category": "Movies",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:tv5:1",
+      "parentName": "TV5",
+      "serverIndex": 1,
+      "name": "TV5 Stream 2",
+      "category": "Entertainment",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:tv5:3",
+      "parentName": "TV5",
+      "serverIndex": 3,
+      "name": "Kapatid Channel",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:tv5:4",
+      "parentName": "TV5",
+      "serverIndex": 4,
+      "name": "Kapatid Live",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:a2z:1",
+      "parentName": "A2Z",
+      "serverIndex": 1,
+      "name": "A2Z Stream 2",
+      "category": "Entertainment",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:abanteradyo:1",
+      "parentName": "Abante Radyo",
+      "serverIndex": 1,
+      "name": "Abante Radyo Stream 2",
+      "category": "News",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:abcaustralia:2",
+      "parentName": "ABC Australia",
+      "serverIndex": 2,
+      "name": "ABC Entertains",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:abcaustralia:3",
+      "parentName": "ABC Australia",
+      "serverIndex": 3,
+      "name": "ABC Kids",
+      "category": "Kids",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:aljazeera:1",
+      "parentName": "Al Jazeera",
+      "serverIndex": 1,
+      "name": "Al Jazeera Stream 2",
+      "category": "News",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:alltv2:1",
+      "parentName": "ALLTV2",
+      "serverIndex": 1,
+      "name": "ALLTV2 Stream 2",
+      "category": "Entertainment",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:amc:1",
+      "parentName": "AMC+",
+      "serverIndex": 1,
+      "name": "AMC",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:amc:2",
+      "parentName": "AMC+",
+      "serverIndex": 2,
+      "name": "AMC Break",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:amc:3",
+      "parentName": "AMC+",
+      "serverIndex": 3,
+      "name": "AMC Crime",
+      "category": "Documentaries",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:animax:2",
+      "parentName": "Animax",
+      "serverIndex": 2,
+      "name": "Animax Stream 3",
+      "category": "Anime",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:animalplanet:2",
+      "parentName": "Animal Planet",
+      "serverIndex": 2,
+      "name": "Animal Planet HD",
+      "category": "Documentaries",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:animebypluto:1",
+      "parentName": "Anime by Pluto",
+      "serverIndex": 1,
+      "name": "Anime Movies",
+      "category": "Anime",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:animebypluto:2",
+      "parentName": "Anime by Pluto",
+      "serverIndex": 2,
+      "name": "Boruto: Naruto Next Generations",
+      "category": "Anime",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:animebypluto:3",
+      "parentName": "Anime by Pluto",
+      "serverIndex": 3,
+      "name": "Inuyasha",
+      "category": "Anime",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:animebypluto:4",
+      "parentName": "Anime by Pluto",
+      "serverIndex": 4,
+      "name": "Naruto",
+      "category": "Anime",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:animebypluto:5",
+      "parentName": "Anime by Pluto",
+      "serverIndex": 5,
+      "name": "One Piece",
+      "category": "Anime",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:animebypluto:6",
+      "parentName": "Anime by Pluto",
+      "serverIndex": 6,
+      "name": "Sailor Moon",
+      "category": "Anime",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:arirang:1",
+      "parentName": "Arirang",
+      "serverIndex": 1,
+      "name": "Arirang Stream 2",
+      "category": "Entertainment",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:axn:1",
+      "parentName": "AXN",
+      "serverIndex": 1,
+      "name": "AXN Stream 2",
+      "category": "Entertainment",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:axn:2",
+      "parentName": "AXN",
+      "serverIndex": 2,
+      "name": "AXN Movies",
+      "category": "Movies",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:pbbcollab30:1",
+      "parentName": "PBB Collab 3.0",
+      "serverIndex": 1,
+      "name": "Main Livestream",
+      "category": "General",
+      "categoryBasis": "unresolved named source",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:pbbcollab30:3",
+      "parentName": "PBB Collab 3.0",
+      "serverIndex": 3,
+      "name": "Dining Area",
+      "category": "General",
+      "categoryBasis": "unresolved named source",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:pbbcollab30:4",
+      "parentName": "PBB Collab 3.0",
+      "serverIndex": 4,
+      "name": "External Den",
+      "category": "General",
+      "categoryBasis": "unresolved named source",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:bbclifestyle:1",
+      "parentName": "BBC Lifestyle",
+      "serverIndex": 1,
+      "name": "BBC Lifestyle Stream 2",
+      "category": "Lifestyle",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:bbcnews:1",
+      "parentName": "BBC News",
+      "serverIndex": 1,
+      "name": "BBC WORLD News",
+      "category": "News",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:beinsports:1",
+      "parentName": "BeIn Sports",
+      "serverIndex": 1,
+      "name": "BeIn Sports 1",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:beinsports:2",
+      "parentName": "BeIn Sports",
+      "serverIndex": 2,
+      "name": "BeIn Sports 2",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:beinsports:3",
+      "parentName": "BeIn Sports",
+      "serverIndex": 3,
+      "name": "BeIn Sports 3",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:beinsports:4",
+      "parentName": "BeIn Sports",
+      "serverIndex": 4,
+      "name": "BeIn Sports XTRA",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:bilyonaryo:1",
+      "parentName": "Bilyonaryo",
+      "serverIndex": 1,
+      "name": "Bilyonaryo Stream 2",
+      "category": "News",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:bloomberg:1",
+      "parentName": "Bloomberg",
+      "serverIndex": 1,
+      "name": "Bloomberg Stream 2",
+      "category": "News",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:1",
+      "parentName": "BS10 + more Converge Channels",
+      "serverIndex": 1,
+      "name": "BS Fuji",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:2",
+      "parentName": "BS10 + more Converge Channels",
+      "serverIndex": 2,
+      "name": "BS Nittele",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:3",
+      "parentName": "BS10 + more Converge Channels",
+      "serverIndex": 3,
+      "name": "Da Ai TV",
+      "category": "Faith",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:4",
+      "parentName": "BS10 + more Converge Channels",
+      "serverIndex": 4,
+      "name": "DD National",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:5",
+      "parentName": "BS10 + more Converge Channels",
+      "serverIndex": 5,
+      "name": "Good TV",
+      "category": "Faith",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:6",
+      "parentName": "BS10 + more Converge Channels",
+      "serverIndex": 6,
+      "name": "Hunan TV",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:7",
+      "parentName": "BS10 + more Converge Channels",
+      "serverIndex": 7,
+      "name": "Phoenix Television",
+      "category": "General",
+      "categoryBasis": "unresolved named source",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:8",
+      "parentName": "BS10 + more Converge Channels",
+      "serverIndex": 8,
+      "name": "Rai Italia",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:9",
+      "parentName": "BS10 + more Converge Channels",
+      "serverIndex": 9,
+      "name": "Saudi TV",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:10",
+      "parentName": "BS10 + more Converge Channels",
+      "serverIndex": 10,
+      "name": "TVE",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:11",
+      "parentName": "BS10 + more Converge Channels",
+      "serverIndex": 11,
+      "name": "Wion",
+      "category": "News",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:12",
+      "parentName": "BS10 + more Converge Channels",
+      "serverIndex": 12,
+      "name": "3ABN",
+      "category": "Faith",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:13",
+      "parentName": "BS10 + more Converge Channels",
+      "serverIndex": 13,
+      "name": "Xingkong",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:cartoonito:1",
+      "parentName": "Cartoonito",
+      "serverIndex": 1,
+      "name": "Cartoonito Stream 2",
+      "category": "Kids",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:cartoonnetwork:1",
+      "parentName": "Cartoon Network",
+      "serverIndex": 1,
+      "name": "Cartoon Network Stream 2",
+      "category": "Kids",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:cartoonnetwork:2",
+      "parentName": "Cartoon Network",
+      "serverIndex": 2,
+      "name": "Cartoon Network HD+",
+      "category": "Kids",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:cartoonnetwork:3",
+      "parentName": "Cartoon Network",
+      "serverIndex": 3,
+      "name": "[adult swim]",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:cartoonnetwork:4",
+      "parentName": "Cartoon Network",
+      "serverIndex": 4,
+      "name": "YTV",
+      "category": "Kids",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:cctv4:1",
+      "parentName": "CCTV4",
+      "serverIndex": 1,
+      "name": "CCTV4 Stream 2",
+      "category": "News",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:cgtndocumentary:2",
+      "parentName": "CGTN Documentary",
+      "serverIndex": 2,
+      "name": "China Travel",
+      "category": "Lifestyle",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:cinemaone:1",
+      "parentName": "CinemaOne",
+      "serverIndex": 1,
+      "name": "CinemaOne PH",
+      "category": "Movies",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:cinemaone:2",
+      "parentName": "CinemaOne",
+      "serverIndex": 2,
+      "name": "CinemaOne PH Stream 2",
+      "category": "Movies",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:cinemaone:3",
+      "parentName": "CinemaOne",
+      "serverIndex": 3,
+      "name": "CinemaOne PH Stream 3",
+      "category": "Movies",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:cinemo:1",
+      "parentName": "CineMo!",
+      "serverIndex": 1,
+      "name": "CineMo! Stream 2",
+      "category": "Movies",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:cinemo:3",
+      "parentName": "CineMo!",
+      "serverIndex": 3,
+      "name": "CineMo! PH",
+      "category": "Movies",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:cinemo:4",
+      "parentName": "CineMo!",
+      "serverIndex": 4,
+      "name": "CineMo! PH Stream 2",
+      "category": "Movies",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:cinemax:1",
+      "parentName": "Cinemax",
+      "serverIndex": 1,
+      "name": "Cinemax Stream 2",
+      "category": "Movies",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:cltv36:1",
+      "parentName": "CLTV36",
+      "serverIndex": 1,
+      "name": "CLTV36 Stream 2",
+      "category": "General",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:cnbc:1",
+      "parentName": "CNBC",
+      "serverIndex": 1,
+      "name": "CNBC Stream 2",
+      "category": "News",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:comedycentral:1",
+      "parentName": "Comedy Central",
+      "serverIndex": 1,
+      "name": "South Park",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:crunchyroll:1",
+      "parentName": "Crunchyroll",
+      "serverIndex": 1,
+      "name": "Crunchyroll Stream 2",
+      "category": "Anime",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:crunchyroll:2",
+      "parentName": "Crunchyroll",
+      "serverIndex": 2,
+      "name": "Crunchyroll Stream 3",
+      "category": "Anime",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:crunchyroll:3",
+      "parentName": "Crunchyroll",
+      "serverIndex": 3,
+      "name": "Crunchyroll Stream 4",
+      "category": "Anime",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:dazn:1",
+      "parentName": "DAZN",
+      "serverIndex": 1,
+      "name": "DAZN Ringside",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:discoverychannel:1",
+      "parentName": "Discovery Channel",
+      "serverIndex": 1,
+      "name": "Discovery Channel Stream 2",
+      "category": "Documentaries",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:disneychannel:1",
+      "parentName": "Disney Channel",
+      "serverIndex": 1,
+      "name": "Disney Jr",
+      "category": "Kids",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:disneychannel:2",
+      "parentName": "Disney Channel",
+      "serverIndex": 2,
+      "name": "Disney XD",
+      "category": "Kids",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:dmax:1",
+      "parentName": "DMAX",
+      "serverIndex": 1,
+      "name": "DMAX Stream 2",
+      "category": "Documentaries",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:dreamworkshd:1",
+      "parentName": "Dreamworks HD",
+      "serverIndex": 1,
+      "name": "Dreamworks Tagalized",
+      "category": "Kids",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:espn:1",
+      "parentName": "ESPN",
+      "serverIndex": 1,
+      "name": "ESPN2",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:espn:3",
+      "parentName": "ESPN",
+      "serverIndex": 3,
+      "name": "ESPNEWS",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:espn:4",
+      "parentName": "ESPN",
+      "serverIndex": 4,
+      "name": "ESPN U",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:fightnetwork:1",
+      "parentName": "Fight Network",
+      "serverIndex": 1,
+      "name": "Fight TV",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:fightnetwork:2",
+      "parentName": "Fight Network",
+      "serverIndex": 2,
+      "name": "Fight +",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:fite247:1",
+      "parentName": "FITE 24/7",
+      "serverIndex": 1,
+      "name": "FITE 24/7 Stream 2",
+      "category": "Sports",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:france24:1",
+      "parentName": "FRANCE 24",
+      "serverIndex": 1,
+      "name": "FRANCE 24 Stream 2",
+      "category": "News",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:gma:1",
+      "parentName": "GMA",
+      "serverIndex": 1,
+      "name": "GMA Stream 2",
+      "category": "Entertainment",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:gtv:1",
+      "parentName": "GTV",
+      "serverIndex": 1,
+      "name": "GTV Stream 2",
+      "category": "Entertainment",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:hallmark:1",
+      "parentName": "Hallmark",
+      "serverIndex": 1,
+      "name": "Hallmark Movies & More",
+      "category": "Movies",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:hboboxing:1",
+      "parentName": "HBO Boxing",
+      "serverIndex": 1,
+      "name": "HBO Boxing Stream 2",
+      "category": "Sports",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:hbopop:1",
+      "parentName": "HBO POP",
+      "serverIndex": 1,
+      "name": "HBO POP Stream 2",
+      "category": "Movies",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:historyhd:1",
+      "parentName": "History HD",
+      "serverIndex": 1,
+      "name": "American Pickers",
+      "category": "Documentaries",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:historyhd:2",
+      "parentName": "History HD",
+      "serverIndex": 2,
+      "name": "Deal Zone",
+      "category": "General",
+      "categoryBasis": "unresolved named source",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:historyhd:3",
+      "parentName": "History HD",
+      "serverIndex": 3,
+      "name": "Modern Innovations",
+      "category": "Documentaries",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:historyhd:4",
+      "parentName": "History HD",
+      "serverIndex": 4,
+      "name": "Modern Marvels",
+      "category": "Documentaries",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:historyhd:5",
+      "parentName": "History HD",
+      "serverIndex": 5,
+      "name": "Torque",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:historyhd:6",
+      "parentName": "History HD",
+      "serverIndex": 6,
+      "name": "Xtreme Outdoor",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:hopechannelph:1",
+      "parentName": "Hope Channel PH",
+      "serverIndex": 1,
+      "name": "Hope Channel International",
+      "category": "Faith",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:ibc13:1",
+      "parentName": "IBC13",
+      "serverIndex": 1,
+      "name": "IBC13 Stream 2",
+      "category": "Entertainment",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:inctv:1",
+      "parentName": "INCTV",
+      "serverIndex": 1,
+      "name": "INCTV Stream 2",
+      "category": "Faith",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:inctv:2",
+      "parentName": "INCTV",
+      "serverIndex": 2,
+      "name": "INC Radio",
+      "category": "Faith",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:inwonder:1",
+      "parentName": "InWonder",
+      "serverIndex": 1,
+      "name": "InTravel",
+      "category": "Lifestyle",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:inwonder:2",
+      "parentName": "InWonder",
+      "serverIndex": 2,
+      "name": "InWild",
+      "category": "Documentaries",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:ion:1",
+      "parentName": "ION",
+      "serverIndex": 1,
+      "name": "ION Mystery",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:ion:2",
+      "parentName": "ION",
+      "serverIndex": 2,
+      "name": "ION Plus",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:jeepneytv:1",
+      "parentName": "Jeepney TV",
+      "serverIndex": 1,
+      "name": "Jeepney TV Stream 2",
+      "category": "Entertainment",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:justforlaughsgags:1",
+      "parentName": "Just for Laughs Gags",
+      "serverIndex": 1,
+      "name": "Just for Laughs Gags Stream 2",
+      "category": "Entertainment",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:kapamilyachannelhd:1",
+      "parentName": "Kapamilya Channel HD",
+      "serverIndex": 1,
+      "name": "Kapamilya Channel HD Stream 2",
+      "category": "Entertainment",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:kidstv:2",
+      "parentName": "Kids TV",
+      "serverIndex": 2,
+      "name": "Baby Shark TV",
+      "category": "Kids",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:kidstv:3",
+      "parentName": "Kids TV",
+      "serverIndex": 3,
+      "name": "Baby Shark TV Stream 2",
+      "category": "Kids",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:kidstv:4",
+      "parentName": "Kids TV",
+      "serverIndex": 4,
+      "name": "Barbie and Friends",
+      "category": "Kids",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:kidstv:5",
+      "parentName": "Kids TV",
+      "serverIndex": 5,
+      "name": "Barney and Friends",
+      "category": "Kids",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:kidstv:6",
+      "parentName": "Kids TV",
+      "serverIndex": 6,
+      "name": "Dora TV",
+      "category": "Kids",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:kidstv:7",
+      "parentName": "Kids TV",
+      "serverIndex": 7,
+      "name": "Lego Kids TV",
+      "category": "Kids",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:kidstv:8",
+      "parentName": "Kids TV",
+      "serverIndex": 8,
+      "name": "Rainbow Ruby",
+      "category": "Kids",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:kidstv:9",
+      "parentName": "Kids TV",
+      "serverIndex": 9,
+      "name": "Toony Planet",
+      "category": "Kids",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:kidstv:10",
+      "parentName": "Kids TV",
+      "serverIndex": 10,
+      "name": "Minecraft TV",
+      "category": "Kids",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:kidstv:11",
+      "parentName": "Kids TV",
+      "serverIndex": 11,
+      "name": "Teletubbies",
+      "category": "Kids",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:kidstv:12",
+      "parentName": "Kids TV",
+      "serverIndex": 12,
+      "name": "Zoo Moo",
+      "category": "Kids",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:kixhd:1",
+      "parentName": "Kix HD",
+      "serverIndex": 1,
+      "name": "Kix HD Stream 2",
+      "category": "Entertainment",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:knowledgechannel:1",
+      "parentName": "Knowledge Channel",
+      "serverIndex": 1,
+      "name": "Knowledge Channel Stream 2",
+      "category": "Education",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:lifetime:1",
+      "parentName": "Lifetime",
+      "serverIndex": 1,
+      "name": "Lifetime Movie Favorites",
+      "category": "Movies",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:lotusmacau:1",
+      "parentName": "Lotus Macau",
+      "serverIndex": 1,
+      "name": "Lotus Macau Stream 2",
+      "category": "Movies",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mmatv:2",
+      "parentName": "MMA-TV",
+      "serverIndex": 2,
+      "name": "UFA",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mmatv:3",
+      "parentName": "MMA-TV",
+      "serverIndex": 3,
+      "name": "Glory Kickboxing",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mmatv:4",
+      "parentName": "MMA-TV",
+      "serverIndex": 4,
+      "name": "Inside Arm Wrestling",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mmatv:5",
+      "parentName": "MMA-TV",
+      "serverIndex": 5,
+      "name": "PFL MMA",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mindanownetwork:1",
+      "parentName": "Mindanow Network",
+      "serverIndex": 1,
+      "name": "Mindanow Network Stream 2",
+      "category": "Lifestyle",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mindanownetwork:2",
+      "parentName": "Mindanow Network",
+      "serverIndex": 2,
+      "name": "Filam TV",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mindanownetwork:3",
+      "parentName": "Mindanow Network",
+      "serverIndex": 3,
+      "name": "Filam TV S2",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mindanownetwork:4",
+      "parentName": "Mindanow Network",
+      "serverIndex": 4,
+      "name": "Living Asia Channel",
+      "category": "Lifestyle",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mindanownetwork:5",
+      "parentName": "Mindanow Network",
+      "serverIndex": 5,
+      "name": "Living Asia Channel S2",
+      "category": "Lifestyle",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mindanownetwork:6",
+      "parentName": "Mindanow Network",
+      "serverIndex": 6,
+      "name": "Vegas Life TV",
+      "category": "Lifestyle",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mlbnetwork:1",
+      "parentName": "MLB Network",
+      "serverIndex": 1,
+      "name": "MLB",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mlbnetwork:2",
+      "parentName": "MLB Network",
+      "serverIndex": 2,
+      "name": "NFL Network",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mlbnetwork:3",
+      "parentName": "MLB Network",
+      "serverIndex": 3,
+      "name": "NFL Channel",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mlbnetwork:4",
+      "parentName": "MLB Network",
+      "serverIndex": 4,
+      "name": "NHL Network",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mlbnetwork:5",
+      "parentName": "MLB Network",
+      "serverIndex": 5,
+      "name": "NHL Network Stream 2",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mnxhd:1",
+      "parentName": "MNX HD",
+      "serverIndex": 1,
+      "name": "MN+ HD",
+      "category": "Movies",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:motogpchannel:1",
+      "parentName": "MotoGP Channel",
+      "serverIndex": 1,
+      "name": "Motorvision TV",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:halloweennights:1",
+      "parentName": "Halloween Nights",
+      "serverIndex": 1,
+      "name": "Movies Action",
+      "category": "Movies",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:moviesnow:1",
+      "parentName": "Movies Now",
+      "serverIndex": 1,
+      "name": "Romedy Now",
+      "category": "Movies",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:moviesphere:1",
+      "parentName": "Movie Sphere",
+      "serverIndex": 1,
+      "name": "Movie Sphere Stream 2",
+      "category": "Movies",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:moviesphere:2",
+      "parentName": "Movie Sphere",
+      "serverIndex": 2,
+      "name": "by Lionsgate",
+      "category": "Movies",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:muxdos:1",
+      "parentName": "MUX DOS",
+      "serverIndex": 1,
+      "name": "MUX JUAN",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:muxdos:2",
+      "parentName": "MUX DOS",
+      "serverIndex": 2,
+      "name": "MUX NEWS",
+      "category": "News",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:muxdos:3",
+      "parentName": "MUX DOS",
+      "serverIndex": 3,
+      "name": "MUX LIFE",
+      "category": "Lifestyle",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:muxdos:4",
+      "parentName": "MUX DOS",
+      "serverIndex": 4,
+      "name": "MUX WORLD",
+      "category": "General",
+      "categoryBasis": "unresolved named source",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mythbusters:1",
+      "parentName": "Mythbusters",
+      "serverIndex": 1,
+      "name": "Mythbusters Stream 2",
+      "category": "Documentaries",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mysteriousworlds:1",
+      "parentName": "Mysterious Worlds",
+      "serverIndex": 1,
+      "name": "Ancient Aliens",
+      "category": "Documentaries",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mysteriousworlds:2",
+      "parentName": "Mysterious Worlds",
+      "serverIndex": 2,
+      "name": "Alien Nation by DUST",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mysteriousworlds:3",
+      "parentName": "Mysterious Worlds",
+      "serverIndex": 3,
+      "name": "Haunt TV",
+      "category": "Documentaries",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mysteriousworlds:4",
+      "parentName": "Mysterious Worlds",
+      "serverIndex": 4,
+      "name": "Scares by Shudder",
+      "category": "Movies",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:mysteriousworlds:5",
+      "parentName": "Mysterious Worlds",
+      "serverIndex": 5,
+      "name": "UnXplained Zone",
+      "category": "Documentaries",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:myx:1",
+      "parentName": "MYX",
+      "serverIndex": 1,
+      "name": "MYX PH",
+      "category": "Music",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:nationalgeographic:1",
+      "parentName": "National Geographic",
+      "serverIndex": 1,
+      "name": "Nat Geo Wild",
+      "category": "Documentaries",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:nbatv:1",
+      "parentName": "NBA TV",
+      "serverIndex": 1,
+      "name": "8:00am Wizards vs Hawks",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:nbatv:2",
+      "parentName": "NBA TV",
+      "serverIndex": 2,
+      "name": "8:00am Celtics vs Hornets",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:nbatv:3",
+      "parentName": "NBA TV",
+      "serverIndex": 3,
+      "name": "8:30am 76ers vs Cavaliers",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:nbatv:4",
+      "parentName": "NBA TV",
+      "serverIndex": 4,
+      "name": "9:00am Jazz vs Mavericks",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:nbatv:5",
+      "parentName": "NBA TV",
+      "serverIndex": 5,
+      "name": "9:00am Thunder vs Grizzlies",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:nbatv:6",
+      "parentName": "NBA TV",
+      "serverIndex": 6,
+      "name": "9:00am Raptors vs Bucks",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:nbatv:7",
+      "parentName": "NBA TV",
+      "serverIndex": 7,
+      "name": "9:00am Timberwolves vs Pelicans",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:nbatv:8",
+      "parentName": "NBA TV",
+      "serverIndex": 8,
+      "name": "11:00am Trail Blazers vs Lakers",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:nbatv:9",
+      "parentName": "NBA TV",
+      "serverIndex": 9,
+      "name": "11:00am Spurs vs Kings",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:newkmovies:1",
+      "parentName": "New KMovies",
+      "serverIndex": 1,
+      "name": "KFood",
+      "category": "Lifestyle",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:newkmovies:2",
+      "parentName": "New KMovies",
+      "serverIndex": 2,
+      "name": "K Movie",
+      "category": "Movies",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:newkmovies:3",
+      "parentName": "New KMovies",
+      "serverIndex": 3,
+      "name": "Kpop",
+      "category": "Music",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:net25:1",
+      "parentName": "Net25",
+      "serverIndex": 1,
+      "name": "Net25 Stream 2",
+      "category": "Entertainment",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:nickjr:1",
+      "parentName": "Nickjr",
+      "serverIndex": 1,
+      "name": "Nickjr Stream 2",
+      "category": "Kids",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:nickjr:3",
+      "parentName": "Nickjr",
+      "serverIndex": 3,
+      "name": "Peppa Pig",
+      "category": "Kids",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:nickelodeon:1",
+      "parentName": "Nickelodeon",
+      "serverIndex": 1,
+      "name": "Nickelodeon Stream 2",
+      "category": "Kids",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:nickelodeon:2",
+      "parentName": "Nickelodeon",
+      "serverIndex": 2,
+      "name": "Nickelodeon Stream 3",
+      "category": "Kids",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:nickelodeon:3",
+      "parentName": "Nickelodeon",
+      "serverIndex": 3,
+      "name": "Nickelodeon Toons",
+      "category": "Kids",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:nickelodeon:4",
+      "parentName": "Nickelodeon",
+      "serverIndex": 4,
+      "name": "Nicktoons",
+      "category": "Kids",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:nickelodeon:5",
+      "parentName": "Nickelodeon",
+      "serverIndex": 5,
+      "name": "Spongebob Squarepants",
+      "category": "Kids",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:oneph:1",
+      "parentName": "One PH",
+      "serverIndex": 1,
+      "name": "One PH Stream 2",
+      "category": "News",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:onesports:1",
+      "parentName": "One Sports",
+      "serverIndex": 1,
+      "name": "One Sports+ HD",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:pbsdigitalstudios:6",
+      "parentName": "PBS Digital Studios",
+      "serverIndex": 6,
+      "name": "Antiques Roadshow",
+      "category": "Lifestyle",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:pilipinaslive:1",
+      "parentName": "Pilipinas Live",
+      "serverIndex": 1,
+      "name": "Pilipinas Live 2",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:pilipinaslive:2",
+      "parentName": "Pilipinas Live",
+      "serverIndex": 2,
+      "name": "Pilipinas Live 3",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:pilipinaslive:3",
+      "parentName": "Pilipinas Live",
+      "serverIndex": 3,
+      "name": "Pilipinas Live 4",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:pilipinaslive:4",
+      "parentName": "Pilipinas Live",
+      "serverIndex": 4,
+      "name": "Pilipinas Live 5",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:pilipinaslive:5",
+      "parentName": "Pilipinas Live",
+      "serverIndex": 5,
+      "name": "Pilipinas Live 6",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:pilipinaslive:6",
+      "parentName": "Pilipinas Live",
+      "serverIndex": 6,
+      "name": "Pilipinas Live 7",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:pilipinaslive:7",
+      "parentName": "Pilipinas Live",
+      "serverIndex": 7,
+      "name": "Pilipinas Live 8",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:pilipinaslive:8",
+      "parentName": "Pilipinas Live",
+      "serverIndex": 8,
+      "name": "Pilipinas Live 9",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:pilipinaslive:9",
+      "parentName": "Pilipinas Live",
+      "serverIndex": 9,
+      "name": "Pilipinas Live 10",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:premiersports:1",
+      "parentName": "Premier Sports",
+      "serverIndex": 1,
+      "name": "Premier Sports Stream 2",
+      "category": "Sports",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:premiersports:2",
+      "parentName": "Premier Sports",
+      "serverIndex": 2,
+      "name": "Premier Sports 2",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:premiersports:3",
+      "parentName": "Premier Sports",
+      "serverIndex": 3,
+      "name": "Premier Sports 2 Stream 2",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:premiersports:4",
+      "parentName": "Premier Sports",
+      "serverIndex": 4,
+      "name": "Premier Football",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:peoplestelevision:1",
+      "parentName": "Peoples Television",
+      "serverIndex": 1,
+      "name": "Peoples Television Stream 2",
+      "category": "News",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:popularscience:1",
+      "parentName": "Popular Science",
+      "serverIndex": 1,
+      "name": "Science is Amazing",
+      "category": "Documentaries",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:rockaction:1",
+      "parentName": "Rock Action",
+      "serverIndex": 1,
+      "name": "Rock Entertainment",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:rptv:1",
+      "parentName": "RPTV",
+      "serverIndex": 1,
+      "name": "RPTV Stream 2",
+      "category": "Entertainment",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:sbskdrama:1",
+      "parentName": "SBS K-Drama",
+      "serverIndex": 1,
+      "name": "SBS Running Man",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:sbskdrama:2",
+      "parentName": "SBS K-Drama",
+      "serverIndex": 2,
+      "name": "TBS",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:skysportsf1:2",
+      "parentName": "Sky Sports F1",
+      "serverIndex": 2,
+      "name": "F1 TV",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:skysportsf1:3",
+      "parentName": "Sky Sports F1",
+      "serverIndex": 3,
+      "name": "Rally TV",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:smninewschannel:1",
+      "parentName": "SMNI News Channel",
+      "serverIndex": 1,
+      "name": "SMNI News Channel Stream 2",
+      "category": "News",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:sonyoneactionhits:1",
+      "parentName": "Sony One Action Hits",
+      "serverIndex": 1,
+      "name": "Comedy Hits",
+      "category": "Entertainment",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:sonyoneactionhits:2",
+      "parentName": "Sony One Action Hits",
+      "serverIndex": 2,
+      "name": "Thriller TV",
+      "category": "Movies",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:spotv:1",
+      "parentName": "SPOTV",
+      "serverIndex": 1,
+      "name": "SPOTV2",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:syfy:1",
+      "parentName": "SYFY",
+      "serverIndex": 1,
+      "name": "SyFy 2",
+      "category": "Entertainment",
+      "categoryBasis": "source-specific override",
+      "regionalEvidence": "US station identifier in source route",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:tapedge:1",
+      "parentName": "TAP Edge",
+      "serverIndex": 1,
+      "name": "TAP Edge Stream 2",
+      "category": "Entertainment",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:tapsports:1",
+      "parentName": "TAP Sports",
+      "serverIndex": 1,
+      "name": "TAP Sports Stream 2",
+      "category": "Sports",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:tastemade:2",
+      "parentName": "Tastemade",
+      "serverIndex": 2,
+      "name": "Tastemade Home",
+      "category": "Lifestyle",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:tfcasia:1",
+      "parentName": "TFC Asia",
+      "serverIndex": 1,
+      "name": "TFC Asia Stream 2",
+      "category": "Entertainment",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:tennischannel:1",
+      "parentName": "Tennis Channel",
+      "serverIndex": 1,
+      "name": "Tennis Channel 2",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:thrill:1",
+      "parentName": "Thrill",
+      "serverIndex": 1,
+      "name": "Thrill Stream 2",
+      "category": "Movies",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:tlc:2",
+      "parentName": "TLC",
+      "serverIndex": 2,
+      "name": "TLC Asia",
+      "category": "Lifestyle",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:tlc:3",
+      "parentName": "TLC",
+      "serverIndex": 3,
+      "name": "TLC India",
+      "category": "Lifestyle",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:tnawrestling:1",
+      "parentName": "TNA Wrestling",
+      "serverIndex": 1,
+      "name": "TNA Wrestling Stream 2",
+      "category": "Sports",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:tnawrestling:2",
+      "parentName": "TNA Wrestling",
+      "serverIndex": 2,
+      "name": "TNA Wrestling Stream 3",
+      "category": "Sports",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:tnawrestling:3",
+      "parentName": "TNA Wrestling",
+      "serverIndex": 3,
+      "name": "impact Plus",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:tntsports1:1",
+      "parentName": "TNT Sports 1",
+      "serverIndex": 1,
+      "name": "TNT Sports 2",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:tntsports1:2",
+      "parentName": "TNT Sports 1",
+      "serverIndex": 2,
+      "name": "TNT Sports 3",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:tntsports1:3",
+      "parentName": "TNT Sports 1",
+      "serverIndex": 3,
+      "name": "TNT Sports 4",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:travelchannel:1",
+      "parentName": "Travel Channel",
+      "serverIndex": 1,
+      "name": "4k Travel",
+      "category": "Lifestyle",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:tsn:1",
+      "parentName": "TSN",
+      "serverIndex": 1,
+      "name": "TSN 1 FHD",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:tsn:3",
+      "parentName": "TSN",
+      "serverIndex": 3,
+      "name": "TSN the Ocho",
+      "category": "Sports",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:tvmaria:1",
+      "parentName": "TV Maria",
+      "serverIndex": 1,
+      "name": "TV Maria Stream 2",
+      "category": "Faith",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:tvmaria:2",
+      "parentName": "TV Maria",
+      "serverIndex": 2,
+      "name": "Radio Maria",
+      "category": "Faith",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:tv5monde:1",
+      "parentName": "TV5 Monde",
+      "serverIndex": 1,
+      "name": "TV5 Monde Stream 2",
+      "category": "Entertainment",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:ufc:1",
+      "parentName": "UFC",
+      "serverIndex": 1,
+      "name": "UFC PVV",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:ufc:2",
+      "parentName": "UFC",
+      "serverIndex": 2,
+      "name": "UFC Pass",
+      "category": "Sports",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:vevo:1",
+      "parentName": "VEVO",
+      "serverIndex": 1,
+      "name": "VEVO 2K",
+      "category": "Music",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:vevo:2",
+      "parentName": "VEVO",
+      "serverIndex": 2,
+      "name": "VEVO Country",
+      "category": "Music",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:vevo:3",
+      "parentName": "VEVO",
+      "serverIndex": 3,
+      "name": "VEVO Hip-Hop",
+      "category": "Music",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:vevo:4",
+      "parentName": "VEVO",
+      "serverIndex": 4,
+      "name": "VEVO Latino",
+      "category": "Music",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:vevo:5",
+      "parentName": "VEVO",
+      "serverIndex": 5,
+      "name": "VEVO POP",
+      "category": "Music",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:vevo:6",
+      "parentName": "VEVO",
+      "serverIndex": 6,
+      "name": "VEVO R&B",
+      "category": "Music",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:warnertv:1",
+      "parentName": "Warner TV ",
+      "serverIndex": 1,
+      "name": "Warner TV  Stream 2",
+      "category": "Entertainment",
+      "categoryBasis": "parent broad type for generic source label; not schedule identity",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:wildplanet:1",
+      "parentName": "Wild Planet",
+      "serverIndex": 1,
+      "name": "Wild Earth",
+      "category": "Documentaries",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:wildplanet:2",
+      "parentName": "Wild Planet",
+      "serverIndex": 2,
+      "name": "Love Nature",
+      "category": "Documentaries",
+      "categoryBasis": "configured broad channel type; see category review",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:xitehits:1",
+      "parentName": "Xite Hits",
+      "serverIndex": 1,
+      "name": "XITE 80s Flashback",
+      "category": "Music",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:xitehits:2",
+      "parentName": "Xite Hits",
+      "serverIndex": 2,
+      "name": "XITE 90s Throwback",
+      "category": "Music",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:xitehits:4",
+      "parentName": "Xite Hits",
+      "serverIndex": 4,
+      "name": "XITE Classic Country",
+      "category": "Music",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:xitehits:5",
+      "parentName": "Xite Hits",
+      "serverIndex": 5,
+      "name": "XITE Country Today",
+      "category": "Music",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:xitehits:6",
+      "parentName": "Xite Hits",
+      "serverIndex": 6,
+      "name": "XITE Just Chill",
+      "category": "Music",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:xitehits:7",
+      "parentName": "Xite Hits",
+      "serverIndex": 7,
+      "name": "XITE R&B Classic Jams",
+      "category": "Music",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    },
+    {
+      "id": "primary-source:xitehits:8",
+      "parentName": "Xite Hits",
+      "serverIndex": 8,
+      "name": "XITE Rock x Metal",
+      "category": "Music",
+      "categoryBasis": "broad branded channel family",
+      "enabled": true
+    }
+  ]
+}

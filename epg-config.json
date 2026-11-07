@@ -1332,11 +1332,6 @@
         "STUDIOUNIVERSAL.ph"
       ]
     },
-    "SYFY": {
-      "US2": [
-        "Syfy.HD.us2"
-      ]
-    },
     "Tagalized Movie Channel": {
       "PH2": [
         "Tagalized.Movie.Channel.ph"
@@ -1684,7 +1679,9 @@
     "Tagalized Movie Channel",
     "VIVA Cinema",
     "Metro Channel",
-    "MYX"
+    "MYX",
+    "SYFY",
+    "Sci Fi"
   ],
   "exclude": [],
   "matchingPolicy": "Explicit source identities first, then unique exact display-name match. Preserve region words; never strip Philippines or Pinoy. A stale or invalid candidate does not block later sources.",

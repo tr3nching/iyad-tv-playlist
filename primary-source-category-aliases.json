@@ -1,0 +1,1063 @@
+{
+  "policy": "Broad channel-type aliases only. These do not establish regional EPG identity. Unrecognized named sources stay General; generic Stream N inherits only the parent broad category.",
+  "aliases": {
+    "3ABN": "Faith",
+    "4k Travel": "Lifestyle",
+    "ABC Entertains": "Entertainment",
+    "ABC Kids": "Kids",
+    "AMC": "Entertainment",
+    "AMC Break": "Entertainment",
+    "AMC Crime": "Documentaries",
+    "AXN Movies": "Movies",
+    "Alien Nation by DUST": "Entertainment",
+    "American Pickers": "Documentaries",
+    "Ancient Aliens": "Documentaries",
+    "Animal Planet HD": "Documentaries",
+    "Anime Movies": "Anime",
+    "Antiques Roadshow": "Lifestyle",
+    "BBC WORLD News": "News",
+    "BS Fuji": "Entertainment",
+    "BS Nittele": "Entertainment",
+    "Baby Shark TV": "Kids",
+    "Baby Shark TV Stream 2": "Kids",
+    "Barbie and Friends": "Kids",
+    "Barney and Friends": "Kids",
+    "Boruto: Naruto Next Generations": "Anime",
+    "Cartoon Network HD+": "Kids",
+    "China Travel": "Lifestyle",
+    "CineMo! PH": "Movies",
+    "CineMo! PH Stream 2": "Movies",
+    "CinemaOne PH": "Movies",
+    "CinemaOne PH Stream 2": "Movies",
+    "CinemaOne PH Stream 3": "Movies",
+    "Comedy Hits": "Entertainment",
+    "DAZN Ringside": "Sports",
+    "DD National": "Entertainment",
+    "Da Ai TV": "Faith",
+    "Disney Jr": "Kids",
+    "Disney XD": "Kids",
+    "Dora TV": "Kids",
+    "Dreamworks Tagalized": "Kids",
+    "ESPN U": "Sports",
+    "ESPN2": "Sports",
+    "ESPNEWS": "Sports",
+    "F1 TV": "Sports",
+    "Fight +": "Sports",
+    "Fight TV": "Sports",
+    "Filam TV": "Entertainment",
+    "Filam TV S2": "Entertainment",
+    "Glory Kickboxing": "Sports",
+    "Good TV": "Faith",
+    "Hallmark Movies & More": "Movies",
+    "Haunt TV": "Documentaries",
+    "Hope Channel International": "Faith",
+    "Hunan TV": "Entertainment",
+    "INC Radio": "Faith",
+    "ION Mystery": "Entertainment",
+    "ION Plus": "Entertainment",
+    "InTravel": "Lifestyle",
+    "InWild": "Documentaries",
+    "Inside Arm Wrestling": "Sports",
+    "Inuyasha": "Anime",
+    "K Movie": "Movies",
+    "KFood": "Lifestyle",
+    "Kapatid Channel": "Entertainment",
+    "Kapatid Live": "Entertainment",
+    "Kpop": "Music",
+    "Lego Kids TV": "Kids",
+    "Lifetime Movie Favorites": "Movies",
+    "Living Asia Channel": "Lifestyle",
+    "Living Asia Channel S2": "Lifestyle",
+    "Love Nature": "Documentaries",
+    "MLB": "Sports",
+    "MN+ HD": "Movies",
+    "MUX JUAN": "Entertainment",
+    "MUX LIFE": "Lifestyle",
+    "MUX NEWS": "News",
+    "MYX PH": "Music",
+    "Minecraft TV": "Kids",
+    "Modern Innovations": "Documentaries",
+    "Modern Marvels": "Documentaries",
+    "Motorvision TV": "Sports",
+    "Movies Action": "Movies",
+    "NFL Channel": "Sports",
+    "NFL Network": "Sports",
+    "NHL Network": "Sports",
+    "NHL Network Stream 2": "Sports",
+    "Naruto": "Anime",
+    "Nat Geo Wild": "Documentaries",
+    "Nickelodeon Toons": "Kids",
+    "Nicktoons": "Kids",
+    "One Piece": "Anime",
+    "One Sports+ HD": "Sports",
+    "PFL MMA": "Sports",
+    "Peppa Pig": "Kids",
+    "Premier Football": "Sports",
+    "Premier Sports 2": "Sports",
+    "Premier Sports 2 Stream 2": "Sports",
+    "Radio Maria": "Faith",
+    "Rai Italia": "Entertainment",
+    "Rainbow Ruby": "Kids",
+    "Rally TV": "Sports",
+    "Rock Entertainment": "Entertainment",
+    "Romedy Now": "Movies",
+    "SBS Running Man": "Entertainment",
+    "Sailor Moon": "Anime",
+    "Saudi TV": "Entertainment",
+    "Scares by Shudder": "Movies",
+    "Science is Amazing": "Documentaries",
+    "South Park": "Entertainment",
+    "Spongebob Squarepants": "Kids",
+    "TBS": "Entertainment",
+    "TLC Asia": "Lifestyle",
+    "TLC India": "Lifestyle",
+    "TVE": "Entertainment",
+    "Tastemade Home": "Lifestyle",
+    "Teletubbies": "Kids",
+    "Tennis Channel 2": "Sports",
+    "Thriller TV": "Movies",
+    "Toony Planet": "Kids",
+    "Torque": "Sports",
+    "UFA": "Sports",
+    "UFC PVV": "Sports",
+    "UFC Pass": "Sports",
+    "UnXplained Zone": "Documentaries",
+    "Vegas Life TV": "Lifestyle",
+    "Wild Earth": "Documentaries",
+    "Wion": "News",
+    "Xingkong": "Entertainment",
+    "Xtreme Outdoor": "Sports",
+    "YTV": "Kids",
+    "Zoo Moo": "Kids",
+    "[adult swim]": "Entertainment",
+    "by Lionsgate": "Movies",
+    "impact Plus": "Sports"
+  },
+  "review": [
+    {
+      "name": "3ABN",
+      "category": "Faith",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "4k Travel",
+      "category": "Lifestyle",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "ABC Entertains",
+      "category": "Entertainment",
+      "status": "official_broad_type",
+      "sources": [
+        "https://www.abc.net.au/about/media-centre/press-releases/introducing-abc-family-and-abc-entertains/103901298"
+      ],
+      "basis": "Official launch description identifies general entertainment."
+    },
+    {
+      "name": "ABC Kids",
+      "category": "Kids",
+      "status": "official_broad_type",
+      "sources": [
+        "https://www.abc.net.au/independent/channels"
+      ],
+      "basis": "Official description identifies preschool programming."
+    },
+    {
+      "name": "AMC",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "AMC Break",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "AMC Crime",
+      "category": "Documentaries",
+      "status": "official_broad_type",
+      "sources": [
+        "https://amcglobalmedia.es/noticias/amc-crime/crimenes-en-espana-amc-crime-2/"
+      ],
+      "basis": "Official provider describes crime documentaries and documentary series."
+    },
+    {
+      "name": "AXN Movies",
+      "category": "Movies",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Alien Nation by DUST",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "American Pickers",
+      "category": "Documentaries",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Ancient Aliens",
+      "category": "Documentaries",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Animal Planet HD",
+      "category": "Documentaries",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Anime Movies",
+      "category": "Anime",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Antiques Roadshow",
+      "category": "Lifestyle",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "BBC WORLD News",
+      "category": "News",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "BS Fuji",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "BS Nittele",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Baby Shark TV",
+      "category": "Kids",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Baby Shark TV Stream 2",
+      "category": "Kids",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Barbie and Friends",
+      "category": "Kids",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Barney and Friends",
+      "category": "Kids",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Boruto: Naruto Next Generations",
+      "category": "Anime",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Cartoon Network HD+",
+      "category": "Kids",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "China Travel",
+      "category": "Lifestyle",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "CineMo! PH",
+      "category": "Movies",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "CineMo! PH Stream 2",
+      "category": "Movies",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "CinemaOne PH",
+      "category": "Movies",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "CinemaOne PH Stream 2",
+      "category": "Movies",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "CinemaOne PH Stream 3",
+      "category": "Movies",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Comedy Hits",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "DAZN Ringside",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "DD National",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Da Ai TV",
+      "category": "Faith",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Disney Jr",
+      "category": "Kids",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Disney XD",
+      "category": "Kids",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Dora TV",
+      "category": "Kids",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Dreamworks Tagalized",
+      "category": "Kids",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "ESPN U",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "ESPN2",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "ESPNEWS",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "F1 TV",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Fight +",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Fight TV",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Filam TV",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Filam TV S2",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Glory Kickboxing",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Good TV",
+      "category": "Faith",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Hallmark Movies & More",
+      "category": "Movies",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Haunt TV",
+      "category": "Documentaries",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Hope Channel International",
+      "category": "Faith",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Hunan TV",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "INC Radio",
+      "category": "Faith",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "ION Mystery",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "ION Plus",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "InTravel",
+      "category": "Lifestyle",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "InWild",
+      "category": "Documentaries",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Inside Arm Wrestling",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Inuyasha",
+      "category": "Anime",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "K Movie",
+      "category": "Movies",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "KFood",
+      "category": "Lifestyle",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Kapatid Channel",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Kapatid Live",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Kpop",
+      "category": "Music",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Lego Kids TV",
+      "category": "Kids",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Lifetime Movie Favorites",
+      "category": "Movies",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Living Asia Channel",
+      "category": "Lifestyle",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Living Asia Channel S2",
+      "category": "Lifestyle",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Love Nature",
+      "category": "Documentaries",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "MLB",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "MN+ HD",
+      "category": "Movies",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "MUX JUAN",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "MUX LIFE",
+      "category": "Lifestyle",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "MUX NEWS",
+      "category": "News",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "MYX PH",
+      "category": "Music",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Minecraft TV",
+      "category": "Kids",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Modern Innovations",
+      "category": "Documentaries",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Modern Marvels",
+      "category": "Documentaries",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Motorvision TV",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Movies Action",
+      "category": "Movies",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "NFL Channel",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "NFL Network",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "NHL Network",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "NHL Network Stream 2",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Naruto",
+      "category": "Anime",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Nat Geo Wild",
+      "category": "Documentaries",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Nickelodeon Toons",
+      "category": "Kids",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Nicktoons",
+      "category": "Kids",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "One Piece",
+      "category": "Anime",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "One Sports+ HD",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "PFL MMA",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Peppa Pig",
+      "category": "Kids",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Premier Football",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Premier Sports 2",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Premier Sports 2 Stream 2",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Radio Maria",
+      "category": "Faith",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Rai Italia",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Rainbow Ruby",
+      "category": "Kids",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Rally TV",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Rock Entertainment",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Romedy Now",
+      "category": "Movies",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "SBS Running Man",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Sailor Moon",
+      "category": "Anime",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Saudi TV",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Scares by Shudder",
+      "category": "Movies",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Science is Amazing",
+      "category": "Documentaries",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "South Park",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Spongebob Squarepants",
+      "category": "Kids",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "TBS",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "TLC Asia",
+      "category": "Lifestyle",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "TLC India",
+      "category": "Lifestyle",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "TVE",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Tastemade Home",
+      "category": "Lifestyle",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Teletubbies",
+      "category": "Kids",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Tennis Channel 2",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Thriller TV",
+      "category": "Movies",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Toony Planet",
+      "category": "Kids",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Torque",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "UFA",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "UFC PVV",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "UFC Pass",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "UnXplained Zone",
+      "category": "Documentaries",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Vegas Life TV",
+      "category": "Lifestyle",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Wild Earth",
+      "category": "Documentaries",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Wion",
+      "category": "News",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Xingkong",
+      "category": "Entertainment",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Xtreme Outdoor",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "YTV",
+      "category": "Kids",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "Zoo Moo",
+      "category": "Kids",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "[adult swim]",
+      "category": "Entertainment",
+      "status": "official_broad_type",
+      "sources": [
+        "https://press.wbd.com/na/brands/adult-swim-0"
+      ],
+      "basis": "Official description identifies animated and live-action programming for young adults; classified Entertainment rather than Kids."
+    },
+    {
+      "name": "by Lionsgate",
+      "category": "Movies",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    },
+    {
+      "name": "impact Plus",
+      "category": "Sports",
+      "status": "inferred_broad_type",
+      "sources": [],
+      "basis": "Broad content type inferred from the station or programme brand label; regional feed identity is not established."
+    }
+  ]
+}

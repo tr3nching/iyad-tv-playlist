@@ -1,20 +1,20 @@
 {
-  "assembledAt": "2026-11-06T20:47:13.248Z",
-  "entryCount": 234,
-  "primaryEntryCount": 228,
-  "alternateEntryCount": 6,
+  "assembledAt": "2026-11-07T00:47:42.916Z",
+  "entryCount": 571,
+  "primaryEntryCount": 484,
+  "alternateEntryCount": 87,
   "categories": {
-    "General": 15,
-    "Entertainment": 37,
-    "News": 26,
-    "Documentaries": 21,
-    "Anime": 7,
-    "Movies": 45,
-    "Lifestyle": 11,
-    "Kids": 16,
-    "Sports": 36,
-    "Education": 2,
-    "Faith": 7,
-    "Music": 11
+    "Entertainment": 107,
+    "Movies": 87,
+    "Sports": 109,
+    "News": 45,
+    "Kids": 50,
+    "Anime": 19,
+    "Documentaries": 41,
+    "Music": 29,
+    "Lifestyle": 30,
+    "Faith": 16,
+    "Education": 6,
+    "General": 32
   }
 }

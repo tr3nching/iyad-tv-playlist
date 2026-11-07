@@ -56,7 +56,7 @@ def fetch(url,cache,offline=False):
  return data,meta
 
 def candidate_ids(name,feed,label,config):
- additional=config.get('_additionalMappings',{}).get(name)
+ additional=config.get('_additionalMappings',{}).get(name) or config.get('_primarySourceMappings',{}).get(name)
  if additional:
   if label not in additional.get('allowedSources',[]):return []
   explicit=additional.get('sourceMap',{}).get(label,[])
@@ -64,7 +64,7 @@ def candidate_ids(name,feed,label,config):
   canonical=additional.get('canonical')
   inherited=candidate_ids(canonical,feed,label,config) if canonical else []
   return list(dict.fromkeys(explicit+inherited))
- if name.startswith('additional:'):return []
+ if name.startswith(('additional:','primary-source:')):return []
  explicit=config.get('channelMap',{}).get(name,{}).get(label,[])
  explicit=[explicit] if isinstance(explicit,str) else explicit
  if name in config.get('strictChannels',[]):return explicit
@@ -110,7 +110,7 @@ def prepare_channel(name,sid,feed,now,genre_channel=None,genre_group=None,statio
  titles={norm(p.findtext('title','')) for p in raw}
  only_station=bool(titles) and (any(titles=={norm(n)} for n in names) or
                               ((genre_channel or name)=='IBC13' and titles=={'ibctv13'}))
- if name.startswith('additional:') and titles:
+ if name.startswith(('additional:','primary-source:')) and titles:
   only_station=only_station or any(titles=={norm(n)} for n in [genre_channel,station_name] if n)
  for p in raw:
   title=p.findtext('title','').strip()
@@ -153,7 +153,7 @@ def additional_entries(out,config):
  primaries={};published_display={entry['id']:entry['display'] for entry in read_playlist(out/'playlist.m3u')}
  for file in ['playlist-drm.m3u','playlist.m3u']:
   for entry in read_playlist(out/file):
-   if entry['id'] and not entry['id'].startswith('additional:'):primaries.setdefault(entry['url'],set()).add(entry['id'])
+   if entry['id'] and not entry['id'].startswith(('additional:','primary-source:')):primaries.setdefault(entry['url'],set()).add(entry['id'])
  entries=[];seen=set()
  for entry in read_playlist(path):
   identity=entry['id']
@@ -174,22 +174,70 @@ def additional_entries(out,config):
  config['_unboundAdditionalMappings']=sorted(set(mappings)-seen)
  return entries
 
+def primary_source_entries(out,config):
+ """Inventory every variant, but only actual published variant IDs may receive EPG."""
+ path=out/'primary-source-catalog.json'
+ if not path.exists():return []
+ inventory=json.loads(path.read_text(encoding='utf-8'))
+ if isinstance(inventory,dict):inventory=inventory.get('entries')
+ if not isinstance(inventory,list):raise ValueError('Primary-source catalog must be an array')
+ mapping_path=BASE.parent/'primary-source-epg-mappings.json'
+ mappings=json.loads(mapping_path.read_text(encoding='utf-8')).get('entries',{}) if mapping_path.exists() else {}
+ published={};primaries={}
+ for entry in read_playlist(out/'playlist-drm.m3u'):
+  if entry['id'].startswith('primary-source:'):published[entry['id']]=entry
+  elif not entry['id'].startswith('additional:'):primaries.setdefault(entry['url'],set()).add(entry['id'])
+ entries=[];seen=set()
+ for metadata in inventory:
+  if metadata.get('serverIndex')==0:continue
+  identity=metadata.get('id','')
+  if not identity.startswith('primary-source:') or identity in seen:raise ValueError('Missing/duplicate independent primary-source ID')
+  seen.add(identity)
+  actual=published.get(identity);display=metadata.get('name',identity)
+  override=config.get('_primarySourceOverrides',{}).get(metadata.get('parentName'),{}).get(str(metadata.get('serverIndex')),{})
+  display=override.get('name',display)
+  reviewed=mappings.get(identity,{})
+  # Unlike URL-hashed additional IDs, index IDs can be rebound to different labels.
+  # A reviewed mapping must continue to identify exactly the reviewed station name.
+  expected=reviewed.get('expectedNames') or ([reviewed['expectedName']] if reviewed.get('expectedName') else [])
+  binding_valid=any(' '.join(display.split()).casefold()==' '.join(label.split()).casefold() for label in expected)
+  required=reviewed.get('requiredUrlContains')
+  if required:binding_valid=binding_valid and bool(actual and required.casefold() in actual['url'].casefold())
+  duplicates=sorted(primaries.get(actual['url'],[])) if actual else []
+  entries.append({'id':identity,'display':display if override else actual['display'] if actual else display,'sourceName':display,
+   'genreGroup':override.get('category',metadata.get('category')),'parentName':metadata.get('parentName'),
+   'serverIndex':metadata.get('serverIndex'),'enabled':metadata.get('enabled',True),
+   'published':bool(actual),'duplicatePrimary':duplicates[0] if len(duplicates)==1 else None,
+   'reviewed':reviewed if binding_valid else {},'reviewedBindingMismatch':bool(reviewed and not binding_valid)})
+ config['_primarySourceMappings']={e['id']:e['reviewed'] for e in entries if e['reviewed']}
+ return entries
+
 def build(catalog,out,offline=False,config_path=None):
  global CHANNEL_GROUPS
  CHANNEL_GROUPS=json.loads((BASE.parent/'channel-groups.json').read_text(encoding='utf-8'))
  now=dt.datetime.now(UTC);out.mkdir(parents=True,exist_ok=True)
  config=json.loads((config_path or BASE.parent/'epg-config.json').read_text(encoding='utf-8'))
- channels=[c['name'].strip() for c in json.loads(catalog.read_text(encoding='utf-8')) if c.get('enabled',True) and c['name'] not in config.get('exclude',[])]
+ override_path=BASE.parent/'primary-source-overrides.json'
+ config['_primarySourceOverrides']=json.loads(override_path.read_text(encoding='utf-8')) if override_path.exists() else {}
+ channels=[];primary_groups={}
+ for entry in json.loads(catalog.read_text(encoding='utf-8')):
+  if not entry.get('enabled',True) or entry['name'] in config.get('exclude',[]):continue
+  override=config['_primarySourceOverrides'].get(entry['name'],{}).get('0',{})
+  identity=override.get('epgId',override.get('name',entry['name'])).strip()
+  channels.append(identity)
+  if override.get('category'):primary_groups[identity]=override['category']
  additional=additional_entries(out,config);additional_by_id={e['id']:e for e in additional}
- channels=list(dict.fromkeys(channels+[e['id'] for e in additional]))
+ variants=primary_source_entries(out,config)
+ eligible_variants={e['id']:e for e in variants if e['published'] and e['enabled']}
+ channels=list(dict.fromkeys(channels+[e['id'] for e in additional]+list(eligible_variants)))
  feeds,source_meta=load_sources(config,channels,offline)
  root=ET.Element('tv',{'generator-info-name':'PH TV EPG builder'})
- stats=[];rows=[];skipped=collections.Counter();matched_any=0;selected_programmes={};additional_audit=[]
+ stats=[];rows=[];skipped=collections.Counter();matched_any=0;selected_programmes={};additional_audit=[];variant_audit=[]
  for name in channels:
   chosen=None;attempts=[];has_any=False
-  extra=additional_by_id.get(name);display=extra['display'] if extra else name
+  extra=additional_by_id.get(name) or eligible_variants.get(name);display=extra['display'] if extra else name
   genre_name=extra['sourceName'] if extra else name
-  genre_group=extra.get('genreGroup') if extra else None
+  genre_group=extra.get('genreGroup') if extra else primary_groups.get(name)
   duplicate=extra.get('duplicatePrimary') if extra else None
   identity_reason='exact stream URL duplicate of primary' if duplicate else ('reviewed regional station alias' if extra and extra['reviewed'] else 'no reviewed station/regional identity')
   if duplicate and duplicate in selected_programmes:
@@ -228,10 +276,21 @@ def build(catalog,out,offline=False,config_path=None):
             'reviewed identity has no usable current source listings')
   rows.append({'playlist_tvg_id':name,'source':label,'source_id':sid,'status':reason,'upcoming_programmes':upcoming,'attempts':attempts})
   if extra:
-   additional_audit.append({'playlist_tvg_id':name,'display_name':display,'source_name':genre_name,
+   audit={'playlist_tvg_id':name,'display_name':display,'source_name':genre_name,
     'status':reason,'identity_evidence':identity_reason,'duplicate_primary_id':duplicate,
     'canonical_station':extra['reviewed'].get('canonical'),'evidence':extra['reviewed'].get('evidence',''),
-    'source':label,'source_id':sid,'upcoming_programmes':upcoming,'attempts':attempts})
+    'source':label,'source_id':sid,'upcoming_programmes':upcoming,'attempts':attempts}
+   if name in eligible_variants:
+    audit.update(parent_name=extra['parentName'],server_index=extra['serverIndex'],published=True,
+                 reviewed_binding_mismatch=extra['reviewedBindingMismatch'])
+    variant_audit.append(audit)
+   else:additional_audit.append(audit)
+ for entry in variants:
+  if entry['id'] in eligible_variants:continue
+  variant_audit.append({'playlist_tvg_id':entry['id'],'display_name':entry['display'],
+   'source_name':entry['sourceName'],'parent_name':entry['parentName'],'server_index':entry['serverIndex'],
+   'published':entry['published'],'status':'disabled variant' if not entry['enabled'] else 'not present in published DRM playlist',
+   'source':'','source_id':'','upcoming_programmes':0,'attempts':[]})
  if len(stats)<config.get('minChannels',100):raise RuntimeError(f'Refusing inadequate guide: {len(stats)} current channels')
  ET.indent(root,space='  ');xml=ET.tostring(root,encoding='utf-8',xml_declaration=True)
  total=sum(c['programmes'] for c in stats)
@@ -243,10 +302,15 @@ def build(catalog,out,offline=False,config_path=None):
  report['additional_entries']={'total':len(additional_audit),'mapped':sum(e['status']=='mapped' for e in additional_audit),
   'unmapped':sum(e['status']!='mapped' for e in additional_audit),'audit_file':'3rs-epg-audit.json','unbound_reviewed_mappings':config.get('_unboundAdditionalMappings',[]),
   'policy':'Use independent playlist IDs. Exact stream duplicates may reuse primary schedules; reviewed aliases use only their approved regional sources. Unidentified/custom stations receive no guessed guide.'}
+ report['primary_source_entries']={'total':len(variant_audit),'published_eligible':len(eligible_variants),
+  'mapped':sum(e['status']=='mapped' for e in variant_audit),'unmapped':sum(e['status']!='mapped' for e in variant_audit),
+  'audit_file':'primary-source-epg-audit.json',
+  'policy':'Require an enabled catalog ID actually present in the DRM playlist. No inheritance from parent name or stream index. Unique exact URL duplicates may reuse the matching primary guide; other station variants require reviewed ID/name-bound regional mappings.'}
  (out/'epg.xml.tmp').write_bytes(xml);(out/'epg.xml.tmp').replace(out/'epg.xml');(out/'epg.xml.gz').write_bytes(gzip.compress(xml,mtime=0))
  for file,value in [('epg-status.json',report),('verification.json',report),('mapping.json',rows)]:
   (out/file).write_text(json.dumps(value,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
  (out/'3rs-epg-audit.json').write_text(json.dumps(additional_audit,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+ (out/'primary-source-epg-audit.json').write_text(json.dumps(variant_audit,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
  with (out/'mapping.csv').open('w',encoding='utf-8-sig',newline='') as f:
   writer=csv.DictWriter(f,fieldnames=[k for k in rows[0] if k!='attempts'],extrasaction='ignore');writer.writeheader();writer.writerows(rows)
  (out/'report.txt').write_text(f"Generated {now.isoformat()}\nUsable current schedules {len(stats)}/{len(channels)}; matched including unusable {matched_any}; programmes {total}\n\n"+'\n'.join(f"{r['status']}  {r['playlist_tvg_id']} <- {r['source']}:{r['source_id']}" for r in rows)+'\n',encoding='utf-8')

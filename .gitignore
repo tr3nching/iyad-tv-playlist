@@ -23,3 +23,5 @@ site/backup-candidates.m3u
 site/stream-health.json
 site/channel-numbers.json
 site/3rs-epg-audit.json
+site/primary-source-catalog.json
+site/primary-source-epg-audit.json

@@ -1,15 +1,15 @@
 #EXTM3U x-tvg-url="https://tr3nching.github.io/ph-tv-playlist/epg.xml.gz"
-#EXTINF:-1 tvg-id="additional:3rstv:f6519c3696a9" tvg-name="3RS TV [Additional]" tvg-logo="https://i.imgur.com/eSiYaLH.png" group-title="General",3RS TV [Additional]
+#EXTINF:-1 tvg-id="additional:3rstv:f6519c3696a9" tvg-name="3RS SINEPINOY" tvg-logo="https://i.imgur.com/eSiYaLH.png" group-title="Movies",3RS SINEPINOY
 https://live20.bozztv.com/giatvplayout7/giatv-210267/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="additional:3rsmovie:c9ec2881f7b9" tvg-name="3RS MOVIE" tvg-logo="https://i.ibb.co/V00d35XD/3rsmovie.png" group-title="Movies",3RS MOVIE
 https://live20.bozztv.com/giatvplayout7/giatv-210273/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="additional:stbsph:fa39162274e3" tvg-name="STBS PH" tvg-logo="https://i.imgur.com/BheM0pE.jpeg" group-title="General",STBS PH
 https://live20.bozztv.com/akamaissh101/ssh101/stbsph88/playlist.m3u8
-#EXTINF:-1 tvg-id="additional:startvphilippines:8fbad275b125" tvg-name="STAR TV PHILIPPINES [Additional]" tvg-logo="https://i.ibb.co/Swr1qc2S/Startvph.jpg" group-title="General",STAR TV PHILIPPINES [Additional]
+#EXTINF:-1 tvg-id="additional:startvphilippines:8fbad275b125" tvg-name="STAR TV PHILIPPINES *" tvg-logo="https://i.ibb.co/Swr1qc2S/Startvph.jpg" group-title="General",STAR TV PHILIPPINES *
 https://live20.bozztv.com/giatvplayout7/giatv-208168/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="additional:dreamstartv:0c2e4d169df3" tvg-name="DREAMSTAR TV" tvg-logo="https://i.ibb.co/MkV4HT2s/dreamstar.jpg" group-title="General",DREAMSTAR TV
+#EXTINF:-1 tvg-id="additional:dreamstartv:0c2e4d169df3" tvg-name="DREAMSTAR TV *" tvg-logo="https://i.ibb.co/MkV4HT2s/dreamstar.jpg" group-title="General",DREAMSTAR TV *
 https://live20.bozztv.com/giatvplayout7/giatv-10410/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="additional:stbsglobal:0913e59e62e9" tvg-name="STBS GLOBAL [Additional]" tvg-logo="https://i.imgur.com/ypDS0ue.png" group-title="General",STBS GLOBAL [Additional]
+#EXTINF:-1 tvg-id="additional:stbsglobal:0913e59e62e9" tvg-name="STBS GLOBAL *" tvg-logo="https://i.imgur.com/ypDS0ue.png" group-title="General",STBS GLOBAL *
 https://live20.bozztv.com/giatvplayout7/giatv-208591/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="additional:colorstv:83238b4a46d5" tvg-name="COLORS TV" tvg-logo="https://i.ibb.co/JTFFbFx/colors.jpg" group-title="General",COLORS TV
 https://live20.bozztv.com/giatvplayout7/giatv-210044/tracks-v1a1/mono.m3u8
@@ -21,17 +21,17 @@ https://0fj.cc/atbsglob
 https://live20.bozztv.com/akamaissh101/ssh101/hmdo/playlist.m3u8
 #EXTINF:-1 tvg-id="additional:kqtv:8caab3e06dfc" tvg-name="KQTV" tvg-logo="https://i.ibb.co/nscrX8d4/photo-6239905530931955237-m.jpg" group-title="General",KQTV
 https://0fj.cc/kqtv
-#EXTINF:-1 tvg-id="additional:cartoonchannelph:bc122d85dc87" tvg-name="Cartoon Channel PH [Additional]" tvg-logo="https://i.ibb.co/YBqwVDz0/cartoon.jpg" group-title="Kids",Cartoon Channel PH [Additional]
+#EXTINF:-1 tvg-id="additional:cartoonchannelph:bc122d85dc87" tvg-name="Cartoon Channel PH *" tvg-logo="https://i.ibb.co/YBqwVDz0/cartoon.jpg" group-title="Kids",Cartoon Channel PH *
 https://live20.bozztv.com/giatv/giatv-cartoonchannelph/cartoonchannelph/playlist.m3u8?fbclid=IwY2xjawLUcwZleHRuA2FlbQIxMQABHmoqyOYKFBG0gbhzdq8CvnpmIxcaAl5pQkixmISI0h3bFsplAwcrhWoq3TUm_aem_AtYhSrpBSpiyV2Rwtami0Q
-#EXTINF:-1 tvg-id="additional:jungopinoytv:ab3554cf6785" tvg-name="JUNGO PINOY TV" tvg-logo="https://i.ibb.co/qLPpj0yF/heart.jpg" group-title="General",JUNGO PINOY TV
+#EXTINF:-1 tvg-id="additional:jungopinoytv:ab3554cf6785" tvg-name="JUNGO PINOY TV" tvg-logo="https://i.ibb.co/qLPpj0yF/heart.jpg" group-title="Entertainment",JUNGO PINOY TV
 https://jungotvstream.chanall.tv/jungotv/jungopinoytv/stream.m3u8
-#EXTINF:-1 tvg-id="additional:hallypop:63542abeab9c" tvg-name="HALLYPOP [Additional]" tvg-logo="https://i.ibb.co/VcmNtHT3/hall.png" group-title="Music",HALLYPOP [Additional]
+#EXTINF:-1 tvg-id="additional:hallypop:63542abeab9c" tvg-name="HALLYPOP *" tvg-logo="https://i.ibb.co/VcmNtHT3/hall.png" group-title="Music",HALLYPOP *
 https://jungotvstream.chanall.tv/jungotv/hallypop/stream.m3u8
-#EXTINF:-1 tvg-id="additional:zeesine:5676c98ab9c8" tvg-name="ZEESINE" tvg-logo="https://i.ibb.co/QFK7Rw6H/zee.jpg" group-title="General",ZEESINE
+#EXTINF:-1 tvg-id="additional:zeesine:5676c98ab9c8" tvg-name="ZEESINE" tvg-logo="https://i.ibb.co/QFK7Rw6H/zee.jpg" group-title="Movies",ZEESINE
 https://amg17931-zee-amg17931c9-samsung-ph-6528.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeesine-samsungph/playlist.m3u8
-#EXTINF:-1 tvg-id="additional:dubaione:c3b98f03a874" tvg-name="DUBAI ONE" tvg-logo="https://i.imgur.com/llOJU1v.png" group-title="General",DUBAI ONE
+#EXTINF:-1 tvg-id="additional:dubaione:c3b98f03a874" tvg-name="DUBAI ONE" tvg-logo="https://i.imgur.com/llOJU1v.png" group-title="Entertainment",DUBAI ONE
 https://dminnvllta.cdn.mgmlcdn.com/dubaione/smil:dubaione.stream.smil/chunklist_b1300000.m3u8
-#EXTINF:-1 tvg-id="additional:nbatvph:13a17500cc0e" tvg-name="NBA TV PH" tvg-logo="https://i.ibb.co/RkJKpyFn/nbaph.png" group-title="General",NBA TV PH
+#EXTINF:-1 tvg-id="additional:nbatvph:13a17500cc0e" tvg-name="NBA TV PH" tvg-logo="https://i.ibb.co/RkJKpyFn/nbaph.png" group-title="Sports",NBA TV PH
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -39,17 +39,17 @@ https://dminnvllta.cdn.mgmlcdn.com/dubaione/smil:dubaione.stream.smil/chunklist_
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/pl_nba.mpd
-#EXTINF:-1 tvg-id="additional:sinemanila:729d219a4908" tvg-name="SINEMANILA [Additional]" tvg-logo="https://i.imgur.com/ExjGAzo.png" group-title="Movies",SINEMANILA [Additional]
+#EXTINF:-1 tvg-id="additional:sinemanila:729d219a4908" tvg-name="SINEMANILA *" tvg-logo="https://i.imgur.com/ExjGAzo.png" group-title="Movies",SINEMANILA *
 https://live20.bozztv.com/giatv/giatv-sinemanila/sinemanila/chunks.m3u8
 #EXTINF:-1 tvg-id="additional:ragetv:bf16b48f86ba" tvg-name="RAGE TV" tvg-logo="https://i.imgur.com/I7FemT6.png" group-title="Entertainment",RAGE TV
 https://live20.bozztv.com/giatv/giatv-ragetv/ragetv/chunks.m3u8
-#EXTINF:-1 tvg-id="additional:alltv:23f779dc8c08" tvg-name="ALL TV" tvg-logo="https://brandlogo.org/wp-content/uploads/2024/05/All-TV-Logo-300x300.png.webp" group-title="General",ALL TV
+#EXTINF:-1 tvg-id="additional:alltv:23f779dc8c08" tvg-name="ALL TV" tvg-logo="https://brandlogo.org/wp-content/uploads/2024/05/All-TV-Logo-300x300.png.webp" group-title="Entertainment",ALL TV
 https://ott.athenatv.net/stream/phcathenatv/alltv/master.m3u8?u=phc-free&p=70ebfe055fb9df4f9b91b21907a517a27f6c97076aedda2c268712ec6766bf52
-#EXTINF:-1 tvg-id="additional:gma:c75458e49931" tvg-name="GMA [Additional]" tvg-logo="https://i.imgur.com/Cu1tAY8.png" group-title="Entertainment",GMA [Additional]
+#EXTINF:-1 tvg-id="additional:gma:c75458e49931" tvg-name="GMA *" tvg-logo="https://i.imgur.com/Cu1tAY8.png" group-title="Entertainment",GMA *
 https://ott.athenatv.net/stream/phcathenatv/gma/master.m3u8?u=phc-free&p=70ebfe055fb9df4f9b91b21907a517a27f6c97076aedda2c268712ec6766bf52
-#EXTINF:-1 tvg-id="additional:gtv:cd009bcfa6d9" tvg-name="GTV [Additional]" tvg-logo="https://i.imgur.com/geuq18u.png" group-title="Entertainment",GTV [Additional]
+#EXTINF:-1 tvg-id="additional:gtv:cd009bcfa6d9" tvg-name="GTV *" tvg-logo="https://i.imgur.com/geuq18u.png" group-title="Entertainment",GTV *
 https://ott.athenatv.net/stream/phcathenatv/gtv/master.m3u8?u=phc-free&p=70ebfe055fb9df4f9b91b21907a517a27f6c97076aedda2c268712ec6766bf52
-#EXTINF:-1 tvg-id="additional:kapamilya:04ceae2ba72f" tvg-name="KAPAMILYA" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Kapamilya_Channel_Logo_2020.svg/2560px-Kapamilya_Channel_Logo_2020.svg.png" group-title="General",KAPAMILYA
+#EXTINF:-1 tvg-id="additional:kapamilya:04ceae2ba72f" tvg-name="KAPAMILYA" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Kapamilya_Channel_Logo_2020.svg/2560px-Kapamilya_Channel_Logo_2020.svg.png" group-title="Entertainment",KAPAMILYA
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -57,7 +57,7 @@ https://ott.athenatv.net/stream/phcathenatv/gtv/master.m3u8?u=phc-free&p=70ebfe0
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-kapcha-dash-abscbnono/index.mpd
-#EXTINF:-1 tvg-id="additional:a2z:9e03847018a3" tvg-name="A2Z [Additional]" tvg-logo="https://i.imgur.com/3myn4zH.png" group-title="Entertainment",A2Z [Additional]
+#EXTINF:-1 tvg-id="additional:a2z:9e03847018a3" tvg-name="A2Z *" tvg-logo="https://i.imgur.com/3myn4zH.png" group-title="Entertainment",A2Z *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -65,7 +65,7 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-kapcha-dash-abscbnono
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_a2z.mpd
-#EXTINF:-1 tvg-id="additional:rptv:f7e771646eee" tvg-name="RPTV [Additional]" tvg-logo="https://i.imgur.com/IDCHfXm.png" group-title="Entertainment",RPTV [Additional]
+#EXTINF:-1 tvg-id="additional:rptv:f7e771646eee" tvg-name="RPTV *" tvg-logo="https://i.imgur.com/IDCHfXm.png" group-title="Entertainment",RPTV *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -73,7 +73,7 @@ https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_a2z.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd
-#EXTINF:-1 tvg-id="additional:tv5:3b5c7607b1c0" tvg-name="TV5 [Additional]" tvg-logo="https://i.imgur.com/jsCBRq0.png" group-title="Entertainment",TV5 [Additional]
+#EXTINF:-1 tvg-id="additional:tv5:3b5c7607b1c0" tvg-name="TV5 *" tvg-logo="https://i.imgur.com/jsCBRq0.png" group-title="Entertainment",TV5 *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -81,11 +81,11 @@ https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_hd.mpd
-#EXTINF:-1 tvg-id="additional:heartofasia:730cfa6ec5df" tvg-name="Heart of Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Heart_of_Asia_logo.svg/400px-Heart_of_Asia_logo.svg.png" group-title="General",Heart of Asia
+#EXTINF:-1 tvg-id="additional:heartofasia:730cfa6ec5df" tvg-name="Heart of Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Heart_of_Asia_logo.svg/400px-Heart_of_Asia_logo.svg.png" group-title="Entertainment",Heart of Asia
 http://46.151.196.243/play/YrB7fdO9Q0CU-ochFdrtGDglZF6Ye4ltMh7YeAO8bq8/.m3u8
-#EXTINF:-1 tvg-id="additional:iheartmovies:b965ea9c79c7" tvg-name="iHeart Movies" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6f/Iheartmovies1.png" group-title="General",iHeart Movies
+#EXTINF:-1 tvg-id="additional:iheartmovies:b965ea9c79c7" tvg-name="iHeart Movies" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6f/Iheartmovies1.png" group-title="Movies",iHeart Movies
 https://ott.udptv.net/stream/iptv/iheartmovies/master.m3u8?u=discord.gg/civ3&p=fb3f8f99693741cbbfd578e30b02b25f056a1f0838491f6e186eb1340e3f2c13
-#EXTINF:-1 tvg-id="additional:pbarush:1796b7294731" tvg-name="PBARUSH [Additional]" tvg-logo="https://i.imgur.com/tvxCVRr.png" group-title="Sports",PBARUSH [Additional]
+#EXTINF:-1 tvg-id="additional:pbarush:1796b7294731" tvg-name="PBARUSH *" tvg-logo="https://i.imgur.com/tvxCVRr.png" group-title="Sports",PBARUSH *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -93,7 +93,7 @@ https://ott.udptv.net/stream/iptv/iheartmovies/master.m3u8?u=discord.gg/civ3&p=f
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_pbarush_hd1.mpd
-#EXTINF:-1 tvg-id="additional:oneph:5a60945755ca" tvg-name="ONEPH [Additional]" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/OnePHCignal.svg/300px-OnePHCignal.svg.png" group-title="News",ONEPH [Additional]
+#EXTINF:-1 tvg-id="additional:oneph:5a60945755ca" tvg-name="ONEPH *" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/OnePHCignal.svg/300px-OnePHCignal.svg.png" group-title="News",ONEPH *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -101,13 +101,13 @@ https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_pbarush_hd1.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/oneph_sd.mpd
-#EXTINF:-1 tvg-id="additional:jeepneytv:f37935b58879" tvg-name="JEEPNEYTV [Additional]" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Jeepney_TV_Logo_2015.svg/300px-Jeepney_TV_Logo_2015.svg.png" group-title="Entertainment",JEEPNEYTV [Additional]
+#EXTINF:-1 tvg-id="additional:jeepneytv:f37935b58879" tvg-name="JEEPNEYTV *" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Jeepney_TV_Logo_2015.svg/300px-Jeepney_TV_Logo_2015.svg.png" group-title="Entertainment",JEEPNEYTV *
 https://ott.athenatv.net/stream/phcathenatv/jeepneytv/master.m3u8?u=phc-free&p=8c43211c3fe7f44b1af3deedb89d50ecef2ee4c97eb987071fd3fea18a7b0af7
-#EXTINF:-1 tvg-id="additional:cinemo:fb72504d47ac" tvg-name="CineMo! [Additional]" tvg-logo="https://yt3.ggpht.com/a-/AAuE7mAK5lTlRJwr2rZLeitoTnOYkjForU2cvszswQ=s900-mo-c-c0xffffffff-rj-k-no" group-title="Movies",CineMo! [Additional]
+#EXTINF:-1 tvg-id="additional:cinemo:fb72504d47ac" tvg-name="CineMo! *" tvg-logo="https://yt3.ggpht.com/a-/AAuE7mAK5lTlRJwr2rZLeitoTnOYkjForU2cvszswQ=s900-mo-c-c0xffffffff-rj-k-no" group-title="Movies",CineMo! *
 https://d1bail49udbz1k.cloudfront.net/out/v1/3a895f368f4a467c9bca0962559efc19/index.mpd
-#EXTINF:-1 tvg-id="additional:cinemaone:ee3083569b6d" tvg-name="Cinema One! [Additional]" tvg-logo="https://static.wikia.nocookie.net/russel/images/9/94/Cinema_One_Logo_2020.png" group-title="Movies",Cinema One! [Additional]
+#EXTINF:-1 tvg-id="additional:cinemaone:ee3083569b6d" tvg-name="Cinema One! *" tvg-logo="https://static.wikia.nocookie.net/russel/images/9/94/Cinema_One_Logo_2020.png" group-title="Movies",Cinema One! *
 https://d9rpesrrg1bdi.cloudfront.net/out/v1/93b9db7b231d45f28f64f29b86dc6c65/index.mpd
-#EXTINF:-1 tvg-id="additional:pbo:5fde985a237e" tvg-name="PBO" tvg-logo="https://i.imgur.com/oOMAyoX.png" group-title="General",PBO
+#EXTINF:-1 tvg-id="additional:pbo:5fde985a237e" tvg-name="PBO" tvg-logo="https://i.imgur.com/oOMAyoX.png" group-title="Movies",PBO
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -115,7 +115,7 @@ https://d9rpesrrg1bdi.cloudfront.net/out/v1/93b9db7b231d45f28f64f29b86dc6c65/ind
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/pbo_sd.mpd
-#EXTINF:-1 tvg-id="additional:vivacinema:08c5a8c717c5" tvg-name="VIVACINEMA [Additional]" tvg-logo="https://th.bing.com/th/id/OIP.0RBFAFi5M4EojRsGMyb8ogHaEK?rs=1&amp;pid=ImgDetMain" group-title="Movies",VIVACINEMA [Additional]
+#EXTINF:-1 tvg-id="additional:vivacinema:08c5a8c717c5" tvg-name="VIVACINEMA *" tvg-logo="https://th.bing.com/th/id/OIP.0RBFAFi5M4EojRsGMyb8ogHaEK?rs=1&amp;pid=ImgDetMain" group-title="Movies",VIVACINEMA *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -123,7 +123,7 @@ https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/pbo_sd.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/viva_sd.mpd
-#EXTINF:-1 tvg-id="additional:cinemax:fa3647a8baa2" tvg-name="Cinemax [Additional]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/1200px-Cinemax_%28Yellow%29.svg.png" group-title="Movies",Cinemax [Additional]
+#EXTINF:-1 tvg-id="additional:cinemax:fa3647a8baa2" tvg-name="Cinemax *" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/1200px-Cinemax_%28Yellow%29.svg.png" group-title="Movies",Cinemax *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -131,9 +131,9 @@ https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/viva_sd.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_cinemax.mpd
-#EXTINF:-1 tvg-id="additional:cltv36:2fa1c383918d" tvg-name="CLTV36 [Additional]" tvg-logo="https://th.bing.com/th/id/OIP.TeH-Vo1LPvOkkVvm2KUzHgAAAA?rs=1&amp;pid=ImgDetMain" group-title="General",CLTV36 [Additional]
+#EXTINF:-1 tvg-id="additional:cltv36:2fa1c383918d" tvg-name="CLTV36 *" tvg-logo="https://th.bing.com/th/id/OIP.TeH-Vo1LPvOkkVvm2KUzHgAAAA?rs=1&amp;pid=ImgDetMain" group-title="General",CLTV36 *
 https://live.cltv36.tv:5443/LiveApp/streams/cltvlive.m3u8
-#EXTINF:-1 tvg-id="additional:tmc:c90435e9aced" tvg-name="TMC" tvg-logo="https://th.bing.com/th/id/OIP.mskveWFrbAwpq6athkC91gAAAA?rs=1&amp;pid=ImgDetMain" group-title="General",TMC
+#EXTINF:-1 tvg-id="additional:tmc:c90435e9aced" tvg-name="TMC" tvg-logo="https://th.bing.com/th/id/OIP.mskveWFrbAwpq6athkC91gAAAA?rs=1&amp;pid=ImgDetMain" group-title="Movies",TMC
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -141,7 +141,7 @@ https://live.cltv36.tv:5443/LiveApp/streams/cltvlive.m3u8
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tagalogmovie.mpd
-#EXTINF:-1 tvg-id="additional:depedchannel:738c1cf949ac" tvg-name="DepEd Channel" tvg-logo="https://th.bing.com/th/id/OIP.MPPdJ1ObiLG4Q6MFEDQ4pAHaEH?rs=1&amp;pid=ImgDetMain" group-title="General",DepEd Channel
+#EXTINF:-1 tvg-id="additional:depedchannel:738c1cf949ac" tvg-name="DepEd Channel" tvg-logo="https://th.bing.com/th/id/OIP.MPPdJ1ObiLG4Q6MFEDQ4pAHaEH?rs=1&amp;pid=ImgDetMain" group-title="Education",DepEd Channel
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -149,7 +149,7 @@ https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tagalogmovie.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/depedch_sd.mpd
-#EXTINF:-1 tvg-id="additional:axnchannel:b388de360602" tvg-name="AXN CHANNEL" tvg-logo="https://i.imgur.com/fx1Y2Eh.png" group-title="General",AXN CHANNEL
+#EXTINF:-1 tvg-id="additional:axnchannel:b388de360602" tvg-name="AXN CHANNEL" tvg-logo="https://i.imgur.com/fx1Y2Eh.png" group-title="Entertainment",AXN CHANNEL
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -157,9 +157,9 @@ https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/depedch_sd.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_axn_sd.mpd
-#EXTINF:-1 tvg-id="additional:disneychannel:2b02a611e4dd" tvg-name="Disney channel [Additional]" tvg-logo="https://i.ibb.co/rGdb9y7W/disney-channel.png" group-title="Kids",Disney channel [Additional]
+#EXTINF:-1 tvg-id="additional:disneychannel:2b02a611e4dd" tvg-name="Disney channel *" tvg-logo="https://i.ibb.co/rGdb9y7W/disney-channel.png" group-title="Kids",Disney channel *
 http://vividmedia.xyz/lovelove/lovelove/15038
-#EXTINF:-1 tvg-id="additional:dreamworkshd:168aa4ea5203" tvg-name="Dreamworks HD [Additional]" tvg-logo="https://logos-world.net/wp-content/uploads/2020/12/DreamWorks-Animation-Logo.png" group-title="Kids",Dreamworks HD [Additional]
+#EXTINF:-1 tvg-id="additional:dreamworkshd:168aa4ea5203" tvg-name="Dreamworks HD *" tvg-logo="https://logos-world.net/wp-content/uploads/2020/12/DreamWorks-Animation-Logo.png" group-title="Kids",Dreamworks HD *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -167,7 +167,7 @@ http://vividmedia.xyz/lovelove/lovelove/15038
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_dreamworks_hd1.mpd
-#EXTINF:-1 tvg-id="additional:dreamworkstagalog:331deb173577" tvg-name="Dreamworks Tagalog" tvg-logo="https://logos-world.net/wp-content/uploads/2020/12/DreamWorks-Animation-Logo.png" group-title="General",Dreamworks Tagalog
+#EXTINF:-1 tvg-id="additional:dreamworkstagalog:331deb173577" tvg-name="Dreamworks Tagalog" tvg-logo="https://logos-world.net/wp-content/uploads/2020/12/DreamWorks-Animation-Logo.png" group-title="Kids",Dreamworks Tagalog
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -175,7 +175,7 @@ https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_dreamworks_hd1.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_dreamworktag.mpd
-#EXTINF:-1 tvg-id="additional:fashiontvhd:d44435f57ded" tvg-name="Fashion TV HD [Additional]" tvg-logo="https://th.bing.com/th/id/OIP.fRG_3Wx6qmssHxgeN5leBQHaD4?rs=1&amp;pid=ImgDetMain" group-title="Lifestyle",Fashion TV HD [Additional]
+#EXTINF:-1 tvg-id="additional:fashiontvhd:d44435f57ded" tvg-name="Fashion TV HD *" tvg-logo="https://th.bing.com/th/id/OIP.fRG_3Wx6qmssHxgeN5leBQHaD4?rs=1&amp;pid=ImgDetMain" group-title="Lifestyle",Fashion TV HD *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -183,7 +183,7 @@ https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_dreamworktag.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_fashiontvhd.mpd
-#EXTINF:-1 tvg-id="additional:foodnetworkhd:f99a399f73ee" tvg-name="Food Network HD [Additional]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f9/Food_Network_New_Logo.png" group-title="Lifestyle",Food Network HD [Additional]
+#EXTINF:-1 tvg-id="additional:foodnetworkhd:f99a399f73ee" tvg-name="Food Network HD *" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f9/Food_Network_New_Logo.png" group-title="Lifestyle",Food Network HD *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -191,7 +191,7 @@ https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_fashiontvhd.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_foodnetwork_hd1.mpd
-#EXTINF:-1 tvg-id="additional:hbofamily:4f83a504b714" tvg-name="HBO Family [Additional]" tvg-logo="https://2.bp.blogspot.com/-fWMY8sHAuHs/TqB9xKDM_-I/AAAAAAAAQh0/N-fI53l9A84/s1600/hbo-family.png" group-title="Movies",HBO Family [Additional]
+#EXTINF:-1 tvg-id="additional:hbofamily:4f83a504b714" tvg-name="HBO Family *" tvg-logo="https://2.bp.blogspot.com/-fWMY8sHAuHs/TqB9xKDM_-I/AAAAAAAAQh0/N-fI53l9A84/s1600/hbo-family.png" group-title="Movies",HBO Family *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -199,7 +199,7 @@ https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_foodnetwork_hd1.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbofam.mpd
-#EXTINF:-1 tvg-id="additional:hbohits:4f9b19e92222" tvg-name="HBO Hits" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/0/04/HBO_HiTS.svg/revision/latest/scale-to-width-down/627?cb=20100511073403" group-title="General",HBO Hits
+#EXTINF:-1 tvg-id="additional:hbohits:4f9b19e92222" tvg-name="HBO Hits *" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/0/04/HBO_HiTS.svg/revision/latest/scale-to-width-down/627?cb=20100511073403" group-title="Movies",HBO Hits *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -207,7 +207,7 @@ https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbofam.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hbohits.mpd
-#EXTINF:-1 tvg-id="additional:hbosignature:f64a6b9ebb1c" tvg-name="HBO Signature [Additional]" tvg-logo="https://th.bing.com/th/id/OIP.PNeE4yWz4_Tp1O-dCdY_xAHaEP?rs=1&amp;pid=ImgDetMain" group-title="Movies",HBO Signature [Additional]
+#EXTINF:-1 tvg-id="additional:hbosignature:f64a6b9ebb1c" tvg-name="HBO Signature *" tvg-logo="https://th.bing.com/th/id/OIP.PNeE4yWz4_Tp1O-dCdY_xAHaEP?rs=1&amp;pid=ImgDetMain" group-title="Movies",HBO Signature *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -215,7 +215,7 @@ https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hbohits.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_hbosign.mpd
-#EXTINF:-1 tvg-id="additional:hbohd:c6348b1fb478" tvg-name="HBO HD" tvg-logo="https://th.bing.com/th/id/OIP.lY5V2M3D9jtBFJNbOAI8swHaDt?rs=1&amp;pid=ImgDetMain" group-title="General",HBO HD
+#EXTINF:-1 tvg-id="additional:hbohd:c6348b1fb478" tvg-name="HBO HD" tvg-logo="https://th.bing.com/th/id/OIP.lY5V2M3D9jtBFJNbOAI8swHaDt?rs=1&amp;pid=ImgDetMain" group-title="Movies",HBO HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -223,7 +223,7 @@ https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_hbosign.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbohd.mpd
-#EXTINF:-1 tvg-id="additional:hgtvhd:3995eb0f0da0" tvg-name="HGTV HD [Additional]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/05/HGTV_logo.png" group-title="Lifestyle",HGTV HD [Additional]
+#EXTINF:-1 tvg-id="additional:hgtvhd:3995eb0f0da0" tvg-name="HGTV HD *" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/05/HGTV_logo.png" group-title="Lifestyle",HGTV HD *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -231,7 +231,7 @@ https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbohd.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/hgtv_hd1.mpd
-#EXTINF:-1 tvg-id="additional:historyhd:578ea3099aa7" tvg-name="History HD [Additional]" tvg-logo="https://th.bing.com/th/id/OIP.Yx9hYOFfO03taYL2CZd6FAHaE8?rs=1&amp;pid=ImgDetMain" group-title="Documentaries",History HD [Additional]
+#EXTINF:-1 tvg-id="additional:historyhd:578ea3099aa7" tvg-name="History HD *" tvg-logo="https://th.bing.com/th/id/OIP.Yx9hYOFfO03taYL2CZd6FAHaE8?rs=1&amp;pid=ImgDetMain" group-title="Documentaries",History HD *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -239,7 +239,7 @@ https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/hgtv_hd1.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_historyhd.mpd
-#EXTINF:-1 tvg-id="additional:hitsnow:63759286423d" tvg-name="Hits Now [Additional]" tvg-logo="https://th.bing.com/th/id/OIP.cM1HO2isouoNessbj31CcgAAAA?rs=1&amp;pid=ImgDetMain" group-title="Entertainment",Hits Now [Additional]
+#EXTINF:-1 tvg-id="additional:hitsnow:63759286423d" tvg-name="Hits Now *" tvg-logo="https://th.bing.com/th/id/OIP.cM1HO2isouoNessbj31CcgAAAA?rs=1&amp;pid=ImgDetMain" group-title="Entertainment",Hits Now *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -247,7 +247,7 @@ https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_historyhd.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hitsnow.mpd
-#EXTINF:-1 tvg-id="additional:ibc13:c84c273a2918" tvg-name="IBC13 [Additional]" tvg-logo="https://th.bing.com/th/id/OIP.sJNkdFUalhzRyZT4SJ9HBAHaEc?rs=1&amp;pid=ImgDetMain" group-title="Entertainment",IBC13 [Additional]
+#EXTINF:-1 tvg-id="additional:ibc13:c84c273a2918" tvg-name="IBC13 *" tvg-logo="https://th.bing.com/th/id/OIP.sJNkdFUalhzRyZT4SJ9HBAHaEc?rs=1&amp;pid=ImgDetMain" group-title="Entertainment",IBC13 *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -255,9 +255,9 @@ https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hitsnow.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/ibc13_sd.mpd
-#EXTINF:-1 tvg-id="additional:inctv:9a55b8b0b957" tvg-name="INCTV [Additional]" tvg-logo="https://th.bing.com/th/id/OIP.MHyjJgpgcnoGypCLEIh9qAHaDH?rs=1&amp;pid=ImgDetMain" group-title="Faith",INCTV [Additional]
+#EXTINF:-1 tvg-id="additional:inctv:9a55b8b0b957" tvg-name="INCTV *" tvg-logo="https://th.bing.com/th/id/OIP.MHyjJgpgcnoGypCLEIh9qAHaDH?rs=1&amp;pid=ImgDetMain" group-title="Faith",INCTV *
 https://199211.global.ssl.fastly.net/643cc12aa824db4374021c8c/live_95f6ac80dd6511ed9d08b12be56ae55e/index.m3u8
-#EXTINF:-1 tvg-id="additional:kixhd:c1c1ade2da50" tvg-name="Kix HD [Additional]" tvg-logo="https://th.bing.com/th/id/OIP.tGUjHFJqDIFUuKfn-31TxAHaEN?rs=1&amp;pid=ImgDetMain" group-title="Entertainment",Kix HD [Additional]
+#EXTINF:-1 tvg-id="additional:kixhd:c1c1ade2da50" tvg-name="Kix HD *" tvg-logo="https://th.bing.com/th/id/OIP.tGUjHFJqDIFUuKfn-31TxAHaEN?rs=1&amp;pid=ImgDetMain" group-title="Entertainment",Kix HD *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -265,7 +265,7 @@ https://199211.global.ssl.fastly.net/643cc12aa824db4374021c8c/live_95f6ac80dd651
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/kix_hd1.mpd
-#EXTINF:-1 tvg-id="additional:knowledgechannel:2a663afdb59c" tvg-name="Knowledge Channel [Additional]" tvg-logo="https://th.bing.com/th/id/OIP.ix5ReWijxZg8uPcKrk2GHwHaGd?rs=1&amp;pid=ImgDetMain" group-title="Education",Knowledge Channel [Additional]
+#EXTINF:-1 tvg-id="additional:knowledgechannel:2a663afdb59c" tvg-name="Knowledge Channel *" tvg-logo="https://th.bing.com/th/id/OIP.ix5ReWijxZg8uPcKrk2GHwHaGd?rs=1&amp;pid=ImgDetMain" group-title="Education",Knowledge Channel *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -273,7 +273,7 @@ https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/kix_hd1.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_knowledgechannel.mpd
-#EXTINF:-1 tvg-id="additional:lifetime:795e850f8d64" tvg-name="Lifetime [Additional]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/440px-Logo_Lifetime_2020.svg.png" group-title="Entertainment",Lifetime [Additional]
+#EXTINF:-1 tvg-id="additional:lifetime:795e850f8d64" tvg-name="Lifetime *" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/440px-Logo_Lifetime_2020.svg.png" group-title="Entertainment",Lifetime *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -281,7 +281,7 @@ https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_knowledgechannel.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_lifetime.mpd
-#EXTINF:-1 tvg-id="additional:kmovies:358685e48eae" tvg-name="K-Movies" tvg-logo="https://th.bing.com/th/id/OIP.uvYKFBubGFR40NtgWh7W8wHaES?rs=1&amp;pid=ImgDetMain" group-title="General",K-Movies
+#EXTINF:-1 tvg-id="additional:kmovies:358685e48eae" tvg-name="K-Movies" tvg-logo="https://th.bing.com/th/id/OIP.uvYKFBubGFR40NtgWh7W8wHaES?rs=1&amp;pid=ImgDetMain" group-title="Movies",K-Movies
 https://7732c5436342497882363a8cd14ceff4.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Plex_NewMovies/playlist.m3u8
 #EXTINF:-1 tvg-id="additional:mptv:f83771d08cac" tvg-name="MPTV" tvg-logo="https://cms.cignal.tv/Upload/Images/MPTV%20-%20Rev.png" group-title="General",MPTV
 #KODIPROP:inputstream=inputstream.adaptive
@@ -291,9 +291,9 @@ https://7732c5436342497882363a8cd14ceff4.mediatailor.us-east-1.amazonaws.com/v1/
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_mptv.mpd
-#EXTINF:-1 tvg-id="additional:myx:6e0985ec8b81" tvg-name="MYX [Additional]" tvg-logo="https://th.bing.com/th/id/OIP.QXRmxKMS66jlGhpy5Y_o2gAAAA?rs=1&amp;pid=ImgDetMain" group-title="Music",MYX [Additional]
+#EXTINF:-1 tvg-id="additional:myx:6e0985ec8b81" tvg-name="MYX *" tvg-logo="https://th.bing.com/th/id/OIP.QXRmxKMS66jlGhpy5Y_o2gAAAA?rs=1&amp;pid=ImgDetMain" group-title="Music",MYX *
 https://myxnola-abscbn-ono.amagi.tv/index.m3u8
-#EXTINF:-1 tvg-id="additional:mtvlive:01f885411a9c" tvg-name="MTV Live" tvg-logo="https://th.bing.com/th/id/OIP.SgkTOHObei1CVSSJg_ukEgHaHa?rs=1&amp;pid=ImgDetMain" group-title="General",MTV Live
+#EXTINF:-1 tvg-id="additional:mtvlive:01f885411a9c" tvg-name="MTV Live" tvg-logo="https://th.bing.com/th/id/OIP.SgkTOHObei1CVSSJg_ukEgHaHa?rs=1&amp;pid=ImgDetMain" group-title="Music",MTV Live
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -301,7 +301,7 @@ https://myxnola-abscbn-ono.amagi.tv/index.m3u8
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://linearjitp02-playback.astro.com.my/dash-wv/linear/5014/default.mpd
-#EXTINF:-1 tvg-id="additional:nickjr:dac508d34a84" tvg-name="Nickjr [Additional]" tvg-logo="https://vignette.wikia.nocookie.net/logaekranowe/images/4/45/1024px-Nick_Jr._logo_2009.svg.png/revision/latest?cb=20180616122202&amp;path-prefix=pl" group-title="Kids",Nickjr [Additional]
+#EXTINF:-1 tvg-id="additional:nickjr:dac508d34a84" tvg-name="Nickjr *" tvg-logo="https://vignette.wikia.nocookie.net/logaekranowe/images/4/45/1024px-Nick_Jr._logo_2009.svg.png/revision/latest?cb=20180616122202&amp;path-prefix=pl" group-title="Kids",Nickjr *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -309,7 +309,7 @@ https://linearjitp02-playback.astro.com.my/dash-wv/linear/5014/default.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_nickjr.mpd
-#EXTINF:-1 tvg-id="additional:nickelodeon:2708c910abee" tvg-name="Nickelodeon [Additional]" tvg-logo="https://logos-download.com/wp-content/uploads/2016/04/Nickelodeon_logo_logotype_2.png" group-title="Kids",Nickelodeon [Additional]
+#EXTINF:-1 tvg-id="additional:nickelodeon:2708c910abee" tvg-name="Nickelodeon *" tvg-logo="https://logos-download.com/wp-content/uploads/2016/04/Nickelodeon_logo_logotype_2.png" group-title="Kids",Nickelodeon *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -317,7 +317,7 @@ https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_nickjr.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_nickelodeon.mpd
-#EXTINF:-1 tvg-id="additional:disneychannel:16b17880f5d3" tvg-name="Disney Channel [Additional]" tvg-logo="http://apkip.tv/logos/Canada/DisneyChannel.ca.png" group-title="Kids",Disney Channel [Additional]
+#EXTINF:-1 tvg-id="additional:disneychannel:16b17880f5d3" tvg-name="Disney Channel *" tvg-logo="http://apkip.tv/logos/Canada/DisneyChannel.ca.png" group-title="Kids",Disney Channel *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -325,7 +325,7 @@ https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_nickelodeon.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://a77aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/zuf794yutz/out/v1/ca3534bfe4f148298b36719204d108e0/cenc.mpd
-#EXTINF:-1 tvg-id="additional:onenewshd:c62da151d142" tvg-name="One News HD [Additional]" tvg-logo="https://th.bing.com/th/id/OIP.x5VzEESkd4_1pVGulNU43gHaGN?rs=1&amp;pid=ImgDetMain" group-title="News",One News HD [Additional]
+#EXTINF:-1 tvg-id="additional:onenewshd:c62da151d142" tvg-name="One News HD *" tvg-logo="https://th.bing.com/th/id/OIP.x5VzEESkd4_1pVGulNU43gHaGN?rs=1&amp;pid=ImgDetMain" group-title="News",One News HD *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -333,7 +333,7 @@ https://a77aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/zuf794yutz/o
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/onenews_hd1.mpd
-#EXTINF:-1 tvg-id="additional:onesports:2a5eac860dc2" tvg-name="One Sports [Additional]" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/5/56/TV5_One_Sports_Channel.png/revision/latest/scale-to-width-down/300?cb=20181221055916" group-title="Sports",One Sports [Additional]
+#EXTINF:-1 tvg-id="additional:onesports:2a5eac860dc2" tvg-name="One Sports *" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/5/56/TV5_One_Sports_Channel.png/revision/latest/scale-to-width-down/300?cb=20181221055916" group-title="Sports",One Sports *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -341,7 +341,7 @@ https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/onenews_hd1.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_onesports_hd.mpd
-#EXTINF:-1 tvg-id="additional:onesportsplushd:b2d155134e5e" tvg-name="One Sports Plus HD" tvg-logo="https://yt3.ggpht.com/a/AATXAJxL2nOhPRXCDKBEK-ccmTRM0G5r24tnVWUraw=s900-c-k-c0xffffffff-no-rj-mo" group-title="General",One Sports Plus HD
+#EXTINF:-1 tvg-id="additional:onesportsplushd:b2d155134e5e" tvg-name="One Sports Plus HD" tvg-logo="https://yt3.ggpht.com/a/AATXAJxL2nOhPRXCDKBEK-ccmTRM0G5r24tnVWUraw=s900-c-k-c0xffffffff-no-rj-mo" group-title="Sports",One Sports Plus HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -349,7 +349,7 @@ https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_onesports_hd.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_onesportsplus_hd1.mpd
-#EXTINF:-1 tvg-id="additional:premiersports:1edcfd35c652" tvg-name="Premier Sports [Additional]" tvg-logo="https://th.bing.com/th/id/OIP.UEZdJevwcZaL1qmePWjLGgHaHY?rs=1&amp;pid=ImgDetMain" group-title="Sports",Premier Sports [Additional]
+#EXTINF:-1 tvg-id="additional:premiersports:1edcfd35c652" tvg-name="Premier Sports *" tvg-logo="https://th.bing.com/th/id/OIP.UEZdJevwcZaL1qmePWjLGgHaHY?rs=1&amp;pid=ImgDetMain" group-title="Sports",Premier Sports *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -357,7 +357,7 @@ https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_onesportsplus_hd1.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_premiersports_hd1.mpd
-#EXTINF:-1 tvg-id="additional:premiertennis:d8e65b210b13" tvg-name="Premier Tennis" tvg-logo="https://th.bing.com/th/id/OIP.yd4QRZWcEgEz2T1EZv41mAAAAA?rs=1&amp;pid=ImgDetMain" group-title="General",Premier Tennis
+#EXTINF:-1 tvg-id="additional:premiertennis:d8e65b210b13" tvg-name="Premier Tennis" tvg-logo="https://th.bing.com/th/id/OIP.yd4QRZWcEgEz2T1EZv41mAAAAA?rs=1&amp;pid=ImgDetMain" group-title="Sports",Premier Tennis
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -365,7 +365,7 @@ https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_premiersports_hd1.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_premiertennishd.mpd
-#EXTINF:-1 tvg-id="additional:ptv4:4ba3f8a35fa3" tvg-name="PTV4" tvg-logo="https://media.philstar.com/images/articles/ptv4_2018-06-14_11-27-10.jpg" group-title="General",PTV4
+#EXTINF:-1 tvg-id="additional:ptv4:4ba3f8a35fa3" tvg-name="PTV4" tvg-logo="https://media.philstar.com/images/articles/ptv4_2018-06-14_11-27-10.jpg" group-title="News",PTV4
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -373,7 +373,7 @@ https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_premiertennishd.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_ptv4_sd.mpd
-#EXTINF:-1 tvg-id="additional:sarisari:b8477569b88a" tvg-name="SARISARI" tvg-logo="https://vignette1.wikia.nocookie.net/logopedia/images/3/3e/Sari-Sari_alternate_Logo.PNG/revision/latest?cb=20160619031101" group-title="General",SARISARI
+#EXTINF:-1 tvg-id="additional:sarisari:b8477569b88a" tvg-name="SARISARI" tvg-logo="https://vignette1.wikia.nocookie.net/logopedia/images/3/3e/Sari-Sari_alternate_Logo.PNG/revision/latest?cb=20160619031101" group-title="Entertainment",SARISARI
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -381,9 +381,9 @@ https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/cg_ptv4_sd.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_sari_sari_sd.mpd
-#EXTINF:-1 tvg-id="additional:sonypix:eeb12fb019d6" tvg-name="Sony Pix [Additional]" tvg-logo="https://i.ibb.co/5xcyhF8w/sony.png" group-title="Movies",Sony Pix [Additional]
+#EXTINF:-1 tvg-id="additional:sonypix:eeb12fb019d6" tvg-name="Sony Pix *" tvg-logo="https://i.ibb.co/5xcyhF8w/sony.png" group-title="Movies",Sony Pix *
 https://tataplay.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8
-#EXTINF:-1 tvg-id="additional:spotv:2ea47402a32a" tvg-name="SPOTV [Additional]" tvg-logo="https://uploads-sportbusiness.imgix.net/uploads/2021/09/SPOTV_LOGO-01-w-2.png?auto=compress,format&amp;crop=faces,entropy,edges&amp;fit=crop&amp;w=620&amp;h=227" group-title="Sports",SPOTV [Additional]
+#EXTINF:-1 tvg-id="additional:spotv:2ea47402a32a" tvg-name="SPOTV *" tvg-logo="https://uploads-sportbusiness.imgix.net/uploads/2021/09/SPOTV_LOGO-01-w-2.png?auto=compress,format&amp;crop=faces,entropy,edges&amp;fit=crop&amp;w=620&amp;h=227" group-title="Sports",SPOTV *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -391,7 +391,7 @@ https://tataplay.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd
-#EXTINF:-1 tvg-id="additional:spotv2:7770fe46b3bf" tvg-name="SPOTV2" tvg-logo="https://cms.dmpcdn.com/livetv/2023/02/06/00d2eb00-a5c0-11ed-a358-099f80363291_webp_original.png" group-title="General",SPOTV2
+#EXTINF:-1 tvg-id="additional:spotv2:7770fe46b3bf" tvg-name="SPOTV2" tvg-logo="https://cms.dmpcdn.com/livetv/2023/02/06/00d2eb00-a5c0-11ed-a358-099f80363291_webp_original.png" group-title="Sports",SPOTV2
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -399,7 +399,7 @@ https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
-#EXTINF:-1 tvg-id="additional:tapedge:0e46dde847c5" tvg-name="TAP Edge [Additional]" tvg-logo="https://th.bing.com/th/id/R.e3f73d11a9d3f540cb5b43419d29a84a?rik=B20sUS1KhrTh1A&amp;riu=http%3a%2f%2fwww.tapdmv.com%2flogo-tapEDGE-2021.png&amp;ehk=uuGQFPGGgIAxHZQZXHp1uSi3q7BZsuUMVaydH%2fuxv4k%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" group-title="Entertainment",TAP Edge [Additional]
+#EXTINF:-1 tvg-id="additional:tapedge:0e46dde847c5" tvg-name="TAP Edge *" tvg-logo="https://th.bing.com/th/id/R.e3f73d11a9d3f540cb5b43419d29a84a?rik=B20sUS1KhrTh1A&amp;riu=http%3a%2f%2fwww.tapdmv.com%2flogo-tapEDGE-2021.png&amp;ehk=uuGQFPGGgIAxHZQZXHp1uSi3q7BZsuUMVaydH%2fuxv4k%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" group-title="Entertainment",TAP Edge *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -407,7 +407,7 @@ https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_tapedge.mpd
-#EXTINF:-1 tvg-id="additional:tapsports:98594b84f55c" tvg-name="TAP Sports [Additional]" tvg-logo="https://tapdmv.com/logo-tapSPORTS-2021.png" group-title="Sports",TAP Sports [Additional]
+#EXTINF:-1 tvg-id="additional:tapsports:98594b84f55c" tvg-name="TAP Sports *" tvg-logo="https://tapdmv.com/logo-tapSPORTS-2021.png" group-title="Sports",TAP Sports *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -415,7 +415,7 @@ https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_tapedge.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tapsports.mpd
-#EXTINF:-1 tvg-id="additional:tapmovies:55fbfe108561" tvg-name="Tap Movies [Additional]" tvg-logo="https://cms.cignal.tv/Upload/Images/Tap-movies.jpg" group-title="Movies",Tap Movies [Additional]
+#EXTINF:-1 tvg-id="additional:tapmovies:55fbfe108561" tvg-name="Tap Movies *" tvg-logo="https://cms.cignal.tv/Upload/Images/Tap-movies.jpg" group-title="Movies",Tap Movies *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -423,7 +423,7 @@ https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tapsports.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_popupppvhd.mpd
-#EXTINF:-1 tvg-id="additional:taptv:cd070843b415" tvg-name="TAP TV [Additional]" tvg-logo="https://th.bing.com/th/id/R.ed7c5876b12bdcc4e442371ea09b1e72?rik=opVp7WMJKwNBbQ&amp;riu=http%3a%2f%2fwww.tapdmv.com%2flogo-TapTV.png&amp;ehk=3cu7Z9MkvL2T8pyV7X25sD7xOTlZilwPp4FQ17uRoqc%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" group-title="Entertainment",TAP TV [Additional]
+#EXTINF:-1 tvg-id="additional:taptv:cd070843b415" tvg-name="TAP TV *" tvg-logo="https://th.bing.com/th/id/R.ed7c5876b12bdcc4e442371ea09b1e72?rik=opVp7WMJKwNBbQ&amp;riu=http%3a%2f%2fwww.tapdmv.com%2flogo-TapTV.png&amp;ehk=3cu7Z9MkvL2T8pyV7X25sD7xOTlZilwPp4FQ17uRoqc%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" group-title="Entertainment",TAP TV *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -431,7 +431,7 @@ https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_popupppvhd.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_taptv_sd.mpd
-#EXTINF:-1 tvg-id="additional:tapactionflix:eaa46b684586" tvg-name="Tap Action Flix [Additional]" tvg-logo="https://tapdmv.ovationproductionsmanila.com/logo-TapActionFlix-2021-B.png" group-title="Movies",Tap Action Flix [Additional]
+#EXTINF:-1 tvg-id="additional:tapactionflix:eaa46b684586" tvg-name="Tap Action Flix *" tvg-logo="https://tapdmv.ovationproductionsmanila.com/logo-TapActionFlix-2021-B.png" group-title="Movies",Tap Action Flix *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -439,7 +439,7 @@ https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_taptv_sd.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_tapactionflix_hd1.mpd
-#EXTINF:-1 tvg-id="additional:teleradyo:995fd47df709" tvg-name="Teleradyo" tvg-logo="https://www.logo.wine/a/logo/DZMM_TeleRadyo/DZMM_TeleRadyo-Logo.wine.svg" group-title="General",Teleradyo
+#EXTINF:-1 tvg-id="additional:teleradyo:995fd47df709" tvg-name="Teleradyo" tvg-logo="https://www.logo.wine/a/logo/DZMM_TeleRadyo/DZMM_TeleRadyo-Logo.wine.svg" group-title="News",Teleradyo
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -447,7 +447,7 @@ https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_tapactionflix_hd1.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-teleradyo-dash-abscbnono/index.mpd
-#EXTINF:-1 tvg-id="additional:thrill:d2cf308ea159" tvg-name="Thrill [Additional]" tvg-logo="https://th.bing.com/th/id/R.599bb5da89f5f34c975a72e4225e3085?rik=emhyOV9pEqLZSg&amp;riu=http%3a%2f%2fimg2.wikia.nocookie.net%2f__cb20140607175204%2flogopedia%2fimages%2fa%2fa0%2fThrill_logo.jpg&amp;ehk=4VBdq8tPkXPyOBD6rgb8hSXsKSpAfov9f%2fKIgNchpv4%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" group-title="Movies",Thrill [Additional]
+#EXTINF:-1 tvg-id="additional:thrill:d2cf308ea159" tvg-name="Thrill *" tvg-logo="https://th.bing.com/th/id/R.599bb5da89f5f34c975a72e4225e3085?rik=emhyOV9pEqLZSg&amp;riu=http%3a%2f%2fimg2.wikia.nocookie.net%2f__cb20140607175204%2flogopedia%2fimages%2fa%2fa0%2fThrill_logo.jpg&amp;ehk=4VBdq8tPkXPyOBD6rgb8hSXsKSpAfov9f%2fKIgNchpv4%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" group-title="Movies",Thrill *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -455,7 +455,7 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-teleradyo-dash-abscbn
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_thrill_sd.mpd
-#EXTINF:-1 tvg-id="additional:travelchannel:a37f42e80c68" tvg-name="Travel Channel [Additional]" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2018_Travel_Channel_logo.svg/1200px-2018_Travel_Channel_logo.svg.png" group-title="Lifestyle",Travel Channel [Additional]
+#EXTINF:-1 tvg-id="additional:travelchannel:a37f42e80c68" tvg-name="Travel Channel *" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2018_Travel_Channel_logo.svg/1200px-2018_Travel_Channel_logo.svg.png" group-title="Lifestyle",Travel Channel *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -463,7 +463,7 @@ https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_thrill_sd.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/travel_channel_sd.mpd
-#EXTINF:-1 tvg-id="additional:rockaction:37e248a0d21d" tvg-name="ROCK ACTION [Additional]" tvg-logo="https://i.imgur.com/bnrQIgB.png" group-title="Movies",ROCK ACTION [Additional]
+#EXTINF:-1 tvg-id="additional:rockaction:37e248a0d21d" tvg-name="ROCK ACTION *" tvg-logo="https://i.imgur.com/bnrQIgB.png" group-title="Movies",ROCK ACTION *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -471,7 +471,7 @@ https://qp-pldt-live-grp-08-prod.akamaized.net/out/u/travel_channel_sd.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_rockextreme.mpd
-#EXTINF:-1 tvg-id="additional:rockentertaiment:385545ffaa8b" tvg-name="ROCK ENTERTAIMENT" tvg-logo="https://i.imgur.com/U8IxzwO.png" group-title="General",ROCK ENTERTAIMENT
+#EXTINF:-1 tvg-id="additional:rockentertaiment:385545ffaa8b" tvg-name="ROCK ENTERTAIMENT" tvg-logo="https://i.imgur.com/U8IxzwO.png" group-title="Entertainment",ROCK ENTERTAIMENT
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -479,7 +479,7 @@ https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_rockextreme.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_rockentertainment.mpd
-#EXTINF:-1 tvg-id="additional:tvnmovies:69d9d2f0fc19" tvg-name="TVN Movies [Additional]" tvg-logo="https://yt3.ggpht.com/a/AATXAJy1C8c3pOmn9lAsPovaRcKqIvw2OAAfHK-HtA=s900-c-k-c0xffffffff-no-rj-mo" group-title="Movies",TVN Movies [Additional]
+#EXTINF:-1 tvg-id="additional:tvnmovies:69d9d2f0fc19" tvg-name="TVN Movies *" tvg-logo="https://yt3.ggpht.com/a/AATXAJy1C8c3pOmn9lAsPovaRcKqIvw2OAAfHK-HtA=s900-c-k-c0xffffffff-no-rj-mo" group-title="Movies",TVN Movies *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -487,7 +487,7 @@ https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_rockentertainment.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tvnmovie.mpd
-#EXTINF:-1 tvg-id="additional:tvn:7c6903afcb38" tvg-name="TVN [Additional]" tvg-logo="https://s3.amazonaws.com/ivacy-website-images/wp-content/uploads/2020/01/19140041/1200px-Logo_tvN.svg_-1024x406.png" group-title="Entertainment",TVN [Additional]
+#EXTINF:-1 tvg-id="additional:tvn:7c6903afcb38" tvg-name="TVN *" tvg-logo="https://s3.amazonaws.com/ivacy-website-images/wp-content/uploads/2020/01/19140041/1200px-Logo_tvN.svg_-1024x406.png" group-title="Entertainment",TVN *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -495,7 +495,7 @@ https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tvnmovie.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_tvnpre.mpd
-#EXTINF:-1 tvg-id="additional:uaapvarsity:ba264d7ab0dd" tvg-name="UAAP Varsity [Additional]" tvg-logo="https://th.bing.com/th/id/OIP.lHehlIBc-0nftDyZSjNqJQHaEK?rs=1&amp;pid=ImgDetMain" group-title="Sports",UAAP Varsity [Additional]
+#EXTINF:-1 tvg-id="additional:uaapvarsity:ba264d7ab0dd" tvg-name="UAAP Varsity *" tvg-logo="https://th.bing.com/th/id/OIP.lHehlIBc-0nftDyZSjNqJQHaEK?rs=1&amp;pid=ImgDetMain" group-title="Sports",UAAP Varsity *
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey

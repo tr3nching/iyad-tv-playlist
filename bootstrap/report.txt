@@ -1,23 +1,23 @@
-Generated 2026-11-06T20:25:17.904515+00:00
-Usable current schedules 170/248; matched including unusable 186; programmes 16553
+Generated 2026-11-07T00:47:30.746646+00:00
+Usable current schedules 216/571; matched including unusable 270; programmes 19049
 
 no matching source listings  3RSTV <- :
 no usable current schedule  TV5 <- :
 no usable current schedule  A2Z <- :
 no matching source listings  Abante Radyo <- :
 mapped  ABC Australia <- PH2:ABC.Australia.ph
-mapped  Adventure Earth <- SAMSUNG:GBBC900015D3
+no usable current schedule  Adventure Earth <- :
 no matching source listings  ALIW23 <- :
 mapped  Al Jazeera <- PH2:Al.Jazeera.ph
 mapped  Aliwko <- PLEX1:plex.tv.Aliwko.plex
 no matching source listings  ALLTV2 <- :
 mapped  AMC+ <- US2:AMC+.us2
-mapped  ANC <- pw:484102
-mapped  Animax <- pw:484100
+no usable current schedule  ANC <- :
+mapped  Animax <- HK1:Animax.hk
 mapped  Aniplus <- SG1:ANIPLUS.HD.sg
 mapped  Animal Planet <- SG1:Animal.Planet.(HD).sg
 mapped  amasian tv Anime 24/7 <- PLEXMJH:6a1610bebdf296985fd95603-6838eb6a38304666c89d4e3d
-mapped  Anime All Day <- SAMSUNG:USAJ3504502A
+no usable current schedule  Anime All Day <- :
 mapped  Filmrise Anime <- PLEX1:plex.tv.FilmRise.Anime.plex
 mapped  Anime by Pluto <- PLUTO:5dcde17bf6591d0009839e02
 mapped  Anime x Hidive <- PLEX1:plex.tv.ANIME.x.HIDIVE.plex
@@ -25,7 +25,7 @@ mapped  Arirang <- PH2:Arirang.ph
 mapped  Asian Crush <- PLEX1:plex.tv.AsianCrush.plex
 mapped  Asian Food Network <- HK1:Asian.Food.Network.hk
 no matching source listings  AVL TV <- :
-mapped  AXN <- pw:484096
+mapped  AXN <- HK1:AXN.hk
 mapped  BBC CBeebies <- SG1:CBeebies.(HD).sg
 no matching source listings  PBB Collab 3.0 <- :
 mapped  BBC Earth <- PH2:BBC.Earth.HD.ph
@@ -47,7 +47,7 @@ mapped  Celestial Classic Movies <- MY1:Celestial.Classic.Movies.my
 no matching source listings  Celestial Movies Pinoy <- :
 mapped  CGTN Documentary <- SG1:CGTN-Documentary.sg
 mapped  Channel News Asia <- PH2:CNA.ph
-mapped  CinemaOne <- pw:575523
+no usable current schedule  CinemaOne <- :
 no matching source listings  CineMo! <- :
 mapped  Cinemax <- SG1:CINEMAX.(HD).sg
 no matching source listings  CLTV36 <- :
@@ -55,7 +55,7 @@ mapped  CNBC <- SG1:CNBC.Asia.sg
 mapped  CNN HD <- PH2:CNN.HD.ph
 mapped  Comedy Central <- UK1:ComedyCentral.uk
 mapped  Concert Channel <- PLUTO:6868152657543d1f8be4ece3
-mapped  CRIME INVESTIGATION <- pw:484093
+mapped  CRIME INVESTIGATION <- HK1:Crime.+.Investigation.hk
 mapped  Crunchyroll <- PLEX1:plex.tv.Crunchyroll.plex
 mapped  Curiosity Now <- US2:Curiosity.NOW.us2
 mapped  Danger TV <- US2:DangerTV.us2
@@ -76,7 +76,7 @@ no matching source listings  DZRH TV <- :
 mapped  ESPN <- AU1:ESPN.au
 no matching source listings  EDGE SPORT <- :
 mapped  Euro News. <- HK1:euronews.hk
-mapped  Evolution Earth <- SAMSUNG:CA900003IF
+no usable current schedule  Evolution Earth <- :
 mapped  EWTN <- IE1:EWTN.ie
 mapped  FailArmy <- PLEX1:plex.tv.FailArmy.plex
 mapped  Fashion TV HD <- PH2:Fashion.TV.HD.ph
@@ -117,12 +117,12 @@ no matching source listings  Hope Channel PH <- :
 no matching source listings  HypeTV <- :
 no usable current schedule  IBC13 <- :
 no matching source listings  INCTV <- :
-mapped  InWonder <- AU1:InWonder.au
+mapped  InWonder <- PLEX1:plex.tv.INWONDER.plex
 mapped  ION <- US2:ION.Television.HD.us2
-mapped  Jeepney TV <- pw:484097
+no usable current schedule  Jeepney TV <- :
 mapped  Just for Laughs Gags <- PLEX1:plex.tv.Just.For.Laughs.Gags.plex
-mapped  Kapamilya Channel <- pw:575514
-mapped  Kapamilya Channel HD <- pw:575514
+no usable current schedule  Kapamilya Channel <- :
+no usable current schedule  Kapamilya Channel HD <- :
 mapped  Kartoon Channel <- US2:Kartoon.Channel.us2
 mapped  KBS World <- HK1:KBS.World.hk
 mapped  Kidsflix <- PLEX1:plex.tv.KidsFlix.plex
@@ -160,7 +160,7 @@ mapped  NBA TV <- US2:NBA.TV.HD.us2
 mapped  NBA TV Philippines <- PH2:NBA.TV.Philippines.ph
 mapped  NCAA NXT <- PH2:NCAA.NXT.ph
 mapped  New KMovies <- PLEX1:plex.tv.NEW.K.MOVIES.plex
-mapped  Net25 <- pw:484098
+no usable current schedule  Net25 <- :
 mapped  NHK World Japan <- PH2:NHK.World.Japan.ph
 mapped  Nickjr <- SG1:Nick.Jr..sg
 mapped  Nickelodeon <- PH2:Nickelodeon.SD.ph
@@ -204,7 +204,7 @@ mapped  STAR Movies HD <- IN4:STAR.MOVIES.HD.in
 mapped  STAR Movies Select HD <- IN4:STAR.MOVIES.SELECT.in
 no matching source listings  Star TV Philippines <- :
 no matching source listings  STBS Global <- :
-mapped  SYFY <- US2:Syfy.HD.us2
+no matching source listings  Sci Fi <- :
 mapped  STARZ <- US2:Starz.HD.us2
 mapped  Studio Universal <- PH2:STUDIOUNIVERSAL.ph
 no usable current schedule  Tagalized Movie Channel <- :
@@ -240,12 +240,335 @@ mapped  USA Today <- PLEX1:plex.tv.USA.TODAY.plex
 mapped  VEVO <- US2:Vevo.Pop.us2
 no usable current schedule  VIVA Cinema <- :
 mapped  Warner TV <- TH1:Warner.TV.th
-mapped  Wild Planet <- SAMSUNG:GBBB5000002PL
+no usable current schedule  Wild Planet <- :
 no usable current schedule  World Poker Tour <- :
 mapped  WWE <- US2:WWE.Network.us2
 no usable current schedule  XFC TV <- :
 mapped  Xite Hits <- PLEX1:plex.tv.XITE.Hits.plex
 mapped  Yes Network <- US2:Yes.Network.us2
 no matching source listings  Z One <- :
-no matching source listings  3RS MOVIE <- :
-no matching source listings  RAGE TV <- :
+no reviewed station/regional identity  additional:3rstv:f6519c3696a9 <- :
+no reviewed station/regional identity  additional:3rsmovie:c9ec2881f7b9 <- :
+no reviewed station/regional identity  additional:stbsph:fa39162274e3 <- :
+exact duplicate primary has no usable guide  additional:startvphilippines:8fbad275b125 <- :
+no reviewed station/regional identity  additional:dreamstartv:0c2e4d169df3 <- :
+exact duplicate primary has no usable guide  additional:stbsglobal:0913e59e62e9 <- :
+no reviewed station/regional identity  additional:colorstv:83238b4a46d5 <- :
+no reviewed station/regional identity  additional:startimesphilippines:acd3185d4da9 <- :
+no reviewed station/regional identity  additional:atbs:de1d62bbdf14 <- :
+no reviewed station/regional identity  additional:pinastv:89fae9cce5b1 <- :
+no reviewed station/regional identity  additional:kqtv:8caab3e06dfc <- :
+no reviewed station/regional identity  additional:cartoonchannelph:bc122d85dc87 <- :
+no reviewed station/regional identity  additional:jungopinoytv:ab3554cf6785 <- :
+no reviewed station/regional identity  additional:hallypop:63542abeab9c <- :
+no reviewed station/regional identity  additional:zeesine:5676c98ab9c8 <- :
+no reviewed station/regional identity  additional:dubaione:c3b98f03a874 <- :
+mapped  additional:nbatvph:13a17500cc0e <- PH2:NBA.TV.Philippines.ph
+no reviewed station/regional identity  additional:sinemanila:729d219a4908 <- :
+no reviewed station/regional identity  additional:ragetv:bf16b48f86ba <- :
+no reviewed station/regional identity  additional:alltv:23f779dc8c08 <- :
+reviewed identity has no usable current source listings  additional:gma:c75458e49931 <- :
+reviewed identity has no usable current source listings  additional:gtv:cd009bcfa6d9 <- :
+exact duplicate primary has no usable guide  additional:kapamilya:04ceae2ba72f <- :
+reviewed identity has no usable current source listings  additional:a2z:9e03847018a3 <- :
+mapped  additional:rptv:f7e771646eee <- PH2:RPTV.HD.ph
+reviewed identity has no usable current source listings  additional:tv5:3b5c7607b1c0 <- :
+no reviewed station/regional identity  additional:heartofasia:730cfa6ec5df <- :
+no reviewed station/regional identity  additional:iheartmovies:b965ea9c79c7 <- :
+reviewed identity has no usable current source listings  additional:pbarush:1796b7294731 <- :
+mapped  additional:oneph:5a60945755ca <- PH2:One.PH.ph
+reviewed identity has no usable current source listings  additional:jeepneytv:f37935b58879 <- :
+reviewed identity has no usable current source listings  additional:cinemo:fb72504d47ac <- :
+reviewed identity has no usable current source listings  additional:cinemaone:ee3083569b6d <- :
+reviewed identity has no usable current source listings  additional:pbo:5fde985a237e <- :
+reviewed identity has no usable current source listings  additional:vivacinema:08c5a8c717c5 <- :
+reviewed identity has no usable current source listings  additional:cinemax:fa3647a8baa2 <- :
+exact duplicate primary has no usable guide  additional:cltv36:2fa1c383918d <- :
+reviewed identity has no usable current source listings  additional:tmc:c90435e9aced <- :
+reviewed identity has no usable current source listings  additional:depedchannel:738c1cf949ac <- :
+mapped  additional:axnchannel:b388de360602 <- MEDIAQUEST:cg_axn_sd
+no reviewed station/regional identity  additional:disneychannel:2b02a611e4dd <- :
+mapped  additional:dreamworkshd:168aa4ea5203 <- PH2:DreamWorks.HD.ph
+mapped  additional:dreamworkstagalog:331deb173577 <- PH2:DreamWorks.(Tagalized).ph
+mapped  additional:fashiontvhd:d44435f57ded <- PH2:Fashion.TV.HD.ph
+reviewed identity has no usable current source listings  additional:foodnetworkhd:f99a399f73ee <- :
+reviewed identity has no usable current source listings  additional:hbofamily:4f83a504b714 <- :
+reviewed identity has no usable current source listings  additional:hbohits:4f9b19e92222 <- :
+reviewed identity has no usable current source listings  additional:hbosignature:f64a6b9ebb1c <- :
+reviewed identity has no usable current source listings  additional:hbohd:c6348b1fb478 <- :
+reviewed identity has no usable current source listings  additional:hgtvhd:3995eb0f0da0 <- :
+mapped  additional:historyhd:578ea3099aa7 <- PH2:History.HD.ph
+mapped  additional:hitsnow:63759286423d <- PH2:HITS.NOW.ph
+reviewed identity has no usable current source listings  additional:ibc13:c84c273a2918 <- :
+reviewed identity has no usable current source listings  additional:inctv:9a55b8b0b957 <- :
+reviewed identity has no usable current source listings  additional:kixhd:c1c1ade2da50 <- :
+mapped  additional:knowledgechannel:2a663afdb59c <- PH2:Knowledge.Channel.ph
+mapped  additional:lifetime:795e850f8d64 <- PH2:Lifetime.SD.ph
+no reviewed station/regional identity  additional:kmovies:358685e48eae <- :
+reviewed identity has no usable current source listings  additional:mptv:f83771d08cac <- :
+no reviewed station/regional identity  additional:myx:6e0985ec8b81 <- :
+reviewed identity has no usable current source listings  additional:mtvlive:01f885411a9c <- :
+reviewed identity has no usable current source listings  additional:nickjr:dac508d34a84 <- :
+mapped  additional:nickelodeon:2708c910abee <- PH2:Nickelodeon.SD.ph
+no reviewed station/regional identity  additional:disneychannel:16b17880f5d3 <- :
+mapped  additional:onenewshd:c62da151d142 <- PH2:One.News.ph
+mapped  additional:onesports:2a5eac860dc2 <- PH2:One.Sports.HD.ph
+mapped  additional:onesportsplushd:b2d155134e5e <- PH2:One.Sports+.ph
+mapped  additional:premiersports:1edcfd35c652 <- PH2:Premier.Sports.HD.ph
+no reviewed station/regional identity  additional:premiertennis:d8e65b210b13 <- :
+reviewed identity has no usable current source listings  additional:ptv4:4ba3f8a35fa3 <- :
+no reviewed station/regional identity  additional:sarisari:b8477569b88a <- :
+mapped  additional:sonypix:eeb12fb019d6 <- IN4:SONY.PIX.in
+reviewed identity has no usable current source listings  additional:spotv:2ea47402a32a <- :
+mapped  additional:spotv2:7770fe46b3bf <- PH2:SPOTV.2.HD.ph
+reviewed identity has no usable current source listings  additional:tapedge:0e46dde847c5 <- :
+mapped  additional:tapsports:98594b84f55c <- PH2:Tap.Sports.ph
+mapped  additional:tapmovies:55fbfe108561 <- PH2:TAP.Movies.HD.ph
+reviewed identity has no usable current source listings  additional:taptv:cd070843b415 <- :
+reviewed identity has no usable current source listings  additional:tapactionflix:eaa46b684586 <- :
+exact duplicate primary has no usable guide  additional:teleradyo:995fd47df709 <- :
+reviewed identity has no usable current source listings  additional:thrill:d2cf308ea159 <- :
+reviewed identity has no usable current source listings  additional:travelchannel:a37f42e80c68 <- :
+mapped  additional:rockaction:37e248a0d21d <- PH2:Rock.Action.ph
+mapped  additional:rockentertaiment:385545ffaa8b <- MEDIAQUEST:dr_rockentertainment
+mapped  additional:tvnmovies:69d9d2f0fc19 <- PH2:tvN.Movies.Pinoy.ph
+mapped  additional:tvn:7c6903afcb38 <- PH2:tvN.Premium.HD.ph
+mapped  additional:uaapvarsity:ba264d7ab0dd <- PH2:UAAP.Varsity.Channel.ph
+no reviewed station/regional identity  primary-source:3rstv:1 <- :
+no reviewed station/regional identity  primary-source:tv5:1 <- :
+mapped  primary-source:tv5:3 <- PH2:Kapatid.Channel.ph
+no reviewed station/regional identity  primary-source:tv5:4 <- :
+no reviewed station/regional identity  primary-source:a2z:1 <- :
+no reviewed station/regional identity  primary-source:abanteradyo:1 <- :
+no reviewed station/regional identity  primary-source:abcaustralia:2 <- :
+no reviewed station/regional identity  primary-source:abcaustralia:3 <- :
+no reviewed station/regional identity  primary-source:aljazeera:1 <- :
+no reviewed station/regional identity  primary-source:alltv2:1 <- :
+no reviewed station/regional identity  primary-source:amc:1 <- :
+no reviewed station/regional identity  primary-source:amc:2 <- :
+no reviewed station/regional identity  primary-source:amc:3 <- :
+no reviewed station/regional identity  primary-source:animax:2 <- :
+no reviewed station/regional identity  primary-source:animalplanet:2 <- :
+mapped  primary-source:animebypluto:1 <- PLUTO:67ed8f7e443f0671bc2b2368
+mapped  primary-source:animebypluto:2 <- PLUTO:696997049889f8db34c936c2
+mapped  primary-source:animebypluto:3 <- PLUTO:67c63b90a20c0399a381b816
+mapped  primary-source:animebypluto:4 <- PLUTO:5da0c85bd2c9c10009370984
+reviewed identity has no usable current source listings  primary-source:animebypluto:5 <- :
+mapped  primary-source:animebypluto:6 <- PLUTO:637e55347427a40007fac703
+no reviewed station/regional identity  primary-source:arirang:1 <- :
+no reviewed station/regional identity  primary-source:axn:1 <- :
+no reviewed station/regional identity  primary-source:axn:2 <- :
+no reviewed station/regional identity  primary-source:pbbcollab30:1 <- :
+no reviewed station/regional identity  primary-source:pbbcollab30:3 <- :
+no reviewed station/regional identity  primary-source:pbbcollab30:4 <- :
+no reviewed station/regional identity  primary-source:bbclifestyle:1 <- :
+mapped  primary-source:bbcnews:1 <- PH2:BBC.News.ph
+no reviewed station/regional identity  primary-source:beinsports:1 <- :
+no reviewed station/regional identity  primary-source:beinsports:2 <- :
+no reviewed station/regional identity  primary-source:beinsports:3 <- :
+no reviewed station/regional identity  primary-source:beinsports:4 <- :
+no reviewed station/regional identity  primary-source:bilyonaryo:1 <- :
+no reviewed station/regional identity  primary-source:bloomberg:1 <- :
+no reviewed station/regional identity  primary-source:bs10moreconvergechannels:1 <- :
+no reviewed station/regional identity  primary-source:bs10moreconvergechannels:2 <- :
+no reviewed station/regional identity  primary-source:bs10moreconvergechannels:3 <- :
+no reviewed station/regional identity  primary-source:bs10moreconvergechannels:4 <- :
+no reviewed station/regional identity  primary-source:bs10moreconvergechannels:5 <- :
+no reviewed station/regional identity  primary-source:bs10moreconvergechannels:6 <- :
+no reviewed station/regional identity  primary-source:bs10moreconvergechannels:7 <- :
+no reviewed station/regional identity  primary-source:bs10moreconvergechannels:8 <- :
+no reviewed station/regional identity  primary-source:bs10moreconvergechannels:9 <- :
+no reviewed station/regional identity  primary-source:bs10moreconvergechannels:10 <- :
+no reviewed station/regional identity  primary-source:bs10moreconvergechannels:11 <- :
+no reviewed station/regional identity  primary-source:bs10moreconvergechannels:12 <- :
+no reviewed station/regional identity  primary-source:bs10moreconvergechannels:13 <- :
+no reviewed station/regional identity  primary-source:cartoonito:1 <- :
+no reviewed station/regional identity  primary-source:cartoonnetwork:1 <- :
+no reviewed station/regional identity  primary-source:cartoonnetwork:2 <- :
+no reviewed station/regional identity  primary-source:cartoonnetwork:3 <- :
+no reviewed station/regional identity  primary-source:cartoonnetwork:4 <- :
+no reviewed station/regional identity  primary-source:cctv4:1 <- :
+no reviewed station/regional identity  primary-source:cgtndocumentary:2 <- :
+reviewed identity has no usable current source listings  primary-source:cinemaone:1 <- :
+no reviewed station/regional identity  primary-source:cinemaone:2 <- :
+no reviewed station/regional identity  primary-source:cinemaone:3 <- :
+no reviewed station/regional identity  primary-source:cinemo:1 <- :
+reviewed identity has no usable current source listings  primary-source:cinemo:3 <- :
+no reviewed station/regional identity  primary-source:cinemo:4 <- :
+no reviewed station/regional identity  primary-source:cinemax:1 <- :
+no reviewed station/regional identity  primary-source:cltv36:1 <- :
+no reviewed station/regional identity  primary-source:cnbc:1 <- :
+reviewed identity has no usable current source listings  primary-source:comedycentral:1 <- :
+no reviewed station/regional identity  primary-source:crunchyroll:1 <- :
+no reviewed station/regional identity  primary-source:crunchyroll:2 <- :
+reviewed identity has no usable current source listings  primary-source:crunchyroll:3 <- :
+no reviewed station/regional identity  primary-source:dazn:1 <- :
+no reviewed station/regional identity  primary-source:discoverychannel:1 <- :
+no reviewed station/regional identity  primary-source:disneychannel:1 <- :
+no reviewed station/regional identity  primary-source:disneychannel:2 <- :
+no reviewed station/regional identity  primary-source:dmax:1 <- :
+mapped  primary-source:dreamworkshd:1 <- PH2:DreamWorks.(Tagalized).ph
+no reviewed station/regional identity  primary-source:espn:1 <- :
+no reviewed station/regional identity  primary-source:espn:3 <- :
+mapped  primary-source:espn:4 <- US2:ESPNU.HD.us2
+no reviewed station/regional identity  primary-source:fightnetwork:1 <- :
+no reviewed station/regional identity  primary-source:fightnetwork:2 <- :
+no reviewed station/regional identity  primary-source:fite247:1 <- :
+no reviewed station/regional identity  primary-source:france24:1 <- :
+no reviewed station/regional identity  primary-source:gma:1 <- :
+no reviewed station/regional identity  primary-source:gtv:1 <- :
+mapped  primary-source:hallmark:1 <- PLUTO:628e685ba3811100070551a8
+no reviewed station/regional identity  primary-source:hboboxing:1 <- :
+no reviewed station/regional identity  primary-source:hbopop:1 <- :
+reviewed identity has no usable current source listings  primary-source:historyhd:1 <- :
+no reviewed station/regional identity  primary-source:historyhd:2 <- :
+no reviewed station/regional identity  primary-source:historyhd:3 <- :
+no reviewed station/regional identity  primary-source:historyhd:4 <- :
+no reviewed station/regional identity  primary-source:historyhd:5 <- :
+mapped  primary-source:historyhd:6 <- PLUTO:6000a6f4c3f8550008fc9b91
+no reviewed station/regional identity  primary-source:hopechannelph:1 <- :
+no reviewed station/regional identity  primary-source:ibc13:1 <- :
+no reviewed station/regional identity  primary-source:inctv:1 <- :
+no reviewed station/regional identity  primary-source:inctv:2 <- :
+no reviewed station/regional identity  primary-source:inwonder:1 <- :
+no reviewed station/regional identity  primary-source:inwonder:2 <- :
+no reviewed station/regional identity  primary-source:ion:1 <- :
+no reviewed station/regional identity  primary-source:ion:2 <- :
+no reviewed station/regional identity  primary-source:jeepneytv:1 <- :
+no reviewed station/regional identity  primary-source:justforlaughsgags:1 <- :
+no reviewed station/regional identity  primary-source:kapamilyachannelhd:1 <- :
+no reviewed station/regional identity  primary-source:kidstv:2 <- :
+no reviewed station/regional identity  primary-source:kidstv:3 <- :
+reviewed identity has no usable current source listings  primary-source:kidstv:4 <- :
+no reviewed station/regional identity  primary-source:kidstv:5 <- :
+mapped  primary-source:kidstv:6 <- PLUTO:62e951258a26d40007b3034c
+mapped  primary-source:kidstv:7 <- PLUTO:60fb01a24795a6000762fe83
+no reviewed station/regional identity  primary-source:kidstv:8 <- :
+no reviewed station/regional identity  primary-source:kidstv:9 <- :
+mapped  primary-source:kidstv:10 <- SAMSUNG:USAJ3504531A
+no reviewed station/regional identity  primary-source:kidstv:11 <- :
+no reviewed station/regional identity  primary-source:kidstv:12 <- :
+no reviewed station/regional identity  primary-source:kixhd:1 <- :
+no reviewed station/regional identity  primary-source:knowledgechannel:1 <- :
+mapped  primary-source:lifetime:1 <- PLUTO:63335b193583440007c859fb
+no reviewed station/regional identity  primary-source:lotusmacau:1 <- :
+no reviewed station/regional identity  primary-source:mmatv:2 <- :
+no reviewed station/regional identity  primary-source:mmatv:3 <- :
+no reviewed station/regional identity  primary-source:mmatv:4 <- :
+no reviewed station/regional identity  primary-source:mmatv:5 <- :
+no reviewed station/regional identity  primary-source:mindanownetwork:1 <- :
+no reviewed station/regional identity  primary-source:mindanownetwork:2 <- :
+no reviewed station/regional identity  primary-source:mindanownetwork:3 <- :
+no reviewed station/regional identity  primary-source:mindanownetwork:4 <- :
+no reviewed station/regional identity  primary-source:mindanownetwork:5 <- :
+no reviewed station/regional identity  primary-source:mindanownetwork:6 <- :
+mapped  primary-source:mlbnetwork:1 <- PLUTO:5e66968a70f34c0007d050be
+no reviewed station/regional identity  primary-source:mlbnetwork:2 <- :
+mapped  primary-source:mlbnetwork:3 <- PLUTO:5ced7d5df64be98e07ed47b6
+no reviewed station/regional identity  primary-source:mlbnetwork:4 <- :
+no reviewed station/regional identity  primary-source:mlbnetwork:5 <- :
+no reviewed station/regional identity  primary-source:mnxhd:1 <- :
+no reviewed station/regional identity  primary-source:motogpchannel:1 <- :
+no reviewed station/regional identity  primary-source:halloweennights:1 <- :
+no reviewed station/regional identity  primary-source:moviesnow:1 <- :
+no reviewed station/regional identity  primary-source:moviesphere:1 <- :
+no reviewed station/regional identity  primary-source:moviesphere:2 <- :
+no reviewed station/regional identity  primary-source:muxdos:1 <- :
+no reviewed station/regional identity  primary-source:muxdos:2 <- :
+no reviewed station/regional identity  primary-source:muxdos:3 <- :
+no reviewed station/regional identity  primary-source:muxdos:4 <- :
+reviewed identity has no usable current source listings  primary-source:mythbusters:1 <- :
+no reviewed station/regional identity  primary-source:mysteriousworlds:1 <- :
+no reviewed station/regional identity  primary-source:mysteriousworlds:2 <- :
+no reviewed station/regional identity  primary-source:mysteriousworlds:3 <- :
+no reviewed station/regional identity  primary-source:mysteriousworlds:4 <- :
+no reviewed station/regional identity  primary-source:mysteriousworlds:5 <- :
+reviewed identity has no usable current source listings  primary-source:myx:1 <- :
+no reviewed station/regional identity  primary-source:nationalgeographic:1 <- :
+no reviewed station/regional identity  primary-source:nbatv:1 <- :
+no reviewed station/regional identity  primary-source:nbatv:2 <- :
+no reviewed station/regional identity  primary-source:nbatv:3 <- :
+no reviewed station/regional identity  primary-source:nbatv:4 <- :
+no reviewed station/regional identity  primary-source:nbatv:5 <- :
+no reviewed station/regional identity  primary-source:nbatv:6 <- :
+no reviewed station/regional identity  primary-source:nbatv:7 <- :
+no reviewed station/regional identity  primary-source:nbatv:8 <- :
+no reviewed station/regional identity  primary-source:nbatv:9 <- :
+no reviewed station/regional identity  primary-source:newkmovies:1 <- :
+mapped  primary-source:newkmovies:2 <- SAMSUNG:GB21000038X
+no reviewed station/regional identity  primary-source:newkmovies:3 <- :
+no reviewed station/regional identity  primary-source:net25:1 <- :
+no reviewed station/regional identity  primary-source:nickjr:1 <- :
+reviewed identity has no usable current source listings  primary-source:nickjr:3 <- :
+no reviewed station/regional identity  primary-source:nickelodeon:1 <- :
+no reviewed station/regional identity  primary-source:nickelodeon:2 <- :
+mapped  primary-source:nickelodeon:3 <- PLUTO:654ca7f92c1d3300086b608c
+no reviewed station/regional identity  primary-source:nickelodeon:4 <- :
+reviewed identity has no usable current source listings  primary-source:nickelodeon:5 <- :
+no reviewed station/regional identity  primary-source:oneph:1 <- :
+mapped  primary-source:onesports:1 <- PH2:One.Sports+.ph
+no reviewed station/regional identity  primary-source:pbsdigitalstudios:6 <- :
+no reviewed station/regional identity  primary-source:pilipinaslive:1 <- :
+no reviewed station/regional identity  primary-source:pilipinaslive:2 <- :
+no reviewed station/regional identity  primary-source:pilipinaslive:3 <- :
+no reviewed station/regional identity  primary-source:pilipinaslive:4 <- :
+no reviewed station/regional identity  primary-source:pilipinaslive:5 <- :
+no reviewed station/regional identity  primary-source:pilipinaslive:6 <- :
+no reviewed station/regional identity  primary-source:pilipinaslive:7 <- :
+no reviewed station/regional identity  primary-source:pilipinaslive:8 <- :
+no reviewed station/regional identity  primary-source:pilipinaslive:9 <- :
+no reviewed station/regional identity  primary-source:premiersports:1 <- :
+mapped  primary-source:premiersports:2 <- PH2:Premier.Sports.2.ph
+no reviewed station/regional identity  primary-source:premiersports:3 <- :
+no reviewed station/regional identity  primary-source:premiersports:4 <- :
+no reviewed station/regional identity  primary-source:peoplestelevision:1 <- :
+no reviewed station/regional identity  primary-source:popularscience:1 <- :
+mapped  primary-source:rockaction:1 <- MEDIAQUEST:dr_rockentertainment
+no reviewed station/regional identity  primary-source:rptv:1 <- :
+no reviewed station/regional identity  primary-source:sbskdrama:1 <- :
+no reviewed station/regional identity  primary-source:sbskdrama:2 <- :
+no reviewed station/regional identity  primary-source:skysportsf1:2 <- :
+no reviewed station/regional identity  primary-source:skysportsf1:3 <- :
+no reviewed station/regional identity  primary-source:smninewschannel:1 <- :
+no reviewed station/regional identity  primary-source:sonyoneactionhits:1 <- :
+no reviewed station/regional identity  primary-source:sonyoneactionhits:2 <- :
+mapped  primary-source:spotv:1 <- PH2:SPOTV.2.HD.ph
+mapped  primary-source:syfy:1 <- US2:Syfy.HD.us2
+no reviewed station/regional identity  primary-source:tapedge:1 <- :
+no reviewed station/regional identity  primary-source:tapsports:1 <- :
+no reviewed station/regional identity  primary-source:tastemade:2 <- :
+no reviewed station/regional identity  primary-source:tfcasia:1 <- :
+no reviewed station/regional identity  primary-source:tennischannel:1 <- :
+no reviewed station/regional identity  primary-source:thrill:1 <- :
+no reviewed station/regional identity  primary-source:tlc:2 <- :
+mapped  primary-source:tlc:3 <- IN4:TLC.HD.in
+no reviewed station/regional identity  primary-source:tnawrestling:1 <- :
+no reviewed station/regional identity  primary-source:tnawrestling:2 <- :
+no reviewed station/regional identity  primary-source:tnawrestling:3 <- :
+no reviewed station/regional identity  primary-source:tntsports1:1 <- :
+no reviewed station/regional identity  primary-source:tntsports1:2 <- :
+no reviewed station/regional identity  primary-source:tntsports1:3 <- :
+no reviewed station/regional identity  primary-source:travelchannel:1 <- :
+no reviewed station/regional identity  primary-source:tsn:1 <- :
+reviewed identity has no usable current source listings  primary-source:tsn:3 <- :
+no reviewed station/regional identity  primary-source:tvmaria:1 <- :
+no reviewed station/regional identity  primary-source:tvmaria:2 <- :
+no reviewed station/regional identity  primary-source:tv5monde:1 <- :
+no reviewed station/regional identity  primary-source:ufc:1 <- :
+no reviewed station/regional identity  primary-source:ufc:2 <- :
+no reviewed station/regional identity  primary-source:vevo:1 <- :
+no reviewed station/regional identity  primary-source:vevo:2 <- :
+no reviewed station/regional identity  primary-source:vevo:3 <- :
+no reviewed station/regional identity  primary-source:vevo:4 <- :
+no reviewed station/regional identity  primary-source:vevo:5 <- :
+no reviewed station/regional identity  primary-source:vevo:6 <- :
+no reviewed station/regional identity  primary-source:warnertv:1 <- :
+no reviewed station/regional identity  primary-source:wildplanet:1 <- :
+no reviewed station/regional identity  primary-source:wildplanet:2 <- :
+mapped  primary-source:xitehits:1 <- SAMSUNG:USBB320000647
+mapped  primary-source:xitehits:2 <- SAMSUNG:USBB3200007AK
+mapped  primary-source:xitehits:4 <- SAMSUNG:CABD1200023UJ
+mapped  primary-source:xitehits:5 <- SAMSUNG:CABD120001993
+mapped  primary-source:xitehits:6 <- SAMSUNG:USBB2300003JZ
+mapped  primary-source:xitehits:7 <- SAMSUNG:CABD1200021MS
+mapped  primary-source:xitehits:8 <- SAMSUNG:USBB2300004KV

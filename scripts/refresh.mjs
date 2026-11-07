@@ -8,6 +8,9 @@ const EPG_URL = 'https://tr3nching.github.io/ph-tv-playlist/epg.xml.gz';
 const BACKUP_SOURCE = 'https://3rstvportal.blogspot.com/';
 const channelGroups = JSON.parse(await readFile(new URL('../channel-groups.json', import.meta.url), 'utf8'));
 const sourceOverrides = JSON.parse(await readFile(new URL('../source-channel-overrides.json', import.meta.url), 'utf8'));
+const primaryOverrides = JSON.parse(await readFile(new URL('../primary-source-overrides.json', import.meta.url), 'utf8'));
+const primaryAliases = new Map(Object.entries(JSON.parse(await readFile(new URL('../primary-source-category-aliases.json', import.meta.url), 'utf8')).aliases).map(([name, group]) => [name.toLowerCase().replace(/[^a-z0-9]/g, ''), group]));
+const primarySourceGroups = new Map();
 const normalizedGroups = new Map(Object.entries(channelGroups).map(([name, group]) => [name.toLowerCase().replace(/[^a-z0-9]/g, ''), group]));
 const headers = {
   Origin: 'https://iyad.click',
@@ -15,6 +18,32 @@ const headers = {
   'User-Agent': 'Mozilla/5.0',
 };
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+export function primarySourceJobs(catalog) {
+  const jobs = [];
+  const norm = value => clean(value).toLowerCase().replace(/[^a-z0-9]/g, '');
+  for (const channel of catalog) {
+    if (channel.enabled === false || typeof channel.name !== 'string') continue;
+    for (let index = 0; index <= 20; index++) {
+      const suffix = index === 1 ? '' : String(index);
+      const label = index === 0 ? channel.name : channel[`alt_name${suffix}`];
+      if (typeof label !== 'string' || !clean(label) || (index > 0 && channel[`alt_enabled${suffix}`] === false)) continue;
+      const override = primaryOverrides[channel.name]?.[index] || {};
+      const generic = /^Stream \d+$/.test(clean(label));
+      const name = override.name || (generic ? `${channel.name} ${clean(label)}` : clean(label));
+      const explicit = primaryAliases.get(norm(name)) || normalizedGroups.get(norm(name));
+      const family = /^(?:VEVO|XITE|Kpop)\b/i.test(name) ? 'Music' : /^(?:BeIn Sports|Pilipinas Live|TNT Sports|TSN)\b/i.test(name) || /^\d{1,2}:\d{2}[ap]m .+ vs .+/i.test(name) ? 'Sports' : null;
+      const category = override.category || explicit || family || (index === 0 || generic ? channelCategory(channel.name) : 'General');
+      const epgId = index === 0 ? override.epgId || name : `primary-source:${norm(channel.name)}:${index}`;
+      const categoryBasis = override.category ? 'source-specific override' : explicit ? 'configured broad channel type; see category review' : family ? 'broad branded channel family' : generic ? 'parent broad type for generic source label; not schedule identity' : index === 0 ? 'existing primary category' : 'unresolved named source';
+      const job = { id: epgId, epgId, parentName: channel.name, serverIndex: index, name, logo: override.logo || (index > 0 ? channel[`alt_logo${suffix}`] : channel.logo) || channel.logo || '', category, group: category, categoryBasis, regionalEvidence: override.regionalEvidence, enabled: true };
+      if (index > 0) primarySourceGroups.set(epgId, category);
+      jobs.push(job);
+    }
+  }
+  if (new Set(jobs.map(job => job.id)).size !== jobs.length) throw new Error('Duplicate primary source identities');
+  return jobs;
+}
 
 export function decrypt(data, key) {
   const bytes = Buffer.from(data, 'base64');
@@ -59,6 +88,7 @@ function attribute(value) {
 }
 
 export function channelCategory(name) {
+  if (primarySourceGroups.has(name)) return primarySourceGroups.get(name);
   const additionalKey = clean(name).match(/^additional:([^:]+)(?::.*)?$/)?.[1];
   if (additionalKey && sourceOverrides[additionalKey]?.category) return sourceOverrides[additionalKey].category;
   const key = clean(name).replace(/^additional:([^:]+)(?::.*)?$/, '$1').replace(/\s*\[(?:Backup|Alternate|Additional)\]$/, '').toLowerCase().replace(/[^a-z0-9]/g, '');
@@ -111,11 +141,14 @@ export function numberPlaylist(text) {
   const assignments = Object.create(null);
   const entries = playlistEntries(text).sort((a, b) => categoryNumbers[channelCategory(a.id)] - categoryNumbers[channelCategory(b.id)] || compareNames(a, b));
   const next = { ...categoryNumbers };
+  const groupCounts = {};
+  for (const entry of entries) { const group = channelCategory(entry.id); groupCounts[group] = (groupCounts[group] || 0) + 1; }
   for (const entry of entries) {
     if (Object.hasOwn(assignments, entry.id)) continue;
     const category = channelCategory(entry.id);
-    if (next[category] >= categoryNumbers[category] + 100) throw new Error(`Channel number range full: ${category}`);
-    assignments[entry.id] = next[category]++;
+    const offset = next[category]++ - categoryNumbers[category];
+    // TVirl accepts decimal subchannels; large groups stay inside their category block.
+    assignments[entry.id] = groupCounts[category] > 100 ? `${categoryNumbers[category]}.${String(offset + 1).padStart(3, '0')}` : categoryNumbers[category] + offset;
   }
   const header = text.split(/(?=^#EXTINF:)/m)[0];
   const numbered = entries.map(entry => entry.block.replace(/^#EXTINF:[^\r\n]*/, line => line.replace(/\s+tvg-chno="[^"]*"/g, '').replace(/^#EXTINF:[^ ,]+/, prefix => `${prefix} tvg-chno="${assignments[entry.id]}"`)).trimEnd() + '\n').join('');
@@ -256,6 +289,10 @@ export async function combinePlaylists(output = new URL('../site/', import.meta.
     try { backup = await readFile(new URL('playlist-backup.m3u', output), 'utf8'); }
     catch (fallbackError) { if (fallbackError.code !== 'ENOENT') throw fallbackError; }
   }
+  try {
+    const inventory = JSON.parse(await readFile(new URL('primary-source-catalog.json', output), 'utf8'));
+    for (const entry of inventory.entries || []) if (entry.id?.startsWith('primary-source:')) primarySourceGroups.set(entry.id, entry.category || 'General');
+  } catch (error) { if (error.code !== 'ENOENT') throw error; }
   const distinct = markAdditionalChannels(primary, backup);
   backup = categorizePlaylist(distinct.text);
   if (backup) await writeFile(new URL('playlist-backup.m3u', output), backup);
@@ -285,8 +322,8 @@ export async function combinePlaylists(output = new URL('../site/', import.meta.
   await writeFile(new URL('playlist-status.json', output), JSON.stringify({ assembledAt: new Date().toISOString(), entryCount: count(combined), primaryEntryCount: count(primary), alternateEntryCount: count(backup), categories }, null, 2));
 }
 
-async function resolveChannel(channel, key) {
-  const response = await request('/play', { channelName: channel.name, serverIndex: 0 });
+export async function resolveChannel(channel, key, transport = request) {
+  const response = await transport('/play', { channelName: channel.parentName || channel.name, serverIndex: channel.serverIndex || 0 });
   const data = decrypt(response.data, key);
   let url = streamUrl(data.url || data.embedUrl);
   // Match the site's normal short-lived token flow. The user approved a separate
@@ -300,7 +337,7 @@ async function resolveChannel(channel, key) {
   const mediaPath = new URL(url).pathname.toLowerCase();
   const isDash = !mediaPath.endsWith('.m3u8') && (mediaPath.endsWith('.mpd') || ['mpd', 'dash'].includes(String(data.type).toLowerCase()));
   const clearKey = isDash && [data.keyId, data.key].every(v => typeof v === 'string' && /^[a-fA-F0-9]{32}$/.test(v)) ? { id: data.keyId, value: data.key } : undefined;
-  return { name: channel.name, logo: channel.logo || '', url, clearKey };
+  return { ...channel, name: channel.name, logo: channel.logo || '', url, clearKey };
 }
 
 async function main() {
@@ -319,43 +356,57 @@ async function main() {
   if (!Array.isArray(catalog)) throw new Error('Invalid catalog');
   const channels = catalog.filter(channel => channel.enabled !== false && typeof channel.name === 'string');
   if (channels.length < 10) throw new Error('Unexpectedly small catalog; keeping previous deployment');
-  // Fail promptly if playback itself is down, rather than retrying the whole catalog.
-  const rows = [await resolveChannel(channels[0], key)];
-  const failed = [];
-  let cursor = 1;
+  const output = new URL('../site/', import.meta.url);
+  await mkdir(output, { recursive: true });
+  const jobs = primarySourceJobs(channels);
+  let oldInventory = { entries: [] }; let oldPlaylist = '';
+  try { oldInventory = JSON.parse(await readFile(new URL('primary-source-catalog.json', output), 'utf8')); } catch (error) { if (error.code !== 'ENOENT') throw error; }
+  try { oldPlaylist = await readFile(new URL('playlist-drm.m3u', output), 'utf8'); } catch (error) { if (error.code !== 'ENOENT') throw error; }
+  const oldEntries = new Map(playlistEntries(oldPlaylist).map(entry => [entry.id, entry]));
+  const oldNames = new Map((oldInventory.entries || []).map(entry => [entry.id, entry.name]));
+  const inventory = { updatedAt: new Date().toISOString(), catalogSource, entries: jobs.filter(job => job.serverIndex > 0).map(({ id, parentName, serverIndex, name, category, categoryBasis, regionalEvidence, enabled }) => ({ id, parentName, serverIndex, name, category, categoryBasis, regionalEvidence, enabled })) };
+  // Publish metadata only after accepting its matching playback cache.
+  // Fail promptly if playback itself is down, preserving the last complete stream cache.
+  const rows = [await resolveChannel(jobs[0], key)];
+  const failed = []; let cursor = 1;
   await Promise.all(Array.from({ length: 4 }, async () => {
-    while (cursor < channels.length) {
-      const channel = channels[cursor++];
-      try {
-        rows.push(await resolveChannel(channel, key));
-      } catch (error) {
-        failed.push(channel.name);
-        // Never log decrypted payloads, tokens, or stream query strings.
-        console.warn(`Could not resolve ${clean(channel.name)}: ${error.name}`);
+    while (cursor < jobs.length) {
+      const job = jobs[cursor++];
+      try { rows.push(await resolveChannel(job, key)); }
+      catch (error) {
+        failed.push({ id: job.id, name: job.name, parentName: job.parentName, serverIndex: job.serverIndex });
+        console.warn(`Could not resolve ${clean(job.name)}: ${error.name}`);
+        const prior = oldEntries.get(job.id) || (job.serverIndex === 0 ? oldEntries.get(job.parentName) : null);
+        if (prior && (job.serverIndex === 0 || oldNames.get(job.id) === job.name)) {
+          const license = prior.block.match(/license_key=([a-fA-F0-9]{32}):([a-fA-F0-9]{32})/);
+          rows.push({ ...job, url: prior.url, retained: true, ...(license ? { clearKey: { id: license[1], value: license[2] } } : {}) });
+        }
       }
     }
   }));
-  if (rows.length / channels.length < 0.9) {
-    throw new Error(`Only ${rows.length}/${channels.length} channels resolved; keeping previous deployment`);
-  }
+  const refreshedBases = rows.filter(row => row.serverIndex === 0 && !row.retained).length;
+  if (refreshedBases / channels.length < 0.9) throw new Error(`Only ${refreshedBases}/${channels.length} primary channels refreshed; keeping previous deployment`);
   rows.sort((a, b) => a.name.localeCompare(b.name));
-  const output = new URL('../site/', import.meta.url);
-  await mkdir(output, { recursive: true });
   const drmTemporary = new URL('playlist-drm.m3u.tmp', output);
   await writeFile(drmTemporary, playlist(rows, { includeDrm: true }), 'utf8');
   await rename(drmTemporary, new URL('playlist-drm.m3u', output));
-  const otcChannels = rows.map(row => ({ name: clean(row.name), epg_id: clean(row.name), icon: row.logo, url: row.url, ...(row.clearKey ? { source_format: 'dash', drm_type: 'clearkey', drm_key: `${row.clearKey.id}:${row.clearKey.value}`, headers: { Origin: 'https://iyad.click' } } : {}) }));
+  await writeFile(new URL('primary-source-catalog.json.tmp', output), JSON.stringify(inventory, null, 2) + '\n');
+  await rename(new URL('primary-source-catalog.json.tmp', output), new URL('primary-source-catalog.json', output));
+  const otcChannels = rows.map(row => ({ name: clean(row.name), epg_id: clean(row.epgId || row.name), icon: row.logo, url: row.url, ...(row.clearKey ? { source_format: 'dash', drm_type: 'clearkey', drm_key: `${row.clearKey.id}:${row.clearKey.value}`, headers: { Origin: 'https://iyad.click' } } : {}) }));
   await writeFile(new URL('playlist-drm.otc.json', output), JSON.stringify({ provider: { epg: EPG_URL }, channels: otcChannels }, null, 2));
   await writeFile(new URL('status.json', output), JSON.stringify({
     updatedAt: new Date().toISOString(),
     channelCount: rows.length,
     catalogCount: channels.length,
     catalogSource,
+    primarySourceCount: jobs.length,
+    alternateSourceCount: rows.filter(row => row.serverIndex > 0).length,
+    retainedSourceCount: rows.filter(row => row.retained).length,
     clearKeyChannelCount: rows.filter(row => row.clearKey).length,
     failedChannels: failed,
     note: 'Stream URLs were resolved, not playback-tested. The separate DRM playlist preserves source-supplied ClearKey settings and requires a compatible player.',
   }, null, 2) + '\n');
-  console.log(`Playlist refreshed: ${rows.length}/${channels.length} channels`);
+  console.log(`Playlist refreshed: ${rows.length}/${jobs.length} sources across ${channels.length} channels`);
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === resolve(process.argv[1])) {

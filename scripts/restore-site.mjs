@@ -2,8 +2,8 @@ import { mkdir, readFile, writeFile, copyFile, access } from 'node:fs/promises';
 const site = new URL('../site/', import.meta.url);
 const bootstrap = new URL('../bootstrap/', import.meta.url);
 const base = 'https://tr3nching.github.io/ph-tv-playlist/';
-const streamFiles = ['playlist.m3u', 'playlist-drm.m3u', 'playlist-drm.otc.json', 'status.json'];
-const guideFiles = ['epg.xml', 'epg.xml.gz', 'epg-status.json', 'mapping.json', 'mapping.csv', 'verification.json', 'report.txt', '3rs-epg-audit.json'];
+const streamFiles = ['playlist.m3u', 'playlist-drm.m3u', 'playlist-drm.otc.json', 'status.json', 'primary-source-catalog.json'];
+const guideFiles = ['epg.xml', 'epg.xml.gz', 'epg-status.json', 'mapping.json', 'mapping.csv', 'verification.json', 'report.txt', '3rs-epg-audit.json', 'primary-source-epg-audit.json'];
 const backupFiles = ['playlist-backup.m3u', 'backup-candidates.m3u', 'backup-status.json', 'backup-checks.json'];
 const optionalFiles = ['playlist-combined.m3u', 'playlist-status.json', 'channel-numbers.json'];
 await mkdir(site, { recursive: true });
@@ -22,7 +22,7 @@ async function restoreNewer(files, statusFile, timestampField) {
     for (const file of files.filter(f => f !== statusFile)) {
       const response = await fetch(base + file, { signal: AbortSignal.timeout(15000), cache: 'no-store' });
       if (!response.ok) {
-        if (file === '3rs-epg-audit.json' && response.status === 404) continue;
+        if (['3rs-epg-audit.json', 'primary-source-epg-audit.json', 'primary-source-catalog.json'].includes(file) && response.status === 404) continue;
         throw new Error('Previous deployment incomplete');
       }
       const bytes = Buffer.from(await response.arrayBuffer());

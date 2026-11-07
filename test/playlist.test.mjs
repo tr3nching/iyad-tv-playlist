@@ -5,7 +5,7 @@ import { mkdtemp, readFile, writeFile, unlink, rmdir } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { numberPlaylist, orderPlaylist, channelCategory, decrypt, playlist, streamUrl, parseBackupChannels, checkBackupManifests, combinePlaylists, markAdditionalChannels, streamCheckId, additionalChannelId } from '../scripts/refresh.mjs';
+import { primarySourceJobs, resolveChannel, numberPlaylist, orderPlaylist, channelCategory, decrypt, playlist, streamUrl, parseBackupChannels, checkBackupManifests, combinePlaylists, markAdditionalChannels, streamCheckId, additionalChannelId } from '../scripts/refresh.mjs';
 
 test('decrypts the player response format without exposing key material', () => {
   const key = '0123456789abcdefextra';
@@ -199,4 +199,36 @@ test('source rename and movie category apply only to the additional 3RS identity
   assert.ok(primary.includes(',3RSTV\n'));
   assert.equal(channelCategory('3RSTV'),'General');
   assert.equal(channelCategory(id),'Movies');
+});
+
+test('all enabled source slots keep their playback indexes and distinct identities', () => {
+  const channels=[{name:'Fixture Parent',enabled:true,alt_name:'Stream 2',alt_enabled:false,alt_name2:'Different Channel',alt_name20:'Last Channel'}, {name:'Disabled Parent',enabled:false,alt_name:'Hidden'}];
+  const jobs=primarySourceJobs(channels);
+  assert.deepEqual(jobs.map(job=>job.serverIndex),[0,2,20]);
+  assert.equal(jobs[1].name,'Different Channel');
+  assert.equal(jobs[1].parentName,'Fixture Parent');
+  assert.equal(jobs[1].id,'primary-source:fixtureparent:2');
+  assert.notEqual(jobs[1].id,jobs[2].id);
+  const syfy=primarySourceJobs([{name:'SYFY',alt_name:'Stream 2'}]);
+  assert.deepEqual(syfy.map(job=>job.name),['Sci Fi','SyFy 2']);
+  assert.deepEqual(syfy.map(job=>job.id),['Sci Fi','primary-source:syfy:1']);
+  assert.ok(syfy.every(job=>job.category==='Entertainment'));
+});
+
+test('alternate playback requests use the original container name and actual source index', async () => {
+  const key='0123456789abcdef';const iv=Buffer.alloc(16);const cipher=createCipheriv('aes-128-cbc',Buffer.from(key),iv);
+  const data=Buffer.concat([iv,cipher.update(JSON.stringify({url:'https://example.com/alternate.m3u8',type:'hls'})),cipher.final()]).toString('base64');
+  const job={name:'Different Channel',parentName:'Fixture Parent',serverIndex:3,epgId:'primary-source:fixtureparent:3'};
+  const row=await resolveChannel(job,key,async(path,body)=>{assert.equal(path,'/play');assert.deepEqual(body,{channelName:'Fixture Parent',serverIndex:3});return{data};});
+  assert.equal(row.epgId,job.epgId);assert.equal(row.name,'Different Channel');
+});
+
+test('large categories retain alphabetical order using supported subchannel numbers', () => {
+  const rows=Array.from({length:105},(_,i)=>({name:`NBA TV ${104-i}`,epgId:`additional:nbatv:${104-i}`,url:`https://example.com/${i}.m3u8`}));
+  const output=numberPlaylist(playlist(rows)).text;
+  const numbers=[...output.matchAll(/tvg-chno="([^"]*)"/g)].map(match=>Number(match[1]));
+  assert.equal(new Set(numbers).size,105);
+  assert.ok(numbers.every(number=>number>=300&&number<400));
+  assert.deepEqual(numbers,[...numbers].sort((a,b)=>a-b));
+  assert.ok(output.indexOf('tvg-name="NBA TV 2"')<output.indexOf('tvg-name="NBA TV 10"'));
 });

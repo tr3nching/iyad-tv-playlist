@@ -1,0 +1,695 @@
+{
+  "policy": "Require independent source ID, unchanged reviewed station label, actual publication, and regional route or provider identifiers where specified. Never inherit a parent schedule just because a source is Stream 2.",
+  "entries": {
+    "primary-source:syfy:1": {
+      "expectedNames": [
+        "SYFY Stream 2",
+        "SyFy 2"
+      ],
+      "requiredUrlContains": "USA_SYFY",
+      "canonical": null,
+      "allowedSources": [
+        "US2"
+      ],
+      "sourceMap": {
+        "US2": [
+          "Syfy.HD.us2"
+        ]
+      },
+      "evidence": "Reviewed alternate provider route explicitly identifies USA_SYFY. Require that route token as well as the reviewed variant label. This mapping does not apply to the default source, whose regional identity remains unconfirmed."
+    },
+    "primary-source:dreamworkshd:1": {
+      "expectedName": "Dreamworks Tagalized",
+      "canonical": null,
+      "allowedSources": [
+        "PH2",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "PH2": [
+          "DreamWorks.(Tagalized).ph"
+        ],
+        "pw": [
+          "578313"
+        ],
+        "MEDIAQUEST": [
+          "cg_dreamworktag"
+        ],
+        "CIGNALMERGED": [
+          "cg_dreamworktag.cignal"
+        ]
+      },
+      "evidence": "The primary Philippine Dreamworks catalog explicitly labels this separate Tagalized feed; match the local Tagalized guide, not the English parent guide.",
+      "requiredUrlContains": "cg_dreamworktag"
+    },
+    "primary-source:onesports:1": {
+      "expectedName": "One Sports+ HD",
+      "canonical": null,
+      "allowedSources": [
+        "PH2",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "PH2": [
+          "One.Sports+.ph"
+        ],
+        "pw": [
+          "578585"
+        ],
+        "MEDIAQUEST": [
+          "cg_onesportsplus_hd1"
+        ],
+        "CIGNALMERGED": [
+          "cg_onesportsplus_hd1.cignal"
+        ]
+      },
+      "evidence": "Explicit One Sports+ HD variant under the Philippine One Sports catalog; plus feed is distinct from free-to-air One Sports.",
+      "requiredUrlContains": "cg_onesportsplus_hd1"
+    },
+    "primary-source:spotv:1": {
+      "expectedName": "SPOTV2",
+      "canonical": null,
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "PH2": [
+          "SPOTV.2.HD.ph"
+        ],
+        "PH1": [
+          "SPOTV.2.HD.ph",
+          "SPOTV..2.ph"
+        ],
+        "pw": [
+          "573006"
+        ],
+        "MEDIAQUEST": [
+          "dr_spotv2hd"
+        ],
+        "CIGNALMERGED": [
+          "dr_spotv2hd.cignal"
+        ]
+      },
+      "evidence": "Explicit second Philippine SPOTV service; its guide must remain distinct from SPOTV 1.",
+      "requiredUrlContains": "dr_spotv2hd"
+    },
+    "primary-source:rockaction:1": {
+      "expectedName": "Rock Entertainment",
+      "canonical": null,
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "PH2": [
+          "Rock.Entertainment.ph"
+        ],
+        "PH1": [
+          "ROCK.ENTERTAINMENT.HD.ph",
+          "ROCK.ENTERTAINMENT.ph"
+        ],
+        "pw": [
+          "579283"
+        ],
+        "MEDIAQUEST": [
+          "dr_rockentertainment"
+        ],
+        "CIGNALMERGED": [
+          "dr_rockentertainment.cignal"
+        ]
+      },
+      "evidence": "Explicit Philippine Rock Entertainment variant is a different station from Rock Action.",
+      "requiredUrlContains": "dr_rockentertainment"
+    },
+    "primary-source:premiersports:2": {
+      "expectedName": "Premier Sports 2",
+      "canonical": null,
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw"
+      ],
+      "sourceMap": {
+        "PH2": [
+          "Premier.Sports.2.ph"
+        ],
+        "PH1": [
+          "PREMIER.SPORTS.2.HD.ph"
+        ],
+        "pw": [
+          "572995"
+        ]
+      },
+      "evidence": "Explicit Premier Sports 2 in the Philippine Premier Sports catalog; do not use the first service schedule.",
+      "requiredUrlContains": "amg19223-amg19223c4"
+    },
+    "primary-source:tv5:3": {
+      "expectedName": "Kapatid Channel",
+      "canonical": null,
+      "allowedSources": [
+        "PH2",
+        "pw"
+      ],
+      "sourceMap": {
+        "PH2": [
+          "Kapatid.Channel.ph"
+        ],
+        "pw": [
+          "579509"
+        ]
+      },
+      "evidence": "Explicit Kapatid Channel regional station label, distinct from domestic TV5; match the Philippine provider listing only.",
+      "requiredUrlContains": "kapatid_hd"
+    },
+    "primary-source:animebypluto:1": {
+      "expectedName": "Anime Movies",
+      "requiredUrlContains": "67ed8f7e443f0671bc2b2368",
+      "canonical": null,
+      "allowedSources": [
+        "PLUTO"
+      ],
+      "sourceMap": {
+        "PLUTO": [
+          "67ed8f7e443f0671bc2b2368"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact PLUTO provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:animebypluto:2": {
+      "expectedName": "Boruto: Naruto Next Generations",
+      "requiredUrlContains": "696997049889f8db34c936c2",
+      "canonical": null,
+      "allowedSources": [
+        "PLUTO"
+      ],
+      "sourceMap": {
+        "PLUTO": [
+          "696997049889f8db34c936c2"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact PLUTO provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:animebypluto:3": {
+      "expectedName": "Inuyasha",
+      "requiredUrlContains": "67c63b90a20c0399a381b816",
+      "canonical": null,
+      "allowedSources": [
+        "PLUTO"
+      ],
+      "sourceMap": {
+        "PLUTO": [
+          "67c63b90a20c0399a381b816"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact PLUTO provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:animebypluto:4": {
+      "expectedName": "Naruto",
+      "requiredUrlContains": "5da0c85bd2c9c10009370984",
+      "canonical": null,
+      "allowedSources": [
+        "PLUTO"
+      ],
+      "sourceMap": {
+        "PLUTO": [
+          "5da0c85bd2c9c10009370984"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact PLUTO provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:animebypluto:5": {
+      "expectedName": "One Piece",
+      "requiredUrlContains": "62e94ec74823db0007277a8f",
+      "canonical": null,
+      "allowedSources": [
+        "PLUTO"
+      ],
+      "sourceMap": {
+        "PLUTO": [
+          "62e94ec74823db0007277a8f"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact PLUTO provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:animebypluto:6": {
+      "expectedName": "Sailor Moon",
+      "requiredUrlContains": "637e55347427a40007fac703",
+      "canonical": null,
+      "allowedSources": [
+        "PLUTO"
+      ],
+      "sourceMap": {
+        "PLUTO": [
+          "637e55347427a40007fac703"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact PLUTO provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:comedycentral:1": {
+      "expectedName": "South Park",
+      "requiredUrlContains": "62bdb1c5e25122000798ac79",
+      "canonical": null,
+      "allowedSources": [
+        "PLUTO"
+      ],
+      "sourceMap": {
+        "PLUTO": [
+          "62bdb1c5e25122000798ac79"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact PLUTO provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:crunchyroll:3": {
+      "expectedName": "Crunchyroll Stream 4",
+      "requiredUrlContains": "US2000018YI",
+      "canonical": null,
+      "allowedSources": [
+        "SAMSUNG"
+      ],
+      "sourceMap": {
+        "SAMSUNG": [
+          "US2000018YI"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact SAMSUNG provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:hallmark:1": {
+      "expectedName": "Hallmark Movies & More",
+      "requiredUrlContains": "628e685ba3811100070551a8",
+      "canonical": null,
+      "allowedSources": [
+        "PLUTO"
+      ],
+      "sourceMap": {
+        "PLUTO": [
+          "628e685ba3811100070551a8"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact PLUTO provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:historyhd:1": {
+      "expectedName": "American Pickers",
+      "requiredUrlContains": "CA1400014EH",
+      "canonical": null,
+      "allowedSources": [
+        "SAMSUNG"
+      ],
+      "sourceMap": {
+        "SAMSUNG": [
+          "CA1400014EH"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact SAMSUNG provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:historyhd:6": {
+      "expectedName": "Xtreme Outdoor",
+      "requiredUrlContains": "6000a6f4c3f8550008fc9b91",
+      "canonical": null,
+      "allowedSources": [
+        "PLUTO"
+      ],
+      "sourceMap": {
+        "PLUTO": [
+          "6000a6f4c3f8550008fc9b91"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact PLUTO provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:kidstv:4": {
+      "expectedName": "Barbie and Friends",
+      "requiredUrlContains": "USBD490000209",
+      "canonical": null,
+      "allowedSources": [
+        "SAMSUNG"
+      ],
+      "sourceMap": {
+        "SAMSUNG": [
+          "USBD490000209"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact SAMSUNG provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:kidstv:6": {
+      "expectedName": "Dora TV",
+      "requiredUrlContains": "62e951258a26d40007b3034c",
+      "canonical": null,
+      "allowedSources": [
+        "PLUTO"
+      ],
+      "sourceMap": {
+        "PLUTO": [
+          "62e951258a26d40007b3034c"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact PLUTO provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:kidstv:7": {
+      "expectedName": "Lego Kids TV",
+      "requiredUrlContains": "60fb01a24795a6000762fe83",
+      "canonical": null,
+      "allowedSources": [
+        "PLUTO"
+      ],
+      "sourceMap": {
+        "PLUTO": [
+          "60fb01a24795a6000762fe83"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact PLUTO provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:kidstv:10": {
+      "expectedName": "Minecraft TV",
+      "requiredUrlContains": "USAJ3504531A",
+      "canonical": null,
+      "allowedSources": [
+        "SAMSUNG"
+      ],
+      "sourceMap": {
+        "SAMSUNG": [
+          "USAJ3504531A"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact SAMSUNG provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:lifetime:1": {
+      "expectedName": "Lifetime Movie Favorites",
+      "requiredUrlContains": "63335b193583440007c859fb",
+      "canonical": null,
+      "allowedSources": [
+        "PLUTO"
+      ],
+      "sourceMap": {
+        "PLUTO": [
+          "63335b193583440007c859fb"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact PLUTO provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:mlbnetwork:1": {
+      "expectedName": "MLB",
+      "requiredUrlContains": "5e66968a70f34c0007d050be",
+      "canonical": null,
+      "allowedSources": [
+        "PLUTO"
+      ],
+      "sourceMap": {
+        "PLUTO": [
+          "5e66968a70f34c0007d050be"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact PLUTO provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:mlbnetwork:3": {
+      "expectedName": "NFL Channel",
+      "requiredUrlContains": "5ced7d5df64be98e07ed47b6",
+      "canonical": null,
+      "allowedSources": [
+        "PLUTO"
+      ],
+      "sourceMap": {
+        "PLUTO": [
+          "5ced7d5df64be98e07ed47b6"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact PLUTO provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:mythbusters:1": {
+      "expectedName": "Mythbusters Stream 2",
+      "requiredUrlContains": "66e0b4866ad04d0008fff4d8",
+      "canonical": null,
+      "allowedSources": [
+        "PLUTO"
+      ],
+      "sourceMap": {
+        "PLUTO": [
+          "66e0b4866ad04d0008fff4d8"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact PLUTO provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:newkmovies:2": {
+      "expectedName": "K Movie",
+      "requiredUrlContains": "GB21000038X",
+      "canonical": null,
+      "allowedSources": [
+        "SAMSUNG"
+      ],
+      "sourceMap": {
+        "SAMSUNG": [
+          "GB21000038X"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact SAMSUNG provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:nickjr:3": {
+      "expectedName": "Peppa Pig",
+      "requiredUrlContains": "5d14fb6c84dd37df3b4290c5",
+      "canonical": null,
+      "allowedSources": [
+        "PLUTO"
+      ],
+      "sourceMap": {
+        "PLUTO": [
+          "5d14fb6c84dd37df3b4290c5"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact PLUTO provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:nickelodeon:3": {
+      "expectedName": "Nickelodeon Toons",
+      "requiredUrlContains": "654ca7f92c1d3300086b608c",
+      "canonical": null,
+      "allowedSources": [
+        "PLUTO"
+      ],
+      "sourceMap": {
+        "PLUTO": [
+          "654ca7f92c1d3300086b608c"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact PLUTO provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:nickelodeon:5": {
+      "expectedName": "Spongebob Squarepants",
+      "requiredUrlContains": "63f87d057533d80008ab9549",
+      "canonical": null,
+      "allowedSources": [
+        "PLUTO"
+      ],
+      "sourceMap": {
+        "PLUTO": [
+          "63f87d057533d80008ab9549"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact PLUTO provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:tsn:3": {
+      "expectedName": "TSN the Ocho",
+      "requiredUrlContains": "CA1400003R3",
+      "canonical": null,
+      "allowedSources": [
+        "SAMSUNG"
+      ],
+      "sourceMap": {
+        "SAMSUNG": [
+          "CA1400003R3"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact SAMSUNG provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:xitehits:1": {
+      "expectedName": "XITE 80s Flashback",
+      "requiredUrlContains": "USBB320000647",
+      "canonical": null,
+      "allowedSources": [
+        "SAMSUNG"
+      ],
+      "sourceMap": {
+        "SAMSUNG": [
+          "USBB320000647"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact SAMSUNG provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:xitehits:2": {
+      "expectedName": "XITE 90s Throwback",
+      "requiredUrlContains": "USBB3200007AK",
+      "canonical": null,
+      "allowedSources": [
+        "SAMSUNG"
+      ],
+      "sourceMap": {
+        "SAMSUNG": [
+          "USBB3200007AK"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact SAMSUNG provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:xitehits:4": {
+      "expectedName": "XITE Classic Country",
+      "requiredUrlContains": "CABD1200023UJ",
+      "canonical": null,
+      "allowedSources": [
+        "SAMSUNG"
+      ],
+      "sourceMap": {
+        "SAMSUNG": [
+          "CABD1200023UJ"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact SAMSUNG provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:xitehits:5": {
+      "expectedName": "XITE Country Today",
+      "requiredUrlContains": "CABD120001993",
+      "canonical": null,
+      "allowedSources": [
+        "SAMSUNG"
+      ],
+      "sourceMap": {
+        "SAMSUNG": [
+          "CABD120001993"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact SAMSUNG provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:xitehits:6": {
+      "expectedName": "XITE Just Chill",
+      "requiredUrlContains": "USBB2300003JZ",
+      "canonical": null,
+      "allowedSources": [
+        "SAMSUNG"
+      ],
+      "sourceMap": {
+        "SAMSUNG": [
+          "USBB2300003JZ"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact SAMSUNG provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:xitehits:7": {
+      "expectedName": "XITE R&B Classic Jams",
+      "requiredUrlContains": "CABD1200021MS",
+      "canonical": null,
+      "allowedSources": [
+        "SAMSUNG"
+      ],
+      "sourceMap": {
+        "SAMSUNG": [
+          "CABD1200021MS"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact SAMSUNG provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:xitehits:8": {
+      "expectedName": "XITE Rock x Metal",
+      "requiredUrlContains": "USBB2300004KV",
+      "canonical": null,
+      "allowedSources": [
+        "SAMSUNG"
+      ],
+      "sourceMap": {
+        "SAMSUNG": [
+          "USBB2300004KV"
+        ]
+      },
+      "evidence": "Resolved stream route carries the exact SAMSUNG provider channel identifier present in the guide. This match is bound to that identifier, not the parent station name."
+    },
+    "primary-source:espn:4": {
+      "expectedName": "ESPN U",
+      "requiredUrlContains": "usa-s/ESPN-U-HD",
+      "canonical": null,
+      "allowedSources": [
+        "US2"
+      ],
+      "sourceMap": {
+        "US2": [
+          "ESPNU.HD.us2"
+        ]
+      },
+      "evidence": "Resolved route explicitly labels the USA ESPN-U HD service; do not use the parent ESPN guide."
+    },
+    "primary-source:tlc:3": {
+      "expectedName": "TLC India",
+      "requiredUrlContains": "/Tlc2/",
+      "canonical": null,
+      "allowedSources": [
+        "IN4"
+      ],
+      "sourceMap": {
+        "IN4": [
+          "TLC.HD.in",
+          "TLC.in"
+        ]
+      },
+      "evidence": "Catalog explicitly identifies TLC India and the separate Tlc2 provider route; restrict its schedule to India."
+    },
+    "primary-source:bbcnews:1": {
+      "expectedName": "BBC WORLD News",
+      "requiredUrlContains": "bbcworld_news_sd",
+      "canonical": "BBC News",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Cignal-tagged BBC News catalog and the explicit BBC World News provider route identify this Philippines-distributed international news service."
+    },
+    "primary-source:cinemaone:1": {
+      "expectedName": "CinemaOne PH",
+      "requiredUrlContains": "/c1ph/",
+      "canonical": "CinemaOne",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Official ABS live route explicitly identifies c1ph, the domestic Philippine Cinema One feed."
+    },
+    "primary-source:cinemo:3": {
+      "expectedName": "CineMo! PH",
+      "requiredUrlContains": "/cinemo/",
+      "canonical": "CineMo!",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Explicit CineMo PH station label and matching cinemo route; restrict guide lookup to Philippine sources."
+    },
+    "primary-source:myx:1": {
+      "expectedName": "MYX PH",
+      "requiredUrlContains": "ch00000090990000001252",
+      "canonical": "MYX",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Explicit MYX PH label in the Philippine source catalog identifies the domestic feed; do not inherit an international MYX schedule."
+    }
+  }
+}

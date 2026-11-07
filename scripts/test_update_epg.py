@@ -4,6 +4,91 @@ from unittest.mock import patch
 import update_epg as epg
 
 class GuideTests(unittest.TestCase):
+ def variant_build(self,variants,published,reviewed=None,overrides=None,catalog_names=None,strict=None):
+  with tempfile.TemporaryDirectory() as directory:
+   out=Path(directory);(out/'scripts').mkdir()
+   (out/'channel-groups.json').write_text('{}')
+   (out/'primary-source-catalog.json').write_text(json.dumps(variants))
+   (out/'primary-source-epg-mappings.json').write_text(json.dumps({'entries':reviewed or {}}))
+   if overrides is not None:(out/'primary-source-overrides.json').write_text(json.dumps(overrides))
+   playlist='#EXTM3U\n#EXTINF:-1 tvg-id="News",News\nhttps://example.com/primary\n'
+   for identity,url in published.items():playlist+='#EXTINF:-1 tvg-id="'+identity+'" tvg-name="Variant",Variant\n'+url+'\n'
+   (out/'playlist-drm.m3u').write_text(playlist)
+   (out/'catalog.json').write_text(json.dumps([{'name':name} for name in catalog_names or ['News']]))
+   (out/'config.json').write_text(json.dumps({'sources':[{'name':'one','url':'https://example.com/epg'}],'activeSources':['one'],'channelMap':{},'strictChannels':strict or [],'minChannels':1}))
+   feed=self.feed();variant=self.feed('Different station','variant')
+   feed['names'].update(variant['names']);feed['programmes'].update(variant['programmes'])
+   with patch.object(epg,'BASE',out/'scripts'),patch.object(epg,'load_sources',return_value=({'one':feed},{'one':{'programme_entries':8}})):
+    result=epg.build(out/'catalog.json',out,config_path=out/'config.json')
+   audit=json.loads((out/'primary-source-epg-audit.json').read_text())
+   self.assertNotIn('https://',json.dumps(audit))
+   return result,audit,E.parse(out/'epg.xml').getroot()
+
+ def test_primary_variant_does_not_inherit_parent_or_match_its_display_name(self):
+  identity='primary-source:news:1'
+  result,audit,xml=self.variant_build([{'id':identity,'parentName':'News','serverIndex':1,'name':'Different station','enabled':True}],{identity:'https://example.com/different'})
+  self.assertEqual(result['primary_source_entries']['mapped'],0)
+  self.assertEqual(audit[0]['status'],'no reviewed station/regional identity')
+  self.assertFalse(any(p.get('channel')==identity for p in xml.findall('programme')))
+
+ def test_primary_variant_requires_actual_publication_and_enabled_metadata(self):
+  variants=[{'id':'primary-source:news:1','parentName':'News','serverIndex':1,'name':'Stream 2','enabled':True},
+            {'id':'primary-source:news:2','parentName':'News','serverIndex':2,'name':'Disabled','enabled':False}]
+  result,audit,_=self.variant_build(variants,{'primary-source:news:2':'https://example.com/primary'})
+  self.assertEqual(result['enabled_channels'],1);self.assertEqual(result['primary_source_entries']['total'],2)
+  self.assertEqual({a['status'] for a in audit},{'not present in published DRM playlist','disabled variant'})
+
+ def test_primary_variant_exact_url_duplicate_has_independent_id_and_category(self):
+  identity='primary-source:news:1'
+  result,audit,xml=self.variant_build([{'id':identity,'parentName':'News','serverIndex':1,'name':'Stream 2','category':'Sports'}],{identity:'https://example.com/primary'})
+  self.assertEqual(result['primary_source_entries']['mapped'],1)
+  self.assertEqual(audit[0]['duplicate_primary_id'],'News')
+  programmes=[p for p in xml.findall('programme') if p.get('channel')==identity]
+  self.assertEqual(len(programmes),4);self.assertTrue(all(p.findtext('category')=='SPORTS' for p in programmes))
+
+ def test_primary_variant_reviewed_mapping_is_name_bound_and_region_restricted(self):
+  identity='primary-source:news:1'
+  reviewed={identity:{'expectedName':'Different station','allowedSources':['one'],'sourceMap':{'one':['variant']}}}
+  result,audit,_=self.variant_build([{'id':identity,'parentName':'News','serverIndex':1,'name':'Different station'}],{identity:'https://example.com/different'},reviewed)
+  self.assertEqual(result['primary_source_entries']['mapped'],1);self.assertEqual(audit[0]['source_id'],'variant')
+  result,audit,_=self.variant_build([{'id':identity,'parentName':'News','serverIndex':1,'name':'Renamed station'}],{identity:'https://example.com/different'},reviewed)
+  self.assertEqual(result['primary_source_entries']['mapped'],0);self.assertTrue(audit[0]['reviewed_binding_mismatch'])
+  self.assertEqual(epg.candidate_ids(identity,self.feed(),'wrong',{'_primarySourceMappings':reviewed}),[])
+
+ def test_primary_inventory_wrapper_and_route_bound_mapping(self):
+  identity='primary-source:news:1'
+  inventory={'entries':[{'id':'News','serverIndex':0,'name':'News'},
+              {'id':identity,'parentName':'News','serverIndex':1,'name':'Different station'}]}
+  reviewed={identity:{'expectedName':'Different station','requiredUrlContains':'USA_STATION','allowedSources':['one'],'sourceMap':{'one':['variant']}}}
+  result,audit,_=self.variant_build(inventory,{identity:'https://example.com/other-route'},reviewed)
+  self.assertEqual(result['primary_source_entries']['total'],1);self.assertEqual(result['primary_source_entries']['mapped'],0)
+  self.assertTrue(audit[0]['reviewed_binding_mismatch'])
+  result,audit,_=self.variant_build(inventory,{identity:'https://example.com/USA_STATION/index.mpd'},reviewed)
+  self.assertEqual(result['primary_source_entries']['mapped'],1)
+
+ def test_syfy_base_and_variant_overrides_remain_independent(self):
+  identity='primary-source:syfy:1'
+  inventory={'entries':[{'id':identity,'parentName':'SYFY','serverIndex':1,'name':'SYFY Stream 2','category':'General'}]}
+  overrides={'SYFY':{'0':{'name':'Sci Fi','epgId':'Sci Fi','category':'Entertainment'},'1':{'name':'SyFy 2','category':'Entertainment'}}}
+  reviewed={identity:{'expectedNames':['SyFy 2'],'requiredUrlContains':'USA_SYFY','allowedSources':['one'],'sourceMap':{'one':['variant']}}}
+  result,audit,xml=self.variant_build(inventory,{identity:'https://example.com/USA_SYFY/index.mpd'},reviewed,overrides,['News','SYFY'],['Sci Fi','SYFY'])
+  self.assertEqual(result['primary_source_entries']['mapped'],1)
+  self.assertEqual(audit[0]['source_name'],'SyFy 2');self.assertEqual(audit[0]['parent_name'],'SYFY')
+  self.assertNotIn('SYFY',[c.get('id') for c in xml.findall('channel')])
+  self.assertNotIn('Sci Fi',[c.get('id') for c in xml.findall('channel')])
+  self.assertTrue(all(p.findtext('category')=='ENTERTAINMENT' for p in xml.findall('programme') if p.get('channel')==identity))
+
+ def test_no_primary_variants_preserves_existing_333_identity_inventory(self):
+  with tempfile.TemporaryDirectory() as directory:
+   out=Path(directory)
+   (out/'catalog.json').write_text(json.dumps([{'name':'News'}]+[{'name':f'Other {n}'} for n in range(245)]))
+   (out/'config.json').write_text(json.dumps({'sources':[{'name':'one','url':'https://example.com'}],'activeSources':['one'],'minChannels':1}))
+   (out/'backup-candidates.m3u').write_text('#EXTM3U\n'+''.join(f'#EXTINF:-1 tvg-id="additional:unreviewed{n}:hash" tvg-name="Unreviewed {n}",Unreviewed\nhttps://example.com/additional/{n}\n' for n in range(87)))
+   with patch.object(epg,'load_sources',return_value=({'one':self.feed()},{'one':{'programme_entries':4}})):
+    result=epg.build(out/'catalog.json',out,config_path=out/'config.json')
+   self.assertEqual(result['enabled_channels'],333);self.assertEqual(result['additional_entries']['total'],87)
+   self.assertEqual(result['primary_source_entries']['total'],0)
+
  def test_additional_alias_is_restricted_to_approved_region(self):
   identity='additional:sports:123'
   cfg={'_additionalMappings':{identity:{'canonical':'NBA TV Philippines','allowedSources':['PH2'],'sourceMap':{'PH2':['ph']}}}}

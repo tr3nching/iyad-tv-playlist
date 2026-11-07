@@ -1,23 +1,155 @@
 {
-  "checkedAt": "2026-11-06T20:36:04.901106+00:00",
-  "candidateCount": 333,
-  "reachableCount": 238,
-  "unreachableCount": 95,
-  "scope": "Network-specific manifest and media-request checks; not full video decoding or DRM license validation. Unsupported DASH timelines receive manifest-only checks.",
-  "retryPolicy": "Retain all candidates and recheck every refresh; publish reachable entries only.",
+  "checkedAt": "2026-11-07T00:49:09.588181+00:00",
+  "candidateCount": 571,
+  "reachableCount": 269,
+  "unreachableCount": 28,
+  "inconclusiveCount": 274,
+  "hiddenCount": 0,
+  "scope": "Network-specific manifest and media-request checks; not full video decoding or DRM license validation. DASH forms whose media location cannot be resolved receive manifest-only checks.",
+  "retryPolicy": "Recheck every candidate each refresh for information only. All saved streams remain listed regardless of check result.",
   "channels": [
+    {
+      "id": "2548bfc09d34b17915447c24d6b13e7256a2a2ada84cdb3e794a46a25fb8834f",
+      "channel": "primary-source:cartoonnetwork:3",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "575fea5a8eff7bed9d327c0d1d7073d19f80d04edc1337a5342d52d1444391ca",
+      "channel": "primary-source:nbatv:9",
+      "kind": "primary",
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "f79a5326c55aeee4da743f6320b295cef28c0828c96fd7f98dba9e61c3a694dd",
+      "channel": "primary-source:nbatv:8",
+      "kind": "primary",
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "HTTP 521"
+    },
+    {
+      "id": "96fa6b94cdc0f0b598850e22040296d43b3f644da16f007140c9528ba91744c0",
+      "channel": "primary-source:bs10moreconvergechannels:12",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "2da7e6f026611c8d22e1a8ec9468691f2dcb7bacd73f09a58dbdb9a5fa8c3624",
+      "channel": "primary-source:3rstv:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
     {
       "id": "30f87252cacb57a885851ae146b5033c9d42a614fcc13d2d1d46d05a59d0ef76",
       "channel": "3RSTV",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "4fda4cf1aa89ac5072f44b5d9e8847722227958377ba2d283b9252d4841fd8b6",
+      "id": "5a550865f335f3163570172135abb2029cd014f74a5f9fd02ca61b3f1d82c247",
+      "channel": "primary-source:travelchannel:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "07612b1a87530422b2e7d964bb2b50bc57fa780ea1174f181a6141dd9906419f",
+      "channel": "primary-source:nbatv:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "5c345675190d9347aff6ba8784953fd64388b5435e67319264bf5e28909ca4f4",
+      "channel": "primary-source:nbatv:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "e721ea7302b60d0b8edee2cfd6a9dacdb3b83d76f308e9a94965ec85df2a0f48",
+      "channel": "primary-source:nbatv:3",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "d93bec802cb7e6f02b6100a9eaa187f4b045caae4ce78c5fd199d8a49c107b18",
+      "channel": "primary-source:nbatv:4",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "bdd1e7e7297a4acb795d828db8c143ee7170b2a7b31a83b782d4a55542f0f7cf",
+      "channel": "primary-source:nbatv:6",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "e4e1c89bdde3faef1476db5fb331d7839f472b6af1eb65c1a9ce270a9611a341",
+      "channel": "primary-source:nbatv:5",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "326b9296a3c305a573f06eb0a7337cf7e820e2a66ab666ba16608e2fa0b49031",
+      "channel": "primary-source:nbatv:7",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "1bd970d36dfbb106da0fe1d7a1728600992ba6a0cf39d78afb09c0b7c4475785",
       "channel": "A2Z",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "97a3268c2135035aaa4abab533d3d1b21911fec13af2edba81bc2ff0e72a36ed",
+      "channel": "primary-source:a2z:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -25,13 +157,44 @@
       "channel": "Abante Radyo",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "0e5df81cab989e928617556e419f12a89b42bc36c77f4468b2fd95c1a85bccf8",
+      "id": "3fcc6a716b8d1ef85ee994c2115e7bc102e019477f160e3adb49cb15f3171a98",
+      "channel": "primary-source:abanteradyo:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "345b08f0f8c16799125e334f8992541a31a89a46a60c5ede7fe82c3d02e30fe8",
       "channel": "ABC Australia",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "5f1560cbe42b49408fca458d269a6aa64ebed19f0fbf7ac911cc1adafb8e7839",
+      "channel": "primary-source:abcaustralia:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "d5bd30d197ea931d9e4433454c7b8725af8442141e31b7ee5c9bfe043ca9361c",
+      "channel": "primary-source:abcaustralia:3",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -39,34 +202,71 @@
       "channel": "Adventure Earth",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "17135dbbc98be22967a1906b032223b1ae20fe536fa5a905587fccad2da2c122",
+      "id": "d7a85a9a374ca16a54693239a339330287c73cfbdaf5996b59dc65d0b9892670",
       "channel": "Al Jazeera",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "965fbc6d3cc251a293ba7f01a92645399bb0827943c186c7bb6eac8bc27756a9",
+      "id": "619acb5731c46739b0f2d2b23f1f17d5ff4a58360461ce6b60a4f85b3422f35a",
+      "channel": "primary-source:aljazeera:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "fb7956798810c00783ce22af55d511e0af1b4698cd5b8de9be274d4533242e9f",
+      "channel": "primary-source:mysteriousworlds:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "50afdd3ad6bfc011e72102b9d9f509530b946b7b78e44edda8231e69364a2b3e",
       "channel": "ALIW23",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "5702f75e197f4583a03ae813a58983aec40f238233b360380cadcefaa5d0aae7",
+      "id": "8f870a1ed38a5dcc97db5bee0d7d9b4b5c59ac5d3fed69b2441cc248dfee37ca",
       "channel": "Aliwko",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "a06dbb0901563ddcb86aec04ea77264b0dbaa1728dc402072fc44dd9464d1985",
+      "id": "6e7e372e04c4be69d70c1e46d26676eba3f555043ce896d48ec886e8150ae53f",
       "channel": "ALLTV2",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "909a0e0dc6ed04fbba1ac346dd09fbab665c22a127efc9f088b58ca60d8c9a34",
+      "channel": "primary-source:alltv2:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -74,6 +274,35 @@
       "channel": "amasian tv Anime 24/7",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "342d9b8d9152bb807fd704e06bba76c0a9af35bda021e0a9807131411746d0a3",
+      "channel": "primary-source:amc:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "d72af253c44d6dbf31c5f14712176418d4396b4fa4931564f17496a13935ad4d",
+      "channel": "primary-source:amc:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "2599937fd17da4f1ae14b4be93743b1feb44892a918d4e4de7904a1e856ad97e",
+      "channel": "primary-source:amc:3",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -81,41 +310,98 @@
       "channel": "AMC+",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "9715d2d1932a7437a2e60bb61e45195d17e25a19f0df84623804e62f0d46a8dd",
+      "id": "83707bd3130aa129c3e130645fe996e96b78572395c032f01615018a32922f7f",
+      "channel": "primary-source:historyhd:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "79630f1f979133bcaebed266970b00ea29a7e2e48be7d93bb13b3ae65d07a076",
       "channel": "ANC",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "107594f9d5c4cd2bca7ac090498bd29bc369cd8bfeda13928411173309a4e5ac",
+      "id": "b230c5364cf454c42fb9bd7e8554e01805192c9ba980655850e891a2236421fb",
+      "channel": "primary-source:mysteriousworlds:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "ff99b5ec9af015d1678c1144b81519cdb90b14559230f743f202fb0cf6f9516c",
       "channel": "Animal Planet",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "ca9cb09ab333dc5fbf4901aeee3ed9db294938c67f478a18f191d2c8c2a4cb0a",
+      "id": "95858355f1e79c2c984738ff91faf342b39c4b25275572b1bf5d18934f16ee0a",
+      "channel": "primary-source:animalplanet:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "46b22aa5bb516a9ee50639282736f101dd9d5428c59567f8ef1ac71256efa209",
       "channel": "Animax",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "783165bc79c49341ff69f27bd9f97fccee5dcb87045870ab56d950082af7eb29",
+      "id": "494d21957d49b5721f8d2e1c1e9d9355ddb4dd4ae3fdc64816441ec6c63ec534",
+      "channel": "primary-source:animax:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "90a1baa580fbd4dcfc570b9c6c84f33b0a9f638e3860885a093d14087b921fcf",
       "channel": "Anime All Day",
       "kind": "primary",
       "reachable": false,
+      "status": "unreachable",
+      "publish": true,
       "error": "HTTP 414"
     },
     {
-      "id": "eabac7a529ab38bf83f449750c3b47a4e1a56a8e3430f14c84aa12f452eada4d",
+      "id": "f9b53841341f34e4e6a07aba006b1a34c9f9067945c8c467b74c2c561bc83f10",
       "channel": "Anime by Pluto",
       "kind": "primary",
       "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "HTTP 414"
+    },
+    {
+      "id": "83e8140271b029a32bd9c4dce8fe3ed79d5ba3e94bdf53c347285ea05f8f0758",
+      "channel": "primary-source:animebypluto:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
       "error": "HTTP 414"
     },
     {
@@ -123,6 +409,8 @@
       "channel": "Anime x Hidive",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -130,6 +418,17 @@
       "channel": "Aniplus",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "451232ad60c34d84e9836bdbfe00b58d33bccdab54ee700d7a6a4cd2c3a91026",
+      "channel": "primary-source:pbsdigitalstudios:6",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -137,6 +436,17 @@
       "channel": "Arirang",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "db74f9e97c9607a3a42977e9c4514d3651f8d2e12d3db082a717c41c8a3659f2",
+      "channel": "primary-source:arirang:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -144,55 +454,143 @@
       "channel": "Asian Crush",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "3953c4e5b4288b0e654f2b2d88d0944da338e360f1b2108d36c3cb285024006b",
+      "id": "ad4faff2d280e7b23c0aadedf38b2ad45b349508aae8ddf8c5289b5d37e5e7bd",
       "channel": "Asian Food Network",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
       "id": "6f594357bb3ba5964723915a9454ca7775867fee5747487a0a97943df34b57b0",
       "channel": "AVL TV",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "ValueError"
     },
     {
-      "id": "38adb4d116006e3f9f4c31c979df5483c6fcd5e7c0c272815e68e37c790e2385",
+      "id": "ecb7fd303644a744a2719449a358cab0ccfb479d091927a2298db7786a261acd",
       "channel": "AXN",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "3f265d663eb1c8cbe45667e89eb31c5a5dc57f1184dbfd7ac8c0e0702f0d7f67",
+      "id": "d065b9b8bf95de8ed278f9d6cde4ca3ad68d035ce8e45081df63294144a85e7c",
+      "channel": "primary-source:axn:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "f03c60d19516a12afe8413455c937f452d67601897890c72a8598b0e3d9f90ea",
+      "channel": "primary-source:axn:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "7e3f2b533bbdd66249208f539669070bee87362b122d043562ad9250ce2d6de5",
+      "channel": "primary-source:kidstv:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "247de9bd9fbd288ea8ce3cfadb71ad6bc5e0738f292aed7f4f5f3b3f75153c2b",
+      "channel": "primary-source:kidstv:3",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "b3e965df30a1cccbb03493e826bc2973120c1fc669ca1cd90de15fc1267722af",
+      "channel": "primary-source:kidstv:4",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "00799043b0af3776f2a70ec758ceea330d27a3c4acdcc227685d0c5e2eec5730",
+      "channel": "primary-source:kidstv:5",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "7a245404243733a75ee7037bd8d941e05c80e13d789e1e83656927cbc9600f57",
       "channel": "BBC CBeebies",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "3518c3e7f86c692ed3c848276432b0563597f5d7d2514526d4d296daa0432040",
+      "id": "317d709613e7e6f720cc1603b720d3d81983c414d5e0339ee81c32ae19015716",
       "channel": "BBC Earth",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "ff11b324dd4eae7b0975b8d0b4182baffaaedaae6b77c1a231d4a4f30148053e",
+      "id": "5e8558052eb8420dd03933bac3a9480ee24fcc7cbe1374ab176b46299827d0a4",
       "channel": "BBC Lifestyle",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "981fa9776004ba2997c2699ec56f95ccd481635013fe2ab108e2900cfffe97e6",
+      "id": "b265484f4bfb59f804a2739a45d275cce5b98fdc3331ba26ad5f2bdb4451928b",
+      "channel": "primary-source:bbclifestyle:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "27614052e9a50a66009bf80b1a4d5ef90bd4ca96b678333b147c6494ad3d1c3c",
       "channel": "BBC News",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "deab1e34e6ce904c34145e98731678cab893ee1316c15d02808e78789bb78abe",
+      "channel": "primary-source:bbcnews:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -200,6 +598,44 @@
       "channel": "BeIn Sports",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "5199b3801121b17c57816dd2f7d130292369327562d199002242c7fd4853bcee",
+      "channel": "primary-source:beinsports:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "59dfeea5c0c572bc6e692fa989c7ceb7081e6fdd054c46dc4c8e7c876ddba07b",
+      "channel": "primary-source:beinsports:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "731b7bb24c61376799625c8b883a1b514f0fed75c2ea6b2b279b5109c946abf0",
+      "channel": "primary-source:beinsports:3",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "0546f15f8dd7ec2737693eae0476eb7208da8c8026f79c3023f6de2a05ebbe53",
+      "channel": "primary-source:beinsports:4",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -207,6 +643,8 @@
       "channel": "Billiard TV",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -214,6 +652,17 @@
       "channel": "Bilyonaryo",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "2707cdd7ab5b9ba30faf3ca0b20fee20f16ec852f86acaed4f5cb0619088f90f",
+      "channel": "primary-source:bilyonaryo:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -221,13 +670,26 @@
       "channel": "Blast Movies",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "c450a899018fda4034d7e6b8cc3c9357ff0449cb3244956ffc5d96af30de2008",
+      "id": "12af582aff7e9290e9cc195ab3c6f43865b81ee5f63f0e621274d77c15a47c09",
       "channel": "Bloomberg",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "2770a52cfb5cc341d9f7adc1101c6224d19cf4b11b24137d7bfa60d39adb9e8a",
+      "channel": "primary-source:bloomberg:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -235,20 +697,62 @@
       "channel": "Boing",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "e3a228cab7b90234c9f31c96dc5e96196b6782603e3158fa00d014d9f791cb1a",
+      "id": "b29f7a9f1e92c6f60a9ccfaec4eaee7069a6757c5211fe3d7c553f6e5357c1b4",
       "channel": "BOOMERANG",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "2fe687587cd3e8b0a3d34aaa88d01837a9cf93a9ca9ba1c7a4fb383675799d58",
+      "id": "6116adbb436185c1fd1409638daba5871a3b9b0e6550f8de85863d8245270ff4",
+      "channel": "primary-source:animebypluto:2",
+      "kind": "primary",
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "HTTP 414"
+    },
+    {
+      "id": "9dd7a9a843de92a23d00465aca047beb39e2127717c1b2d0e63fa18ca0fff04a",
+      "channel": "primary-source:bs10moreconvergechannels:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "ef39e57dbe86d48af9e9355ddd57faec65558d6ceb8b903d96a8d2df1fbe9c98",
+      "channel": "primary-source:bs10moreconvergechannels:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "12d75e3b82b5222407bc923c94e41ad524e3f0f55128ab6f6b18fc2c6d3f34d0",
       "channel": "BS10 + more Converge Channels",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "d59aa3e3dc9d5c404d57ddfa470e3368db3a460ff6e4e018d5e5ad3f4059f8ad",
+      "channel": "primary-source:moviesphere:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -256,13 +760,35 @@
       "channel": "Cartoon Channel PH",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "f904de357e11a005f5614d48ef339f32f122a8aa64bc58f959dcb60d02c6461f",
+      "id": "71b881ce48a10cb246369bfacbc37c80931dc1752791e45c9d81dae0065a1da8",
       "channel": "Cartoon Network",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "26c0391540efeb3a51180926bd4ab19ae6c066fc3a83cccba0edecf91279dd63",
+      "channel": "primary-source:cartoonnetwork:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "d8f8f3d630b089f00bdd0b09f3ac502a1db77ac12029d8dbf3d53c66ad998712",
+      "channel": "primary-source:cartoonnetwork:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -270,27 +796,53 @@
       "channel": "Cartoonito",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "f3bbee84218957ff3182ec5aef651ad1008fc8800739a5169008c55d65dcda11",
+      "id": "5e85aced3a9bf8a5c7a31c4ec9ae4a05c3550dc70ff93f91cd1a8cf97dba1758",
+      "channel": "primary-source:cartoonito:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "0652e1dceb71849c8a8e7ca48144c5b1d953f26df04e96a4209cf0804dcb31b1",
       "channel": "CCTV4",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "000861c85e70e13309bd51df53fca280c4ebdddf91ae2a803acbd8cbf9b4c329",
+      "id": "15080e7e3c226ce7e14852f323a8f05f32a03a4b7dc08fdc7d52fcf9996fdc18",
+      "channel": "primary-source:cctv4:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "4cfc17226a8466abf7e477a8af3e3973b3576d7f231555e6a6f9111d0fae2672",
       "channel": "Celestial Classic Movies",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "464b3c4c178b8db723898f8154d3c455731e61d249b7247b76818670330839b8",
+      "id": "f94e9572481d66096c28c7f869219b4a6bab33edbb53c3ec0fd3b09962ee9646",
       "channel": "Celestial Movies Pinoy",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -298,6 +850,8 @@
       "channel": "CGTN Documentary",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -305,6 +859,17 @@
       "channel": "Channel News Asia",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "c0648b08a2e985f6bfd7c2ea00e6495e290a8b52463e1c9c40e11a6562754dff",
+      "channel": "primary-source:cgtndocumentary:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -312,6 +877,35 @@
       "channel": "CinemaOne",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "11355f222127fc6d204818e0b260d88da72fc94511e2c42ecedc2834b1a79c77",
+      "channel": "primary-source:cinemaone:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "621aa67163bee3c582880b23e2716813ad31d77d136ef889d311c52bb48bbfc6",
+      "channel": "primary-source:cinemaone:2",
+      "kind": "primary",
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "6235bc392d5cc73ca72603990a9884cb30bd57ebe396dba3e0c587a7320b287b",
+      "channel": "primary-source:cinemaone:3",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -319,6 +913,17 @@
       "channel": "Cinemax",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "933976ecede8053868b15446952cb7486027e1715e041ef0686af9ff782de2a5",
+      "channel": "primary-source:cinemax:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -326,48 +931,116 @@
       "channel": "CineMo!",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "583e5e6104c88a159e8bf607a5d2aeabff635e3abea540794589be28eaf3880a",
+      "channel": "primary-source:cinemo:3",
+      "kind": "primary",
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "2154b5f52732b070045e72f50a48b6b811cb9b096cae7382ce292a8d0eab963c",
+      "channel": "primary-source:cinemo:4",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "b96fdd1bc0298c467b7b9c948fbfc71072683381e3244300ee436c8b0a25481d",
+      "channel": "primary-source:cinemo:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
       "id": "4c0d5083f156d769a7ac7b215095a3329f2d4e17533e7a5050e2c5624068fb7f",
       "channel": "CLTV36",
       "kind": "primary",
-      "reachable": false,
-      "error": "HTTP 404"
-    },
-    {
-      "id": "bd86481de6bfa8fd1cf3fec5914263ea1522ae2b4319749f2ad29a7ba663a003",
-      "channel": "CNBC",
-      "kind": "primary",
-      "reachable": false,
-      "error": "HTTP 404"
-    },
-    {
-      "id": "c3350287b52b1f45c8f1ed7db9204ce25c34e6c7b3d735c282289ac645ed11e0",
-      "channel": "CNN HD",
-      "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "3ea184c53448400fc41485de0ff2adfb7d08f4296e90a7718b2daa32582de01a",
+      "id": "89f7a3ef74d56ef276686ab80ba1f4f088ff2d2fb6795a4e1b675706de8c45bc",
+      "channel": "primary-source:cltv36:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "365b897db5ed4a61a9fefa358d5d9cfb25c0fa81fc8a1a5bb24eae4fa65df23e",
+      "channel": "CNBC",
+      "kind": "primary",
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "63f1b23249354008ee47f023884a76d25cce70808fb225894225d06ea685cb5e",
+      "channel": "primary-source:cnbc:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "d18001ed7cc0451ae9b3114fca78a6363822070383832bab8585777b05eba9f5",
+      "channel": "CNN HD",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "a4b6f485060044d380d453774b9253a2d0909a3a121d7552e2dc372b1faefbb5",
       "channel": "Comedy Central",
       "kind": "primary",
       "reachable": false,
+      "status": "unreachable",
+      "publish": true,
       "error": "HTTP 414"
     },
     {
-      "id": "4070d3e6748771f7a9f2a172e924118e902533f915c6eb09d4483472c729951f",
+      "id": "e54c22d9a04a1cfdede7327ace58085234a06d6887cd752407b329f06d282da1",
+      "channel": "primary-source:sonyoneactionhits:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "manifest_only"
+    },
+    {
+      "id": "54809c4f98e2855c82c65103799ff73bb54ba6474c12ff3d55c3ab520ef7576b",
       "channel": "Concert Channel",
       "kind": "primary",
       "reachable": false,
+      "status": "unreachable",
+      "publish": true,
       "error": "HTTP 414"
     },
     {
-      "id": "cb8737b760e06f7a82ea0300ca0ec9ebd0c0eb58ea6becaec3d78432d35b784d",
+      "id": "0afab20994b334dd1053b2b36968606a5a27845a8cc5979cf6d25d955c073133",
       "channel": "CRIME INVESTIGATION",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -375,13 +1048,53 @@
       "channel": "Crunchyroll",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
+    },
+    {
+      "id": "1bfd862e4f65224174dd645d6c22d9be72e8f97bc44cf531c538ad0fa9d4329b",
+      "channel": "primary-source:crunchyroll:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "9fb363c231e2922dd261d45011af06db13dd1f30ba66a3f797755ef3fd112228",
+      "channel": "primary-source:crunchyroll:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "59e4c081f297dd619a9f0a6a0bcdafe42e0bb39a92feae54d2f8d6d0baec7d79",
+      "channel": "primary-source:crunchyroll:3",
+      "kind": "primary",
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "HTTP 404"
     },
     {
       "id": "3889c4fe61a3608e6a83689394899ff50df0368700f5563439fac78a9e978316",
       "channel": "Curiosity Now",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "f7a7f8385345d9db16f59c1097511af1a8386e54c0f383a5448628a239f9c2b9",
+      "channel": "primary-source:bs10moreconvergechannels:3",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -389,34 +1102,89 @@
       "channel": "Danger TV",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "81cdc55da0f8e07516465edbcdd63ca12f655513a6ff89b992c8dbf2dd9f05fc",
+      "id": "c84d62168a6cf4af411ed1cf53bc9a0692809c540cb1267312b7233398086a50",
       "channel": "DAZN",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "afff522df520a05599bdf86b5c03617910ec41d4ae87743b0edd60b1fe73bbde",
+      "id": "15c8d0daa5d71b8762e6dee60d4b6d8a46b6ca2986d0b89be721eff71391844f",
+      "channel": "primary-source:dazn:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "c97185c6aedef15b91f9fd672b3c6b246add1d3c519e4e54fe26ab584667317b",
+      "channel": "primary-source:bs10moreconvergechannels:4",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "b243a5c87410f814bf0bfeec5c5e185774660b42a2b32fdac44ec36f0716aec9",
+      "channel": "primary-source:historyhd:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "670d0ddebf91c1f0ba79d6ca9b1d1c476f5f7b729125d58118f0456d76d71caa",
       "channel": "DepEd TV",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "397d1ef6c021ee738c4a588fa9b0ac9195431952d5e2c76441355840927a4981",
+      "id": "f803e86ab37122438c6ba66ebff23ece577c694d58e9755b331a39bb9a67e54c",
+      "channel": "primary-source:pbbcollab30:3",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "01fbd14511dd8fb7e3175e93093f522107e2b55892a874af6aac7b6b748cb5a7",
       "channel": "Discovery Asia",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "91575760a4954eb1317a4d31ea84bba7227ab32c040b79f41dd4a4bc129a8e07",
+      "id": "95a8b8fc4db24a18e1ade08fe972f7849d4d60658088f29b5c751ff420b2996e",
       "channel": "Discovery Channel",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "e3a25cc4affc4134c93a13ed1fd78f714cadceec838acc1e3df16d54a1746a65",
+      "channel": "primary-source:discoverychannel:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -424,27 +1192,53 @@
       "channel": "Discovery Family",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
       "id": "896f3e037d50f37507a70fe9d9404fa124d7e2066df828e06b8b78d9af9f4252",
       "channel": "Discovery Science",
       "kind": "primary",
-      "reachable": false,
-      "error": "URLError"
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
     },
     {
       "id": "565dfcb667d0ac55a3fab2bd4894fb260fe3b6fe87f84887b7d470fa632d1a52",
       "channel": "Discovery Turbo",
       "kind": "primary",
       "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
       "error": "URLError"
     },
     {
-      "id": "40ea405f7fd7ff222f8498034034cba7643ecd5614c3892abe7027ae9959a5e4",
+      "id": "79cf01c7b7d5726decc603aa332ba2f174b94a14713f696d86874a7d29110508",
       "channel": "Disney Channel",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "706f376a6ebb156c5fdf03a2ddd5d8a45adf9a0e818822a6cd5788f000185755",
+      "channel": "primary-source:disneychannel:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "0240ada398dd70d888a57976dc2c32a88321c5324f5d77a7e6b8fc2239d86d0a",
+      "channel": "primary-source:disneychannel:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -452,27 +1246,62 @@
       "channel": "DMAX",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
+    },
+    {
+      "id": "b060e73e43199c10920fcd6fc5df15aac28cccd4aa10951044e474fad227dfba",
+      "channel": "primary-source:dmax:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "cf7c744a5f4be496e93f5e0e026a99b06daf4a2c025e39ad47fae2be8e6b3267",
+      "channel": "primary-source:kidstv:6",
+      "kind": "primary",
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "HTTP 414"
     },
     {
       "id": "33a36843c1f70e399e8b43e4572f43fffd496b1cdcfcc0f46cceb8f999a60ec5",
       "channel": "Dream TV PH",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "a600bd9c8a9508897636d56292f4b066ef4083123a4120b4246a21ae164e90f6",
+      "id": "2dfc01cab484f3d3610a4524d3d5d53d0b1bc1857ed92ea66cb876b18e4fb748",
       "channel": "Dreamworks HD",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "8bd719c806ffc858f49bcf76fb2d2e920999e16f956be8859296f6df2c09887b",
+      "id": "7b3019eadbb8149c35b36ed51647b3f40967ecdfaa5318587fe453f56c6a0c4a",
+      "channel": "primary-source:dreamworkshd:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "26e01f63bb863b1513afd6666daf728b694f932d2677615bfa6ef34b44d7c5e1",
       "channel": "DW News",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -480,34 +1309,71 @@
       "channel": "DZMM Teleradyo",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "a3784fcb316b40d591378201eed1e3deb2c81533e659f5b84cc5e68afc15229b",
+      "id": "e1f08330acd3c0293ab71ceb19dee0938e9f24df7b60003a7cd1d43e598284b4",
       "channel": "DZRH TV",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "a916747a001b8a58dbf2e37a6f5e36f8f85a1e71e6a6708d95b5fd95a7adea7d",
+      "id": "2634a1ab087a9626a87ad2e04920817c5260c5eb089eb0fbf9a9c35a6278205b",
       "channel": "EDGE SPORT",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "85135fbbdd30d857371983986c2faa19f06f4a86ff0339080dbc814fcdf794f9",
+      "id": "13148859d65c9955cac7d7d9fb3af404de18b83875befdb7b241032d731f923a",
       "channel": "ESPN",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "261a05bdd612fb2336b9f33ee5a33e052bddd1cfae516d6473c2792de62ce043",
+      "id": "b0116b85966df716dcc181e648e18769767b63b5b644110b7ebeef421b3f86dd",
+      "channel": "primary-source:espn:4",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "99c8b69fafff0cff38234a1835bc68cdf47ee37aef672b2048ff4f205486796c",
+      "channel": "primary-source:espn:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "fc13c1d8214bc19d4993f1ebce65c5e51ff6c37dede54055970b81eb9ef77e34",
+      "channel": "primary-source:espn:3",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "444b4b323a43c58f52547c61fd25d0f3f4d1c38a72be72c16c53a960f01f1119",
       "channel": "Euro News.",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -515,27 +1381,62 @@
       "channel": "Evolution Earth",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "087a69bd55124b4922bd42c5ed7b844c14a6adf782ebb86f7c4eac28324372c1",
+      "id": "3dbdbc7215772c78daaa7adced64399b87020c5e9ec3a1c4205a48b8a2677d12",
       "channel": "EWTN",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
+    },
+    {
+      "id": "7dc54bcf5ef23b50f5aa8a9f8f742acbbdc6e1683fbc61a38e49922458e4a628",
+      "channel": "primary-source:pbbcollab30:4",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "a35d5a8a3d4f259ef5f279adb4d1af4ea5d384e9e308f5715de947c57907c9fc",
+      "channel": "primary-source:skysportsf1:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "manifest_only"
     },
     {
       "id": "52891ef5a12373e9cbfb99cac08203dff39cfbd2239aa5dedc2a100678a52622",
       "channel": "FailArmy",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "ede61be947553f69ecc4dca4fb28eaae88fb2e60f9016f44e92cf6115efc8974",
+      "id": "7a8c7c49d4651aeaeca7c1cd10ab081f7b7324d8d6a261c8118f50c35a328d46",
       "channel": "Fashion TV HD",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "fad6c86be17ac30fb342dcaf5d23b1b1b8c0614e2817177f467af155db7bcfcb",
+      "channel": "primary-source:fightnetwork:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -543,6 +1444,35 @@
       "channel": "Fight Network",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "7e00d4f3dce0b9b746c1f9734e9f950c26dedd2329d3ca09d4d1f513c0632ce0",
+      "channel": "primary-source:fightnetwork:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "a0e5510a3b497ee787e49a009be7b272b5c8f87d4a93a746fe9fb0586ba90fbc",
+      "channel": "primary-source:mindanownetwork:2",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "731e5462533b152c101d1637085baa8f06938d055394502401b51e1f6b9c79a8",
+      "channel": "primary-source:mindanownetwork:3",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -550,6 +1480,8 @@
       "channel": "Filmrise Anime",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -557,13 +1489,26 @@
       "channel": "FITE 24/7",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "2050404991a8a33d5c84dbe14a24ad7d45bba0cbaf6a59554b65b46241e42fb0",
+      "id": "721c44e49759e934a113aba956020d50e1841df639ce1b2f5a1657d5882f2f66",
+      "channel": "primary-source:fite247:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "951ec3989bc622e087e4b0c5f16982b6ef6a36c14ae9e1602fb38192a661a353",
       "channel": "Food Network HD",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -571,13 +1516,17 @@
       "channel": "FOX",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "cf28b06b5adac37b43a49efdca7fa79c3ff587e8204790b07686f9ef32f9cadb",
+      "id": "e4b3b55e6bd93201628d6c0e99d5768b047472cc14679783aefeb210413b4b0f",
       "channel": "Fox Sports 1",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -585,6 +1534,17 @@
       "channel": "FRANCE 24",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "6d89cf9964c2739e4741c7b7a4f648bd283858b86209e08d8a39d6e7864cc127",
+      "channel": "primary-source:france24:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -592,20 +1552,35 @@
       "channel": "Global Fashion Channel",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "92e5a37aee77db57d3668d54dfa34102944e812916fb1887246a9648874f7adf",
+      "id": "6f1bd695ba50fd1069cd8ab461eb2880a1979cd09195bd78b97907596e6fe9f5",
       "channel": "Global Trekker",
       "kind": "primary",
-      "reachable": false,
-      "error": "URLError"
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
     },
     {
-      "id": "9dcd0affe025460d0c41e3af86f3764066fc0f4100dd015251b96a0124dc91e7",
+      "id": "4dc331ce7d91a666bc7b043fe6a2d34ac9aee0f9a1190c28d3c317d1d2e5c40b",
+      "channel": "primary-source:mmatv:3",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "87a2a5d3ab461f2bc345b363a2bdf3f03e284805a91579ad28094aee97580e70",
       "channel": "GMA",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -613,6 +1588,8 @@
       "channel": "GMA Life TV",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -620,6 +1597,8 @@
       "channel": "GMA News TV",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -627,13 +1606,26 @@
       "channel": "GMA Pinoy TV",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "da49757a863078f48674daea1f2ae0699ebfed527be0e86aed363b61a354ea74",
+      "id": "188e0b056ad7f44aa54ea91de0226b1baec26d7b1abb4152974c058af89b636e",
+      "channel": "primary-source:gma:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "dec7bdbf67bd1f6888715e5ec0c9323e744599ee52e1966bc5553f8bb3ad767e",
       "channel": "GNN",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -641,41 +1633,89 @@
       "channel": "Golden TV",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "64329e5cd05270f22b50cfd3ca61f0151ef4928a2a5cc0775a7005688d5f450a",
+      "id": "c1a5ba338f11e187e0db92c8f33f0e3a350f20c48c78b1a71ec53d377dd7fe73",
+      "channel": "primary-source:bs10moreconvergechannels:5",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "3387b40f5cf8b0fb544e347ecbb188a3bdf305cbbcdb6e01d6b095d11e24235d",
       "channel": "GTV",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "55eb2a0c2b126d8121fe08fb80bc5573f0188b447dfbcc72e0f079d2ce1c879c",
+      "id": "d86c149a6b888285f88ca80ca95b91df194ce32affcedcee8636a163dc0b2170",
+      "channel": "primary-source:gtv:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "1c1eb36bd570da9a9afb5f825b84566e932ed65894ac0921aadaf0ce14cefab4",
       "channel": "Hallmark",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
+    },
+    {
+      "id": "eb437310a8dec6201cb819158032427fd991fb681a3eacd1ba32801732a3b2e6",
+      "channel": "primary-source:hallmark:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "HTTP 414"
     },
     {
       "id": "5a4c3af12bf8f5ccc3c75bf206a01d2d3cfb70254dae0798091c921f5fb26199",
       "channel": "Halloween Nights",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "02186f08583f754cb3839197f9fa065f27adbe3ea72772aac09c5a17524de55b",
+      "id": "ffe03438ec4147854de3f34ce17cbe7528c0df3577de87a5bdd75b39d3a5be46",
       "channel": "hallypop",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "46484570ed9c2241e6bb4ae13b0e2ac1191b72c1a602555ef2c20ac2c8cb0163",
+      "id": "3b7f195d1cf2d3f4c3e9fd0ad1b16b965a23fdcd473acd050993dd6f8333a6ca",
+      "channel": "primary-source:mysteriousworlds:3",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "a22c4c7f7b331688dc2d49590dfb96202a4dab28ada269a1334cc28637cc0998",
       "channel": "HBO",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -683,13 +1723,26 @@
       "channel": "HBO Boxing",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
+    },
+    {
+      "id": "a6046d900383de129fb2b4545f51e29b85c137526f1545f05d9b68b71e8ba09c",
+      "channel": "primary-source:hboboxing:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "manifest_only"
     },
     {
       "id": "a7e32e32aa922fbdf3e0af25374b1906dedbc5a9dbcbbb8c8e32c875089eec25",
       "channel": "HBO Comedy",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -697,20 +1750,26 @@
       "channel": "HBO Family",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "c3f4e6bcc6a50dc5a55185babeed8b48dfdcd9ddcea7f04e13d06cc2c8d576b1",
+      "id": "49233384500a94037564ad643cc8f8951f78305706f1f8b191077851d73c4e51",
       "channel": "HBO Mundi",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "f4ea4ad085c8859a13cccc38f2f29b10346b9c1c70331f7ba936450c23a62ef2",
+      "id": "8cbc46e12ae9043571388fb678f1efadda0e754aab3224952bac850a53c09486",
       "channel": "HBO PLUS",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -718,20 +1777,35 @@
       "channel": "HBO POP",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "d2dc4f241f416c36efc7e9f9634dec1392ef23edbffe9209bc166eb1e5784b11",
+      "id": "31533bfcc405b2c487c80a9cb8589f21ca36c22bb07b98ab3646b489fdcdb7b4",
+      "channel": "primary-source:hbopop:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "2efb703f13f948fdb72f4d84b8f06868f63e6c09b44b16a8d7b502a6ed520c76",
       "channel": "HBO Signature",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "40171371f08e65d1b6942916e681c8b0c4a4d52882bf982216ba777aba40ddf5",
+      "id": "9919ac1c09c0c09070e0b4b6f493f39a78a981a7276bb91277ee19f076bd72ed",
       "channel": "HBO Xtreme",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -739,41 +1813,53 @@
       "channel": "HBO Zone",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "1645f9f0c0f3296cc9f423180a71e66e540716f6f57941a94b3bb761bdbd6183",
+      "id": "945779bba5b13a61a6342822a5274cde63857dc6a44a39637f8e666f81088ccf",
       "channel": "HGTV HD",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "59d5ccd7fc65d7d901ec6e861f7e6b119dcdbf8e36b0ad1b85b92f96f9150756",
+      "id": "3007b2c4c9b9508582392576e581885249b2217d6aa63dfc21c0420aacc6aaa4",
       "channel": "History HD",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "bbc2c16db96f6accf9480145f5267eb3ce71605aa165e94ffc7e30630127386a",
+      "id": "f6c136df0dd957912bbc1df1fa8945b1c1bfda80ec2324bdea7ec1614c53b7cc",
       "channel": "Hits HD",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "1f456ae2c48e0a139e7c83259caffd0b9b6c7b420b15e77b38444c6842eb9b28",
+      "id": "5763f23ac6d4bd75be2b3ad6c49a6904bb99b4810ce49228e4db1b5e41fdbbe8",
       "channel": "Hits Movies",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "8bfd4ce4e77a213c072ac0155abd42088eeb72f33a7ff97ccc9d31890488f515",
+      "id": "d65dafdc35fc023db63b702581c3cd650fa54edd385869250948253362d13f71",
       "channel": "Hits Now",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -781,6 +1867,17 @@
       "channel": "HIYAH!",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "6f485a4c523d83ff04c1da216bb493520d9b4f88a599e1adf98d0e3402a8b638",
+      "channel": "primary-source:hopechannelph:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -788,6 +1885,17 @@
       "channel": "Hope Channel PH",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "1d75e0c5081010080ee357a5ecf91683aa7aa715400dbe984b5631eeff9e48ce",
+      "channel": "primary-source:bs10moreconvergechannels:6",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -795,13 +1903,44 @@
       "channel": "HypeTV",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "3a75a22bd54e0fdbccd8b824c877de978854a8008a5a50b53488f410f68e093f",
+      "id": "11b73264489cfa78e7f8292aedc6dfe621deb5d92e4166ac2174309ea1baedca",
       "channel": "IBC13",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "d1364a4ed91d58ec11c2398b75230cd450ff535cfa94590a41eba8d823c21ea8",
+      "channel": "primary-source:ibc13:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "c9330dd6e817e8d7e3d9ff1d789ec83d05aa72cfa48d792f8f916082b46377fe",
+      "channel": "primary-source:tnawrestling:3",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "ef3d13da70cf4de903d07f97cc42f5a72ddee97b331418f8678b5f6ef67c51e7",
+      "channel": "primary-source:inctv:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -809,6 +1948,53 @@
       "channel": "INCTV",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "5477843ef14743a188d3a525b0cdc00878a0e544b8749efa9127b109e0c384c8",
+      "channel": "primary-source:inctv:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "56b7d733943c17183f66d89d63931bf44d56e1b48b1a87fc7960f555c8ea1c65",
+      "channel": "primary-source:mmatv:4",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "8216f426f1c08691666814ef72a248cb61e80566190beb47213cef2bf3010e44",
+      "channel": "primary-source:inwonder:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "8371f27b98900ea1da0df27f28a19774873631e1e284f2ce03d2e8bf46608633",
+      "channel": "primary-source:animebypluto:3",
+      "kind": "primary",
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "HTTP 414"
+    },
+    {
+      "id": "54f6185fb820d620b1a2b3805cfb3b5d595b000ed135ff8fd6fb428cd86bd5a0",
+      "channel": "primary-source:inwonder:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -816,6 +2002,8 @@
       "channel": "InWonder",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -823,6 +2011,26 @@
       "channel": "ION",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "1645a09e33e4677a4b977590ebc720f2609aad496e201c0e865dc135b0d5e306",
+      "channel": "primary-source:ion:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "345204add3a8088f4bc258d1b72c7ce4f498abd22c275dc251cb17c2f22df59d",
+      "channel": "primary-source:ion:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -830,27 +2038,89 @@
       "channel": "Jeepney TV",
       "kind": "primary",
       "reachable": false,
+      "status": "unreachable",
+      "publish": true,
       "error": "HTTP 404"
+    },
+    {
+      "id": "c36bd9777186fdaa8c055dafabb3fae1df224531fa419084381bda037da5dde0",
+      "channel": "primary-source:jeepneytv:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
     },
     {
       "id": "7c628714686fd83ea6175cb5a2863bd5be055076d38576d91bf74de76200b176",
       "channel": "Just for Laughs Gags",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
+    },
+    {
+      "id": "01ea3d0131072206cd9c1fec35dadf367f178a6e78d5de697b5b99823d7b7fc1",
+      "channel": "primary-source:justforlaughsgags:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "9d81d4a3a387050a3f2ba87af622c2a1ef1713b586fb5542209ab56a3c98b106",
+      "channel": "primary-source:newkmovies:2",
+      "kind": "primary",
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "HTTP 400"
     },
     {
       "id": "d30938bb262730931646a8fbf35bc4c158d71046f6b8442359b13d99301ca68f",
       "channel": "Kapamilya Channel",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "18020886700a441d77f9cb66a6b9bd024303414e44f7a86c4ac22684ad5a93dc",
+      "id": "81cb86bfa68f8e95943acf643bb19d9a0b6cfa82d0fb77b4de366c1727753a90",
       "channel": "Kapamilya Channel HD",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "2e2abbaa1c70e76120542387a12302fde841e79f6b8a432027fef31668fd71f0",
+      "channel": "primary-source:kapamilyachannelhd:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "f81711e1dcaa8e1144e81c54619671418d4eb7522ef7ba319cd83086e1dbd260",
+      "channel": "primary-source:tv5:3",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "a89183f2108b5c96979e24470444647980883f9211237f7fd03195c679f2e084",
+      "channel": "primary-source:tv5:4",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -858,13 +2128,26 @@
       "channel": "Kartoon Channel",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "78f352f4946e905019f7b70a3a56cc0c56e7a21a314dba78f4e26cbf7c61b15b",
+      "id": "0f8f9a2910c82ce00b2bd5a83253867ddd787af0674c96298954542d0145916a",
       "channel": "KBS World",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "0baa9af4215061b2e628c2e2f59e30b875f4d4b0ba78cfebebb0c8b1406ba14c",
+      "channel": "primary-source:newkmovies:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -872,6 +2155,8 @@
       "channel": "Kids TV",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -879,13 +2164,26 @@
       "channel": "Kidsflix",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "d10dde35b3cd657d5958f5812d06c8530f873ca859b6cdd21ff89c858decd296",
+      "id": "721975da85d75f914a65722ed8ec60755c352b12a32bb43ad3ae8dc8aa1f61ef",
       "channel": "Kix HD",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "0bd65140857df99c55a7c98b3f2f6678190d37a1c8ee344c3325ddcd3f10046b",
+      "channel": "primary-source:kixhd:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -893,13 +2191,35 @@
       "channel": "Knowledge Channel",
       "kind": "primary",
       "reachable": false,
+      "status": "unreachable",
+      "publish": true,
       "error": "HTTP 404"
+    },
+    {
+      "id": "76b41e44d500982ce15f7890ae41156cf8caf90fe5aa7e0838940256777a18f4",
+      "channel": "primary-source:knowledgechannel:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "46264755e9ca5984e5867006579e58adbe24be2642c0d702e964f16fa7d31317",
+      "channel": "primary-source:newkmovies:3",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
     },
     {
       "id": "e45f67b76d02fe59ba26a006f39570c51c75b3981248b8f3f5279b556055586e",
       "channel": "Kpop TV Play",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -907,41 +2227,116 @@
       "channel": "KroneHit TV",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "3b9314d4ad4571ff2356ed8dcf20f4131d69e5fcdf18ba7513d64814cdb6cf0a",
+      "id": "6fa6bee98780852dad5e39a32c8a0111f6705a7ab57b699c1063651d1ed42178",
+      "channel": "primary-source:kidstv:7",
+      "kind": "primary",
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "HTTP 414"
+    },
+    {
+      "id": "f39ce9b02403e77bbb61726e602eebeb37b5cabcaa490f7aa37817aa793cfec5",
       "channel": "Lifetime",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "b09e49270e29d6ec2d7e24d9da778dcd6144fb89322752c95e93a37394df8685",
+      "id": "4ba7d55d008830da25ee09782e22921a77b5c7d24192218779303950f786a306",
+      "channel": "primary-source:lifetime:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "HTTP 414"
+    },
+    {
+      "id": "b13cab4aa02d8ab55c948a289d1a501b2dcb91ec10111c91dd54979fbe28a92d",
       "channel": "Light TV",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "aa71e639dbd739bc4996f2ef0c4e20ea630d1f083236be395b97e7346e4046ec",
+      "id": "0ff75661e9c73e2826afbe16dabe9f13e6f3093cdbbdab3f12d127253f7d070e",
+      "channel": "primary-source:mindanownetwork:4",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "aee3f88c64dd7d4f03d8e3487abc12e03e785fb64179b80c4354712fc09bb8c0",
+      "channel": "primary-source:mindanownetwork:5",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "4cf842f6327032d997453cc31eecb0f806e644f373f0c685c85c7ea7be16eed0",
       "channel": "Lotus Macau",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "11eff697e7440755c322a839feb21cdbe7e7f746c7b6fcd48071e33d22e982e6",
+      "id": "350fca54538b9b06b33a2a7e2e11fa6ded0c23d3ff93951387703f5998c17a23",
+      "channel": "primary-source:lotusmacau:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "a84fae4f221876524a73898a6effdff7720fc21a5e54e268da7c0c4ec285a4f2",
+      "channel": "primary-source:wildplanet:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "62fa4bcdbb5208c166f8d619ee0aa6ac59d5526c5f8be438dfb1bca3c6afdd9d",
+      "channel": "primary-source:pbbcollab30:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "783eb1a222b7ba492bcddc78b4e38b451025cad890d545edd3a38b39ec0071c1",
       "channel": "Media Pilipinas TV",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "50fe5184a09b8c94cb42efd5587ffd90180108aa43a9b96dc258ef20c6bd207b",
+      "id": "2c74f36877dec2de88175201b9a9bebddf38f2604751d97f0bec0d78f9c9855f",
       "channel": "Metro Channel",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -949,20 +2344,53 @@
       "channel": "Mindanow Network",
       "kind": "primary",
       "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
       "error": "URLError"
+    },
+    {
+      "id": "b2c11d13ccf0ec0e2a3e31558f3c79c8ca995b24907a5ebfe084bab9e028af86",
+      "channel": "primary-source:mindanownetwork:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "d75be9f080ea7d75c44a95835f53bb7cd19ddcd44c36ad5f2cc71867979f6315",
+      "channel": "primary-source:kidstv:10",
+      "kind": "primary",
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "HTTP 414"
     },
     {
       "id": "09e50f700a13aa793328da077c1f78d57936fa0e0ed4db0aba7a0a583d2d565f",
       "channel": "MIRAMAX",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "91d083e5f0ce6c6a1e607fe18954864cabfb143aa01117d6c98cf771fa14796a",
+      "id": "e9bc2ff9ead0a4abecbefad45e6f1f549f27e03351ffe0d06704b6588f26d757",
+      "channel": "primary-source:mlbnetwork:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "HTTP 414"
+    },
+    {
+      "id": "e14f873a3ef9ef97d731436e1b3e2b0df9421888e69843936d7f5c15fa0798d4",
       "channel": "MLB Network",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -970,6 +2398,17 @@
       "channel": "MMA-TV",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "b418c6a02c784da00683aff7a451a4badcfd98e148d124e32ad366c1bb534009",
+      "channel": "primary-source:mnxhd:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -977,13 +2416,35 @@
       "channel": "MNX HD",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "6d6270a8afb5fea255e7c49e1960e67e4b656aa1c3b43590a1efdd4218c3f012",
+      "id": "64b411f943c04b3d0a3a6927558428cdee26b2c7a950205f6135c18c015fbc06",
+      "channel": "primary-source:historyhd:3",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "f14d26f7441e49b0affd8f6d3a906ef329bac3134c51bd3884f6ab5975426003",
+      "channel": "primary-source:historyhd:4",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "d7b44209d6e98fc41d5d721cb672b3bac40142c1b2a9e41bb60291279a89a620",
       "channel": "Moonbug Kids",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -991,6 +2452,8 @@
       "channel": "MOR Entertainment",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -998,6 +2461,17 @@
       "channel": "MotoGP Channel",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "79307cc627f98a7936bbb7c57d5f31267e4a3392e373f72b46b80fb97c5a4781",
+      "channel": "primary-source:motogpchannel:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -1005,6 +2479,17 @@
       "channel": "Movie Sphere",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "c56aff78bc6b9db62ed18625d474151c18f7101ac2c3342c0e95c62eb08d3ba6",
+      "channel": "primary-source:moviesphere:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -1012,6 +2497,17 @@
       "channel": "MovieBoxPH",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "4840d24dbee24d1f4ee7558d2ec2a683166ee789ecb20be607d60cfd6fb881b7",
+      "channel": "primary-source:halloweennights:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -1019,6 +2515,8 @@
       "channel": "Movies Now",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -1026,6 +2524,8 @@
       "channel": "Mr Beast",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -1033,6 +2533,8 @@
       "channel": "Mr. Bean",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -1040,6 +2542,8 @@
       "channel": "MTV",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -1047,6 +2551,44 @@
       "channel": "MUX DOS",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "91b4a068da163ff7116e3dda3635705935cd4820002b29f2053e63a8d5c87e37",
+      "channel": "primary-source:muxdos:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "e59864eca1696bdd7f75acba45ec39c254a6e2ec497fa4de12a4818ce25cd275",
+      "channel": "primary-source:muxdos:3",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "745c57e2d9219e1bfbeab0608b0b1a00b4f9c998da6fd22c84d574fbd5b6c81b",
+      "channel": "primary-source:muxdos:2",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "bf1663ffac51216fa76efe4b4e94c439f5614d0fc8337f624dc8b5f543163c86",
+      "channel": "primary-source:muxdos:4",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -1054,6 +2596,8 @@
       "channel": "Mysterious Worlds",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -1061,13 +2605,53 @@
       "channel": "Mythbusters",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
+    },
+    {
+      "id": "3d0e9ec2e64dc292fbd787f38771e6249af9af74a842ecb047b67e9b13b87317",
+      "channel": "primary-source:mythbusters:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "HTTP 414"
     },
     {
       "id": "c93a4aa19aee70696fd02ed3c0e945d6dee00c0b85acfb1863c8fc843db49dd7",
       "channel": "MYX",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "808050238a5a6e8051e368f3051828621d746ff1333716d3cc98fcff9a56480b",
+      "channel": "primary-source:myx:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
+      "stage": "media"
+    },
+    {
+      "id": "b7400ed2be9305e6661303dae738a622ba944d3fad6d17e96c9677560cf59ba4",
+      "channel": "primary-source:animebypluto:4",
+      "kind": "primary",
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "HTTP 414"
+    },
+    {
+      "id": "6bc2efadbc72cd7e126945febca2a9a46ddc60d1fb0dcfd0b8d1a5af9928aabd",
+      "channel": "primary-source:nationalgeographic:1",
+      "kind": "primary",
+      "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -1075,6 +2659,8 @@
       "channel": "National Geographic",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
@@ -1082,741 +2668,1817 @@
       "channel": "NBA TV",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "bd99a4fb562be2b99d87737245f414528a636374349d26fb8c9ed17b5a499935",
+      "id": "a8e61ad8e990aed6a3a15b65422efe9eb10984d38d0e8d693a0e0ea37e774f3a",
       "channel": "NBA TV Philippines",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "1dd0aabd693482aae13fe5cf484d00119147c81dac1fe6f513fc056d41df8380",
+      "id": "69b03e5c8e7a09a69fe71dbe5ac6c165de19ef25fbd4af228a934b73a1af842a",
       "channel": "NCAA NXT",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
-      "id": "bfd5f7bb16cbd58665b32c52d5906b3903c4ab35ff8de2847a3dad5afd4ee5ac",
+      "id": "f9f193712e46054842893a49c28ea3f9087935cb6a1eecb2006dac9926103be9",
       "channel": "Net25",
       "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
+    },
+    {
+      "id": "9f7177e701a958078d6555d01028930474587634ff52822b9e3a86af214580dd",
+      "channel": "primary-source:net25:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "TimeoutError"
     },
     {
       "id": "d7cdb43315d5f4ee54aea869bc813aa8d56770efa70dd46c4568012fe2a7177b",
       "channel": "New KMovies",
       "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "2c0492e862f0983ca155d3fa6f9d79ada8aca0122ffc96c4ac1f0ea0e174659d",
+      "channel": "primary-source:mlbnetwork:3",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "TimeoutError"
+    },
+    {
+      "id": "64c456a05816d2562a6ed3be0023d80a3bccb0a608e3e87a89a952dda7aa619e",
+      "channel": "primary-source:mlbnetwork:2",
+      "kind": "primary",
       "reachable": true,
+      "publish": true,
+      "status": "reachable",
       "stage": "media"
     },
     {
       "id": "6b2c465cebdf91b9746867f1a96f5b7a682e1eeb440aacaa392032e96e12eba2",
       "channel": "NHK World Japan",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "TimeoutError"
+    },
+    {
+      "id": "2365e65426ab0cf20b757944b85b22c22de327d6795350685af52cfcfcf47b85",
+      "channel": "primary-source:mlbnetwork:4",
+      "kind": "primary",
+      "reachable": false,
+      "status": "unreachable",
+      "publish": true,
+      "error": "HTTP 404"
+    },
+    {
+      "id": "f81d17fd6a9b0b20012eb337d75c023f633f19226e236029e23d5dcb93830644",
+      "channel": "primary-source:mlbnetwork:5",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "TimeoutError"
     },
     {
       "id": "29be4b98cb980c3b1713d63452d8e67b69b28bae561985bb8f03461d3d4c8d9d",
       "channel": "Nickelodeon",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "e417d3f25a9332512ab34a0a9b6d15c517ad3f8b5530c9713101240d261eafb7",
+      "id": "f7e67494defbc5694890d40760b1e07140260b1137a6b9d0e455c05108343d68",
+      "channel": "primary-source:nickelodeon:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "3569ea5aa62cf3680c7e4e93b49c5233f5c443cd72d00041ef854a87d7aca097",
+      "channel": "primary-source:nickelodeon:2",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "fa28bdf5137447ff1c875d3aa4dac219cbdab955e800aa68b6a8f29fa501b6b1",
+      "channel": "primary-source:nickelodeon:3",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "1b480d19151e649cac1b75133c27d7c7320f0ffb50f504b5f2a781ccc54925ec",
       "channel": "Nickjr",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "1e0199ecb7444293e1fca123b45bb11b7c8ddb4add4986cbb79ff57e5ceae58a",
+      "id": "e05054d2fec43ff43ddac5de94371bab1dbe659a0f8afc054496f41717745aae",
+      "channel": "primary-source:nickjr:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "c63e043cf2ac9c91f392f38ddf41afd90a80c7e2219bd352f7a39d4b4470ea2a",
+      "channel": "primary-source:nickelodeon:4",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "875dd5918cae4c49b68199420c3006d503ce3ab4d0240bc94b6adf7d38fda3ee",
       "channel": "One News HD",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "996193285bfe93c4e277359e73bcc6d8fe164ddcd9eb50f5c11fd839ecb6c738",
+      "id": "41d585215542acf43f864ba798d9137b005937fdac1361484c9c551e97f63fc2",
       "channel": "One PH",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "f2fd9e78be88690f10f555fe38d106d11426caf304fef71a0ae00cb68c27986c",
+      "id": "a0c4123ae58b0a73d583a17336d5ee13d7fbac778054f23b818419a5db8a113f",
+      "channel": "primary-source:oneph:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "c04848411cdab1d98acbaf33c1ac0e00acdd6d02985a093dbe9d49102ebc3522",
+      "channel": "primary-source:animebypluto:5",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "adc3ae9befd82267cd9e9c94ba9a0f2d5c2cd43c8aea6f5df7fbf4ab6b0404ec",
       "channel": "One Sports",
       "kind": "primary",
       "reachable": false,
-      "error": "TimeoutError"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "daf778e4fb5d4759b237068c9ae3494b2a223619dc811f75450fb3dd70e2d424",
+      "id": "e0d8a5fd5d7d659278684a318213218e3a2ef12bde12926c5e091ffca6a974ff",
+      "channel": "primary-source:onesports:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "6abebbe8f374bb1e505e2d894b7083ca80fee8cc226678806385a104a74381e8",
       "channel": "Oras ng Himala",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "6faea5463867e0472c1f1e2e195b06786769280c82f3b9de06af5e78eba85168",
       "channel": "Outdoor Channel",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "cfed4fcdbeada293df92ff5269fac56aa6d94647e912db5f73ef095924873740",
+      "id": "71bf67ec85cea21ec83b32007dcae0b1c9e1e8d35658e2d4654e6cc100aa67b6",
       "channel": "Paramount Movie Channel",
       "kind": "primary",
       "reachable": false,
-      "error": "HTTP 414"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "f541e9a98d22aa0bfb4aed502aa25e79ec6d6bfcfc0587d970a9608afa69a6a4",
+      "id": "b9408117a9f9555c4eb919a1cf60b3982a4d936710c3576b0c076665220b8908",
       "channel": "PBA Rush",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "4a1318c00cf4b96fc3d5abb51143bade6fa9561660a29b855852eef74ef24f29",
       "channel": "PBB Collab 3.0",
       "kind": "primary",
       "reachable": false,
-      "error": "HTTP 404"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "c5bc6ca549d2af0b79e202c7dfdb77678152f60a283ebcc52ba36484f0ac4320",
       "channel": "PBS Digital Studios",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "0623b598b0e0b7c539b21ddb64b937b0bd0e8b0fbbd7876469e69cbe82a40036",
       "channel": "People Are Awesome",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "52dee485fbc01f88de1d005f384bebe7e14b2e0572b827fc33ecf5c801105370",
+      "id": "4e5dfdcd3748476687778f3ea90d5c98774e2e1ff4894747c11066661c5e4844",
       "channel": "Peoples Television",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "cd7c9c3c9cc1b96da245ab5f6204bb1dc5a46c53051a4b646fe76930b22c4cce",
+      "id": "98553b76be9fbea1c7bbd726cff8c0f3ac5c0cc1b495be5e558e5c85b6989695",
+      "channel": "primary-source:peoplestelevision:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "239f510a34dbf8ebd71ca8fef3e2d8292e4ac557c9f72c3febd8b562fce5bacb",
+      "channel": "primary-source:nickjr:3",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "dec601faa7e21cc0f78432173043461245f1a13b9df9df0b6727d76816f51d7c",
+      "channel": "primary-source:mmatv:5",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "36d0c2143f66d32f8e81adedde7fdf4649d7fb8e1b780d9d21db01d329c24db7",
+      "channel": "primary-source:bs10moreconvergechannels:7",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "38130b99e6e541177848360d3178f9609ee030594906070f0b7173ec412b5acc",
       "channel": "Pilipinas Live",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "bba66817dd1e7448aedf006203dc2be37908bb1a6e56bc4f49de2d9c5e4e1079",
+      "id": "0b05ea5ec034dba2bbfd1dbe59f1a742eefb9eead0428aa28e791ca07f5ff792",
+      "channel": "primary-source:pilipinaslive:9",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "4b0036565972758d524b94706089ccecce7a4802f8802bf3594a844a02973a0e",
+      "channel": "primary-source:pilipinaslive:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "d066a7fa62f8ddf70a2d5a8bebb0e879dfb0863eecc5c255a92cf3f56373f8cf",
+      "channel": "primary-source:pilipinaslive:2",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "c1a3a11a31f3077cb684402c1dafa2fb6157d554ce5eeea2c992455af4467738",
+      "channel": "primary-source:pilipinaslive:3",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "1bac80bf35b99fafbc2099c2fa8e7593229d781ab802981694973541e32f72af",
+      "channel": "primary-source:pilipinaslive:4",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "9fa775130b09f33b3bf7c2db56b9fcb6979d85a92d1b2e68c8b00a0094999565",
+      "channel": "primary-source:pilipinaslive:5",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "fcc600fc41cf605bc0c83d96f4533d526c983e764269682088228ba05b9ff5e8",
+      "channel": "primary-source:pilipinaslive:6",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "d343dcefd3d158477025e55975145b42c655192320bc6a4472bd4af013cef264",
+      "channel": "primary-source:pilipinaslive:7",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "289723334fe5b496c78dfe613a5ad756f577b7779b6dd4a3cf72bdd106c4e742",
+      "channel": "primary-source:pilipinaslive:8",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "00ed53dd548f710f1f6983826a012df2fde33d1835bfb250116aa7a12232b52f",
       "channel": "Pinoy Box Office",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "50a8bd12ebf1d3ebef8c53c15ab10cecd6c0b9d59b0b331f718248e265cd0864",
+      "id": "7c625e5b581059030d97f0f45a8071b345ce7172f3016cf31f3491391bdf2ce9",
       "channel": "Pinoy Xtreme",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "8ecbbd8b737132153b0ab30309b2f9a7eb58af1a2c251d4cb1727fa8222d3e1c",
       "channel": "Popular Science",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "e234f291da38514428400548af25342770d710f1512f5e4b6059ac49345d318b",
+      "channel": "primary-source:premiersports:4",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "bc6758fec220d41bd7893dc7039dda3fc809d15701b7fb969e1e3b16fd852e9e",
       "channel": "Premier Sports",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "94466c6192899bf1d1e42c25fbd1f4a4b3784bc121138280547aa59afb660f02",
+      "id": "763456c88e56e7016c3b48c74c46fb11bd25351c4208dd96457d0cd205c71a3f",
+      "channel": "primary-source:premiersports:2",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "488015cdf0faddfac96593d01ed4cdc4c1fe42eafce998ad42358c79fffc16bb",
+      "channel": "primary-source:premiersports:3",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "f3843bf6e17ac85e5e3484f8466f658a80b9b7080058bed2ceee1efc5274eead",
+      "channel": "primary-source:premiersports:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "01684b786ef94723147ea1bbffcd52f31137e2fae2a86c8f3d033333540523a1",
+      "channel": "primary-source:tvmaria:2",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "f6a300ed92abe55f5c965772cea4f9eb2706a2dd6e3cfc2162b4d59ea1bf6598",
       "channel": "Radyo Bandido",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "8b3fcb2620b38355507ac49bd53a3b14f9cae2ebb7807042da19f5b9670edf64",
+      "channel": "primary-source:bs10moreconvergechannels:8",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "1fb009085d4406ebc8826030bc8fc705820a0241fb2feed6cebc49d91d81ff8c",
+      "channel": "primary-source:kidstv:8",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "2f21dd7ea548eb2724b842423ff1e0974c44f88ebb7599adb5b6b444ef6b187f",
+      "channel": "primary-source:skysportsf1:3",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "01e726fd986c15ab4fa0734d341d4a3d7cf014a3e24c48597e307da6acd46c10",
       "channel": "Real Disaster Channel",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "ea81a83f93a78bf1a790aa6a7a7152ec316300d348b30a4ac1a7544f36db5809",
       "channel": "Real Wild",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "f2b6022dc75f43cdda1e9f8fda3a41446c392aef7fcd7a28fec95c83c7e07403",
       "channel": "RedBull TV",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "4f9696391a0330aeb3eea5099512b21f25fddf00d294ac166e2d97b1ae09b971",
       "channel": "Retro Crush",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "08f4939b43c9d773112d10de3124dca0ea99553c1abea6ee7344cbc8f9bf6ffa",
+      "id": "723d8a38e89ea3c9947a760a1003a2f841212d06e2d1d2903965c39668a3f99a",
       "channel": "RJ Digitv",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "98c227bec02720f4bc4f7fcbf274890fea494dcf9dfb2d15ae2e3f3e6414cae8",
+      "id": "3bf8859ac5187281b2944cbcb323666d8bf22dc55c985fc9d50886df62e3a379",
       "channel": "Rock Action",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "4a45ab8cfaa849f796a8fd68186f72dc247fe1059b0e83a9161e9c7aaa0e9942",
+      "id": "d1ad7cac0555bf0d8fb05f068fdf670e980d0372d3b898d0777f864d8d0eaf48",
+      "channel": "primary-source:rockaction:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "5a6751ef87c34ba6632a87df4871bb7f99fdd930db12b011c4b2bdb60c59a630",
       "channel": "Rock MNL",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "c8365773d1234d3371938d577aa8d50067a6c8e0d3636bad67391a8aa9266159",
+      "id": "3d9cc51ff3c68ca39bbf5c49e01d6f576dfd4ca50630f88f9cb6b531ba26fd3f",
+      "channel": "primary-source:moviesnow:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "83a577c2b285b1fa20f2191ab31c2f1a716707fe89a6449842270a5301b51577",
       "channel": "RPTV",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "e8e7635bfdb1568007f4da084e634cca6c644cb040f1ff6c17edb4ac088f8025",
+      "channel": "primary-source:rptv:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "435bb08c47bc857a833823d65f26a1d15888384664601e6ad5761c0455220e77",
+      "channel": "primary-source:animebypluto:6",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "42e4dcd6ecbe79817146ed544cffb94a4c5078d8ceeb17a64aca7e671620bbaf",
+      "channel": "primary-source:bs10moreconvergechannels:9",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "95a73c8104f7efb897d94c8f6213abfa4e8edd4b671c36856f4cb5a99516b4ce",
       "channel": "SBS K-Drama",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "a00d4635de60ff27dc8b57be1157b7ebbaa16563792da8b6fe2fd18a07876dd1",
+      "channel": "primary-source:sbskdrama:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "917cb91271494523258b35a1f1c198d41582f9c1d6b70ee3045325052f14d212",
+      "channel": "primary-source:mysteriousworlds:4",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "73cf9813ad8cbe86044fd1106d67fbf94a9190042ff3c6a5bb91bd79c0b7dc15",
+      "channel": "Sci Fi",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "a69e32e1922ee47654066da5e20069f77d8849e512d9641b33ed5f288d110249",
+      "channel": "primary-source:popularscience:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "9325b6d555d86ffb673b901915a918ca4c489f502ecffdb8a31fc0ffc682500d",
       "channel": "SineManila",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "d7be2311f3386502d12a75c650ef46ad8a070e76bfbc45171837bbedc6019f30",
+      "id": "3583f762cf18fd4b972b966758d6e017f68a796ac506568287d05fab3a1e26a4",
       "channel": "Sky Sports F1",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "c8953a5ff38daea309a1e290048ddcc51ff9e3e23b29e52b88ba4f6ca5f56da7",
+      "id": "e2044c492760926e0915390c54baa56781a9aca1696f64df19c40d9c1aa97455",
       "channel": "Smithsonian Channel",
       "kind": "primary",
       "reachable": false,
-      "error": "HTTP 414"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "468632f92722051b298a8778ce0f04231f04300110ed2b1437b2845dd253c6d2",
       "channel": "SMNI News Channel",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "692a14ead1fe33f3794f4fb0c4fbf923a4b1b0894f7a1a03153178af9343f591",
+      "id": "b627a48f0cd3ebe02ee4a1a985f5f77f3b1d9defd2ec26b5dabf07d07027e9c1",
+      "channel": "primary-source:smninewschannel:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "0fea5d466120ced67ae4b16367ee223c443dd8b6ee781a53c5c3a7cdd35824d5",
       "channel": "SOLARFLIX",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "fe4b375b82f9c337df93794b8f282fe080a7f93292d5b7aa7929e5ad620c614b",
+      "id": "efddf39443ce6b59df268d75bc5fc8ca8bfa0bacca0f117b8997ed68822ca434",
       "channel": "SOLARSPORTS",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "a037cb580f43db69def7bcaddc81cb31253361741ef57b9ebc94090c5890e6e9",
       "channel": "Sony Movies",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "f2ab4b21835d2b63097adbe96301085084dec9d14ccb7fbe0035f7549af321b7",
       "channel": "Sony One Action Hits",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "f62f065bda80ff90399d12eefd4feda7eeee17c5f07483b331a6542d9a95f5bb",
+      "id": "99227062ed24f3aa38f54e661457a144e6bf6840b8c00d111ed22e2f9a4c82f4",
       "channel": "Sony Pix",
       "kind": "primary",
       "reachable": false,
-      "error": "HTTP 404"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "8176e939022a9eef4b8faceab093a5931948a8f3d417d6c1dbd0ba6fe4c1ea5d",
+      "id": "3e189c52a42c556815a1a358d6c984c2b5936e117a3b2e97be6c72e87e4b69dd",
+      "channel": "primary-source:comedycentral:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "9da7b148ab18650599fbf37e7d3c753dab388a73f7bfc231ab0f6cd6d5108c66",
+      "channel": "primary-source:nickelodeon:5",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "7324bb3e45df716e0c06d60b512982dce2351d6092609a06c857880196e616c0",
       "channel": "Spotlight TV",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "9ca04800a2238e39176b6944dadb702e2a102a8953979a6f8f05dddb4e5a6bfa",
+      "id": "cafbe76f05f34fff79cac33bb4c6527f3cf5bf92c136fe64df41cbba2900f4ac",
       "channel": "SPOTV",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "de213c3a7e5b1719cd401d5e76c0f6e491c59ff1121f335bc31b1dafe1e255d9",
+      "id": "bdadea70a578d1eed1dcb3b924481f9d99734d0332b9cbe86cf647613cb7402c",
+      "channel": "primary-source:spotv:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "ef260ce77ed598c8382d63ab7166aecaa6a67e0aaeaee06f5daa027c373d77f3",
       "channel": "STAR Movies HD",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "364c48a162b27531e113e5200cbe7ac634578d96974a94a0bbd86d4503561cfd",
+      "id": "a1208ade4d44a3440f825ad0559f928c2532b5c8243634e6bd4076f59c0de56e",
       "channel": "STAR Movies Select HD",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "a7fe67213c9bf6cd9f0e1c2c1677dddf2a7ebea6f34e794ed72cc88d721f539c",
       "channel": "Star TV Philippines",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "b2dfed8f31db06bc9c5b43235cfead6e81ed84d7abc9e39eb7ecda65050a283a",
+      "id": "85f25b728489a1e22a6a2dc2db5068ced4f53cd072f11edaab6fbf7493a72b25",
       "channel": "STARZ",
       "kind": "primary",
       "reachable": false,
-      "error": "HTTP 404"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "fa5f7ec501eb6aece5f2b3721099ba8b86d6ac9145ecfe388f34b501fb91f7e5",
       "channel": "STBS Global",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "ced6b67385dfc56e1ffe6b381bb91e7e94dd384f0eeded8593d5b547760a9ff6",
+      "id": "f20c64137a608eacb085200b997667c93b93a47b3e39306208e7cde228b7dca8",
       "channel": "Studio Universal",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "62d4b81771a1c026a81027930d6abde6b8c07252cae2007c6649e09d941c041e",
-      "channel": "SYFY",
+      "id": "7103ae757027dd3e1aff198a1544c3842b99ac5e3e23b71284cbed8dd6968c0e",
+      "channel": "primary-source:syfy:1",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "c8218eb35904b40757dfb10ce9b6b2780690e15e8099e3ce1390583ba6441fbe",
+      "id": "009ecefbd69e407ea6b6deddcd0b14cfd54b216915d8383f6e98ed861ed2907f",
       "channel": "Tagalized Movie Channel",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "c8429c992309ea034576e52ba2ecde47a3d02234748a88908c294a4dda222417",
       "channel": "Taiwan Plus",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "a40f14f09811af332afa97c7efe77f4e443edb6f0d8e43ad1d8310cbcc1bdd79",
+      "id": "c31fdf9ec3b1e563b6478a03cc5a793bd106772bca0239421076fde4e90b1ede",
       "channel": "Tap Action Flix",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "879a96d7b3d876e254961c65877865c2fabd177fdbaa8d7b8b82bc75b840ea28",
+      "id": "86b5917b84fc9a9fe93087778239f1bde796a6d0a4028773a6a5159427f5ffa9",
       "channel": "TAP Edge",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "75a55525f9fb20da4cb1773ed694530959d42b843837b7b1d5d474681ac3e6bc",
+      "id": "527a2da3c10f90f8d19871d9f83213d9ebffd91d167bca92759ff2cabd9be908",
+      "channel": "primary-source:tapedge:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "d5b61e3a227f3528a3946bb65afb478da8ddd3069cf034824e10b9b9a1f0b4ab",
       "channel": "Tap Movies",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "459b68622b9dfd7295886cde8736f6aa49fb0c9dd314539c106bad734d64fcf6",
+      "id": "8bc2160801b158c238b841854419aa82b8ceb3fbc167f0afa57a89db5f90a08e",
       "channel": "TAP Sports",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "a783f83234040eeb7c19e2d815d267f672bd2f7fb14a9141541d318240fdcd41",
+      "id": "78a758c8c5c3fcaac63ba91f60643d76aaa4dbea93d305c943c4270d2137fc78",
+      "channel": "primary-source:tapsports:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "94eeba0005fdafbd87dc0f2bd8e7273ab7e91fcdcc380e326359c9d5ad7fb493",
       "channel": "TAP TV",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "25859a895664d038347dc0a7988cebf7b517fc4a6f29a291296603afc072be95",
+      "id": "39b21846f795bf5f582c75d1d5e18012f3fbdfd04e618556ab02493dd34b15a1",
       "channel": "TapSILOG",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "aa8e3fb9faba3624dedd27847239a8dad6ec3df32fff26ff3ffca4a9fbb13e5d",
       "channel": "Tastemade",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "e2d0b783010856ddfe979ccd692e6306282c9ea6f1a1b5e979f6ac1adfaa2a74",
+      "id": "709b686fb3c69a8bcc3046827b8d178228e50a65b76b3e9de594d13f428888f0",
+      "channel": "primary-source:tastemade:2",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "dad1a1898070c683d2d4c3154a650801146429a73ba91c0e53957aa749b2e0ac",
       "channel": "TBN Asia",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "8c807c191ae3a993ae54490dc676e9aece16da32eb334338ee6d8c9d4be8e9d4",
+      "channel": "primary-source:sbskdrama:2",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "1a2c1fedf063fae875c4f3e354d67f7ede248277c18a553d010aafb7aeca1c91",
+      "channel": "primary-source:kidstv:11",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "d2be482d50eece1d1c3f23f05c7062fe3abd8cc59b68e57f5366de48f18c42da",
       "channel": "Tennis Channel",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "d5cfd85ebc870c5e010a0e5d11eccb3c4279e0db18e0aa3542f7f5e35d1a053f",
+      "channel": "primary-source:tennischannel:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "6e701573f97c683f3dc5546373ab19aff8bebbd240f59933c08fe5985d1d4a87",
       "channel": "TFC Asia",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "1d2ffb3afbdc85926314a6cbe4047decc3b460c10f81ca2be95b3e88bb726bd2",
+      "channel": "primary-source:tfcasia:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "607de69c9c5eee631d8b70a75b74c979658c7cd95cd2afe93dd7cfced75a855b",
       "channel": "The Manila Times",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "6bcbb2851da55567e4da92deadd3ea36f079e4cd524c08939c9849efbaa2c924",
+      "id": "dc96abdd9c98322004ad703629a6a299c305054563f575e5ba10500adf057ef9",
       "channel": "Thrill",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "bba60eebebf3511923610b14f955710fae3ab191f873187e0a5fde344171bdb5",
+      "channel": "primary-source:thrill:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "1d3b79a8a5ec647e1ebb9bbac78cbd201af27e6581522008aa5bdddda5a06229",
+      "channel": "primary-source:sonyoneactionhits:2",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "ea250f4a655e1c4676544cd0bf4258e71deaedab2e470efca0e34d7bfbb65529",
       "channel": "TLC",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "850c6df3b0f5e80d033c5cc4c404544a47f27f6654dabf52fa9594c7d1ce4a76",
+      "channel": "primary-source:tlc:2",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "6e98ad35956fbb5a649f7bd933a7e527f2f1aa2ba5fd41d6a54550a07019b5c5",
+      "channel": "primary-source:tlc:3",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "76872c06e0475d02a75b53cbff71897c0ea956e0e942b4daf9f206b56d0a02c0",
       "channel": "TNA Wrestling",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "45b047652bcfc2b10070c28da035797c4adfda8f0d519d424d90200abced2353",
+      "channel": "primary-source:tnawrestling:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "b1fec73b9897c3a9f1cf574b5631fd61423e4b0fa5208f5b6254ecb52655f638",
+      "channel": "primary-source:tnawrestling:2",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "2dd1d0724396af58ed949379448d46c431b99878f540a500400910aa46876239",
       "channel": "TNT Sports 1",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "e56efdced0bfd3e9f7a2b072a42577e271db9addb90b32eeecc560fa2999b754",
+      "channel": "primary-source:tntsports1:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "cbe117cdad4bb31a522a3e9dd5b05e6a41a56050d7b8ffe5cbccdfc9317a7d71",
+      "channel": "primary-source:tntsports1:2",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "6aad58ab12bdf6b9e7615d097066806a7f1bfc5785e8bf724df62bcf9a69a4d0",
+      "channel": "primary-source:tntsports1:3",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "ab33c9e42ebbb143dff385e29028e87d998b8892fb15a837b8f4e2293f14d51b",
       "channel": "Tom and Jerry",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "11894801c53720ec3d3f88282926c4f75a9d00c1e5d301cd1897db80b93a2194",
+      "channel": "primary-source:kidstv:9",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "f8986daf1464969c01f7cf68a2a1ff32f39be9cbd042095cec6f89b45b1cca72",
       "channel": "Top Rank Classics",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "ccf19814617b6006dc9e37f14b7c6b591b428a8038e23c10b83f2d25880e041e",
+      "channel": "primary-source:historyhd:5",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "022531b29e65e098c2917ef3c23863ae8e3cbbc01dc3edb531c47ab88301542b",
       "channel": "Trace Urban",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "d5d4a80c65983da9b9fd05802f61573036edfa7386cec108027df2f0a2d896eb",
+      "id": "738492609d42671fecf4d6581cac7a6c6c5d665677ea4441d084fae153d6bf4a",
       "channel": "Travel Channel",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "f6d1651d7c69b799740469937a24d03a112d4506a317317a19455ba5efd0e4ff",
       "channel": "TSN",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "6cdd8b8cf20c8e6ab33ec31ea50b585c2d4838d4b5c523060081dc540edf3b7d",
+      "id": "6c2b958f69010c734ac98d0fa4c11307f9a81233f59b2b0880c2d43ba9180e08",
+      "channel": "primary-source:tsn:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "f3da413a9970c524fffee97a052a4d9dff445dfd9f590efad3c7d7a648000620",
+      "channel": "primary-source:tsn:3",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "32ec73726ef3d45bcfdc355346360dd93095f8d246e28f032066acb3f4a0cbeb",
       "channel": "TV Maria",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "4b3bbed9f92108c5cbfad044da3da6169ae64394fe3ccd2c2b9b6f9b3a18d2ce",
+      "id": "963166c0e2743240761d35e90073929ac9a4bfeeda49e84dd0a0d322f37599d7",
+      "channel": "primary-source:tvmaria:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "91489786d2df0cd30fd61da67ffdee05ee0d82c9198ad221df038548cef749b7",
       "channel": "TV5",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "70d7935aa6d038fc0fb68f41165e7c1b5c39a7bb963e702a6a56bef9b3578cf3",
+      "id": "abc11e8fb22973b8cdb5c45ae8b0122b90b1d5df4a95d41546483727bf0de92c",
       "channel": "TV5 Monde",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "a656bdad2fe93b74908f25b987e221fec928cab9f8c802678461c644ee5c4d9f",
+      "id": "4d8656850d07fbcabd6eed3fe9108f7a31d33c357c83367b0b3da599c376bade",
+      "channel": "primary-source:tv5monde:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "7b6762f2a3c053d4ec00d5424917de2d9aafeafef731bf27e66add781dcd2661",
+      "channel": "primary-source:tv5:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "95fb047d04fb2ea4c8e495b12c386f392d6ef74b88e14fb001ea70f8eee0376b",
+      "channel": "primary-source:bs10moreconvergechannels:10",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "8e4053158897c9bbf3ce3e7ab343f3971d8333cdf10cb45ee2c93b93e4a20787",
       "channel": "TVN",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "27957f64afc4000105677d8edd2ade2ef016e3eec1a0bc96d2eeaac39248dbab",
+      "id": "c99b5766bfc8fd9980f9100f43a8894f084fcc1d649f551e01443325efe342d9",
       "channel": "TVN Movies",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "dbfe81ad6fb6e643291d3b11706cfb25e29e6a602a2a63285ee8d24ddad5558d",
+      "id": "77d148621bedcc33dab651d5dfdfdf8cf9965758de6fd0c8fca4c8248632817a",
       "channel": "UAAP Varsity",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "46198c053af701bc1dc171001f3093b65f276b075c16a323362bd3cfeb34a1eb",
+      "channel": "primary-source:mmatv:2",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "ec616addcea5cc3aa65e4773637ff0f28ac6b0835b72e795f2511be1a22799a3",
       "channel": "UFC",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "93c8822e80d55ae5a08c7aaf38c5a9fb5e29c5cb965cb256f4de020e5f79605a",
+      "id": "9b5e9952bebe555b14363031fd38563fa5f8924923e5537bc912ae1a77462f24",
+      "channel": "primary-source:ufc:2",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "08979c8fadcfef95ad454003e5217a1fb31295b0f594a5b7a07da8b5d559ec6b",
+      "channel": "primary-source:ufc:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "d35a603bbf2e4c57ae9a29efba888d93e8a880bc584d731f30cece2a38dcebe9",
       "channel": "UNTV",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "92ea190f162a342688cf51529a328c025d5f80b50739b2ec38096c613dd6b35f",
+      "id": "60911b54cd332ed9a7ea698ef21f853a01b13e817858426d8242702d2b2eaf10",
+      "channel": "primary-source:mysteriousworlds:5",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "6e59daeaad9cb22327115e7c960d3b8307b49f52be3e0c268cc762d084bf53b8",
       "channel": "USA Today",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "d1b225fec7ae5f56f0dd5f19d9ead0b688ce1a3fd534f9d0051305cbbe90ceda",
+      "channel": "primary-source:mindanownetwork:6",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "cd140fd740c4529af27b3b2db601e7b06d508acbbbec3159696551961adb23b8",
       "channel": "VEVO",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "c89eb1133c7815159a4e7e992a35849d623a0f69af24167a3b2a8e661fea893c",
+      "id": "1a1a7a02ac14b5673524028865b25ca7208508be2d428ff818a088d0ff8b757b",
+      "channel": "primary-source:vevo:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "021cb7fc62f1d7935af87dd23ffad670b0ee74717dfba8bbbabd36411fe989af",
+      "channel": "primary-source:vevo:2",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "259572e2be2bde1c0ac4a03927ce55519c30b12329ffd554dbcd8d7624138115",
+      "channel": "primary-source:vevo:3",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "bdd215cb529c7ed31d9f89dddd13b9a29332d29c6fcf68049176ac7d441d7bb6",
+      "channel": "primary-source:vevo:4",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "ba8ddf6574f81aa36dbaff569eb07e56aa40e6cb4118f39835ee70438e677f72",
+      "channel": "primary-source:vevo:5",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "e550ef65b7ae3a5cc529525229fb28042d28c9e6c4121843e52d2db2a5019b9b",
+      "channel": "primary-source:vevo:6",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "5c6f27c54980f7aebb506ef9c40cf92c2f3d05712a58954a504922f704a4d7ee",
       "channel": "VIVA Cinema",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "095f5bae53ed7e871dab9f0cd73c75a523d662722de712c0048429867be79a51",
+      "id": "e0b88181665add3bf4191d3daed559fd8a820e0a9ab453466c7ee1c51aa11acf",
       "channel": "Warner TV",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "deaba22112d3234b8e8a9395cd7d39996c0fb67f81f71d8c89ec6c3f1ef81eea",
+      "channel": "primary-source:warnertv:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "b16ab91d016d655b4816efb9e7a88769f81e21182b01f406c269eca7f5dcd717",
+      "channel": "primary-source:wildplanet:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "d2e57c2da6f6d5fcc70e42f5cc53ba699bbe10cbe411ff5b7f9a4b58572b80bc",
       "channel": "Wild Planet",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "c8df527995e4f8fc72495b51a6028c1e9948cba3fb61d9a9d0ee0c5f15d0c2e5",
+      "channel": "primary-source:bs10moreconvergechannels:11",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "54094b1dca674dbe4204c4c651db5ca8cbfd1c7d34d5d3ffedee793cb6371b59",
       "channel": "World Poker Tour",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "3645789f28cb3ab69739b77ff9631b1d7d04ef5bff449fea1e401cc391381004",
+      "id": "d9acf870e5cdb14bca2cef2fa828f45ef0819d73192759165eec06fcb1fc0185",
       "channel": "WWE",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "89b5b845e62e3a776ef3ecea65a0d8f56cb3fb2c87d8b83a2b3d5aad88eaf001",
       "channel": "XFC TV",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "c9ecb67155173933cbad7ac2d9c9ea282d4cd71531ee2cae27449e9db593feb5",
+      "channel": "primary-source:bs10moreconvergechannels:13",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "34dd5c035965b290e902dcdd3e04b4cf6aa79e9f187ccdc347b13cb50b70a8f6",
+      "channel": "primary-source:xitehits:1",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "a1627d1c5740f959574d2280ecca5143c3e7c3094740aa26aa4a42a406db8c37",
+      "channel": "primary-source:xitehits:2",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "50a00561aa485a3b5a61c7cfc6552cdfe27ac682a09e7e6f009833abd89dda53",
+      "channel": "primary-source:xitehits:4",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "ed474f17d43e607dee72c33b4ca788768ae7fc763a47c0595ed5a04ce40e8d3b",
+      "channel": "primary-source:xitehits:5",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "b2324b0bc0f046a3a42928788d40fd65795ebea1e00f510d23e44aa3acfc197f",
       "channel": "Xite Hits",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
-      "id": "ff30692f4408c4b51c6dcb139ff94f08203c7996d6e6582471aa8e9d24f0808a",
+      "id": "00ab88e4e66677c96407bf5aed672b281667a819139c1e52a07824c797163a82",
+      "channel": "primary-source:xitehits:6",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "321e02fe561b91977feb8ee0b62f350a646017a74f48156dc38d609a4e47d905",
+      "channel": "primary-source:xitehits:7",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "a2584fc00ab254c6b646d593223bf862fb3c0f086a9f2fc137c6db9f2cb9c918",
+      "channel": "primary-source:xitehits:8",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "c69f83f4d2d58a3ad6bb2c43d28f3d07dc604dacb6ab09d32482735127197653",
+      "channel": "primary-source:historyhd:6",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "2ecb295890ba1fde95a733d97607eaf6093788beb65760fab58cdffbf7debd79",
       "channel": "Yes Network",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "fd65f8cacf28e118fd24d9a8f50b3874424d502d75a9bd98d24db53c1fa2c6be",
+      "channel": "primary-source:cartoonnetwork:4",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "c4d82027e35a0d52f57e0e2783d2e1ab91073eb4caccd2e593ca03e38ab228f6",
       "channel": "Z One",
       "kind": "primary",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
+    },
+    {
+      "id": "9e70e4f9a631444e68cd9ace1845836482294d00708b4425656b321323b0cfc8",
+      "channel": "primary-source:kidstv:12",
+      "kind": "primary",
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "ca7d6b94bdbccbee02df4e98fc19ecc787ba115bf37c70512d6ba86acfca4e11",
       "channel": "additional:3rstv:f6519c3696a9",
       "kind": "additional",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "d16e76528bd0b4f0d36813bf1f5af431875efbc0567f29de974c16cc154190e4",
       "channel": "additional:3rsmovie:c9ec2881f7b9",
       "kind": "additional",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "73845d4d12d993102ec50003b4d96a5d04ceb1d26484274aa9c46ce438dc96e9",
       "channel": "additional:stbsph:fa39162274e3",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 404"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "f766f32c1f17d818ce0948480ed520b1a1ea0f20d691b6a375e0339cf6f6621e",
       "channel": "additional:startvphilippines:8fbad275b125",
       "kind": "additional",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "69cdb16d076107db0ba7fe573578f7baf01865fd1c9669df9eabcac5832130c2",
       "channel": "additional:dreamstartv:0c2e4d169df3",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 404"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "2f9360fb0307512cb1d3bd0edf192c6c3885513962e4204d5645cff049bb2ff2",
       "channel": "additional:stbsglobal:0913e59e62e9",
       "kind": "additional",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "c9f6ef95fc6d20bb2f48422ebe44ab88570d07e578d70cbbdbc2170f8b324e23",
       "channel": "additional:colorstv:83238b4a46d5",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 404"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "e29cfa19eab384350516e0de363d53ee054599a60e51d070482808a5d02b376c",
       "channel": "additional:startimesphilippines:acd3185d4da9",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 404"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "226132ceb9ec0bcea0bc2c682681a07293e0417b4c733f2ee6d31b1038ee7021",
       "channel": "additional:atbs:de1d62bbdf14",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 404"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "1620fd984642ac35c875e6bd7554408808070d2dd83f5d9cf28baca02d5fe641",
       "channel": "additional:pinastv:89fae9cce5b1",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 404"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "15e6f27d2fcf84a5d322d84737add4586d67167735e105aec245ec5482ce5a70",
       "channel": "additional:kqtv:8caab3e06dfc",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 404"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "b640fe2f10768ebd201598fb45aa72560ce9b4d537d7bd25cbb80cb0f229114b",
       "channel": "additional:cartoonchannelph:bc122d85dc87",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 404"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "07cc5c25cb393c346b08b4b43da2c58ffb72577707d72c586200cd9854c29eb9",
       "channel": "additional:jungopinoytv:ab3554cf6785",
       "kind": "additional",
       "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
       "error": "URLError"
     },
     {
@@ -1824,6 +4486,8 @@
       "channel": "additional:hallypop:63542abeab9c",
       "kind": "additional",
       "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
       "error": "URLError"
     },
     {
@@ -1831,6 +4495,8 @@
       "channel": "additional:zeesine:5676c98ab9c8",
       "kind": "additional",
       "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
       "error": "URLError"
     },
     {
@@ -1838,6 +4504,8 @@
       "channel": "additional:dubaione:c3b98f03a874",
       "kind": "additional",
       "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
       "error": "URLError"
     },
     {
@@ -1845,307 +4513,395 @@
       "channel": "additional:nbatvph:13a17500cc0e",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "a28958b088de2ee4223a7d96149b4046ad3a91052506763d79ef68abadf02820",
       "channel": "additional:sinemanila:729d219a4908",
       "kind": "additional",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "721553e807cba7be2aa7eb75cddcdd881f6037ab6a44c1a87d5b51848ff7bb42",
       "channel": "additional:ragetv:bf16b48f86ba",
       "kind": "additional",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "242d3731c252501f275f6a4fbe31e5a4b86e2f7cb0242d75c26fc3fa3c176e84",
       "channel": "additional:alltv:23f779dc8c08",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 308"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "ad3282849c6b3584834bb8d46430de148d54663739d9cd932ecd26dae1fc54b7",
       "channel": "additional:gma:c75458e49931",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 308"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "086a2b2efd7847712ff3a8d6ab6e889fb2f7b09375f4525d07948d3444e8d787",
       "channel": "additional:gtv:cd009bcfa6d9",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 308"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "5f51005acf97e4b5df92b7983b66b50b8d747e165acc11fd48084772f72e3815",
       "channel": "additional:kapamilya:04ceae2ba72f",
       "kind": "additional",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "852e8446fd7a2016688b1e088519552bbc9d22e2718b363d196e6c789aebf0ca",
       "channel": "additional:a2z:9e03847018a3",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "3bba49b84ed43ad7bb97570d058eb9fd10efec3aa7e8fbf566ace1e35977e305",
       "channel": "additional:rptv:f7e771646eee",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "6a348048563ac605ea633ea90011febeb662e414f722a035cca2a753b434dfd5",
       "channel": "additional:tv5:3b5c7607b1c0",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "f847dbb959e486b626bfcb41cd1960d57a08c93de6fbdc0768df49b9b1f92b8c",
       "channel": "additional:heartofasia:730cfa6ec5df",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 404"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "288b941ac306c3aab3f65e2c5a617c08a75a796c7072fccb1a0554c102520665",
       "channel": "additional:iheartmovies:b965ea9c79c7",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 404"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "f39a0116a9597d2aef1cad5b8b7ec083f9d3a9227e6b437fbe173d4fa38f734a",
       "channel": "additional:pbarush:1796b7294731",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "d48516dfb21bcc5440a03f9473a5e2dbc41fc696c716043edb8f5f20648bd40c",
       "channel": "additional:oneph:5a60945755ca",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "2c0d870357362ab757c3acf79d323491b1d2e3425eec69d8943d7e5a02098b09",
       "channel": "additional:jeepneytv:f37935b58879",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 308"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "fb902b22b1c4df1c920179938c96fddbca415da2851ee304bcf479d49c3523ad",
       "channel": "additional:cinemo:fb72504d47ac",
       "kind": "additional",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "91a607d624e86240acbbe536791922d0972a7938c37cac91826de8fdf5e8546e",
       "channel": "additional:cinemaone:ee3083569b6d",
       "kind": "additional",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "26d08675683360229417215aa30c9469686e95b2aea1aa829510d154c1b46e80",
       "channel": "additional:pbo:5fde985a237e",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "e6096adf226e75f7a24f5e1dc4a89cfba4092ac7a837cfff1e2fbe1a819c45f2",
       "channel": "additional:vivacinema:08c5a8c717c5",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "3e32f262755a877d1218f953fbb89dc7c4ffb11f3b01c4c74dde60e8052ea249",
       "channel": "additional:cinemax:fa3647a8baa2",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "204a34355bda1219c342e2e8096e29b66fc2bee6bc0aab882f8993ddcdf49813",
       "channel": "additional:cltv36:2fa1c383918d",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 404"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "8ab9b791eb39d6a07186e5d904bb699d709e2a140e54298cd2706b7550757e11",
       "channel": "additional:tmc:c90435e9aced",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "7840129324bb4f94fff4f70f6ddd3e9b6fb4b8e4177149c771cb039d888bda39",
       "channel": "additional:depedchannel:738c1cf949ac",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "edace8e440d494b34ccd762243bc50652b9e068761e0a7d37e1706977b23757a",
       "channel": "additional:axnchannel:b388de360602",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "7b81dfc7d36012c83a5ee51bcaf7a075f4c69dfd1f15d2844ab1fe22abc9969b",
       "channel": "additional:disneychannel:2b02a611e4dd",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 404"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "dba022ee133f3c2d10e129eebbf30f938fe5dbf02faf5f9da700c7604a2c3459",
       "channel": "additional:dreamworkshd:168aa4ea5203",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "062ada7da0db5462e2aeb3f9323f151b1ec6d1d7980024952f6cd78e0442811b",
       "channel": "additional:dreamworkstagalog:331deb173577",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "52e30d066c338df80e7defdf23239f6dd1850564b777f4d5ba6d4f098f21b867",
       "channel": "additional:fashiontvhd:d44435f57ded",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "cb55446e2152c8778e1f959b53449f6a944f515f971acbfc495539eae2e543f6",
       "channel": "additional:foodnetworkhd:f99a399f73ee",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "a819dd6ed32021ca03f52411195e24a4797fcc2a378c096fd8a15d9dda85d10d",
       "channel": "additional:hbofamily:4f83a504b714",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "23d7cfcbe154e97d488e06f30ed5830e8c09a1d2ae5b8f927a3d621f1a98670a",
       "channel": "additional:hbohits:4f9b19e92222",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "31e6b1ef2d42a4e6f81b2fc85fb43063eee243d57984a86ec7629e26fcca0715",
       "channel": "additional:hbosignature:f64a6b9ebb1c",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "3e75e540b457d5725870e6b394c602634c9e9818729e04d294a8794539f6d6b3",
       "channel": "additional:hbohd:c6348b1fb478",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "ce2683ab881e70dc29a7a0deb0070f3d9ab60f6b3f81c058440adda0714ea8c4",
       "channel": "additional:hgtvhd:3995eb0f0da0",
       "kind": "additional",
       "reachable": false,
-      "error": "TimeoutError"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "5792d7c7d619c0c9a852f17b954dd978a93f25d06c9a1658162f2dd3ef851436",
       "channel": "additional:historyhd:578ea3099aa7",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "f1e23471d5d212f8e85e155cee6f085febf8d73952d2127683e6e6061efabb39",
       "channel": "additional:hitsnow:63759286423d",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "5236b35ec509d391cdff94f889a7a4e86866784aa790fb6095c06e4b436a5f6b",
       "channel": "additional:ibc13:c84c273a2918",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "49185af95f2a1377904558afbf1b0f2095f3e7a728d952b14c5588570df31ea1",
       "channel": "additional:inctv:9a55b8b0b957",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 500"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "544db53ef58889857105084749df98459992c344052dbf6972f49935e1479225",
       "channel": "additional:kixhd:c1c1ade2da50",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "7c1276dafd0bbbc1a875fe47c8b74bd8be205d4c8a57ec2381614526b7918459",
       "channel": "additional:knowledgechannel:2a663afdb59c",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "3f423edfb23f07f0118228b1c27bac159620795e4c6515e1854fb99fe1e349b8",
       "channel": "additional:lifetime:795e850f8d64",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "1d5f0e11f382ee92afa03709c3b0f5483013e39cfea90260394b3a0bc9e9fdf6",
       "channel": "additional:kmovies:358685e48eae",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 504"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "65669f28089a25ce04d98705197949032a9e23f77ae6800acbb185b69de062ca",
       "channel": "additional:mptv:f83771d08cac",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "88683866bf80f68b493ca6f872959e88e9b9cbfa2c96b725b7905961e6bfd06c",
       "channel": "additional:myx:6e0985ec8b81",
       "kind": "additional",
       "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
       "error": "URLError"
     },
     {
@@ -2153,6 +4909,8 @@
       "channel": "additional:mtvlive:01f885411a9c",
       "kind": "additional",
       "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
       "error": "URLError"
     },
     {
@@ -2160,76 +4918,98 @@
       "channel": "additional:nickjr:dac508d34a84",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "f12c4768e71c378020e16b223748172b5d187b29b3acc3b5896efaf693a76935",
       "channel": "additional:nickelodeon:2708c910abee",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "824942e9fb323b18d315a3e1a58cb29ed3a4f3ed6a9fff8e80645c6cc8af26f3",
       "channel": "additional:disneychannel:16b17880f5d3",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 403"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "07ed7a941fb3543f538988199732477488f20d741caad98c59320f2db16b322e",
       "channel": "additional:onenewshd:c62da151d142",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "9fd9d36759cbbf98382d8e7d14fe96abcc53b8af9f5104563a00a5b62e74333d",
       "channel": "additional:onesports:2a5eac860dc2",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "6e661dbc908358e1e378a26571771b18c54b38a4d9c138d373b87d41eb64930a",
       "channel": "additional:onesportsplushd:b2d155134e5e",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "16671c664f18444b4f89aaa1e3015d0d44bec5c6265c15acff14b45c8a3618c2",
       "channel": "additional:premiersports:1edcfd35c652",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "887f7c612bb0a06c2b13d416112362ece097724dea89156557b46733b0c5c397",
       "channel": "additional:premiertennis:d8e65b210b13",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "50bf8d4ac413b7e4c23dca33850926d000881759f85d1e76f391476fe05d2264",
       "channel": "additional:ptv4:4ba3f8a35fa3",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "5d6bae8ad2a6bbfad34acbd2d73e946c19384f5f107112785b18a13fe16465bd",
       "channel": "additional:sarisari:b8477569b88a",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "9f2968399b714a083baee5f2955aceb75618fc1e6aea8e90f8afebf1b1602df3",
       "channel": "additional:sonypix:eeb12fb019d6",
       "kind": "additional",
       "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
       "error": "URLError"
     },
     {
@@ -2237,105 +5017,135 @@
       "channel": "additional:spotv:2ea47402a32a",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "1593fd0a16da0cd55a6d0977f9a74e6e0453f9b7f35835cfc56d1e987231c552",
       "channel": "additional:spotv2:7770fe46b3bf",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "55e83720a5add741364b70207a8c8e7401edf62319baea9e25dcecabe5d1d8e3",
       "channel": "additional:tapedge:0e46dde847c5",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "ef350b6f086c8271e16a0ce36ad558b060e2fd5ba56079d3f3bcdbe07fccb807",
       "channel": "additional:tapsports:98594b84f55c",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "bb6343edc1d913f6e7671113f3fdd89b389da16cf0fac8bb40d3eed0129eea37",
       "channel": "additional:tapmovies:55fbfe108561",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "32afcc071779c7be616d900266fe2af246dc3c853b8420eb3a4d37b3a148411d",
       "channel": "additional:taptv:cd070843b415",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "7bc03a25d29f35bad3c742512fcc1a59ba7e795b0c14e416ae4ea1a336f097a2",
       "channel": "additional:tapactionflix:eaa46b684586",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "ca70ec3448eee40249a9fabba0046f1f246591e6d907d08862a20032e9bb9ef2",
       "channel": "additional:teleradyo:995fd47df709",
       "kind": "additional",
-      "reachable": true,
-      "stage": "media"
+      "reachable": false,
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "954586d42f580fab9e7be030e4f68e5b365cf43c9975e51f8514bd8f833d59cb",
       "channel": "additional:thrill:d2cf308ea159",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "f59203c8fe0f0900659b576bba7d870135576c3e70468ee01bd85dfd572f6d84",
       "channel": "additional:travelchannel:a37f42e80c68",
       "kind": "additional",
       "reachable": false,
-      "error": "TimeoutError"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "fbd55088aa2fde8ad6bb011150935dcb4c336410d5590619bd28fd2d70ac83e6",
       "channel": "additional:rockaction:37e248a0d21d",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "29efef65baef29cdcddce6846504d1982a2e3016c5fb051373faf78b17437327",
       "channel": "additional:rockentertaiment:385545ffaa8b",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "3ceccda5e924823cba3f8b28e796ccbe63791f4c6cecd15568dcd331ac405fba",
       "channel": "additional:tvnmovies:69d9d2f0fc19",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "bdc5b325719a633a757d32f3ec76a47486ed0f4c31fa535f61dd365fd872b0bf",
       "channel": "additional:tvn:7c6903afcb38",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     },
     {
       "id": "3efeae8e594d1bfef8ca3fcbbef02fbb65d599d737ab24808131dee9fc5a1d7f",
       "channel": "additional:uaapvarsity:ba264d7ab0dd",
       "kind": "additional",
       "reachable": false,
-      "error": "HTTP 400"
+      "status": "inconclusive",
+      "publish": true,
+      "error": "URLError"
     }
   ]
 }
