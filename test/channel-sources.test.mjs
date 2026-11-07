@@ -20,3 +20,9 @@ test('NBA events are grouped under NBA TV as distinct broadcasts', () => {
  const inv={entries:[{id:'primary-source:nbatv:1',parentName:'NBA TV',serverIndex:1}]};
  const out=buildSourceInventory(text,inv);assert.equal(out.groups.length,1);assert.equal(out.groups[0].name,'NBA TV');assert.equal(out.groups[0].entries.length,2);assert.equal(out.groups[0].entries[1].sameLink,false);
 });
+
+
+test('reviewed CineMo PH alternate is grouped without grouping unreviewed feeds', () => {
+ const text='#EXTM3U\n#EXTINF:-1 tvg-id="CineMo!" tvg-name="CineMo!",CineMo!\nhttps://example.com/1\n#EXTINF:-1 tvg-id="primary-source:cinemo:4" tvg-name="CineMo! PH Stream 2",CineMo! PH Stream 2\nhttps://example.com/2\n#EXTINF:-1 tvg-id="primary-source:cinemo:3" tvg-name="CineMo! PH",CineMo! PH\nhttps://example.com/3\n';
+ const out=buildSourceInventory(text);assert.equal(out.groups.find(g=>g.name==='CineMo!').entries.length,2);assert.equal(out.groups.find(g=>g.name==='CineMo! PH').entries.length,1);
+});

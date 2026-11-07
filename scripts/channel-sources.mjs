@@ -24,8 +24,9 @@ export function buildSourceInventory(playlist, inventory = {}, mappings = []) {
       guide: guides.has(id) ? guides.get(id) : null, sameLink: false};
     // NBA event slots share a navigation group; they are separate broadcasts.
     const nbaEvent = source?.parentName === 'NBA TV' && /^NBA TV - \d{1,2}:\d{2}\s*(?:am|pm)\s+.+\s+vs\.?\s+.+/i.test(name);
-    const groupKey = nbaEvent ? key('NBA TV') : key(name);
-    if (!groups.has(groupKey)) groups.set(groupKey, {name: nbaEvent ? 'NBA TV' : name.replace(/\s*\*\s*$/, '').replace(/\s+Stream\s+\d+$/i, ''), entries: []});
+    const reviewedCineMo = id === 'primary-source:cinemo:4' && name === 'CineMo! PH Stream 2';
+    const groupKey = nbaEvent ? key('NBA TV') : reviewedCineMo ? key('CineMo!') : key(name);
+    if (!groups.has(groupKey)) groups.set(groupKey, {name: nbaEvent ? 'NBA TV' : reviewedCineMo ? 'CineMo!' : name.replace(/\s*\*\s*$/, '').replace(/\s+Stream\s+\d+$/i, ''), entries: []});
     groups.get(groupKey).entries.push(entry);
     if (!byUrl.has(url)) byUrl.set(url, []);
     byUrl.get(url).push(entry);
