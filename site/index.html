@@ -15,7 +15,7 @@
 <p class="muted">Updates are scheduled every 30 minutes. A successful publication does not guarantee every channel plays on your TV.</p>
 <h2>Channel sources</h2><p>Showing sources that passed the latest hosting-server check. A pass checks the stream metadata, not playback on your TV. <a href="host-playback-health.json">View the full host check report</a> for failures and HTTP status codes.</p><p>Search by channel or category. Alternative source slots appear under their main channel. They may have different programs, languages, or regional schedules. A shared group does not guarantee matching broadcasts or automatic switching.</p>
 <input id="search" type="search" placeholder="Search channels or categories" aria-label="Search channels or categories">
-<label><input type="checkbox" id="duplicates"> Show matching names only</label><p id="count" class="muted" aria-live="polite">Loading channels…</p><div id="groups"></div>
+<label><input type="checkbox" id="duplicates"> Show channels with multiple sources</label><p id="count" class="muted" aria-live="polite">Loading channels…</p><div id="groups"></div>
 <p><small>Channel visibility uses local playback checks. Sources hidden after repeated confirmed failures remain saved for later checks.</small></p>
 <script>
 const el=id=>document.getElementById(id), input=el('url');input.value=new URL('playlist.m3u',location.href).href;
