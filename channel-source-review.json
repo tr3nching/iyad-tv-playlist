@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-07T06:53:04.222950+00:00",
+  "checked_utc": "2026-11-07T06:54:39.419369+00:00",
   "scope": "One local snapshot with supplied playback settings; observed video dimensions can include adaptive choices and do not guarantee sustained output or TV access. No channel was removed based on these checks.",
   "streams": [
     {
@@ -169,6 +169,82 @@
       "played": false,
       "resolutions": [],
       "result": "HTTP 404"
+    },
+    {
+      "channel": "3RS SinePinoy",
+      "played": true,
+      "resolutions": [
+        "1280x720"
+      ],
+      "result": "played"
+    },
+    {
+      "channel": "3RS SINEPINOY *",
+      "played": true,
+      "resolutions": [
+        "1280x720"
+      ],
+      "result": "played"
+    },
+    {
+      "channel": "CineMo!",
+      "played": true,
+      "resolutions": [
+        "1280x720",
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "channel": "CineMo! *",
+      "played": false,
+      "resolutions": [
+        "1280x720",
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "no decoded frame"
+    },
+    {
+      "channel": "CineMo! PH",
+      "played": false,
+      "resolutions": [],
+      "result": "HTTP 404"
+    },
+    {
+      "channel": "CineMo! PH Stream 2",
+      "played": true,
+      "resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "channel": "CineMo! Stream 2",
+      "played": true,
+      "resolutions": [
+        "1280x720",
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "channel": "One PH",
+      "played": false,
+      "resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "channel": "One PH Stream 2",
+      "played": true,
+      "resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
     }
   ],
   "paired_observations": [
@@ -191,6 +267,14 @@
     {
       "channel": "TFC Asia",
       "observation": "Different material at the sampling instant; delay or advertising is possible. Identity is not confirmed by this sample."
+    },
+    {
+      "channel": "3RS SinePinoy",
+      "observation": "Both sources showed the same scene in simultaneous captures; both provided 720p."
+    },
+    {
+      "channel": "CineMo!",
+      "observation": "Main and Stream 2 showed the same programme at the sampling instant. CineMo PH Stream 2 also showed the same programme; timing varied. Further checks are needed for ongoing alignment."
     }
   ]
 }
