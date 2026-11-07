@@ -35,9 +35,9 @@ export function primarySourceJobs(catalog) {
       const name = override.name || (generic ? `${channel.name} ${clean(label)}` : clean(label));
       const explicit = primaryAliases.get(norm(name)) || normalizedGroups.get(norm(name));
       const family = /^(?:VEVO|XITE|Kpop)\b/i.test(name) ? 'Music' : /^(?:BeIn Sports|Pilipinas Live|TNT Sports|TSN)\b/i.test(name) || /^\d{1,2}:\d{2}[ap]m .+ vs .+/i.test(name) ? 'Sports' : null;
-      const category = override.category || explicit || family || (index === 0 || generic ? channelCategory(channel.name) : 'General');
+      const category = index > 0 ? (primaryOverrides[channel.name]?.['0']?.category || channelCategory(channel.name)) : (override.category || explicit || family || channelCategory(channel.name));
       const epgId = index === 0 ? override.epgId || name : `primary-source:${norm(channel.name)}:${index}`;
-      const categoryBasis = override.category ? 'source-specific override' : explicit ? 'configured broad channel type; see category review' : family ? 'broad branded channel family' : generic ? 'parent broad type for generic source label; not schedule identity' : index === 0 ? 'existing primary category' : 'unresolved named source';
+      const categoryBasis = index > 0 ? 'main channel category; source remains a separate broadcast' : override.category ? 'source-specific override' : explicit ? 'configured broad channel type; see category review' : family ? 'broad branded channel family' : 'existing primary category';
       const job = { id: epgId, epgId, parentName: channel.name, serverIndex: index, name, logo: override.logo || (index > 0 ? channel[`alt_logo${suffix}`] : channel.logo) || channel.logo || '', category, group: category, categoryBasis, regionalEvidence: override.regionalEvidence, enabled: true };
       if (index > 0) { primarySourceGroups.set(epgId, category); primarySourceParents.set(epgId, { parentId: primaryOverrides[channel.name]?.[0]?.epgId || channel.name, index }); }
       jobs.push(job);
@@ -207,6 +207,8 @@ export function numberPlaylist(text) {
     const slots=used.get(source.parentId);let index=Math.max(0,...slots)+1;slots.add(index);
     assignments[id] = `${assignments[source.parentId]}.${String(index).padStart(3,'0')}`;
   }
+  // Display the main entry immediately before its source slots in slot order.
+  entries.sort((a,b) => Number(assignments[a.id]) - Number(assignments[b.id]) || compareNames(a,b));
   const header = text.split(/(?=^#EXTINF:)/m)[0];
   const numbered = entries.map(entry => {
     let block = entry.block.replace(/\n# Category title:[^\n]*/g, '');
@@ -366,10 +368,8 @@ export function locallyEligible(primary, additional, state, prior) {
 }
 
 export function configuredSourceCategory(entry) {
-  const key = clean(entry.name).toLowerCase().replace(/[^a-z0-9]/g, '');
   const parent = clean(entry.parentName);
-  const generic = clean(entry.name).toLowerCase().startsWith(parent.toLowerCase() + ' ') && /^Stream \d+$/i.test(clean(entry.name).slice(parent.length).trim());
-  return primaryOverrides[entry.parentName]?.[entry.serverIndex]?.category || primaryAliases.get(key) || normalizedGroups.get(key) || (generic ? channelCategory(parent) : null) || entry.category || 'General';
+  return parent ? (primaryOverrides[parent]?.['0']?.category || channelCategory(parent)) : (entry.category || 'General');
 }
 
 export async function combinePlaylists(output = new URL('../site/', import.meta.url)) {

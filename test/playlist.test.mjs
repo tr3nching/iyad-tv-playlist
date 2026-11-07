@@ -256,25 +256,24 @@ test('category title channels lead their block and reserve its starting whole nu
 });
 
 
-test('a named source of a different channel type keeps its own category number', () => {
+test('a named alternate uses its main channel category and slot number', () => {
  const jobs=primarySourceJobs([{name:'Fixture Parent',alt_name:'ABC Kids'}]);
  const rows=jobs.map((job,index)=>({...job,url:`https://example.com/different-type-${index}.m3u8`}));
  const {assignments}=numberPlaylist(playlist(rows));
- assert.ok(Number.isInteger(assignments['primary-source:fixtureparent:1']));
- assert.ok(assignments['primary-source:fixtureparent:1']>=800&&assignments['primary-source:fixtureparent:1']<900);
+ assert.equal(assignments['primary-source:fixtureparent:1'],`${assignments['Fixture Parent']}.001`);
 });
 
 
-test('cached generic sources inherit corrected broad categories without relabeling named sources', () => {
+test('cached alternatives inherit the main channel category', () => {
  assert.equal(configuredSourceCategory({name:'NBA TV Stream 2',parentName:'NBA TV',category:'General'}),'Sports');
- assert.equal(configuredSourceCategory({name:'Unknown Station',parentName:'NBA TV',category:'General'}),'General');
- assert.equal(configuredSourceCategory({name:'ABC Kids',parentName:'NBA TV',category:'General'}),'Kids');
+ assert.equal(configuredSourceCategory({name:'Unknown Station',parentName:'NBA TV',category:'General'}),'Sports');
+ assert.equal(configuredSourceCategory({name:'ABC Kids',parentName:'NBA TV',category:'General'}),'Sports');
 });
 
 
 test('requested categories persist for named and generic alternate streams', () => {
   const jobs=primarySourceJobs([{name:'MUX DOS',alt_name:'MUX WORLD',alt_name2:'Stream 3'}, {name:'Sony Channel',alt_name:'Sony Movies Stream 2'}, {name:'BS10 + more Converge Channels',alt_name:'Phoenix Television'}]);
-  assert.deepEqual(jobs.map(j=>j.category),['Lifestyle','Entertainment','Lifestyle','Movies','Movies','Entertainment','Documentaries']);
+  assert.deepEqual(jobs.map(j=>j.category),['Lifestyle','Lifestyle','Lifestyle','Movies','Movies','Entertainment','Entertainment']);
   for (const job of jobs.filter(j=>j.serverIndex)) assert.equal(configuredSourceCategory({...job,category:'General'}),job.category);
   for (const name of ['3RSTV','Star TV Philippines','STBS Global','HypeTV','Sony One Action Hits']) assert.equal(channelCategory(name),'Movies');
   assert.equal(channelCategory('Dream TV PH'),'Entertainment');
@@ -316,4 +315,15 @@ test('only local playback decisions change visibility; unknown previously publis
  assert.ok(!locallyEligible(primary,additional,{origin:'local',version:1,channels:[row]},prior).additional.includes('#EXTINF:'));
  assert.ok(locallyEligible(primary,additional,{origin:'local',version:1,channels:[{...row,published:true}]},prior).additional.includes('#EXTINF:'));
  assert.ok(!locallyEligible(primary,additional,{},'').additional.includes('#EXTINF:'));
+});
+
+
+test('main channels and their alternatives appear together in original slot order', () => {
+ const jobs=primarySourceJobs([{name:'MUX DOS',alt_name:'MUX JUAN',alt_name2:'MUX NEWS',alt_name3:'MUX LIFE',alt_name4:'MUX WORLD'}]);
+ const rows=jobs.map((job,i)=>({...job,url:`https://example.com/mux-${i}`}));
+ rows.push({name:'Another Lifestyle',epgId:'additional:other',url:'https://example.com/other'});
+ const output=numberPlaylist(playlist(rows)).text;
+ const ids=[...output.matchAll(/tvg-id="([^" ]+)"/g)].map(m=>m[1]);
+ const p=output.indexOf('tvg-id="MUX DOS"');
+ assert.ok(p>=0);for(let i=1;i<=4;i++){const at=output.indexOf(`tvg-id="primary-source:muxdos:${i}"`);assert.ok(at>p);if(i>1)assert.ok(at>output.indexOf(`tvg-id="primary-source:muxdos:${i-1}"`));}
 });
