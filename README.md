@@ -10,7 +10,7 @@ Channels are grouped by type: Sports, Movies, News, Kids, Anime, Documentaries, 
 
 Additional streams keep their original names and separate guide IDs. Similar names do not establish that they carry the same channel. Only additional entries with confirmed decoded video in the last 24 hours are published. Failed or unconfirmed candidates remain saved for the next refresh. `*` marks an additional entry whose name or exact stream URL also occurs in the original list. These entries do not automatically replace a missing channel or inherit its guide.
 
-Every enabled source appears separately, including named alternates. The default Sci Fi source and SyFy 2 keep separate guide identities. Additional entries receive a guide only when an exact stream match or reviewed regional identity supports it. Entries without usable listings remain without a guide.
+Every enabled source appears separately, including named alternates. The default Sci Fi source and SyFy 2 keep separate guide identities. Additional entries receive a guide only when an exact stream match or reviewed regional identity supports it. Entries without usable listings remain without a guide. Dated Philippine listings supplement the XMLTV feeds; domestic station mappings take priority over foreign feeds. Japanese and Taiwanese guide identities preserve their original script. Show-named channels retain listings with real episode metadata, while station-only filler is excluded.
 
 When a guide program has no genre, its channel category supplies a fallback using Android TV's supported genre names. Existing program genres are preserved. Channels without guide listings remain without listings; unknown categories stay unclassified. Genre filters depend on the TV app's support.
 

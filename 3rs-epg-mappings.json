@@ -22,7 +22,8 @@
         "PH1",
         "pw",
         "MEDIAQUEST",
-        "CIGNALMERGED"
+        "CIGNALMERGED",
+        "CTCPH"
       ],
       "sourceMap": {
         "MEDIAQUEST": [
@@ -30,6 +31,9 @@
         ],
         "CIGNALMERGED": [
           "cg_a2z.cignal"
+        ],
+        "CTCPH": [
+          "a2z-channel-11"
         ]
       },
       "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_a2z"
@@ -62,9 +66,14 @@
         "PH1",
         "pw",
         "MEDIAQUEST",
-        "CIGNALMERGED"
+        "CIGNALMERGED",
+        "CTCPH"
       ],
-      "sourceMap": {},
+      "sourceMap": {
+        "CTCPH": [
+          "tv5"
+        ]
+      },
       "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: tv5_hd"
     },
     "additional:pbarush:1796b7294731": {
@@ -128,9 +137,14 @@
         "PH1",
         "pw",
         "MEDIAQUEST",
-        "CIGNALMERGED"
+        "CIGNALMERGED",
+        "CTCPH"
       ],
-      "sourceMap": {},
+      "sourceMap": {
+        "CTCPH": [
+          "viva-cinema"
+        ]
+      },
       "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: viva_sd"
     },
     "additional:cinemax:fa3647a8baa2": {
@@ -154,11 +168,15 @@
         "PH1",
         "pw",
         "MEDIAQUEST",
-        "CIGNALMERGED"
+        "CIGNALMERGED",
+        "CTCPH"
       ],
       "sourceMap": {
         "CIGNALMERGED": [
           "cg_tagalogmovie.cignal"
+        ],
+        "CTCPH": [
+          "tagalized-movie-channel"
         ]
       },
       "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_tagalogmovie"
@@ -407,9 +425,14 @@
         "PH1",
         "pw",
         "MEDIAQUEST",
-        "CIGNALMERGED"
+        "CIGNALMERGED",
+        "CTCPH"
       ],
-      "sourceMap": {},
+      "sourceMap": {
+        "CTCPH": [
+          "ibc-tv-13"
+        ]
+      },
       "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: ibc13_sd"
     },
     "additional:kixhd:c1c1ade2da50": {
@@ -606,7 +629,8 @@
         "PH1",
         "pw",
         "MEDIAQUEST",
-        "CIGNALMERGED"
+        "CIGNALMERGED",
+        "CTCPH"
       ],
       "sourceMap": {
         "MEDIAQUEST": [
@@ -614,6 +638,9 @@
         ],
         "CIGNALMERGED": [
           "cg_ptv4_sd.cignal"
+        ],
+        "CTCPH": [
+          "ptv"
         ]
       },
       "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_ptv4_sd"
@@ -895,9 +922,14 @@
         "PH1",
         "pw",
         "MEDIAQUEST",
-        "CIGNALMERGED"
+        "CIGNALMERGED",
+        "CTCPH"
       ],
-      "sourceMap": {},
+      "sourceMap": {
+        "CTCPH": [
+          "gma"
+        ]
+      },
       "evidence": "Distinct Philippine broadcaster name and source logo; aliases restricted to Philippine guide sources."
     },
     "additional:gtv:cd009bcfa6d9": {
@@ -908,9 +940,14 @@
         "PH1",
         "pw",
         "MEDIAQUEST",
-        "CIGNALMERGED"
+        "CIGNALMERGED",
+        "CTCPH"
       ],
-      "sourceMap": {},
+      "sourceMap": {
+        "CTCPH": [
+          "gtv"
+        ]
+      },
       "evidence": "Distinct Philippine broadcaster name and source logo; aliases restricted to Philippine guide sources."
     },
     "additional:jeepneytv:f37935b58879": {
@@ -921,9 +958,14 @@
         "PH1",
         "pw",
         "MEDIAQUEST",
-        "CIGNALMERGED"
+        "CIGNALMERGED",
+        "CTCPH"
       ],
-      "sourceMap": {},
+      "sourceMap": {
+        "CTCPH": [
+          "jeepney-tv"
+        ]
+      },
       "evidence": "Distinct Philippine broadcaster name and source logo; aliases restricted to Philippine guide sources."
     },
     "additional:cinemo:fb72504d47ac": {
@@ -947,9 +989,14 @@
         "PH1",
         "pw",
         "MEDIAQUEST",
-        "CIGNALMERGED"
+        "CIGNALMERGED",
+        "CTCPH"
       ],
-      "sourceMap": {},
+      "sourceMap": {
+        "CTCPH": [
+          "cinema-one"
+        ]
+      },
       "evidence": "Distinct Philippine broadcaster name and source logo; aliases restricted to Philippine guide sources."
     },
     "additional:inctv:9a55b8b0b957": {

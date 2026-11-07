@@ -219,4 +219,56 @@ class GuideTests(unittest.TestCase):
   self.assertFalse(epg.apply_genre_fallback(unknown,'Unlisted channel'))
   self.assertEqual(unknown.findall('category'),[])
 
+class ShowBrandedGuideTests(unittest.TestCase):
+ def test_real_episodes_are_preserved_on_show_named_channel(self):
+  p=E.Element('programme',{'channel':'peppa','start':'20261107020000 +0000','stop':'20261107023000 +0000'})
+  E.SubElement(p,'title').text='Peppa Pig'
+  E.SubElement(p,'sub-title').text='A day at the river'
+  E.SubElement(p,'desc').text='The family takes a boat trip and explores the river.'
+  feed={'names':{'peppa':['Peppa Pig']},'programmes':{'peppa':[p]}}
+  rows,invalid,placeholders=epg.prepare_channel('primary-source:fixture:1','peppa',feed,dt.datetime(2026,11,7,2,tzinfo=dt.timezone.utc),station_name='Peppa Pig')
+  self.assertEqual(len(rows),1);self.assertEqual(placeholders,0)
+ def test_station_boilerplate_is_still_rejected(self):
+  p=E.Element('programme',{'channel':'station','start':'20261107020000 +0000','stop':'20261107030000 +0000'})
+  E.SubElement(p,'title').text='Local Station'
+  E.SubElement(p,'desc').text='Local Station live channel'
+  feed={'names':{'station':['Local Station']},'programmes':{'station':[p]}}
+  rows,invalid,placeholders=epg.prepare_channel('Local Station','station',feed,dt.datetime(2026,11,7,2,tzinfo=dt.timezone.utc))
+  self.assertEqual(rows,[]);self.assertEqual(placeholders,1)
+
+class StationAliasQualityTests(unittest.TestCase):
+ def test_provider_station_alias_is_not_mistaken_for_real_programmes(self):
+  p=E.Element('programme',{'channel':'cg_ptv4_sd','start':'20261107020000 +0000','stop':'20261107030000 +0000'})
+  E.SubElement(p,'title').text='PTV 4'
+  feed={'names':{'cg_ptv4_sd':['cg_ptv4_sd']},'programmes':{'cg_ptv4_sd':[p]}}
+  rows,invalid,placeholders=epg.prepare_channel('Peoples Television','cg_ptv4_sd',feed,dt.datetime(2026,11,7,2,tzinfo=dt.timezone.utc),station_name=['PTV','PTV 4'])
+  self.assertEqual(rows,[]);self.assertEqual(placeholders,1)
+
+class AsianTextIdentityTests(unittest.TestCase):
+ def test_japanese_and_chinese_titles_do_not_collapse_into_empty_station_names(self):
+  self.assertNotEqual(epg.norm('大愛電視'),epg.norm('今日新聞'))
+  self.assertEqual(epg.norm('ＢＳフジ・181'),epg.norm('BSフジ181'))
+
+class DatedPhilippineGuideTests(unittest.TestCase):
+ def test_manila_time_and_unknown_end_are_handled_without_padding(self):
+  now=dt.datetime(2026,11,7,2,tzinfo=dt.timezone.utc)
+  payload={'data':{'details':{'network_id':'2'},'sched':[{'date':'Saturday, November 07','sched':[{'time':'10:00 AM','title':'News'},{'time':'11:00 AM','title':'Show'}]}]}}
+  rows=epg.ctc_programmes(payload,{'id':'gma','providerId':'2'},now)
+  self.assertEqual(len(rows),1)
+  self.assertEqual(rows[0].get('start'),'20261107020000 +0000')
+  self.assertEqual(rows[0].get('stop'),'20261107030000 +0000')
+ def test_wrong_station_identity_is_rejected(self):
+  with self.assertRaises(ValueError):epg.ctc_programmes({'data':{'details':{'network_id':'5'}}},{'id':'gma','providerId':'2'},dt.datetime.now(dt.timezone.utc))
+ def test_year_boundary_uses_nearby_dated_weekday(self):
+  now=dt.datetime(2026,12,31,16,tzinfo=dt.timezone.utc)
+  payload={'data':{'details':{'network_id':'2'},'sched':[{'date':'Thursday, December 31','sched':[{'time':'11:30 PM','title':'Late news'}]},{'date':'Friday, January 01','sched':[{'time':'12:00 AM','title':'New year'}]}]}}
+  rows=epg.ctc_programmes(payload,{'id':'gma','providerId':'2'},now)
+  self.assertEqual(len(rows),1)
+  self.assertEqual(rows[0].get('start'),'20261231153000 +0000')
+  self.assertEqual(rows[0].get('stop'),'20261231160000 +0000')
+ def test_region_restricted_source_needs_explicit_mapping(self):
+  feed={'names':{'news':['News']},'programmes':{}}
+  config={'explicitOnlySources':['CTCPH']}
+  self.assertEqual(epg.candidate_ids('News',feed,'CTCPH',config),[])
+
 if __name__=='__main__':unittest.main()

@@ -9,100 +9,37 @@
   },
   {
     "playlist_tvg_id": "TV5",
-    "source": "",
-    "source_id": "",
-    "status": "no usable current schedule",
-    "upcoming_programmes": 0,
+    "source": "CTCPH",
+    "source_id": "tv5",
+    "status": "mapped",
+    "upcoming_programmes": 11,
     "attempts": [
       {
-        "source": "PH2",
-        "source_id": "TV5.ph",
-        "raw_entries": 1,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "pw",
-        "source_id": "TV5.ph",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "pw",
-        "source_id": "575511",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "MEDIAQUEST",
-        "source_id": "cg_tv5_hd",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "MEDIAQUEST",
-        "source_id": "cg_tv5_sd",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "MEDIAQUEST",
+        "source": "CTCPH",
         "source_id": "tv5",
-        "raw_entries": 72,
-        "upcoming_programmes": 0,
+        "raw_entries": 11,
+        "upcoming_programmes": 11,
         "overlaps": 0,
         "invalid_rejected": 0,
-        "placeholder_rejected": 72
+        "placeholder_rejected": 0
       }
     ]
   },
   {
     "playlist_tvg_id": "A2Z",
-    "source": "",
-    "source_id": "",
-    "status": "no usable current schedule",
-    "upcoming_programmes": 0,
+    "source": "CTCPH",
+    "source_id": "a2z-channel-11",
+    "status": "mapped",
+    "upcoming_programmes": 10,
     "attempts": [
       {
-        "source": "PH2",
-        "source_id": "A2Z.ph",
-        "raw_entries": 49,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 49
-      },
-      {
-        "source": "PH1",
-        "source_id": "A2Z.ph",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
+        "source": "CTCPH",
+        "source_id": "a2z-channel-11",
+        "raw_entries": 10,
+        "upcoming_programmes": 10,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
-      },
-      {
-        "source": "pw",
-        "source_id": "573024",
-        "raw_entries": 41,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 41
       }
     ]
   },
@@ -119,13 +56,13 @@
     "source": "PH2",
     "source_id": "ABC.Australia.ph",
     "status": "mapped",
-    "upcoming_programmes": 60,
+    "upcoming_programmes": 86,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "ABC.Australia.ph",
-        "raw_entries": 129,
-        "upcoming_programmes": 60,
+        "raw_entries": 127,
+        "upcoming_programmes": 86,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -134,10 +71,10 @@
   },
   {
     "playlist_tvg_id": "Adventure Earth",
-    "source": "",
-    "source_id": "",
-    "status": "no usable current schedule",
-    "upcoming_programmes": 0,
+    "source": "SAMSUNG",
+    "source_id": "GBBC900015D3",
+    "status": "mapped",
+    "upcoming_programmes": 6,
     "attempts": [
       {
         "source": "WHALETVPLUS1",
@@ -152,7 +89,7 @@
         "source": "SAMSUNG",
         "source_id": "GBBC900015D3",
         "raw_entries": 7,
-        "upcoming_programmes": 0,
+        "upcoming_programmes": 6,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -172,13 +109,13 @@
     "source": "PH2",
     "source_id": "Al.Jazeera.ph",
     "status": "mapped",
-    "upcoming_programmes": 71,
+    "upcoming_programmes": 102,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Al.Jazeera.ph",
-        "raw_entries": 143,
-        "upcoming_programmes": 71,
+        "raw_entries": 145,
+        "upcoming_programmes": 102,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -190,13 +127,13 @@
     "source": "PLEX1",
     "source_id": "plex.tv.Aliwko.plex",
     "status": "mapped",
-    "upcoming_programmes": 112,
+    "upcoming_programmes": 141,
     "attempts": [
       {
         "source": "PLEX1",
         "source_id": "plex.tv.Aliwko.plex",
-        "raw_entries": 149,
-        "upcoming_programmes": 112,
+        "raw_entries": 150,
+        "upcoming_programmes": 141,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -216,13 +153,13 @@
     "source": "US2",
     "source_id": "AMC+.us2",
     "status": "mapped",
-    "upcoming_programmes": 67,
+    "upcoming_programmes": 92,
     "attempts": [
       {
         "source": "US2",
         "source_id": "AMC+.us2",
-        "raw_entries": 121,
-        "upcoming_programmes": 67,
+        "raw_entries": 120,
+        "upcoming_programmes": 92,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -231,52 +168,16 @@
   },
   {
     "playlist_tvg_id": "ANC",
-    "source": "",
-    "source_id": "",
-    "status": "no usable current schedule",
-    "upcoming_programmes": 0,
+    "source": "CTCPH",
+    "source_id": "anc",
+    "status": "mapped",
+    "upcoming_programmes": 25,
     "attempts": [
       {
-        "source": "PH2",
-        "source_id": "ANC.ph",
-        "raw_entries": 11,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "ANC.HD.ph",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "ANC.ph",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "pw",
-        "source_id": "484102",
-        "raw_entries": 8,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "CIGNALMERGED",
-        "source_id": "anc.click",
-        "raw_entries": 16,
-        "upcoming_programmes": 0,
+        "source": "CTCPH",
+        "source_id": "anc",
+        "raw_entries": 25,
+        "upcoming_programmes": 25,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -285,43 +186,16 @@
   },
   {
     "playlist_tvg_id": "Animax",
-    "source": "HK1",
-    "source_id": "Animax.hk",
+    "source": "CTCPH",
+    "source_id": "animax",
     "status": "mapped",
-    "upcoming_programmes": 127,
+    "upcoming_programmes": 9,
     "attempts": [
       {
-        "source": "PH2",
-        "source_id": "Animax.ph",
-        "raw_entries": 5,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "ANIMAX.ph",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "pw",
-        "source_id": "484100",
-        "raw_entries": 4,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "HK1",
-        "source_id": "Animax.hk",
-        "raw_entries": 161,
-        "upcoming_programmes": 127,
+        "source": "CTCPH",
+        "source_id": "animax",
+        "raw_entries": 9,
+        "upcoming_programmes": 9,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -333,7 +207,7 @@
     "source": "SG1",
     "source_id": "ANIPLUS.HD.sg",
     "status": "mapped",
-    "upcoming_programmes": 125,
+    "upcoming_programmes": 164,
     "attempts": [
       {
         "source": "PH1",
@@ -347,8 +221,8 @@
       {
         "source": "SG1",
         "source_id": "ANIPLUS.HD.sg",
-        "raw_entries": 193,
-        "upcoming_programmes": 125,
+        "raw_entries": 191,
+        "upcoming_programmes": 164,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -360,7 +234,7 @@
     "source": "SG1",
     "source_id": "Animal.Planet.(HD).sg",
     "status": "mapped",
-    "upcoming_programmes": 77,
+    "upcoming_programmes": 104,
     "attempts": [
       {
         "source": "PH1",
@@ -383,8 +257,8 @@
       {
         "source": "SG1",
         "source_id": "Animal.Planet.(HD).sg",
-        "raw_entries": 121,
-        "upcoming_programmes": 77,
+        "raw_entries": 122,
+        "upcoming_programmes": 104,
         "overlaps": 0,
         "invalid_rejected": 3,
         "placeholder_rejected": 0
@@ -396,13 +270,13 @@
     "source": "PLEXMJH",
     "source_id": "6a1610bebdf296985fd95603-6838eb6a38304666c89d4e3d",
     "status": "mapped",
-    "upcoming_programmes": 11,
+    "upcoming_programmes": 32,
     "attempts": [
       {
         "source": "PLEXMJH",
         "source_id": "6a1610bebdf296985fd95603-6838eb6a38304666c89d4e3d",
-        "raw_entries": 22,
-        "upcoming_programmes": 11,
+        "raw_entries": 34,
+        "upcoming_programmes": 32,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -411,16 +285,16 @@
   },
   {
     "playlist_tvg_id": "Anime All Day",
-    "source": "",
-    "source_id": "",
-    "status": "no usable current schedule",
-    "upcoming_programmes": 0,
+    "source": "SAMSUNG",
+    "source_id": "USAJ3504502A",
+    "status": "mapped",
+    "upcoming_programmes": 12,
     "attempts": [
       {
         "source": "SAMSUNG",
         "source_id": "USAJ3504502A",
         "raw_entries": 13,
-        "upcoming_programmes": 0,
+        "upcoming_programmes": 12,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -432,13 +306,13 @@
     "source": "PLEX1",
     "source_id": "plex.tv.FilmRise.Anime.plex",
     "status": "mapped",
-    "upcoming_programmes": 104,
+    "upcoming_programmes": 133,
     "attempts": [
       {
         "source": "PLEX1",
         "source_id": "plex.tv.FilmRise.Anime.plex",
-        "raw_entries": 135,
-        "upcoming_programmes": 104,
+        "raw_entries": 137,
+        "upcoming_programmes": 133,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -450,13 +324,13 @@
     "source": "PLUTO",
     "source_id": "5dcde17bf6591d0009839e02",
     "status": "mapped",
-    "upcoming_programmes": 15,
+    "upcoming_programmes": 31,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "5dcde17bf6591d0009839e02",
-        "raw_entries": 66,
-        "upcoming_programmes": 15,
+        "raw_entries": 68,
+        "upcoming_programmes": 31,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -468,13 +342,13 @@
     "source": "PLEX1",
     "source_id": "plex.tv.ANIME.x.HIDIVE.plex",
     "status": "mapped",
-    "upcoming_programmes": 133,
+    "upcoming_programmes": 171,
     "attempts": [
       {
         "source": "PLEX1",
         "source_id": "plex.tv.ANIME.x.HIDIVE.plex",
-        "raw_entries": 186,
-        "upcoming_programmes": 133,
+        "raw_entries": 181,
+        "upcoming_programmes": 171,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -486,13 +360,13 @@
     "source": "PH2",
     "source_id": "Arirang.ph",
     "status": "mapped",
-    "upcoming_programmes": 75,
+    "upcoming_programmes": 66,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Arirang.ph",
-        "raw_entries": 181,
-        "upcoming_programmes": 75,
+        "raw_entries": 128,
+        "upcoming_programmes": 66,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -504,13 +378,13 @@
     "source": "PLEX1",
     "source_id": "plex.tv.AsianCrush.plex",
     "status": "mapped",
-    "upcoming_programmes": 54,
+    "upcoming_programmes": 69,
     "attempts": [
       {
         "source": "PLEX1",
         "source_id": "plex.tv.AsianCrush.plex",
         "raw_entries": 72,
-        "upcoming_programmes": 54,
+        "upcoming_programmes": 69,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -522,7 +396,7 @@
     "source": "HK1",
     "source_id": "Asian.Food.Network.hk",
     "status": "mapped",
-    "upcoming_programmes": 110,
+    "upcoming_programmes": 101,
     "attempts": [
       {
         "source": "PH1",
@@ -546,7 +420,7 @@
         "source": "HK1",
         "source_id": "Asian.Food.Network.hk",
         "raw_entries": 140,
-        "upcoming_programmes": 110,
+        "upcoming_programmes": 101,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -563,52 +437,16 @@
   },
   {
     "playlist_tvg_id": "AXN",
-    "source": "HK1",
-    "source_id": "AXN.hk",
+    "source": "CTCPH",
+    "source_id": "axn",
     "status": "mapped",
-    "upcoming_programmes": 68,
+    "upcoming_programmes": 16,
     "attempts": [
       {
-        "source": "PH2",
-        "source_id": "AXN.ph",
-        "raw_entries": 6,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "AXN.HD.ph",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "AXN.ph",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "pw",
-        "source_id": "484096",
-        "raw_entries": 4,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "HK1",
-        "source_id": "AXN.hk",
-        "raw_entries": 87,
-        "upcoming_programmes": 68,
+        "source": "CTCPH",
+        "source_id": "axn",
+        "raw_entries": 16,
+        "upcoming_programmes": 16,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -620,7 +458,7 @@
     "source": "SG1",
     "source_id": "CBeebies.(HD).sg",
     "status": "mapped",
-    "upcoming_programmes": 458,
+    "upcoming_programmes": 587,
     "attempts": [
       {
         "source": "SG1",
@@ -644,7 +482,7 @@
         "source": "SG1",
         "source_id": "CBeebies.(HD).sg",
         "raw_entries": 687,
-        "upcoming_programmes": 458,
+        "upcoming_programmes": 587,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -664,13 +502,13 @@
     "source": "PH2",
     "source_id": "BBC.Earth.HD.ph",
     "status": "mapped",
-    "upcoming_programmes": 49,
+    "upcoming_programmes": 71,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "BBC.Earth.HD.ph",
-        "raw_entries": 99,
-        "upcoming_programmes": 49,
+        "raw_entries": 100,
+        "upcoming_programmes": 71,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -682,13 +520,13 @@
     "source": "PH2",
     "source_id": "BBC.Lifestyle.ph",
     "status": "mapped",
-    "upcoming_programmes": 55,
+    "upcoming_programmes": 75,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "BBC.Lifestyle.ph",
-        "raw_entries": 112,
-        "upcoming_programmes": 55,
+        "raw_entries": 110,
+        "upcoming_programmes": 75,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -700,13 +538,13 @@
     "source": "PH2",
     "source_id": "BBC.News.ph",
     "status": "mapped",
-    "upcoming_programmes": 92,
+    "upcoming_programmes": 145,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "BBC.News.ph",
         "raw_entries": 212,
-        "upcoming_programmes": 92,
+        "upcoming_programmes": 145,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -718,13 +556,13 @@
     "source": "SG1",
     "source_id": "beIN.SPORTS.(HD).sg",
     "status": "mapped",
-    "upcoming_programmes": 61,
+    "upcoming_programmes": 75,
     "attempts": [
       {
         "source": "SG1",
         "source_id": "beIN.SPORTS.(HD).sg",
-        "raw_entries": 94,
-        "upcoming_programmes": 61,
+        "raw_entries": 93,
+        "upcoming_programmes": 75,
         "overlaps": 0,
         "invalid_rejected": 2,
         "placeholder_rejected": 0
@@ -736,13 +574,13 @@
     "source": "US2",
     "source_id": "Billiard.TV.us2",
     "status": "mapped",
-    "upcoming_programmes": 30,
+    "upcoming_programmes": 42,
     "attempts": [
       {
         "source": "US2",
         "source_id": "Billiard.TV.us2",
-        "raw_entries": 59,
-        "upcoming_programmes": 30,
+        "raw_entries": 57,
+        "upcoming_programmes": 42,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -754,13 +592,13 @@
     "source": "PH2",
     "source_id": "Bilyonaryo.News.Channel.ph",
     "status": "mapped",
-    "upcoming_programmes": 57,
+    "upcoming_programmes": 70,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Bilyonaryo.News.Channel.ph",
-        "raw_entries": 115,
-        "upcoming_programmes": 57,
+        "raw_entries": 105,
+        "upcoming_programmes": 70,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -772,13 +610,13 @@
     "source": "PH2",
     "source_id": "BLASTMOVIES.ph",
     "status": "mapped",
-    "upcoming_programmes": 26,
+    "upcoming_programmes": 36,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "BLASTMOVIES.ph",
-        "raw_entries": 49,
-        "upcoming_programmes": 26,
+        "raw_entries": 48,
+        "upcoming_programmes": 36,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -790,7 +628,7 @@
     "source": "MY1",
     "source_id": "Bloomberg.TV.HD.my",
     "status": "mapped",
-    "upcoming_programmes": 71,
+    "upcoming_programmes": 78,
     "attempts": [
       {
         "source": "PH2",
@@ -814,7 +652,7 @@
         "source": "MY1",
         "source_id": "Bloomberg.TV.HD.my",
         "raw_entries": 95,
-        "upcoming_programmes": 71,
+        "upcoming_programmes": 78,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -826,13 +664,13 @@
     "source": "BE2",
     "source_id": "BOING.be",
     "status": "mapped",
-    "upcoming_programmes": 265,
+    "upcoming_programmes": 382,
     "attempts": [
       {
         "source": "BE2",
         "source_id": "BOING.be",
         "raw_entries": 559,
-        "upcoming_programmes": 265,
+        "upcoming_programmes": 382,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -844,7 +682,7 @@
     "source": "TH1",
     "source_id": "Boomerang.(Thai).th",
     "status": "mapped",
-    "upcoming_programmes": 75,
+    "upcoming_programmes": 66,
     "attempts": [
       {
         "source": "PH1",
@@ -858,8 +696,8 @@
       {
         "source": "TH1",
         "source_id": "Boomerang.(Thai).th",
-        "raw_entries": 129,
-        "upcoming_programmes": 75,
+        "raw_entries": 86,
+        "upcoming_programmes": 66,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -879,7 +717,7 @@
     "source": "UK1",
     "source_id": "Cartoonito.uk",
     "status": "mapped",
-    "upcoming_programmes": 63,
+    "upcoming_programmes": 92,
     "attempts": [
       {
         "source": "ID1",
@@ -902,8 +740,8 @@
       {
         "source": "UK1",
         "source_id": "Cartoonito.uk",
-        "raw_entries": 124,
-        "upcoming_programmes": 63,
+        "raw_entries": 130,
+        "upcoming_programmes": 92,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -923,7 +761,7 @@
     "source": "SG1",
     "source_id": "Cartoon.Network.(HD).sg",
     "status": "mapped",
-    "upcoming_programmes": 90,
+    "upcoming_programmes": 115,
     "attempts": [
       {
         "source": "PH1",
@@ -947,7 +785,7 @@
         "source": "SG1",
         "source_id": "Cartoon.Network.(HD).sg",
         "raw_entries": 132,
-        "upcoming_programmes": 90,
+        "upcoming_programmes": 115,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -959,13 +797,13 @@
     "source": "PH2",
     "source_id": "CCTV.4.ph",
     "status": "mapped",
-    "upcoming_programmes": 75,
+    "upcoming_programmes": 109,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "CCTV.4.ph",
-        "raw_entries": 159,
-        "upcoming_programmes": 75,
+        "raw_entries": 157,
+        "upcoming_programmes": 109,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -977,7 +815,7 @@
     "source": "MY1",
     "source_id": "Celestial.Classic.Movies.my",
     "status": "mapped",
-    "upcoming_programmes": 26,
+    "upcoming_programmes": 34,
     "attempts": [
       {
         "source": "PH1",
@@ -991,8 +829,8 @@
       {
         "source": "MY1",
         "source_id": "Celestial.Classic.Movies.my",
-        "raw_entries": 43,
-        "upcoming_programmes": 26,
+        "raw_entries": 41,
+        "upcoming_programmes": 34,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1001,24 +839,34 @@
   },
   {
     "playlist_tvg_id": "Celestial Movies Pinoy",
-    "source": "",
-    "source_id": "",
-    "status": "no matching source listings",
-    "upcoming_programmes": 0,
-    "attempts": []
+    "source": "CTCPH",
+    "source_id": "celestial-movies-pinoy",
+    "status": "mapped",
+    "upcoming_programmes": 8,
+    "attempts": [
+      {
+        "source": "CTCPH",
+        "source_id": "celestial-movies-pinoy",
+        "raw_entries": 9,
+        "upcoming_programmes": 8,
+        "overlaps": 0,
+        "invalid_rejected": 0,
+        "placeholder_rejected": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "CGTN Documentary",
     "source": "SG1",
     "source_id": "CGTN-Documentary.sg",
     "status": "mapped",
-    "upcoming_programmes": 165,
+    "upcoming_programmes": 223,
     "attempts": [
       {
         "source": "SG1",
         "source_id": "CGTN-Documentary.sg",
         "raw_entries": 263,
-        "upcoming_programmes": 165,
+        "upcoming_programmes": 223,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1030,13 +878,13 @@
     "source": "PH2",
     "source_id": "CNA.ph",
     "status": "mapped",
-    "upcoming_programmes": 90,
+    "upcoming_programmes": 107,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "CNA.ph",
-        "raw_entries": 141,
-        "upcoming_programmes": 90,
+        "raw_entries": 142,
+        "upcoming_programmes": 107,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1045,43 +893,16 @@
   },
   {
     "playlist_tvg_id": "CinemaOne",
-    "source": "",
-    "source_id": "",
-    "status": "no usable current schedule",
-    "upcoming_programmes": 0,
+    "source": "CTCPH",
+    "source_id": "cinema-one",
+    "status": "mapped",
+    "upcoming_programmes": 8,
     "attempts": [
       {
-        "source": "PH2",
-        "source_id": "Cinema.One.ph",
-        "raw_entries": 3,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "pw",
-        "source_id": "575523",
-        "raw_entries": 1,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "MEDIAQUEST",
-        "source_id": "cg_cinemaone_sd",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "MEDIAQUEST",
-        "source_id": "cg_cinema1_sd",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
+        "source": "CTCPH",
+        "source_id": "cinema-one",
+        "raw_entries": 8,
+        "upcoming_programmes": 8,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1111,7 +932,7 @@
     "source": "SG1",
     "source_id": "CINEMAX.(HD).sg",
     "status": "mapped",
-    "upcoming_programmes": 34,
+    "upcoming_programmes": 44,
     "attempts": [
       {
         "source": "PH2",
@@ -1143,8 +964,8 @@
       {
         "source": "SG1",
         "source_id": "CINEMAX.(HD).sg",
-        "raw_entries": 55,
-        "upcoming_programmes": 34,
+        "raw_entries": 54,
+        "upcoming_programmes": 44,
         "overlaps": 0,
         "invalid_rejected": 3,
         "placeholder_rejected": 0
@@ -1164,13 +985,13 @@
     "source": "SG1",
     "source_id": "CNBC.Asia.sg",
     "status": "mapped",
-    "upcoming_programmes": 91,
+    "upcoming_programmes": 131,
     "attempts": [
       {
         "source": "SG1",
         "source_id": "CNBC.Asia.sg",
         "raw_entries": 152,
-        "upcoming_programmes": 91,
+        "upcoming_programmes": 131,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1182,13 +1003,13 @@
     "source": "PH2",
     "source_id": "CNN.HD.ph",
     "status": "mapped",
-    "upcoming_programmes": 70,
+    "upcoming_programmes": 94,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "CNN.HD.ph",
-        "raw_entries": 132,
-        "upcoming_programmes": 70,
+        "raw_entries": 133,
+        "upcoming_programmes": 94,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1200,13 +1021,13 @@
     "source": "UK1",
     "source_id": "ComedyCentral.uk",
     "status": "mapped",
-    "upcoming_programmes": 73,
+    "upcoming_programmes": 104,
     "attempts": [
       {
         "source": "UK1",
         "source_id": "ComedyCentral.uk",
-        "raw_entries": 160,
-        "upcoming_programmes": 73,
+        "raw_entries": 154,
+        "upcoming_programmes": 104,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1218,13 +1039,13 @@
     "source": "PLUTO",
     "source_id": "6868152657543d1f8be4ece3",
     "status": "mapped",
-    "upcoming_programmes": 6,
+    "upcoming_programmes": 10,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "6868152657543d1f8be4ece3",
-        "raw_entries": 28,
-        "upcoming_programmes": 6,
+        "raw_entries": 24,
+        "upcoming_programmes": 10,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1233,52 +1054,16 @@
   },
   {
     "playlist_tvg_id": "CRIME INVESTIGATION",
-    "source": "HK1",
-    "source_id": "Crime.+.Investigation.hk",
+    "source": "CTCPH",
+    "source_id": "crime-investigation",
     "status": "mapped",
-    "upcoming_programmes": 80,
+    "upcoming_programmes": 18,
     "attempts": [
       {
-        "source": "PH2",
-        "source_id": "Crime.Investigation.ph",
-        "raw_entries": 6,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "CRIME.&.INVESTIGATION.HD.ph",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "CRIME.&.INVESTIGATION.ph",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "pw",
-        "source_id": "484093",
-        "raw_entries": 4,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "HK1",
-        "source_id": "Crime.+.Investigation.hk",
-        "raw_entries": 101,
-        "upcoming_programmes": 80,
+        "source": "CTCPH",
+        "source_id": "crime-investigation",
+        "raw_entries": 18,
+        "upcoming_programmes": 18,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1290,13 +1075,13 @@
     "source": "PLEX1",
     "source_id": "plex.tv.Crunchyroll.plex",
     "status": "mapped",
-    "upcoming_programmes": 140,
+    "upcoming_programmes": 179,
     "attempts": [
       {
         "source": "PLEX1",
         "source_id": "plex.tv.Crunchyroll.plex",
         "raw_entries": 190,
-        "upcoming_programmes": 140,
+        "upcoming_programmes": 179,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1308,13 +1093,13 @@
     "source": "US2",
     "source_id": "Curiosity.NOW.us2",
     "status": "mapped",
-    "upcoming_programmes": 81,
+    "upcoming_programmes": 101,
     "attempts": [
       {
         "source": "US2",
         "source_id": "Curiosity.NOW.us2",
         "raw_entries": 127,
-        "upcoming_programmes": 81,
+        "upcoming_programmes": 101,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1326,13 +1111,13 @@
     "source": "US2",
     "source_id": "DangerTV.us2",
     "status": "mapped",
-    "upcoming_programmes": 72,
+    "upcoming_programmes": 102,
     "attempts": [
       {
         "source": "US2",
         "source_id": "DangerTV.us2",
-        "raw_entries": 132,
-        "upcoming_programmes": 72,
+        "raw_entries": 134,
+        "upcoming_programmes": 102,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1349,11 +1134,11 @@
       {
         "source": "PH2",
         "source_id": "DepEd.TV.ph",
-        "raw_entries": 165,
+        "raw_entries": 166,
         "upcoming_programmes": 0,
         "overlaps": 0,
         "invalid_rejected": 0,
-        "placeholder_rejected": 165
+        "placeholder_rejected": 166
       },
       {
         "source": "pw",
@@ -1379,7 +1164,7 @@
     "source": "HK1",
     "source_id": "Discovery.Asia.hk",
     "status": "mapped",
-    "upcoming_programmes": 82,
+    "upcoming_programmes": 76,
     "attempts": [
       {
         "source": "PH1",
@@ -1412,7 +1197,7 @@
         "source": "HK1",
         "source_id": "Discovery.Asia.hk",
         "raw_entries": 110,
-        "upcoming_programmes": 82,
+        "upcoming_programmes": 76,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1424,7 +1209,7 @@
     "source": "SG1",
     "source_id": "Discovery.Channel.(HD).sg",
     "status": "mapped",
-    "upcoming_programmes": 77,
+    "upcoming_programmes": 96,
     "attempts": [
       {
         "source": "PH1",
@@ -1447,8 +1232,8 @@
       {
         "source": "SG1",
         "source_id": "Discovery.Channel.(HD).sg",
-        "raw_entries": 125,
-        "upcoming_programmes": 77,
+        "raw_entries": 116,
+        "upcoming_programmes": 96,
         "overlaps": 0,
         "invalid_rejected": 3,
         "placeholder_rejected": 0
@@ -1460,13 +1245,13 @@
     "source": "US2",
     "source_id": "Discovery.Family.Channel.HD.us2",
     "status": "mapped",
-    "upcoming_programmes": 93,
+    "upcoming_programmes": 132,
     "attempts": [
       {
         "source": "US2",
         "source_id": "Discovery.Family.Channel.HD.us2",
         "raw_entries": 181,
-        "upcoming_programmes": 93,
+        "upcoming_programmes": 132,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1478,13 +1263,13 @@
     "source": "HK1",
     "source_id": "Discovery.Science.hk",
     "status": "mapped",
-    "upcoming_programmes": 102,
+    "upcoming_programmes": 95,
     "attempts": [
       {
         "source": "HK1",
         "source_id": "Discovery.Science.hk",
         "raw_entries": 132,
-        "upcoming_programmes": 102,
+        "upcoming_programmes": 95,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1496,13 +1281,13 @@
     "source": "AU1",
     "source_id": "DiscoveryTurbo.au",
     "status": "mapped",
-    "upcoming_programmes": 114,
+    "upcoming_programmes": 108,
     "attempts": [
       {
         "source": "AU1",
         "source_id": "DiscoveryTurbo.au",
         "raw_entries": 194,
-        "upcoming_programmes": 114,
+        "upcoming_programmes": 108,
         "overlaps": 0,
         "invalid_rejected": 9,
         "placeholder_rejected": 0
@@ -1514,13 +1299,13 @@
     "source": "US2",
     "source_id": "Disney.Channel.HD.us2",
     "status": "mapped",
-    "upcoming_programmes": 91,
+    "upcoming_programmes": 132,
     "attempts": [
       {
         "source": "US2",
         "source_id": "Disney.Channel.HD.us2",
         "raw_entries": 177,
-        "upcoming_programmes": 91,
+        "upcoming_programmes": 132,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1532,13 +1317,13 @@
     "source": "HK1",
     "source_id": "DMAX.hk",
     "status": "mapped",
-    "upcoming_programmes": 99,
+    "upcoming_programmes": 93,
     "attempts": [
       {
         "source": "HK1",
         "source_id": "DMAX.hk",
         "raw_entries": 124,
-        "upcoming_programmes": 99,
+        "upcoming_programmes": 93,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1558,13 +1343,13 @@
     "source": "PH2",
     "source_id": "DreamWorks.HD.ph",
     "status": "mapped",
-    "upcoming_programmes": 115,
+    "upcoming_programmes": 164,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "DreamWorks.HD.ph",
         "raw_entries": 236,
-        "upcoming_programmes": 115,
+        "upcoming_programmes": 164,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1576,13 +1361,13 @@
     "source": "BE2",
     "source_id": "DW.HD.be",
     "status": "mapped",
-    "upcoming_programmes": 169,
+    "upcoming_programmes": 225,
     "attempts": [
       {
         "source": "BE2",
         "source_id": "DW.HD.be",
-        "raw_entries": 300,
-        "upcoming_programmes": 169,
+        "raw_entries": 299,
+        "upcoming_programmes": 225,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1629,15 +1414,15 @@
     "source": "AU1",
     "source_id": "ESPN.au",
     "status": "mapped",
-    "upcoming_programmes": 59,
+    "upcoming_programmes": 76,
     "attempts": [
       {
         "source": "AU1",
         "source_id": "ESPN.au",
-        "raw_entries": 115,
-        "upcoming_programmes": 59,
+        "raw_entries": 119,
+        "upcoming_programmes": 76,
         "overlaps": 0,
-        "invalid_rejected": 7,
+        "invalid_rejected": 11,
         "placeholder_rejected": 0
       }
     ]
@@ -1655,7 +1440,7 @@
     "source": "HK1",
     "source_id": "euronews.hk",
     "status": "mapped",
-    "upcoming_programmes": 279,
+    "upcoming_programmes": 264,
     "attempts": [
       {
         "source": "PH1",
@@ -1670,7 +1455,7 @@
         "source": "HK1",
         "source_id": "euronews.hk",
         "raw_entries": 336,
-        "upcoming_programmes": 279,
+        "upcoming_programmes": 264,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1679,16 +1464,16 @@
   },
   {
     "playlist_tvg_id": "Evolution Earth",
-    "source": "",
-    "source_id": "",
-    "status": "no usable current schedule",
-    "upcoming_programmes": 0,
+    "source": "SAMSUNG",
+    "source_id": "CA900003IF",
+    "status": "mapped",
+    "upcoming_programmes": 8,
     "attempts": [
       {
         "source": "SAMSUNG",
         "source_id": "CA900003IF",
         "raw_entries": 8,
-        "upcoming_programmes": 0,
+        "upcoming_programmes": 8,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1700,13 +1485,13 @@
     "source": "IE1",
     "source_id": "EWTN.ie",
     "status": "mapped",
-    "upcoming_programmes": 118,
+    "upcoming_programmes": 110,
     "attempts": [
       {
         "source": "IE1",
         "source_id": "EWTN.ie",
         "raw_entries": 159,
-        "upcoming_programmes": 118,
+        "upcoming_programmes": 110,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1718,7 +1503,7 @@
     "source": "PLEX1",
     "source_id": "plex.tv.FailArmy.plex",
     "status": "mapped",
-    "upcoming_programmes": 136,
+    "upcoming_programmes": 174,
     "attempts": [
       {
         "source": "AU1",
@@ -1742,7 +1527,7 @@
         "source": "PLEX1",
         "source_id": "plex.tv.FailArmy.plex",
         "raw_entries": 184,
-        "upcoming_programmes": 136,
+        "upcoming_programmes": 174,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1754,13 +1539,13 @@
     "source": "PH2",
     "source_id": "Fashion.TV.HD.ph",
     "status": "mapped",
-    "upcoming_programmes": 94,
+    "upcoming_programmes": 133,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Fashion.TV.HD.ph",
         "raw_entries": 192,
-        "upcoming_programmes": 94,
+        "upcoming_programmes": 133,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1772,13 +1557,13 @@
     "source": "US2",
     "source_id": "Fight.Network.us2",
     "status": "mapped",
-    "upcoming_programmes": 41,
+    "upcoming_programmes": 55,
     "attempts": [
       {
         "source": "US2",
         "source_id": "Fight.Network.us2",
         "raw_entries": 73,
-        "upcoming_programmes": 41,
+        "upcoming_programmes": 55,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1798,7 +1583,7 @@
     "source": "HK1",
     "source_id": "Food.Network.hk",
     "status": "mapped",
-    "upcoming_programmes": 109,
+    "upcoming_programmes": 102,
     "attempts": [
       {
         "source": "PH1",
@@ -1822,7 +1607,7 @@
         "source": "HK1",
         "source_id": "Food.Network.hk",
         "raw_entries": 138,
-        "upcoming_programmes": 109,
+        "upcoming_programmes": 102,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1842,13 +1627,13 @@
     "source": "US2",
     "source_id": "FS1.HD.us2",
     "status": "mapped",
-    "upcoming_programmes": 34,
+    "upcoming_programmes": 47,
     "attempts": [
       {
         "source": "US2",
         "source_id": "FS1.HD.us2",
-        "raw_entries": 71,
-        "upcoming_programmes": 34,
+        "raw_entries": 67,
+        "upcoming_programmes": 47,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1860,13 +1645,13 @@
     "source": "PH2",
     "source_id": "France.24.ph",
     "status": "mapped",
-    "upcoming_programmes": 244,
+    "upcoming_programmes": 337,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "France.24.ph",
-        "raw_entries": 476,
-        "upcoming_programmes": 244,
+        "raw_entries": 475,
+        "upcoming_programmes": 337,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1886,13 +1671,13 @@
     "source": "PH2",
     "source_id": "Global.Trekker.ph",
     "status": "mapped",
-    "upcoming_programmes": 73,
+    "upcoming_programmes": 94,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Global.Trekker.ph",
-        "raw_entries": 130,
-        "upcoming_programmes": 73,
+        "raw_entries": 131,
+        "upcoming_programmes": 94,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1901,43 +1686,16 @@
   },
   {
     "playlist_tvg_id": "GMA",
-    "source": "",
-    "source_id": "",
-    "status": "no matching source listings",
-    "upcoming_programmes": 0,
+    "source": "CTCPH",
+    "source_id": "gma",
+    "status": "mapped",
+    "upcoming_programmes": 12,
     "attempts": [
       {
-        "source": "pw",
-        "source_id": "GMA.ph",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "pw",
-        "source_id": "575517",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "MEDIAQUEST",
-        "source_id": "cg_gma_sd",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "MEDIAQUEST",
-        "source_id": "cg_gma_hd",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
+        "source": "CTCPH",
+        "source_id": "gma",
+        "raw_entries": 12,
+        "upcoming_programmes": 12,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -1949,13 +1707,13 @@
     "source": "SG1",
     "source_id": "GMA.Life.TV.sg",
     "status": "mapped",
-    "upcoming_programmes": 77,
+    "upcoming_programmes": 98,
     "attempts": [
       {
         "source": "SG1",
         "source_id": "GMA.Life.TV.sg",
         "raw_entries": 114,
-        "upcoming_programmes": 77,
+        "upcoming_programmes": 98,
         "overlaps": 0,
         "invalid_rejected": 1,
         "placeholder_rejected": 0
@@ -1967,13 +1725,13 @@
     "source": "SG1",
     "source_id": "GMA.News.TV.sg",
     "status": "mapped",
-    "upcoming_programmes": 70,
+    "upcoming_programmes": 95,
     "attempts": [
       {
         "source": "SG1",
         "source_id": "GMA.News.TV.sg",
         "raw_entries": 113,
-        "upcoming_programmes": 70,
+        "upcoming_programmes": 95,
         "overlaps": 0,
         "invalid_rejected": 2,
         "placeholder_rejected": 0
@@ -1985,13 +1743,13 @@
     "source": "SG1",
     "source_id": "GMA.Pinoy.TV..sg",
     "status": "mapped",
-    "upcoming_programmes": 67,
+    "upcoming_programmes": 92,
     "attempts": [
       {
         "source": "SG1",
         "source_id": "GMA.Pinoy.TV..sg",
-        "raw_entries": 106,
-        "upcoming_programmes": 67,
+        "raw_entries": 104,
+        "upcoming_programmes": 92,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2016,43 +1774,16 @@
   },
   {
     "playlist_tvg_id": "GTV",
-    "source": "",
-    "source_id": "",
-    "status": "no usable current schedule",
-    "upcoming_programmes": 0,
+    "source": "CTCPH",
+    "source_id": "gtv",
+    "status": "mapped",
+    "upcoming_programmes": 9,
     "attempts": [
       {
-        "source": "PH2",
-        "source_id": "GTV.ph",
-        "raw_entries": 2,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "pw",
-        "source_id": "GTV.ph",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "MEDIAQUEST",
-        "source_id": "cg_gtv_sd",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "MEDIAQUEST",
-        "source_id": "cg_gtv_hd",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
+        "source": "CTCPH",
+        "source_id": "gtv",
+        "raw_entries": 9,
+        "upcoming_programmes": 9,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2072,13 +1803,13 @@
     "source": "US2",
     "source_id": "Hallmark.Channel.HD.us2",
     "status": "mapped",
-    "upcoming_programmes": 27,
+    "upcoming_programmes": 37,
     "attempts": [
       {
         "source": "US2",
         "source_id": "Hallmark.Channel.HD.us2",
-        "raw_entries": 50,
-        "upcoming_programmes": 27,
+        "raw_entries": 49,
+        "upcoming_programmes": 37,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2090,7 +1821,7 @@
     "source": "SG1",
     "source_id": "HBO.HD.sg",
     "status": "mapped",
-    "upcoming_programmes": 36,
+    "upcoming_programmes": 49,
     "attempts": [
       {
         "source": "PH1",
@@ -2114,7 +1845,7 @@
         "source": "SG1",
         "source_id": "HBO.HD.sg",
         "raw_entries": 58,
-        "upcoming_programmes": 36,
+        "upcoming_programmes": 49,
         "overlaps": 0,
         "invalid_rejected": 3,
         "placeholder_rejected": 0
@@ -2126,13 +1857,13 @@
     "source": "PLEX1",
     "source_id": "plex.tv.HBO.Boxing.plex",
     "status": "mapped",
-    "upcoming_programmes": 75,
+    "upcoming_programmes": 91,
     "attempts": [
       {
         "source": "PLEX1",
         "source_id": "plex.tv.HBO.Boxing.plex",
-        "raw_entries": 103,
-        "upcoming_programmes": 75,
+        "raw_entries": 96,
+        "upcoming_programmes": 91,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2144,13 +1875,13 @@
     "source": "US2",
     "source_id": "HBO.Comedy.HD.us2",
     "status": "mapped",
-    "upcoming_programmes": 49,
+    "upcoming_programmes": 65,
     "attempts": [
       {
         "source": "US2",
         "source_id": "HBO.Comedy.HD.us2",
-        "raw_entries": 100,
-        "upcoming_programmes": 49,
+        "raw_entries": 83,
+        "upcoming_programmes": 65,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2162,7 +1893,7 @@
     "source": "SG1",
     "source_id": "HBO.Family.(HD).sg",
     "status": "mapped",
-    "upcoming_programmes": 121,
+    "upcoming_programmes": 166,
     "attempts": [
       {
         "source": "PH1",
@@ -2185,8 +1916,8 @@
       {
         "source": "SG1",
         "source_id": "HBO.Family.(HD).sg",
-        "raw_entries": 204,
-        "upcoming_programmes": 121,
+        "raw_entries": 208,
+        "upcoming_programmes": 166,
         "overlaps": 0,
         "invalid_rejected": 2,
         "placeholder_rejected": 0
@@ -2198,13 +1929,13 @@
     "source": "UY1",
     "source_id": "HBO.MUNDI.HD.uy",
     "status": "mapped",
-    "upcoming_programmes": 25,
+    "upcoming_programmes": 35,
     "attempts": [
       {
         "source": "UY1",
         "source_id": "HBO.MUNDI.HD.uy",
-        "raw_entries": 44,
-        "upcoming_programmes": 25,
+        "raw_entries": 45,
+        "upcoming_programmes": 35,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2216,7 +1947,7 @@
     "source": "SG1",
     "source_id": "HBO.Signature.(HD).sg",
     "status": "mapped",
-    "upcoming_programmes": 40,
+    "upcoming_programmes": 53,
     "attempts": [
       {
         "source": "PH1",
@@ -2239,8 +1970,8 @@
       {
         "source": "SG1",
         "source_id": "HBO.Signature.(HD).sg",
-        "raw_entries": 66,
-        "upcoming_programmes": 40,
+        "raw_entries": 64,
+        "upcoming_programmes": 53,
         "overlaps": 0,
         "invalid_rejected": 3,
         "placeholder_rejected": 0
@@ -2260,13 +1991,13 @@
     "source": "CO1",
     "source_id": "HBO.POP.co",
     "status": "mapped",
-    "upcoming_programmes": 28,
+    "upcoming_programmes": 39,
     "attempts": [
       {
         "source": "CO1",
         "source_id": "HBO.POP.co",
-        "raw_entries": 47,
-        "upcoming_programmes": 28,
+        "raw_entries": 46,
+        "upcoming_programmes": 39,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2278,13 +2009,13 @@
     "source": "CO1",
     "source_id": "HBO.XTREME.co",
     "status": "mapped",
-    "upcoming_programmes": 23,
+    "upcoming_programmes": 33,
     "attempts": [
       {
         "source": "CO1",
         "source_id": "HBO.XTREME.co",
-        "raw_entries": 42,
-        "upcoming_programmes": 23,
+        "raw_entries": 39,
+        "upcoming_programmes": 33,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2296,13 +2027,13 @@
     "source": "US2",
     "source_id": "HBO.Zone.HD.us2",
     "status": "mapped",
-    "upcoming_programmes": 32,
+    "upcoming_programmes": 42,
     "attempts": [
       {
         "source": "US2",
         "source_id": "HBO.Zone.HD.us2",
-        "raw_entries": 57,
-        "upcoming_programmes": 32,
+        "raw_entries": 56,
+        "upcoming_programmes": 42,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2314,7 +2045,7 @@
     "source": "SG1",
     "source_id": "HGTV.(HD).sg",
     "status": "mapped",
-    "upcoming_programmes": 104,
+    "upcoming_programmes": 137,
     "attempts": [
       {
         "source": "PH1",
@@ -2328,8 +2059,8 @@
       {
         "source": "SG1",
         "source_id": "HGTV.(HD).sg",
-        "raw_entries": 159,
-        "upcoming_programmes": 104,
+        "raw_entries": 158,
+        "upcoming_programmes": 137,
         "overlaps": 0,
         "invalid_rejected": 3,
         "placeholder_rejected": 0
@@ -2338,16 +2069,16 @@
   },
   {
     "playlist_tvg_id": "History HD",
-    "source": "PH2",
-    "source_id": "History.HD.ph",
+    "source": "CTCPH",
+    "source_id": "history",
     "status": "mapped",
-    "upcoming_programmes": 53,
+    "upcoming_programmes": 16,
     "attempts": [
       {
-        "source": "PH2",
-        "source_id": "History.HD.ph",
-        "raw_entries": 108,
-        "upcoming_programmes": 53,
+        "source": "CTCPH",
+        "source_id": "history",
+        "raw_entries": 17,
+        "upcoming_programmes": 16,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2359,13 +2090,13 @@
     "source": "PH2",
     "source_id": "HITS.HD.ph",
     "status": "mapped",
-    "upcoming_programmes": 63,
+    "upcoming_programmes": 85,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "HITS.HD.ph",
         "raw_entries": 123,
-        "upcoming_programmes": 63,
+        "upcoming_programmes": 85,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2377,13 +2108,13 @@
     "source": "PH2",
     "source_id": "HITS.MOVIES.ph",
     "status": "mapped",
-    "upcoming_programmes": 21,
+    "upcoming_programmes": 30,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "HITS.MOVIES.ph",
-        "raw_entries": 41,
-        "upcoming_programmes": 21,
+        "raw_entries": 42,
+        "upcoming_programmes": 30,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2395,13 +2126,13 @@
     "source": "PH2",
     "source_id": "HITS.NOW.ph",
     "status": "mapped",
-    "upcoming_programmes": 44,
+    "upcoming_programmes": 62,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "HITS.NOW.ph",
-        "raw_entries": 95,
-        "upcoming_programmes": 44,
+        "raw_entries": 93,
+        "upcoming_programmes": 62,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2413,13 +2144,13 @@
     "source": "PLEX1",
     "source_id": "plex.tv.Hi-YAH!.plex",
     "status": "mapped",
-    "upcoming_programmes": 34,
+    "upcoming_programmes": 42,
     "attempts": [
       {
         "source": "PLEX1",
         "source_id": "plex.tv.Hi-YAH!.plex",
-        "raw_entries": 46,
-        "upcoming_programmes": 34,
+        "raw_entries": 44,
+        "upcoming_programmes": 42,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2444,37 +2175,19 @@
   },
   {
     "playlist_tvg_id": "IBC13",
-    "source": "",
-    "source_id": "",
-    "status": "no usable current schedule",
-    "upcoming_programmes": 0,
+    "source": "CTCPH",
+    "source_id": "ibc-tv-13",
+    "status": "mapped",
+    "upcoming_programmes": 14,
     "attempts": [
       {
-        "source": "PH2",
-        "source_id": "IBC.13.ph",
-        "raw_entries": 165,
-        "upcoming_programmes": 0,
+        "source": "CTCPH",
+        "source_id": "ibc-tv-13",
+        "raw_entries": 14,
+        "upcoming_programmes": 14,
         "overlaps": 0,
         "invalid_rejected": 0,
-        "placeholder_rejected": 165
-      },
-      {
-        "source": "pw",
-        "source_id": "573023",
-        "raw_entries": 139,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 139
-      },
-      {
-        "source": "CIGNALMERGED",
-        "source_id": "ibc13_sd_new.cignal",
-        "raw_entries": 24,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 24
+        "placeholder_rejected": 0
       }
     ]
   },
@@ -2491,7 +2204,7 @@
     "source": "PLEX1",
     "source_id": "plex.tv.INWONDER.plex",
     "status": "mapped",
-    "upcoming_programmes": 114,
+    "upcoming_programmes": 142,
     "attempts": [
       {
         "source": "AU1",
@@ -2505,8 +2218,8 @@
       {
         "source": "PLEX1",
         "source_id": "plex.tv.INWONDER.plex",
-        "raw_entries": 156,
-        "upcoming_programmes": 114,
+        "raw_entries": 149,
+        "upcoming_programmes": 142,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2518,13 +2231,13 @@
     "source": "US2",
     "source_id": "ION.Television.HD.us2",
     "status": "mapped",
-    "upcoming_programmes": 59,
+    "upcoming_programmes": 82,
     "attempts": [
       {
         "source": "US2",
         "source_id": "ION.Television.HD.us2",
         "raw_entries": 112,
-        "upcoming_programmes": 59,
+        "upcoming_programmes": 82,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2533,34 +2246,16 @@
   },
   {
     "playlist_tvg_id": "Jeepney TV",
-    "source": "",
-    "source_id": "",
-    "status": "no usable current schedule",
-    "upcoming_programmes": 0,
+    "source": "CTCPH",
+    "source_id": "jeepney-tv",
+    "status": "mapped",
+    "upcoming_programmes": 8,
     "attempts": [
       {
-        "source": "PH2",
-        "source_id": "Jeepney.TV.ph",
+        "source": "CTCPH",
+        "source_id": "jeepney-tv",
         "raw_entries": 8,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "pw",
-        "source_id": "484097",
-        "raw_entries": 6,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "MEDIAQUEST",
-        "source_id": "cg_jeepneytv_sd",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
+        "upcoming_programmes": 8,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2572,7 +2267,7 @@
     "source": "PLEX1",
     "source_id": "plex.tv.Just.For.Laughs.Gags.plex",
     "status": "mapped",
-    "upcoming_programmes": 140,
+    "upcoming_programmes": 180,
     "attempts": [
       {
         "source": "WHALETVPLUS1",
@@ -2587,7 +2282,7 @@
         "source": "PLEX1",
         "source_id": "plex.tv.Just.For.Laughs.Gags.plex",
         "raw_entries": 190,
-        "upcoming_programmes": 140,
+        "upcoming_programmes": 180,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2596,52 +2291,16 @@
   },
   {
     "playlist_tvg_id": "Kapamilya Channel",
-    "source": "",
-    "source_id": "",
-    "status": "no usable current schedule",
-    "upcoming_programmes": 0,
+    "source": "CTCPH",
+    "source_id": "kapamilya-channel",
+    "status": "mapped",
+    "upcoming_programmes": 13,
     "attempts": [
       {
-        "source": "PH2",
-        "source_id": "Kapamilya.Channel.ph",
-        "raw_entries": 3,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "KAPAMILYA.CHANNEL.HD.ph",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "KAPAMILYA.CHANNEL.ph",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "pw",
-        "source_id": "575514",
-        "raw_entries": 1,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "CIGNALMERGED",
-        "source_id": "kapamilya-channel.click",
-        "raw_entries": 8,
-        "upcoming_programmes": 0,
+        "source": "CTCPH",
+        "source_id": "kapamilya-channel",
+        "raw_entries": 13,
+        "upcoming_programmes": 13,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2650,34 +2309,16 @@
   },
   {
     "playlist_tvg_id": "Kapamilya Channel HD",
-    "source": "",
-    "source_id": "",
-    "status": "no usable current schedule",
-    "upcoming_programmes": 0,
+    "source": "CTCPH",
+    "source_id": "kapamilya-channel",
+    "status": "mapped",
+    "upcoming_programmes": 13,
     "attempts": [
       {
-        "source": "PH2",
-        "source_id": "Kapamilya.Channel.ph",
-        "raw_entries": 3,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "KAPAMILYA.CHANNEL.HD.ph",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "pw",
-        "source_id": "575514",
-        "raw_entries": 1,
-        "upcoming_programmes": 0,
+        "source": "CTCPH",
+        "source_id": "kapamilya-channel",
+        "raw_entries": 13,
+        "upcoming_programmes": 13,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2689,13 +2330,13 @@
     "source": "US2",
     "source_id": "Kartoon.Channel.us2",
     "status": "mapped",
-    "upcoming_programmes": 141,
+    "upcoming_programmes": 194,
     "attempts": [
       {
         "source": "US2",
         "source_id": "Kartoon.Channel.us2",
         "raw_entries": 256,
-        "upcoming_programmes": 141,
+        "upcoming_programmes": 194,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2707,7 +2348,7 @@
     "source": "HK1",
     "source_id": "KBS.World.hk",
     "status": "mapped",
-    "upcoming_programmes": 66,
+    "upcoming_programmes": 61,
     "attempts": [
       {
         "source": "PH1",
@@ -2722,7 +2363,7 @@
         "source": "HK1",
         "source_id": "KBS.World.hk",
         "raw_entries": 91,
-        "upcoming_programmes": 66,
+        "upcoming_programmes": 61,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2734,13 +2375,13 @@
     "source": "PLEX1",
     "source_id": "plex.tv.KidsFlix.plex",
     "status": "mapped",
-    "upcoming_programmes": 59,
+    "upcoming_programmes": 75,
     "attempts": [
       {
         "source": "PLEX1",
         "source_id": "plex.tv.KidsFlix.plex",
         "raw_entries": 79,
-        "upcoming_programmes": 59,
+        "upcoming_programmes": 75,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2752,13 +2393,13 @@
     "source": "ID1",
     "source_id": "Kids.TV.id",
     "status": "mapped",
-    "upcoming_programmes": 106,
+    "upcoming_programmes": 137,
     "attempts": [
       {
         "source": "ID1",
         "source_id": "Kids.TV.id",
-        "raw_entries": 170,
-        "upcoming_programmes": 106,
+        "raw_entries": 158,
+        "upcoming_programmes": 137,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2770,7 +2411,7 @@
     "source": "ID1",
     "source_id": "KIX.id",
     "status": "mapped",
-    "upcoming_programmes": 49,
+    "upcoming_programmes": 64,
     "attempts": [
       {
         "source": "PH1",
@@ -2785,7 +2426,7 @@
         "source": "ID1",
         "source_id": "KIX.id",
         "raw_entries": 72,
-        "upcoming_programmes": 49,
+        "upcoming_programmes": 64,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2797,13 +2438,13 @@
     "source": "PH2",
     "source_id": "Knowledge.Channel.ph",
     "status": "mapped",
-    "upcoming_programmes": 98,
+    "upcoming_programmes": 136,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Knowledge.Channel.ph",
         "raw_entries": 204,
-        "upcoming_programmes": 98,
+        "upcoming_programmes": 136,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2831,13 +2472,13 @@
     "source": "PH2",
     "source_id": "Lifetime.SD.ph",
     "status": "mapped",
-    "upcoming_programmes": 45,
+    "upcoming_programmes": 62,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Lifetime.SD.ph",
         "raw_entries": 92,
-        "upcoming_programmes": 45,
+        "upcoming_programmes": 62,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2862,11 +2503,11 @@
       {
         "source": "PH2",
         "source_id": "Lotus.Macau.ph",
-        "raw_entries": 165,
+        "raw_entries": 166,
         "upcoming_programmes": 0,
         "overlaps": 0,
         "invalid_rejected": 0,
-        "placeholder_rejected": 165
+        "placeholder_rejected": 166
       },
       {
         "source": "pw",
@@ -2927,13 +2568,13 @@
     "source": "PLEX1",
     "source_id": "plex.tv.Miramax.Movie.Channel.plex",
     "status": "mapped",
-    "upcoming_programmes": 32,
+    "upcoming_programmes": 41,
     "attempts": [
       {
         "source": "PLEX1",
         "source_id": "plex.tv.Miramax.Movie.Channel.plex",
         "raw_entries": 43,
-        "upcoming_programmes": 32,
+        "upcoming_programmes": 41,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2945,13 +2586,13 @@
     "source": "US2",
     "source_id": "MLB.Network.HD.us2",
     "status": "mapped",
-    "upcoming_programmes": 41,
+    "upcoming_programmes": 57,
     "attempts": [
       {
         "source": "US2",
         "source_id": "MLB.Network.HD.us2",
-        "raw_entries": 72,
-        "upcoming_programmes": 41,
+        "raw_entries": 73,
+        "upcoming_programmes": 57,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2963,13 +2604,13 @@
     "source": "IN4",
     "source_id": "MNX.in",
     "status": "mapped",
-    "upcoming_programmes": 6,
+    "upcoming_programmes": 5,
     "attempts": [
       {
         "source": "IN4",
         "source_id": "MNX.in",
         "raw_entries": 12,
-        "upcoming_programmes": 6,
+        "upcoming_programmes": 5,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -2986,20 +2627,20 @@
       {
         "source": "PH2",
         "source_id": "Moonbug.Kids.ph",
-        "raw_entries": 49,
+        "raw_entries": 50,
         "upcoming_programmes": 0,
         "overlaps": 0,
         "invalid_rejected": 0,
-        "placeholder_rejected": 49
+        "placeholder_rejected": 50
       },
       {
         "source": "pw",
         "source_id": "579508",
-        "raw_entries": 41,
+        "raw_entries": 42,
         "upcoming_programmes": 0,
         "overlaps": 0,
         "invalid_rejected": 0,
-        "placeholder_rejected": 41
+        "placeholder_rejected": 42
       },
       {
         "source": "CIGNALMERGED",
@@ -3025,13 +2666,13 @@
     "source": "PLEX1",
     "source_id": "plex.tv.MotoGP.Channel.plex",
     "status": "mapped",
-    "upcoming_programmes": 51,
+    "upcoming_programmes": 65,
     "attempts": [
       {
         "source": "PLEX1",
         "source_id": "plex.tv.MotoGP.Channel.plex",
-        "raw_entries": 66,
-        "upcoming_programmes": 51,
+        "raw_entries": 68,
+        "upcoming_programmes": 65,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3059,13 +2700,13 @@
     "source": "IN4",
     "source_id": "MOVIES.NOW.in",
     "status": "mapped",
-    "upcoming_programmes": 6,
+    "upcoming_programmes": 5,
     "attempts": [
       {
         "source": "IN4",
         "source_id": "MOVIES.NOW.in",
         "raw_entries": 11,
-        "upcoming_programmes": 6,
+        "upcoming_programmes": 5,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3077,13 +2718,13 @@
     "source": "AU1",
     "source_id": "Moviesphere.au",
     "status": "mapped",
-    "upcoming_programmes": 65,
+    "upcoming_programmes": 62,
     "attempts": [
       {
         "source": "AU1",
         "source_id": "Moviesphere.au",
         "raw_entries": 89,
-        "upcoming_programmes": 65,
+        "upcoming_programmes": 62,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3092,25 +2733,16 @@
   },
   {
     "playlist_tvg_id": "Mr. Bean",
-    "source": "",
-    "source_id": "",
-    "status": "no usable current schedule",
-    "upcoming_programmes": 0,
+    "source": "PLEX1",
+    "source_id": "plex.tv.Mr..Bean.plex",
+    "status": "mapped",
+    "upcoming_programmes": 35,
     "attempts": [
       {
         "source": "PLEX1",
         "source_id": "plex.tv.Mr..Bean.plex",
-        "raw_entries": 32,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 32
-      },
-      {
-        "source": "SAMSUNG",
-        "source_id": "KR2400001TI",
-        "raw_entries": 1,
-        "upcoming_programmes": 0,
+        "raw_entries": 37,
+        "upcoming_programmes": 35,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3122,13 +2754,13 @@
     "source": "PLEX1",
     "source_id": "plex.tv.MrBeast.plex",
     "status": "mapped",
-    "upcoming_programmes": 82,
+    "upcoming_programmes": 110,
     "attempts": [
       {
         "source": "PLEX1",
         "source_id": "plex.tv.MrBeast.plex",
-        "raw_entries": 112,
-        "upcoming_programmes": 82,
+        "raw_entries": 114,
+        "upcoming_programmes": 110,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3148,7 +2780,7 @@
     "source": "UK1",
     "source_id": "MTV.HD.uk",
     "status": "mapped",
-    "upcoming_programmes": 60,
+    "upcoming_programmes": 87,
     "attempts": [
       {
         "source": "PH1",
@@ -3171,8 +2803,8 @@
       {
         "source": "UK1",
         "source_id": "MTV.HD.uk",
-        "raw_entries": 120,
-        "upcoming_programmes": 60,
+        "raw_entries": 121,
+        "upcoming_programmes": 87,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3189,37 +2821,19 @@
   },
   {
     "playlist_tvg_id": "Mythbusters",
-    "source": "",
-    "source_id": "",
-    "status": "no usable current schedule",
-    "upcoming_programmes": 0,
+    "source": "AU1",
+    "source_id": "Mythbusters.au",
+    "status": "mapped",
+    "upcoming_programmes": 66,
     "attempts": [
       {
         "source": "AU1",
         "source_id": "Mythbusters.au",
         "raw_entries": 145,
-        "upcoming_programmes": 0,
+        "upcoming_programmes": 66,
         "overlaps": 0,
         "invalid_rejected": 0,
-        "placeholder_rejected": 145
-      },
-      {
-        "source": "PLEX1",
-        "source_id": "plex.tv.MythBusters.plex",
-        "raw_entries": 114,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 114
-      },
-      {
-        "source": "SAMSUNG",
-        "source_id": "GB200005LI",
-        "raw_entries": 8,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
+        "placeholder_rejected": 30
       }
     ]
   },
@@ -3228,13 +2842,13 @@
     "source": "PLEX1",
     "source_id": "plex.tv.Mysterious.Worlds.plex",
     "status": "mapped",
-    "upcoming_programmes": 86,
+    "upcoming_programmes": 110,
     "attempts": [
       {
         "source": "PLEX1",
         "source_id": "plex.tv.Mysterious.Worlds.plex",
-        "raw_entries": 117,
-        "upcoming_programmes": 86,
+        "raw_entries": 116,
+        "upcoming_programmes": 110,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3273,7 +2887,7 @@
     "source": "US2",
     "source_id": "National.Geographic.HD.us2",
     "status": "mapped",
-    "upcoming_programmes": 59,
+    "upcoming_programmes": 82,
     "attempts": [
       {
         "source": "PH2",
@@ -3306,7 +2920,7 @@
         "source": "US2",
         "source_id": "National.Geographic.HD.us2",
         "raw_entries": 109,
-        "upcoming_programmes": 59,
+        "upcoming_programmes": 82,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3318,13 +2932,13 @@
     "source": "US2",
     "source_id": "NBA.TV.HD.us2",
     "status": "mapped",
-    "upcoming_programmes": 62,
+    "upcoming_programmes": 91,
     "attempts": [
       {
         "source": "US2",
         "source_id": "NBA.TV.HD.us2",
-        "raw_entries": 114,
-        "upcoming_programmes": 62,
+        "raw_entries": 120,
+        "upcoming_programmes": 91,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3336,13 +2950,13 @@
     "source": "PH2",
     "source_id": "NBA.TV.Philippines.ph",
     "status": "mapped",
-    "upcoming_programmes": 48,
+    "upcoming_programmes": 46,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "NBA.TV.Philippines.ph",
-        "raw_entries": 106,
-        "upcoming_programmes": 48,
+        "raw_entries": 76,
+        "upcoming_programmes": 46,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3354,13 +2968,13 @@
     "source": "PH2",
     "source_id": "NCAA.NXT.ph",
     "status": "mapped",
-    "upcoming_programmes": 16,
+    "upcoming_programmes": 14,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "NCAA.NXT.ph",
-        "raw_entries": 37,
-        "upcoming_programmes": 16,
+        "raw_entries": 26,
+        "upcoming_programmes": 14,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3372,13 +2986,13 @@
     "source": "PLEX1",
     "source_id": "plex.tv.NEW.K.MOVIES.plex",
     "status": "mapped",
-    "upcoming_programmes": 34,
+    "upcoming_programmes": 42,
     "attempts": [
       {
         "source": "PLEX1",
         "source_id": "plex.tv.NEW.K.MOVIES.plex",
         "raw_entries": 44,
-        "upcoming_programmes": 34,
+        "upcoming_programmes": 42,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3387,34 +3001,16 @@
   },
   {
     "playlist_tvg_id": "Net25",
-    "source": "",
-    "source_id": "",
-    "status": "no usable current schedule",
-    "upcoming_programmes": 0,
+    "source": "CTCPH",
+    "source_id": "net-25",
+    "status": "mapped",
+    "upcoming_programmes": 19,
     "attempts": [
       {
-        "source": "PH2",
-        "source_id": "Net.25.ph",
-        "raw_entries": 8,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "pw",
-        "source_id": "484098",
-        "raw_entries": 6,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "CIGNALMERGED",
-        "source_id": "net-25.click",
-        "raw_entries": 12,
-        "upcoming_programmes": 0,
+        "source": "CTCPH",
+        "source_id": "net-25",
+        "raw_entries": 19,
+        "upcoming_programmes": 19,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3426,13 +3022,13 @@
     "source": "PH2",
     "source_id": "NHK.World.Japan.ph",
     "status": "mapped",
-    "upcoming_programmes": 132,
+    "upcoming_programmes": 118,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "NHK.World.Japan.ph",
-        "raw_entries": 243,
-        "upcoming_programmes": 132,
+        "raw_entries": 189,
+        "upcoming_programmes": 118,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3444,7 +3040,7 @@
     "source": "SG1",
     "source_id": "Nick.Jr..sg",
     "status": "mapped",
-    "upcoming_programmes": 209,
+    "upcoming_programmes": 278,
     "attempts": [
       {
         "source": "PH1",
@@ -3458,8 +3054,8 @@
       {
         "source": "SG1",
         "source_id": "Nick.Jr..sg",
-        "raw_entries": 321,
-        "upcoming_programmes": 209,
+        "raw_entries": 319,
+        "upcoming_programmes": 278,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3471,13 +3067,13 @@
     "source": "PH2",
     "source_id": "Nickelodeon.SD.ph",
     "status": "mapped",
-    "upcoming_programmes": 70,
+    "upcoming_programmes": 111,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Nickelodeon.SD.ph",
-        "raw_entries": 206,
-        "upcoming_programmes": 70,
+        "raw_entries": 193,
+        "upcoming_programmes": 111,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3489,13 +3085,13 @@
     "source": "PH2",
     "source_id": "One.News.ph",
     "status": "mapped",
-    "upcoming_programmes": 67,
+    "upcoming_programmes": 83,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "One.News.ph",
-        "raw_entries": 144,
-        "upcoming_programmes": 67,
+        "raw_entries": 132,
+        "upcoming_programmes": 83,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3507,13 +3103,13 @@
     "source": "PH2",
     "source_id": "One.PH.ph",
     "status": "mapped",
-    "upcoming_programmes": 51,
+    "upcoming_programmes": 66,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "One.PH.ph",
-        "raw_entries": 95,
-        "upcoming_programmes": 51,
+        "raw_entries": 94,
+        "upcoming_programmes": 66,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3525,13 +3121,13 @@
     "source": "PH2",
     "source_id": "One.Sports.HD.ph",
     "status": "mapped",
-    "upcoming_programmes": 24,
+    "upcoming_programmes": 21,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "One.Sports.HD.ph",
-        "raw_entries": 49,
-        "upcoming_programmes": 24,
+        "raw_entries": 37,
+        "upcoming_programmes": 21,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3543,7 +3139,7 @@
     "source": "HK1",
     "source_id": "Outdoor.Channel.hk",
     "status": "mapped",
-    "upcoming_programmes": 110,
+    "upcoming_programmes": 103,
     "attempts": [
       {
         "source": "PH2",
@@ -3576,7 +3172,7 @@
         "source": "HK1",
         "source_id": "Outdoor.Channel.hk",
         "raw_entries": 137,
-        "upcoming_programmes": 110,
+        "upcoming_programmes": 103,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3596,13 +3192,13 @@
     "source": "PLUTO",
     "source_id": "5cb0cae7a461406ffe3f5213",
     "status": "mapped",
-    "upcoming_programmes": 4,
+    "upcoming_programmes": 7,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "5cb0cae7a461406ffe3f5213",
-        "raw_entries": 8,
-        "upcoming_programmes": 4,
+        "raw_entries": 7,
+        "upcoming_programmes": 7,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3638,16 +3234,16 @@
   },
   {
     "playlist_tvg_id": "PBS Digital Studios",
-    "source": "",
-    "source_id": "",
-    "status": "no usable current schedule",
-    "upcoming_programmes": 0,
+    "source": "SAMSUNG",
+    "source_id": "USBB800001O7",
+    "status": "mapped",
+    "upcoming_programmes": 6,
     "attempts": [
       {
         "source": "SAMSUNG",
         "source_id": "USBB800001O7",
         "raw_entries": 6,
-        "upcoming_programmes": 0,
+        "upcoming_programmes": 6,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3659,7 +3255,7 @@
     "source": "PLEX1",
     "source_id": "plex.tv.People.are.Awesome.plex",
     "status": "mapped",
-    "upcoming_programmes": 132,
+    "upcoming_programmes": 170,
     "attempts": [
       {
         "source": "AU1",
@@ -3682,8 +3278,8 @@
       {
         "source": "PLEX1",
         "source_id": "plex.tv.People.are.Awesome.plex",
-        "raw_entries": 179,
-        "upcoming_programmes": 132,
+        "raw_entries": 180,
+        "upcoming_programmes": 170,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3700,34 +3296,16 @@
   },
   {
     "playlist_tvg_id": "Pinoy Box Office",
-    "source": "US2",
-    "source_id": "Pinoy.Box.Office.us2",
+    "source": "CTCPH",
+    "source_id": "pbo",
     "status": "mapped",
-    "upcoming_programmes": 31,
+    "upcoming_programmes": 9,
     "attempts": [
       {
-        "source": "PH2",
-        "source_id": "PBO.ph",
-        "raw_entries": 3,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "PH1",
-        "source_id": "PBO.ph",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "US2",
-        "source_id": "Pinoy.Box.Office.us2",
-        "raw_entries": 55,
-        "upcoming_programmes": 31,
+        "source": "CTCPH",
+        "source_id": "pbo",
+        "raw_entries": 9,
+        "upcoming_programmes": 9,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3747,13 +3325,13 @@
     "source": "PH2",
     "source_id": "Premier.Sports.HD.ph",
     "status": "mapped",
-    "upcoming_programmes": 17,
+    "upcoming_programmes": 23,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Premier.Sports.HD.ph",
-        "raw_entries": 32,
-        "upcoming_programmes": 17,
+        "raw_entries": 33,
+        "upcoming_programmes": 23,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3762,25 +3340,16 @@
   },
   {
     "playlist_tvg_id": "Peoples Television",
-    "source": "MEDIAQUEST",
-    "source_id": "cg_ptv4_sd",
+    "source": "CTCPH",
+    "source_id": "ptv",
     "status": "mapped",
-    "upcoming_programmes": 41,
+    "upcoming_programmes": 12,
     "attempts": [
       {
-        "source": "PH2",
-        "source_id": "PTV.4.ph",
-        "raw_entries": 165,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 165
-      },
-      {
-        "source": "MEDIAQUEST",
-        "source_id": "cg_ptv4_sd",
-        "raw_entries": 123,
-        "upcoming_programmes": 41,
+        "source": "CTCPH",
+        "source_id": "ptv",
+        "raw_entries": 12,
+        "upcoming_programmes": 12,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3792,13 +3361,13 @@
     "source": "PLEX1",
     "source_id": "plex.tv.Popular.Science.plex",
     "status": "mapped",
-    "upcoming_programmes": 86,
+    "upcoming_programmes": 122,
     "attempts": [
       {
         "source": "PLEX1",
         "source_id": "plex.tv.Popular.Science.plex",
-        "raw_entries": 122,
-        "upcoming_programmes": 86,
+        "raw_entries": 124,
+        "upcoming_programmes": 122,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3826,13 +3395,13 @@
     "source": "PLEX1",
     "source_id": "plex.tv.Real.Wild.plex",
     "status": "mapped",
-    "upcoming_programmes": 79,
+    "upcoming_programmes": 102,
     "attempts": [
       {
         "source": "PLEX1",
         "source_id": "plex.tv.Real.Wild.plex",
-        "raw_entries": 105,
-        "upcoming_programmes": 79,
+        "raw_entries": 107,
+        "upcoming_programmes": 102,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3844,13 +3413,13 @@
     "source": "PLEX1",
     "source_id": "plex.tv.RetroCrush.plex",
     "status": "mapped",
-    "upcoming_programmes": 129,
+    "upcoming_programmes": 169,
     "attempts": [
       {
         "source": "PLEX1",
         "source_id": "plex.tv.RetroCrush.plex",
         "raw_entries": 178,
-        "upcoming_programmes": 129,
+        "upcoming_programmes": 169,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3862,13 +3431,13 @@
     "source": "IN1",
     "source_id": "Red.Bull.TV.in",
     "status": "mapped",
-    "upcoming_programmes": 108,
+    "upcoming_programmes": 101,
     "attempts": [
       {
         "source": "IN1",
         "source_id": "Red.Bull.TV.in",
         "raw_entries": 155,
-        "upcoming_programmes": 108,
+        "upcoming_programmes": 101,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3888,13 +3457,13 @@
     "source": "PH2",
     "source_id": "Rock.Action.ph",
     "status": "mapped",
-    "upcoming_programmes": 26,
+    "upcoming_programmes": 36,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Rock.Action.ph",
-        "raw_entries": 50,
-        "upcoming_programmes": 26,
+        "raw_entries": 51,
+        "upcoming_programmes": 36,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3914,13 +3483,13 @@
     "source": "PH2",
     "source_id": "RPTV.HD.ph",
     "status": "mapped",
-    "upcoming_programmes": 30,
+    "upcoming_programmes": 27,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "RPTV.HD.ph",
-        "raw_entries": 65,
-        "upcoming_programmes": 30,
+        "raw_entries": 49,
+        "upcoming_programmes": 27,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3948,13 +3517,13 @@
     "source": "IE1",
     "source_id": "Sky.Sports.F1.HD.ie",
     "status": "mapped",
-    "upcoming_programmes": 78,
+    "upcoming_programmes": 70,
     "attempts": [
       {
         "source": "IE1",
         "source_id": "Sky.Sports.F1.HD.ie",
         "raw_entries": 112,
-        "upcoming_programmes": 78,
+        "upcoming_programmes": 70,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3966,7 +3535,7 @@
     "source": "US2",
     "source_id": "Smithsonian.HD.Network.us2",
     "status": "mapped",
-    "upcoming_programmes": 53,
+    "upcoming_programmes": 73,
     "attempts": [
       {
         "source": "MY1",
@@ -3981,7 +3550,7 @@
         "source": "US2",
         "source_id": "Smithsonian.HD.Network.us2",
         "raw_entries": 96,
-        "upcoming_programmes": 53,
+        "upcoming_programmes": 73,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -3998,25 +3567,16 @@
   },
   {
     "playlist_tvg_id": "SOLARFLIX",
-    "source": "",
-    "source_id": "",
-    "status": "no usable current schedule",
-    "upcoming_programmes": 0,
+    "source": "CTCPH",
+    "source_id": "solar-flix",
+    "status": "mapped",
+    "upcoming_programmes": 5,
     "attempts": [
       {
-        "source": "PH2",
-        "source_id": "Solar.Flix.ph",
-        "raw_entries": 3,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "MEDIAQUEST",
-        "source_id": "cg_solarflix_sd",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
+        "source": "CTCPH",
+        "source_id": "solar-flix",
+        "raw_entries": 5,
+        "upcoming_programmes": 5,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4046,13 +3606,13 @@
     "source": "US2",
     "source_id": "Sony.Movie.Channel.HD.us2",
     "status": "mapped",
-    "upcoming_programmes": 30,
+    "upcoming_programmes": 39,
     "attempts": [
       {
         "source": "US2",
         "source_id": "Sony.Movie.Channel.HD.us2",
-        "raw_entries": 54,
-        "upcoming_programmes": 30,
+        "raw_entries": 52,
+        "upcoming_programmes": 39,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4064,13 +3624,13 @@
     "source": "IN4",
     "source_id": "SONY.PIX.in",
     "status": "mapped",
-    "upcoming_programmes": 6,
+    "upcoming_programmes": 5,
     "attempts": [
       {
         "source": "IN4",
         "source_id": "SONY.PIX.in",
         "raw_entries": 11,
-        "upcoming_programmes": 6,
+        "upcoming_programmes": 5,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4079,25 +3639,16 @@
   },
   {
     "playlist_tvg_id": "Sony One Action Hits",
-    "source": "PLEXMJH",
-    "source_id": "64305451fc3be5947773c339-692111d750fe592fd6d5b7da",
+    "source": "SAMSUNG",
+    "source_id": "AT300007S8",
     "status": "mapped",
-    "upcoming_programmes": 23,
+    "upcoming_programmes": 4,
     "attempts": [
       {
         "source": "SAMSUNG",
         "source_id": "AT300007S8",
         "raw_entries": 4,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "PLEXMJH",
-        "source_id": "64305451fc3be5947773c339-692111d750fe592fd6d5b7da",
-        "raw_entries": 35,
-        "upcoming_programmes": 23,
+        "upcoming_programmes": 4,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4127,7 +3678,7 @@
     "source": "SG1",
     "source_id": "SPOTV.(HD).sg",
     "status": "mapped",
-    "upcoming_programmes": 33,
+    "upcoming_programmes": 46,
     "attempts": [
       {
         "source": "PH2",
@@ -4159,8 +3710,8 @@
       {
         "source": "SG1",
         "source_id": "SPOTV.(HD).sg",
-        "raw_entries": 56,
-        "upcoming_programmes": 33,
+        "raw_entries": 57,
+        "upcoming_programmes": 46,
         "overlaps": 0,
         "invalid_rejected": 3,
         "placeholder_rejected": 0
@@ -4172,13 +3723,13 @@
     "source": "IN4",
     "source_id": "STAR.MOVIES.HD.in",
     "status": "mapped",
-    "upcoming_programmes": 6,
+    "upcoming_programmes": 5,
     "attempts": [
       {
         "source": "IN4",
         "source_id": "STAR.MOVIES.HD.in",
         "raw_entries": 10,
-        "upcoming_programmes": 6,
+        "upcoming_programmes": 5,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4190,13 +3741,13 @@
     "source": "IN4",
     "source_id": "STAR.MOVIES.SELECT.in",
     "status": "mapped",
-    "upcoming_programmes": 6,
+    "upcoming_programmes": 5,
     "attempts": [
       {
         "source": "IN4",
         "source_id": "STAR.MOVIES.SELECT.in",
         "raw_entries": 10,
-        "upcoming_programmes": 6,
+        "upcoming_programmes": 5,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4232,13 +3783,13 @@
     "source": "US2",
     "source_id": "Starz.HD.us2",
     "status": "mapped",
-    "upcoming_programmes": 41,
+    "upcoming_programmes": 54,
     "attempts": [
       {
         "source": "US2",
         "source_id": "Starz.HD.us2",
         "raw_entries": 70,
-        "upcoming_programmes": 41,
+        "upcoming_programmes": 54,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4250,13 +3801,13 @@
     "source": "PH2",
     "source_id": "STUDIOUNIVERSAL.ph",
     "status": "mapped",
-    "upcoming_programmes": 25,
+    "upcoming_programmes": 35,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "STUDIOUNIVERSAL.ph",
-        "raw_entries": 44,
-        "upcoming_programmes": 25,
+        "raw_entries": 46,
+        "upcoming_programmes": 35,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4265,25 +3816,16 @@
   },
   {
     "playlist_tvg_id": "Tagalized Movie Channel",
-    "source": "",
-    "source_id": "",
-    "status": "no usable current schedule",
-    "upcoming_programmes": 0,
+    "source": "CTCPH",
+    "source_id": "tagalized-movie-channel",
+    "status": "mapped",
+    "upcoming_programmes": 8,
     "attempts": [
       {
-        "source": "PH2",
-        "source_id": "Tagalized.Movie.Channel.ph",
-        "raw_entries": 2,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "MEDIAQUEST",
-        "source_id": "cg_tmc_sd",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
+        "source": "CTCPH",
+        "source_id": "tagalized-movie-channel",
+        "raw_entries": 8,
+        "upcoming_programmes": 8,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4295,13 +3837,13 @@
     "source": "IN1",
     "source_id": "Taiwan.Plus.in",
     "status": "mapped",
-    "upcoming_programmes": 143,
+    "upcoming_programmes": 132,
     "attempts": [
       {
         "source": "IN1",
         "source_id": "Taiwan.Plus.in",
         "raw_entries": 211,
-        "upcoming_programmes": 143,
+        "upcoming_programmes": 132,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4385,13 +3927,13 @@
     "source": "PH2",
     "source_id": "TAP.Movies.HD.ph",
     "status": "mapped",
-    "upcoming_programmes": 27,
+    "upcoming_programmes": 39,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "TAP.Movies.HD.ph",
-        "raw_entries": 55,
-        "upcoming_programmes": 27,
+        "raw_entries": 56,
+        "upcoming_programmes": 39,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4430,13 +3972,13 @@
     "source": "PH2",
     "source_id": "Tap.Sports.ph",
     "status": "mapped",
-    "upcoming_programmes": 22,
+    "upcoming_programmes": 36,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Tap.Sports.ph",
-        "raw_entries": 54,
-        "upcoming_programmes": 22,
+        "raw_entries": 56,
+        "upcoming_programmes": 36,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4475,13 +4017,13 @@
     "source": "US2",
     "source_id": "Tastemade.us2",
     "status": "mapped",
-    "upcoming_programmes": 105,
+    "upcoming_programmes": 143,
     "attempts": [
       {
         "source": "US2",
         "source_id": "Tastemade.us2",
-        "raw_entries": 181,
-        "upcoming_programmes": 105,
+        "raw_entries": 188,
+        "upcoming_programmes": 143,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4519,13 +4061,13 @@
     "source": "US2",
     "source_id": "Tennis.Channel.HD.us2",
     "status": "mapped",
-    "upcoming_programmes": 17,
+    "upcoming_programmes": 25,
     "attempts": [
       {
         "source": "US2",
         "source_id": "Tennis.Channel.HD.us2",
-        "raw_entries": 26,
-        "upcoming_programmes": 17,
+        "raw_entries": 28,
+        "upcoming_programmes": 25,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4545,7 +4087,7 @@
     "source": "ID1",
     "source_id": "Thrill.id",
     "status": "mapped",
-    "upcoming_programmes": 47,
+    "upcoming_programmes": 59,
     "attempts": [
       {
         "source": "PH1",
@@ -4560,7 +4102,7 @@
         "source": "ID1",
         "source_id": "Thrill.id",
         "raw_entries": 66,
-        "upcoming_programmes": 47,
+        "upcoming_programmes": 59,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4572,7 +4114,7 @@
     "source": "SG1",
     "source_id": "TLC.(HD).sg",
     "status": "mapped",
-    "upcoming_programmes": 87,
+    "upcoming_programmes": 116,
     "attempts": [
       {
         "source": "PH1",
@@ -4595,8 +4137,8 @@
       {
         "source": "SG1",
         "source_id": "TLC.(HD).sg",
-        "raw_entries": 135,
-        "upcoming_programmes": 87,
+        "raw_entries": 139,
+        "upcoming_programmes": 116,
         "overlaps": 0,
         "invalid_rejected": 3,
         "placeholder_rejected": 0
@@ -4608,13 +4150,13 @@
     "source": "PLEX1",
     "source_id": "plex.tv.TNA.Wrestling.Channel.plex",
     "status": "mapped",
-    "upcoming_programmes": 44,
+    "upcoming_programmes": 52,
     "attempts": [
       {
         "source": "PLEX1",
         "source_id": "plex.tv.TNA.Wrestling.Channel.plex",
-        "raw_entries": 53,
-        "upcoming_programmes": 44,
+        "raw_entries": 54,
+        "upcoming_programmes": 52,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4626,13 +4168,13 @@
     "source": "UK1",
     "source_id": "TNT.Sports.1.HD.uk",
     "status": "mapped",
-    "upcoming_programmes": 35,
+    "upcoming_programmes": 54,
     "attempts": [
       {
         "source": "UK1",
         "source_id": "TNT.Sports.1.HD.uk",
-        "raw_entries": 79,
-        "upcoming_programmes": 35,
+        "raw_entries": 78,
+        "upcoming_programmes": 54,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4652,13 +4194,13 @@
     "source": "PLUTO",
     "source_id": "64d160f53c785e0008df525e",
     "status": "mapped",
-    "upcoming_programmes": 8,
+    "upcoming_programmes": 13,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "64d160f53c785e0008df525e",
-        "raw_entries": 19,
-        "upcoming_programmes": 8,
+        "raw_entries": 15,
+        "upcoming_programmes": 13,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4670,7 +4212,7 @@
     "source": "PLEX1",
     "source_id": "plex.tv.TRACE.Urban.plex",
     "status": "mapped",
-    "upcoming_programmes": 32,
+    "upcoming_programmes": 43,
     "attempts": [
       {
         "source": "WHALETVPLUS1",
@@ -4685,7 +4227,7 @@
         "source": "PLEX1",
         "source_id": "plex.tv.TRACE.Urban.plex",
         "raw_entries": 43,
-        "upcoming_programmes": 32,
+        "upcoming_programmes": 43,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4697,7 +4239,7 @@
     "source": "AU1",
     "source_id": "TravelChannel.au",
     "status": "mapped",
-    "upcoming_programmes": 194,
+    "upcoming_programmes": 188,
     "attempts": [
       {
         "source": "PH1",
@@ -4721,7 +4263,7 @@
         "source": "AU1",
         "source_id": "TravelChannel.au",
         "raw_entries": 279,
-        "upcoming_programmes": 194,
+        "upcoming_programmes": 188,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4733,13 +4275,13 @@
     "source": "CA2",
     "source_id": "TSN.HD.ca2",
     "status": "mapped",
-    "upcoming_programmes": 61,
+    "upcoming_programmes": 78,
     "attempts": [
       {
         "source": "CA2",
         "source_id": "TSN.HD.ca2",
-        "raw_entries": 79,
-        "upcoming_programmes": 61,
+        "raw_entries": 78,
+        "upcoming_programmes": 78,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4756,11 +4298,11 @@
       {
         "source": "PH2",
         "source_id": "TV.Maria.ph",
-        "raw_entries": 165,
+        "raw_entries": 166,
         "upcoming_programmes": 0,
         "overlaps": 0,
         "invalid_rejected": 0,
-        "placeholder_rejected": 165
+        "placeholder_rejected": 166
       },
       {
         "source": "pw",
@@ -4778,13 +4320,13 @@
     "source": "PH2",
     "source_id": "tvN.Movies.Pinoy.ph",
     "status": "mapped",
-    "upcoming_programmes": 28,
+    "upcoming_programmes": 42,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "tvN.Movies.Pinoy.ph",
-        "raw_entries": 55,
-        "upcoming_programmes": 28,
+        "raw_entries": 57,
+        "upcoming_programmes": 42,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4796,13 +4338,13 @@
     "source": "PH2",
     "source_id": "tvN.Premium.HD.ph",
     "status": "mapped",
-    "upcoming_programmes": 37,
+    "upcoming_programmes": 51,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "tvN.Premium.HD.ph",
         "raw_entries": 72,
-        "upcoming_programmes": 37,
+        "upcoming_programmes": 51,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4814,7 +4356,7 @@
     "source": "IN1",
     "source_id": "TV5.Monde.in",
     "status": "mapped",
-    "upcoming_programmes": 149,
+    "upcoming_programmes": 128,
     "attempts": [
       {
         "source": "PH2",
@@ -4847,7 +4389,7 @@
         "source": "IN1",
         "source_id": "TV5.Monde.in",
         "raw_entries": 217,
-        "upcoming_programmes": 149,
+        "upcoming_programmes": 128,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4859,13 +4401,13 @@
     "source": "PH2",
     "source_id": "UAAP.Varsity.Channel.ph",
     "status": "mapped",
-    "upcoming_programmes": 24,
+    "upcoming_programmes": 22,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "UAAP.Varsity.Channel.ph",
-        "raw_entries": 53,
-        "upcoming_programmes": 24,
+        "raw_entries": 40,
+        "upcoming_programmes": 22,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4877,13 +4419,13 @@
     "source": "PLEX1",
     "source_id": "plex.tv.UFC.plex",
     "status": "mapped",
-    "upcoming_programmes": 87,
+    "upcoming_programmes": 113,
     "attempts": [
       {
         "source": "PLEX1",
         "source_id": "plex.tv.UFC.plex",
-        "raw_entries": 119,
-        "upcoming_programmes": 87,
+        "raw_entries": 120,
+        "upcoming_programmes": 113,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4903,13 +4445,13 @@
     "source": "PLEX1",
     "source_id": "plex.tv.USA.TODAY.plex",
     "status": "mapped",
-    "upcoming_programmes": 134,
+    "upcoming_programmes": 166,
     "attempts": [
       {
         "source": "PLEX1",
         "source_id": "plex.tv.USA.TODAY.plex",
-        "raw_entries": 178,
-        "upcoming_programmes": 134,
+        "raw_entries": 176,
+        "upcoming_programmes": 166,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4921,13 +4463,13 @@
     "source": "US2",
     "source_id": "Vevo.Pop.us2",
     "status": "mapped",
-    "upcoming_programmes": 39,
+    "upcoming_programmes": 55,
     "attempts": [
       {
         "source": "US2",
         "source_id": "Vevo.Pop.us2",
         "raw_entries": 72,
-        "upcoming_programmes": 39,
+        "upcoming_programmes": 55,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4936,25 +4478,16 @@
   },
   {
     "playlist_tvg_id": "VIVA Cinema",
-    "source": "",
-    "source_id": "",
-    "status": "no usable current schedule",
-    "upcoming_programmes": 0,
+    "source": "CTCPH",
+    "source_id": "viva-cinema",
+    "status": "mapped",
+    "upcoming_programmes": 8,
     "attempts": [
       {
-        "source": "PH2",
-        "source_id": "VIVA.Cinema.ph",
-        "raw_entries": 2,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "MEDIAQUEST",
-        "source_id": "cg_vivacinema_sd",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
+        "source": "CTCPH",
+        "source_id": "viva-cinema",
+        "raw_entries": 8,
+        "upcoming_programmes": 8,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4966,7 +4499,7 @@
     "source": "TH1",
     "source_id": "Warner.TV.th",
     "status": "mapped",
-    "upcoming_programmes": 43,
+    "upcoming_programmes": 38,
     "attempts": [
       {
         "source": "PH1",
@@ -4989,8 +4522,8 @@
       {
         "source": "TH1",
         "source_id": "Warner.TV.th",
-        "raw_entries": 102,
-        "upcoming_programmes": 43,
+        "raw_entries": 59,
+        "upcoming_programmes": 38,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -4999,16 +4532,16 @@
   },
   {
     "playlist_tvg_id": "Wild Planet",
-    "source": "",
-    "source_id": "",
-    "status": "no usable current schedule",
-    "upcoming_programmes": 0,
+    "source": "SAMSUNG",
+    "source_id": "GBBB5000002PL",
+    "status": "mapped",
+    "upcoming_programmes": 7,
     "attempts": [
       {
         "source": "SAMSUNG",
         "source_id": "GBBB5000002PL",
-        "raw_entries": 7,
-        "upcoming_programmes": 0,
+        "raw_entries": 8,
+        "upcoming_programmes": 7,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -5035,8 +4568,8 @@
         "source": "PLEX1",
         "source_id": "plex.tv.The.World.Poker.Tour.plex",
         "raw_entries": 176,
-        "upcoming_programmes": 128,
-        "overlaps": 122,
+        "upcoming_programmes": 161,
+        "overlaps": 119,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
       }
@@ -5047,13 +4580,13 @@
     "source": "US2",
     "source_id": "WWE.Network.us2",
     "status": "mapped",
-    "upcoming_programmes": 108,
+    "upcoming_programmes": 142,
     "attempts": [
       {
         "source": "US2",
         "source_id": "WWE.Network.us2",
-        "raw_entries": 142,
-        "upcoming_programmes": 108,
+        "raw_entries": 145,
+        "upcoming_programmes": 142,
         "overlaps": 0,
         "invalid_rejected": 3,
         "placeholder_rejected": 0
@@ -5083,13 +4616,13 @@
     "source": "PLEX1",
     "source_id": "plex.tv.XITE.Hits.plex",
     "status": "mapped",
-    "upcoming_programmes": 24,
+    "upcoming_programmes": 30,
     "attempts": [
       {
         "source": "PLEX1",
         "source_id": "plex.tv.XITE.Hits.plex",
         "raw_entries": 31,
-        "upcoming_programmes": 24,
+        "upcoming_programmes": 30,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -5101,13 +4634,13 @@
     "source": "US2",
     "source_id": "Yes.Network.us2",
     "status": "mapped",
-    "upcoming_programmes": 48,
+    "upcoming_programmes": 63,
     "attempts": [
       {
         "source": "US2",
         "source_id": "Yes.Network.us2",
-        "raw_entries": 83,
-        "upcoming_programmes": 48,
+        "raw_entries": 90,
+        "upcoming_programmes": 63,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -5172,10 +4705,10 @@
   },
   {
     "playlist_tvg_id": "additional:kapamilya:04ceae2ba72f",
-    "source": "",
-    "source_id": "",
-    "status": "exact duplicate primary has no usable guide",
-    "upcoming_programmes": 0,
+    "source": "CTCPH",
+    "source_id": "kapamilya-channel",
+    "status": "mapped",
+    "upcoming_programmes": 13,
     "attempts": []
   },
   {
@@ -5198,43 +4731,16 @@
   },
   {
     "playlist_tvg_id": "additional:cinemaone:ee3083569b6d",
-    "source": "",
-    "source_id": "",
-    "status": "reviewed identity has no usable current source listings",
-    "upcoming_programmes": 0,
+    "source": "CTCPH",
+    "source_id": "cinema-one",
+    "status": "mapped",
+    "upcoming_programmes": 8,
     "attempts": [
       {
-        "source": "PH2",
-        "source_id": "Cinema.One.ph",
-        "raw_entries": 3,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "pw",
-        "source_id": "575523",
-        "raw_entries": 1,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "MEDIAQUEST",
-        "source_id": "cg_cinemaone_sd",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
-        "overlaps": 0,
-        "invalid_rejected": 0,
-        "placeholder_rejected": 0
-      },
-      {
-        "source": "MEDIAQUEST",
-        "source_id": "cg_cinema1_sd",
-        "raw_entries": 0,
-        "upcoming_programmes": 0,
+        "source": "CTCPH",
+        "source_id": "cinema-one",
+        "raw_entries": 8,
+        "upcoming_programmes": 8,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -5267,24 +4773,34 @@
   },
   {
     "playlist_tvg_id": "primary-source:tv5:1",
-    "source": "",
-    "source_id": "",
-    "status": "no reviewed station/regional identity",
-    "upcoming_programmes": 0,
-    "attempts": []
+    "source": "CTCPH",
+    "source_id": "tv5",
+    "status": "mapped",
+    "upcoming_programmes": 11,
+    "attempts": [
+      {
+        "source": "CTCPH",
+        "source_id": "tv5",
+        "raw_entries": 11,
+        "upcoming_programmes": 11,
+        "overlaps": 0,
+        "invalid_rejected": 0,
+        "placeholder_rejected": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "primary-source:tv5:3",
     "source": "PH2",
     "source_id": "Kapatid.Channel.ph",
     "status": "mapped",
-    "upcoming_programmes": 35,
+    "upcoming_programmes": 33,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Kapatid.Channel.ph",
-        "raw_entries": 76,
-        "upcoming_programmes": 35,
+        "raw_entries": 55,
+        "upcoming_programmes": 33,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -5392,13 +4908,13 @@
     "source": "PLUTO",
     "source_id": "67ed8f7e443f0671bc2b2368",
     "status": "mapped",
-    "upcoming_programmes": 3,
+    "upcoming_programmes": 5,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "67ed8f7e443f0671bc2b2368",
-        "raw_entries": 7,
-        "upcoming_programmes": 3,
+        "raw_entries": 6,
+        "upcoming_programmes": 5,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -5410,13 +4926,13 @@
     "source": "PLUTO",
     "source_id": "696997049889f8db34c936c2",
     "status": "mapped",
-    "upcoming_programmes": 5,
+    "upcoming_programmes": 12,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "696997049889f8db34c936c2",
-        "raw_entries": 9,
-        "upcoming_programmes": 5,
+        "raw_entries": 12,
+        "upcoming_programmes": 12,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -5428,13 +4944,13 @@
     "source": "PLUTO",
     "source_id": "67c63b90a20c0399a381b816",
     "status": "mapped",
-    "upcoming_programmes": 14,
+    "upcoming_programmes": 30,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "67c63b90a20c0399a381b816",
         "raw_entries": 33,
-        "upcoming_programmes": 14,
+        "upcoming_programmes": 30,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -5446,13 +4962,13 @@
     "source": "PLUTO",
     "source_id": "5da0c85bd2c9c10009370984",
     "status": "mapped",
-    "upcoming_programmes": 15,
+    "upcoming_programmes": 30,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "5da0c85bd2c9c10009370984",
         "raw_entries": 33,
-        "upcoming_programmes": 15,
+        "upcoming_programmes": 30,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -5461,19 +4977,19 @@
   },
   {
     "playlist_tvg_id": "primary-source:animebypluto:5",
-    "source": "",
-    "source_id": "",
-    "status": "reviewed identity has no usable current source listings",
-    "upcoming_programmes": 0,
+    "source": "PLUTO",
+    "source_id": "62e94ec74823db0007277a8f",
+    "status": "mapped",
+    "upcoming_programmes": 30,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "62e94ec74823db0007277a8f",
-        "raw_entries": 70,
-        "upcoming_programmes": 0,
+        "raw_entries": 68,
+        "upcoming_programmes": 30,
         "overlaps": 0,
         "invalid_rejected": 0,
-        "placeholder_rejected": 70
+        "placeholder_rejected": 0
       }
     ]
   },
@@ -5482,13 +4998,13 @@
     "source": "PLUTO",
     "source_id": "637e55347427a40007fac703",
     "status": "mapped",
-    "upcoming_programmes": 15,
+    "upcoming_programmes": 30,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "637e55347427a40007fac703",
         "raw_entries": 33,
-        "upcoming_programmes": 15,
+        "upcoming_programmes": 30,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -5556,13 +5072,13 @@
     "source": "PH2",
     "source_id": "BBC.News.ph",
     "status": "mapped",
-    "upcoming_programmes": 92,
+    "upcoming_programmes": 145,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "BBC.News.ph",
         "raw_entries": 212,
-        "upcoming_programmes": 92,
+        "upcoming_programmes": 145,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -5619,43 +5135,93 @@
   },
   {
     "playlist_tvg_id": "primary-source:bs10moreconvergechannels:1",
-    "source": "",
-    "source_id": "",
-    "status": "no reviewed station/regional identity",
-    "upcoming_programmes": 0,
-    "attempts": []
+    "source": "PWJP",
+    "source_id": "10808",
+    "status": "mapped",
+    "upcoming_programmes": 209,
+    "attempts": [
+      {
+        "source": "PWJP",
+        "source_id": "10808",
+        "raw_entries": 221,
+        "upcoming_programmes": 209,
+        "overlaps": 0,
+        "invalid_rejected": 0,
+        "placeholder_rejected": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "primary-source:bs10moreconvergechannels:2",
-    "source": "",
-    "source_id": "",
-    "status": "no reviewed station/regional identity",
-    "upcoming_programmes": 0,
-    "attempts": []
+    "source": "PWJP",
+    "source_id": "10832",
+    "status": "mapped",
+    "upcoming_programmes": 235,
+    "attempts": [
+      {
+        "source": "PWJP",
+        "source_id": "10832",
+        "raw_entries": 245,
+        "upcoming_programmes": 235,
+        "overlaps": 0,
+        "invalid_rejected": 0,
+        "placeholder_rejected": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "primary-source:bs10moreconvergechannels:3",
-    "source": "",
-    "source_id": "",
-    "status": "no reviewed station/regional identity",
-    "upcoming_programmes": 0,
-    "attempts": []
+    "source": "PWTW",
+    "source_id": "370140",
+    "status": "mapped",
+    "upcoming_programmes": 164,
+    "attempts": [
+      {
+        "source": "PWTW",
+        "source_id": "370140",
+        "raw_entries": 172,
+        "upcoming_programmes": 164,
+        "overlaps": 0,
+        "invalid_rejected": 0,
+        "placeholder_rejected": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "primary-source:bs10moreconvergechannels:4",
-    "source": "",
-    "source_id": "",
-    "status": "no reviewed station/regional identity",
-    "upcoming_programmes": 0,
-    "attempts": []
+    "source": "IN4",
+    "source_id": "DD.National.in",
+    "status": "mapped",
+    "upcoming_programmes": 13,
+    "attempts": [
+      {
+        "source": "IN4",
+        "source_id": "DD.National.in",
+        "raw_entries": 34,
+        "upcoming_programmes": 13,
+        "overlaps": 0,
+        "invalid_rejected": 0,
+        "placeholder_rejected": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "primary-source:bs10moreconvergechannels:5",
-    "source": "",
-    "source_id": "",
-    "status": "no reviewed station/regional identity",
-    "upcoming_programmes": 0,
-    "attempts": []
+    "source": "PWTW",
+    "source_id": "370249",
+    "status": "mapped",
+    "upcoming_programmes": 116,
+    "attempts": [
+      {
+        "source": "PWTW",
+        "source_id": "370249",
+        "raw_entries": 126,
+        "upcoming_programmes": 116,
+        "overlaps": 0,
+        "invalid_rejected": 0,
+        "placeholder_rejected": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "primary-source:bs10moreconvergechannels:6",
@@ -5787,7 +5353,7 @@
       {
         "source": "PH2",
         "source_id": "Cinema.One.ph",
-        "raw_entries": 3,
+        "raw_entries": 2,
         "upcoming_programmes": 0,
         "overlaps": 0,
         "invalid_rejected": 0,
@@ -5796,7 +5362,7 @@
       {
         "source": "pw",
         "source_id": "575523",
-        "raw_entries": 1,
+        "raw_entries": 0,
         "upcoming_programmes": 0,
         "overlaps": 0,
         "invalid_rejected": 0,
@@ -5832,11 +5398,21 @@
   },
   {
     "playlist_tvg_id": "primary-source:cinemaone:3",
-    "source": "",
-    "source_id": "",
-    "status": "no reviewed station/regional identity",
-    "upcoming_programmes": 0,
-    "attempts": []
+    "source": "CTCPH",
+    "source_id": "cinema-one",
+    "status": "mapped",
+    "upcoming_programmes": 8,
+    "attempts": [
+      {
+        "source": "CTCPH",
+        "source_id": "cinema-one",
+        "raw_entries": 8,
+        "upcoming_programmes": 8,
+        "overlaps": 0,
+        "invalid_rejected": 0,
+        "placeholder_rejected": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "primary-source:cinemo:1",
@@ -5898,19 +5474,19 @@
   },
   {
     "playlist_tvg_id": "primary-source:comedycentral:1",
-    "source": "",
-    "source_id": "",
-    "status": "reviewed identity has no usable current source listings",
-    "upcoming_programmes": 0,
+    "source": "PLUTO",
+    "source_id": "62bdb1c5e25122000798ac79",
+    "status": "mapped",
+    "upcoming_programmes": 33,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "62bdb1c5e25122000798ac79",
-        "raw_entries": 72,
-        "upcoming_programmes": 0,
+        "raw_entries": 74,
+        "upcoming_programmes": 33,
         "overlaps": 0,
         "invalid_rejected": 0,
-        "placeholder_rejected": 72
+        "placeholder_rejected": 0
       }
     ]
   },
@@ -5932,16 +5508,16 @@
   },
   {
     "playlist_tvg_id": "primary-source:crunchyroll:3",
-    "source": "",
-    "source_id": "",
-    "status": "reviewed identity has no usable current source listings",
-    "upcoming_programmes": 0,
+    "source": "SAMSUNG",
+    "source_id": "US2000018YI",
+    "status": "mapped",
+    "upcoming_programmes": 12,
     "attempts": [
       {
         "source": "SAMSUNG",
         "source_id": "US2000018YI",
         "raw_entries": 13,
-        "upcoming_programmes": 0,
+        "upcoming_programmes": 12,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -5993,13 +5569,13 @@
     "source": "PH2",
     "source_id": "DreamWorks.(Tagalized).ph",
     "status": "mapped",
-    "upcoming_programmes": 115,
+    "upcoming_programmes": 164,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "DreamWorks.(Tagalized).ph",
         "raw_entries": 236,
-        "upcoming_programmes": 115,
+        "upcoming_programmes": 164,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -6027,13 +5603,13 @@
     "source": "US2",
     "source_id": "ESPNU.HD.us2",
     "status": "mapped",
-    "upcoming_programmes": 34,
+    "upcoming_programmes": 39,
     "attempts": [
       {
         "source": "US2",
         "source_id": "ESPNU.HD.us2",
-        "raw_entries": 60,
-        "upcoming_programmes": 34,
+        "raw_entries": 52,
+        "upcoming_programmes": 39,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -6074,32 +5650,52 @@
   },
   {
     "playlist_tvg_id": "primary-source:gma:1",
-    "source": "",
-    "source_id": "",
-    "status": "no reviewed station/regional identity",
-    "upcoming_programmes": 0,
-    "attempts": []
+    "source": "CTCPH",
+    "source_id": "gma",
+    "status": "mapped",
+    "upcoming_programmes": 12,
+    "attempts": [
+      {
+        "source": "CTCPH",
+        "source_id": "gma",
+        "raw_entries": 12,
+        "upcoming_programmes": 12,
+        "overlaps": 0,
+        "invalid_rejected": 0,
+        "placeholder_rejected": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "primary-source:gtv:1",
-    "source": "",
-    "source_id": "",
-    "status": "no reviewed station/regional identity",
-    "upcoming_programmes": 0,
-    "attempts": []
+    "source": "CTCPH",
+    "source_id": "gtv",
+    "status": "mapped",
+    "upcoming_programmes": 9,
+    "attempts": [
+      {
+        "source": "CTCPH",
+        "source_id": "gtv",
+        "raw_entries": 9,
+        "upcoming_programmes": 9,
+        "overlaps": 0,
+        "invalid_rejected": 0,
+        "placeholder_rejected": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "primary-source:hallmark:1",
     "source": "PLUTO",
     "source_id": "628e685ba3811100070551a8",
     "status": "mapped",
-    "upcoming_programmes": 5,
+    "upcoming_programmes": 11,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "628e685ba3811100070551a8",
-        "raw_entries": 11,
-        "upcoming_programmes": 5,
+        "raw_entries": 12,
+        "upcoming_programmes": 11,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -6177,13 +5773,13 @@
     "source": "PLUTO",
     "source_id": "6000a6f4c3f8550008fc9b91",
     "status": "mapped",
-    "upcoming_programmes": 8,
+    "upcoming_programmes": 16,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "6000a6f4c3f8550008fc9b91",
         "raw_entries": 17,
-        "upcoming_programmes": 8,
+        "upcoming_programmes": 16,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -6200,11 +5796,21 @@
   },
   {
     "playlist_tvg_id": "primary-source:ibc13:1",
-    "source": "",
-    "source_id": "",
-    "status": "no reviewed station/regional identity",
-    "upcoming_programmes": 0,
-    "attempts": []
+    "source": "CTCPH",
+    "source_id": "ibc-tv-13",
+    "status": "mapped",
+    "upcoming_programmes": 14,
+    "attempts": [
+      {
+        "source": "CTCPH",
+        "source_id": "ibc-tv-13",
+        "raw_entries": 14,
+        "upcoming_programmes": 14,
+        "overlaps": 0,
+        "invalid_rejected": 0,
+        "placeholder_rejected": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "primary-source:inctv:1",
@@ -6256,11 +5862,21 @@
   },
   {
     "playlist_tvg_id": "primary-source:jeepneytv:1",
-    "source": "",
-    "source_id": "",
-    "status": "no reviewed station/regional identity",
-    "upcoming_programmes": 0,
-    "attempts": []
+    "source": "CTCPH",
+    "source_id": "jeepney-tv",
+    "status": "mapped",
+    "upcoming_programmes": 8,
+    "attempts": [
+      {
+        "source": "CTCPH",
+        "source_id": "jeepney-tv",
+        "raw_entries": 8,
+        "upcoming_programmes": 8,
+        "overlaps": 0,
+        "invalid_rejected": 0,
+        "placeholder_rejected": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "primary-source:justforlaughsgags:1",
@@ -6296,16 +5912,16 @@
   },
   {
     "playlist_tvg_id": "primary-source:kidstv:4",
-    "source": "",
-    "source_id": "",
-    "status": "reviewed identity has no usable current source listings",
-    "upcoming_programmes": 0,
+    "source": "SAMSUNG",
+    "source_id": "USBD490000209",
+    "status": "mapped",
+    "upcoming_programmes": 15,
     "attempts": [
       {
         "source": "SAMSUNG",
         "source_id": "USBD490000209",
-        "raw_entries": 17,
-        "upcoming_programmes": 0,
+        "raw_entries": 16,
+        "upcoming_programmes": 15,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -6325,13 +5941,13 @@
     "source": "PLUTO",
     "source_id": "62e951258a26d40007b3034c",
     "status": "mapped",
-    "upcoming_programmes": 15,
+    "upcoming_programmes": 31,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "62e951258a26d40007b3034c",
-        "raw_entries": 58,
-        "upcoming_programmes": 15,
+        "raw_entries": 68,
+        "upcoming_programmes": 31,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -6343,13 +5959,13 @@
     "source": "PLUTO",
     "source_id": "60fb01a24795a6000762fe83",
     "status": "mapped",
-    "upcoming_programmes": 16,
+    "upcoming_programmes": 33,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "60fb01a24795a6000762fe83",
         "raw_entries": 37,
-        "upcoming_programmes": 16,
+        "upcoming_programmes": 33,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -6374,16 +5990,16 @@
   },
   {
     "playlist_tvg_id": "primary-source:kidstv:10",
-    "source": "",
-    "source_id": "",
-    "status": "reviewed identity has no usable current source listings",
-    "upcoming_programmes": 0,
+    "source": "SAMSUNG",
+    "source_id": "USAJ3504531A",
+    "status": "mapped",
+    "upcoming_programmes": 7,
     "attempts": [
       {
         "source": "SAMSUNG",
         "source_id": "USAJ3504531A",
-        "raw_entries": 6,
-        "upcoming_programmes": 0,
+        "raw_entries": 8,
+        "upcoming_programmes": 7,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -6427,13 +6043,13 @@
     "source": "PLUTO",
     "source_id": "63335b193583440007c859fb",
     "status": "mapped",
-    "upcoming_programmes": 5,
+    "upcoming_programmes": 9,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "63335b193583440007c859fb",
         "raw_entries": 10,
-        "upcoming_programmes": 5,
+        "upcoming_programmes": 9,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -6533,13 +6149,13 @@
     "source": "PLUTO",
     "source_id": "5e66968a70f34c0007d050be",
     "status": "mapped",
-    "upcoming_programmes": 4,
+    "upcoming_programmes": 14,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "5e66968a70f34c0007d050be",
         "raw_entries": 14,
-        "upcoming_programmes": 4,
+        "upcoming_programmes": 14,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -6559,13 +6175,13 @@
     "source": "PLUTO",
     "source_id": "5ced7d5df64be98e07ed47b6",
     "status": "mapped",
-    "upcoming_programmes": 6,
+    "upcoming_programmes": 14,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "5ced7d5df64be98e07ed47b6",
-        "raw_entries": 12,
-        "upcoming_programmes": 6,
+        "raw_entries": 17,
+        "upcoming_programmes": 14,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -6590,11 +6206,21 @@
   },
   {
     "playlist_tvg_id": "primary-source:mnxhd:1",
-    "source": "",
-    "source_id": "",
-    "status": "no reviewed station/regional identity",
-    "upcoming_programmes": 0,
-    "attempts": []
+    "source": "IN4",
+    "source_id": "MN+.HD.in",
+    "status": "mapped",
+    "upcoming_programmes": 6,
+    "attempts": [
+      {
+        "source": "IN4",
+        "source_id": "MN+.HD.in",
+        "raw_entries": 19,
+        "upcoming_programmes": 6,
+        "overlaps": 0,
+        "invalid_rejected": 0,
+        "placeholder_rejected": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "primary-source:motogpchannel:1",
@@ -6614,11 +6240,21 @@
   },
   {
     "playlist_tvg_id": "primary-source:moviesnow:1",
-    "source": "",
-    "source_id": "",
-    "status": "no reviewed station/regional identity",
-    "upcoming_programmes": 0,
-    "attempts": []
+    "source": "IN1",
+    "source_id": "Romedy.Now.in",
+    "status": "mapped",
+    "upcoming_programmes": 40,
+    "attempts": [
+      {
+        "source": "IN1",
+        "source_id": "Romedy.Now.in",
+        "raw_entries": 64,
+        "upcoming_programmes": 40,
+        "overlaps": 0,
+        "invalid_rejected": 0,
+        "placeholder_rejected": 0
+      }
+    ]
   },
   {
     "playlist_tvg_id": "primary-source:moviesphere:1",
@@ -6670,19 +6306,19 @@
   },
   {
     "playlist_tvg_id": "primary-source:mythbusters:1",
-    "source": "",
-    "source_id": "",
-    "status": "reviewed identity has no usable current source listings",
-    "upcoming_programmes": 0,
+    "source": "PLUTO",
+    "source_id": "66e0b4866ad04d0008fff4d8",
+    "status": "mapped",
+    "upcoming_programmes": 18,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "66e0b4866ad04d0008fff4d8",
         "raw_entries": 20,
-        "upcoming_programmes": 0,
+        "upcoming_programmes": 18,
         "overlaps": 0,
         "invalid_rejected": 0,
-        "placeholder_rejected": 20
+        "placeholder_rejected": 0
       }
     ]
   },
@@ -6843,16 +6479,16 @@
   },
   {
     "playlist_tvg_id": "primary-source:newkmovies:2",
-    "source": "",
-    "source_id": "",
-    "status": "reviewed identity has no usable current source listings",
-    "upcoming_programmes": 0,
+    "source": "SAMSUNG",
+    "source_id": "GB21000038X",
+    "status": "mapped",
+    "upcoming_programmes": 4,
     "attempts": [
       {
         "source": "SAMSUNG",
         "source_id": "GB21000038X",
         "raw_entries": 4,
-        "upcoming_programmes": 0,
+        "upcoming_programmes": 4,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -6885,19 +6521,19 @@
   },
   {
     "playlist_tvg_id": "primary-source:nickjr:3",
-    "source": "",
-    "source_id": "",
-    "status": "reviewed identity has no usable current source listings",
-    "upcoming_programmes": 0,
+    "source": "PLUTO",
+    "source_id": "5d14fb6c84dd37df3b4290c5",
+    "status": "mapped",
+    "upcoming_programmes": 30,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "5d14fb6c84dd37df3b4290c5",
-        "raw_entries": 34,
-        "upcoming_programmes": 0,
+        "raw_entries": 33,
+        "upcoming_programmes": 30,
         "overlaps": 0,
         "invalid_rejected": 0,
-        "placeholder_rejected": 34
+        "placeholder_rejected": 0
       }
     ]
   },
@@ -6922,13 +6558,13 @@
     "source": "PLUTO",
     "source_id": "654ca7f92c1d3300086b608c",
     "status": "mapped",
-    "upcoming_programmes": 16,
+    "upcoming_programmes": 31,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "654ca7f92c1d3300086b608c",
-        "raw_entries": 72,
-        "upcoming_programmes": 16,
+        "raw_entries": 70,
+        "upcoming_programmes": 31,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -6945,19 +6581,19 @@
   },
   {
     "playlist_tvg_id": "primary-source:nickelodeon:5",
-    "source": "",
-    "source_id": "",
-    "status": "reviewed identity has no usable current source listings",
-    "upcoming_programmes": 0,
+    "source": "PLUTO",
+    "source_id": "63f87d057533d80008ab9549",
+    "status": "mapped",
+    "upcoming_programmes": 30,
     "attempts": [
       {
         "source": "PLUTO",
         "source_id": "63f87d057533d80008ab9549",
         "raw_entries": 66,
-        "upcoming_programmes": 0,
+        "upcoming_programmes": 30,
         "overlaps": 0,
         "invalid_rejected": 0,
-        "placeholder_rejected": 66
+        "placeholder_rejected": 0
       }
     ]
   },
@@ -6974,13 +6610,13 @@
     "source": "PH2",
     "source_id": "One.Sports+.ph",
     "status": "mapped",
-    "upcoming_programmes": 20,
+    "upcoming_programmes": 19,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "One.Sports+.ph",
-        "raw_entries": 42,
-        "upcoming_programmes": 20,
+        "raw_entries": 30,
+        "upcoming_programmes": 19,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -7080,13 +6716,13 @@
     "source": "PH2",
     "source_id": "Premier.Sports.2.ph",
     "status": "mapped",
-    "upcoming_programmes": 21,
+    "upcoming_programmes": 25,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "Premier.Sports.2.ph",
-        "raw_entries": 32,
-        "upcoming_programmes": 21,
+        "raw_entries": 31,
+        "upcoming_programmes": 25,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -7130,12 +6766,21 @@
     "source": "MEDIAQUEST",
     "source_id": "dr_rockentertainment",
     "status": "mapped",
-    "upcoming_programmes": 29,
+    "upcoming_programmes": 54,
     "attempts": [
+      {
+        "source": "CTCPH",
+        "source_id": "rock-entertainment",
+        "raw_entries": 0,
+        "upcoming_programmes": 0,
+        "overlaps": 0,
+        "invalid_rejected": 0,
+        "placeholder_rejected": 0
+      },
       {
         "source": "PH2",
         "source_id": "Rock.Entertainment.ph",
-        "raw_entries": 4,
+        "raw_entries": 0,
         "upcoming_programmes": 0,
         "overlaps": 0,
         "invalid_rejected": 0,
@@ -7162,7 +6807,7 @@
       {
         "source": "pw",
         "source_id": "579283",
-        "raw_entries": 2,
+        "raw_entries": 0,
         "upcoming_programmes": 0,
         "overlaps": 0,
         "invalid_rejected": 0,
@@ -7171,8 +6816,8 @@
       {
         "source": "MEDIAQUEST",
         "source_id": "dr_rockentertainment",
-        "raw_entries": 89,
-        "upcoming_programmes": 29,
+        "raw_entries": 91,
+        "upcoming_programmes": 54,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -7248,13 +6893,13 @@
     "source": "PH2",
     "source_id": "SPOTV.2.HD.ph",
     "status": "mapped",
-    "upcoming_programmes": 24,
+    "upcoming_programmes": 23,
     "attempts": [
       {
         "source": "PH2",
         "source_id": "SPOTV.2.HD.ph",
-        "raw_entries": 45,
-        "upcoming_programmes": 24,
+        "raw_entries": 36,
+        "upcoming_programmes": 23,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -7266,13 +6911,13 @@
     "source": "US2",
     "source_id": "Syfy.HD.us2",
     "status": "mapped",
-    "upcoming_programmes": 42,
+    "upcoming_programmes": 57,
     "attempts": [
       {
         "source": "US2",
         "source_id": "Syfy.HD.us2",
-        "raw_entries": 77,
-        "upcoming_programmes": 42,
+        "raw_entries": 75,
+        "upcoming_programmes": 57,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -7340,13 +6985,13 @@
     "source": "IN4",
     "source_id": "TLC.HD.in",
     "status": "mapped",
-    "upcoming_programmes": 19,
+    "upcoming_programmes": 14,
     "attempts": [
       {
         "source": "IN4",
         "source_id": "TLC.HD.in",
         "raw_entries": 32,
-        "upcoming_programmes": 19,
+        "upcoming_programmes": 14,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -7419,16 +7064,16 @@
   },
   {
     "playlist_tvg_id": "primary-source:tsn:3",
-    "source": "",
-    "source_id": "",
-    "status": "reviewed identity has no usable current source listings",
-    "upcoming_programmes": 0,
+    "source": "SAMSUNG",
+    "source_id": "CA1400003R3",
+    "status": "mapped",
+    "upcoming_programmes": 9,
     "attempts": [
       {
         "source": "SAMSUNG",
         "source_id": "CA1400003R3",
         "raw_entries": 10,
-        "upcoming_programmes": 0,
+        "upcoming_programmes": 9,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -7549,16 +7194,16 @@
   },
   {
     "playlist_tvg_id": "primary-source:xitehits:1",
-    "source": "",
-    "source_id": "",
-    "status": "reviewed identity has no usable current source listings",
-    "upcoming_programmes": 0,
+    "source": "SAMSUNG",
+    "source_id": "USBB320000647",
+    "status": "mapped",
+    "upcoming_programmes": 3,
     "attempts": [
       {
         "source": "SAMSUNG",
         "source_id": "USBB320000647",
         "raw_entries": 3,
-        "upcoming_programmes": 0,
+        "upcoming_programmes": 3,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -7567,16 +7212,16 @@
   },
   {
     "playlist_tvg_id": "primary-source:xitehits:2",
-    "source": "",
-    "source_id": "",
-    "status": "reviewed identity has no usable current source listings",
-    "upcoming_programmes": 0,
+    "source": "SAMSUNG",
+    "source_id": "USBB3200007AK",
+    "status": "mapped",
+    "upcoming_programmes": 3,
     "attempts": [
       {
         "source": "SAMSUNG",
         "source_id": "USBB3200007AK",
         "raw_entries": 3,
-        "upcoming_programmes": 0,
+        "upcoming_programmes": 3,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -7585,16 +7230,16 @@
   },
   {
     "playlist_tvg_id": "primary-source:xitehits:4",
-    "source": "",
-    "source_id": "",
-    "status": "reviewed identity has no usable current source listings",
-    "upcoming_programmes": 0,
+    "source": "SAMSUNG",
+    "source_id": "CABD1200023UJ",
+    "status": "mapped",
+    "upcoming_programmes": 3,
     "attempts": [
       {
         "source": "SAMSUNG",
         "source_id": "CABD1200023UJ",
         "raw_entries": 3,
-        "upcoming_programmes": 0,
+        "upcoming_programmes": 3,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -7603,16 +7248,16 @@
   },
   {
     "playlist_tvg_id": "primary-source:xitehits:5",
-    "source": "",
-    "source_id": "",
-    "status": "reviewed identity has no usable current source listings",
-    "upcoming_programmes": 0,
+    "source": "SAMSUNG",
+    "source_id": "CABD120001993",
+    "status": "mapped",
+    "upcoming_programmes": 3,
     "attempts": [
       {
         "source": "SAMSUNG",
         "source_id": "CABD120001993",
         "raw_entries": 3,
-        "upcoming_programmes": 0,
+        "upcoming_programmes": 3,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -7621,16 +7266,16 @@
   },
   {
     "playlist_tvg_id": "primary-source:xitehits:6",
-    "source": "",
-    "source_id": "",
-    "status": "reviewed identity has no usable current source listings",
-    "upcoming_programmes": 0,
+    "source": "SAMSUNG",
+    "source_id": "USBB2300003JZ",
+    "status": "mapped",
+    "upcoming_programmes": 3,
     "attempts": [
       {
         "source": "SAMSUNG",
         "source_id": "USBB2300003JZ",
         "raw_entries": 3,
-        "upcoming_programmes": 0,
+        "upcoming_programmes": 3,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -7639,16 +7284,16 @@
   },
   {
     "playlist_tvg_id": "primary-source:xitehits:7",
-    "source": "",
-    "source_id": "",
-    "status": "reviewed identity has no usable current source listings",
-    "upcoming_programmes": 0,
+    "source": "SAMSUNG",
+    "source_id": "CABD1200021MS",
+    "status": "mapped",
+    "upcoming_programmes": 3,
     "attempts": [
       {
         "source": "SAMSUNG",
         "source_id": "CABD1200021MS",
         "raw_entries": 3,
-        "upcoming_programmes": 0,
+        "upcoming_programmes": 3,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0
@@ -7657,16 +7302,16 @@
   },
   {
     "playlist_tvg_id": "primary-source:xitehits:8",
-    "source": "",
-    "source_id": "",
-    "status": "reviewed identity has no usable current source listings",
-    "upcoming_programmes": 0,
+    "source": "SAMSUNG",
+    "source_id": "USBB2300004KV",
+    "status": "mapped",
+    "upcoming_programmes": 3,
     "attempts": [
       {
         "source": "SAMSUNG",
         "source_id": "USBB2300004KV",
         "raw_entries": 3,
-        "upcoming_programmes": 0,
+        "upcoming_programmes": 3,
         "overlaps": 0,
         "invalid_rejected": 0,
         "placeholder_rejected": 0

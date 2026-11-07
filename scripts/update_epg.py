@@ -1,6 +1,6 @@
 """Single XMLTV builder for the PH TV playlist. Python 3.10+, standard library."""
 from __future__ import annotations
-import argparse,collections,concurrent.futures,copy,csv,datetime as dt,gzip,hashlib,io,json,re,urllib.request
+import argparse,collections,concurrent.futures,copy,csv,datetime as dt,gzip,hashlib,html,io,json,re,unicodedata,urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -31,7 +31,7 @@ def apply_genre_fallback(programme,channel,group=None):
  programme.insert(position,category)
  return True
 
-def norm(value):return re.sub(r'[^a-z0-9]','',(value or '').lower())
+def norm(value):return ''.join(c for c in unicodedata.normalize('NFKC',value or '').casefold() if c.isalnum())
 def parse_time(value):
  if not re.fullmatch(r'\d{14} [+-]\d{4}',value or ''):raise ValueError('Missing explicit XMLTV UTC offset')
  return dt.datetime.strptime(value,'%Y%m%d%H%M%S %z').astimezone(UTC)
@@ -67,7 +67,7 @@ def candidate_ids(name,feed,label,config):
  if name.startswith(('additional:','primary-source:')):return []
  explicit=config.get('channelMap',{}).get(name,{}).get(label,[])
  explicit=[explicit] if isinstance(explicit,str) else explicit
- if name in config.get('strictChannels',[]):return explicit
+ if name in config.get('strictChannels',[]) or label in config.get('explicitOnlySources',[]):return explicit
  # Preserve all region words and station suffixes: no fuzzy or substring matching.
  if '_name_index' not in feed:
   index=collections.defaultdict(set)
@@ -78,13 +78,62 @@ def candidate_ids(name,feed,label,config):
  matches=sorted(feed['_name_index'].get(norm(name),[]))
  return list(dict.fromkeys(explicit+(matches if len(matches)==1 else [])))
 
+def ctc_programmes(payload,station,now):
+ """Dated PH listings; infer stops only from the next published slot, never pad."""
+ details=payload.get('data',{}).get('details',{})
+ if str(details.get('network_id'))!=str(station['providerId']):raise ValueError('Station identifier mismatch')
+ zone=dt.timezone(dt.timedelta(hours=8));today=now.astimezone(zone).date();slots={};ambiguous=set()
+ for day in payload.get('data',{}).get('sched',[]):
+  dates=[]
+  for year in [today.year-1,today.year,today.year+1]:
+   try:
+    date=dt.datetime.strptime(day['date']+', '+str(year),'%A, %B %d, %Y').date()
+    if date.strftime('%A').lower()!=day['date'].split(',')[0].lower():continue
+    if -8<=(date-today).days<=8:dates.append(date)
+   except (KeyError,ValueError):continue
+  if len(dates)!=1:continue
+  for row in day.get('sched',[]):
+   try:
+    clock=dt.datetime.strptime(row['time'].strip(),'%I:%M %p').time()
+    start=dt.datetime.combine(dates[0],clock,zone).astimezone(UTC)
+    title=html.unescape(row['title']).strip()
+    if not title:continue
+    if start in slots and slots[start]!=title:ambiguous.add(start)
+    slots[start]=title
+   except (KeyError,ValueError,TypeError):continue
+ result=[];ordered=sorted(slots)
+ for start,stop in zip(ordered,ordered[1:]):
+  if start in ambiguous or not dt.timedelta(0)<stop-start<=dt.timedelta(hours=4):continue
+  p=ET.Element('programme',{'channel':station['id'],'start':stamp(start),'stop':stamp(stop)})
+  ET.SubElement(p,'title',{'lang':'en'}).text=slots[start]
+  result.append(p)
+ return result
+
+def load_ctc(source,offline=False):
+ root=ET.Element('tv');details=[];now=dt.datetime.now(UTC)
+ def one(station):
+  url=source['url'].replace('{id}',station['id'])
+  try:
+   data,meta=fetch(url,'ctc-'+station['id']+'.json',offline)
+   programmes=ctc_programmes(json.loads(data),station,now)
+   return station,programmes,{**meta,'station':station['id'],'programmes':len(programmes)}
+  except Exception as error:return station,[],{'station':station['id'],'url':url,'error':type(error).__name__}
+ with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
+  for station,programmes,meta in pool.map(one,source['stations']):
+   channel=ET.SubElement(root,'channel',{'id':station['id']})
+   ET.SubElement(channel,'display-name').text=station['name']
+   root.extend(programmes);details.append(meta)
+ return root,{'url':source['url'],'cached':offline,'station_sources':details,
+              'schedule_policy':'Dated Philippine listings, UTC+08:00; stops from next published slot up to four hours; unknown final stop omitted.'}
+
 def load_sources(config,channels,offline=False):
  feeds={};metadata={}
  sources=[s for s in config['sources'] if s['name'] in config['activeSources']]
  def one(source):
   label=source['name']
   try:
-   data,meta=fetch(source['url'],label.lower()+'.xml.gz',offline);root=decode(data)
+   if source.get('format')=='clickthecity':root,meta=load_ctc(source,offline)
+   else:data,meta=fetch(source['url'],label.lower()+'.xml.gz',offline);root=decode(data)
    names={c.get('id'):[n.text or '' for n in c.findall('display-name')] for c in root.findall('channel')}
    feed={'names':names,'programmes':collections.defaultdict(list)}
    wanted={sid for name in channels for sid in candidate_ids(name,feed,label,config)}
@@ -110,12 +159,16 @@ def prepare_channel(name,sid,feed,now,genre_channel=None,genre_group=None,statio
  titles={norm(p.findtext('title','')) for p in raw}
  only_station=bool(titles) and (any(titles=={norm(n)} for n in names) or
                               ((genre_channel or name)=='IBC13' and titles=={'ibctv13'}))
- if name.startswith(('additional:','primary-source:')) and titles:
-  only_station=only_station or any(titles=={norm(n)} for n in [genre_channel,station_name] if n)
+ aliases=[station_name] if isinstance(station_name,str) else (station_name or [])
+ if titles:only_station=only_station or any(titles=={norm(n)} for n in [genre_channel,*aliases] if n)
  for p in raw:
   title=p.findtext('title','').strip()
   if name=='Arirang':title=title.removesuffix('"n":"').strip()
-  if not title or title.lower() in PLACEHOLDERS or only_station:placeholders+=1;continue
+  subtitle=p.findtext('sub-title','').strip();description=p.findtext('desc','').strip()
+  series=p.findtext('series-id','').strip()
+  categories={norm(c.text or '') for c in p.findall('category')}
+  episode_detail=(bool(subtitle) and norm(subtitle)!=norm(title) and len(description)>=15) or (bool(series) and bool(categories&{'series','movie','movies','film'}) and len(description)>=40)
+  if not title or title.lower() in PLACEHOLDERS or (only_station and not episode_detail):placeholders+=1;continue
   try:a=parse_time(p.get('start'));b=parse_time(p.get('stop'))
   except ValueError:invalid+=1;continue
   if b<=a:invalid+=1;continue
@@ -254,7 +307,7 @@ def build(catalog,out,offline=False,config_path=None):
    for sid in candidate_ids(name,feed,label,config):
     raw=feed['programmes'].get(sid,[]);has_any=has_any or bool(raw)
     programmes,invalid,placeholders=prepare_channel(name,sid,feed,now,genre_name,genre_group,
-      extra['reviewed'].get('canonical') if extra else None)
+      config.get('stationNameAliases',{}).get(name,extra['reviewed'].get('canonical') if extra else None))
     upcoming=sum(b>now for a,b,p in programmes)
     overlap=sum(b[0]<a[1] for a,b in zip(programmes,programmes[1:]))
     attempts.append({'source':label,'source_id':sid,'raw_entries':len(raw),'upcoming_programmes':upcoming,'overlaps':overlap,'invalid_rejected':invalid,'placeholder_rejected':placeholders})
