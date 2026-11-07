@@ -1,0 +1,196 @@
+{
+  "checked_utc": "2026-11-07T06:53:04.222950+00:00",
+  "scope": "One local snapshot with supplied playback settings; observed video dimensions can include adaptive choices and do not guarantee sustained output or TV access. No channel was removed based on these checks.",
+  "streams": [
+    {
+      "channel": "A2Z",
+      "played": true,
+      "resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "channel": "A2Z Stream 2",
+      "played": false,
+      "resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "channel": "GMA",
+      "played": true,
+      "resolutions": [
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "channel": "GMA Stream 2",
+      "played": true,
+      "resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "channel": "GTV",
+      "played": true,
+      "resolutions": [
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "channel": "GTV Stream 2",
+      "played": true,
+      "resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "channel": "IBC13",
+      "played": false,
+      "resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "channel": "IBC13 Stream 2",
+      "played": true,
+      "resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "channel": "Jeepney TV",
+      "played": false,
+      "resolutions": [],
+      "result": "HTTP 404"
+    },
+    {
+      "channel": "Jeepney TV Stream 2",
+      "played": true,
+      "resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "channel": "Kapamilya Channel HD",
+      "played": true,
+      "resolutions": [
+        "1920x1080"
+      ],
+      "result": "played"
+    },
+    {
+      "channel": "Kapamilya Channel HD Stream 2",
+      "played": true,
+      "resolutions": [
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "channel": "Net25",
+      "played": true,
+      "resolutions": [
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "channel": "Net25 Stream 2",
+      "played": true,
+      "resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "channel": "TFC Asia",
+      "played": true,
+      "resolutions": [
+        "1280x720",
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "channel": "TFC Asia Stream 2",
+      "played": true,
+      "resolutions": [
+        "1280x720"
+      ],
+      "result": "played"
+    },
+    {
+      "channel": "TV5",
+      "played": false,
+      "resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "channel": "TV5 Stream 2",
+      "played": true,
+      "resolutions": [
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "channel": "CinemaOne",
+      "played": true,
+      "resolutions": [
+        "1280x720",
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "channel": "CinemaOne PH",
+      "played": false,
+      "resolutions": [],
+      "result": "HTTP 404"
+    },
+    {
+      "channel": "CinemaOne PH Stream 2",
+      "played": false,
+      "resolutions": [],
+      "result": "HTTP 404"
+    }
+  ],
+  "paired_observations": [
+    {
+      "channel": "GMA",
+      "observation": "Both showed the same scene in a prior simultaneous capture; this batch also showed the same commercial. More checks are needed for ongoing alignment."
+    },
+    {
+      "channel": "GTV",
+      "observation": "Both showed the same scene in simultaneous captures."
+    },
+    {
+      "channel": "Net25",
+      "observation": "Both showed the same scene in simultaneous captures."
+    },
+    {
+      "channel": "Kapamilya Channel HD",
+      "observation": "Different material at the sampling instant; delay or advertising is possible. Identity is not confirmed by this sample."
+    },
+    {
+      "channel": "TFC Asia",
+      "observation": "Different material at the sampling instant; delay or advertising is possible. Identity is not confirmed by this sample."
+    }
+  ]
+}

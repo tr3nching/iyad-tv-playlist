@@ -298,3 +298,9 @@ test('NBA event streams get an NBA prefix without changing their identity or oth
  assert.ok(text.includes('tvg-name="8:00am Other vs Game"'));
  assert.equal(labelNbaEvents(text),text);
 });
+
+
+test('user-confirmed AXN Movies Spain label preserves the stream identity', () => {
+ const text=labelNbaEvents(playlist([{name:'AXN Movies',epgId:'primary-source:axn:2',url:'https://example.com/live'}]));
+ assert.ok(text.includes('tvg-name="AXN Movies (Spain)"'));assert.ok(text.includes('tvg-id="primary-source:axn:2"'));assert.equal(labelNbaEvents(text),text);
+});

@@ -148,10 +148,14 @@ export function addCategoryHeaders(text) {
   return text.split(/(?=^#EXTINF:)/m)[0] + entries.map(entry => entry.block.trimEnd() + '\n').join('') + playlist(rows).split('\n').slice(1).join('\n');
 }
 
-// Give NBA event slots a common prefix so name-sorting TV guides keep them together.
+// Apply reviewed display labels without changing source or guide identities.
 export function labelNbaEvents(text) {
   return text.replace(/^#EXTINF:[^\r\n]*/gm, line => {
     const id = line.match(/\btvg-id="([^"]*)"/)?.[1] || '';
+    if (id === 'primary-source:axn:2') {
+      const metadata = line.match(/^(#EXTINF:(?:[^,"\r\n]|"[^"]*")*),/)?.[1];
+      return metadata ? metadata.replace(/\btvg-name="[^"]*"/, 'tvg-name="AXN Movies (Spain)"') + ',AXN Movies (Spain)' : line;
+    }
     if (!/^primary-source:nbatv:\d+$/.test(id)) return line;
     const current = decodePlaylistAttribute(line.match(/\btvg-name="([^"]*)"/)?.[1] || '');
     if (!/^\d{1,2}:\d{2}\s*(?:am|pm)\s+.+\s+vs\.?\s+.+/i.test(current)) return line;
