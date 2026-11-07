@@ -1,0 +1,606 @@
+{
+  "checkedAt": "2026-11-07T01:07:54.884852+00:00",
+  "candidateCount": 87,
+  "validatedCount": 11,
+  "scope": "At least 25 decoded video frames per exact stream identity. Up to 65 seconds startup. Network-specific snapshot, not sustained playback or every TV app.",
+  "channels": [
+    {
+      "id": "ca7d6b94bdbccbee02df4e98fc19ecc787ba115bf37c70512d6ba86acfca4e11",
+      "channel": "additional:3rstv:f6519c3696a9",
+      "validated": true,
+      "decodedFrames": 25
+    },
+    {
+      "id": "d16e76528bd0b4f0d36813bf1f5af431875efbc0567f29de974c16cc154190e4",
+      "channel": "additional:3rsmovie:c9ec2881f7b9",
+      "validated": true,
+      "decodedFrames": 25
+    },
+    {
+      "id": "73845d4d12d993102ec50003b4d96a5d04ceb1d26484274aa9c46ce438dc96e9",
+      "channel": "additional:stbsph:fa39162274e3",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 404"
+    },
+    {
+      "id": "f766f32c1f17d818ce0948480ed520b1a1ea0f20d691b6a375e0339cf6f6621e",
+      "channel": "additional:startvphilippines:8fbad275b125",
+      "validated": true,
+      "decodedFrames": 25
+    },
+    {
+      "id": "69cdb16d076107db0ba7fe573578f7baf01865fd1c9669df9eabcac5832130c2",
+      "channel": "additional:dreamstartv:0c2e4d169df3",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 404"
+    },
+    {
+      "id": "2f9360fb0307512cb1d3bd0edf192c6c3885513962e4204d5645cff049bb2ff2",
+      "channel": "additional:stbsglobal:0913e59e62e9",
+      "validated": true,
+      "decodedFrames": 25
+    },
+    {
+      "id": "c9f6ef95fc6d20bb2f48422ebe44ab88570d07e578d70cbbdbc2170f8b324e23",
+      "channel": "additional:colorstv:83238b4a46d5",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 404"
+    },
+    {
+      "id": "e29cfa19eab384350516e0de363d53ee054599a60e51d070482808a5d02b376c",
+      "channel": "additional:startimesphilippines:acd3185d4da9",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 404"
+    },
+    {
+      "id": "226132ceb9ec0bcea0bc2c682681a07293e0417b4c733f2ee6d31b1038ee7021",
+      "channel": "additional:atbs:de1d62bbdf14",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 404"
+    },
+    {
+      "id": "1620fd984642ac35c875e6bd7554408808070d2dd83f5d9cf28baca02d5fe641",
+      "channel": "additional:pinastv:89fae9cce5b1",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 404"
+    },
+    {
+      "id": "15e6f27d2fcf84a5d322d84737add4586d67167735e105aec245ec5482ce5a70",
+      "channel": "additional:kqtv:8caab3e06dfc",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 404"
+    },
+    {
+      "id": "b640fe2f10768ebd201598fb45aa72560ce9b4d537d7bd25cbb80cb0f229114b",
+      "channel": "additional:cartoonchannelph:bc122d85dc87",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 404"
+    },
+    {
+      "id": "07cc5c25cb393c346b08b4b43da2c58ffb72577707d72c586200cd9854c29eb9",
+      "channel": "additional:jungopinoytv:ab3554cf6785",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "No confirmed decoded video"
+    },
+    {
+      "id": "5c5ae85eb8a1b25151174161bf17251fae0732218837381e61ee3ebb178c44ef",
+      "channel": "additional:hallypop:63542abeab9c",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "No confirmed decoded video"
+    },
+    {
+      "id": "d1b755e945900e1383ab646f345d8ef7866434316b77b0b7c559e3b359308d02",
+      "channel": "additional:zeesine:5676c98ab9c8",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "No confirmed decoded video"
+    },
+    {
+      "id": "e0a724e8a0804f3aed46466cc1095ac2a9035364ecba768ee693a98f77903af0",
+      "channel": "additional:dubaione:c3b98f03a874",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "No confirmed decoded video"
+    },
+    {
+      "id": "cb52f34ddabe78096072fe85b848f3b84d799ec924ff50592ac1d04e580ae564",
+      "channel": "additional:nbatvph:13a17500cc0e",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "a28958b088de2ee4223a7d96149b4046ad3a91052506763d79ef68abadf02820",
+      "channel": "additional:sinemanila:729d219a4908",
+      "validated": true,
+      "decodedFrames": 25
+    },
+    {
+      "id": "721553e807cba7be2aa7eb75cddcdd881f6037ab6a44c1a87d5b51848ff7bb42",
+      "channel": "additional:ragetv:bf16b48f86ba",
+      "validated": true,
+      "decodedFrames": 25
+    },
+    {
+      "id": "242d3731c252501f275f6a4fbe31e5a4b86e2f7cb0242d75c26fc3fa3c176e84",
+      "channel": "additional:alltv:23f779dc8c08",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "No confirmed decoded video"
+    },
+    {
+      "id": "ad3282849c6b3584834bb8d46430de148d54663739d9cd932ecd26dae1fc54b7",
+      "channel": "additional:gma:c75458e49931",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "No confirmed decoded video"
+    },
+    {
+      "id": "086a2b2efd7847712ff3a8d6ab6e889fb2f7b09375f4525d07948d3444e8d787",
+      "channel": "additional:gtv:cd009bcfa6d9",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "No confirmed decoded video"
+    },
+    {
+      "id": "5f51005acf97e4b5df92b7983b66b50b8d747e165acc11fd48084772f72e3815",
+      "channel": "additional:kapamilya:04ceae2ba72f",
+      "validated": true,
+      "decodedFrames": 25
+    },
+    {
+      "id": "852e8446fd7a2016688b1e088519552bbc9d22e2718b363d196e6c789aebf0ca",
+      "channel": "additional:a2z:9e03847018a3",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "3bba49b84ed43ad7bb97570d058eb9fd10efec3aa7e8fbf566ace1e35977e305",
+      "channel": "additional:rptv:f7e771646eee",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "6a348048563ac605ea633ea90011febeb662e414f722a035cca2a753b434dfd5",
+      "channel": "additional:tv5:3b5c7607b1c0",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "f847dbb959e486b626bfcb41cd1960d57a08c93de6fbdc0768df49b9b1f92b8c",
+      "channel": "additional:heartofasia:730cfa6ec5df",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 404"
+    },
+    {
+      "id": "288b941ac306c3aab3f65e2c5a617c08a75a796c7072fccb1a0554c102520665",
+      "channel": "additional:iheartmovies:b965ea9c79c7",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 404"
+    },
+    {
+      "id": "f39a0116a9597d2aef1cad5b8b7ec083f9d3a9227e6b437fbe173d4fa38f734a",
+      "channel": "additional:pbarush:1796b7294731",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "d48516dfb21bcc5440a03f9473a5e2dbc41fc696c716043edb8f5f20648bd40c",
+      "channel": "additional:oneph:5a60945755ca",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "2c0d870357362ab757c3acf79d323491b1d2e3425eec69d8943d7e5a02098b09",
+      "channel": "additional:jeepneytv:f37935b58879",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "No confirmed decoded video"
+    },
+    {
+      "id": "fb902b22b1c4df1c920179938c96fddbca415da2851ee304bcf479d49c3523ad",
+      "channel": "additional:cinemo:fb72504d47ac",
+      "validated": true,
+      "decodedFrames": 25
+    },
+    {
+      "id": "91a607d624e86240acbbe536791922d0972a7938c37cac91826de8fdf5e8546e",
+      "channel": "additional:cinemaone:ee3083569b6d",
+      "validated": true,
+      "decodedFrames": 25
+    },
+    {
+      "id": "26d08675683360229417215aa30c9469686e95b2aea1aa829510d154c1b46e80",
+      "channel": "additional:pbo:5fde985a237e",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "e6096adf226e75f7a24f5e1dc4a89cfba4092ac7a837cfff1e2fbe1a819c45f2",
+      "channel": "additional:vivacinema:08c5a8c717c5",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "3e32f262755a877d1218f953fbb89dc7c4ffb11f3b01c4c74dde60e8052ea249",
+      "channel": "additional:cinemax:fa3647a8baa2",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "204a34355bda1219c342e2e8096e29b66fc2bee6bc0aab882f8993ddcdf49813",
+      "channel": "additional:cltv36:2fa1c383918d",
+      "validated": true,
+      "decodedFrames": 25
+    },
+    {
+      "id": "8ab9b791eb39d6a07186e5d904bb699d709e2a140e54298cd2706b7550757e11",
+      "channel": "additional:tmc:c90435e9aced",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "7840129324bb4f94fff4f70f6ddd3e9b6fb4b8e4177149c771cb039d888bda39",
+      "channel": "additional:depedchannel:738c1cf949ac",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "edace8e440d494b34ccd762243bc50652b9e068761e0a7d37e1706977b23757a",
+      "channel": "additional:axnchannel:b388de360602",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "7b81dfc7d36012c83a5ee51bcaf7a075f4c69dfd1f15d2844ab1fe22abc9969b",
+      "channel": "additional:disneychannel:2b02a611e4dd",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 404"
+    },
+    {
+      "id": "dba022ee133f3c2d10e129eebbf30f938fe5dbf02faf5f9da700c7604a2c3459",
+      "channel": "additional:dreamworkshd:168aa4ea5203",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "062ada7da0db5462e2aeb3f9323f151b1ec6d1d7980024952f6cd78e0442811b",
+      "channel": "additional:dreamworkstagalog:331deb173577",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "52e30d066c338df80e7defdf23239f6dd1850564b777f4d5ba6d4f098f21b867",
+      "channel": "additional:fashiontvhd:d44435f57ded",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "cb55446e2152c8778e1f959b53449f6a944f515f971acbfc495539eae2e543f6",
+      "channel": "additional:foodnetworkhd:f99a399f73ee",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "a819dd6ed32021ca03f52411195e24a4797fcc2a378c096fd8a15d9dda85d10d",
+      "channel": "additional:hbofamily:4f83a504b714",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "23d7cfcbe154e97d488e06f30ed5830e8c09a1d2ae5b8f927a3d621f1a98670a",
+      "channel": "additional:hbohits:4f9b19e92222",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "31e6b1ef2d42a4e6f81b2fc85fb43063eee243d57984a86ec7629e26fcca0715",
+      "channel": "additional:hbosignature:f64a6b9ebb1c",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "3e75e540b457d5725870e6b394c602634c9e9818729e04d294a8794539f6d6b3",
+      "channel": "additional:hbohd:c6348b1fb478",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "ce2683ab881e70dc29a7a0deb0070f3d9ab60f6b3f81c058440adda0714ea8c4",
+      "channel": "additional:hgtvhd:3995eb0f0da0",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "No confirmed decoded video"
+    },
+    {
+      "id": "5792d7c7d619c0c9a852f17b954dd978a93f25d06c9a1658162f2dd3ef851436",
+      "channel": "additional:historyhd:578ea3099aa7",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "f1e23471d5d212f8e85e155cee6f085febf8d73952d2127683e6e6061efabb39",
+      "channel": "additional:hitsnow:63759286423d",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "5236b35ec509d391cdff94f889a7a4e86866784aa790fb6095c06e4b436a5f6b",
+      "channel": "additional:ibc13:c84c273a2918",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "49185af95f2a1377904558afbf1b0f2095f3e7a728d952b14c5588570df31ea1",
+      "channel": "additional:inctv:9a55b8b0b957",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "No confirmed decoded video"
+    },
+    {
+      "id": "544db53ef58889857105084749df98459992c344052dbf6972f49935e1479225",
+      "channel": "additional:kixhd:c1c1ade2da50",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "7c1276dafd0bbbc1a875fe47c8b74bd8be205d4c8a57ec2381614526b7918459",
+      "channel": "additional:knowledgechannel:2a663afdb59c",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "3f423edfb23f07f0118228b1c27bac159620795e4c6515e1854fb99fe1e349b8",
+      "channel": "additional:lifetime:795e850f8d64",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "1d5f0e11f382ee92afa03709c3b0f5483013e39cfea90260394b3a0bc9e9fdf6",
+      "channel": "additional:kmovies:358685e48eae",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "No confirmed decoded video"
+    },
+    {
+      "id": "65669f28089a25ce04d98705197949032a9e23f77ae6800acbb185b69de062ca",
+      "channel": "additional:mptv:f83771d08cac",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "88683866bf80f68b493ca6f872959e88e9b9cbfa2c96b725b7905961e6bfd06c",
+      "channel": "additional:myx:6e0985ec8b81",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "No confirmed decoded video"
+    },
+    {
+      "id": "27896c07d87b1ebd91320ac874138187d51cc4f57ad85f637540c581a6acc9d7",
+      "channel": "additional:mtvlive:01f885411a9c",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "No confirmed decoded video"
+    },
+    {
+      "id": "88244ac309dac28db4aaacc393ab8c8bf14f2b5779f134df3c324c0773dfb027",
+      "channel": "additional:nickjr:dac508d34a84",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "f12c4768e71c378020e16b223748172b5d187b29b3acc3b5896efaf693a76935",
+      "channel": "additional:nickelodeon:2708c910abee",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "824942e9fb323b18d315a3e1a58cb29ed3a4f3ed6a9fff8e80645c6cc8af26f3",
+      "channel": "additional:disneychannel:16b17880f5d3",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "07ed7a941fb3543f538988199732477488f20d741caad98c59320f2db16b322e",
+      "channel": "additional:onenewshd:c62da151d142",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "9fd9d36759cbbf98382d8e7d14fe96abcc53b8af9f5104563a00a5b62e74333d",
+      "channel": "additional:onesports:2a5eac860dc2",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "6e661dbc908358e1e378a26571771b18c54b38a4d9c138d373b87d41eb64930a",
+      "channel": "additional:onesportsplushd:b2d155134e5e",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "16671c664f18444b4f89aaa1e3015d0d44bec5c6265c15acff14b45c8a3618c2",
+      "channel": "additional:premiersports:1edcfd35c652",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "887f7c612bb0a06c2b13d416112362ece097724dea89156557b46733b0c5c397",
+      "channel": "additional:premiertennis:d8e65b210b13",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "50bf8d4ac413b7e4c23dca33850926d000881759f85d1e76f391476fe05d2264",
+      "channel": "additional:ptv4:4ba3f8a35fa3",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "5d6bae8ad2a6bbfad34acbd2d73e946c19384f5f107112785b18a13fe16465bd",
+      "channel": "additional:sarisari:b8477569b88a",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "9f2968399b714a083baee5f2955aceb75618fc1e6aea8e90f8afebf1b1602df3",
+      "channel": "additional:sonypix:eeb12fb019d6",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "No confirmed decoded video"
+    },
+    {
+      "id": "0fab6786754d0ff1d8b3a19cfeb58863f36a658be261aa45dc374ea8e2dddcd6",
+      "channel": "additional:spotv:2ea47402a32a",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "1593fd0a16da0cd55a6d0977f9a74e6e0453f9b7f35835cfc56d1e987231c552",
+      "channel": "additional:spotv2:7770fe46b3bf",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "55e83720a5add741364b70207a8c8e7401edf62319baea9e25dcecabe5d1d8e3",
+      "channel": "additional:tapedge:0e46dde847c5",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "ef350b6f086c8271e16a0ce36ad558b060e2fd5ba56079d3f3bcdbe07fccb807",
+      "channel": "additional:tapsports:98594b84f55c",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "bb6343edc1d913f6e7671113f3fdd89b389da16cf0fac8bb40d3eed0129eea37",
+      "channel": "additional:tapmovies:55fbfe108561",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "32afcc071779c7be616d900266fe2af246dc3c853b8420eb3a4d37b3a148411d",
+      "channel": "additional:taptv:cd070843b415",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "7bc03a25d29f35bad3c742512fcc1a59ba7e795b0c14e416ae4ea1a336f097a2",
+      "channel": "additional:tapactionflix:eaa46b684586",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "ca70ec3448eee40249a9fabba0046f1f246591e6d907d08862a20032e9bb9ef2",
+      "channel": "additional:teleradyo:995fd47df709",
+      "validated": true,
+      "decodedFrames": 25
+    },
+    {
+      "id": "954586d42f580fab9e7be030e4f68e5b365cf43c9975e51f8514bd8f833d59cb",
+      "channel": "additional:thrill:d2cf308ea159",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "f59203c8fe0f0900659b576bba7d870135576c3e70468ee01bd85dfd572f6d84",
+      "channel": "additional:travelchannel:a37f42e80c68",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "No confirmed decoded video"
+    },
+    {
+      "id": "fbd55088aa2fde8ad6bb011150935dcb4c336410d5590619bd28fd2d70ac83e6",
+      "channel": "additional:rockaction:37e248a0d21d",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "29efef65baef29cdcddce6846504d1982a2e3016c5fb051373faf78b17437327",
+      "channel": "additional:rockentertaiment:385545ffaa8b",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "3ceccda5e924823cba3f8b28e796ccbe63791f4c6cecd15568dcd331ac405fba",
+      "channel": "additional:tvnmovies:69d9d2f0fc19",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "bdc5b325719a633a757d32f3ec76a47486ed0f4c31fa535f61dd365fd872b0bf",
+      "channel": "additional:tvn:7c6903afcb38",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    },
+    {
+      "id": "3efeae8e594d1bfef8ca3fcbbef02fbb65d599d737ab24808131dee9fc5a1d7f",
+      "channel": "additional:uaapvarsity:ba264d7ab0dd",
+      "validated": false,
+      "decodedFrames": 0,
+      "reason": "HTTP 400"
+    }
+  ]
+}

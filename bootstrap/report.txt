@@ -1,5 +1,5 @@
-Generated 2026-11-07T00:47:30.746646+00:00
-Usable current schedules 216/571; matched including unusable 270; programmes 19049
+Generated 2026-11-07T01:09:24.145098+00:00
+Usable current schedules 181/495; matched including unusable 228; programmes 17106
 
 no matching source listings  3RSTV <- :
 no usable current schedule  TV5 <- :
@@ -171,7 +171,7 @@ mapped  Outdoor Channel <- HK1:Outdoor.Channel.hk
 no matching source listings  Oras ng Himala <- :
 mapped  Paramount Movie Channel <- PLUTO:5cb0cae7a461406ffe3f5213
 no usable current schedule  PBA Rush <- :
-mapped  PBS Digital Studios <- SAMSUNG:USBB800001O7
+no usable current schedule  PBS Digital Studios <- :
 mapped  People Are Awesome <- PLEX1:plex.tv.People.are.Awesome.plex
 no matching source listings  Pilipinas Live <- :
 mapped  Pinoy Box Office <- US2:Pinoy.Box.Office.us2
@@ -249,91 +249,15 @@ mapped  Yes Network <- US2:Yes.Network.us2
 no matching source listings  Z One <- :
 no reviewed station/regional identity  additional:3rstv:f6519c3696a9 <- :
 no reviewed station/regional identity  additional:3rsmovie:c9ec2881f7b9 <- :
-no reviewed station/regional identity  additional:stbsph:fa39162274e3 <- :
 exact duplicate primary has no usable guide  additional:startvphilippines:8fbad275b125 <- :
-no reviewed station/regional identity  additional:dreamstartv:0c2e4d169df3 <- :
 exact duplicate primary has no usable guide  additional:stbsglobal:0913e59e62e9 <- :
-no reviewed station/regional identity  additional:colorstv:83238b4a46d5 <- :
-no reviewed station/regional identity  additional:startimesphilippines:acd3185d4da9 <- :
-no reviewed station/regional identity  additional:atbs:de1d62bbdf14 <- :
-no reviewed station/regional identity  additional:pinastv:89fae9cce5b1 <- :
-no reviewed station/regional identity  additional:kqtv:8caab3e06dfc <- :
-no reviewed station/regional identity  additional:cartoonchannelph:bc122d85dc87 <- :
-no reviewed station/regional identity  additional:jungopinoytv:ab3554cf6785 <- :
-no reviewed station/regional identity  additional:hallypop:63542abeab9c <- :
-no reviewed station/regional identity  additional:zeesine:5676c98ab9c8 <- :
-no reviewed station/regional identity  additional:dubaione:c3b98f03a874 <- :
-mapped  additional:nbatvph:13a17500cc0e <- PH2:NBA.TV.Philippines.ph
 no reviewed station/regional identity  additional:sinemanila:729d219a4908 <- :
 no reviewed station/regional identity  additional:ragetv:bf16b48f86ba <- :
-no reviewed station/regional identity  additional:alltv:23f779dc8c08 <- :
-reviewed identity has no usable current source listings  additional:gma:c75458e49931 <- :
-reviewed identity has no usable current source listings  additional:gtv:cd009bcfa6d9 <- :
 exact duplicate primary has no usable guide  additional:kapamilya:04ceae2ba72f <- :
-reviewed identity has no usable current source listings  additional:a2z:9e03847018a3 <- :
-mapped  additional:rptv:f7e771646eee <- PH2:RPTV.HD.ph
-reviewed identity has no usable current source listings  additional:tv5:3b5c7607b1c0 <- :
-no reviewed station/regional identity  additional:heartofasia:730cfa6ec5df <- :
-no reviewed station/regional identity  additional:iheartmovies:b965ea9c79c7 <- :
-reviewed identity has no usable current source listings  additional:pbarush:1796b7294731 <- :
-mapped  additional:oneph:5a60945755ca <- PH2:One.PH.ph
-reviewed identity has no usable current source listings  additional:jeepneytv:f37935b58879 <- :
 reviewed identity has no usable current source listings  additional:cinemo:fb72504d47ac <- :
 reviewed identity has no usable current source listings  additional:cinemaone:ee3083569b6d <- :
-reviewed identity has no usable current source listings  additional:pbo:5fde985a237e <- :
-reviewed identity has no usable current source listings  additional:vivacinema:08c5a8c717c5 <- :
-reviewed identity has no usable current source listings  additional:cinemax:fa3647a8baa2 <- :
 exact duplicate primary has no usable guide  additional:cltv36:2fa1c383918d <- :
-reviewed identity has no usable current source listings  additional:tmc:c90435e9aced <- :
-reviewed identity has no usable current source listings  additional:depedchannel:738c1cf949ac <- :
-mapped  additional:axnchannel:b388de360602 <- MEDIAQUEST:cg_axn_sd
-no reviewed station/regional identity  additional:disneychannel:2b02a611e4dd <- :
-mapped  additional:dreamworkshd:168aa4ea5203 <- PH2:DreamWorks.HD.ph
-mapped  additional:dreamworkstagalog:331deb173577 <- PH2:DreamWorks.(Tagalized).ph
-mapped  additional:fashiontvhd:d44435f57ded <- PH2:Fashion.TV.HD.ph
-reviewed identity has no usable current source listings  additional:foodnetworkhd:f99a399f73ee <- :
-reviewed identity has no usable current source listings  additional:hbofamily:4f83a504b714 <- :
-reviewed identity has no usable current source listings  additional:hbohits:4f9b19e92222 <- :
-reviewed identity has no usable current source listings  additional:hbosignature:f64a6b9ebb1c <- :
-reviewed identity has no usable current source listings  additional:hbohd:c6348b1fb478 <- :
-reviewed identity has no usable current source listings  additional:hgtvhd:3995eb0f0da0 <- :
-mapped  additional:historyhd:578ea3099aa7 <- PH2:History.HD.ph
-mapped  additional:hitsnow:63759286423d <- PH2:HITS.NOW.ph
-reviewed identity has no usable current source listings  additional:ibc13:c84c273a2918 <- :
-reviewed identity has no usable current source listings  additional:inctv:9a55b8b0b957 <- :
-reviewed identity has no usable current source listings  additional:kixhd:c1c1ade2da50 <- :
-mapped  additional:knowledgechannel:2a663afdb59c <- PH2:Knowledge.Channel.ph
-mapped  additional:lifetime:795e850f8d64 <- PH2:Lifetime.SD.ph
-no reviewed station/regional identity  additional:kmovies:358685e48eae <- :
-reviewed identity has no usable current source listings  additional:mptv:f83771d08cac <- :
-no reviewed station/regional identity  additional:myx:6e0985ec8b81 <- :
-reviewed identity has no usable current source listings  additional:mtvlive:01f885411a9c <- :
-reviewed identity has no usable current source listings  additional:nickjr:dac508d34a84 <- :
-mapped  additional:nickelodeon:2708c910abee <- PH2:Nickelodeon.SD.ph
-no reviewed station/regional identity  additional:disneychannel:16b17880f5d3 <- :
-mapped  additional:onenewshd:c62da151d142 <- PH2:One.News.ph
-mapped  additional:onesports:2a5eac860dc2 <- PH2:One.Sports.HD.ph
-mapped  additional:onesportsplushd:b2d155134e5e <- PH2:One.Sports+.ph
-mapped  additional:premiersports:1edcfd35c652 <- PH2:Premier.Sports.HD.ph
-no reviewed station/regional identity  additional:premiertennis:d8e65b210b13 <- :
-reviewed identity has no usable current source listings  additional:ptv4:4ba3f8a35fa3 <- :
-no reviewed station/regional identity  additional:sarisari:b8477569b88a <- :
-mapped  additional:sonypix:eeb12fb019d6 <- IN4:SONY.PIX.in
-reviewed identity has no usable current source listings  additional:spotv:2ea47402a32a <- :
-mapped  additional:spotv2:7770fe46b3bf <- PH2:SPOTV.2.HD.ph
-reviewed identity has no usable current source listings  additional:tapedge:0e46dde847c5 <- :
-mapped  additional:tapsports:98594b84f55c <- PH2:Tap.Sports.ph
-mapped  additional:tapmovies:55fbfe108561 <- PH2:TAP.Movies.HD.ph
-reviewed identity has no usable current source listings  additional:taptv:cd070843b415 <- :
-reviewed identity has no usable current source listings  additional:tapactionflix:eaa46b684586 <- :
 exact duplicate primary has no usable guide  additional:teleradyo:995fd47df709 <- :
-reviewed identity has no usable current source listings  additional:thrill:d2cf308ea159 <- :
-reviewed identity has no usable current source listings  additional:travelchannel:a37f42e80c68 <- :
-mapped  additional:rockaction:37e248a0d21d <- PH2:Rock.Action.ph
-mapped  additional:rockentertaiment:385545ffaa8b <- MEDIAQUEST:dr_rockentertainment
-mapped  additional:tvnmovies:69d9d2f0fc19 <- PH2:tvN.Movies.Pinoy.ph
-mapped  additional:tvn:7c6903afcb38 <- PH2:tvN.Premium.HD.ph
-mapped  additional:uaapvarsity:ba264d7ab0dd <- PH2:UAAP.Varsity.Channel.ph
 no reviewed station/regional identity  primary-source:3rstv:1 <- :
 no reviewed station/regional identity  primary-source:tv5:1 <- :
 mapped  primary-source:tv5:3 <- PH2:Kapatid.Channel.ph
@@ -445,7 +369,7 @@ mapped  primary-source:kidstv:6 <- PLUTO:62e951258a26d40007b3034c
 mapped  primary-source:kidstv:7 <- PLUTO:60fb01a24795a6000762fe83
 no reviewed station/regional identity  primary-source:kidstv:8 <- :
 no reviewed station/regional identity  primary-source:kidstv:9 <- :
-mapped  primary-source:kidstv:10 <- SAMSUNG:USAJ3504531A
+reviewed identity has no usable current source listings  primary-source:kidstv:10 <- :
 no reviewed station/regional identity  primary-source:kidstv:11 <- :
 no reviewed station/regional identity  primary-source:kidstv:12 <- :
 no reviewed station/regional identity  primary-source:kixhd:1 <- :
@@ -495,7 +419,7 @@ no reviewed station/regional identity  primary-source:nbatv:7 <- :
 no reviewed station/regional identity  primary-source:nbatv:8 <- :
 no reviewed station/regional identity  primary-source:nbatv:9 <- :
 no reviewed station/regional identity  primary-source:newkmovies:1 <- :
-mapped  primary-source:newkmovies:2 <- SAMSUNG:GB21000038X
+reviewed identity has no usable current source listings  primary-source:newkmovies:2 <- :
 no reviewed station/regional identity  primary-source:newkmovies:3 <- :
 no reviewed station/regional identity  primary-source:net25:1 <- :
 no reviewed station/regional identity  primary-source:nickjr:1 <- :
@@ -565,10 +489,10 @@ no reviewed station/regional identity  primary-source:vevo:6 <- :
 no reviewed station/regional identity  primary-source:warnertv:1 <- :
 no reviewed station/regional identity  primary-source:wildplanet:1 <- :
 no reviewed station/regional identity  primary-source:wildplanet:2 <- :
-mapped  primary-source:xitehits:1 <- SAMSUNG:USBB320000647
-mapped  primary-source:xitehits:2 <- SAMSUNG:USBB3200007AK
-mapped  primary-source:xitehits:4 <- SAMSUNG:CABD1200023UJ
-mapped  primary-source:xitehits:5 <- SAMSUNG:CABD120001993
-mapped  primary-source:xitehits:6 <- SAMSUNG:USBB2300003JZ
-mapped  primary-source:xitehits:7 <- SAMSUNG:CABD1200021MS
-mapped  primary-source:xitehits:8 <- SAMSUNG:USBB2300004KV
+reviewed identity has no usable current source listings  primary-source:xitehits:1 <- :
+reviewed identity has no usable current source listings  primary-source:xitehits:2 <- :
+reviewed identity has no usable current source listings  primary-source:xitehits:4 <- :
+reviewed identity has no usable current source listings  primary-source:xitehits:5 <- :
+reviewed identity has no usable current source listings  primary-source:xitehits:6 <- :
+reviewed identity has no usable current source listings  primary-source:xitehits:7 <- :
+reviewed identity has no usable current source listings  primary-source:xitehits:8 <- :

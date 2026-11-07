@@ -5,7 +5,7 @@ import { mkdtemp, readFile, writeFile, unlink, rmdir } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { primarySourceJobs, resolveChannel, numberPlaylist, orderPlaylist, channelCategory, decrypt, playlist, streamUrl, parseBackupChannels, checkBackupManifests, combinePlaylists, markAdditionalChannels, streamCheckId, additionalChannelId } from '../scripts/refresh.mjs';
+import { validatedAdditional, primarySourceJobs, resolveChannel, numberPlaylist, orderPlaylist, channelCategory, decrypt, playlist, streamUrl, parseBackupChannels, checkBackupManifests, combinePlaylists, markAdditionalChannels, streamCheckId, additionalChannelId } from '../scripts/refresh.mjs';
 
 test('decrypts the player response format without exposing key material', () => {
   const key = '0123456789abcdefextra';
@@ -62,12 +62,13 @@ test('backup checks reject HTML and HTTP errors as stream manifests', async t =>
 test('one canonical playlist retains DRM, backups and guide, including without backups', async () => {
   const directory = await mkdtemp(join(tmpdir(), 'ph-tv-playlist-'));
   const output = pathToFileURL(directory + '/');
-  const files = ['playlist-drm.m3u', 'playlist-backup.m3u', 'playlist.m3u', 'playlist-combined.m3u', 'playlist-status.json', 'channel-numbers.json'];
+  const files = ['backup-validation.json', 'playlist-drm.m3u', 'playlist-backup.m3u', 'playlist.m3u', 'playlist-combined.m3u', 'playlist-status.json', 'channel-numbers.json'];
   try {
     const primary = playlist([{ name: 'NBA TV', url: 'https://example.com/news.mpd', clearKey: { id: '1'.repeat(32), value: '2'.repeat(32) } }], { includeDrm: true });
     const backup = playlist([{ name: 'NBA TV [Backup]', epgId: 'NBA TV', group: 'Backup', url: 'https://example.com/backup.m3u8' }]);
     await writeFile(new URL('playlist-drm.m3u', output), primary);
     await writeFile(new URL('playlist-backup.m3u', output), backup);
+    await writeFile(new URL('backup-validation.json',output),JSON.stringify({checkedAt:new Date().toISOString(),channels:[{id:streamCheckId('additional',{id:'NBA TV',url:'https://example.com/backup.m3u8'}),validated:true,decodedFrames:25}]}));
     await combinePlaylists(output);
     const canonical = await readFile(new URL('playlist.m3u', output), 'utf8');
     assert.equal((canonical.match(/^#EXTM3U/gm) || []).length, 1);
@@ -110,28 +111,15 @@ test('additional entries stay separate and duplicates receive an asterisk', () =
   assert.ok(distinct.text.includes('other.example.com'));
 });
 
-test('all saved candidates remain listed regardless of failed checks, with custom numbers', async () => {
-  const directory = await mkdtemp(join(tmpdir(), 'ph-tv-playlist-')); const output = pathToFileURL(directory + '/');
-  const primary = { name: 'NBA TV', url: 'https://example.com/main.m3u8' };
-  const extra = { name: 'Different channel', epgId: 'additional:differentchannel', url: 'https://example.com/other.m3u8' };
-  const files = ['playlist-drm.m3u','backup-candidates.m3u','playlist-backup.m3u','playlist.m3u','playlist-combined.m3u','playlist-status.json', 'channel-numbers.json'];
-  try {
-    const original = playlist([primary]);
-    await writeFile(new URL('playlist-drm.m3u',output),original);
-    await writeFile(new URL('backup-candidates.m3u',output),playlist([extra]));
-    const checks = [{id:streamCheckId('primary',{id:primary.name,url:primary.url}),reachable:false},{id:streamCheckId('additional',{id:extra.epgId,url:extra.url}),reachable:true}];
-    await combinePlaylists(output,{health:{channels:checks}});
-    let result = await readFile(new URL('playlist.m3u',output),'utf8');
-    assert.ok(result.includes(primary.url));assert.ok(result.includes(extra.url));
-    assert.ok(result.includes('tvg-chno='));
-    assert.equal(await readFile(new URL('playlist-drm.m3u',output),'utf8'),original);
-    checks[0].reachable=false;checks[1].reachable=false;
-    await combinePlaylists(output,{health:{channels:checks}});
-    result=await readFile(new URL('playlist.m3u',output),'utf8');assert.ok(result.includes(primary.url));assert.ok(result.includes(extra.url));
-    checks[0].reachable=false;checks[0].publish=true;checks[0].status='inconclusive';
-    await combinePlaylists(output,{health:{channels:checks}});
-    assert.ok((await readFile(new URL('playlist.m3u',output),'utf8')).includes(primary.url));
-  } finally { for(const file of files){try{await unlink(new URL(file,output));}catch{}} await rmdir(directory); }
+test('additional sources require recent decoding proof bound to the exact URL', () => {
+  const row={name:'GMA',epgId:'additional:gma:test',url:'https://example.com/first.m3u8'};
+  const text=playlist([row]);const now=Date.now();
+  const report={checkedAt:new Date(now).toISOString(),channels:[{id:streamCheckId('additional',{id:row.epgId,url:row.url}),validated:true,decodedFrames:25}]};
+  assert.ok(validatedAdditional(text,report,now).includes(row.url));
+  assert.ok(!validatedAdditional(text,{},now).includes(row.url));
+  assert.ok(!validatedAdditional(text,{...report,checkedAt:new Date(now-25*3600000).toISOString()},now).includes(row.url));
+  assert.ok(!validatedAdditional(text,{...report,channels:[{...report.channels[0],decodedFrames:0}]},now).includes(row.url));
+  assert.ok(!validatedAdditional(playlist([{...row,url:'https://example.com/replacement.m3u8'}]),report,now).includes('#EXTINF:'));
 });
 
 test('additional streams with the same name retain separate identities and no original EPG ID', () => {

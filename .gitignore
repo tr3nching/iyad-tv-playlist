@@ -25,3 +25,5 @@ site/channel-numbers.json
 site/3rs-epg-audit.json
 site/primary-source-catalog.json
 site/primary-source-epg-audit.json
+
+site/backup-validation.json

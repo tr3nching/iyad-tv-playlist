@@ -280,6 +280,14 @@ export function streamCheckId(kind, entry) {
   return createHash('sha256').update(`${kind}\0${entry.id}\0${entry.url}`).digest('hex');
 }
 
+export function validatedAdditional(text, report, now = Date.now()) {
+  const checked = Date.parse(report?.checkedAt);
+  const current = Number.isFinite(checked) && checked <= now + 60000 && now - checked <= 24 * 60 * 60 * 1000;
+  const approved = new Set(current ? (report.channels || []).filter(row => row.validated === true && row.decodedFrames >= 25).map(row => row.id) : []);
+  const selected = playlistEntries(text).filter(entry => approved.has(streamCheckId('additional', entry)));
+  return `#EXTM3U x-tvg-url="${EPG_URL}"\n` + selected.map(entry => entry.block.trimEnd() + '\n').join('');
+}
+
 export async function combinePlaylists(output = new URL('../site/', import.meta.url)) {
   let primary = await readFile(new URL('playlist-drm.m3u', output), 'utf8');
   let backup = '';
@@ -293,7 +301,10 @@ export async function combinePlaylists(output = new URL('../site/', import.meta.
     const inventory = JSON.parse(await readFile(new URL('primary-source-catalog.json', output), 'utf8'));
     for (const entry of inventory.entries || []) if (entry.id?.startsWith('primary-source:')) primarySourceGroups.set(entry.id, entry.category || 'General');
   } catch (error) { if (error.code !== 'ENOENT') throw error; }
-  const distinct = markAdditionalChannels(primary, backup);
+  let validation = {};
+  try { validation = JSON.parse(await readFile(new URL('backup-validation.json', output), 'utf8')); }
+  catch (error) { if (error.code !== 'ENOENT') throw error; }
+  const distinct = markAdditionalChannels(primary, validatedAdditional(backup, validation));
   backup = categorizePlaylist(distinct.text);
   if (backup) await writeFile(new URL('playlist-backup.m3u', output), backup);
   try {
@@ -303,7 +314,7 @@ export async function combinePlaylists(output = new URL('../site/', import.meta.
     status.additionalChannels = distinct.entries.map(entry => entry.block.split('\n')[0].split(',').pop());
     status.channelCount = distinct.entries.length;
     status.existingChannelBackups = 0;
-    status.note = 'All saved candidates remain listed. An asterisk marks additional entries sharing an original name or stream URL. Reachability checks are informational; playback is not guaranteed.';
+    status.note = 'Only additional streams with at least 25 decoded video frames for the exact stream identity within 24 hours are listed. Candidates are retained separately for retry. An asterisk marks an original name or stream URL duplicate.';
     status.clearKeyChannelCount = (backup.match(/^#KODIPROP:inputstream\.adaptive\.license_key=/gm) || []).length;
     status.excludedDuplicates = [...new Set([...(status.excludedDuplicates || []), ...distinct.excluded])].filter(id => !ids.has(id));
     delete status.source;

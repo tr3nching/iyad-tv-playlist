@@ -143,7 +143,8 @@ def read_playlist(path):
  return result
 
 def additional_entries(out,config):
- path=out/'backup-candidates.m3u'
+ path=out/'playlist-backup.m3u'
+ if not path.exists():path=out/'backup-candidates.m3u'
  if not path.exists():return []
  mapping_path=BASE.parent/'3rs-epg-mappings.json'
  mappings=json.loads(mapping_path.read_text(encoding='utf-8')).get('entries',{}) if mapping_path.exists() else {}
