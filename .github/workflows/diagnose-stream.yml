@@ -9,5 +9,7 @@ jobs:
     timeout-minutes: 3
     steps:
       - uses: actions/checkout@v4
+      - name: Install video checker
+        run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg
       - name: Compare stream responses without exposing URLs
         run: python3 scripts/diagnose-stream.py
