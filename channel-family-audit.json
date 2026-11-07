@@ -1,0 +1,3632 @@
+{
+  "checked_utc": "2026-11-07T16:38:05.793188+00:00",
+  "scope": "One decoded-frame local sample per listed main and alternate source; available resolutions may vary and do not guarantee sustained quality. Different source slots are not assumed to share programming. No stream was removed or moved based on a single sample.",
+  "groups": [
+    {
+      "main": "3RSTV",
+      "source_ids": [
+        "3RSTV",
+        "primary-source:3rstv:1"
+      ]
+    },
+    {
+      "main": "TV5",
+      "source_ids": [
+        "TV5",
+        "primary-source:tv5:1",
+        "primary-source:tv5:3",
+        "primary-source:tv5:4"
+      ]
+    },
+    {
+      "main": "A2Z",
+      "source_ids": [
+        "A2Z",
+        "primary-source:a2z:1"
+      ]
+    },
+    {
+      "main": "Abante Radyo",
+      "source_ids": [
+        "Abante Radyo",
+        "primary-source:abanteradyo:1"
+      ]
+    },
+    {
+      "main": "ABC Australia",
+      "source_ids": [
+        "ABC Australia",
+        "primary-source:abcaustralia:2",
+        "primary-source:abcaustralia:3"
+      ]
+    },
+    {
+      "main": "Al Jazeera",
+      "source_ids": [
+        "Al Jazeera",
+        "primary-source:aljazeera:1"
+      ]
+    },
+    {
+      "main": "ALLTV2",
+      "source_ids": [
+        "ALLTV2",
+        "primary-source:alltv2:1"
+      ]
+    },
+    {
+      "main": "AMC+",
+      "source_ids": [
+        "AMC+",
+        "primary-source:amc:1",
+        "primary-source:amc:2",
+        "primary-source:amc:3"
+      ]
+    },
+    {
+      "main": "Animax",
+      "source_ids": [
+        "Animax",
+        "primary-source:animax:2"
+      ]
+    },
+    {
+      "main": "Animal Planet",
+      "source_ids": [
+        "Animal Planet",
+        "primary-source:animalplanet:2"
+      ]
+    },
+    {
+      "main": "Anime by Pluto",
+      "source_ids": [
+        "Anime by Pluto",
+        "primary-source:animebypluto:1",
+        "primary-source:animebypluto:2",
+        "primary-source:animebypluto:3",
+        "primary-source:animebypluto:4",
+        "primary-source:animebypluto:5",
+        "primary-source:animebypluto:6"
+      ]
+    },
+    {
+      "main": "Arirang",
+      "source_ids": [
+        "Arirang",
+        "primary-source:arirang:1"
+      ]
+    },
+    {
+      "main": "AXN",
+      "source_ids": [
+        "AXN",
+        "primary-source:axn:1",
+        "primary-source:axn:2"
+      ]
+    },
+    {
+      "main": "PBB Collab 3.0",
+      "source_ids": [
+        "PBB Collab 3.0",
+        "primary-source:pbbcollab30:1",
+        "primary-source:pbbcollab30:3",
+        "primary-source:pbbcollab30:4"
+      ]
+    },
+    {
+      "main": "BBC Lifestyle",
+      "source_ids": [
+        "BBC Lifestyle",
+        "primary-source:bbclifestyle:1"
+      ]
+    },
+    {
+      "main": "BBC News",
+      "source_ids": [
+        "BBC News",
+        "primary-source:bbcnews:1"
+      ]
+    },
+    {
+      "main": "BeIn Sports",
+      "source_ids": [
+        "BeIn Sports",
+        "primary-source:beinsports:1",
+        "primary-source:beinsports:2",
+        "primary-source:beinsports:3",
+        "primary-source:beinsports:4"
+      ]
+    },
+    {
+      "main": "Bilyonaryo",
+      "source_ids": [
+        "Bilyonaryo",
+        "primary-source:bilyonaryo:1"
+      ]
+    },
+    {
+      "main": "Bloomberg",
+      "source_ids": [
+        "Bloomberg",
+        "primary-source:bloomberg:1"
+      ]
+    },
+    {
+      "main": "BS10 + more Converge Channels",
+      "source_ids": [
+        "BS10 + more Converge Channels",
+        "primary-source:bs10moreconvergechannels:1",
+        "primary-source:bs10moreconvergechannels:2",
+        "primary-source:bs10moreconvergechannels:3",
+        "primary-source:bs10moreconvergechannels:4",
+        "primary-source:bs10moreconvergechannels:5",
+        "primary-source:bs10moreconvergechannels:6",
+        "primary-source:bs10moreconvergechannels:7",
+        "primary-source:bs10moreconvergechannels:8",
+        "primary-source:bs10moreconvergechannels:9",
+        "primary-source:bs10moreconvergechannels:10",
+        "primary-source:bs10moreconvergechannels:11",
+        "primary-source:bs10moreconvergechannels:12",
+        "primary-source:bs10moreconvergechannels:13"
+      ]
+    },
+    {
+      "main": "Cartoonito",
+      "source_ids": [
+        "Cartoonito",
+        "primary-source:cartoonito:1"
+      ]
+    },
+    {
+      "main": "Cartoon Network",
+      "source_ids": [
+        "Cartoon Network",
+        "primary-source:cartoonnetwork:1",
+        "primary-source:cartoonnetwork:2",
+        "primary-source:cartoonnetwork:3",
+        "primary-source:cartoonnetwork:4"
+      ]
+    },
+    {
+      "main": "CCTV4",
+      "source_ids": [
+        "CCTV4",
+        "primary-source:cctv4:1"
+      ]
+    },
+    {
+      "main": "CGTN Documentary",
+      "source_ids": [
+        "CGTN Documentary",
+        "primary-source:cgtndocumentary:2"
+      ]
+    },
+    {
+      "main": "CinemaOne",
+      "source_ids": [
+        "CinemaOne",
+        "primary-source:cinemaone:1",
+        "primary-source:cinemaone:2",
+        "primary-source:cinemaone:3"
+      ]
+    },
+    {
+      "main": "CineMo!",
+      "source_ids": [
+        "CineMo!",
+        "primary-source:cinemo:1",
+        "primary-source:cinemo:3",
+        "primary-source:cinemo:4"
+      ]
+    },
+    {
+      "main": "Cinemax",
+      "source_ids": [
+        "Cinemax",
+        "primary-source:cinemax:1"
+      ]
+    },
+    {
+      "main": "CLTV36",
+      "source_ids": [
+        "CLTV36",
+        "primary-source:cltv36:1"
+      ]
+    },
+    {
+      "main": "CNBC",
+      "source_ids": [
+        "CNBC",
+        "primary-source:cnbc:1"
+      ]
+    },
+    {
+      "main": "Comedy Central",
+      "source_ids": [
+        "Comedy Central",
+        "primary-source:comedycentral:1"
+      ]
+    },
+    {
+      "main": "Crunchyroll",
+      "source_ids": [
+        "Crunchyroll",
+        "primary-source:crunchyroll:1",
+        "primary-source:crunchyroll:2",
+        "primary-source:crunchyroll:3"
+      ]
+    },
+    {
+      "main": "DAZN",
+      "source_ids": [
+        "DAZN",
+        "primary-source:dazn:1"
+      ]
+    },
+    {
+      "main": "Discovery Channel",
+      "source_ids": [
+        "Discovery Channel",
+        "primary-source:discoverychannel:1"
+      ]
+    },
+    {
+      "main": "Disney Channel",
+      "source_ids": [
+        "Disney Channel",
+        "primary-source:disneychannel:1",
+        "primary-source:disneychannel:2"
+      ]
+    },
+    {
+      "main": "DMAX",
+      "source_ids": [
+        "DMAX",
+        "primary-source:dmax:1"
+      ]
+    },
+    {
+      "main": "Dreamworks HD",
+      "source_ids": [
+        "Dreamworks HD",
+        "primary-source:dreamworkshd:1"
+      ]
+    },
+    {
+      "main": "ESPN",
+      "source_ids": [
+        "ESPN",
+        "primary-source:espn:1",
+        "primary-source:espn:3",
+        "primary-source:espn:4"
+      ]
+    },
+    {
+      "main": "Fight Network",
+      "source_ids": [
+        "Fight Network",
+        "primary-source:fightnetwork:1",
+        "primary-source:fightnetwork:2"
+      ]
+    },
+    {
+      "main": "FITE 24/7",
+      "source_ids": [
+        "FITE 24/7",
+        "primary-source:fite247:1"
+      ]
+    },
+    {
+      "main": "FRANCE 24",
+      "source_ids": [
+        "FRANCE 24",
+        "primary-source:france24:1"
+      ]
+    },
+    {
+      "main": "GMA",
+      "source_ids": [
+        "GMA",
+        "primary-source:gma:1"
+      ]
+    },
+    {
+      "main": "GTV",
+      "source_ids": [
+        "GTV",
+        "primary-source:gtv:1"
+      ]
+    },
+    {
+      "main": "Hallmark",
+      "source_ids": [
+        "Hallmark",
+        "primary-source:hallmark:1"
+      ]
+    },
+    {
+      "main": "HBO Boxing",
+      "source_ids": [
+        "HBO Boxing",
+        "primary-source:hboboxing:1"
+      ]
+    },
+    {
+      "main": "HBO POP",
+      "source_ids": [
+        "HBO POP",
+        "primary-source:hbopop:1"
+      ]
+    },
+    {
+      "main": "History HD",
+      "source_ids": [
+        "History HD",
+        "primary-source:historyhd:1",
+        "primary-source:historyhd:2",
+        "primary-source:historyhd:3",
+        "primary-source:historyhd:4",
+        "primary-source:historyhd:5",
+        "primary-source:historyhd:6"
+      ]
+    },
+    {
+      "main": "Hope Channel PH",
+      "source_ids": [
+        "Hope Channel PH",
+        "primary-source:hopechannelph:1"
+      ]
+    },
+    {
+      "main": "IBC13",
+      "source_ids": [
+        "IBC13",
+        "primary-source:ibc13:1"
+      ]
+    },
+    {
+      "main": "INCTV",
+      "source_ids": [
+        "INCTV",
+        "primary-source:inctv:1",
+        "primary-source:inctv:2"
+      ]
+    },
+    {
+      "main": "InWonder",
+      "source_ids": [
+        "InWonder",
+        "primary-source:inwonder:1",
+        "primary-source:inwonder:2"
+      ]
+    },
+    {
+      "main": "ION",
+      "source_ids": [
+        "ION",
+        "primary-source:ion:1",
+        "primary-source:ion:2"
+      ]
+    },
+    {
+      "main": "Jeepney TV",
+      "source_ids": [
+        "Jeepney TV",
+        "primary-source:jeepneytv:1"
+      ]
+    },
+    {
+      "main": "Just for Laughs Gags",
+      "source_ids": [
+        "Just for Laughs Gags",
+        "primary-source:justforlaughsgags:1"
+      ]
+    },
+    {
+      "main": "Kapamilya Channel HD",
+      "source_ids": [
+        "Kapamilya Channel HD",
+        "primary-source:kapamilyachannelhd:1"
+      ]
+    },
+    {
+      "main": "Kids TV",
+      "source_ids": [
+        "Kids TV",
+        "primary-source:kidstv:2",
+        "primary-source:kidstv:3",
+        "primary-source:kidstv:4",
+        "primary-source:kidstv:5",
+        "primary-source:kidstv:6",
+        "primary-source:kidstv:7",
+        "primary-source:kidstv:8",
+        "primary-source:kidstv:9",
+        "primary-source:kidstv:10",
+        "primary-source:kidstv:11",
+        "primary-source:kidstv:12"
+      ]
+    },
+    {
+      "main": "Kix HD",
+      "source_ids": [
+        "Kix HD",
+        "primary-source:kixhd:1"
+      ]
+    },
+    {
+      "main": "Knowledge Channel",
+      "source_ids": [
+        "Knowledge Channel",
+        "primary-source:knowledgechannel:1"
+      ]
+    },
+    {
+      "main": "Lifetime",
+      "source_ids": [
+        "Lifetime",
+        "primary-source:lifetime:1"
+      ]
+    },
+    {
+      "main": "Lotus Macau",
+      "source_ids": [
+        "Lotus Macau",
+        "primary-source:lotusmacau:1"
+      ]
+    },
+    {
+      "main": "MMA-TV",
+      "source_ids": [
+        "MMA-TV",
+        "primary-source:mmatv:2",
+        "primary-source:mmatv:3",
+        "primary-source:mmatv:4",
+        "primary-source:mmatv:5"
+      ]
+    },
+    {
+      "main": "Mindanow Network",
+      "source_ids": [
+        "Mindanow Network",
+        "primary-source:mindanownetwork:1",
+        "primary-source:mindanownetwork:2",
+        "primary-source:mindanownetwork:3",
+        "primary-source:mindanownetwork:4",
+        "primary-source:mindanownetwork:5",
+        "primary-source:mindanownetwork:6"
+      ]
+    },
+    {
+      "main": "MLB Network",
+      "source_ids": [
+        "MLB Network",
+        "primary-source:mlbnetwork:1",
+        "primary-source:mlbnetwork:2",
+        "primary-source:mlbnetwork:3",
+        "primary-source:mlbnetwork:4",
+        "primary-source:mlbnetwork:5"
+      ]
+    },
+    {
+      "main": "MNX HD",
+      "source_ids": [
+        "MNX HD",
+        "primary-source:mnxhd:1"
+      ]
+    },
+    {
+      "main": "MotoGP Channel",
+      "source_ids": [
+        "MotoGP Channel",
+        "primary-source:motogpchannel:1"
+      ]
+    },
+    {
+      "main": "Halloween Nights",
+      "source_ids": [
+        "Halloween Nights",
+        "primary-source:halloweennights:1"
+      ]
+    },
+    {
+      "main": "Movies Now",
+      "source_ids": [
+        "Movies Now",
+        "primary-source:moviesnow:1"
+      ]
+    },
+    {
+      "main": "Movie Sphere",
+      "source_ids": [
+        "Movie Sphere",
+        "primary-source:moviesphere:1",
+        "primary-source:moviesphere:2"
+      ]
+    },
+    {
+      "main": "MUX DOS",
+      "source_ids": [
+        "MUX DOS",
+        "primary-source:muxdos:1",
+        "primary-source:muxdos:2",
+        "primary-source:muxdos:3",
+        "primary-source:muxdos:4"
+      ]
+    },
+    {
+      "main": "Mythbusters",
+      "source_ids": [
+        "Mythbusters",
+        "primary-source:mythbusters:1"
+      ]
+    },
+    {
+      "main": "Mysterious Worlds",
+      "source_ids": [
+        "Mysterious Worlds",
+        "primary-source:mysteriousworlds:1",
+        "primary-source:mysteriousworlds:2",
+        "primary-source:mysteriousworlds:3",
+        "primary-source:mysteriousworlds:4",
+        "primary-source:mysteriousworlds:5"
+      ]
+    },
+    {
+      "main": "MYX",
+      "source_ids": [
+        "MYX",
+        "primary-source:myx:1"
+      ]
+    },
+    {
+      "main": "National Geographic",
+      "source_ids": [
+        "National Geographic",
+        "primary-source:nationalgeographic:1"
+      ]
+    },
+    {
+      "main": "NBA TV",
+      "source_ids": [
+        "NBA TV",
+        "primary-source:nbatv:1",
+        "primary-source:nbatv:2",
+        "primary-source:nbatv:3",
+        "primary-source:nbatv:4",
+        "primary-source:nbatv:5",
+        "primary-source:nbatv:6",
+        "primary-source:nbatv:7"
+      ]
+    },
+    {
+      "main": "New KMovies",
+      "source_ids": [
+        "New KMovies",
+        "primary-source:newkmovies:1",
+        "primary-source:newkmovies:2",
+        "primary-source:newkmovies:3"
+      ]
+    },
+    {
+      "main": "Net25",
+      "source_ids": [
+        "Net25",
+        "primary-source:net25:1"
+      ]
+    },
+    {
+      "main": "Nickjr",
+      "source_ids": [
+        "Nickjr",
+        "primary-source:nickjr:1",
+        "primary-source:nickjr:3"
+      ]
+    },
+    {
+      "main": "Nickelodeon",
+      "source_ids": [
+        "Nickelodeon",
+        "primary-source:nickelodeon:1",
+        "primary-source:nickelodeon:2",
+        "primary-source:nickelodeon:3",
+        "primary-source:nickelodeon:4",
+        "primary-source:nickelodeon:5"
+      ]
+    },
+    {
+      "main": "One PH",
+      "source_ids": [
+        "One PH",
+        "primary-source:oneph:1"
+      ]
+    },
+    {
+      "main": "One Sports",
+      "source_ids": [
+        "One Sports",
+        "primary-source:onesports:1"
+      ]
+    },
+    {
+      "main": "PBS Digital Studios",
+      "source_ids": [
+        "PBS Digital Studios",
+        "primary-source:pbsdigitalstudios:6"
+      ]
+    },
+    {
+      "main": "Pilipinas Live",
+      "source_ids": [
+        "Pilipinas Live",
+        "primary-source:pilipinaslive:1",
+        "primary-source:pilipinaslive:2",
+        "primary-source:pilipinaslive:3",
+        "primary-source:pilipinaslive:4",
+        "primary-source:pilipinaslive:5",
+        "primary-source:pilipinaslive:6",
+        "primary-source:pilipinaslive:7",
+        "primary-source:pilipinaslive:8",
+        "primary-source:pilipinaslive:9"
+      ]
+    },
+    {
+      "main": "Premier Sports",
+      "source_ids": [
+        "Premier Sports",
+        "primary-source:premiersports:1",
+        "primary-source:premiersports:2",
+        "primary-source:premiersports:3",
+        "primary-source:premiersports:4"
+      ]
+    },
+    {
+      "main": "Peoples Television",
+      "source_ids": [
+        "Peoples Television",
+        "primary-source:peoplestelevision:1"
+      ]
+    },
+    {
+      "main": "Popular Science",
+      "source_ids": [
+        "Popular Science",
+        "primary-source:popularscience:1"
+      ]
+    },
+    {
+      "main": "Rock Action",
+      "source_ids": [
+        "Rock Action",
+        "primary-source:rockaction:1"
+      ]
+    },
+    {
+      "main": "RPTV",
+      "source_ids": [
+        "RPTV",
+        "primary-source:rptv:1"
+      ]
+    },
+    {
+      "main": "SBS K-Drama",
+      "source_ids": [
+        "SBS K-Drama",
+        "primary-source:sbskdrama:1",
+        "primary-source:sbskdrama:2"
+      ]
+    },
+    {
+      "main": "Sky Sports F1",
+      "source_ids": [
+        "Sky Sports F1",
+        "primary-source:skysportsf1:2",
+        "primary-source:skysportsf1:3"
+      ]
+    },
+    {
+      "main": "SMNI News Channel",
+      "source_ids": [
+        "SMNI News Channel",
+        "primary-source:smninewschannel:1"
+      ]
+    },
+    {
+      "main": "Sony One Action Hits",
+      "source_ids": [
+        "Sony One Action Hits",
+        "primary-source:sonyoneactionhits:1",
+        "primary-source:sonyoneactionhits:2"
+      ]
+    },
+    {
+      "main": "SPOTV",
+      "source_ids": [
+        "SPOTV",
+        "primary-source:spotv:1"
+      ]
+    },
+    {
+      "main": "SYFY",
+      "source_ids": [
+        "Sci Fi",
+        "primary-source:syfy:1"
+      ]
+    },
+    {
+      "main": "TAP Edge",
+      "source_ids": [
+        "TAP Edge",
+        "primary-source:tapedge:1"
+      ]
+    },
+    {
+      "main": "TAP Sports",
+      "source_ids": [
+        "TAP Sports",
+        "primary-source:tapsports:1"
+      ]
+    },
+    {
+      "main": "Tastemade",
+      "source_ids": [
+        "Tastemade",
+        "primary-source:tastemade:2"
+      ]
+    },
+    {
+      "main": "TFC Asia",
+      "source_ids": [
+        "TFC Asia",
+        "primary-source:tfcasia:1"
+      ]
+    },
+    {
+      "main": "Tennis Channel",
+      "source_ids": [
+        "Tennis Channel",
+        "primary-source:tennischannel:1"
+      ]
+    },
+    {
+      "main": "Thrill",
+      "source_ids": [
+        "Thrill",
+        "primary-source:thrill:1"
+      ]
+    },
+    {
+      "main": "TLC",
+      "source_ids": [
+        "TLC",
+        "primary-source:tlc:2",
+        "primary-source:tlc:3"
+      ]
+    },
+    {
+      "main": "TNA Wrestling",
+      "source_ids": [
+        "TNA Wrestling",
+        "primary-source:tnawrestling:1",
+        "primary-source:tnawrestling:2",
+        "primary-source:tnawrestling:3"
+      ]
+    },
+    {
+      "main": "TNT Sports 1",
+      "source_ids": [
+        "TNT Sports 1",
+        "primary-source:tntsports1:1",
+        "primary-source:tntsports1:2",
+        "primary-source:tntsports1:3"
+      ]
+    },
+    {
+      "main": "Travel Channel",
+      "source_ids": [
+        "Travel Channel",
+        "primary-source:travelchannel:1"
+      ]
+    },
+    {
+      "main": "TSN",
+      "source_ids": [
+        "TSN",
+        "primary-source:tsn:1",
+        "primary-source:tsn:3"
+      ]
+    },
+    {
+      "main": "TV Maria",
+      "source_ids": [
+        "TV Maria",
+        "primary-source:tvmaria:1",
+        "primary-source:tvmaria:2"
+      ]
+    },
+    {
+      "main": "TV5 Monde",
+      "source_ids": [
+        "TV5 Monde",
+        "primary-source:tv5monde:1"
+      ]
+    },
+    {
+      "main": "UFC",
+      "source_ids": [
+        "UFC",
+        "primary-source:ufc:1",
+        "primary-source:ufc:2"
+      ]
+    },
+    {
+      "main": "VEVO",
+      "source_ids": [
+        "VEVO",
+        "primary-source:vevo:1",
+        "primary-source:vevo:2",
+        "primary-source:vevo:3",
+        "primary-source:vevo:4",
+        "primary-source:vevo:5",
+        "primary-source:vevo:6"
+      ]
+    },
+    {
+      "main": "Warner TV ",
+      "source_ids": [
+        "primary-source:warnertv:1"
+      ]
+    },
+    {
+      "main": "Wild Planet",
+      "source_ids": [
+        "Wild Planet",
+        "primary-source:wildplanet:1",
+        "primary-source:wildplanet:2"
+      ]
+    },
+    {
+      "main": "Xite Hits",
+      "source_ids": [
+        "Xite Hits",
+        "primary-source:xitehits:1",
+        "primary-source:xitehits:2",
+        "primary-source:xitehits:4",
+        "primary-source:xitehits:5",
+        "primary-source:xitehits:6",
+        "primary-source:xitehits:7",
+        "primary-source:xitehits:8"
+      ]
+    }
+  ],
+  "streams": [
+    {
+      "id": "3RSTV",
+      "played": true,
+      "available_resolutions": [
+        "1280x694"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:3rstv:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "TV5",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:tv5:1",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:tv5:3",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:tv5:4",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "A2Z",
+      "played": true,
+      "available_resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:a2z:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "Abante Radyo",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:abanteradyo:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "ABC Australia",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:abcaustralia:2",
+      "played": true,
+      "available_resolutions": [
+        "1024x576",
+        "1280x720",
+        "512x288",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:abcaustralia:3",
+      "played": true,
+      "available_resolutions": [
+        "1024x576",
+        "1280x720",
+        "512x288",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Al Jazeera",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:aljazeera:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "ALLTV2",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:alltv2:1",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "AMC+",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:amc:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "964x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:amc:2",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:amc:3",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Animax",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:animax:2",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Animal Planet",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:animalplanet:2",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 404"
+    },
+    {
+      "id": "Anime by Pluto",
+      "played": true,
+      "available_resolutions": [
+        "1024x576",
+        "1216x684",
+        "426x240",
+        "640x360",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:animebypluto:1",
+      "played": true,
+      "available_resolutions": [
+        "1024x576",
+        "1216x684",
+        "426x240",
+        "640x360",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:animebypluto:2",
+      "played": true,
+      "available_resolutions": [
+        "1024x576",
+        "1216x684"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:animebypluto:3",
+      "played": true,
+      "available_resolutions": [
+        "1024x576",
+        "1216x684",
+        "426x240",
+        "640x360",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:animebypluto:4",
+      "played": true,
+      "available_resolutions": [
+        "1024x576",
+        "1216x684",
+        "426x240",
+        "640x360",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:animebypluto:5",
+      "played": true,
+      "available_resolutions": [
+        "1024x576",
+        "1216x684"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:animebypluto:6",
+      "played": true,
+      "available_resolutions": [
+        "1024x576",
+        "1216x684",
+        "426x240",
+        "640x360",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Arirang",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:arirang:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "AXN",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:axn:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:axn:2",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "PBB Collab 3.0",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 404"
+    },
+    {
+      "id": "primary-source:pbbcollab30:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "320x180",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:pbbcollab30:3",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "320x180",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:pbbcollab30:4",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "320x180",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "BBC Lifestyle",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:bbclifestyle:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "BBC News",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:bbcnews:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "BeIn Sports",
+      "played": true,
+      "available_resolutions": [
+        "768x432"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:beinsports:1",
+      "played": true,
+      "available_resolutions": [
+        "1024x576",
+        "1280x720",
+        "1920x1080",
+        "704x396",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:beinsports:2",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:beinsports:3",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:beinsports:4",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "Bilyonaryo",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 503"
+    },
+    {
+      "id": "primary-source:bilyonaryo:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "Bloomberg",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:bloomberg:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "480x272",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "BS10 + more Converge Channels",
+      "played": true,
+      "available_resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:1",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:2",
+      "played": true,
+      "available_resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:3",
+      "played": true,
+      "available_resolutions": [
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:4",
+      "played": true,
+      "available_resolutions": [
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:5",
+      "played": true,
+      "available_resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:6",
+      "played": true,
+      "available_resolutions": [
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:7",
+      "played": true,
+      "available_resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:8",
+      "played": true,
+      "available_resolutions": [
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:9",
+      "played": true,
+      "available_resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:10",
+      "played": true,
+      "available_resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:11",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:12",
+      "played": true,
+      "available_resolutions": [
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:bs10moreconvergechannels:13",
+      "played": true,
+      "available_resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Cartoonito",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:cartoonito:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "timeout"
+    },
+    {
+      "id": "Cartoon Network",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:cartoonnetwork:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:cartoonnetwork:2",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 404"
+    },
+    {
+      "id": "primary-source:cartoonnetwork:3",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 404"
+    },
+    {
+      "id": "primary-source:cartoonnetwork:4",
+      "played": true,
+      "available_resolutions": [
+        "768x432"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "CCTV4",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:cctv4:1",
+      "played": true,
+      "available_resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "CGTN Documentary",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:cgtndocumentary:2",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "640x360",
+        "896x504"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "CinemaOne",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:cinemaone:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 404"
+    },
+    {
+      "id": "primary-source:cinemaone:2",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 404"
+    },
+    {
+      "id": "primary-source:cinemaone:3",
+      "played": true,
+      "available_resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "CineMo!",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:cinemo:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:cinemo:3",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 404"
+    },
+    {
+      "id": "primary-source:cinemo:4",
+      "played": true,
+      "available_resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Cinemax",
+      "played": false,
+      "available_resolutions": [],
+      "result": "timeout"
+    },
+    {
+      "id": "primary-source:cinemax:1",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "CLTV36",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 404"
+    },
+    {
+      "id": "primary-source:cltv36:1",
+      "played": true,
+      "available_resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "CNBC",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 404"
+    },
+    {
+      "id": "primary-source:cnbc:1",
+      "played": true,
+      "available_resolutions": [
+        "1024x576",
+        "1280x720",
+        "640x360",
+        "768x432"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Comedy Central",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "426x240",
+        "640x360",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:comedycentral:1",
+      "played": true,
+      "available_resolutions": [
+        "1024x576",
+        "1216x684"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Crunchyroll",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "384x216",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:crunchyroll:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "384x216",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:crunchyroll:2",
+      "played": true,
+      "available_resolutions": [
+        "512x288"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:crunchyroll:3",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "DAZN",
+      "played": true,
+      "available_resolutions": [
+        "1280x720"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:dazn:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "426x240",
+        "640x360",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Discovery Channel",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:discoverychannel:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Disney Channel",
+      "played": true,
+      "available_resolutions": [
+        "1280x720"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:disneychannel:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:disneychannel:2",
+      "played": true,
+      "available_resolutions": [
+        "1280x720"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "DMAX",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:dmax:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Dreamworks HD",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:dreamworkshd:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "ESPN",
+      "played": true,
+      "available_resolutions": [
+        "1280x720"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:espn:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:espn:3",
+      "played": true,
+      "available_resolutions": [
+        "1280x720"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:espn:4",
+      "played": true,
+      "available_resolutions": [
+        "1280x720"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Fight Network",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:fightnetwork:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:fightnetwork:2",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 503"
+    },
+    {
+      "id": "FITE 24/7",
+      "played": true,
+      "available_resolutions": [
+        "1280x720"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:fite247:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "FRANCE 24",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:france24:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "GMA",
+      "played": true,
+      "available_resolutions": [
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:gma:1",
+      "played": true,
+      "available_resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "GTV",
+      "played": true,
+      "available_resolutions": [
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:gtv:1",
+      "played": true,
+      "available_resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Hallmark",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:hallmark:1",
+      "played": true,
+      "available_resolutions": [
+        "1024x576",
+        "1216x684"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "HBO Boxing",
+      "played": true,
+      "available_resolutions": [
+        "1024x576",
+        "1280x720",
+        "1920x1080",
+        "426x240",
+        "640x360",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:hboboxing:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "512x288",
+        "704x396",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "HBO POP",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "480x270",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:hbopop:1",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "History HD",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:historyhd:1",
+      "played": true,
+      "available_resolutions": [
+        "1024x576",
+        "1280x720",
+        "1920x1080",
+        "384x216",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:historyhd:2",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "384x216",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:historyhd:3",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:historyhd:4",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "384x216",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:historyhd:5",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "384x216",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:historyhd:6",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "426x240",
+        "640x360",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Hope Channel PH",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 404"
+    },
+    {
+      "id": "primary-source:hopechannelph:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "640x360",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "IBC13",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:ibc13:1",
+      "played": true,
+      "available_resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "INCTV",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:inctv:1",
+      "played": true,
+      "available_resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:inctv:2",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "InWonder",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:inwonder:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:inwonder:2",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "426x240",
+        "640x360",
+        "848x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "ION",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "384x216",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:ion:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "384x216",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:ion:2",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "384x216",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Jeepney TV",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 404"
+    },
+    {
+      "id": "primary-source:jeepneytv:1",
+      "played": true,
+      "available_resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Just for Laughs Gags",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:justforlaughsgags:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 404"
+    },
+    {
+      "id": "Kapamilya Channel HD",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:kapamilyachannelhd:1",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Kids TV",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "384x216",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:kidstv:2",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "384x216",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:kidstv:3",
+      "played": true,
+      "available_resolutions": [
+        "1280x720"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:kidstv:4",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "640x360",
+        "854x480",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:kidstv:5",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:kidstv:6",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "426x240",
+        "640x360",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:kidstv:7",
+      "played": true,
+      "available_resolutions": [
+        "1024x576",
+        "1216x684",
+        "426x240",
+        "640x360",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:kidstv:8",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:kidstv:9",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:kidstv:10",
+      "played": true,
+      "available_resolutions": [
+        "1216x684",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:kidstv:11",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:kidstv:12",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "Kix HD",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:kixhd:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Knowledge Channel",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 404"
+    },
+    {
+      "id": "primary-source:knowledgechannel:1",
+      "played": true,
+      "available_resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Lifetime",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:lifetime:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "426x240",
+        "640x360",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Lotus Macau",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:lotusmacau:1",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "MMA-TV",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:mmatv:2",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "384x216",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:mmatv:3",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "384x216",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:mmatv:4",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "426x240",
+        "640x360",
+        "848x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:mmatv:5",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "384x216",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Mindanow Network",
+      "played": true,
+      "available_resolutions": [
+        "1280x720"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:mindanownetwork:1",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:mindanownetwork:2",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:mindanownetwork:3",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:mindanownetwork:4",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:mindanownetwork:5",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:mindanownetwork:6",
+      "played": true,
+      "available_resolutions": [
+        "1280x720"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "MLB Network",
+      "played": true,
+      "available_resolutions": [
+        "1280x720"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:mlbnetwork:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "426x240",
+        "640x360",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:mlbnetwork:2",
+      "played": true,
+      "available_resolutions": [
+        "1280x720"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:mlbnetwork:3",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "426x240",
+        "640x360",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:mlbnetwork:4",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 404"
+    },
+    {
+      "id": "primary-source:mlbnetwork:5",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "426x240",
+        "640x360",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "MNX HD",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:mnxhd:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "MotoGP Channel",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "426x240",
+        "640x360",
+        "848x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:motogpchannel:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "640x360",
+        "854x480",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Halloween Nights",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:halloweennights:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "Movies Now",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:moviesnow:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "Movie Sphere",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "480x270",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:moviesphere:1",
+      "played": true,
+      "available_resolutions": [
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:moviesphere:2",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "MUX DOS",
+      "played": true,
+      "available_resolutions": [
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:muxdos:1",
+      "played": true,
+      "available_resolutions": [
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:muxdos:2",
+      "played": true,
+      "available_resolutions": [
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:muxdos:3",
+      "played": true,
+      "available_resolutions": [
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:muxdos:4",
+      "played": true,
+      "available_resolutions": [
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Mythbusters",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:mythbusters:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "426x240",
+        "640x360",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Mysterious Worlds",
+      "played": true,
+      "available_resolutions": [
+        "1024x576",
+        "1280x720",
+        "1920x1080",
+        "426x240",
+        "640x360",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:mysteriousworlds:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "384x216",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:mysteriousworlds:2",
+      "played": true,
+      "available_resolutions": [
+        "1024x576",
+        "1280x720",
+        "1920x1080",
+        "384x216",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:mysteriousworlds:3",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "426x240",
+        "640x360",
+        "848x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:mysteriousworlds:4",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "384x216",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:mysteriousworlds:5",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "384x216",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "MYX",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:myx:1",
+      "played": true,
+      "available_resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "National Geographic",
+      "played": false,
+      "available_resolutions": [],
+      "result": "timeout"
+    },
+    {
+      "id": "primary-source:nationalgeographic:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "NBA TV",
+      "played": true,
+      "available_resolutions": [
+        "1024x576",
+        "1280x720",
+        "1920x1080",
+        "704x396",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:nbatv:1",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:nbatv:2",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:nbatv:3",
+      "played": true,
+      "available_resolutions": [
+        "1280x720"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:nbatv:4",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 404"
+    },
+    {
+      "id": "primary-source:nbatv:5",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:nbatv:6",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:nbatv:7",
+      "played": true,
+      "available_resolutions": [
+        "1280x720"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "New KMovies",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:newkmovies:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "384x216",
+        "640x360",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:newkmovies:2",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "1920x1080",
+        "960x540"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:newkmovies:3",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "Net25",
+      "played": true,
+      "available_resolutions": [
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:net25:1",
+      "played": true,
+      "available_resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Nickjr",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080",
+        "640x360"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:nickjr:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:nickjr:3",
+      "played": true,
+      "available_resolutions": [
+        "1024x576",
+        "1216x684",
+        "426x240",
+        "640x360",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Nickelodeon",
+      "played": false,
+      "available_resolutions": [],
+      "result": "timeout"
+    },
+    {
+      "id": "primary-source:nickelodeon:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:nickelodeon:2",
+      "played": false,
+      "available_resolutions": [],
+      "result": "timeout"
+    },
+    {
+      "id": "primary-source:nickelodeon:3",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "426x240",
+        "640x360",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:nickelodeon:4",
+      "played": true,
+      "available_resolutions": [
+        "1920x1080"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "primary-source:nickelodeon:5",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "426x240",
+        "640x360",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "One PH",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:oneph:1",
+      "played": true,
+      "available_resolutions": [
+        "320x240",
+        "720x576"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "One Sports",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:onesports:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "PBS Digital Studios",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:pbsdigitalstudios:6",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "Pilipinas Live",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 403"
+    },
+    {
+      "id": "primary-source:pilipinaslive:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:pilipinaslive:2",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:pilipinaslive:3",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:pilipinaslive:4",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 500"
+    },
+    {
+      "id": "primary-source:pilipinaslive:5",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:pilipinaslive:6",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 404"
+    },
+    {
+      "id": "primary-source:pilipinaslive:7",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:pilipinaslive:8",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:pilipinaslive:9",
+      "played": false,
+      "available_resolutions": [],
+      "result": "HTTP 404"
+    },
+    {
+      "id": "Premier Sports",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:premiersports:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:premiersports:2",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:premiersports:3",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:premiersports:4",
+      "played": false,
+      "available_resolutions": [],
+      "result": "timeout"
+    },
+    {
+      "id": "Peoples Television",
+      "played": false,
+      "available_resolutions": [],
+      "result": "timeout"
+    },
+    {
+      "id": "primary-source:peoplestelevision:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "timeout"
+    },
+    {
+      "id": "Popular Science",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:popularscience:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "Rock Action",
+      "played": false,
+      "available_resolutions": [],
+      "result": "timeout"
+    },
+    {
+      "id": "primary-source:rockaction:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "timeout"
+    },
+    {
+      "id": "RPTV",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:rptv:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "timeout"
+    },
+    {
+      "id": "SBS K-Drama",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:sbskdrama:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:sbskdrama:2",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "Sky Sports F1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:skysportsf1:2",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:skysportsf1:3",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "SMNI News Channel",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:smninewschannel:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "Sony One Action Hits",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:sonyoneactionhits:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:sonyoneactionhits:2",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "SPOTV",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:spotv:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "Sci Fi",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:syfy:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "TAP Edge",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:tapedge:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "TAP Sports",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:tapsports:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "Tastemade",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:tastemade:2",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "TFC Asia",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:tfcasia:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "Tennis Channel",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:tennischannel:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "Thrill",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:thrill:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "TLC",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:tlc:2",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:tlc:3",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "TNA Wrestling",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:tnawrestling:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:tnawrestling:2",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:tnawrestling:3",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "TNT Sports 1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:tntsports1:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:tntsports1:2",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:tntsports1:3",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "Travel Channel",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:travelchannel:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "TSN",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:tsn:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:tsn:3",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "TV Maria",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:tvmaria:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:tvmaria:2",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "TV5 Monde",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:tv5monde:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "UFC",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:ufc:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:ufc:2",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "VEVO",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:vevo:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:vevo:2",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:vevo:3",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:vevo:4",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:vevo:5",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:vevo:6",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:warnertv:1",
+      "played": true,
+      "available_resolutions": [
+        "1280x720",
+        "854x480"
+      ],
+      "result": "played"
+    },
+    {
+      "id": "Wild Planet",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:wildplanet:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:wildplanet:2",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "Xite Hits",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:xitehits:1",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:xitehits:2",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:xitehits:4",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:xitehits:5",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:xitehits:6",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:xitehits:7",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    },
+    {
+      "id": "primary-source:xitehits:8",
+      "played": false,
+      "available_resolutions": [],
+      "result": "inconclusive"
+    }
+  ],
+  "review_notes": [
+    {
+      "group": "Mindanow Network",
+      "note": "Alternate advertised 1080p versus 720p for the main, but the two displayed different material in simultaneous captures; the cause may be broadcast timing or different programming. No automatic promotion."
+    },
+    {
+      "group": "TFC Asia",
+      "note": "A later local comparison showed the same programme. Main advertised up to 1080p, alternate up to 720p; main is already first."
+    },
+    {
+      "group": "Kapamilya Channel HD",
+      "note": "A later local comparison showed the same scene; both advertised 1080p. Main is already first."
+    },
+    {
+      "group": "3RS SinePinoy",
+      "note": "The main and additional source currently have the same exact URL; they are not independent backups."
+    }
+  ]
+}
