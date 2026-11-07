@@ -10,7 +10,7 @@ class CheckError(Exception):
 def fetch(url,headers,stage,limit):
  try:
   req=urllib.request.Request(url,headers=headers)
-  with urllib.request.urlopen(req,timeout=8) as response:
+  with urllib.request.urlopen(req,timeout=15) as response:
    status=response.status;data=response.read(limit);return data,response.geturl(),status
  except urllib.error.HTTPError as error:raise CheckError(stage,'HTTP error',error.code)
  except Exception as error:raise CheckError(stage,type(error).__name__)
@@ -47,10 +47,10 @@ def check(row,ffprobe):
    if not data or b'<html' in data[:200].lower():raise CheckError(stage,'Empty or invalid segment')
   else:raise CheckError('manifest','Unsupported or invalid manifest')
   stage='ffprobe';headers=''.join(f'{k}: {v}\r\n' for k,v in row['headers'].items())
-  cmd=[ffprobe,'-v','error','-rw_timeout','15000000','-headers',headers]
+  cmd=[ffprobe,'-v','error','-rw_timeout','30000000','-headers',headers]
   if row.get('key'):cmd+=['-cenc_decryption_key',row['key']]
   cmd+=['-show_entries','stream=codec_type','-of','json',row['url']]
-  try:p=subprocess.run(cmd,capture_output=True,timeout=20)
+  try:p=subprocess.run(cmd,capture_output=True,timeout=40)
   except subprocess.TimeoutExpired:raise CheckError(stage,'Timeout')
   except OSError:raise CheckError(stage,'ffprobe unavailable')
   stderr=p.stderr.decode(errors='replace');match=re.search(r'(?:HTTP error|Server returned)\s+(\d{3})',stderr,re.I)
