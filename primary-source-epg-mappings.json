@@ -900,6 +900,21 @@
         ]
       },
       "evidence": "Reviewed named regional station, bound to the unchanged playback asset. Japanese BS HD (not terrestrial/4K), Taiwan main service (not second channel), and Indian feeds kept distinct. Official station identity: https://www.timesnetwork.in/"
+    },
+    "primary-source:net25:1": {
+      "expectedName": "Net25 Stream 2",
+      "requiredUrlContains": "00000090990000001090",
+      "canonical": "Net25",
+      "allowedSources": [
+        "CTCPH",
+        "PH2"
+      ],
+      "sourceMap": {
+        "CTCPH": [
+          "net-25"
+        ]
+      },
+      "evidence": "The base and alternate showed the same Net25 programme in simultaneous local captures. The binding requires the reviewed station label and unchanged 20-digit asset identifier; feed alignment should be rechecked periodically."
     }
   }
 }
