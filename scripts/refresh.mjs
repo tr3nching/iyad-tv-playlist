@@ -89,6 +89,7 @@ function attribute(value) {
 }
 
 export function channelCategory(name) {
+  if (name.startsWith('category:') && categoryOrder.includes(name.slice(9))) return name.slice(9);
   if (primarySourceGroups.has(name)) return primarySourceGroups.get(name);
   const additionalKey = clean(name).match(/^additional:([^:]+)(?::.*)?$/)?.[1];
   if (additionalKey && sourceOverrides[additionalKey]?.category) return sourceOverrides[additionalKey].category;
@@ -137,7 +138,15 @@ function entryName(entry) {
 
 const sourceName = name => name.replace(/\s*(?:\[(?:Backup|Alternate|Additional)\]|\*)$/, '').trim();
 const nameKey = name => sourceName(name).toLowerCase().replace(/[^a-z0-9]/g, '');
-const compareNames = (a, b) => sourceName(entryName(a)).localeCompare(sourceName(entryName(b)), 'en', { sensitivity: 'base', numeric: true }) || entryName(a).localeCompare(entryName(b), 'en') || a.id.localeCompare(b.id, 'en');
+const compareNames = (a, b) => Number(b.id.startsWith('category:')) - Number(a.id.startsWith('category:')) || sourceName(entryName(a)).localeCompare(sourceName(entryName(b)), 'en', { sensitivity: 'base', numeric: true }) || entryName(a).localeCompare(entryName(b), 'en') || a.id.localeCompare(b.id, 'en');
+
+export function addCategoryHeaders(text) {
+  const entries = playlistEntries(text).filter(entry => !entry.id.startsWith('category:'));
+  const groups = new Set(entries.map(entry => channelCategory(entry.id)));
+  const rows = categoryOrder.filter(group => groups.has(group)).map(group => ({ name: `━━ ${group.toUpperCase()} ━━`, epgId: `category:${group}`, group,
+    url: `https://tr3nching.github.io/ph-tv-playlist/categories/${group.toLowerCase()}.m3u8` }));
+  return text.split(/(?=^#EXTINF:)/m)[0] + entries.map(entry => entry.block.trimEnd() + '\n').join('') + playlist(rows).split('\n').slice(1).join('\n');
+}
 
 export function numberPlaylist(text) {
   const assignments = Object.create(null);
@@ -346,7 +355,7 @@ export async function combinePlaylists(output = new URL('../site/', import.meta.
     await writeFile(statusUrl, JSON.stringify(status, null, 2));
   } catch (error) { if (error.code !== 'ENOENT') throw error; }
   const base = primary.replace(/^#EXTM3U[^\n]*/, `#EXTM3U x-tvg-url="${EPG_URL}"`);
-  const numbered = numberPlaylist(categorizePlaylist(base.trimEnd() + '\n' + backup.split('\n').slice(1).join('\n')));
+  const numbered = numberPlaylist(categorizePlaylist(addCategoryHeaders(base.trimEnd() + '\n' + backup.split('\n').slice(1).join('\n'))));
   const combined = numbered.text;
   await writeFile(new URL('channel-numbers.json', output), JSON.stringify(numbered.assignments, null, 2) + '\n');
   await writeFile(new URL('playlist.m3u.tmp', output), combined);
@@ -355,7 +364,7 @@ export async function combinePlaylists(output = new URL('../site/', import.meta.
   const count = text => (text.match(/^#EXTINF:/gm) || []).length;
   const categories = {};
   for (const match of combined.matchAll(/^#EXTINF:[^\n]*group-title="([^"]*)"/gm)) categories[match[1]] = (categories[match[1]] || 0) + 1;
-  await writeFile(new URL('playlist-status.json', output), JSON.stringify({ assembledAt: new Date().toISOString(), entryCount: count(combined), primaryEntryCount: count(primary), alternateEntryCount: count(backup), categories }, null, 2));
+  await writeFile(new URL('playlist-status.json', output), JSON.stringify({ assembledAt: new Date().toISOString(), entryCount: count(combined), categoryHeaderCount: (combined.match(/tvg-id="category:/g) || []).length, primaryEntryCount: count(primary), alternateEntryCount: count(backup), categories }, null, 2));
 }
 
 export async function resolveChannel(channel, key, transport = request) {

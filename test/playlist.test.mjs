@@ -5,7 +5,7 @@ import { mkdtemp, readFile, writeFile, unlink, rmdir } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { validatedAdditional, primarySourceJobs, resolveChannel, numberPlaylist, orderPlaylist, channelCategory, decrypt, playlist, streamUrl, parseBackupChannels, checkBackupManifests, combinePlaylists, markAdditionalChannels, streamCheckId, additionalChannelId } from '../scripts/refresh.mjs';
+import { addCategoryHeaders, validatedAdditional, primarySourceJobs, resolveChannel, numberPlaylist, orderPlaylist, channelCategory, decrypt, playlist, streamUrl, parseBackupChannels, checkBackupManifests, combinePlaylists, markAdditionalChannels, streamCheckId, additionalChannelId } from '../scripts/refresh.mjs';
 
 test('decrypts the player response format without exposing key material', () => {
   const key = '0123456789abcdefextra';
@@ -72,17 +72,17 @@ test('one canonical playlist retains DRM, backups and guide, including without b
     await combinePlaylists(output);
     const canonical = await readFile(new URL('playlist.m3u', output), 'utf8');
     assert.equal((canonical.match(/^#EXTM3U/gm) || []).length, 1);
-    assert.equal((canonical.match(/^#EXTINF:/gm) || []).length, 2);
+    assert.equal((canonical.match(/^#EXTINF:/gm) || []).length, 3);
     assert.ok(canonical.includes('license_type=org.w3.clearkey'));
-    assert.equal((canonical.match(/group-title="Sports"/g) || []).length, 2);
+    assert.equal((canonical.match(/group-title="Sports"/g) || []).length, 3);
     assert.ok(canonical.includes('NBA TV *'));
     assert.equal(canonical, await readFile(new URL('playlist-combined.m3u', output), 'utf8'));
-    assert.equal(JSON.parse(await readFile(new URL('playlist-status.json', output))).entryCount, 2);
+    assert.equal(JSON.parse(await readFile(new URL('playlist-status.json', output))).entryCount, 3);
     await unlink(new URL('playlist-backup.m3u', output));
     await combinePlaylists(output);
     const fallback = await readFile(new URL('playlist.m3u', output), 'utf8');
     assert.ok(fallback.includes('license_type=org.w3.clearkey'));
-    assert.equal((fallback.match(/^#EXTINF:/gm) || []).length, 1);
+    assert.equal((fallback.match(/^#EXTINF:/gm) || []).length, 2);
   } finally {
     for (const file of files) { try { await unlink(new URL(file, output)); } catch {} }
     await rmdir(directory);
@@ -240,4 +240,16 @@ test('source numbering handles escaped base channel identities', () => {
   const rows=jobs.map((job,index)=>({...job,url:`https://example.com/escaped-${index}.m3u8`}));
   const {assignments}=numberPlaylist(playlist(rows));
   assert.equal(assignments['primary-source:rbtest:1'],`${assignments['R&B Test']}.001`);
+});
+
+
+test('category title channels lead their block and reserve its starting whole number', () => {
+ const input=playlist([{name:'A2Z',url:'https://example.com/a.m3u8'},{name:'NBA TV',url:'https://example.com/b.m3u8'}]);
+ const first=numberPlaylist(addCategoryHeaders(input));
+ assert.equal(first.assignments['category:Entertainment'],100);
+ assert.equal(first.assignments.A2Z,101);
+ assert.equal(first.assignments['category:Sports'],300);
+ assert.equal(first.assignments['NBA TV'],301);
+ assert.equal((first.text.match(/tvg-id="category:/g)||[]).length,2);
+ assert.equal(numberPlaylist(addCategoryHeaders(first.text)).text,first.text);
 });
