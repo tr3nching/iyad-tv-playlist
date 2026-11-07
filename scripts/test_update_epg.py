@@ -4,6 +4,65 @@ from unittest.mock import patch
 import update_epg as epg
 
 class GuideTests(unittest.TestCase):
+ def test_additional_alias_is_restricted_to_approved_region(self):
+  identity='additional:sports:123'
+  cfg={'_additionalMappings':{identity:{'canonical':'NBA TV Philippines','allowedSources':['PH2'],'sourceMap':{'PH2':['ph']}}}}
+  self.assertEqual(epg.candidate_ids(identity,self.feed('NBA TV Philippines','ph'),'PH2',cfg),['ph'])
+  self.assertEqual(epg.candidate_ids(identity,self.feed('NBA TV','us'),'US2',cfg),[])
+  self.assertEqual(epg.candidate_ids('additional:unreviewed:456',self.feed('Unreviewed','other'),'PH2',cfg),[])
+
+ def test_additional_metadata_includes_unavailable_entries_and_unique_ids(self):
+  with tempfile.TemporaryDirectory() as directory:
+   out=Path(directory)
+   (out/'backup-candidates.m3u').write_text('#EXTM3U\n#EXTINF:-1 tvg-id="additional:one:111" tvg-name="Same [Additional]",Same\nhttps://example.com/one\n#EXTINF:-1 tvg-id="additional:two:222" tvg-name="Same [Additional]",Same\nhttps://example.com/two\n')
+   (out/'playlist.m3u').write_text('#EXTM3U\n#EXTINF:-1 tvg-id="News",News\nhttps://example.com/one\n')
+   entries=epg.additional_entries(out,{})
+   self.assertEqual(len(entries),2);self.assertNotEqual(entries[0]['id'],entries[1]['id'])
+   self.assertEqual(entries[0]['duplicatePrimary'],'News');self.assertIsNone(entries[1]['duplicatePrimary'])
+   self.assertNotIn('https://',json.dumps(entries));self.assertNotIn('url',entries[0])
+
+ def test_additional_genre_uses_source_name_not_opaque_id(self):
+  identity='additional:nba:123'
+  programmes,_,_=epg.prepare_channel(identity,'nba',self.feed('NBA TV','nba'),dt.datetime.now(epg.UTC),'NBA TV')
+  self.assertTrue(all(p.get('channel')==identity and p.findtext('category')=='SPORTS' for a,b,p in programmes))
+
+ def test_additional_station_placeholders_cannot_bypass_exclusion_using_namespace(self):
+  for name,title in [('IBC13','IBC TV 13'),('A2Z','A2Z'),('PTV4','PTV 4')]:
+   feed=self.feed('provider-code','opaque')
+   for p in feed['programmes']['opaque']:p.find('title').text=title
+   programmes,_,placeholders=epg.prepare_channel('additional:station:123','opaque',feed,dt.datetime.now(epg.UTC),name)
+   self.assertEqual(programmes,[]);self.assertEqual(placeholders,4)
+
+ def test_source_only_override_preserves_additional_id_and_category(self):
+  with tempfile.TemporaryDirectory() as directory:
+   root=Path(directory);(root/'scripts').mkdir()
+   identity='additional:3rstv:123'
+   (root/'source-channel-overrides.json').write_text(json.dumps({'3rstv':{'name':'3RS SINEPINOY','category':'Movies'}}))
+   (root/'backup-candidates.m3u').write_text('#EXTM3U\n#EXTINF:-1 tvg-id="'+identity+'" tvg-name="3RS TV [Additional]",3RS TV\nhttps://example.com/3rs\n')
+   with patch.object(epg,'BASE',root/'scripts'):entries=epg.additional_entries(root,{})
+   self.assertEqual(entries[0]['id'],identity);self.assertEqual(entries[0]['sourceName'],'3RS SINEPINOY')
+   self.assertEqual(entries[0]['display'],'3RS SINEPINOY');self.assertEqual(entries[0]['genreGroup'],'Movies')
+   self.assertFalse(entries[0]['reviewed']);self.assertIsNone(entries[0]['duplicatePrimary'])
+
+ def test_exact_duplicate_reuses_actual_primary_schedule_with_independent_id(self):
+  identity='additional:news:111'
+  with tempfile.TemporaryDirectory() as directory:
+   out=Path(directory)
+   cfg={'sources':[{'name':'one','url':'https://example.com'}],'activeSources':['one'],'channelMap':{},'minChannels':1}
+   (out/'config.json').write_text(json.dumps(cfg));(out/'catalog.json').write_text('[{"name":"News"}]')
+   (out/'playlist.m3u').write_text('#EXTM3U\n#EXTINF:-1 tvg-id="News",News\nhttps://example.com/one\n')
+   (out/'backup-candidates.m3u').write_text('#EXTM3U\n#EXTINF:-1 tvg-id="'+identity+'" tvg-name="News [Additional]",News\nhttps://example.com/one\n#EXTINF:-1 tvg-id="additional:custom:222" tvg-name="Custom",Custom\nhttps://example.com/unavailable\n')
+   feed=self.feed();metadata={'one':{'programme_entries':4}}
+   with patch.object(epg,'load_sources',return_value=({'one':feed},metadata)):
+    result=epg.build(out/'catalog.json',out,config_path=out/'config.json')
+   self.assertEqual(result['additional_entries']['total'],2);self.assertEqual(result['additional_entries']['mapped'],1)
+   xml=E.parse(out/'epg.xml').getroot();p=[p for p in xml.findall('programme') if p.get('channel')==identity]
+   self.assertEqual(len(p),4);self.assertEqual(p[0].get('start'),epg.stamp(epg.parse_time(feed['programmes']['news'][0].get('start'))))
+   audit=json.loads((out/'3rs-epg-audit.json').read_text())
+   self.assertEqual(len(audit),2);self.assertEqual(audit[0]['duplicate_primary_id'],'News')
+   self.assertEqual(audit[1]['status'],'no reviewed station/regional identity')
+   self.assertNotIn('https://',json.dumps(audit))
+
  def run_build(self,feeds,mapping=None,strict=None):
   with tempfile.TemporaryDirectory() as directory:
    out=Path(directory);names=list(mapping or {'News':{},'Sports':{}})
@@ -68,6 +127,9 @@ class GuideTests(unittest.TestCase):
   self.assertFalse(epg.apply_genre_fallback(blank,'Cartoon Network'))
   self.assertEqual([c.text for c in blank.findall('category')],['FAMILY_KIDS'])
   self.assertEqual([child.tag for child in blank],['title','category','episode-num'])
+  variant=E.Element('programme');E.SubElement(variant,'title').text='Music show'
+  self.assertTrue(epg.apply_genre_fallback(variant,'HALLYPOP'))
+  self.assertEqual(variant.findtext('category'),'MUSIC')
   unknown=E.Element('programme')
   self.assertFalse(epg.apply_genre_fallback(unknown,'Unlisted channel'))
   self.assertEqual(unknown.findall('category'),[])

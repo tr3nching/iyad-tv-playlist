@@ -22,3 +22,4 @@ site/playlist-status.json
 site/backup-candidates.m3u
 site/stream-health.json
 site/channel-numbers.json
+site/3rs-epg-audit.json

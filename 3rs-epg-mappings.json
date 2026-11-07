@@ -1,0 +1,978 @@
+{
+  "policy": "ID-bound reviewed regional identities; no guessed custom station mappings. Stream URLs and keys are deliberately omitted.",
+  "entries": {
+    "additional:nbatvph:13a17500cc0e": {
+      "sourceName": "NBA TV PH",
+      "canonical": "NBA TV Philippines",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: pl_nba"
+    },
+    "additional:a2z:9e03847018a3": {
+      "sourceName": "A2Z",
+      "canonical": "A2Z",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "MEDIAQUEST": [
+          "cg_a2z"
+        ],
+        "CIGNALMERGED": [
+          "cg_a2z.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_a2z"
+    },
+    "additional:rptv:f7e771646eee": {
+      "sourceName": "RPTV",
+      "canonical": "RPTV",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "MEDIAQUEST": [
+          "cnn_rptv_prod_hd"
+        ],
+        "CIGNALMERGED": [
+          "cnn_rptv_prod_hd.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cnn_rptv_prod_hd"
+    },
+    "additional:tv5:3b5c7607b1c0": {
+      "sourceName": "TV5",
+      "canonical": "TV5",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: tv5_hd"
+    },
+    "additional:pbarush:1796b7294731": {
+      "sourceName": "PBARUSH",
+      "canonical": "PBA Rush",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "MEDIAQUEST": [
+          "cg_pbarush_hd1"
+        ],
+        "CIGNALMERGED": [
+          "cg_pbarush_hd1.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_pbarush_hd1"
+    },
+    "additional:oneph:5a60945755ca": {
+      "sourceName": "ONEPH",
+      "canonical": "One PH",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "MEDIAQUEST": [
+          "oneph_sd"
+        ],
+        "CIGNALMERGED": [
+          "oneph_sd.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: oneph_sd"
+    },
+    "additional:pbo:5fde985a237e": {
+      "sourceName": "PBO",
+      "canonical": "Pinoy Box Office",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: pbo_sd"
+    },
+    "additional:vivacinema:08c5a8c717c5": {
+      "sourceName": "VIVACINEMA",
+      "canonical": "VIVA Cinema",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: viva_sd"
+    },
+    "additional:cinemax:fa3647a8baa2": {
+      "sourceName": "Cinemax",
+      "canonical": "Cinemax",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_cinemax"
+    },
+    "additional:tmc:c90435e9aced": {
+      "sourceName": "TMC",
+      "canonical": "Tagalized Movie Channel",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "CIGNALMERGED": [
+          "cg_tagalogmovie.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_tagalogmovie"
+    },
+    "additional:depedchannel:738c1cf949ac": {
+      "sourceName": "DepEd Channel",
+      "canonical": "DepEd TV",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "PH2": [
+          "DepEd.TV.ph"
+        ],
+        "pw": [
+          "573014"
+        ],
+        "MEDIAQUEST": [
+          "depedch_sd"
+        ],
+        "CIGNALMERGED": [
+          "depedch_sd.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: depedch_sd"
+    },
+    "additional:axnchannel:b388de360602": {
+      "sourceName": "AXN CHANNEL",
+      "canonical": "AXN",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "MEDIAQUEST": [
+          "cg_axn_sd"
+        ],
+        "CIGNALMERGED": [
+          "cg_axn_sd.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_axn_sd"
+    },
+    "additional:dreamworkshd:168aa4ea5203": {
+      "sourceName": "Dreamworks HD",
+      "canonical": "Dreamworks HD",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "MEDIAQUEST": [
+          "cg_dreamworks_hd1"
+        ],
+        "CIGNALMERGED": [
+          "cg_dreamworks_hd1.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_dreamworks_hd1"
+    },
+    "additional:dreamworkstagalog:331deb173577": {
+      "sourceName": "Dreamworks Tagalog",
+      "canonical": null,
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "PH2": [
+          "DreamWorks.(Tagalized).ph"
+        ],
+        "pw": [
+          "578313"
+        ],
+        "MEDIAQUEST": [
+          "cg_dreamworktag"
+        ],
+        "CIGNALMERGED": [
+          "cg_dreamworktag.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_dreamworktag"
+    },
+    "additional:fashiontvhd:d44435f57ded": {
+      "sourceName": "Fashion TV HD",
+      "canonical": "Fashion TV HD",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: dr_fashiontvhd"
+    },
+    "additional:foodnetworkhd:f99a399f73ee": {
+      "sourceName": "Food Network HD",
+      "canonical": "Food Network HD",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "CIGNALMERGED": [
+          "cg_foodnetwork_hd1.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_foodnetwork_hd1"
+    },
+    "additional:hbofamily:4f83a504b714": {
+      "sourceName": "HBO Family",
+      "canonical": "HBO Family",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_hbofam"
+    },
+    "additional:hbohits:4f9b19e92222": {
+      "sourceName": "HBO Hits",
+      "canonical": "HBO Hits",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "PH1": [
+          "HBO.HITS.HD.ph",
+          "HBO.HITS.ph"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_hbohits"
+    },
+    "additional:hbosignature:f64a6b9ebb1c": {
+      "sourceName": "HBO Signature",
+      "canonical": "HBO Signature",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_hbosign"
+    },
+    "additional:hbohd:c6348b1fb478": {
+      "sourceName": "HBO HD",
+      "canonical": "HBO",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_hbohd"
+    },
+    "additional:hgtvhd:3995eb0f0da0": {
+      "sourceName": "HGTV HD",
+      "canonical": "HGTV HD",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "CIGNALMERGED": [
+          "hgtv_hd1.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: hgtv_hd1"
+    },
+    "additional:historyhd:578ea3099aa7": {
+      "sourceName": "History HD",
+      "canonical": "History HD",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "MEDIAQUEST": [
+          "dr_historyhd"
+        ],
+        "CIGNALMERGED": [
+          "dr_historyhd.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: dr_historyhd"
+    },
+    "additional:hitsnow:63759286423d": {
+      "sourceName": "Hits Now",
+      "canonical": "Hits Now",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "MEDIAQUEST": [
+          "cg_hitsnow"
+        ],
+        "CIGNALMERGED": [
+          "cg_hitsnow.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_hitsnow"
+    },
+    "additional:ibc13:c84c273a2918": {
+      "sourceName": "IBC13",
+      "canonical": "IBC13",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: ibc13_sd"
+    },
+    "additional:kixhd:c1c1ade2da50": {
+      "sourceName": "Kix HD",
+      "canonical": "Kix HD",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "CIGNALMERGED": [
+          "kix_hd1.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: kix_hd1"
+    },
+    "additional:knowledgechannel:2a663afdb59c": {
+      "sourceName": "Knowledge Channel",
+      "canonical": "Knowledge Channel",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: dr_knowledgechannel"
+    },
+    "additional:lifetime:795e850f8d64": {
+      "sourceName": "Lifetime",
+      "canonical": "Lifetime",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "MEDIAQUEST": [
+          "dr_lifetime"
+        ],
+        "CIGNALMERGED": [
+          "dr_lifetime.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: dr_lifetime"
+    },
+    "additional:mptv:f83771d08cac": {
+      "sourceName": "MPTV",
+      "canonical": null,
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "MEDIAQUEST": [
+          "cg_mptv"
+        ],
+        "CIGNALMERGED": [
+          "cg_mptv.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_mptv"
+    },
+    "additional:nickjr:dac508d34a84": {
+      "sourceName": "Nickjr",
+      "canonical": "Nickjr",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "CIGNALMERGED": [
+          "dr_nickjr.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: dr_nickjr"
+    },
+    "additional:nickelodeon:2708c910abee": {
+      "sourceName": "Nickelodeon",
+      "canonical": "Nickelodeon",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "MEDIAQUEST": [
+          "dr_nickelodeon"
+        ],
+        "CIGNALMERGED": [
+          "dr_nickelodeon.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: dr_nickelodeon"
+    },
+    "additional:onenewshd:c62da151d142": {
+      "sourceName": "One News HD",
+      "canonical": "One News HD",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "MEDIAQUEST": [
+          "onenews_hd1"
+        ],
+        "CIGNALMERGED": [
+          "onenews_hd1.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: onenews_hd1"
+    },
+    "additional:onesports:2a5eac860dc2": {
+      "sourceName": "One Sports",
+      "canonical": "One Sports",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "MEDIAQUEST": [
+          "cg_onesports_hd"
+        ],
+        "CIGNALMERGED": [
+          "cg_onesports_hd.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_onesports_hd"
+    },
+    "additional:onesportsplushd:b2d155134e5e": {
+      "sourceName": "One Sports Plus HD",
+      "canonical": null,
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "PH2": [
+          "One.Sports+.ph"
+        ],
+        "pw": [
+          "578585"
+        ],
+        "MEDIAQUEST": [
+          "cg_onesportsplus_hd1"
+        ],
+        "CIGNALMERGED": [
+          "cg_onesportsplus_hd1.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_onesportsplus_hd1"
+    },
+    "additional:premiersports:1edcfd35c652": {
+      "sourceName": "Premier Sports",
+      "canonical": "Premier Sports",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_premiersports_hd1"
+    },
+    "additional:ptv4:4ba3f8a35fa3": {
+      "sourceName": "PTV4",
+      "canonical": "Peoples Television",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "MEDIAQUEST": [
+          "cg_ptv4_sd"
+        ],
+        "CIGNALMERGED": [
+          "cg_ptv4_sd.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_ptv4_sd"
+    },
+    "additional:sonypix:eeb12fb019d6": {
+      "sourceName": "Sony Pix",
+      "canonical": "Sony Pix",
+      "allowedSources": [
+        "IN4",
+        "IN1"
+      ],
+      "sourceMap": {},
+      "evidence": "Tata Play/SonyLIV source host identifies the Indian Sony Pix feed. Provider route identifier: master.m3u8"
+    },
+    "additional:spotv:2ea47402a32a": {
+      "sourceName": "SPOTV",
+      "canonical": "SPOTV",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: dr_spotvhd"
+    },
+    "additional:spotv2:7770fe46b3bf": {
+      "sourceName": "SPOTV2",
+      "canonical": null,
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "PH2": [
+          "SPOTV.2.HD.ph"
+        ],
+        "PH1": [
+          "SPOTV.2.HD.ph",
+          "SPOTV..2.ph"
+        ],
+        "pw": [
+          "573006"
+        ],
+        "MEDIAQUEST": [
+          "dr_spotv2hd"
+        ],
+        "CIGNALMERGED": [
+          "dr_spotv2hd.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: dr_spotv2hd"
+    },
+    "additional:tapedge:0e46dde847c5": {
+      "sourceName": "TAP Edge",
+      "canonical": "TAP Edge",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: dr_tapedge"
+    },
+    "additional:tapsports:98594b84f55c": {
+      "sourceName": "TAP Sports",
+      "canonical": "TAP Sports",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "MEDIAQUEST": [
+          "dr_tapsports"
+        ],
+        "CIGNALMERGED": [
+          "dr_tapsports.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: dr_tapsports"
+    },
+    "additional:tapmovies:55fbfe108561": {
+      "sourceName": "Tap Movies",
+      "canonical": "Tap Movies",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: dr_popupppvhd"
+    },
+    "additional:taptv:cd070843b415": {
+      "sourceName": "TAP TV",
+      "canonical": "TAP TV",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_taptv_sd"
+    },
+    "additional:tapactionflix:eaa46b684586": {
+      "sourceName": "Tap Action Flix",
+      "canonical": "Tap Action Flix",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_tapactionflix_hd1"
+    },
+    "additional:thrill:d2cf308ea159": {
+      "sourceName": "Thrill",
+      "canonical": "Thrill",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "CIGNALMERGED": [
+          "cg_thrill_sd.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_thrill_sd"
+    },
+    "additional:travelchannel:a37f42e80c68": {
+      "sourceName": "Travel Channel",
+      "canonical": "Travel Channel",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "CIGNALMERGED": [
+          "travel_channel_sd.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: travel_channel_sd"
+    },
+    "additional:rockaction:37e248a0d21d": {
+      "sourceName": "ROCK ACTION",
+      "canonical": "Rock Action",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "MEDIAQUEST": [
+          "dr_rockextreme"
+        ],
+        "CIGNALMERGED": [
+          "dr_rockextreme.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: dr_rockextreme"
+    },
+    "additional:rockentertaiment:385545ffaa8b": {
+      "sourceName": "ROCK ENTERTAIMENT",
+      "canonical": null,
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "PH2": [
+          "Rock.Entertainment.ph"
+        ],
+        "PH1": [
+          "ROCK.ENTERTAINMENT.HD.ph",
+          "ROCK.ENTERTAINMENT.ph"
+        ],
+        "pw": [
+          "579283"
+        ],
+        "MEDIAQUEST": [
+          "dr_rockentertainment"
+        ],
+        "CIGNALMERGED": [
+          "dr_rockentertainment.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: dr_rockentertainment"
+    },
+    "additional:tvnmovies:69d9d2f0fc19": {
+      "sourceName": "TVN Movies",
+      "canonical": "TVN Movies",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "MEDIAQUEST": [
+          "cg_tvnmovie"
+        ],
+        "CIGNALMERGED": [
+          "cg_tvnmovie.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_tvnmovie"
+    },
+    "additional:tvn:7c6903afcb38": {
+      "sourceName": "TVN",
+      "canonical": "TVN",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "MEDIAQUEST": [
+          "cg_tvnpre"
+        ],
+        "CIGNALMERGED": [
+          "cg_tvnpre.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_tvnpre"
+    },
+    "additional:uaapvarsity:ba264d7ab0dd": {
+      "sourceName": "UAAP Varsity",
+      "canonical": "UAAP Varsity",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {
+        "MEDIAQUEST": [
+          "cg_uaap_cplay_sd"
+        ],
+        "CIGNALMERGED": [
+          "cg_uaap_cplay_sd.cignal"
+        ]
+      },
+      "evidence": "Named Philippine station on PLDT/Cignal channel route; restricted to Philippines guide sources. Provider route identifier: cg_uaap_cplay_sd"
+    },
+    "additional:gma:c75458e49931": {
+      "sourceName": "GMA",
+      "canonical": "GMA",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Distinct Philippine broadcaster name and source logo; aliases restricted to Philippine guide sources."
+    },
+    "additional:gtv:cd009bcfa6d9": {
+      "sourceName": "GTV",
+      "canonical": "GTV",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Distinct Philippine broadcaster name and source logo; aliases restricted to Philippine guide sources."
+    },
+    "additional:jeepneytv:f37935b58879": {
+      "sourceName": "JEEPNEYTV",
+      "canonical": "Jeepney TV",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Distinct Philippine broadcaster name and source logo; aliases restricted to Philippine guide sources."
+    },
+    "additional:cinemo:fb72504d47ac": {
+      "sourceName": "CineMo!",
+      "canonical": "CineMo!",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Distinct Philippine broadcaster name and source logo; aliases restricted to Philippine guide sources."
+    },
+    "additional:cinemaone:ee3083569b6d": {
+      "sourceName": "Cinema One!",
+      "canonical": "CinemaOne",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Distinct Philippine broadcaster name and source logo; aliases restricted to Philippine guide sources."
+    },
+    "additional:inctv:9a55b8b0b957": {
+      "sourceName": "INCTV",
+      "canonical": "INCTV",
+      "allowedSources": [
+        "PH2",
+        "PH1",
+        "pw",
+        "MEDIAQUEST",
+        "CIGNALMERGED"
+      ],
+      "sourceMap": {},
+      "evidence": "Distinct Philippine broadcaster name and source logo; aliases restricted to Philippine guide sources."
+    },
+    "additional:mtvlive:01f885411a9c": {
+      "sourceName": "MTV Live",
+      "canonical": "MTV Live",
+      "allowedSources": [
+        "MY1"
+      ],
+      "sourceMap": {},
+      "evidence": "Astro Malaysia provider host and channel5014 identify this MTV Live source."
+    }
+  }
+}

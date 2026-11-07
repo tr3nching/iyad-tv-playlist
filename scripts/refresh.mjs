@@ -7,6 +7,7 @@ const API = 'https://auth.iyad.click';
 const EPG_URL = 'https://tr3nching.github.io/ph-tv-playlist/epg.xml.gz';
 const BACKUP_SOURCE = 'https://3rstvportal.blogspot.com/';
 const channelGroups = JSON.parse(await readFile(new URL('../channel-groups.json', import.meta.url), 'utf8'));
+const sourceOverrides = JSON.parse(await readFile(new URL('../source-channel-overrides.json', import.meta.url), 'utf8'));
 const normalizedGroups = new Map(Object.entries(channelGroups).map(([name, group]) => [name.toLowerCase().replace(/[^a-z0-9]/g, ''), group]));
 const headers = {
   Origin: 'https://iyad.click',
@@ -58,6 +59,8 @@ function attribute(value) {
 }
 
 export function channelCategory(name) {
+  const additionalKey = clean(name).match(/^additional:([^:]+)(?::.*)?$/)?.[1];
+  if (additionalKey && sourceOverrides[additionalKey]?.category) return sourceOverrides[additionalKey].category;
   const key = clean(name).replace(/^additional:([^:]+)(?::.*)?$/, '$1').replace(/\s*\[(?:Backup|Alternate|Additional)\]$/, '').toLowerCase().replace(/[^a-z0-9]/g, '');
   return normalizedGroups.get(key) || 'General';
 }
@@ -122,7 +125,8 @@ export function numberPlaylist(text) {
 export function markAdditionalChannels(primary, backup) {
   const regular = playlistEntries(primary);
   const entries = playlistEntries(backup).map(entry => {
-    const name = sourceName(entryName(entry));
+    const sourceKey = entry.id.match(/^additional:([^:]+)(?::.*)?$/)?.[1];
+    const name = sourceOverrides[sourceKey]?.name || sourceName(entryName(entry));
     const duplicate = regular.some(original => nameKey(entryName(original)) === nameKey(name) || (original.url && original.url === entry.url));
     const displayName = name + (duplicate ? ' *' : '');
     const block = entry.block.replace(/^#EXTINF:[^\r\n]*/, line => {
@@ -215,8 +219,10 @@ export async function refreshBackups(savedHtml, savedChecks) {
   for (const row of candidates) {
     const originalName = row.name;
     row.epgId = additionalChannelId(row);
-    row.group = channelCategory(originalName);
-    if (catalog.some(channel => norm(channel.name) === norm(originalName))) row.name += ' *';
+    const override = sourceOverrides[norm(originalName)];
+    row.name = override?.name || originalName;
+    row.group = override?.category || channelCategory(originalName);
+    if (catalog.some(channel => norm(channel.name) === norm(row.name))) row.name += ' *';
     additionalChannels.push(row.name);
   }
   const checks = savedChecks || await checkBackupManifests(candidates);

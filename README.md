@@ -10,6 +10,8 @@ Channels are grouped by type: Sports, Movies, News, Kids, Anime, Documentaries, 
 
 Additional streams keep their original names and separate guide IDs. Similar names do not establish that they carry the same channel. All additional entries are retained. `*` marks an additional entry whose name or exact stream URL also occurs in the original list. These entries do not automatically replace a missing channel or inherit its guide.
 
+Additional entries receive a guide only when an exact stream match or reviewed regional identity supports it. Entries without usable listings remain without a guide.
+
 When a guide program has no genre, its channel category supplies a fallback using Android TV's supported genre names. Existing program genres are preserved. Channels without guide listings remain without listings; unknown categories stay unclassified. Genre filters depend on the TV app's support.
 
 Playlist and guide updates are scheduled every 30 minutes. All saved channels remain listed, including entries that fail hosted checks. Some channels need a player with DRM support.
@@ -32,4 +34,4 @@ node scripts/refresh.mjs --finalize
 python scripts/update_epg.py
 ```
 
-One builder generates the playlist; one builds the guide. Settings are in `catalog.json`, `channel-groups.json` and `epg-config.json`. Generated files go to `site/`; `bootstrap/` contains fallback files.
+One builder generates the playlist; one builds the guide. Settings are in `catalog.json`, `channel-groups.json` and `epg-config.json`. `channel-category-review.json` records category evidence and uncertainties; source-specific names are in `source-channel-overrides.json`. Additional guide identities are in `3rs-epg-mappings.json`, with live coverage recorded in `3rs-epg-audit.json`. Generated files go to `site/`; `bootstrap/` contains fallback files.

@@ -1,0 +1,2034 @@
+{
+  "reviewedAt": "2026-11-07T00:26:38.097329+00:00",
+  "policy": "Channel type is a fallback only when a real programme lacks genres. Retain supplied genres. No invented programmes. General/unknown produces no inferred genre. Category similarity does not establish stream or schedule identity.",
+  "channels": [
+    {
+      "channel": "3RS MOVIE",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "3RSTV",
+      "category": "General",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "A2Z",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Abante Radyo",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "ABC Australia",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Adventure Earth",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Al Jazeera",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "ALIW23",
+      "category": "News",
+      "status": "researched",
+      "sources": [
+        "https://www.dwiz882am.com/index.php/about-us/"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "Aliwko",
+      "category": "General",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "ALLTV2",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "amasian tv Anime 24/7",
+      "category": "Anime",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "AMC+",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "ANC",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Animal Planet",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Animax",
+      "category": "Anime",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Anime All Day",
+      "category": "Anime",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Anime by Pluto",
+      "category": "Anime",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Anime x Hidive",
+      "category": "Anime",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Aniplus",
+      "category": "Anime",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Arirang",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Asian Crush",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Asian Food Network",
+      "category": "Lifestyle",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "AVL TV",
+      "category": "General",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "AXN",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "BBC CBeebies",
+      "category": "Kids",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "BBC Earth",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "BBC Lifestyle",
+      "category": "Lifestyle",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "BBC News",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "BeIn Sports",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Billiard TV",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Bilyonaryo",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Blast Movies",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Bloomberg",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Boing",
+      "category": "Kids",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "BOOMERANG",
+      "category": "Kids",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "BS10 + more Converge Channels",
+      "category": "General",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Cartoon Channel PH",
+      "category": "Kids",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Cartoon Network",
+      "category": "Kids",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Cartoonito",
+      "category": "Kids",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "CCTV4",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Celestial Classic Movies",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Celestial Movies Pinoy",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "CGTN Documentary",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Channel News Asia",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "CinemaOne",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Cinemax",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "CineMo!",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "CLTV36",
+      "category": "General",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "CNBC",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "CNN HD",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Comedy Central",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Concert Channel",
+      "category": "Music",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "CRIME INVESTIGATION",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Crunchyroll",
+      "category": "Anime",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Curiosity Now",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Danger TV",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "DAZN",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "DepEd TV",
+      "category": "Education",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Discovery Asia",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Discovery Channel",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Discovery Family",
+      "category": "Kids",
+      "status": "researched",
+      "sources": [
+        "https://www.skydance.com/about/brands/discovery-family-channel"
+      ],
+      "basis": "Broad family-and-animation service; use family/kids fallback rather than documentaries."
+    },
+    {
+      "channel": "Discovery Science",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Discovery Turbo",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Disney Channel",
+      "category": "Kids",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "DMAX",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Dream TV PH",
+      "category": "General",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Dreamworks HD",
+      "category": "Kids",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "DW News",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "DZMM Teleradyo",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "DZRH TV",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "EDGE SPORT",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "ESPN",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Euro News.",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Evolution Earth",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "EWTN",
+      "category": "Faith",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "FailArmy",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Fashion TV HD",
+      "category": "Lifestyle",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Fight Network",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Filmrise Anime",
+      "category": "Anime",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "FITE 24/7",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Food Network HD",
+      "category": "Lifestyle",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "FOX",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Fox Sports 1",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "FRANCE 24",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Global Fashion Channel",
+      "category": "Lifestyle",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Global Trekker",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "GMA",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "GMA Life TV",
+      "category": "Lifestyle",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "GMA News TV",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "GMA Pinoy TV",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "GNN",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Golden TV",
+      "category": "General",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "GTV",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Hallmark",
+      "category": "Entertainment",
+      "status": "researched",
+      "sources": [
+        "https://www.hallmarkchannel.com/about-us"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "Halloween Nights",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "hallypop",
+      "category": "Music",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "HBO",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "HBO Boxing",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "HBO Comedy",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "HBO Family",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "HBO Mundi",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "HBO PLUS",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "HBO POP",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "HBO Signature",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "HBO Xtreme",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "HBO Zone",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "HGTV HD",
+      "category": "Lifestyle",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "History HD",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Hits HD",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Hits Movies",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Hits Now",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "HIYAH!",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Hope Channel PH",
+      "category": "Faith",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "HypeTV",
+      "category": "General",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "IBC13",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "INCTV",
+      "category": "Faith",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "InWonder",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "ION",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Jeepney TV",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Just for Laughs Gags",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Kapamilya Channel",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Kapamilya Channel HD",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Kartoon Channel",
+      "category": "Kids",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "KBS World",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Kids TV",
+      "category": "Kids",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Kidsflix",
+      "category": "Kids",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Kix HD",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Knowledge Channel",
+      "category": "Education",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Kpop TV Play",
+      "category": "Music",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "KroneHit TV",
+      "category": "Music",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Lifetime",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Light TV",
+      "category": "Faith",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Lotus Macau",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Media Pilipinas TV",
+      "category": "General",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Metro Channel",
+      "category": "Lifestyle",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Mindanow Network",
+      "category": "Lifestyle",
+      "status": "researched",
+      "sources": [
+        "https://mindanownetwork.com/"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "MIRAMAX",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "MLB Network",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "MMA-TV",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "MNX HD",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Moonbug Kids",
+      "category": "Kids",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "MOR Entertainment",
+      "category": "Music",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "MotoGP Channel",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Movie Sphere",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "MovieBoxPH",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Movies Now",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Mr Beast",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Mr. Bean",
+      "category": "Kids",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "MTV",
+      "category": "Entertainment",
+      "status": "researched",
+      "sources": [
+        "https://www.limepictures.com/show/geordie-shore/"
+      ],
+      "basis": "The configured guide is MTV UK, which includes reality entertainment. MTV Live remains a separate Music channel."
+    },
+    {
+      "channel": "MUX DOS",
+      "category": "General",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Mysterious Worlds",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Mythbusters",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "MYX",
+      "category": "Music",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "National Geographic",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "NBA TV",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "NBA TV Philippines",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "NCAA NXT",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Net25",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "New KMovies",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "NHK World Japan",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Nickelodeon",
+      "category": "Kids",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Nickjr",
+      "category": "Kids",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "One News HD",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "One PH",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "One Sports",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Oras ng Himala",
+      "category": "Faith",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Outdoor Channel",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Paramount Movie Channel",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "PBA Rush",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "PBB Collab 3.0",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "PBS Digital Studios",
+      "category": "Education",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "People Are Awesome",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Peoples Television",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Pilipinas Live",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Pinoy Box Office",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Pinoy Xtreme",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Popular Science",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Premier Sports",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Radyo Bandido",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "RAGE TV",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Real Disaster Channel",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Real Wild",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "RedBull TV",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Retro Crush",
+      "category": "Anime",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "RJ Digitv",
+      "category": "General",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Rock Action",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Rock MNL",
+      "category": "Music",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "RPTV",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "SBS K-Drama",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "SineManila",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Sky Sports F1",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Smithsonian Channel",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "SMNI News Channel",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "SOLARFLIX",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "SOLARSPORTS",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Sony Movies",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Sony One Action Hits",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Sony Pix",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Spotlight TV",
+      "category": "Music",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "SPOTV",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "STAR Movies HD",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "STAR Movies Select HD",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Star TV Philippines",
+      "category": "General",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "STARZ",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "STBS Global",
+      "category": "General",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Studio Universal",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "SYFY",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Sci Fi",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Tagalized Movie Channel",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Taiwan Plus",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Tap Action Flix",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "TAP Edge",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Tap Movies",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "TAP Sports",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "TAP TV",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "TapSILOG",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Tastemade",
+      "category": "Lifestyle",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "TBN Asia",
+      "category": "Faith",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Tennis Channel",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "TFC Asia",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "The Manila Times",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Thrill",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "TLC",
+      "category": "Lifestyle",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "TNA Wrestling",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "TNT Sports 1",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Tom and Jerry",
+      "category": "Kids",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Top Rank Classics",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Trace Urban",
+      "category": "Music",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Travel Channel",
+      "category": "Lifestyle",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "TSN",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "TV Maria",
+      "category": "Faith",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "TV5",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "TV5 Monde",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "TVN",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "TVN Movies",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "UAAP Varsity",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "UFC",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "UNTV",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "USA Today",
+      "category": "News",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "VEVO",
+      "category": "Music",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "VIVA Cinema",
+      "category": "Movies",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Warner TV",
+      "category": "Entertainment",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Wild Planet",
+      "category": "Documentaries",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "World Poker Tour",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "WWE",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "XFC TV",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Xite Hits",
+      "category": "Music",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Yes Network",
+      "category": "Sports",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "Z One",
+      "category": "General",
+      "status": "retained_existing",
+      "sources": [],
+      "basis": "Existing broad classification retained; not newly independently researched in this review."
+    },
+    {
+      "channel": "STBS PH",
+      "category": "General",
+      "status": "unresolved",
+      "sources": [],
+      "basis": "Insufficient channel-specific evidence; do not guess from a similar station name or apply a programme genre."
+    },
+    {
+      "channel": "DREAMSTAR TV",
+      "category": "General",
+      "status": "unresolved",
+      "sources": [],
+      "basis": "Insufficient channel-specific evidence; do not guess from a similar station name or apply a programme genre."
+    },
+    {
+      "channel": "COLORS TV",
+      "category": "General",
+      "status": "unresolved",
+      "sources": [],
+      "basis": "Insufficient channel-specific evidence; do not guess from a similar station name or apply a programme genre."
+    },
+    {
+      "channel": "STARTIMES PHILIPPINES",
+      "category": "General",
+      "status": "unresolved",
+      "sources": [],
+      "basis": "Insufficient channel-specific evidence; do not guess from a similar station name or apply a programme genre."
+    },
+    {
+      "channel": "ATBS",
+      "category": "General",
+      "status": "unresolved",
+      "sources": [],
+      "basis": "Insufficient channel-specific evidence; do not guess from a similar station name or apply a programme genre."
+    },
+    {
+      "channel": "PINAS TV",
+      "category": "General",
+      "status": "unresolved",
+      "sources": [],
+      "basis": "Insufficient channel-specific evidence; do not guess from a similar station name or apply a programme genre."
+    },
+    {
+      "channel": "KQTV",
+      "category": "General",
+      "status": "unresolved",
+      "sources": [],
+      "basis": "Insufficient channel-specific evidence; do not guess from a similar station name or apply a programme genre."
+    },
+    {
+      "channel": "MPTV",
+      "category": "General",
+      "status": "unresolved",
+      "sources": [],
+      "basis": "Insufficient channel-specific evidence; do not guess from a similar station name or apply a programme genre."
+    },
+    {
+      "channel": "JUNGO PINOY TV",
+      "category": "Entertainment",
+      "status": "researched",
+      "sources": [
+        "https://www.jungotv.com/jungopinoy-launch"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "ZEESINE",
+      "category": "Movies",
+      "status": "researched",
+      "sources": [
+        "https://www.zee.com/in-the-news/zee-entertainment-enters-philippines-launches-zee-sine-a-dedicated-bollywood-movie-channel/"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "DUBAI ONE",
+      "category": "Entertainment",
+      "status": "researched",
+      "sources": [
+        "https://www.dmi.gov.ae/content/corporate/en-ae/brands/tv-channels/dubaione.html"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "NBA TV PH",
+      "category": "Sports",
+      "status": "researched",
+      "sources": [
+        "https://cignal.tv/channels"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "ALL TV",
+      "category": "Entertainment",
+      "status": "researched",
+      "sources": [
+        "https://cignal.tv/channels"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "KAPAMILYA",
+      "category": "Entertainment",
+      "status": "researched",
+      "sources": [
+        "https://cignal.tv/channels"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "Heart of Asia",
+      "category": "Entertainment",
+      "status": "researched",
+      "sources": [
+        "https://www.gmanetwork.com/entertainment/tv/heart_of_asia_channel/home/heart-of-asia-channel-unli-kilig-all-day/"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "iHeart Movies",
+      "category": "Movies",
+      "status": "researched",
+      "sources": [
+        "https://www.gmanetwork.com/entertainment/tv/i_heart_movies/home/"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "PBO",
+      "category": "Movies",
+      "status": "researched",
+      "sources": [
+        "https://cignal.tv/channels"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "TMC",
+      "category": "Movies",
+      "status": "researched",
+      "sources": [
+        "https://cignal.tv/channels"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "DepEd Channel",
+      "category": "Education",
+      "status": "researched",
+      "sources": [
+        "https://www.deped.gov.ph/2026/01/15/deped-tv-tinitingnang-learning-lifeline-tuwing-may-kalamidad-at-emergency/"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "AXN CHANNEL",
+      "category": "Entertainment",
+      "status": "researched",
+      "sources": [
+        "https://axn-asia.com/about"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "Dreamworks Tagalog",
+      "category": "Kids",
+      "status": "researched",
+      "sources": [
+        "https://corporate.abs-cbn.com/newsroom/news-releases/2021/11/15/nbcuindtc-launches-dreamworks-on-skycable?lang=en"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "HBO Hits",
+      "category": "Movies",
+      "status": "researched",
+      "sources": [
+        "https://www.royalcable.com.ph/wp-content/uploads/2024/11/Welcome-Kit-2024.pdf"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "HBO HD",
+      "category": "Movies",
+      "status": "researched",
+      "sources": [
+        "https://www.royalcable.com.ph/wp-content/uploads/2024/11/Welcome-Kit-2024.pdf"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "K-Movies",
+      "category": "Movies",
+      "status": "broad_type_inferred",
+      "sources": [],
+      "basis": "Broad movie/tennis type supported by the supplied channel label; exact current operator/region remains unconfirmed. No EPG identity is inferred from this category."
+    },
+    {
+      "channel": "MTV Live",
+      "category": "Music",
+      "status": "researched",
+      "sources": [
+        "https://www.starhub.com/business/support/article.html?id=8INqfc9YG60tD7temv3TZ7"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "One Sports Plus HD",
+      "category": "Sports",
+      "status": "researched",
+      "sources": [
+        "https://cignal.tv/channels"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "Premier Tennis",
+      "category": "Sports",
+      "status": "broad_type_inferred",
+      "sources": [],
+      "basis": "Broad movie/tennis type supported by the supplied channel label; exact current operator/region remains unconfirmed. No EPG identity is inferred from this category."
+    },
+    {
+      "channel": "PTV4",
+      "category": "News",
+      "status": "researched",
+      "sources": [
+        "https://ptni.gov.ph/"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "SARISARI",
+      "category": "Entertainment",
+      "status": "researched",
+      "sources": [
+        "https://cignal.tv/channels"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "SPOTV2",
+      "category": "Sports",
+      "status": "researched",
+      "sources": [
+        "https://cignal.tv/channels"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "Teleradyo",
+      "category": "News",
+      "status": "researched",
+      "sources": [
+        "https://corporate.abs-cbn.com/newsroom/news-releases/2026/1/27/abs-cbn-news-dzmm-teleradyo-abs-cbn-foundation-and-aboitizpower-team-up-to-help-communities-recover-from-disasters?lang=en"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "ROCK ENTERTAIMENT",
+      "category": "Entertainment",
+      "status": "researched",
+      "sources": [
+        "https://operator.rockentertainment.com/public/page/our-brands"
+      ],
+      "basis": "Broadcaster or provider description supports this broad channel type; schedule and regional identity are separate checks."
+    },
+    {
+      "channel": "3RS SINEPINOY",
+      "category": "Movies",
+      "status": "user_identity",
+      "sources": [],
+      "basis": "User corrected this additional stream identity; broad movie category applies only to this source entry."
+    }
+  ]
+}

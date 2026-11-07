@@ -188,3 +188,15 @@ test('category numbers follow alphabetical display names and preserve playback i
   const numbers=[...returned.text.matchAll(/tvg-chno="(\d+)"/g)].map(match=>Number(match[1]));
   assert.deepEqual(numbers,[...numbers].sort((a,b)=>a-b));
 });
+
+test('source rename and movie category apply only to the additional 3RS identity', () => {
+  const primary=playlist([{name:'3RSTV',url:'https://example.com/original.m3u8'}]);
+  const id=additionalChannelId({name:'3RS TV',url:'https://example.com/additional.m3u8'});
+  const additional=playlist([{name:'3RS TV *',epgId:id,url:'https://example.com/additional.m3u8'}]);
+  const renamed=markAdditionalChannels(primary,additional).text;
+  assert.ok(renamed.includes(',3RS SINEPINOY\n'));
+  assert.ok(renamed.includes(`tvg-id="${id}"`));
+  assert.ok(primary.includes(',3RSTV\n'));
+  assert.equal(channelCategory('3RSTV'),'General');
+  assert.equal(channelCategory(id),'Movies');
+});
