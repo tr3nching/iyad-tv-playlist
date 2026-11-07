@@ -1,0 +1,13 @@
+name: Diagnose stream request headers
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compare stream responses without exposing URLs
+        run: python3 scripts/diagnose-stream.py

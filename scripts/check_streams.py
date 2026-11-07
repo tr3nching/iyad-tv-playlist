@@ -6,16 +6,28 @@ import xml.etree.ElementTree as ET
 
 UTC=dt.timezone.utc
 
+BROWSER_UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
+
 def entries(text,kind):
  result=[]
  for block in re.split(r'(?=^#EXTINF:)',text,flags=re.M)[1:]:
   match=re.search(r'\btvg-id="([^"]*)"',block);cid=match[1] if match else ''
   url=next((line.strip() for line in block.splitlines() if re.match(r'^https?://',line)),None)
   if not url:continue
-  headers={'User-Agent':'Mozilla/5.0','Accept-Encoding':'identity'}
+  parsed=urlsplit(url);origin=f'{parsed.scheme}://{parsed.netloc}'
+  headers={'User-Agent':BROWSER_UA,'Accept':'*/*','Accept-Encoding':'identity','Origin':origin,'Referer':origin+'/'}
   custom=re.search(r'^#KODIPROP:inputstream\.adaptive\.manifest_headers=(.*)$',block,re.M)
   if custom:
-   for key,value in parse_qsl(custom[1].strip()):headers[key]=value
+   for key,value in parse_qsl(custom[1].strip()):
+    if key.lower() in ('origin','referer','user-agent') and not re.search(r'[\r\n]',value):
+     canonical={'origin':'Origin','referer':'Referer','user-agent':'User-Agent'}[key.lower()];headers[canonical]=value
+  ref=re.search(r'^#EXTVLCOPT:http-referrer=([^\r\n]*)',block,re.M|re.I)
+  if ref:
+   value=ref.group(1).strip();parts=urlsplit(value)
+   if parts.scheme in ('http','https') and parts.netloc:
+    headers['Referer']=value;headers['Origin']=f'{parts.scheme}://{parts.netloc}'
+  agent=re.search(r'^#EXTVLCOPT:http-user-agent=([^\r\n]*)',block,re.M|re.I)
+  if agent and agent.group(1).strip():headers['User-Agent']=agent.group(1).strip()
   check_id=hashlib.sha256((kind+'\0'+cid+'\0'+url).encode()).hexdigest()
   result.append({'id':check_id,'channel':cid,'kind':kind,'url':url,'headers':headers})
  return result

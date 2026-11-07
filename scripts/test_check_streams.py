@@ -6,6 +6,23 @@ import check_streams as check
 class StreamChecks(unittest.TestCase):
  def row(self,url='https://example.com/master.m3u8'):
   return {'id':'hash','channel':'Test','kind':'primary','url':url,'headers':{}}
+ def test_playlist_headers_support_vlc_overrides(self):
+  block='#EXTM3U\n#EXTINF:-1 tvg-id="Test",Test\n#EXTVLCOPT:http-referrer=https://viewer.example/page\n#EXTVLCOPT:http-user-agent=CustomPlayer/1\nhttps://cdn.example/a.m3u8\n'
+  row=check.entries(block,'primary')[0]
+  self.assertEqual(row['headers']['User-Agent'],'CustomPlayer/1');self.assertEqual(row['headers']['Referer'],'https://viewer.example/page');self.assertEqual(row['headers']['Origin'],'https://viewer.example');self.assertEqual(row['headers']['Accept'],'*/*')
+  row=check.entries('#EXTM3U\n#EXTINF:-1 tvg-id="X",X\nhttps://cdn.example/a.m3u8\n','primary')[0]
+  self.assertEqual(row['headers']['Origin'],'https://cdn.example');self.assertEqual(row['headers']['Referer'],'https://cdn.example/');self.assertEqual(row['headers']['User-Agent'],check.BROWSER_UA)
+ def test_nested_playlist_requests_keep_the_same_headers(self):
+  row=check.entries('#EXTM3U\n#EXTINF:-1 tvg-id="X",X\n#EXTVLCOPT:http-referrer=https://viewer.example/live\nhttps://cdn.example/path/master.m3u8\n','primary')[0]
+  calls=[]
+  def sample(url,headers,deadline,media=False):
+   calls.append((url,dict(headers)))
+   if url.endswith('master.m3u8'):return b'#EXTM3U\n#EXT-X-STREAM-INF:BANDWIDTH=1\nsub/video.m3u8\n',url
+   if url.endswith('video.m3u8'):return b'#EXTM3U\n#EXTINF:6,\n../segment.ts\n',url
+   return b'video',url
+  with patch.object(check,'sample',side_effect=sample):self.assertTrue(check.probe(row)['reachable'])
+  self.assertEqual([x[0] for x in calls],['https://cdn.example/path/master.m3u8','https://cdn.example/path/sub/video.m3u8','https://cdn.example/path/segment.ts'])
+  self.assertTrue(all(headers==row['headers'] for _,headers in calls))
  def test_hls_checks_media_and_keeps_primary_on_inconclusive_forbidden_fragment(self):
   calls=[]
   def sample(url,headers,deadline,media=False):

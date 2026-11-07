@@ -16,7 +16,8 @@ const normalizedGroups = new Map(Object.entries(channelGroups).map(([name, group
 const headers = {
   Origin: 'https://iyad.click',
   Referer: 'https://iyad.click/',
-  'User-Agent': 'Mozilla/5.0',
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+  Accept: '*/*',
 };
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -70,11 +71,13 @@ async function request(path, body) {
           const failure = await response.json();
           if (typeof failure.error === 'string') detail = ` (${clean(failure.error).slice(0, 160)})`;
         } catch {}
-        throw new Error(`${path}: HTTP ${response.status}${detail}`);
+        const error = new Error(`${path}: HTTP ${response.status}${detail}`);
+        if (response.status === 500) error.noRetry = true;
+        throw error;
       }
       return await response.json();
     } catch (error) {
-      if (attempt === 4) throw error;
+      if (error.noRetry || attempt === 4) throw error;
       await sleep(2000 * (2 ** attempt));
     }
   }
@@ -276,7 +279,7 @@ export async function checkBackupManifests(rows) {
     while (cursor < rows.length) {
       const row = rows[cursor++];
       try {
-        const response = await fetch(row.url, { headers: { Origin: row.origin, 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(8000) });
+        const response = await fetch(row.url, { headers: { Origin: row.origin || new URL(row.url).origin, Referer: (row.origin || new URL(row.url).origin) + '/', 'User-Agent': headers['User-Agent'], Accept: '*/*' }, signal: AbortSignal.timeout(8000) });
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const reader = response.body.getReader();
         let sample = ''; const decoder = new TextDecoder();
