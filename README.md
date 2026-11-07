@@ -2,13 +2,13 @@
 
 TV channels, backups and a program guide in one playlist.
 
-**[Playlist URL](https://tr3nching.github.io/ph-tv-playlist/playlist.m3u)**
+**[Playlist URL](https://tr3nching.github.io/ph-tv-playlist/playlist.m3u)** · **[Channel sources and update status](https://tr3nching.github.io/ph-tv-playlist/)**
 
 Add this URL to your IPTV app. The program guide is included automatically; if your app asks for a guide time offset, use **0**.
 
 Channels are grouped by type: Sports, Movies, News, Kids, Anime, Documentaries, Music, Lifestyle, Faith, Education, Entertainment and General. GMA, TFC Asia, Kapamilya Channel, TV5 and A2Z are in Entertainment.
 
-Additional streams keep their original names and separate guide IDs. Similar names do not establish that they carry the same channel. Only additional entries with confirmed decoded video in the last 24 hours are published. Failed or unconfirmed candidates remain saved for the next refresh. `*` marks an additional entry whose name or exact stream URL also occurs in the original list. These entries do not automatically replace a missing channel or inherit its guide.
+Additional streams keep their original names and separate guide IDs. The source inventory groups matching names for review, flags identical links, and identifies the parent for named source slots. Similar names do not establish that they carry the same channel, region or language. Only additional entries with confirmed decoded video in the last 24 hours are published. Failed or unconfirmed candidates remain saved for the next refresh. `*` marks an additional entry whose name or exact stream URL also occurs in the original list. These entries do not automatically replace a missing channel or inherit its guide.
 
 Every enabled source appears separately, including named alternates. The default Sci Fi source and SyFy 2 keep separate guide identities. Additional entries receive a guide only when an exact stream match or reviewed regional identity supports it. Entries without usable listings remain without a guide. Dated Philippine listings supplement the XMLTV feeds; domestic station mappings take priority over foreign feeds. Japanese and Taiwanese guide identities preserve their original script. Show-named channels retain listings with real episode metadata, while station-only filler is excluded.
 

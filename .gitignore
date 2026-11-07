@@ -27,3 +27,5 @@ site/primary-source-catalog.json
 site/primary-source-epg-audit.json
 
 site/backup-validation.json
+
+site/channel-sources.json

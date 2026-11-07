@@ -1,36 +1,32 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>PH TV</title>
 <style>
-body{font:17px/1.6 system-ui;max-width:640px;margin:64px auto;padding:0 24px;background:#101827;color:#edf2ff}h1{margin-bottom:4px}p{margin:16px 0}input{box-sizing:border-box;width:100%;padding:14px;border:1px solid #546784;border-radius:8px;background:#182339;color:#edf2ff;font:14px/1.5 monospace}button{margin-top:12px;padding:10px 18px;border:0;border-radius:8px;background:#a5c8ff;color:#101827;font:600 16px system-ui;cursor:pointer}small{color:#bac7da}#status{color:#bac7da}
+:root{color-scheme:dark}body{font:16px/1.55 system-ui;max-width:820px;margin:42px auto;padding:0 20px;background:#101827;color:#edf2ff}h1{margin-bottom:0}h2{margin-top:2em}p{margin:12px 0}input[type=search],input[readonly]{box-sizing:border-box;width:100%;padding:12px;border:1px solid #546784;border-radius:8px;background:#182339;color:#edf2ff;font:inherit}button{margin-top:10px;padding:10px 16px;border:0;border-radius:8px;background:#a5c8ff;color:#101827;font:600 15px system-ui;cursor:pointer}small,.muted{color:#bac7da}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px}.card,details{background:#182339;border:1px solid #35445d;border-radius:10px;padding:14px}.card strong{display:block;font-size:1.05em}details{margin:9px 0}summary{cursor:pointer;font-weight:650}.entry{padding:10px 0;border-top:1px solid #35445d}.entry:first-of-type{margin-top:10px}label{display:block;margin:12px 0}a{color:#a5c8ff}
 </style>
 </head>
 <body>
-<h1>PH TV</h1>
-<p>Channels, backups and a program guide in one playlist.</p>
-<p>Add this URL to your IPTV app:</p>
-<input id="url" readonly aria-label="Playlist URL">
-<button id="copy" type="button">Copy playlist URL</button>
-<p>The guide loads automatically in compatible apps. Use a guide time offset of <b>0</b> if asked.</p>
-<p>Channels are grouped by type. Backups appear in the same category with <b>[Backup]</b> after the name.</p>
-<p id="status" aria-live="polite">Updates are scheduled every 30 minutes.</p>
-<small>Some channels require a player with DRM support.</small>
+<h1>PH TV</h1><p class="muted">Channels, sources and a program guide in one playlist.</p>
+<input id="url" readonly aria-label="Playlist URL"><button id="copy" type="button">Copy playlist URL</button>
+<p>Use this address in TVirl. The guide loads automatically in compatible apps; use a guide time offset of <b>0</b> if asked.</p>
+<h2>Latest update</h2><div class="cards"><div class="card"><strong>Stream links</strong><span id="stream-status">Loading…</span></div><div class="card"><strong>Program guide</strong><span id="guide-status">Loading…</span></div><div class="card"><strong>Additional streams</strong><span id="backup-status">Loading…</span></div></div>
+<p class="muted">Updates are scheduled every 30 minutes. A successful publication does not guarantee every channel plays on your TV.</p>
+<h2>Channel sources</h2><p>Search by channel or category. A matching name suggests a possible duplicate; streams may have different programs, languages, or regional schedules. Similar names do not guarantee automatic switching.</p>
+<input id="search" type="search" placeholder="Search channels or categories" aria-label="Search channels or categories">
+<label><input type="checkbox" id="duplicates"> Show matching names only</label><p id="count" class="muted" aria-live="polite">Loading channels…</p><div id="groups"></div>
+<p><small>Only additional streams that passed the latest playback check appear in the playlist. Sources that fail remain saved for later checks.</small></p>
 <script>
-const input = document.getElementById('url');
-input.value = new URL('playlist.m3u', location.href).href;
-document.getElementById('copy').addEventListener('click', async function () {
-  try { await navigator.clipboard.writeText(input.value); this.textContent = 'Copied'; }
-  catch { input.focus(); input.select(); this.textContent = 'Select and copy the URL'; }
-});
-fetch('playlist-status.json', {cache:'no-store'}).then(response => {
-  if (!response.ok) throw new Error();
-  return response.json();
-}).then(status => {
-  document.getElementById('status').textContent = `${status.entryCount} playlist entries. Updates are scheduled every 30 minutes.`;
-}).catch(() => {});
+const el=id=>document.getElementById(id), input=el('url');input.value=new URL('playlist.m3u',location.href).href;
+el('copy').addEventListener('click',async function(){try{await navigator.clipboard.writeText(input.value);this.textContent='Copied'}catch{input.focus();input.select();this.textContent='Select and copy the URL'}});
+const load=name=>fetch(name,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()});
+const date=value=>{const d=new Date(value);return Number.isNaN(d.getTime())?'time unavailable':d.toLocaleString()};
+load('status.json').then(s=>{el('stream-status').textContent=(s.automaticRefreshStatus||'Status unavailable')+' Last successful update: '+date(s.updatedAt)}).catch(()=>el('stream-status').textContent='Status unavailable');
+load('epg-status.json').then(s=>{el('guide-status').textContent=`${s.mapped_channels} of ${s.enabled_channels} channel entries have listings. Updated ${date(s.generated_utc)}.`}).catch(()=>el('guide-status').textContent='Status unavailable');
+load('backup-validation.json').then(s=>{el('backup-status').textContent=`${s.validatedCount} of ${s.candidateCount} passed the last video check. Checked ${date(s.checkedAt)}.`}).catch(()=>el('backup-status').textContent='Status unavailable');
+let groups=[];
+function render(){const q=el('search').value.trim().toLocaleLowerCase(), only=el('duplicates').checked;const found=groups.filter(g=>(!only||g.entries.length>1)&&(!q||g.name.toLocaleLowerCase().includes(q)||g.entries.some(e=>(e.name+' '+e.category+' '+(e.listedUnder||'')).toLocaleLowerCase().includes(q))));el('count').textContent=`${found.length} channel groups shown`;const container=el('groups');container.replaceChildren();for(const group of found){const detail=document.createElement('details'),summary=document.createElement('summary');summary.textContent=`${group.name} · ${group.entries.length} ${group.entries.length===1?'entry':'entries'}`;detail.append(summary);for(const entry of group.entries){const row=document.createElement('div');row.className='entry';const title=document.createElement('strong');title.textContent=`${entry.number}  ${entry.name}`;const meta=document.createElement('div');meta.className='muted';const bits=[entry.category,entry.kind==='alternate'?`Source slot ${entry.sourceSlot} under ${entry.listedUnder}`:entry.kind==='additional'?'Additional source':'Primary source',entry.guide===true?'Guide available':entry.guide===false?'No guide match':'Guide status unavailable'];if(entry.sameLink)bits.push('Same link as another entry');meta.textContent=bits.join(' · ');row.append(title,meta);detail.append(row)}container.append(detail)}}
+load('channel-sources.json').then(data=>{groups=data.groups;render()}).catch(()=>el('count').textContent='Channel inventory unavailable.');el('search').addEventListener('input',render);el('duplicates').addEventListener('change',render);
 </script>
-</body>
-</html>
+</body></html>

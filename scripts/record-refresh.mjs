@@ -1,5 +1,6 @@
 import { readFile, writeFile, appendFile } from 'node:fs/promises';
 import { combinePlaylists } from './refresh.mjs';
+import { writeSourceInventory } from './channel-sources.mjs';
 const site = new URL('../site/', import.meta.url);
 await combinePlaylists(site);
 try {
@@ -26,5 +27,6 @@ await writeFile(new URL('refresh-status.json', site), JSON.stringify(report, nul
 const m3u = await readFile(new URL('playlist.m3u', site), 'utf8');
 if ((m3u.match(/^#EXTINF:/gm) || []).length < 1) throw new Error('No saved entries to publish');
 await readFile(new URL('epg.xml', site));
+await writeSourceInventory(site);
 if (process.env.GITHUB_STEP_SUMMARY) await appendFile(process.env.GITHUB_STEP_SUMMARY, `Stream source refresh: **${report.streamRefresh}**\n\nGuide refresh: **${guideOutcome}**\n\n${report.note}\n`);
 console.log(JSON.stringify(report));
