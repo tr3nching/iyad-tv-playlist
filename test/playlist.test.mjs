@@ -5,7 +5,7 @@ import { mkdtemp, readFile, writeFile, unlink, rmdir } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { labelNbaEvents, configuredSourceCategory, addCategoryHeaders, validatedAdditional, primarySourceJobs, resolveChannel, numberPlaylist, orderPlaylist, channelCategory, decrypt, playlist, streamUrl, parseBackupChannels, checkBackupManifests, combinePlaylists, markAdditionalChannels, streamCheckId, additionalChannelId } from '../scripts/refresh.mjs';
+import { locallyEligible, labelNbaEvents, configuredSourceCategory, addCategoryHeaders, validatedAdditional, primarySourceJobs, resolveChannel, numberPlaylist, orderPlaylist, channelCategory, decrypt, playlist, streamUrl, parseBackupChannels, checkBackupManifests, combinePlaylists, markAdditionalChannels, streamCheckId, additionalChannelId } from '../scripts/refresh.mjs';
 
 test('decrypts the player response format without exposing key material', () => {
   const key = '0123456789abcdefextra';
@@ -62,13 +62,14 @@ test('backup checks reject HTML and HTTP errors as stream manifests', async t =>
 test('one canonical playlist retains DRM, backups and guide, including without backups', async () => {
   const directory = await mkdtemp(join(tmpdir(), 'ph-tv-playlist-'));
   const output = pathToFileURL(directory + '/');
-  const files = ['backup-validation.json', 'playlist-drm.m3u', 'playlist-backup.m3u', 'playlist.m3u', 'playlist-combined.m3u', 'playlist-status.json', 'channel-numbers.json'];
+  const files = ['local-playback-state.json', 'backup-validation.json', 'playlist-drm.m3u', 'playlist-backup.m3u', 'playlist.m3u', 'playlist-combined.m3u', 'playlist-status.json', 'channel-numbers.json'];
   try {
     const primary = playlist([{ name: 'NBA TV', url: 'https://example.com/news.mpd', clearKey: { id: '1'.repeat(32), value: '2'.repeat(32) } }], { includeDrm: true });
     const backup = playlist([{ name: 'NBA TV [Backup]', epgId: 'NBA TV', group: 'Backup', url: 'https://example.com/backup.m3u8' }]);
     await writeFile(new URL('playlist-drm.m3u', output), primary);
     await writeFile(new URL('playlist-backup.m3u', output), backup);
     await writeFile(new URL('backup-validation.json',output),JSON.stringify({checkedAt:new Date().toISOString(),channels:[{id:streamCheckId('additional',{id:'NBA TV',url:'https://example.com/backup.m3u8'}),validated:true,decodedFrames:25}]}));
+    await writeFile(new URL('local-playback-state.json',output),JSON.stringify({origin:'local',version:1,channels:[{id:streamCheckId('additional',{id:'NBA TV',url:'https://example.com/backup.m3u8'}),published:true}]}));
     await combinePlaylists(output);
     const canonical = await readFile(new URL('playlist.m3u', output), 'utf8');
     assert.equal((canonical.match(/^#EXTM3U/gm) || []).length, 1);
@@ -303,4 +304,16 @@ test('NBA event streams get an NBA prefix without changing their identity or oth
 test('user-confirmed AXN Movies Spain label preserves the stream identity', () => {
  const text=labelNbaEvents(playlist([{name:'AXN Movies',epgId:'primary-source:axn:2',url:'https://example.com/live'}]));
  assert.ok(text.includes('tvg-name="AXN Movies (Spain)"'));assert.ok(text.includes('tvg-id="primary-source:axn:2"'));assert.equal(labelNbaEvents(text),text);
+});
+
+
+test('only local playback decisions change visibility; unknown previously published alternatives remain', () => {
+ const primary=playlist([{name:'GMA',url:'https://example.com/gma'}]);
+ const additional=playlist([{name:'GMA *',epgId:'additional:gma:1',url:'https://example.com/alt'}]);
+ const prior=primary+additional.split('\n').slice(1).join('\n');
+ const row={id:streamCheckId('additional',{id:'additional:gma:1',url:'https://example.com/alt'}),published:false};
+ assert.ok(locallyEligible(primary,additional,{origin:'github',version:1,channels:[row]},prior).additional.includes('#EXTINF:'));
+ assert.ok(!locallyEligible(primary,additional,{origin:'local',version:1,channels:[row]},prior).additional.includes('#EXTINF:'));
+ assert.ok(locallyEligible(primary,additional,{origin:'local',version:1,channels:[{...row,published:true}]},prior).additional.includes('#EXTINF:'));
+ assert.ok(!locallyEligible(primary,additional,{},'').additional.includes('#EXTINF:'));
 });

@@ -5,7 +5,7 @@ const base = 'https://tr3nching.github.io/ph-tv-playlist/';
 const streamFiles = ['playlist.m3u', 'playlist-drm.m3u', 'playlist-drm.otc.json', 'status.json', 'primary-source-catalog.json'];
 const guideFiles = ['epg.xml', 'epg.xml.gz', 'epg-status.json', 'mapping.json', 'mapping.csv', 'verification.json', 'report.txt', '3rs-epg-audit.json', 'primary-source-epg-audit.json'];
 const backupFiles = ['playlist-backup.m3u', 'backup-candidates.m3u', 'backup-status.json', 'backup-checks.json', 'backup-validation.json'];
-const optionalFiles = ['playlist-combined.m3u', 'playlist-status.json', 'channel-numbers.json'];
+const optionalFiles = ['playlist-combined.m3u', 'playlist-status.json', 'channel-numbers.json', 'local-playback-state.json'];
 await mkdir(site, { recursive: true });
 for (const file of [...streamFiles, ...guideFiles, ...backupFiles, ...optionalFiles]) {
   try { await access(new URL(file, bootstrap)); await copyFile(new URL(file, bootstrap), new URL(file, site)); } catch {}
@@ -22,7 +22,7 @@ async function restoreNewer(files, statusFile, timestampField) {
     for (const file of files.filter(f => f !== statusFile)) {
       const response = await fetch(base + file, { signal: AbortSignal.timeout(15000), cache: 'no-store' });
       if (!response.ok) {
-        if (['3rs-epg-audit.json', 'primary-source-epg-audit.json', 'primary-source-catalog.json', 'backup-validation.json'].includes(file) && response.status === 404) continue;
+        if (['3rs-epg-audit.json', 'primary-source-epg-audit.json', 'primary-source-catalog.json', 'backup-validation.json', 'local-playback-state.json'].includes(file) && response.status === 404) continue;
         throw new Error('Previous deployment incomplete');
       }
       const bytes = Buffer.from(await response.arrayBuffer());
@@ -45,6 +45,10 @@ if (process.env.PUBLISH_SNAPSHOT !== 'true') {
         await writeFile(new URL('channel-numbers.json', site), numbers);
     }
   } catch { console.warn('Using saved channel number reservations'); }
+  try {
+    const response = await fetch(base + 'local-playback-state.json', { signal: AbortSignal.timeout(15000), cache: 'no-store' });
+    if (response.ok) { const current = await response.json(); let saved = {}; try { saved = JSON.parse(await readFile(new URL('local-playback-state.json', site), 'utf8')); } catch {} if (current.origin === 'local' && Date.parse(current.updatedAt) > Date.parse(saved.updatedAt || '1970-01-01')) await writeFile(new URL('local-playback-state.json', site), JSON.stringify(current)); }
+  } catch { console.warn('Using saved local playback state'); }
   await restoreNewer(streamFiles, 'status.json', 'updatedAt');
   await restoreNewer(guideFiles, 'epg-status.json', 'generated_utc');
   await restoreNewer(backupFiles, 'backup-status.json', 'updatedAt');

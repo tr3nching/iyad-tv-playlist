@@ -346,6 +346,22 @@ export function validatedAdditional(text, report, now = Date.now()) {
   return `#EXTM3U x-tvg-url="${EPG_URL}"\n` + selected.map(entry => entry.block.trimEnd() + '\n').join('');
 }
 
+// Only local playback state can change channel visibility. Unknown sources are
+// preserved if already published; unreviewed additional sources stay candidates.
+export function locallyEligible(primary, additional, state, prior) {
+  const rows = state?.origin === 'local' && state?.version === 1 && Array.isArray(state.channels) ? state.channels : [];
+  const decisions = new Map(rows.map(row => [row.id, row.published]));
+  const previous = new Set(playlistEntries(prior).map(entry => streamCheckId('additional',entry)));
+  const keep = (text, kind) => {
+    const selected = playlistEntries(text).filter(entry => {
+      const id = streamCheckId(kind,entry), decision = decisions.get(id);
+      return typeof decision === 'boolean' ? decision : kind === 'primary' || previous.has(id);
+    });
+    return `#EXTM3U x-tvg-url="${EPG_URL}"\n` + selected.map(entry => entry.block.trimEnd() + '\n').join('');
+  };
+  return {primary:keep(primary,'primary'), additional:keep(additional,'additional')};
+}
+
 export function configuredSourceCategory(entry) {
   const key = clean(entry.name).toLowerCase().replace(/[^a-z0-9]/g, '');
   const parent = clean(entry.parentName);
@@ -372,10 +388,15 @@ export async function combinePlaylists(output = new URL('../site/', import.meta.
     }
     await writeFile(new URL('primary-source-catalog.json', output), JSON.stringify(inventory, null, 2) + '\n');
   } catch (error) { if (error.code !== 'ENOENT') throw error; }
-  let validation = {};
-  try { validation = JSON.parse(await readFile(new URL('backup-validation.json', output), 'utf8')); }
+  let localState = {};
+  try { localState = JSON.parse(await readFile(new URL('local-playback-state.json', output), 'utf8')); }
   catch (error) { if (error.code !== 'ENOENT') throw error; }
-  const distinct = markAdditionalChannels(primary, validatedAdditional(backup, validation));
+  let prior = '';
+  try { prior = await readFile(new URL('playlist.m3u', output), 'utf8'); }
+  catch (error) { if (error.code !== 'ENOENT') throw error; }
+  const filtered = locallyEligible(primary, backup, localState, prior);
+  primary = filtered.primary;
+  const distinct = markAdditionalChannels(primary, filtered.additional);
   backup = categorizePlaylist(distinct.text);
   if (backup) await writeFile(new URL('playlist-backup.m3u', output), backup);
   try {
@@ -385,7 +406,7 @@ export async function combinePlaylists(output = new URL('../site/', import.meta.
     status.additionalChannels = distinct.entries.map(entry => entry.block.split('\n')[0].split(',').pop());
     status.channelCount = distinct.entries.length;
     status.existingChannelBackups = 0;
-    status.note = 'Only additional streams with at least 25 decoded video frames for the exact stream identity within 24 hours are listed. Candidates are retained separately for retry. An asterisk marks an original name or stream URL duplicate.';
+    status.note = 'Local checks control stream visibility. Candidates remain saved for later checks. An asterisk marks a possible duplicate.';
     status.clearKeyChannelCount = (backup.match(/^#KODIPROP:inputstream\.adaptive\.license_key=/gm) || []).length;
     status.excludedDuplicates = [...new Set([...(status.excludedDuplicates || []), ...distinct.excluded])].filter(id => !ids.has(id));
     delete status.source;
