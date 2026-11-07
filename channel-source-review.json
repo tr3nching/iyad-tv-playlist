@@ -492,5 +492,21 @@
       "channel": "SMNI News Channel",
       "observation": "Both sources showed the same performance at the sampling instant; video dimensions differed."
     }
+  ],
+  "viewer_observations": [
+    {
+      "channel": "A2Z Stream 2",
+      "result": "played",
+      "device": "user TV via TVirl",
+      "reported_utc": "2026-11-07T07:46:04.316483+00:00",
+      "note": "User confirmed playback after GitHub ffprobe returned HTTP 403."
+    },
+    {
+      "channel": "IBC13",
+      "result": "played",
+      "device": "user TV via TVirl",
+      "reported_utc": "2026-11-07T07:46:04.316483+00:00",
+      "note": "User confirmed playback after GitHub ffprobe returned HTTP 403."
+    }
   ]
 }
