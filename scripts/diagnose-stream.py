@@ -19,3 +19,10 @@ def check(task):
  except subprocess.TimeoutExpired:return {'channel':name,'method':method,'profile':label,'status':None,'error':'timeout'}
 with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
  for result in pool.map(check,tasks):print(json.dumps(result),flush=True)
+
+# These are diagnostic-only checks; they never affect the local visibility counters.
+from check_local_playback import candidates,probe
+primary=candidates(root/'playlist-drm.m3u','primary')
+for row in primary:
+ if row['channel'] in ('TV5','One PH'):
+  print(json.dumps({'channel':row['channel'],'method':'decode','profile':'browser_headers','result':probe(row,'ffmpeg')}),flush=True)
