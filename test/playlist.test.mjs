@@ -5,7 +5,7 @@ import { mkdtemp, readFile, writeFile, unlink, rmdir } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { configuredSourceCategory, addCategoryHeaders, validatedAdditional, primarySourceJobs, resolveChannel, numberPlaylist, orderPlaylist, channelCategory, decrypt, playlist, streamUrl, parseBackupChannels, checkBackupManifests, combinePlaylists, markAdditionalChannels, streamCheckId, additionalChannelId } from '../scripts/refresh.mjs';
+import { labelNbaEvents, configuredSourceCategory, addCategoryHeaders, validatedAdditional, primarySourceJobs, resolveChannel, numberPlaylist, orderPlaylist, channelCategory, decrypt, playlist, streamUrl, parseBackupChannels, checkBackupManifests, combinePlaylists, markAdditionalChannels, streamCheckId, additionalChannelId } from '../scripts/refresh.mjs';
 
 test('decrypts the player response format without exposing key material', () => {
   const key = '0123456789abcdefextra';
@@ -287,4 +287,14 @@ test('category headers use requested channel numbers and order', () => {
   const result=numberPlaylist(playlist(rows));
   assert.deepEqual(names.map(name=>result.assignments[`category:${name}`]),names.map((_,i)=>(i+1)*100));
   assert.deepEqual([...result.text.matchAll(/tvg-id="category:([^"]+)"/g)].map(m=>m[1]),names);
+});
+
+
+test('NBA event streams get an NBA prefix without changing their identity or other channels', () => {
+ const rows=[{name:'8:00am Celtics vs Hornets',epgId:'primary-source:nbatv:2',url:'https://example.com/event'}, {name:'NBA TV',url:'https://example.com/nba'}, {name:'8:00am Other vs Game',epgId:'primary-source:other:1',url:'https://example.com/other'}];
+ const text=labelNbaEvents(playlist(rows));
+ assert.ok(text.includes('tvg-name="NBA TV - 8:00am Celtics vs Hornets"'));
+ assert.ok(text.includes('tvg-id="primary-source:nbatv:2"'));
+ assert.ok(text.includes('tvg-name="8:00am Other vs Game"'));
+ assert.equal(labelNbaEvents(text),text);
 });

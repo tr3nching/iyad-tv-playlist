@@ -148,6 +148,22 @@ export function addCategoryHeaders(text) {
   return text.split(/(?=^#EXTINF:)/m)[0] + entries.map(entry => entry.block.trimEnd() + '\n').join('') + playlist(rows).split('\n').slice(1).join('\n');
 }
 
+// Give NBA event slots a common prefix so name-sorting TV guides keep them together.
+export function labelNbaEvents(text) {
+  return text.replace(/^#EXTINF:[^\r\n]*/gm, line => {
+    const id = line.match(/\btvg-id="([^"]*)"/)?.[1] || '';
+    if (!/^primary-source:nbatv:\d+$/.test(id)) return line;
+    const current = decodePlaylistAttribute(line.match(/\btvg-name="([^"]*)"/)?.[1] || '');
+    if (!/^\d{1,2}:\d{2}\s*(?:am|pm)\s+.+\s+vs\.?\s+.+/i.test(current)) return line;
+    const name = `NBA TV - ${current}`;
+    const metadata = line.match(/^(#EXTINF:(?:[^,"\r\n]|"[^"]*")*),/)?.[1];
+    return metadata ? metadata.replace(/\btvg-name="[^"]*"/, `tvg-name="${attribute(name)}"`) + `,${clean(name)}` : line;
+  });
+}
+function decodePlaylistAttribute(value) {
+  return value.replace(/&(amp|quot|lt|gt);/g, (_, name) => ({amp:'&',quot:'"',lt:'<',gt:'>'}[name]));
+}
+
 export function numberPlaylist(text) {
   const assignments = Object.create(null);
   const entries = playlistEntries(text).sort((a, b) => categoryNumbers[channelCategory(a.id)] - categoryNumbers[channelCategory(b.id)] || compareNames(a, b));
@@ -372,7 +388,7 @@ export async function combinePlaylists(output = new URL('../site/', import.meta.
     await writeFile(statusUrl, JSON.stringify(status, null, 2));
   } catch (error) { if (error.code !== 'ENOENT') throw error; }
   const base = primary.replace(/^#EXTM3U[^\n]*/, `#EXTM3U x-tvg-url="${EPG_URL}"`);
-  const numbered = numberPlaylist(categorizePlaylist(addCategoryHeaders(base.trimEnd() + '\n' + backup.split('\n').slice(1).join('\n'))));
+  const numbered = numberPlaylist(categorizePlaylist(addCategoryHeaders(labelNbaEvents(base.trimEnd() + '\n' + backup.split('\n').slice(1).join('\n')))));
   const combined = numbered.text;
   await writeFile(new URL('channel-numbers.json', output), JSON.stringify(numbered.assignments, null, 2) + '\n');
   await writeFile(new URL('playlist.m3u.tmp', output), combined);

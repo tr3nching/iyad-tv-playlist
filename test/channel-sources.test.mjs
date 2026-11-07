@@ -13,3 +13,10 @@ test('groups likely duplicates without publishing stream URLs or conflating name
  assert.equal(result.groups.find(x=>x.name==='Different Channel').entries[0].listedUnder,'GMA');
  assert.ok(!JSON.stringify(result).includes('token-secret'));
 });
+
+
+test('NBA events are grouped under NBA TV as distinct broadcasts', () => {
+ const text='#EXTM3U\n#EXTINF:-1 tvg-id="NBA TV" tvg-name="NBA TV",NBA TV\nhttps://example.com/nba\n#EXTINF:-1 tvg-id="primary-source:nbatv:1" tvg-name="NBA TV - 8:00am A vs B",NBA TV - 8:00am A vs B\nhttps://example.com/event\n';
+ const inv={entries:[{id:'primary-source:nbatv:1',parentName:'NBA TV',serverIndex:1}]};
+ const out=buildSourceInventory(text,inv);assert.equal(out.groups.length,1);assert.equal(out.groups[0].name,'NBA TV');assert.equal(out.groups[0].entries.length,2);assert.equal(out.groups[0].entries[1].sameLink,false);
+});
