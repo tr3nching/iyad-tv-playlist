@@ -1,14 +1,9 @@
 {
-  "checkedAt": "2026-11-07T00:43:08.536Z",
+  "checkedAt": "2026-11-07T16:21:02.639Z",
   "candidates": 87,
-  "readableManifests": 11,
+  "readableManifests": 10,
   "scope": "Manifest requests only; not video decoding or TV playback. Network-specific results.",
   "channels": [
-    {
-      "channel": "STAR TV PHILIPPINES *",
-      "manifest_readable": true,
-      "http": 200
-    },
     {
       "channel": "3RS SINEPINOY",
       "manifest_readable": true,
@@ -18,6 +13,16 @@
       "channel": "STBS GLOBAL *",
       "manifest_readable": true,
       "http": 200
+    },
+    {
+      "channel": "STAR TV PHILIPPINES *",
+      "manifest_readable": true,
+      "http": 200
+    },
+    {
+      "channel": "STBS PH",
+      "manifest_readable": false,
+      "error": "HTTP 404"
     },
     {
       "channel": "3RS MOVIE",
@@ -30,17 +35,7 @@
       "error": "HTTP 404"
     },
     {
-      "channel": "STBS PH",
-      "manifest_readable": false,
-      "error": "HTTP 404"
-    },
-    {
       "channel": "PINAS TV",
-      "manifest_readable": false,
-      "error": "HTTP 404"
-    },
-    {
-      "channel": "Cartoon Channel PH *",
       "manifest_readable": false,
       "error": "HTTP 404"
     },
@@ -51,6 +46,11 @@
     },
     {
       "channel": "COLORS TV",
+      "manifest_readable": false,
+      "error": "HTTP 404"
+    },
+    {
+      "channel": "Cartoon Channel PH *",
       "manifest_readable": false,
       "error": "HTTP 404"
     },
@@ -90,6 +90,11 @@
       "http": 200
     },
     {
+      "channel": "ATBS",
+      "manifest_readable": false,
+      "error": "HTTP 404"
+    },
+    {
       "channel": "KAPAMILYA",
       "manifest_readable": true,
       "http": 200
@@ -100,22 +105,12 @@
       "error": "HTTP 400"
     },
     {
-      "channel": "KQTV",
-      "manifest_readable": false,
-      "error": "HTTP 404"
-    },
-    {
-      "channel": "ATBS",
-      "manifest_readable": false,
-      "error": "HTTP 404"
-    },
-    {
-      "channel": "TV5 *",
+      "channel": "RPTV *",
       "manifest_readable": false,
       "error": "HTTP 400"
     },
     {
-      "channel": "RPTV *",
+      "channel": "TV5 *",
       "manifest_readable": false,
       "error": "HTTP 400"
     },
@@ -135,17 +130,17 @@
       "error": "HTTP 400"
     },
     {
+      "channel": "iHeart Movies",
+      "manifest_readable": false,
+      "error": "HTTP 404"
+    },
+    {
       "channel": "CineMo! *",
       "manifest_readable": true,
       "http": 200
     },
     {
-      "channel": "Cinema One! *",
-      "manifest_readable": true,
-      "http": 200
-    },
-    {
-      "channel": "iHeart Movies",
+      "channel": "KQTV",
       "manifest_readable": false,
       "error": "HTTP 404"
     },
@@ -153,6 +148,11 @@
       "channel": "PBO",
       "manifest_readable": false,
       "error": "HTTP 400"
+    },
+    {
+      "channel": "Cinema One! *",
+      "manifest_readable": true,
+      "http": 200
     },
     {
       "channel": "VIVACINEMA *",
@@ -195,6 +195,11 @@
       "error": "HTTP 400"
     },
     {
+      "channel": "CLTV36 *",
+      "manifest_readable": false,
+      "error": "HTTP 404"
+    },
+    {
       "channel": "Fashion TV HD *",
       "manifest_readable": false,
       "error": "HTTP 400"
@@ -210,17 +215,12 @@
       "error": "HTTP 400"
     },
     {
-      "channel": "CLTV36 *",
-      "manifest_readable": true,
-      "http": 200
-    },
-    {
-      "channel": "HBO Signature *",
+      "channel": "HBO Hits *",
       "manifest_readable": false,
       "error": "HTTP 400"
     },
     {
-      "channel": "HBO Hits *",
+      "channel": "HBO Signature *",
       "manifest_readable": false,
       "error": "HTTP 400"
     },
@@ -280,12 +280,7 @@
       "error": "TypeError"
     },
     {
-      "channel": "MTV Live",
-      "manifest_readable": false,
-      "error": "TypeError"
-    },
-    {
-      "channel": "GMA *",
+      "channel": "ALL TV",
       "manifest_readable": false,
       "error": "TypeError"
     },
@@ -293,6 +288,11 @@
       "channel": "Nickjr *",
       "manifest_readable": false,
       "error": "HTTP 400"
+    },
+    {
+      "channel": "GMA *",
+      "manifest_readable": false,
+      "error": "TypeError"
     },
     {
       "channel": "Nickelodeon *",
@@ -320,11 +320,6 @@
       "error": "HTTP 400"
     },
     {
-      "channel": "ALL TV",
-      "manifest_readable": false,
-      "error": "TypeError"
-    },
-    {
       "channel": "Disney Channel *",
       "manifest_readable": false,
       "error": "HTTP 403"
@@ -345,14 +340,19 @@
       "error": "HTTP 400"
     },
     {
+      "channel": "GTV *",
+      "manifest_readable": false,
+      "error": "TypeError"
+    },
+    {
       "channel": "Sony Pix *",
       "manifest_readable": false,
       "error": "TypeError"
     },
     {
-      "channel": "GTV *",
+      "channel": "SPOTV2",
       "manifest_readable": false,
-      "error": "TypeError"
+      "error": "HTTP 400"
     },
     {
       "channel": "SPOTV *",
@@ -361,11 +361,6 @@
     },
     {
       "channel": "TAP Edge *",
-      "manifest_readable": false,
-      "error": "HTTP 400"
-    },
-    {
-      "channel": "SPOTV2",
       "manifest_readable": false,
       "error": "HTTP 400"
     },
@@ -383,6 +378,11 @@
       "channel": "Tap Movies *",
       "manifest_readable": false,
       "error": "HTTP 400"
+    },
+    {
+      "channel": "JEEPNEYTV *",
+      "manifest_readable": false,
+      "error": "TypeError"
     },
     {
       "channel": "Tap Action Flix *",
@@ -410,11 +410,6 @@
       "error": "HTTP 400"
     },
     {
-      "channel": "JEEPNEYTV *",
-      "manifest_readable": false,
-      "error": "TypeError"
-    },
-    {
       "channel": "TVN *",
       "manifest_readable": false,
       "error": "HTTP 400"
@@ -428,6 +423,11 @@
       "channel": "Teleradyo",
       "manifest_readable": true,
       "http": 200
+    },
+    {
+      "channel": "MTV Live",
+      "manifest_readable": false,
+      "error": "TypeError"
     },
     {
       "channel": "HGTV HD *",

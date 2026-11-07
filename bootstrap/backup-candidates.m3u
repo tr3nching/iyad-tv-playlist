@@ -5,11 +5,11 @@ https://live20.bozztv.com/giatvplayout7/giatv-210267/tracks-v1a1/mono.ts.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-210273/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="additional:stbsph:fa39162274e3" tvg-name="STBS PH" tvg-logo="https://i.imgur.com/BheM0pE.jpeg" group-title="General",STBS PH
 https://live20.bozztv.com/akamaissh101/ssh101/stbsph88/playlist.m3u8
-#EXTINF:-1 tvg-id="additional:startvphilippines:8fbad275b125" tvg-name="STAR TV PHILIPPINES *" tvg-logo="https://i.ibb.co/Swr1qc2S/Startvph.jpg" group-title="General",STAR TV PHILIPPINES *
+#EXTINF:-1 tvg-id="additional:startvphilippines:8fbad275b125" tvg-name="STAR TV PHILIPPINES *" tvg-logo="https://i.ibb.co/Swr1qc2S/Startvph.jpg" group-title="Movies",STAR TV PHILIPPINES *
 https://live20.bozztv.com/giatvplayout7/giatv-208168/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="additional:dreamstartv:0c2e4d169df3" tvg-name="DREAMSTAR TV *" tvg-logo="https://i.ibb.co/MkV4HT2s/dreamstar.jpg" group-title="General",DREAMSTAR TV *
 https://live20.bozztv.com/giatvplayout7/giatv-10410/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="additional:stbsglobal:0913e59e62e9" tvg-name="STBS GLOBAL *" tvg-logo="https://i.imgur.com/ypDS0ue.png" group-title="General",STBS GLOBAL *
+#EXTINF:-1 tvg-id="additional:stbsglobal:0913e59e62e9" tvg-name="STBS GLOBAL *" tvg-logo="https://i.imgur.com/ypDS0ue.png" group-title="Movies",STBS GLOBAL *
 https://live20.bozztv.com/giatvplayout7/giatv-208591/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="additional:colorstv:83238b4a46d5" tvg-name="COLORS TV" tvg-logo="https://i.ibb.co/JTFFbFx/colors.jpg" group-title="General",COLORS TV
 https://live20.bozztv.com/giatvplayout7/giatv-210044/tracks-v1a1/mono.m3u8
@@ -131,7 +131,7 @@ https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/viva_sd.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https%3A%2F%2F3rstvportal.blogspot.com
 https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_cinemax.mpd
-#EXTINF:-1 tvg-id="additional:cltv36:2fa1c383918d" tvg-name="CLTV36 *" tvg-logo="https://th.bing.com/th/id/OIP.TeH-Vo1LPvOkkVvm2KUzHgAAAA?rs=1&amp;pid=ImgDetMain" group-title="General",CLTV36 *
+#EXTINF:-1 tvg-id="additional:cltv36:2fa1c383918d" tvg-name="CLTV36 *" tvg-logo="https://th.bing.com/th/id/OIP.TeH-Vo1LPvOkkVvm2KUzHgAAAA?rs=1&amp;pid=ImgDetMain" group-title="News",CLTV36 *
 https://live.cltv36.tv:5443/LiveApp/streams/cltvlive.m3u8
 #EXTINF:-1 tvg-id="additional:tmc:c90435e9aced" tvg-name="TMC" tvg-logo="https://th.bing.com/th/id/OIP.mskveWFrbAwpq6athkC91gAAAA?rs=1&amp;pid=ImgDetMain" group-title="Movies",TMC
 #KODIPROP:inputstream=inputstream.adaptive

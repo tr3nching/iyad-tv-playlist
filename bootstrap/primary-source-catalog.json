@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T06:38:08.242Z",
+  "updatedAt": "2026-11-07T16:21:03.116Z",
   "catalogSource": "live",
   "entries": [
     {
@@ -70,7 +70,7 @@
       "parentName": "ABC Australia",
       "serverIndex": 3,
       "name": "ABC Kids",
-      "category": "Kids",
+      "category": "Entertainment",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -97,7 +97,7 @@
       "parentName": "AMC+",
       "serverIndex": 1,
       "name": "AMC",
-      "category": "Entertainment",
+      "category": "Movies",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -106,7 +106,7 @@
       "parentName": "AMC+",
       "serverIndex": 2,
       "name": "AMC Break",
-      "category": "Entertainment",
+      "category": "Movies",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -115,7 +115,7 @@
       "parentName": "AMC+",
       "serverIndex": 3,
       "name": "AMC Crime",
-      "category": "Documentaries",
+      "category": "Movies",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -214,7 +214,7 @@
       "parentName": "AXN",
       "serverIndex": 2,
       "name": "AXN Movies",
-      "category": "Movies",
+      "category": "Entertainment",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -340,7 +340,7 @@
       "parentName": "BS10 + more Converge Channels",
       "serverIndex": 3,
       "name": "Da Ai TV",
-      "category": "Faith",
+      "category": "Entertainment",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -358,7 +358,7 @@
       "parentName": "BS10 + more Converge Channels",
       "serverIndex": 5,
       "name": "Good TV",
-      "category": "Faith",
+      "category": "Entertainment",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -376,7 +376,7 @@
       "parentName": "BS10 + more Converge Channels",
       "serverIndex": 7,
       "name": "Phoenix Television",
-      "category": "Documentaries",
+      "category": "Entertainment",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -412,7 +412,7 @@
       "parentName": "BS10 + more Converge Channels",
       "serverIndex": 11,
       "name": "Wion",
-      "category": "News",
+      "category": "Entertainment",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -421,7 +421,7 @@
       "parentName": "BS10 + more Converge Channels",
       "serverIndex": 12,
       "name": "3ABN",
-      "category": "Faith",
+      "category": "Entertainment",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -466,7 +466,7 @@
       "parentName": "Cartoon Network",
       "serverIndex": 3,
       "name": "[adult swim]",
-      "category": "Entertainment",
+      "category": "Kids",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -493,7 +493,7 @@
       "parentName": "CGTN Documentary",
       "serverIndex": 2,
       "name": "China Travel",
-      "category": "Lifestyle",
+      "category": "Documentaries",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -754,7 +754,7 @@
       "parentName": "Hallmark",
       "serverIndex": 1,
       "name": "Hallmark Movies & More",
-      "category": "Movies",
+      "category": "Entertainment",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -790,7 +790,7 @@
       "parentName": "History HD",
       "serverIndex": 2,
       "name": "Deal Zone",
-      "category": "Entertainment",
+      "category": "Documentaries",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -817,7 +817,7 @@
       "parentName": "History HD",
       "serverIndex": 5,
       "name": "Torque",
-      "category": "Sports",
+      "category": "Documentaries",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -826,7 +826,7 @@
       "parentName": "History HD",
       "serverIndex": 6,
       "name": "Xtreme Outdoor",
-      "category": "Sports",
+      "category": "Documentaries",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -871,7 +871,7 @@
       "parentName": "InWonder",
       "serverIndex": 1,
       "name": "InTravel",
-      "category": "Lifestyle",
+      "category": "Documentaries",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -1051,7 +1051,7 @@
       "parentName": "Lifetime",
       "serverIndex": 1,
       "name": "Lifetime Movie Favorites",
-      "category": "Movies",
+      "category": "Entertainment",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -1114,7 +1114,7 @@
       "parentName": "Mindanow Network",
       "serverIndex": 2,
       "name": "Filam TV",
-      "category": "Entertainment",
+      "category": "Lifestyle",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -1123,7 +1123,7 @@
       "parentName": "Mindanow Network",
       "serverIndex": 3,
       "name": "Filam TV S2",
-      "category": "Entertainment",
+      "category": "Lifestyle",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -1258,7 +1258,7 @@
       "parentName": "MUX DOS",
       "serverIndex": 1,
       "name": "MUX JUAN",
-      "category": "Entertainment",
+      "category": "Lifestyle",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -1267,7 +1267,7 @@
       "parentName": "MUX DOS",
       "serverIndex": 2,
       "name": "MUX NEWS",
-      "category": "News",
+      "category": "Lifestyle",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -1285,7 +1285,7 @@
       "parentName": "MUX DOS",
       "serverIndex": 4,
       "name": "MUX WORLD",
-      "category": "Entertainment",
+      "category": "Lifestyle",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -1312,7 +1312,7 @@
       "parentName": "Mysterious Worlds",
       "serverIndex": 2,
       "name": "Alien Nation by DUST",
-      "category": "Entertainment",
+      "category": "Documentaries",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -1330,7 +1330,7 @@
       "parentName": "Mysterious Worlds",
       "serverIndex": 4,
       "name": "Scares by Shudder",
-      "category": "Movies",
+      "category": "Documentaries",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -1365,7 +1365,7 @@
       "id": "primary-source:nbatv:1",
       "parentName": "NBA TV",
       "serverIndex": 1,
-      "name": "8:00am Wizards vs Hawks",
+      "name": "6:00am Nuggets vs Pacers",
       "category": "Sports",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
@@ -1374,7 +1374,7 @@
       "id": "primary-source:nbatv:2",
       "parentName": "NBA TV",
       "serverIndex": 2,
-      "name": "8:00am Celtics vs Hornets",
+      "name": "8:30am Nets vs Hawks",
       "category": "Sports",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
@@ -1383,7 +1383,7 @@
       "id": "primary-source:nbatv:3",
       "parentName": "NBA TV",
       "serverIndex": 3,
-      "name": "8:30am 76ers vs Cavaliers",
+      "name": "9:00am Knicks vs Cavaliers",
       "category": "Sports",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
@@ -1392,7 +1392,7 @@
       "id": "primary-source:nbatv:4",
       "parentName": "NBA TV",
       "serverIndex": 4,
-      "name": "9:00am Jazz vs Mavericks",
+      "name": "9:00am Wizards vs Thunder",
       "category": "Sports",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
@@ -1401,7 +1401,7 @@
       "id": "primary-source:nbatv:5",
       "parentName": "NBA TV",
       "serverIndex": 5,
-      "name": "9:00am Thunder vs Grizzlies",
+      "name": "9:30am Magic vs Warriors",
       "category": "Sports",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
@@ -1410,7 +1410,7 @@
       "id": "primary-source:nbatv:6",
       "parentName": "NBA TV",
       "serverIndex": 6,
-      "name": "9:00am Raptors vs Bucks",
+      "name": "10:00am Rockets vs Suns",
       "category": "Sports",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
@@ -1419,25 +1419,7 @@
       "id": "primary-source:nbatv:7",
       "parentName": "NBA TV",
       "serverIndex": 7,
-      "name": "9:00am Timberwolves vs Pelicans",
-      "category": "Sports",
-      "categoryBasis": "configured broad channel type; see category review",
-      "enabled": true
-    },
-    {
-      "id": "primary-source:nbatv:8",
-      "parentName": "NBA TV",
-      "serverIndex": 8,
-      "name": "11:00am Trail Blazers vs Lakers",
-      "category": "Sports",
-      "categoryBasis": "configured broad channel type; see category review",
-      "enabled": true
-    },
-    {
-      "id": "primary-source:nbatv:9",
-      "parentName": "NBA TV",
-      "serverIndex": 9,
-      "name": "11:00am Spurs vs Kings",
+      "name": "11:00am Spurs vs Trail Blazers",
       "category": "Sports",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
@@ -1447,7 +1429,7 @@
       "parentName": "New KMovies",
       "serverIndex": 1,
       "name": "KFood",
-      "category": "Lifestyle",
+      "category": "Movies",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -1465,7 +1447,7 @@
       "parentName": "New KMovies",
       "serverIndex": 3,
       "name": "Kpop",
-      "category": "Music",
+      "category": "Movies",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -1564,7 +1546,7 @@
       "parentName": "PBS Digital Studios",
       "serverIndex": 6,
       "name": "Antiques Roadshow",
-      "category": "Lifestyle",
+      "category": "Education",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -1708,7 +1690,7 @@
       "parentName": "Rock Action",
       "serverIndex": 1,
       "name": "Rock Entertainment",
-      "category": "Entertainment",
+      "category": "Movies",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },
@@ -1771,7 +1753,7 @@
       "parentName": "Sony One Action Hits",
       "serverIndex": 1,
       "name": "Comedy Hits",
-      "category": "Entertainment",
+      "category": "Movies",
       "categoryBasis": "configured broad channel type; see category review",
       "enabled": true
     },

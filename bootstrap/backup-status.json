@@ -1,14 +1,11 @@
 {
-  "updatedAt": "2026-11-07T00:43:08.539Z",
+  "updatedAt": "2026-11-07T16:21:02.642Z",
   "candidateCount": 87,
-  "channelCount": 11,
+  "channelCount": 8,
   "additionalChannels": [
     "3RS SINEPINOY *",
     "3RS MOVIE",
     "STAR TV PHILIPPINES *",
-    "STBS GLOBAL *",
-    "SINEMANILA *",
-    "RAGE TV",
     "KAPAMILYA *",
     "CineMo! *",
     "Cinema One! *",
@@ -107,6 +104,6 @@
   "verifiedAdditionalChannels": [],
   "existingChannelBackups": 0,
   "clearKeyChannelCount": 2,
-  "note": "Only additional streams with at least 25 decoded video frames for the exact stream identity within 24 hours are listed. Candidates are retained separately for retry. An asterisk marks an original name or stream URL duplicate.",
+  "note": "Local checks control stream visibility. Candidates remain saved for later checks. An asterisk marks a possible duplicate.",
   "excludedDuplicates": []
 }
